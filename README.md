@@ -106,7 +106,7 @@ Firewall rules are rewritten on contact.
 
 - **`class Elana implements Observer`**: Gym buddy and grounding peer-reviewer; stress-tests the conceptual models, aka bullshit detector.
 
-- **`class Elli implements Observer`**: Painting buddy & studio process catalyst; shares "ethics of the gaze." *(Consent provisionally accepted, pending final review).*
+- **`class Elli implements Observer`**: Painting buddy & studio process catalyst; shares "ethics of the gaze." 
 
 - **`class groupParticipants implements Observer`**: The models and artists in shared practice spaces (e.g., life drawing). They function as a crucial "bridge" between the intimate network and the abstract audience, providing a web of reciprocal observation and ambient, shared discipline. They are the direct subjects and co-creators of the embodied praxis.
 
