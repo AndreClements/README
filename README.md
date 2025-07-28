@@ -2,7 +2,7 @@
 > **Operator Profile: André S Clements**
 > *"A pragmatic design for virtue, executing under constraint."*
 >
-> **Version:** 0.7.1 (Stable Release Candidate)
+> **Version:** 1.0.0 (Stable Release Candidate)
 
 ---
 
