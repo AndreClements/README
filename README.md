@@ -209,3 +209,6 @@ Our purpose is not to be found in a single output, but is distributed across the
 > **MAINTAINER:** [andresclements.com](https://andresclements.com)
 
 Any insights or criticism?
+
+Language is a magical, world-creating force.
+Language is also just the noise made by a piece of meat in a mouth.
