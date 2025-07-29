@@ -6,6 +6,10 @@ A living chamber for incubating ideas in raw, aphoristic, poetic, or speculative
 This document is the input. The structured `/docs/ideacubatory/` directory is the eventual output.
 
 ---
+## Potential implementation and or deployment
+- "Conditional Existentials: Aphorisms for Machines and Their Keepers."
+
+---
 
 ## Aphoristic Fragments
 
