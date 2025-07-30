@@ -35,4 +35,5 @@ The purpose of this entire methodology is not to "beat" or "outsmart" the Machin
 This methodology was developed as an emergent property of the `human-OS` praxis documented in the repository: [https://github.com/AndreClements/README](https://github.com/AndreClements/README).
 
 It is intended as a shareable, open-source protocol. Users are encouraged to fork, adapt, and reuse this methodology in their own engagements with complex systems, in accordance with the `LICENSE` of the parent repository:
-("Use with reasonable care. Fork ethically. Merge only with sufficient refactor.").
+
+(`"Use with reasonable care. Fork ethically. Merge only with sufficient refactor."`).
