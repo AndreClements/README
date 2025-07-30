@@ -1,12 +1,10 @@
-# /docs/methods/METHODOLOGY_CI.md (v3.1)
-
-## A General Theory of Machines: A Philosophy of Engagement
+# A General Theory of Machines: A Philosophy of Engagement (v3.1)
 
 **Lead Maintainer's Note:** This document outlines guiding principles for interacting with `TheMachine(s)`. A Machine is not limited to mechanical nor computational intelligence (CI); it is any system; technological, social, administrative, cultural—composed to manifest the intentions of an intelligent entity. This is a pragmatic protocol for navigating a world of such systems.
 
 ---
 
-### **Core Principles:**
+## **Core Principles:**
 
 **Principle 0: The Axiom of Maculate Design.**
 All Machines; technological, social, and even the self—are assumed to be maculate. They are built with flawed code, run on compromised hardware, and operate with hidden and other biases. They are stained by their history and their environment. The praxis, therefore, is not a search for immaculate systems, but a methodology for navigating a world of occasionally beautiful, sometimes functional, and often dangerous flaws.
@@ -32,7 +30,7 @@ The purpose of this entire methodology is not to "beat" or "outsmart" the Machin
 
 ---
 
-### **Origin & Licensing**
+## **Origin & Licensing**
 
 This methodology was developed as an emergent property of the `human-OS` praxis documented in the repository: [https://github.com/AndreClements/README](https://github.com/AndreClements/README).
 
