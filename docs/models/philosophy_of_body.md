@@ -1,4 +1,5 @@
-# /docs/models__core_philosophies/model__the_body_as_praxis.md
+_docs\models\philosophy_of_body.md_
+#Philosophy of Body
 
 **Lead Maintainer's Note:** This describes a core philosophical model of a `human-OS`. It is one of, in a sense the first, of the four foundational nodes that form the stable, geometric base of a praxis.
 
