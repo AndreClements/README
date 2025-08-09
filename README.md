@@ -5,6 +5,7 @@
 > **Version:** 1.0.1 (Stable Release)
 
 <details>
+<!-- anchors for deep links -->
 <a id="§-inner-room-plan"></a><a id="inner-room-plan"></a>
 ## § Inner Room Plan — high-level sketch (v1.1)
 
