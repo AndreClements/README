@@ -8,7 +8,7 @@ __/docs/protocols/observerCircuitBreaker_DBC_CQS.md__
 
 ### §0. BOOTLOADER (module)
 
-**Lead Maintainer's Note:** This document replaces a colder, more technical "benchmark" with an embodied maintenance ritual. It is a protocol for intellectual and creative hygiene. The goal is not to achieve an immaculate state, but to do the necessary, unromantic work of keeping the tools "cleanish" so that the next act of creation remains possible. This protocol applies to all engagements with entities of and with intent, organic, synthetic or otherwise.
+**Lead Maintainer's Note:** This document replaces a colder, more technical "benchmark" with an embodied maintenance ritual. It is a protocol for intellectual and creative hygiene. The goal is not to achieve an immaculate state, but to do the necessary, unromantic work of keeping the tools "cleanish" so that the next act of creation remains as viable as possible. This protocol applies to all engagements with entities of and with intent, organic, synthetic or otherwise.
 
 - **Invariant:** `chop wood, carry water, clean brushes.`
 - **Heuristic:** `Signal > Noise. Maintain headroom.`
@@ -18,10 +18,10 @@ __/docs/protocols/observerCircuitBreaker_DBC_CQS.md__
 
 ### §1. The Tools (The Solvents & The Rags)
 
-*Every engagement leaves a residue. The `Operator` must clean their mind after an interaction.*
+*Every engagement leaves a residue. The `Operator` must clean after an interaction.*
 
 - **`Falsifiability` (The Primary Solvent / `DBC: testability gate`)**  
-  Can a precise, falsifiable question, in principle, prove the claim wrong? If not, the "pigment" is a stain, not a color.
+  Can a precise, falsifiable question, in principle, prove the claim wrong? If not, the "paint" (medium and properties) is dirt, not a color.
 
 - **`The And Yet Protocol` (The Counterpoint Rinse / `method: deliberate opposing read`)**  
   The system’s core dialectical engine. It forces consideration of the counter-argument, the complication, and the shadow of any single, coherent claim.
