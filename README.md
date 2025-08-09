@@ -4,7 +4,9 @@
 >
 > **Version:** 1.0.1 (Stable Release)
 
-## § Inner Room Plan — high-level sketch (v1.1) {#§-inner-room-plan}
+<details>
+<a id="§-inner-room-plan"></a><a id="inner-room-plan"></a>
+## § Inner Room Plan — high-level sketch (v1.1)
 
 **Intent:** stage the README as a living artifact on the public site via a framed “Inner Room.” Aesthetic threshold first; SEO is incidental.
 
@@ -30,7 +32,8 @@
 - Build artifacts produced on push.
 - No console errors; adequate contrast; keyboard focus correct.
 
-### Quick Map (stable links) {#§-quick-map}
+<a id="§-quick-map"></a><a id="quick-map"></a>
+### Quick Map (stable links)
 
 - **Home** — https://andresclements.com/
 - **Artist Statement** — https://andresclements.com/about-andre-clements/
@@ -45,7 +48,7 @@
 - **Log Entry: A constellation of the work** — https://andresclements.com/1288/log-entry-a-constellation-of-the-work-or-praxis-laid-bare/
 
 > These links are canonical waypoints for humans. For machines, see `/index.json` and `/graph.json` in the repo.
-
+</details>
 ---
 
 ## § 0. BOOTLOADER — (Initial Conditions)
