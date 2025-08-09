@@ -2,7 +2,49 @@
 > **Operator Profile: André S Clements**
 > *"A pragmatic design for virtue, executing under constraint."*
 >
-> **Version:** 1.0.0 (Stable Release)
+> **Version:** 1.0.1 (Stable Release)
+
+## § Inner Room Plan — high-level sketch (v1.1) {#§-inner-room-plan}
+
+**Intent:** stage the README as a living artifact on the public site via a framed “Inner Room.” Aesthetic threshold first; SEO is incidental.
+
+**Architecture:**
+- **Threshold (WP):** `/about/readme-live/` page with an iframe pointing to the Inner Room and a plain “Open full view” link.
+- **Inner Room (static HTML):** `/readme/install/index.html` on the main domain; renders `README.md` (and select docs) with anchors intact, banner, and no analytics.
+- **Build-only:** GitHub Action renders HTML + `index.json` + `graph.json`; manual upload of `dist/index.html` to the site.
+
+**Threadkeeping banner:**  
+*Welcome to take this; please keep the thread.* (CC BY 4.0 for text/images, MIT for code.)
+
+**Navigation:**
+- **Human:** Quick Map (10–12 stable links to Artist Statement, Glossary, Synoptic Résumé, Artworks, Poems, Blog, Echoes of Lynch, Poetry Changelog, Landscapification note, selected works).
+- **Machine:** `/index.json` (nodes) and `/graph.json` (edges: e.g., `informs`, `expands`, `exemplifies`, `contradicts`).
+
+**Accessibility/Behaviour:** anchors focusable; parent ↔ child via `postMessage` (resize/report + hash sync); graceful fallback if iframe doesn’t report within 10s.
+
+**Cycle:** sketch → implement → reconcile. Small deltas only. Keep the thread.
+
+**Acceptance (MVP):**
+- Inner Room loads with banner + anchors.
+- Deep links work from Threshold.
+- Build artifacts produced on push.
+- No console errors; adequate contrast; keyboard focus correct.
+
+### Quick Map (stable links) {#§-quick-map}
+
+- **Home** — https://andresclements.com/
+- **Artist Statement** — https://andresclements.com/about-andre-clements/
+- **Synoptic Résumé** — https://andresclements.com/about-andre-clements/synoptic-resume/
+- **Glossary** — https://andresclements.com/glossary/
+- **Artworks** — https://andresclements.com/gallery/
+- **Poems (category)** — https://andresclements.com/cat/poems/
+- **Blog (category)** — https://andresclements.com/cat/blog/
+- **Echoes of Lynch is Live** — https://andresclements.com/1281/echoes-of-lynch-is-live/
+- **Poetry Changelog** — https://andresclements.com/1259/poetry-changelog-thematic-stylistic-mapping-of-selected-works/
+- **A Landscape of Connection** — https://andresclements.com/1287/a-landscape-of-connection/
+- **Log Entry: A constellation of the work** — https://andresclements.com/1288/log-entry-a-constellation-of-the-work-or-praxis-laid-bare/
+
+> These links are canonical waypoints for humans. For machines, see `/index.json` and `/graph.json` in the repo.
 
 ---
 
