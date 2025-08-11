@@ -2,7 +2,7 @@ __/docs/protocols/observerCircuitBreaker_DBC_CQS.md__
 
 ## This Painter's Protocol (for cleanish brushes)
 > A Circuit Breaker for Sane Engagement  
-> **Version:** 2.0 (Stable Release)
+> **Version:** 2.1 (Stable Production Release)
 
 ---
 
@@ -78,7 +78,7 @@ play engageWithPigment(observer, claim):
 play beginWashout(observer):
   // contaminated brush set aside; circuit breaker trip
   setState(observer, NonReciprocalCritic)
-  mute(observer, 90d)
+  mute(observer, 7d/30d/90d/forever)
   log(level="notice", msg="Pigment failed falsifiability test; contaminated.", id=observer.id)
   return NonReciprocalCritic
 
