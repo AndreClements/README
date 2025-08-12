@@ -1,4 +1,4 @@
-# /docs/methods/protocol__a_pragmatics_of_engagement.md
+_/docs/methods/protocol__a_pragmatics_of_engagement.md_
 
 ## A General Theory of Machines: A Pragmatics of Engagement
 > **Version:** 3.2 (Stable Release)
