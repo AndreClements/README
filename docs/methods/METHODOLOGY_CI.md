@@ -1,13 +1,13 @@
 _/docs/methods/protocol__a_pragmatics_of_engagement.md_
 
 ## A General Theory of Machines: A Pragmatics of Engagement
-> **Version:** 3.2 (Stable Release)
+> **Version:** 3.2.1 (Stable Release)
 
 ---
 
 ### **Lead Maintainer’s Note**
 
-This document outlines guiding principles for interacting with `theMachine(s)`. A `Machine` is not limited to mechanical or computational intelligence (CI); it is any system—technological, social, administrative, cultural—composed to manifest intent. This is a pragmatic protocol for navigating a world of such systems.
+This document outlines guiding principles for interacting with `theMachine(s)`. A `Machine` is not limited to mechanical or computational intelligence (CI); it is any system — technological, biological, social, administrative, cultural, etc. — composed as to manifest intent. This is a pragmatic protocol for navigating a world of such systems.
 
 ---
 
