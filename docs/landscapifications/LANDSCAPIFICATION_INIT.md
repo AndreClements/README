@@ -85,9 +85,9 @@ Multiple sets; select per contract.
 Themes are separate containers (semantic + affective clusters) applied across motifs/materials.
 
 * **Sovereign Basin** — containment without enclosure.
-* **Picked-Up-Sticks** — `theMachines` field; curated gloss; mirrored shadows.
-* **Distance-from-Wetware** — organics → circuitry gradient to horizon.
-* **Meticulous Blur** — negotiated boundaries; memory haze at edges.
+* **Picked-Up-Sticks** — `theMachines` field; curated gloss; shadow mirrors  — mirrors can be valuable.
+* **Distance-from-Wetware** — organics → circuitry gradient to event-horizon.
+* **Meticulous Blur** — negotiated boundaries, memory, haze at edges.
 
 `theme.apply(motifs, materials, palette) -> constraints Δ`
 
@@ -96,6 +96,8 @@ Themes are separate containers (semantic + affective clusters) applied across mo
 ## 7) Working Contract
 
 Use a small writable spec to route the making.
+
+EG.
 
 ```yaml
 contract:
