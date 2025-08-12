@@ -1,4 +1,7 @@
-# TODOS.md
+_TODOS.md_
+
+TODO
+
 *Last Updated: 2025-07-29*
 
 A tactical checklist of immediate, actionable tasks for the `README` repository. For the long-term strategic plan, see `PLANS.md`.
@@ -7,10 +10,10 @@ A tactical checklist of immediate, actionable tasks for the `README` repository.
 
 ### **🔴 High Priority Tasks**
 
-- **[ ] Commit `PLANS.md` and this refactored `TODOS.md`:**
+- **[x] Commit `PLANS.md` and this refactored `TODOS.md`:**
     - Commit with message: `chore: Add PLANS.md for strategic roadmap and refactor TODOS.md`
 
-- **[ ] Commit the Philosophical Subroutines:**
+- **[@] Commit the Philosophical Subroutines:**
     - Create the `/docs/philosophies/` directory.
     - Populate it with the four `PHILOSOPHY_*.md` files.
     - Commit with message: `feat: Add core philosophical subroutines to library`
@@ -22,17 +25,18 @@ A tactical checklist of immediate, actionable tasks for the `README` repository.
 
 ### **🟡 Medium Priority Tasks**
 
-- **[ ] Archive and Contextualize CI Methodology:**
-    - Create and populate `/docs/METHODOLOGY_CI.md`.
+- **[x] Archive and Contextualize CI Methodology:**
+    - Create and populate `/docs/METHODOLOGY_CI.md`.\
+    _Pushing 3.3.3_
 
 - **[ ] Create Dedicated License File:**
     - Create a top-level `LICENSE.md` file.
 
-- **[ ] Finalize `Elli` Consent:**
+- **[x] Finalize `Elli` Consent:**
     - Follow up with `Elli` for final confirmation.
     - Update `§5. The Network` in `README.md` to remove the "(provisional)" note.
 
 ### **🟢 Low Priority Tasks**
 
-- **[ ] Begin Dependency Validation:**
+- **[@] Begin Dependency Validation:**
     - Start the process of cross-referencing citations in `DEPENDENCIES.md` with physical library artifacts.

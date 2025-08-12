@@ -78,7 +78,7 @@ class VitaSocioAnarco implements HealingStrategy {
 
 ## § 4. The Praxis (Refractoring)
 
-The system's complexity is presented through a simplified interface of methods—the "small, working models of a more ethical reality."
+The system's complexity is presented through a simplified interface of methods — the "small, working models of a more ethical reality."
 
 - **`method: hostEncounter()`**: Offers "shelters from the monster" where the protocol is simple: `if (consent) => 'be kind';`.
 - **`method: paintWithScalpel()`**: An ethics of "careful violence" using precise tools to dissect and reveal complex truths.
@@ -118,7 +118,7 @@ Firewall rules are rewritten on contact.
 
 The Audience is not a class of `Observer` within the trusted Network. It is the abstract `Interface` the system's output is designed to connect with. Unlike the reciprocal, high-context connections of the Network, the relationship with the Audience is, by default, unidirectional and potential.
 
-It is a necessary fiction—the imagined "you" that makes the act of public creation possible.
+It is a necessary fiction — the imagined "you" that makes the act of public creation possible.
 
 ```php
 interface Audience {
@@ -149,7 +149,7 @@ try {
     // The "brutally beautiful striving against all odds." thing.
     $praxis->execute();
 } catch (ShadowException $e) {
-    // The shadows do also get in—everywhere.
+    // The shadows do also get in — everywhere.
     // This is not a guarantee of safety, only a methodology for navigating its absence.
     // Better luck next iteration.
 }

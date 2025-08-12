@@ -1,7 +1,7 @@
 # IDEACUBATORY
 *Last Updated: 2025-07-29*
 
-A living chamber for incubating ideas in raw, aphoristic, poetic, or speculative form. This is the system's primary "sketchbook"—a low-friction, high-chaos environment for the `Analyst` to play.
+A living chamber for incubating ideas in raw, aphoristic, poetic, or speculative form. This is the system's primary "sketchbook" — a low-friction, high-chaos environment for the `Analyst` to play.
 
 This document is the input. The structured `/docs/ideacubatory/` directory is the eventual output.
 
@@ -22,7 +22,7 @@ This document is the input. The structured `/docs/ideacubatory/` directory is th
 
 ## Notes-to-future-self
 
-- Minimalism isn’t lack—it’s spatial respect.
+- Minimalism isn’t lack — it’s spatial respect.
 - The `README.md` is the hearth; the praxis is the flame.
 
 ---

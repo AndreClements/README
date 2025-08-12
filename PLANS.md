@@ -1,4 +1,5 @@
-# PLANS.md (v1.0)
+`PLANS.md`
+# PLANS (v1.0)
 
 ## Project Architecture & Strategic Roadmap
 

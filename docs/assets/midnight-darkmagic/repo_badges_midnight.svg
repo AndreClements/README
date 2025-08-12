@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- repo path: docs/assets/midnight-darkmagic/repo_badges_midnight.svg -->
+<svg width="1200" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">A Pragmatics of Engagement — badges</title>
+  <desc id="d">as-if • if-not • risk_index = c×p×d — midNight darkMagic theme</desc>
+  <style>
+    :root { --bg:#0B0F14; --fg:#E6EAEF; --comment:#9AA3AF;
+            --kw:#5DF1D8; --fn:#CAE48E; --type:#DFCFFF;
+            --num:#FFC891; --op:#FFB9DC; }
+    .bg { fill: var(--bg); }
+    .fg { fill: var(--fg); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "DejaVu Sans Mono", monospace; }
+    .pill { fill: none; stroke-width: 1.6; rx: 14; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1200" height="120" rx="12"/>
+
+  <g transform="translate(28,24)">
+    <rect class="pill" x="0" y="0" width="220" height="40" rx="14" stroke="var(--kw)"/>
+    <text class="fg" x="110" y="25" text-anchor="middle" style="font-size:16px;" fill="var(--kw)">as-if</text>
+
+    <rect class="pill" x="240" y="0" width="220" height="40" rx="14" stroke="var(--kw)"/>
+    <text class="fg" x="350" y="25" text-anchor="middle" style="font-size:16px;" fill="var(--kw)">if-not</text>
+
+    <rect class="pill" x="480" y="0" width="680" height="40" rx="14" stroke="var(--op)"/>
+    <text class="fg" x="820" y="25" text-anchor="middle" style="font-size:16px;">
+      <tspan fill="var(--fn)">risk_index</tspan> <tspan fill="var(--op)">=</tspan>
+      <tspan fill="var(--type)">c</tspan><tspan fill="var(--op)">×</tspan>
+      <tspan fill="var(--type)">p</tspan><tspan fill="var(--op)">×</tspan>
+      <tspan fill="var(--type)">d</tspan>
+    </text>
+  </g>
+</svg>

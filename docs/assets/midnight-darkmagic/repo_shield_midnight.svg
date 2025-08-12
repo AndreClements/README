@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- repo path: docs/assets/midnight-darkmagic/repo_shield_midnight.svg -->
+<svg width="520" height="64" viewBox="0 0 520 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">A Pragmatics of Engagement — shield</title>
+  <desc id="d">midNight darkMagic • v3.3.3 • theMachines</desc>
+  <style>
+    :root { --bg:#0B0F14; --fg:#E6EAEF; --comment:#9AA3AF; }
+    .bg { fill: var(--bg); }
+    .fg { fill: var(--fg); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "DejaVu Sans Mono", monospace; }
+    .muted { fill: var(--comment); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .card { fill: none; stroke: var(--comment); stroke-width: 1.2; rx: 10; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="520" height="64" rx="10"/>
+  <rect class="card" x="8" y="8" width="504" height="48" rx="10"/>
+  <text class="fg" x="20" y="30" style="font-size:14px;">A Pragmatics of Engagement</text>
+  <text class="muted" x="20" y="48" style="font-size:12px;">v3.3.3 • theMachines</text>
+</svg>

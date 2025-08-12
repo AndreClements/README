@@ -1,4 +1,4 @@
-_ideacubator/idea__self_is_a_galaxy_of_sorts.md_
+`ideacubator/idea__self_is_a_galaxy_of_sorts.md`
 
 _Status:`RAW_CAPTURE`_
 

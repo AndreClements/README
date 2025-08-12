@@ -1,5 +1,5 @@
-__/docs/protocols/observerCircuitBreaker_DBC_CQS.md__
-
+`/docs/protocols/observerCircuitBreaker_DBC_CQS.md'
+# Break (v2) 
 ## This Painter's Protocol (for cleanish brushes)
 > A Circuit Breaker for Sane Engagement  
 > **Version:** 2.1 (Stable Production Release)

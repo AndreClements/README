@@ -1,5 +1,4 @@
-_ideacubator/idea__thought_is_a_machine.md_
-
+`ideacubator\idea__thought_is_a_machine.md`
 _Status:`RAW_CAPTURE`_
 
 ---

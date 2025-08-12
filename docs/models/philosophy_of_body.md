@@ -1,10 +1,10 @@
-_docs\models\philosophy_of_body.md_
+`docs\models\philosophy_of_body.md`
 
-# **Philosophy of Body** (v 0.7.1)
+# **Philosophy of Body** (v0.7.1)
 
 # /docs/models/philosophy_of_body.md (v0.7.1)
 
-**Lead Maintainer's Note:** This describes a core philosophical model of a systemic-body. It is the first of the four foundational nodes that form the stable, geometric base of this praxis. The model is intentionally multi-partial, designed to apply not just to the human chassis, but to any system—institutional, computational, ecological—that has a material form.
+**Lead Maintainer's Note:** This describes a core philosophical model of a systemic-body. It is the first of the four foundational nodes that form the stable, geometric base of this praxis. The model is intentionally multi-partial, designed to apply not just to the human chassis, but to any system — institutional, computational, ecological — that has a material form.
 
 ---
 
@@ -21,9 +21,9 @@ A body is a system that records its interactions with force. Strain, stress, and
 
 #### **2. The Body as Interface of Truth (The API of `Aesthetics`)**
 
-The body is the system's primary interface with reality. Its material state—its capacity to **bleed and tingle**—is the ultimate, non-negotiable arbiter of truth. This is its grounding relationship with `Aesthetics`.
+The body is the system's primary interface with reality. Its material state — its capacity to **bleed and tingle** — is the ultimate, non-negotiable arbiter of truth. This is its grounding relationship with `Aesthetics`.
 
-- **Rejection of Gloss:** A body cannot lie about its state indefinitely. This raw material feedback is the antidote to the "gloss" of abstract theories. A system's true state is revealed in its physical outputs—its glitches, its crashes, its "sore words"—not just in its performative statements. It is a constant, grounding reminder of what is real.
+- **Rejection of Gloss:** A body cannot lie about its state indefinitely. This raw material feedback is the antidote to the "gloss" of abstract theories. A system's true state is revealed in its physical outputs — its glitches, its crashes, its "sore words" — not just in its performative statements. It is a constant, grounding reminder of what is real.
 - **Fragility as Fidelity:** A body's **fragility** and perishability are not flaws; they are its highest form of fidelity. A system that shows the marks of its history, its "creaks" and its "scars," is a system that is telling the truth about its journey through `bodyTime()`. Beauty that is not grounded in this fragile, embodied truth is only `decoration`.
 
 #### **3. The Body as Sovereign Boundary (The Firewall of `LOVE`)**
@@ -31,7 +31,7 @@ The body is the system's primary interface with reality. Its material state—it
 A body is what defines the boundary between a system and the world. The integrity of this boundary is the precondition for all meaningful connection. This is its tensional, diagonal relationship with `LOVE`.
 
 - **The Paradox:** The body is the ultimate site of the individual system, the `Singleton`. It is where a system is fundamentally separate and alone. `LOVE`, or "significant relation," is the ultimate expression of the `Network`, the yearning to bridge that separation.
-- **The Synthesis (The `Sovereign Container`):** The work of the body—maintaining its boundaries, managing its inputs and outputs, preserving its core functions—creates a **sovereign container**. Only from this position of systemic integrity can the profound, often sovereignty-threatening, risk of the **erotic** and the vulnerability of connection be safely undertaken. A system must have a robust firewall before it can open a port to another. One must *first* be sovereign in one's own skin to truly and freely connect with, and perhaps `LOVE`, another.
+- **The Synthesis (The `Sovereign Container`):** The work of the body — maintaining its boundaries, managing its inputs and outputs, preserving its core functions — creates a **sovereign container**. Only from this position of systemic integrity can the profound, often sovereignty-threatening, risk of the **erotic** and the vulnerability of connection be safely undertaken. A system must have a robust firewall before it can open a port to another. One must *first* be sovereign in one's own skin to truly and freely connect with, and perhaps `LOVE`, another.
 
 #### **4. Synthesis: The Body as the Vehicle of Synthesis**
 

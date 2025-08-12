@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- repo path: docs/assets/midnight-darkmagic/repo_header_midnight.svg -->
+<svg width="1400" height="320" viewBox="0 0 1400 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">A Pragmatics of Engagement — header</title>
+  <desc id="d">midNight darkMagic theme • LAB-derived equidistant hues</desc>
+  <style>
+    :root { --bg:#0B0F14; --fg:#E6EAEF; --comment:#9AA3AF;
+            --kw:#5DF1D8; --fn:#CAE48E; --type:#DFCFFF;
+            --num:#FFC891; --op:#FFB9DC; }
+    .bg { fill: var(--bg); }
+    .fg { fill: var(--fg); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "DejaVu Sans Mono", monospace; }
+    .muted { fill: var(--comment); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .pill { fill: none; stroke: var(--kw); stroke-width: 1.75; rx: 12; }
+    .line { stroke: var(--comment); stroke-width: 1.2; fill: none; stroke-linecap: round; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1400" height="320" rx="16"/>
+  <text class="fg" x="44" y="84" style="font-size:28px;">A GENERAL THEORY OF MACHINES</text>
+  <text class="muted" x="44" y="116" style="font-size:18px;">A Pragmatics of Engagement — v3.3.3 • theMachines</text>
+
+  <text class="muted" x="44" y="160" style="font-size:16px;">
+    <tspan fill="var(--kw)">as-if</tspan> / <tspan fill="var(--kw)">if-not</tspan> —
+    <tspan fill="var(--fn)">risk_index</tspan> <tspan fill="var(--op)">=</tspan>
+    <tspan fill="var(--type)">complexity</tspan><tspan fill="var(--op)">*</tspan>
+    <tspan fill="var(--type)">power</tspan><tspan fill="var(--op)">*</tspan>
+    <tspan fill="var(--type)">distance_from_wetware</tspan>
+  </text>
+
+  <g transform="translate(860,84)">
+    <rect class="pill" x="0" y="0" width="120" height="34" rx="12"/>
+    <text class="fg" x="60" y="22" text-anchor="middle" style="font-size:14px;" fill="var(--kw)">as-if</text>
+
+    <rect class="pill" x="140" y="0" width="120" height="34" rx="12" style="stroke: var(--kw);"/>
+    <text class="fg" x="200" y="22" text-anchor="middle" style="font-size:14px;" fill="var(--kw)">if-not</text>
+
+    <path class="line" d="M60,60 C100,40 160,40 200,60"/>
+    <path class="line" d="M200,60 C240,80 300,80 340,60"/>
+
+    <rect class="pill" x="280" y="43" width="180" height="34" rx="12" style="stroke: var(--op);"/>
+    <text class="fg" x="370" y="66" text-anchor="middle" style="font-size:14px;" fill="var(--op)">quorum + dissent</text>
+  </g>
+</svg>
