@@ -62,4 +62,4 @@ The `praxis` of this exhibition is as important as the final artifacts.
 -   **The `Unromantic Conclusion`:** We will "actively dance the striving, regardless of how near or far the mythical good might be for us."
 
 Our final, guiding principle, or 'strap-line' if you will, is:
-> **‘If you feel drawn, you are welcome.’**
+> **_‘If you feel drawn, you are welcome.’_**
