@@ -34,7 +34,7 @@ Some of us are dancers, some are architects, and some are programmers, and all o
 
 The **architects** in our group might show something of structure, planning, and process. **And yet,** the power is in the final, living line on the page. The **dancers** can show something of the body, of the language of being.
 
-And then there are the rest of us: students, facilitators, workers, and people being people. What we all do, what unites us, is the act of engaging as a **body in a lifescape.** This exhibition is a record of that engagement. It is a collection of observations, mistakes, and successes at play, at work, at practice. Lots of practice. It is a testament to the brutally beautiful striving."
+And then there are the rest of us: students, facilitators, workers, and people being people. What we all do, what unites us, is the act of engaging as a **body in a lifescape.** This exhibition is a record of that engagement. It is a collection of observations, mistakes, and successes at play, at work, at practice. Lots of practice. It is a testament to the "brutally beautiful striving."
 
 ---
 
@@ -56,10 +56,10 @@ This will be a **co-curated** exhibition. A non-domination oriented, community-d
 
 The `praxis` of this exhibition is as important as the final artifacts.
 
--   **The Catalogue:** We will produce a catalogue with curatorial information and prose, to contextualize the practice of life drawing in a wider, more philosophical landscape.
--   **The `Network`:** From this point on, all collaboration will be invited into a separate, dedicated space for those who have submitted work. This creates a new, trusted `Network` for the project.
+-   **The Catalogue:** We will produce a catalogue with curatorial information and prose, to contextualize the practice of life drawing in a wider landscape.
+-   **The `Network`:** From this point on, all collaboration will be invited into a separate, dedicated space (WhatsApp Group initiated 2025-08-13) for those who have submitted work and or 'raised their hand'. This creates a new, trusted `Network` for the project.
 -   **The `Axiom of Maculate Design`:** We will welcome all levels of skill and finish. This is not a project in search of "immaculate" objects, but an honest reflection of a living `praxis`.
 -   **The `Unromantic Conclusion`:** We will "actively dance the striving, regardless of how near or far the mythical good might be for us."
 
-Our final, guiding principle is this:
+Our final, guiding principle, or 'strap-line' if you will, is:
 > **‘If you feel drawn, you are welcome.’**
