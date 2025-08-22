@@ -71,6 +71,17 @@ contract:
   validation: ["falsifiability_probe","AndYet_counterread"]
 ```
 
+## §3. Agent Assembly, Tiers & Provenance (CI hygiene)
+
+Identity is bound at the *assembly* level (surface + model + policy/tools + operator). Apply hygiene by **tier**:
+
+- **T1 (Skirmish):** 3-line self-report.
+- **T2 (Project):** Full Assembly Header + minimal Ledger; at least one **Sceptic** pass for any external-facing claim.
+- **T3 (Publication/Exhibition):** Complete Ledger; **validation_method** recorded for every claim; **BODY** check recorded for artistic assets.
+
+See `..\protocols\protocol__agentic_envelope.md` and `..\protocols\protocol__provenance_ledger.md`.
+
+
 ---
 
 ## **§3. Minimal Working Examples**
