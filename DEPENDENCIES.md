@@ -1,4 +1,5 @@
-# /docs/DEPENDENCIES.md (v2.0)
+`DEPENDENCIES.md`
+# DEPENDENCIES.md (v2.0)
 
 ## A Partial Selection of Influences & Provocations
 
