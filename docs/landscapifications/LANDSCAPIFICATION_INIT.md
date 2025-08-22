@@ -50,7 +50,7 @@ Modules are combinable; each maps to principles or studio praxis.
 6. **Empty Turn** — deliberate void; thin frame; small exit glyph.
 7. **Maculate Field** — underpainting with scratches/log marks (`ShadowException`, cache flush, re-admit).
 8. **Relational Stack** — strata: language → conversation → relationship; conductivity ↑.
-9. **paintWithScalpel** — precise incision marks; “careful violence” to reveal structure without spectacle.
+9. **paintWithScalpel** — “incisive care”: precise incision marks used to reveal structure without spectacle; requires a soft-contract note on consent/context when applied to persons or sociopolitical subjects.
 10. **Cleaning Brushes** — visible maintenance gestures; solvent wipes, cloth drags, watermarks; a post-pass acknowledging residue.
 11. **Studio Logistics & Dynamics** — diagram of flow: light angles, drying racks, tool stations, walk-lines; encodes the studio as a routing graph.
 

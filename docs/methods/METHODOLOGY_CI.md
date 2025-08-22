@@ -81,10 +81,20 @@ Identity is bound at the *assembly* level (surface + model + policy/tools + oper
 
 See `..\protocols\protocol__agentic_envelope.md` and `..\protocols\protocol__provenance_ledger.md`.
 
+### §3.5 Hybrid Observer Graphs (human × machine)
+We treat observers by “distance-from-wetware” (dfw: 1=human, 3=org/process, 5=CI/opaque stack).
+- **Heuristic:** risk_index = complexity × power × dfw.
+- **Routing:**
+  - dfw 1–2: prioritize BODY checks + soft-contracts; anecdote weight is meaningful.
+  - dfw 3–4: require provenance ledger entries + sceptic pass.
+  - dfw 5: CQS probes; anecdotes weigh ≈ ε unless critiqueGate met.
+- **Merge:** Always record **quorum + dissent**; attach minority image/snippet for dfw ≥4 claims.
+- **Example:** Model suggests policy; treat “as-if” for ideation, “if-not” by cross-ref + probe; escalate cadence if power ≥3 (e.g., deployment/regulatory impact).
+
 
 ---
 
-## **§3. Minimal Working Examples**
+## **§4. Minimal Working Examples**
 
 **Example A — Bureaucracy.**
 Operate **`as-if`** the form routes correctly; continuously audit **`if-not`** by tracking loss, delay, and silent failure. Increase cadence of checks as `power` and `distance_from_wetware` rise.

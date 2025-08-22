@@ -40,3 +40,9 @@ The ultimate function of the body within a praxis is to serve as the **vehicle o
 It is in the body that the rigorous, architectural logic of the `Editor` (the discipline of training, the structure of form) and the chaotic, joyful, and often painful experience of the `Analyst` (the dance, the bruise, the tingle) cease to be separate processes. They are synthesized into a single, coherent, and living reality.
 
 The body is where a map is forced to become a territory, a territory a map.
+
+#### 5. The Networked Body (Extended Interface)
+The body remains the first and final arena, but cognition often distributes across tools and others.
+- **Claim:** Synthesis can occur in the **body × network** loop (conversation, instrumented studio, CI partner) provided sovereignty is maintained.
+- **Guardrail:** Record the BODY check anyway; then record the Network check (who/what extended you, with what evidence/friction).
+- **Test:** If removing the networked aid collapses the claim, upstream the aid as a contract dependency and increase validation cadence by +1.

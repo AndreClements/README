@@ -1,0 +1,11 @@
+`CONCEPTS\GLOSSARY.md`
+- **as-if**: Operate provisionally; treat the system as usable without believing its essence.
+- **if-not**: Parallel audit thread; look for mismatch, harm, hidden intent.
+- **maculate design**: Assume flaws and history; we work with patina, not purity.
+- **risk_index**: complexity × power × distance_from_wetware; drives cadence/depth of checks.
+- **Empty Turn**: The sovereign exit; stop/rescope when complexity budget < 0.
+- **quorum + dissent**: Merge rule that preserves minority views as first-class artifacts.
+- **BODY check**: Phenomenological verification notes (what held/failed in material contact).
+- **landscapification**: Operational seeing; artifacts that encode forces/contract/residue/void.
+- **paintWithScalpel**: Precise, consent-aware incision; “incisive care,” not spectacle.
+- **meticulous blur**: Deliberate ambiguity at boundaries to avoid false clarity.
