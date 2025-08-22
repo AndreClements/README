@@ -1,6 +1,10 @@
 # README.md
 > **Operator Profile: André S Clements**
 > *"A pragmatic design for virtue, executing under constraint."*
+
+**TL;DR**: Operate *as-if*, audit *if-not*, scale care by risk, keep the body honest, preserve dissent, and keep yielding.
+**Notation key**: code = metaphor; unless marked “executable,” snippets are conceptual scaffolding.
+
 >
 > **Version:** 1.0.0 (Stable Release)
 
