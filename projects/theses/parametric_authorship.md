@@ -1,7 +1,7 @@
 `projects\theses\parametric_authorship.md`
 ### **Thesis Prototype**
 
-# **The Fourth Dimension is Execution**
+# **The Fourth Dimension as Execution**
 ## *A Formalisation of Parametric Authorship via the Hyperstrate, Semiological Ground, and Systemic Implications*
 
 > Operates under the praxis in **../README.md** (canonical mirror: https://github.com/AndreClements/README/blob/main/README.md).  
