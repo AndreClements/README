@@ -3,17 +3,6 @@
 
 # *The Fourth Dimension is Execution: Parametric Authorship, Semiological Ground, and Systemic Implications*
 
-
----
-author: "Lead Maintainer"
-version: "1.0 (Integrated Dissertation Proposal)"
-date: "2025-08-22"
-lang: en
-toc: true
-toc-depth: 2
-number-sections: true
----
-
 > Operates under the praxis in **../README.md** (canonical mirror: https://github.com/AndreClements/README/blob/main/README.md).  
 > Style & axiology: *as-if / if-not*, maculate design, sovereignty over victory, scaled validation by risk_index.
 
@@ -144,6 +133,94 @@ Artifacts (A4 studies, half-scale, A0s), language cards, mapping notes, ledgers,
 ## 4.5 Validity & Limits
 
 Threats: skill heterogeneity, uneven tool access, rubric bias. Mitigations: low-cost kit, rule-first pedagogy, double-marking with dissent kept, protocolised exits. External validity: tested in constrained academic setting; industrial generalisation deferred.
+
+## Quad Face Protocol (No T)
+
+### Roles
+
+* **D — Dreamer (seed):** introduces intent + material.
+* **A — Analyst (opening / access):** reveals structure → `diagnostic`, `affordance_map`, `access_notes`.
+* **E — Editor (closing / discretion):** limits exposure safely → `discretion_map`, `constraints`, `closure_reasons`, `delta±`.
+* **LM — Lead Maintainer (filter):** no content edits. Checks integrity (consent, provenance, reversibility, scope). Issues **status only**.
+
+### One Lap (plane‑only)
+
+1. **D →** `S₀ + header`
+2. **A →** `S₁ = S₀ + diagnostic + affordance_map`
+3. **E →** `S₂ = S₁ + discretion_map + constraints (+ delta log)`
+4. **LM →** **PASS | RETURN(A/E) | HOLD**, with reasons & refs. Records dissent if unresolved.
+
+On **PASS**, an external **Host/Executor rail** performs the act (publish/archive/route) and writes its own run‑log referencing the LM pass. Execution = **off‑plane extrusion**, not a node.
+
+### Emissions (per node)
+
+* **D →** `intent`, `material`
+* **A →** `diagnostic`, `affordance_map`, `access_notes`
+* **E →** `discretion_map`, `constraints`, `closure_reasons`, `delta±`
+* **LM →** `filter_reasoning`, `status`
+
+### LM Filter — can / cannot
+
+**LM can:**
+
+* **Gate**: pass / hold / return‑with‑reasons.
+* **Reconcile**: surface conflicts (A vs E), propose **options**, never impose edits.
+* **Verify**: consent, provenance, scope adherence, reversibility path.
+* **Bind**: attach minimal reasons + references (no content changes).
+
+**LM cannot:**
+
+* Alter payload content, authorise new content, or collapse dissent.
+* Silence A or E; must log minority positions when unresolved.
+
+### Invariants (LM linter)
+
+1. **Consent/Non‑extraction** — source, rights, withdrawal path present.
+2. **Traceability** — header present; deltas/thresholds signed.
+3. **Reversibility** — one‑lap rollback demonstrable.
+4. **Optionality** — real exit that isn’t reputationally punitive.
+
+Fail any → **RETURN→E** with the smallest rule to pass next lap.
+
+### Deadlock mediation (A ↔ E)
+
+LM issues **options, not rulings** (team chooses; LM records *why*):
+
+1. publish with E‑constraints intact + A access notes;
+2. publish a redacted bundle + private annex;
+3. defer; run consent refresh;
+4. split release: public set vs restricted archive.
+
+### Ledger line (minimal schema)
+
+`timestamp | node[D/A/E/LM] | action | reasons | refs[consent,prov] | delta±/threshold? | dissent? | status`
+
+---
+
+### Quadratic Illumination Model (for expansion)
+
+A compact ideogram using quadratic fall‑off to couple opening and discretion.
+
+* Let the **origin** $O$ be `(intent, consent)`.
+* Let $r$ be **exposure distance** (reach/context distance: audience size, platform spread, time horizon).
+* Let $A_{open}$ be Analyst’s proposed **opening amplitude** (legibility/affordance strength, unit‑less scale).
+* Let $\tau$ be Editor/LM **exposure threshold** derived from consent/risk.
+* Let $\alpha\in[0,1]$ be Editor’s **attenuation** (redaction/obfuscation factor).
+
+**Illumination constraint:**
+
+$$
+I(r) = \frac{\alpha\,A_{open}}{r^2} \;\le\; \tau
+$$
+
+**Reads:** the farther an artefact travels from its consent/intent origin (larger $r$), the less intensity is allowed. Analyst increases legibility by mapping paths (raising `A_open`), Editor preserves discretion by choosing $\alpha$ and controlling effective $r$ (restricting channels/contexts). LM validates $\tau$ and the inequality; proposes options if violated:
+
+* **Reduce** $A_{open}$ (narrow affordances),
+* **Increase** $r$ (restrict channels/audiences),
+* **Increase attenuation** $\alpha\to\alpha'$ (redaction/blur),
+* **Re‑derive** $\tau$ with refreshed consent or new risk model.
+
+> This model is an **ideogram**, not a metric: it encodes how A (opening) and E (discretion) co‑determine safe exposure. Use it to explain decisions and to sketch “what would it take to publish?” scenarios.
 
 # 5. Governance Architecture — The Fourth Dimension is Execution
 
