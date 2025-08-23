@@ -94,13 +94,13 @@ Agency and meaning in PA are legible and defensible at the level of **rule speci
 C1: `translation ≻ transplantation` (feature overlap ≤ τ).  
 C2: `merge := quorum + dissent` (minority views persist as first-class artifacts).
 
+## 2.6 Delimitations (what this work does and does not claim)
 
+- **Relations, not essences.** The framework addresses **relations of access** within a declared agentic envelope; it makes **no claim** to total access to objects.
+- **Practice-led evaluation.** Evidence is drawn from the Filmic Response A0 case and controlled probes (host-switch, obstruction toggles, prompt perturbations); **industrial generalization is out of scope**.
+- **Model-agnostic formalism.** Examples use image/drawing as an **ideogram**; the mathematics applies to text/audio/code *mutatis mutandis*.
+- **Legal posture (descriptive, not prescriptive).** Legal doctrine appears only to **motivate assembly-level attribution and provenance**; this work **does not advance new legal theory** nor offer legal advice. Jurisdictional specifics are acknowledged but not analyzed in depth.
 
-## 2.6 Delimitations
-- No claim to “total access” to objects; the framework concerns **relations of access** within a declared agentic envelope.  
-- Evaluation is **practice-led**: e.g., Filmic Response A0 application plus controlled probes; industrial generalization is out-of-scope.  
-- Formalism is **model-agnostic**: examples use image/drawing/equation as an **ideogram**, but the math/evaluation applies to text/audio/code etc. *mutatis mutandis*.  
-- Legal doctrine is referenced only to motivate assembly-level attribution; **no new legal theory** is advanced.
 
 ## 2.7 SOLID alignment (design contracts)
 
@@ -459,6 +459,9 @@ fn axioms_lint(assembly, contract, mapping, artifacts):
 [^harman]: Graham Harman, *The Quadruple Object* (2011) and related OOO works framing objects’ withdrawn reality; used here to motivate **relations of access** rather than total access.
 
 [^peirce-saussure]: Ferdinand de Saussure, *Course in General Linguistics* (1916); C. S. Peirce, collected writings on the sign/interpretant. Extended here to **parametric** semiotics (mappings, invariants, designed transitions).
+
+[^legal-posture]: Any references to copyright, moral rights, fair use/fair dealing, information or data rights are **contextual** and **non-normative**—included to justify protocol design (headers, ledgers, exits). Readers should consult qualified counsel for jurisdiction-specific interpretation.
+
 
 ```
 # 
