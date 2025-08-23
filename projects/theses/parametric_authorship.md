@@ -68,15 +68,14 @@ where $\mathcal{P}\subseteq \mathbb{R}^n$ is the admissible parameter space and 
 **Agency metric (intuition):**
 
 <p align="center">
-
-$$
-\operatorname{Auth}^{\star}
-= \underbrace{\|\nabla_P\,\mathbb{E}[\mathcal{F}(G)]\|}_{\text{control}}
-\cdot \underbrace{\operatorname{Inv}(P\!\to\!\mathcal{F})}_{\text{legibility}}
-\cdot \underbrace{R(C,E)}_{\text{responsibility}}
-\cdot \underbrace{\prod_i d_i}_{\text{dignity}}
-$$
-
+  <picture>
+    <!-- Dark theme: white text -->
+    <source media="(prefers-color-scheme: dark)"
+      srcset="https://latex.codecogs.com/svg.latex?\dpi{140}\bg{transparent}\color{white}\operatorname{Auth}^{\star}%20=%20\underbrace{\|\nabla_P\,\mathbb{E}[\mathcal{F}(G)]\|}_{\text{control}}%20\cdot%20\underbrace{\operatorname{Inv}(P\!\to\!\mathcal{F})}_{\text{legibility}}%20\cdot%20\underbrace{R(C,E)}_{\text{responsibility}}%20\cdot%20\underbrace{\prod_i%20d_i}_{\text{dignity}}">
+    <!-- Light theme: black text -->
+    <img alt="Agency metric equation"
+      src="https://latex.codecogs.com/svg.latex?\dpi{140}\bg{transparent}\color{black}\operatorname{Auth}^{\star}%20=%20\underbrace{\|\nabla_P\,\mathbb{E}[\mathcal{F}(G)]\|}_{\text{control}}%20\cdot%20\underbrace{\operatorname{Inv}(P\!\to\!\mathcal{F})}_{\text{legibility}}%20\cdot%20\underbrace{R(C,E)}_{\text{responsibility}}%20\cdot%20\underbrace{\prod_i%20d_i}_{\text{dignity}}">
+  </picture>
 </p>
 
 where $d_i\in[0,1]$ are dignity invariants.
