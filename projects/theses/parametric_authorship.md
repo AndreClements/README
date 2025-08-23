@@ -25,7 +25,10 @@ contract:
 
 # Abstract
 
-**Parametric Authorship (PA)** recasts creative agency from content inscription to **rule design across strata**. In a maculate, computationally entangled milieu, the decisional locus moves to constraints, ranges, contracts, and locks that shape families of outcomes. This work formalises: (i) the **Hyperstrate**—the superposed layer of tools, defaults, policies, logistics on which PA operates; (ii) a **Parametric Author Function (PAF)** modelling agency as sensitivity-shaping under contract; and (iii) a **Parametric Semiotic Triangle** in which meaning is borne by mappings, not tokens. A dignity-preserving governance stack (assembly header, agentic envelope, provenance ledger, circuit breaker) is specified and tested in a practice-led case (*Filmic Response* A0 intervention). The thesis argues that **execution is the fourth dimension of form**: agency proves itself by invariants under small perturbations and designed transitions under declared shocks.
+![A palimpsest image showing the faint superposition of twelve mathematical equations, representing the layered nature of the parametric authorship model.](assets/parametric_authorship_equations_cards_mathtext/13_average_all.png)
+> *A composite superposition of the core formalisms presented in this work.*
+
+**Parametric Authorship (PA)** recasts creative agency... from content inscription to **rule design across strata**. In a maculate, computationally entangled milieu, the decisional locus moves to constraints, ranges, contracts, and locks that shape families of outcomes. This work formalises: (i) the **Hyperstrate**—the superposed layer of tools, defaults, policies, logistics on which PA operates; (ii) a **Parametric Author Function (PAF)** modelling agency as sensitivity-shaping under contract; and (iii) a **Parametric Semiotic Triangle** in which meaning is borne by mappings, not tokens. A dignity-preserving governance stack (assembly header, agentic envelope, provenance ledger, circuit breaker) is specified and tested in a practice-led case (*Filmic Response* A0 intervention). The thesis argues that **execution is the fourth dimension of form**: agency proves itself by invariants under small perturbations and designed transitions under declared shocks.
 
 # 1. Introduction — From Marks to Maps
 
@@ -59,26 +62,21 @@ Let $S$ be the substrate stack (tools/models), $P$ the parameter vector (rules/r
 
 Define the authored tuple:
 
-$$
-\mathrm{PAF} := \langle S,\ \mathcal{P},\ C,\ E,\ \Phi \rangle
-$$
+![$\mathrm{PAF}:=\langle S,\ \mathcal{P},\ C,\ E,\ \Phi\rangle$](assets/parametric_authorship_equations_cards_mathtext/02_paf_tuple.png)
 
-where $\mathcal{P}\subseteq \mathbb{R}^n$ is the admissible parameter space and $\Phi$ is a **shaping functional** over sensitivities (e.g., $\Phi = \partial \mathcal{F}/\partial P$, with $\mathcal{F}$ a feature extractor on $\mathcal{A}$).
+where the admissible parameter space is $\mathcal{P}\subseteq\mathbb{R}^{n}$ and $\Phi$ is a **shaping functional** over sensitivities (e.g., $\Phi=\frac{\partial\mathcal{F}}{\partial P}$, with $\mathcal{F}$ a feature extractor on $\mathcal{A}$).
+
+![$\mathcal{P}\subseteq\mathbb{R}^{n}$](assets/parametric_authorship_equations_cards_mathtext/03_param_space.png)
+![$\Phi=\frac{\partial\mathcal{F}}{\partial P}$](assets/parametric_authorship_equations_cards_mathtext/04_phi_def.png)
 
 **Agency metric (intuition):**
 
-<p align="center">
-  <picture>
-    <!-- Dark theme: white text -->
-    <source media="(prefers-color-scheme: dark)"
-      srcset="https://latex.codecogs.com/svg.latex?\dpi{140}\bg{transparent}\color{white}\operatorname{Auth}^{\star}%20=%20\underbrace{\|\nabla_P\,\mathbb{E}[\mathcal{F}(G)]\|}_{\text{control}}%20\cdot%20\underbrace{\operatorname{Inv}(P\!\to\!\mathcal{F})}_{\text{legibility}}%20\cdot%20\underbrace{R(C,E)}_{\text{responsibility}}%20\cdot%20\underbrace{\prod_i%20d_i}_{\text{dignity}}">
-    <!-- Light theme: black text -->
-    <img alt="Agency metric equation"
-      src="https://latex.codecogs.com/svg.latex?\dpi{140}\bg{transparent}\color{black}\operatorname{Auth}^{\star}%20=%20\underbrace{\|\nabla_P\,\mathbb{E}[\mathcal{F}(G)]\|}_{\text{control}}%20\cdot%20\underbrace{\operatorname{Inv}(P\!\to\!\mathcal{F})}_{\text{legibility}}%20\cdot%20\underbrace{R(C,E)}_{\text{responsibility}}%20\cdot%20\underbrace{\prod_i%20d_i}_{\text{dignity}}">
-  </picture>
-</p>
+![$\operatorname{Auth}^{\star}=\left\|\nabla_{P}\mathbb{E}\!\left[\mathcal{F}(G)\right]\right\|\cdot\operatorname{Inv}(P\!\to\!\mathcal{F})\cdot R(C,E)\cdot\prod_{i}d_i$](assets/parametric_authorship_equations_cards_mathtext/05_agency_metric.png)
 
-where $d_i\in[0,1]$ are dignity invariants.
+where the dignity invariants $d_i$ are bounded as $d_i\in[0,1]$.
+
+![$d_i\in[0,1]$](assets/parametric_authorship_equations_cards_mathtext/06_d_bounds.png)
+
 
 ## 3.3 Parametric Semiotic Triangle
 
