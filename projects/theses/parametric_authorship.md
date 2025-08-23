@@ -2,7 +2,7 @@
 ### **Thesis Prototype**
 
 # **The Fourth Dimension is Execution**
-## *A Formalization of Parametric Authorship via the Hyperstrate, Semiological Ground, and Systemic Implications*
+## *A Formalisation of Parametric Authorship via the Hyperstrate, Semiological Ground, and Systemic Implications*
 
 > Operates under the praxis in **../README.md** (canonical mirror: https://github.com/AndreClements/README/blob/main/README.md).  
 > Style & axiology: *as-if / if-not*, maculate design, sovereignty over victory, scaled validation by risk_index.
