@@ -68,10 +68,13 @@ where $\mathcal{P}\subseteq \mathbb{R}^n$ is the admissible parameter space and 
 **Agency metric (intuition):**
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\dpi{120}&space;\operatorname{Auth}^{\star}&space;=&space;\underbrace{\|\nabla_P\,\mathbb{E}[\mathcal{F}(G)]\|}_{\text{control}}&space;\cdot&space;\underbrace{\operatorname{Inv}(P\!\to\!\mathcal{F})}_{\text{legibility}}&space;\cdot&space;\underbrace{R(C,E)}_{\text{responsibility}}&space;\cdot&space;\underbrace{\prod_i&space;d_i}_{\text{dignity}}" alt="Agency metric equation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://latex.codecogs.com/svg.latex?\dpi{120}&space;\color{white}\operatorname{Auth}^{\star}&space;=&space;\underbrace{\|\nabla_P\,\mathbb{E}[\mathcal{F}(G)]\|}_{\text{control}}&space;\cdot&space;\underbrace{\operatorname{Inv}(P\!\to\!\mathcal{F})}_{\text{legibility}}&space;\cdot&space;\underbrace{R(C,E)}_{\text{responsibility}}&space;\cdot&space;\underbrace{\prod_i&space;d_i}_{\text{dignity}}">
+  <img src="https://latex.codecogs.com/svg.latex?\dpi{120}&space;\color{black}\operatorname{Auth}^{\star}&space;=&space;\underbrace{\|\nabla_P\,\mathbb{E}[\mathcal{F}(G)]\|}_{\text{control}}&space;\cdot&space;\underbrace{\operatorname{Inv}(P\!\to\!\mathcal{F})}_{\text{legibility}}&space;\cdot&space;\underbrace{R(C,E)}_{\text{responsibility}}&space;\cdot&space;\underbrace{\prod_i&space;d_i}_{\text{dignity}}">
+</picture>
 </p>
 
-where $d_i\in$ are dignity invariants (Sec. 3.4).
+where $d_i\in[0,1]$ are dignity invariants (Sec. 3.4).
 
 ## 3.3 Parametric Semiotic Triangle
 
