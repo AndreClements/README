@@ -30,7 +30,7 @@ contract:
 > *A composite superposition of the core formalisms presented in this work.*
 
 > **Plain-English abstract (120 words).**  
-> This thesis shifts authorship from “making a thing” to **designing rules** that reliably produce families of things. Meaning isn’t only in a finished picture or paragraph; it’s in the **mapping** from rules to outputs. I call the stack where rules live the **hyperstrate** (tools, defaults, policies). I formalize an author’s role as a **Parametric Author Function (PAF)**—the way a person shapes a system’s sensitivity to change—then test it in a real studio brief (Filmic Response A0). A small governance kit (assembly header, provenance ledger, circuit breaker) keeps dignity, consent, and refusal front-and-center. The result is a practice that privileges **decisions over spectacle**, and a critique method that measures **invariants** (what stays stable) and **designed transitions** (what changes on purpose).
+> This thesis shifts authorship from “making a thing” to **designing rules** that reliably produce families of things. Meaning isn’t only in a finished picture or paragraph; it’s in the **mapping** from rules to outputs. I call the stack where rules live the **hyperstrate** (tools, defaults, policies). I formalise an author’s role as a **Parametric Author Function (PAF)**—the way a person shapes a system’s sensitivity to change—then test it in a real studio brief (Filmic Response A0). A small governance kit (assembly header, provenance ledger, circuit breaker) keeps dignity, consent, and refusal front-and-center. The result is a practice that privileges **decisions over spectacle**, and a critique method that measures **invariants** (what stays stable) and **designed transitions** (what changes on purpose).
 
 
 **Working axioms: A0–A6 (see §2.5).**
@@ -87,7 +87,7 @@ Agency and meaning in PA are legible and defensible at the level of **rule speci
 - **A5 — Withdrawal Right.** `∀ participant: hasExit(contract, participant) = true`  
   (Refusal/exit is a first-class operation; no consent, no extraction.)
 
-- **A6 — Provenance is the Indexical Trace.** `indexical_trace := ledger(commit_hashes, locks, deltas)\
+- **A6 — Provenance is the Indexical Trace.** `indexical_trace := ledger(commit_hashes, locks, deltas)
   (The “stroke” in PA is the recorded decision and its hash.)
 
 - **A7 — Dependency Inversion of Dignity.** `policies → abstractions; tools → adapters`
@@ -203,7 +203,7 @@ OOO says objects are withdrawn. DIOW therefore renounces access to inner essence
 
 **Abstract Interface (AII).**  
 Our interface is the quartet already present in the praxis:  
-(1) **Assembly Header** (defaults disclosure) aka Dreaner 
+(1) **Assembly Header** (defaults disclosure) aka Dreamer 
 (2) **Provenance Ledger** (indexical trace) aka Analyst  
 (3) **Circuit Breaker** (sovereign exit) aka Editor 
 (4) **Dignity Linter** (run-time checks) aka Maintainer
@@ -245,15 +245,15 @@ Artifacts (A4 studies, half-scale, A0s), language cards, mapping notes, ledgers,
 * **Non-exhaustion check:** no test claims total access; results are scoped to the declared envelope.
 * **Adapter existence test:** For each engaged tool/host, demonstrate a concrete `κ` (adapter) and show it passing `header/ledger/exit/lint`.
 * **Host-switch invariance:** Swap `S_impl` (e.g., two LLM hosts). If adapters exist, decision-level invariants must persist (±ε).
-*-* **Refusal liveness:** Trigger `exit()` mid-pipeline; verify no further extraction occurs and ledger records refusal with reasons.
-* **Defaults drift audit:** Change host defaults; `header.defaults_digest` must change; `lint` must re-run and either PASS or block.
+* **Refusal liveness:** Trigger `exit()` mid-pipeline; verify no further extraction occurs and ledger records refusal with reasons.
+* **Defaults drift audit:** Change host defaults; `header.defaults_digest` must change; `lint` must re-run and either PASS or BLOCK.
 
 
 ## 4.5 Validity & Limits
 
 Threats: skill heterogeneity, uneven tool access, rubric bias. Mitigations: low-cost kit, rule-first pedagogy, double-marking with dissent kept, protocolised exits. External validity: tested in constrained academic setting; industrial generalisation deferred.
 
-## Quad Face Protocol (No T)
+## Quad Face Protocol 
 
 ### Roles
 

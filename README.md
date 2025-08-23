@@ -78,6 +78,7 @@ class VitaSocioAnarco implements HealingStrategy {
     // Love, its risk.
 }
 ```
+
 ---
 
 ## § 4. The Praxis (Refractoring)
