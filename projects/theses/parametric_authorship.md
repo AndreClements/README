@@ -33,7 +33,7 @@ contract:
 > This thesis shifts authorship from “making a thing” to **designing rules** that reliably produce families of things. Meaning isn’t only in a finished picture or paragraph; it’s in the **mapping** from rules to outputs. I call the stack where rules live the **hyperstrate** (tools, defaults, policies). I formalise an author’s role as a **Parametric Author Function (PAF)**—the way a person shapes a system’s sensitivity to change—then test it in a real studio brief (Filmic Response A0). A small governance kit (assembly header, provenance ledger, circuit breaker) keeps dignity, consent, and refusal front-and-center. The result is a practice that privileges **decisions over spectacle**, and a critique method that measures **invariants** (what stays stable) and **designed transitions** (what changes on purpose).
 
 
-**Working axioms: A0–A6 (see §2.5).**
+**Working axioms: A0–A7 (see §2.5).**
 
 **Parametric Authorship (PA)** recasts creative agency... from content inscription to **rule design across strata**. In a maculate, computationally entangled milieu, the decisional locus moves to constraints, ranges, contracts, and locks that shape families of outcomes. This work formalises: (i) the **Hyperstrate**—the superposed layer of tools, defaults, policies, logistics on which PA operates; (ii) a **Parametric Author Function (PAF)** modelling agency as sensitivity-shaping under contract; and (iii) a **Parametric Semiotic Triangle** in which meaning is borne by mappings, not tokens. A dignity-preserving governance stack (assembly header, agentic envelope, provenance ledger, circuit breaker) is specified and tested in a practice-led case (*Filmic Response* A0 intervention). The thesis argues that **execution is the fourth dimension of form**: agency proves itself by invariants under small perturbations and designed transitions under declared shocks.
 
@@ -87,10 +87,10 @@ Agency and meaning in PA are legible and defensible at the level of **rule speci
 - **A5 — Withdrawal Right.** `∀ participant: hasExit(contract, participant) = true`  
   (Refusal/exit is a first-class operation; no consent, no extraction.)
 
-- **A6 — Provenance is the Indexical Trace.** `indexical_trace := ledger(commit_hashes, locks, deltas)
+- **A6 — Provenance is the Indexical Trace.** `indexical_trace := ledger(commit_hashes, locks, deltas)`  
   (The “stroke” in PA is the recorded decision and its hash.)
 
-- **A7 — Dependency Inversion of Dignity.** `policies → abstractions; tools → adapters`
+- **A7 — Dependency Inversion of Dignity.** `policies → abstractions; tools → adapters`  
   (High-level authorial policies depend on declared **abstract interfaces**; concrete tools must conform via **adapters**. Dignity is enforced at the interface, not begged from implementations.)
 
 
@@ -326,7 +326,7 @@ A compact ideogram using quadratic fall‑off to couple opening and discretion.
 * Let $\tau$ be Editor/LM **exposure threshold** derived from consent/risk.
 * Let $\alpha\in[0,1]$ be Editor’s **attenuation** (redaction/obfuscation factor).
 
-**Illumination constraint:**
+**Illumination constraint (with α as transmissivity):**
 
 ![ $I(r)=\frac{\alpha\,A_{\mathrm{open}}}{r^{2}}\leq \tau$](assets/parametric_authorship_equations_cards_mathtext/08_illum_constraint.png)
 
