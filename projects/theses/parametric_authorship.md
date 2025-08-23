@@ -67,15 +67,11 @@ where $\mathcal{P}\subseteq \mathbb{R}^n$ is the admissible parameter space and 
 
 **Agency metric (intuition):**
 
-$$
-\operatorname{Auth}^{\star}
-= \underbrace{\|\nabla_P\,\mathbb{E}[\mathcal{F}(G)]\|}_{\text{control}}
-\cdot \underbrace{\operatorname{Inv}(P\!\to\!\mathcal{F})}_{\text{legibility}}
-\cdot \underbrace{R(C,E)}_{\text{responsibility}}
-\cdot \underbrace{\prod_i d_i}_{\text{dignity}}
-$$
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\dpi{120}&space;\operatorname{Auth}^{\star}&space;=&space;\underbrace{\|\nabla_P\,\mathbb{E}[\mathcal{F}(G)]\|}_{\text{control}}&space;\cdot&space;\underbrace{\operatorname{Inv}(P\!\to\!\mathcal{F})}_{\text{legibility}}&space;\cdot&space;\underbrace{R(C,E)}_{\text{responsibility}}&space;\cdot&space;\underbrace{\prod_i&space;d_i}_{\text{dignity}}" alt="Agency metric equation" />
+</p>
 
-where $d_i\in[0,1]$ are dignity invariants (Sec. 3.4).
+where $d_i\in$ are dignity invariants (Sec. 3.4).
 
 ## 3.3 Parametric Semiotic Triangle
 
