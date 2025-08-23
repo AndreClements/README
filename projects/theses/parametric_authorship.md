@@ -87,8 +87,12 @@ Agency and meaning in PA are legible and defensible at the level of **rule speci
 - **A5 — Withdrawal Right.** `∀ participant: hasExit(contract, participant) = true`  
   (Refusal/exit is a first-class operation; no consent, no extraction.)
 
-- **A6 — Provenance is the Indexical Trace.** `indexical_trace := ledger(commit_hashes, locks, deltas)`  
+- **A6 — Provenance is the Indexical Trace.** `indexical_trace := ledger(commit_hashes, locks, deltas)\
   (The “stroke” in PA is the recorded decision and its hash.)
+
+- **A7 — Dependency Inversion of Dignity.** `policies → abstractions; tools → adapters`
+  (High-level authorial policies depend on declared **abstract interfaces**; concrete tools must conform via **adapters**. Dignity is enforced at the interface, not begged from implementations.)
+
 
 **Corollaries.**  
 C1: `translation ≻ transplantation` (feature overlap ≤ τ).  
@@ -189,6 +193,32 @@ Introduce a **dignity tensor** $\mathbf{D}$:
 * **Reciprocal ledger:** record non-human impacts.
   Test: ledger includes `non_human_impact` rows at publish.
 
+## 3.5 Dependency Inversion for Objects in the Wild (DIOW)
+
+**Statement (adapted from SOLID’s DIP).**  
+High-level policies of authorship (sovereignty, provenance, refusal) **must not depend** on the concrete details of tools, platforms, or hosts. **Both** the policies and the tools depend on **abstractions** (a public contract). Tools engage only through **adapters** that satisfy this contract.
+
+**OOO compatibility.**  
+OOO says objects are withdrawn. DIOW therefore renounces access to inner essences and binds interaction to **accessible surfaces** declared in an interface. We don’t “know” the object; we **negotiate** a boundary.
+
+**Abstract Interface (AII).**  
+Our interface is the quartet already present in the praxis:  
+(1) **Assembly Header** (defaults disclosure) aka Dreaner 
+(2) **Provenance Ledger** (indexical trace) aka Analyst  
+(3) **Circuit Breaker** (sovereign exit) aka Editor 
+(4) **Dignity Linter** (run-time checks) aka Maintainer
+
+**Formal hook.**  
+Let the generator be `G:(S,P,C,E)→𝒜`. Partition `S = S_impl ⊕ S_iface`.  
+Authorship acts on `S_iface` (the interface layer) and never assumes internals of `S_impl`. A **conformance map** `κ : S_impl → S_iface` (the adapter) must exist such that all obligations are discharged:
+\[ \forall\,o\in S_{\mathrm{impl}}:\; \texttt{Header}(κ(o))\wedge \texttt{Ledger}(κ(o))\wedge \texttt{Exit}(κ(o))\wedge \texttt{Lint}(κ(o)) .
+\]
+No `κ` ⇒ no engagement.
+
+**Design consequence.**  
+Authorship = design of the interface + tests. Implementations come and go; the contract and its proofs persist.
+
+
 # 4. Methodology — Practice-Led with Controlled Probes
 
 ## 4.1 Sites & Materials
@@ -213,6 +243,11 @@ Artifacts (A4 studies, half-scale, A0s), language cards, mapping notes, ledgers,
 * **Default-tilt diffs:** same prompt across hosts; record drift as host responsibility.
 * **Authorship legibility:** correlate rubric “decision coherence” with ledger completeness and lock adherence.
 * **Non-exhaustion check:** no test claims total access; results are scoped to the declared envelope.
+* **Adapter existence test:** For each engaged tool/host, demonstrate a concrete `κ` (adapter) and show it passing `header/ledger/exit/lint`.
+* **Host-switch invariance:** Swap `S_impl` (e.g., two LLM hosts). If adapters exist, decision-level invariants must persist (±ε).
+*-* **Refusal liveness:** Trigger `exit()` mid-pipeline; verify no further extraction occurs and ledger records refusal with reasons.
+* **Defaults drift audit:** Change host defaults; `header.defaults_digest` must change; `lint` must re-run and either PASS or block.
+
 
 ## 4.5 Validity & Limits
 
@@ -333,6 +368,43 @@ fn dignity_lint(assembly, contract, language_card, artifacts):
   if artifacts.ledger.non_human_impact.empty():
     warn "ledger_missing_nonhuman_rows"
   return "ok"
+```
+
+### 5.x Adapters (making concrete things honor the abstract interface)
+
+```pseudocode
+// The abstract, ethics-first contract
+interface SovereignInterface:
+  fn header() -> Header           // host, weights, policy, limits
+  fn ledger(event) -> void        // append immutable, signed record
+  fn exit(reason) -> bool         // hard refusal path
+  fn lint(bundle) -> "ok"|"fail"  // Axioms A3–A6 checks (and A7)
+
+
+// Example: LLM host adapter (opaque, networked)
+class LLMHostAdapter implements SovereignInterface:
+  fn header():
+    return {host, model_family, version, policy_url, limits, defaults_digest}
+  fn ledger(event):
+    append_signed(event, anchor=commit_hash)
+  fn exit(reason):
+    revoke_token(); return true
+  fn lint(bundle):
+    assert header.defaults_digest; assert bundle.overlap ≤ τ; return "ok"
+
+
+// Example: Material adapter (charcoal/paper = non-networked)
+class MaterialAdapter implements SovereignInterface:
+  fn header():
+    return {surface:"A0 cartridge", tools:["charcoal","graphite","ink"], hazards, studio_limits}
+  fn ledger(event):
+    stamp(event, time, operator); archive_photo_if_needed()
+  fn exit(reason):
+    pause_use(); quarantine material; return true
+  fn lint(bundle):
+    assert "Dignity rule" in bundle.language_card
+    assert locks: value_by_D9 & edge_by_D11
+    return "ok"
 ```
 
 # 6. Pedagogy — Author Rules, Not Posters
