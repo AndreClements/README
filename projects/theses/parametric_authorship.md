@@ -28,6 +28,8 @@ contract:
 ![A palimpsest image showing the faint superposition of twelve mathematical equations, representing the layered nature of the parametric authorship model.](assets/parametric_authorship_equations_cards_mathtext/13_average_all.png)
 > *A composite superposition of the core formalisms presented in this work.*
 
+*Working axioms: A0–A6 (see §2.5).*
+
 **Parametric Authorship (PA)** recasts creative agency... from content inscription to **rule design across strata**. In a maculate, computationally entangled milieu, the decisional locus moves to constraints, ranges, contracts, and locks that shape families of outcomes. This work formalises: (i) the **Hyperstrate**—the superposed layer of tools, defaults, policies, logistics on which PA operates; (ii) a **Parametric Author Function (PAF)** modelling agency as sensitivity-shaping under contract; and (iii) a **Parametric Semiotic Triangle** in which meaning is borne by mappings, not tokens. A dignity-preserving governance stack (assembly header, agentic envelope, provenance ledger, circuit breaker) is specified and tested in a practice-led case (*Filmic Response* A0 intervention). The thesis argues that **execution is the fourth dimension of form**: agency proves itself by invariants under small perturbations and designed transitions under declared shocks.
 
 # 1. Introduction — From Marks to Maps
@@ -49,6 +51,36 @@ Agency and meaning in PA are legible and defensible at the level of **rule speci
 * **Parametric Author Function (PAF).** The authored tuple and shaping functional that constrain a generator.
 * **Dignity (tri-scoped).** Personal (operator sovereignty), object (integrity of non-human participants), system (emergent integrity of the stack).
 * **Maculate design.** Assume flaws and history in all systems; build protocols, not purity. *(cf. ../README.md)*
+
+## 2.5 Axioms (small)
+
+> Compact invariants that bind the thesis across theory, governance, and studio practice.
+
+- **A0 — Equation-as-Machine.** `equation ≡ language_machine`  
+  (A formal expression is an executable grammar; reading = running.)
+
+- **A1 — Map-over-Mark.** `meaning := invariants(P → A)`  
+  (Meaning is borne by stable features of the mapping from parameters to artifacts.)
+
+- **A2 — Execution-First Form.** `form₄ᴰ := (geometry, material, time, execution)`  
+  (The fourth dimension of form is execution; proofs live in runs, not statements.)
+
+- **A3 — Dignity Conservation.** `D := diag(d_personal, d_object, d_system) ∈ [0,1]³ ; conserve(D)`  
+  (Sovereignty must be conserved across operator, object, and system scopes.)
+
+- **A4 — Defaults Author.** `host_defaults ∈ S ⇒ author(S)`  
+  (Platforms, weights, and policies are co-authors unless disclosed and bounded.)
+
+- **A5 — Withdrawal Right.** `∀ participant: hasExit(contract, participant) = true`  
+  (Refusal/exit is a first-class operation; no consent, no extraction.)
+
+- **A6 — Provenance is the Indexical Trace.** `indexical_trace := ledger(commit_hashes, locks, deltas)`  
+  (The “stroke” in PA is the recorded decision and its hash.)
+
+**Corollaries.**  
+C1: `translation ≻ transplantation` (feature overlap ≤ τ).  
+C2: `merge := quorum + dissent` (minority views persist as first-class artifacts).
+
 
 # 3. Theoretical Framework
 
@@ -94,7 +126,10 @@ Meaning stabilises as:
 
 ## 3.4 Dignity Across the Hyperstrate
 
-Introduce a **dignity tensor** $\mathbf{D}=\operatorname{diag}(d_\text{personal},d_\text{object},d_\text{system})$.
+Introduce a **dignity tensor** $\mathbf{D}$:
+
+![$\mathbf{D}=\operatorname{diag}(d_{\mathrm{personal}},\,d_{\mathrm{object}},\,d_{\mathrm{system}})$](assets/parametric_authorship_equations_cards_mathtext/07_dignity_tensor.png)
+
 
 **Minimal invariants (run-time checks):**
 
@@ -210,11 +245,11 @@ A compact ideogram using quadratic fall‑off to couple opening and discretion.
 
 **Illumination constraint:**
 
-$$
-I(r) = \frac{\alpha\,A_{open}}{r^2} \;\le\; \tau
-$$
+![ $I(r)=\frac{\alpha\,A_{\mathrm{open}}}{r^{2}}\leq \tau$](assets/parametric_authorship_equations_cards_mathtext/08_illum_constraint.png)
 
-**Reads:** the farther an artefact travels from its consent/intent origin (larger $r$), the less intensity is allowed. Analyst increases legibility by mapping paths (raising `A_open`), Editor preserves discretion by choosing $\alpha$ and controlling effective $r$ (restricting channels/contexts). LM validates $\tau$ and the inequality; proposes options if violated:
+**Reads:** the farther an artefact travels from its consent/intent origin (larger $r$), the less intensity is allowed. This can be expressed as a minimum safe exposure distance:
+
+![ $r\geq \sqrt{\frac{\alpha\,A_{\mathrm{open}}}{\tau}}$](assets/parametric_authorship_equations_cards_mathtext/12_radius_form.png)
 
 * **Reduce** $A_{open}$ (narrow affordances),
 * **Increase** $r$ (restrict channels/audiences),
@@ -303,10 +338,18 @@ Parametric authorship relocates agency to **sensitivity design under contract**.
 
 ## Appendix A — Formal Notation (concise)
 
-* $G:(S,P,C,E)\mapsto\mathcal{A}$ — generator.
-* $\mathcal{F}:\mathcal{A}\to\mathbb{R}^k$ — feature extractor.
-* Invariant set $I=\{f\in\mathcal{F} \mid f(G(P+\Delta P))\approx f(G(P))\ \forall \|\Delta P\|\le \epsilon\}$.
-* Transition set $T=\{(f,\Delta P)\mid f(G(P+\Delta P)) - f(G(P)) \in \Delta^\star\}$ (designed delta).
+* **Generator:**  
+![ $G:(S,P,C,E)\mapsto\mathcal{A}$](assets/parametric_authorship_equations_cards_mathtext/01_generator_map.png)
+
+* **Feature Extractor:**  
+![ $\mathcal{F}:\mathcal{A}\to\mathbb{R}^{k}$](assets/parametric_authorship_equations_cards_mathtext/09_feature_map.png)
+
+* **Invariant Set:**  
+![ $I=\{\,f\in\mathcal{F}\mid f(G(P+\Delta P))\approx f(G(P))\ \forall\,\|\Delta P\|\leq\epsilon\,\}$](assets/parametric_authorship_equations_cards_mathtext/10_invariant_set.png)
+
+* **Transition Set:**  
+![ $T=\{\, (f,\Delta P)\mid f(G(P+\Delta P))-f(G(P))\in\Delta^{\star}\,\}$](assets/parametric_authorship_equations_cards_mathtext/11_transition_set.png)
+
 
 ## Appendix B — Operational Snippets
 
@@ -342,5 +385,21 @@ pipeline parametric_authorship_case(student):
 * Agentic envelope: **../docs/protocols/protocol\_\_agentic\_envelope.md**.
 * Method: **../docs/methods/METHODOLOGY\_CI.md**.
 
+## Appendix D - utilities
+
+```js
+fn axioms_lint(assembly, contract, mapping, artifacts):
+  // A4
+  assert assembly.discloses_defaults()         // host, weights, policy, limits
+  // A5
+  assert contract.exits.for_all_participants()
+  // C1
+  assert feature_overlap(artifacts.final, contract.source_grammar) ≤ contract.τ
+  // A6
+  assert artifacts.ledger.has(["commit_hash","lock:value_by_D9","lock:edge_by_D11"])
+  // A1 (sanity): invariants exist under small ΔP
+  assert invariants(mapping, epsilon=ε).count ≥ 1
+  return "ok"
+```
 
 
