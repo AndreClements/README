@@ -1,5 +1,5 @@
 `projects\theses\parametric_authorship.md`
-### **Thesis Proposal**
+### **Thesis Prototype**
 
 # *The Fourth Dimension is Execution: Parametric Authorship, Semiological Ground, and Systemic Implications*
 
