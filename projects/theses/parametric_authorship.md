@@ -9,7 +9,7 @@
 
 ```yaml
 contract:
-  intent: "doctoral thesis draft (practice-led, theory-bearing)"
+  intent: "doctoral thesis draft (practice-led, theory-bearing, SOLID)"
   scope: "projects/theses/parametric_authorship.md"
   validation: ["falsifiability_probe","AndYet_counterread"]
   repository_binding:
@@ -22,14 +22,18 @@ contract:
       - "../docs/protocols/protocol__provenance_ledger.md"
     dependencies_rel:
       - "../docs/DEPENDENCIES.md"
-````
+```
 
 # Abstract
 
 ![A palimpsest image showing the faint superposition of twelve mathematical equations, representing the layered nature of the parametric authorship model.](assets/parametric_authorship_equations_cards_mathtext/13_average_all.png)
 > *A composite superposition of the core formalisms presented in this work.*
 
-*Working axioms: A0–A6 (see §2.5).*
+> **Plain-English abstract (120 words).**  
+> This thesis shifts authorship from “making a thing” to **designing rules** that reliably produce families of things. Meaning isn’t only in a finished picture or paragraph; it’s in the **mapping** from rules to outputs. I call the stack where rules live the **hyperstrate** (tools, defaults, policies). I formalize an author’s role as a **Parametric Author Function (PAF)**—the way a person shapes a system’s sensitivity to change—then test it in a real studio brief (Filmic Response A0). A small governance kit (assembly header, provenance ledger, circuit breaker) keeps dignity, consent, and refusal front-and-center. The result is a practice that privileges **decisions over spectacle**, and a critique method that measures **invariants** (what stays stable) and **designed transitions** (what changes on purpose).
+
+
+**Working axioms: A0–A6 (see §2.5).**
 
 **Parametric Authorship (PA)** recasts creative agency... from content inscription to **rule design across strata**. In a maculate, computationally entangled milieu, the decisional locus moves to constraints, ranges, contracts, and locks that shape families of outcomes. This work formalises: (i) the **Hyperstrate**—the superposed layer of tools, defaults, policies, logistics on which PA operates; (ii) a **Parametric Author Function (PAF)** modelling agency as sensitivity-shaping under contract; and (iii) a **Parametric Semiotic Triangle** in which meaning is borne by mappings, not tokens. A dignity-preserving governance stack (assembly header, agentic envelope, provenance ledger, circuit breaker) is specified and tested in a practice-led case (*Filmic Response* A0 intervention). The thesis argues that **execution is the fourth dimension of form**: agency proves itself by invariants under small perturbations and designed transitions under declared shocks.
 
@@ -48,10 +52,18 @@ Agency and meaning in PA are legible and defensible at the level of **rule speci
 
 # 2. Definitions & Scope
 
-* **Hyperstrate.** The cross-cutting layer of influence—weights, datasets, UI affordances, platform policies, economics, rubrics, studio logistics—on/through which PA operates.
+* **Hyperstrate.** The cross-cutting layer of influence—weights, datasets, UI affordances, platform policies, economics, rubrics, studio logistics—on/through which PA operates and where domain rule-design **impacts and affects** the work.
 * **Parametric Author Function (PAF).** The authored tuple and shaping functional that constrain a generator.
 * **Dignity (tri-scoped).** Personal (operator sovereignty), object (integrity of non-human participants), system (emergent integrity of the stack).
 * **Maculate design.** Assume flaws and history in all systems; build protocols, not purity. *(cf. ../README.md)*
+
+**Micro-glossary**
+* **Invariant** — feature stable under small parameter nudges.  
+* **Designed transition** — intended feature change under declared shocks.  
+* **Empty Turn** — sovereign refusal to execute and/or allow extraction.  
+* **SOLID** — five object-oriented design principles (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion).[^solid]
+
+
 
 ## 2.5 Axioms (small)
 
@@ -82,6 +94,39 @@ Agency and meaning in PA are legible and defensible at the level of **rule speci
 C1: `translation ≻ transplantation` (feature overlap ≤ τ).  
 C2: `merge := quorum + dissent` (minority views persist as first-class artifacts).
 
+
+
+## 2.6 Delimitations
+- No claim to “total access” to objects; the framework concerns **relations of access** within a declared agentic envelope.  
+- Evaluation is **practice-led**: e.g., Filmic Response A0 application plus controlled probes; industrial generalization is out-of-scope.  
+- Formalism is **model-agnostic**: examples use image/drawing/equation as an **ideogram**, but the math/evaluation applies to text/audio/code etc. *mutatis mutandis*.  
+- Legal doctrine is referenced only to motivate assembly-level attribution; **no new legal theory** is advanced.
+
+## 2.7 SOLID alignment (design contracts)
+
+> The thesis architecture is engineered to respect SOLID at both code-level metaphor and protocol-level practice.
+
+| SOLID principle | In this thesis | Why it matters here |
+|---|---|---|
+| **Single Responsibility** | Each artifact/role has one reason to change: *Language Card* (rules), *Assembly Header* (context), *Ledger* (trace), roles D/A/E/LM (intent/access/discretion/filter). | Keeps authorship legible; decisions don’t leak across concerns. |
+| **Open–Closed** | Protocols open to extension (add new obstructions, checks, hosts) but closed to modification of core invariants (locks, exits, ledger schema). | Extends practice without breaking prior proofs of dignity/sovereignty. |
+| **Liskov Substitution** | Substrates (S) are substitutable if they implement required interfaces: header disclosure, refusal semantics, provenance hooks. | Enables host/model swaps for perturbation tests without rewriting governance. |
+| **Interface Segregation** | Small, purpose-built interfaces: *Language Card*, *Header*, *Ledger*, *Circuit Breaker*—no “fat” god-objects. | Practitioners implement only what they actually use; reduces coupling. |
+| **Dependency Inversion** | High-level policies depend on **abstract interfaces** (header/ledger/exits), not concrete models; concrete tools adapt via ports/adapters. | Preserves sovereignty: policy governs tools, not vice versa. |
+
+**Minimal interface sketch (ports/adapters)**
+
+```pseudocode
+interface Header { disclose_defaults(); context(); hash(); }
+interface Ledger  { record(event); query(filter); export(); }
+interface Exits   { has_exit(participant); empty_turn(); }
+interface Host    { run(P); implements(Header, Ledger, Exits) }
+
+fn execute(PAF, Host h):
+  require h.disclose_defaults() && h.has_exit("*")
+  h.record("locks", PAF.locks)
+  return h.run(PAF.params)
+```
 
 # 3. Theoretical Framework
 
@@ -124,6 +169,7 @@ Meaning stabilises as:
 * **Invariants:** features persistent under small $\Delta P$.
 * **Designed transitions:** features that change predictably under intentional shocks.
 * **Style:** curvature of $\mathcal{P}$ as perceived via $\mathcal{A}$ (how features bend to parameter movement).
+* **Non-exhaustion premise:** The triangle models relations of access, not the object in full.
 
 ## 3.4 Dignity Across the Hyperstrate
 
@@ -166,6 +212,7 @@ Artifacts (A4 studies, half-scale, A0s), language cards, mapping notes, ledgers,
 * **Transition tests:** confirm designed changes under declared shocks (obstructions).
 * **Default-tilt diffs:** same prompt across hosts; record drift as host responsibility.
 * **Authorship legibility:** correlate rubric “decision coherence” with ledger completeness and lock adherence.
+* **Non-exhaustion check:** no test claims total access; results are scoped to the declared envelope.
 
 ## 4.5 Validity & Limits
 
@@ -403,4 +450,15 @@ fn axioms_lint(assembly, contract, mapping, artifacts):
   return "ok"
 ```
 
+---
 
+```markdown
+
+[^solid]: “SOLID” design principles (Single Responsibility, Open–Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) as popularized by Robert C. Martin; see *Clean Architecture* (2017) and common summaries. The thesis uses SOLID as a **protocol design metaphor** and interface discipline, not as code prescription.
+
+[^harman]: Graham Harman, *The Quadruple Object* (2011) and related OOO works framing objects’ withdrawn reality; used here to motivate **relations of access** rather than total access.
+
+[^peirce-saussure]: Ferdinand de Saussure, *Course in General Linguistics* (1916); C. S. Peirce, collected writings on the sign/interpretant. Extended here to **parametric** semiotics (mappings, invariants, designed transitions).
+
+```
+# 
