@@ -224,6 +224,51 @@ No `κ` ⇒ no engagement.
 **Design consequence.**
 Authorship = design of the interface + tests. Implementations come and go; the contract and its proofs persist.
 
+## 3.6 Dependency Inversion on Cybernetics (Sovereign Interface)
+
+**Claim.** Parametric Authorship applies **dependency inversion** to a classical cybernetic loop. High-level policy (A3–A7) is externalised as a public **Sovereign Interface**; concrete tools/hosts must conform via adapters `κ`. Refusal is an admissible control action.
+
+### Classical loop (first-order)
+Reference (implicit goal) → Comparator → Controller → Actuator → Plant → Sensor → (back to Comparator)
+
+### Inverted loop (sovereign)
+Policy `π` (A3–A7) → **Linter/Circuit Breaker** → `κ`-adapted Actuator → Plant (`S_impl`) → **Header+Ledger** (sensors) → Linter  
+with **Policy `π` declared at the interface**: `I := {Header, Ledger, Exit, Lint}`.
+
+#### Dependency graph
+- Classical: **Operator → Tool’s Interface → Tool’s Internal Goal → Output**
+- Sovereign: **Tool → I(π)** and **Author → I(π)**; **no `κ` ⇒ no engagement**.
+
+#### Comparison (delta)
+
+| Aspect                | Classical cybernetics                    | Parametric Authorship (DI on cybernetics)             |
+|---|---|---|
+| Locus of control      | In the plant’s pre-set logic            | In author’s external contract `π`                     |
+| Primary goal          | Operational homeostasis (e.g., temp)    | Ethical/authorial invariants (`d`, consent, provenance) |
+| Tool’s role           | Environment you adapt to                 | Replaceable impl bound to `I` via `κ`                 |
+| Dependency flow       | Operator depends on tool                 | Tool depends on interface `I(π)`                      |
+| Governor              | Internal controller                      | External **Linter + Circuit Breaker**                 |
+| Observability         | Sensors for state                        | + **Provenance** as sensor (ledger)                   |
+| Control actions       | Tune gains                               | + **Refusal/Exit** as first-class action              |
+
+#### Formal sketch
+Let `G:(S,P,C,E)→𝒜`, partition `S = S_impl ⊕ S_iface`.  
+Policy `π` induces interface `I = {Header, Ledger, Exit, Lint}`.  
+An adapter `κ:S_impl→S_iface` is admissible iff
+\[
+\forall o\in S_{\mathrm{impl}}:\; \texttt{Header}(κ(o)) \wedge \texttt{Ledger}(κ(o)) \wedge \texttt{Exit}(κ(o)) \wedge \texttt{Lint}(κ(o)).
+\]
+**No** such `κ` ⇒ **block** (refusal).
+
+**Objective.** Maintain declared **invariants** under ε-nudges; realise **designed transitions** under declared shocks; conserve dignity tensor `d`.
+
+#### Probes
+1. **Host-switch invariance:** swap `S_impl`; if `κ` exists and lints pass, features stay within ±ε.  
+2. **Defaults-drift audit:** mutate `defaults_digest`; linter must re-authorise or block with ledgered reasons.  
+3. **Refusal liveness:** invoke `exit()` mid-pipeline; verify zero further extraction + ledger entry.
+
+> Metaphor: you don’t learn a thermostat’s quirks; **furnaces must prove they plug into your home’s “Safety & Dignity” port**.
+
 # 4. Methodology — Practice-Led with Controlled Probes
 
 ## 4.1 Sites & Materials
