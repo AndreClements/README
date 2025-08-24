@@ -156,4 +156,35 @@ fn hyperstrate_transaction(local_node, peer_node, message):
 
 ---
 
-## 7) What
+## 7) What counts as success
+
+* A transaction is **committed and attested** by all participating peers,
+* aggregate dignity is conserved,
+* **dissent is logged** if quorum is used,
+* and all peers retain a **live exit path**.
+
+---
+
+## 8) Limits & bias
+
+* **Latency.** Sensation across the Hyperstrate is not instantaneous. The model must account for delays in state propagation.
+* **Partitions.** The field can split. Protocols must define behavior for partitioned states and potential re-merging.
+* **Trust.** The model assumes trust is established via signed headers and attestable actions, not by default.
+
+---
+
+## 9) Minimal templates
+
+**Node Header**
+`node_id | protocol@version | context_digest | public_key | status`
+
+**Hyperstrate Ledger Line**
+`ts | tx_id | nodes[] | action | context_hash | dissent? | status`
+
+---
+
+## 10) Cross-links
+
+* *Philosophy of Sensation* — the node-level, internal experience that is externalized into the Hyperstrate.
+* *Philosophy of Body* — the physical substrate (server, device, human) of each sovereign `Node` in the field.
+* *Philosophy of Language* — the formal specification of a `Protocol` that forms the `Edges` of the graph.
