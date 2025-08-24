@@ -27,11 +27,11 @@ contract:
 # Abstract
 
 ![A palimpsest image showing the faint superposition of twelve mathematical equations, representing the layered nature of the parametric authorship model.](assets/parametric_authorship_equations_cards_mathtext/13_average_all.png)
+
 > *A composite superposition of the core formalisms presented in this work.*
 
-> **Plain-English abstract (120 words).**  
+> **Plain-English abstract (120 words).**
 > This thesis shifts authorship from “making a thing” to **designing rules** that reliably produce families of things. Meaning isn’t only in a finished picture or paragraph; it’s in the **mapping** from rules to outputs. I call the stack where rules live the **hyperstrate** (tools, defaults, policies). I formalise an author’s role as a **Parametric Author Function (PAF)**—the way a person shapes a system’s sensitivity to change—then test it in a real studio brief (Filmic Response A0). A small governance kit (assembly header, provenance ledger, circuit breaker) keeps dignity, consent, and refusal front-and-center. The result is a practice that privileges **decisions over spectacle**, and a critique method that measures **invariants** (what stays stable) and **designed transitions** (what changes on purpose).
-
 
 **Working axioms: A0–A7 (see §2.5).**
 
@@ -58,65 +58,65 @@ Agency and meaning in PA are legible and defensible at the level of **rule speci
 * **Maculate design.** Assume flaws and history in all systems; build protocols, not purity. *(cf. ../README.md)*
 
 **Micro-glossary**
-* **Invariant** — feature stable under small parameter nudges.  
-* **Designed transition** — intended feature change under declared shocks.  
-* **Empty Turn** — sovereign refusal to execute and/or allow extraction.  
-* **SOLID** — five object-oriented design principles (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion).[^solid]
 
+* **Invariant** — feature stable under small parameter nudges.
+* **Designed transition** — intended feature change under declared shocks.
+* **Empty Turn** — sovereign refusal to execute and/or allow extraction.
+* **SOLID** — five object-oriented design principles (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion).\[^solid]
 
+**Symbol legend (concise)**
+`S,P,C,E` substrates, parameters, constraints, environment · `G` generator · `ℱ` feature extractor · `ε` small radius in `P` · `τ` exposure/extraction threshold · `α` transmissivity ∈ \[0,1] (1 − attenuation) · `κ` adapter map · `‖·‖` L2 norm unless stated.
 
 ## 2.5 Axioms (small)
 
 > Compact invariants that bind the thesis across theory, governance, and studio practice.
 
-- **A0 — Equation-as-Machine.** `equation ≡ language_machine`  
+* **A0 — Equation-as-Machine.** `equation ≡ language_machine`
   (A formal expression is an executable grammar; reading = running.)
 
-- **A1 — Map-over-Mark.** `meaning := invariants(P → A)`  
+* **A1 — Map-over-Mark.** `meaning := invariants(P → A)`
   (Meaning is borne by stable features of the mapping from parameters to artifacts.)
 
-- **A2 — Execution-First Form.** `form₄ᴰ := (geometry, material, time, execution)`  
+* **A2 — Execution-First Form.** `form₄ᴰ := (geometry, material, time, execution)`
   (The fourth dimension of form is execution; proofs live in runs, not statements.)
 
-- **A3 — Dignity Conservation.** `D := diag(d_personal, d_object, d_system) ∈ [0,1]³ ; conserve(D)`  
+* **A3 — Dignity Conservation.** `let d := (d_personal, d_object, d_system) ∈ [0,1]³; D := diag(d); conserve(D)`
   (Sovereignty must be conserved across operator, object, and system scopes.)
 
-- **A4 — Defaults Author.** `host_defaults ∈ S ⇒ author(S)`  
+* **A4 — Defaults Author.** `host_defaults ∈ S ⇒ author(S)`
   (Platforms, weights, and policies are co-authors unless disclosed and bounded.)
 
-- **A5 — Withdrawal Right.** `∀ participant: hasExit(contract, participant) = true`  
+* **A5 — Withdrawal Right.** `∀ participant: hasExit(contract, participant) = true`
   (Refusal/exit is a first-class operation; no consent, no extraction.)
 
-- **A6 — Provenance is the Indexical Trace.** `indexical_trace := ledger(commit_hashes, locks, deltas)`  
+* **A6 — Provenance is the Indexical Trace.** `indexical_trace := ledger(commit_hashes, locks, deltas)`
   (The “stroke” in PA is the recorded decision and its hash.)
 
-- **A7 — Dependency Inversion of Dignity.** `policies → abstractions; tools → adapters`  
+* **A7 — Dependency Inversion of Dignity.** `policies → abstractions; tools → adapters`
   (High-level authorial policies depend on declared **abstract interfaces**; concrete tools must conform via **adapters**. Dignity is enforced at the interface, not begged from implementations.)
 
-
-**Corollaries.**  
-C1: `translation ≻ transplantation` (feature overlap ≤ τ).  
+**Corollaries.**
+C1: `translation ≻ transplantation` (feature overlap ≤ τ).
 C2: `merge := quorum + dissent` (minority views persist as first-class artifacts).
 
 ## 2.6 Delimitations (what this work does and does not claim)
 
-- **Relations, not essences.** The framework addresses **relations of access** within a declared agentic envelope; it makes **no claim** to total access to objects.
-- **Practice-led evaluation.** Evidence is drawn from the Filmic Response A0 case and controlled probes (host-switch, obstruction toggles, prompt perturbations); **industrial generalization is out of scope**.
-- **Model-agnostic formalism.** Examples use image/drawing as an **ideogram**; the mathematics applies to text/audio/code *mutatis mutandis*.
-- **Legal posture (descriptive, not prescriptive).** Legal doctrine appears only to **motivate assembly-level attribution and provenance**; this work **does not advance new legal theory** nor offer legal advice. Jurisdictional specifics are acknowledged but not analyzed in depth.
-
+* **Relations, not essences.** The framework addresses **relations of access** within a declared agentic envelope; it makes **no claim** to total access to objects.
+* **Practice-led evaluation.** Evidence is drawn from the Filmic Response A0 case and controlled probes (host-switch, obstruction toggles, prompt perturbations); **industrial generalization is out of scope**.
+* **Model-agnostic formalism.** Examples use image/drawing as an **ideogram**; the mathematics applies to text/audio/code *mutatis mutandis*.
+* **Legal posture (descriptive, not prescriptive).** Legal doctrine appears only to **motivate assembly-level attribution and provenance**; this work **does not advance new legal theory** nor offer legal advice. Jurisdictional specifics are acknowledged but not analyzed in depth.
 
 ## 2.7 SOLID alignment (design contracts)
 
 > The thesis architecture is engineered to respect SOLID at both code-level metaphor and protocol-level practice.
 
-| SOLID principle | In this thesis | Why it matters here |
-|---|---|---|
-| **Single Responsibility** | Each artifact/role has one reason to change: *Language Card* (rules), *Assembly Header* (context), *Ledger* (trace), roles D/A/E/LM (intent/access/discretion/filter). | Keeps authorship legible; decisions don’t leak across concerns. |
-| **Open–Closed** | Protocols open to extension (add new obstructions, checks, hosts) but closed to modification of core invariants (locks, exits, ledger schema). | Extends practice without breaking prior proofs of dignity/sovereignty. |
-| **Liskov Substitution** | Substrates (S) are substitutable if they implement required interfaces: header disclosure, refusal semantics, provenance hooks. | Enables host/model swaps for perturbation tests without rewriting governance. |
-| **Interface Segregation** | Small, purpose-built interfaces: *Language Card*, *Header*, *Ledger*, *Circuit Breaker*—no “fat” god-objects. | Practitioners implement only what they actually use; reduces coupling. |
-| **Dependency Inversion** | High-level policies depend on **abstract interfaces** (header/ledger/exits), not concrete models; concrete tools adapt via ports/adapters. | Preserves sovereignty: policy governs tools, not vice versa. |
+| SOLID principle           | In this thesis                                                                                                                                                         | Why it matters here                                                           |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| **Single Responsibility** | Each artifact/role has one reason to change: *Language Card* (rules), *Assembly Header* (context), *Ledger* (trace), roles D/A/E/LM (intent/access/discretion/filter). | Keeps authorship legible; decisions don’t leak across concerns.               |
+| **Open–Closed**           | Protocols open to extension (add new obstructions, checks, hosts) but closed to modification of core invariants (locks, exits, ledger schema).                         | Extends practice without breaking prior proofs of dignity/sovereignty.        |
+| **Liskov Substitution**   | Substrates (S) are substitutable if they implement required interfaces: header disclosure, refusal semantics, provenance hooks.                                        | Enables host/model swaps for perturbation tests without rewriting governance. |
+| **Interface Segregation** | Small, purpose-built interfaces: *Language Card*, *Header*, *Ledger*, *Circuit Breaker*—no “fat” god-objects.                                                          | Practitioners implement only what they actually use; reduces coupling.        |
+| **Dependency Inversion**  | High-level policies depend on **abstract interfaces** (header/ledger/exits), not concrete models; concrete tools adapt via ports/adapters.                             | Preserves sovereignty: policy governs tools, not vice versa.                  |
 
 **Minimal interface sketch (ports/adapters)**
 
@@ -144,21 +144,24 @@ Let $S$ be the substrate stack (tools/models), $P$ the parameter vector (rules/r
 
 Define the authored tuple:
 
-![$\mathrm{PAF}:=\langle S,\ \mathcal{P},\ C,\ E,\ \Phi\rangle$](assets/parametric_authorship_equations_cards_mathtext/02_paf_tuple.png)
+![\$\mathrm{PAF}:=\langle S,\ \mathcal{P},\ C,\ E,\ \Phi\rangle\$](assets/parametric_authorship_equations_cards_mathtext/02_paf_tuple.png)
 
 where the admissible parameter space is $\mathcal{P}\subseteq\mathbb{R}^{n}$ and $\Phi$ is a **shaping functional** over sensitivities (e.g., $\Phi=\frac{\partial\mathcal{F}}{\partial P}$, with $\mathcal{F}$ a feature extractor on $\mathcal{A}$).
 
-![$\mathcal{P}\subseteq\mathbb{R}^{n}$](assets/parametric_authorship_equations_cards_mathtext/03_param_space.png)
-![$\Phi=\frac{\partial\mathcal{F}}{\partial P}$](assets/parametric_authorship_equations_cards_mathtext/04_phi_def.png)
+![\$\mathcal{P}\subseteq\mathbb{R}^{n}\$](assets/parametric_authorship_equations_cards_mathtext/03_param_space.png)
+![\$\Phi=\frac{\partial\mathcal{F}}{\partial P}\$](assets/parametric_authorship_equations_cards_mathtext/04_phi_def.png)
 
 **Agency metric (intuition):**
 
-![$\operatorname{Auth}^{\star}=\left\|\nabla_{P}\mathbb{E}\!\left[\mathcal{F}(G)\right]\right\|\cdot\operatorname{Inv}(P\!\to\!\mathcal{F})\cdot R(C,E)\cdot\prod_{i}d_i$](assets/parametric_authorship_equations_cards_mathtext/05_agency_metric.png)
+![\$\operatorname{Auth}^{\star}=\left|\nabla\_{P}\mathbb{E}!\left\[\mathcal{F}(G)\right\]\right|\cdot\operatorname{Inv}(P!\to!\mathcal{F})\cdot R(C,E)\cdot\prod\_{i}d\_i\$](assets/parametric_authorship_equations_cards_mathtext/05_agency_metric.png)
 
 where the dignity invariants $d_i$ are bounded as $d_i\in[0,1]$.
 
-![$d_i\in[0,1]$](assets/parametric_authorship_equations_cards_mathtext/06_d_bounds.png)
+![\$d\_i\in\[0,1\]\$](assets/parametric_authorship_equations_cards_mathtext/06_d_bounds.png)
 
+Define `Inv(P→ℱ)` as a normalised invariance score over the ε-ball in `P`, in `[0,1]` (see Appendix A: `I` set).
+Define `R(C,E)` as a run-readiness/risk governor in `[0,1]` derived from declared constraints `C` and environment `E`.
+Unless stated otherwise, `‖·‖` denotes the L2 norm.
 
 ## 3.3 Parametric Semiotic Triangle
 
@@ -179,8 +182,9 @@ Meaning stabilises as:
 
 Introduce a **dignity tensor** $\mathbf{D}$:
 
-![$\mathbf{D}=\operatorname{diag}(d_{\mathrm{personal}},\,d_{\mathrm{object}},\,d_{\mathrm{system}})$](assets/parametric_authorship_equations_cards_mathtext/07_dignity_tensor.png)
+![\$\mathbf{D}=\operatorname{diag}(d\_{\mathrm{personal}},,d\_{\mathrm{object}},,d\_{\mathrm{system}})\$](assets/parametric_authorship_equations_cards_mathtext/07_dignity_tensor.png)
 
+For clarity: let \$\mathbf{d}:=(d\_{\mathrm{personal}}, d\_{\mathrm{object}}, d\_{\mathrm{system}})\in\[0,1]^3\$ and define \$\mathbf{D}:=\operatorname{diag}(\mathbf{d})\$.
 
 **Minimal invariants (run-time checks):**
 
@@ -188,36 +192,37 @@ Introduce a **dignity tensor** $\mathbf{D}$:
   Test: `hasExit(contract, participant)==true`.
 * **Default disclosure:** assembly header declares host/weights/policy/limits.
   Test: header present + versioned.
-* **Extraction ceiling:** translation $>$ transplantation; surface overlap ≤ $\tau$.
+ **Extraction ceiling:** translation $>$ transplantation; surface overlap ≤ $\tau$.
   Test: `feature_overlap(A_final, source) ≤ τ`.
 * **Reciprocal ledger:** record non-human impacts.
   Test: ledger includes `non_human_impact` rows at publish.
 
 ## 3.5 Dependency Inversion for Objects in the Wild (DIOW)
 
-**Statement (adapted from SOLID’s DIP).**  
+**Statement (adapted from SOLID’s DIP).**
 High-level policies of authorship (sovereignty, provenance, refusal) **must not depend** on the concrete details of tools, platforms, or hosts. **Both** the policies and the tools depend on **abstractions** (a public contract). Tools engage only through **adapters** that satisfy this contract.
 
-**OOO compatibility.**  
+**OOO compatibility.**
 OOO says objects are withdrawn. DIOW therefore renounces access to inner essences and binds interaction to **accessible surfaces** declared in an interface. We don’t “know” the object; we **negotiate** a boundary.
 
-**Abstract Interface (AII).**  
-Our interface is the quartet already present in the praxis:  
-(1) **Assembly Header** (defaults disclosure) aka Dreamer 
-(2) **Provenance Ledger** (indexical trace) aka Analyst  
-(3) **Circuit Breaker** (sovereign exit) aka Editor 
+**Abstract Interface (AII).**
+Our interface is the quartet already present in the praxis:
+(1) **Assembly Header** (defaults disclosure) aka Dreamer
+(2) **Provenance Ledger** (indexical trace) aka Analyst
+(3) **Circuit Breaker** (sovereign exit) aka Editor
 (4) **Dignity Linter** (run-time checks) aka Maintainer
 
-**Formal hook.**  
-Let the generator be `G:(S,P,C,E)→𝒜`. Partition `S = S_impl ⊕ S_iface`.  
+**Formal hook.**
+Let the generator be `G:(S,P,C,E)→𝒜`. Partition `S = S_impl ⊕ S_iface`.
 Authorship acts on `S_iface` (the interface layer) and never assumes internals of `S_impl`. A **conformance map** `κ : S_impl → S_iface` (the adapter) must exist such that all obligations are discharged:
-\[ \forall\,o\in S_{\mathrm{impl}}:\; \texttt{Header}(κ(o))\wedge \texttt{Ledger}(κ(o))\wedge \texttt{Exit}(κ(o))\wedge \texttt{Lint}(κ(o)) .
-\]
+
+$$\forall,o\in S_{\mathrm{impl}}:; \texttt{Header}(κ(o))\wedge \texttt{Ledger}(κ(o))\wedge \texttt{Exit}(κ(o))\wedge \texttt{Lint}(κ(o)) .
+$$
+
 No `κ` ⇒ no engagement.
 
-**Design consequence.**  
+**Design consequence.**
 Authorship = design of the interface + tests. Implementations come and go; the contract and its proofs persist.
-
 
 # 4. Methodology — Practice-Led with Controlled Probes
 
@@ -248,12 +253,11 @@ Artifacts (A4 studies, half-scale, A0s), language cards, mapping notes, ledgers,
 * **Refusal liveness:** Trigger `exit()` mid-pipeline; verify no further extraction occurs and ledger records refusal with reasons.
 * **Defaults drift audit:** Change host defaults; `header.defaults_digest` must change; `lint` must re-run and either PASS or BLOCK.
 
-
 ## 4.5 Validity & Limits
 
 Threats: skill heterogeneity, uneven tool access, rubric bias. Mitigations: low-cost kit, rule-first pedagogy, double-marking with dissent kept, protocolised exits. External validity: tested in constrained academic setting; industrial generalisation deferred.
 
-## Quad Face Protocol 
+## Quad Face Protocol
 
 ### Roles
 
@@ -262,14 +266,14 @@ Threats: skill heterogeneity, uneven tool access, rubric bias. Mitigations: low-
 * **E — Editor (closing / discretion):** limits exposure safely → `discretion_map`, `constraints`, `closure_reasons`, `delta±`.
 * **LM — Lead Maintainer (filter):** no content edits. Checks integrity (consent, provenance, reversibility, scope). Issues **status only**.
 
-### One Lap (plane‑only)
+### One Lap (plane-only)
 
 1. **D →** `S₀ + header`
 2. **A →** `S₁ = S₀ + diagnostic + affordance_map`
 3. **E →** `S₂ = S₁ + discretion_map + constraints (+ delta log)`
 4. **LM →** **PASS | RETURN(A/E) | HOLD**, with reasons & refs. Records dissent if unresolved.
 
-On **PASS**, an external **Host/Executor rail** performs the act (publish/archive/route) and writes its own run‑log referencing the LM pass. Execution = **off‑plane extrusion**, not a node.
+On **PASS**, an external **Host/Executor rail** performs the act (publish/archive/route) and writes its own run-log referencing the LM pass. Execution = **off-plane extrusion**, not a node.
 
 ### Emissions (per node)
 
@@ -282,7 +286,7 @@ On **PASS**, an external **Host/Executor rail** performs the act (publish/archiv
 
 **LM can:**
 
-* **Gate**: pass / hold / return‑with‑reasons.
+* **Gate**: pass / hold / return-with-reasons.
 * **Reconcile**: surface conflicts (A vs E), propose **options**, never impose edits.
 * **Verify**: consent, provenance, scope adherence, reversibility path.
 * **Bind**: attach minimal reasons + references (no content changes).
@@ -294,9 +298,9 @@ On **PASS**, an external **Host/Executor rail** performs the act (publish/archiv
 
 ### Invariants (LM linter)
 
-1. **Consent/Non‑extraction** — source, rights, withdrawal path present.
+1. **Consent/Non-extraction** — source, rights, withdrawal path present.
 2. **Traceability** — header present; deltas/thresholds signed.
-3. **Reversibility** — one‑lap rollback demonstrable.
+3. **Reversibility** — one-lap rollback demonstrable.
 4. **Optionality** — real exit that isn’t reputationally punitive.
 
 Fail any → **RETURN→E** with the smallest rule to pass next lap.
@@ -305,7 +309,7 @@ Fail any → **RETURN→E** with the smallest rule to pass next lap.
 
 LM issues **options, not rulings** (team chooses; LM records *why*):
 
-1. publish with E‑constraints intact + A access notes;
+1. publish with E-constraints intact + A access notes;
 2. publish a redacted bundle + private annex;
 3. defer; run consent refresh;
 4. split release: public set vs restricted archive.
@@ -318,7 +322,7 @@ LM issues **options, not rulings** (team chooses; LM records *why*):
 
 ### Quadratic Illumination Model (for expansion)
 
-A compact ideogram using quadratic fall‑off to couple opening and discretion.
+A compact ideogram using quadratic fall-off to couple opening and discretion.
 
 * Let the **origin** $O$ be `(intent, consent)`.
 * Let $r$ be **exposure distance** (reach/context distance: audience size, platform spread, time horizon).
@@ -328,18 +332,18 @@ A compact ideogram using quadratic fall‑off to couple opening and discretion.
 
 **Illumination constraint (with α as transmissivity):**
 
-![ $I(r)=\frac{\alpha\,A_{\mathrm{open}}}{r^{2}}\leq \tau$](assets/parametric_authorship_equations_cards_mathtext/08_illum_constraint.png)
+![ \$I(r)=\frac{\alpha,A\_{\mathrm{open}}}{r^{2}}\leq \tau\$](assets/parametric_authorship_equations_cards_mathtext/08_illum_constraint.png)
 
 **Reads:** the farther an artefact travels from its consent/intent origin (larger $r$), the less intensity is allowed. This can be expressed as a minimum safe exposure distance:
 
-![ $r\geq \sqrt{\frac{\alpha\,A_{\mathrm{open}}}{\tau}}$](assets/parametric_authorship_equations_cards_mathtext/12_radius_form.png)
+![ \$r\geq \sqrt{\frac{\alpha,A\_{\mathrm{open}}}{\tau}}\$](assets/parametric_authorship_equations_cards_mathtext/12_radius_form.png)
 
 * **Reduce** $A_{open}$ (narrow affordances),
 * **Increase** $r$ (restrict channels/audiences),
 * **Increase attenuation** $\alpha\to\alpha'$ (redaction/blur),
 * **Re‑derive** $\tau$ with refreshed consent or new risk model.
 
-> This model is an **ideogram**, not a metric: it encodes how A (opening) and E (discretion) co‑determine safe exposure. Use it to explain decisions and to sketch “what would it take to publish?” scenarios.
+> This model is an **ideogram**, not a metric: it encodes how A (opening) and E (discretion) co-determine safe exposure. Use it to explain decisions and to sketch “what would it take to publish?” scenarios.
 
 # 5. Governance Architecture — The Fourth Dimension is Execution
 
@@ -419,10 +423,15 @@ class MaterialAdapter implements SovereignInterface:
 # 7. Semiological Analysis — Propositions
 
 **P1.** In PA, the sign’s primary bearer is the **mapping** $(\mathcal{P}\to\mathcal{A})$, not any instantiated token.
+
 **P2.** **Meaning** appears as invariants and designed transitions recoverable by perturbation tests.
+
 **P3.** **Style** = perceived curvature of $\mathcal{P}$ under feature extraction $\mathcal{F}$.
+
 **P4.** **Authorship** = sensitivity shaping under contract, evidenced by locks, ledgers, and stability.
+
 **P5.** **Dignity** must be conserved across personal/object/system scopes to count agency as ethical.
+
 **P6.** **Critique** should prefer protocol diffs (decisions, locks, invariants) over token aesthetics alone.
 
 # 8. Implications
@@ -458,18 +467,19 @@ Parametric authorship relocates agency to **sensitivity design under contract**.
 
 ## Appendix A — Formal Notation (concise)
 
-* **Generator:**  
-![ $G:(S,P,C,E)\mapsto\mathcal{A}$](assets/parametric_authorship_equations_cards_mathtext/01_generator_map.png)
+* **Generator:**
+  ![ \$G:(S,P,C,E)\mapsto\mathcal{A}\$](assets/parametric_authorship_equations_cards_mathtext/01_generator_map.png)
 
-* **Feature Extractor:**  
-![ $\mathcal{F}:\mathcal{A}\to\mathbb{R}^{k}$](assets/parametric_authorship_equations_cards_mathtext/09_feature_map.png)
+* **Feature Extractor:**
+  ![ \$\mathcal{F}:\mathcal{A}\to\mathbb{R}^{k}\$](assets/parametric_authorship_equations_cards_mathtext/09_feature_map.png)
 
-* **Invariant Set:**  
-![ $I=\{\,f\in\mathcal{F}\mid f(G(P+\Delta P))\approx f(G(P))\ \forall\,\|\Delta P\|\leq\epsilon\,\}$](assets/parametric_authorship_equations_cards_mathtext/10_invariant_set.png)
+* **Invariant Set:**
+  ![ \$I={,f\in\mathcal{F}\mid f(G(P+\Delta P))\approx f(G(P))\ \forall,|\Delta P|\leq\epsilon,}\$](assets/parametric_authorship_equations_cards_mathtext/10_invariant_set.png)
 
-* **Transition Set:**  
-![ $T=\{\, (f,\Delta P)\mid f(G(P+\Delta P))-f(G(P))\in\Delta^{\star}\,\}$](assets/parametric_authorship_equations_cards_mathtext/11_transition_set.png)
+* **Transition Set:**
+  ![ \$T={, (f,\Delta P)\mid f(G(P+\Delta P))-f(G(P))\in\Delta^{\star},}\$](assets/parametric_authorship_equations_cards_mathtext/11_transition_set.png)
 
+Here \$\Delta^{\star}\$ denotes the **admissible change set** declared in the language card (designed transitions).
 
 ## Appendix B — Operational Snippets
 
@@ -523,7 +533,7 @@ fn axioms_lint(assembly, contract, mapping, artifacts):
 ```
 
 ---
-
+**Tentative Reference Listing**
 ```markdown
 
 [^solid]: “SOLID” design principles (Single Responsibility, Open–Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) as popularized by Robert C. Martin; see *Clean Architecture* (2017) and common summaries. The thesis uses SOLID as a **protocol design metaphor** and interface discipline, not as code prescription.
@@ -534,6 +544,10 @@ fn axioms_lint(assembly, contract, mapping, artifacts):
 
 [^legal-posture]: Any references to copyright, moral rights, fair use/fair dealing, information or data rights are **contextual** and **non-normative**—included to justify protocol design (headers, ledgers, exits). Readers should consult qualified counsel for jurisdiction-specific interpretation.
 
+...
 
 ```
-# 
+
+#
+
+
