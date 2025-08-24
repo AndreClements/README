@@ -1,6 +1,6 @@
 `docs/models/philosophy_of_hyperstrate.md`
 
-# **Philosophy of Hyperstrate** (v0.2.0)
+# **Philosophy of Hyperstrate** (v0.2.1)
 
 **Lead Maintainer's Note:** This node models the upstream, maculate field of co-authorship and the network dynamics that emerge when sovereign peers interoperate within it by protocol. It absorbs and reframes the *Philosophy of Network*, making the crucial connection that the network's dynamics *are* the legible expression of the Hyperstrate.
 
@@ -46,9 +46,9 @@ The Hyperstrate inherits the multivalent use of **Φ** from its constituent node
 **Claim.** You cannot `load` the Hyperstrate; you can only **iterate** it.
 
 Let the field yield a time-indexed context:
-$$
-H \stackrel{\text{yield}}{\longrightarrow} c_t = \big(E_t,\, S_{\text{iface},t},\, \texttt{defaults\_digest}_t,\, \texttt{context\_digest}_t,\, \Pi_t\big)
-$$
+```math
+H \xrightarrow{\text{yield}} c_t = \big(E_t,\, S_{\text{iface},t},\, \mathrm{defaults\_digest\_t},\, \mathrm{context\_digest\_t},\, \Pi_t\big)
+```
 No guarantee that \(c_{t+1}=c_t\). Agency = how we handle each yield.
 
 **Iterator contract**
@@ -156,35 +156,4 @@ fn hyperstrate_transaction(local_node, peer_node, message):
 
 ---
 
-## 7) What counts as success
-
-* A transaction is **committed and attested** by all participating peers,
-* aggregate dignity is conserved,
-* **dissent is logged** if quorum is used,
-* and all peers retain a **live exit path**.
-
----
-
-## 8) Limits & bias
-
-* **Latency.** Sensation across the Hyperstrate is not instantaneous. The model must account for delays in state propagation.
-* **Partitions.** The field can split. Protocols must define behavior for partitioned states and potential re-merging.
-* **Trust.** The model assumes trust is established via signed headers and attestable actions, not by default.
-
----
-
-## 9) Minimal templates
-
-**Node Header**
-`node_id | protocol@version | context_digest | public_key | status`
-
-**Hyperstrate Ledger Line**
-`ts | tx_id | nodes[] | action | context_hash | dissent? | status`
-
----
-
-## 10) Cross-links
-
-* *Philosophy of Sensation* — the node-level, internal experience that is externalized into the Hyperstrate.
-* *Philosophy of Body* — the physical substrate (server, device, human) of each sovereign `Node` in the field.
-* *Philosophy of Language* — the formal specification of the `Protocol` that forms the `Edges` of the graph.
+## 7) What
