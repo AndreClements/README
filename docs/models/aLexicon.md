@@ -11,7 +11,7 @@
 
 **Hyperstrate** :: The stack of stuff that co-authors you (tools, UIs, policies). **|** The superposed, maculate milieu of often-opaque co-authorship.
 
-**PAF (Parametric Author Function)** :: Your recipe for a generator. **|** The authored tuple ⟨S, 𝒫, C, E, Φ⟩ that constrains a generator’s sensitivity and potential.
+**PAF (Parametric Author Function)** :: Recipe for a generator. **|** The authored tuple ⟨S, 𝒫, C, E, Φ⟩ that constrains a generator’s sensitivity and potential.
 
 **Mapping (𝒫→𝒜)** :: The process, not the product; what we actually read. **|** The semiotic ground where meaning stabilises as invariants under perturbation.
 
