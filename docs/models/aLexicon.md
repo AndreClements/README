@@ -68,3 +68,7 @@
 **Quadratic Illumination** :: Opening vs discretion, tuned. **|** Exposure `I(r)=α·A_open / r² ≤ τ`; publish by adjusting amplitude, distance, attenuation, or threshold (consent).
 
 **Spider Event** :: Interruption as teacher. **|** Attention swing that perturbs prediction; log cause/effect; often reveals the live interface.
+
+**CET (Chain Equilibrium Tension)** :: dependency balance | The live tension in a chain: keep it only as long as marginal **value ≥ θ** and **risk ≤ τ**; optimise for the shortest chain that stays useful and non-maculating.
+
+**WT (Withdrawal Threshold)** :: cut-line | The minimal chain length L where any +1 link drops readiness or dignity below floor, or pushes risk over τ. Past WT: **trim or exit**.
