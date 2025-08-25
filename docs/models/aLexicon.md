@@ -1,9 +1,9 @@
 
 `docs/models/aLexicon.md`
 
-# **aLexicon** (v1.0.1)
+# **aLexicon** (v1.0.1 woking)
 
-**Lead Maintainer's Note:** This is the high-density, operational lexicon for the praxis. It uses a double-barrel syntax to provide both a simple, actionable definition and a dense, theoretical one. This contrast is intentional. Read the first for speed, the second for depth.
+**Lead Maintainer's Note:** This is the becoming high-density operational lexicon for the praxis. It uses a double-barrel syntax to provide both a simple, actionable definition and a dense, theoretical one. This contrast is intentional. Read the first for speed, the second for depth.
 
 ---
 
@@ -72,3 +72,5 @@
 **CET (Chain Equilibrium Tension)** :: dependency balance | The live tension in a chain: keep it only as long as marginal **value ≥ θ** and **risk ≤ τ**; optimise for the shortest chain that stays useful and non-maculating.
 
 **WT (Withdrawal Threshold)** :: cut-line | The minimal chain length L where any +1 link drops readiness or dignity below floor, or pushes risk over τ. Past WT: **trim or exit**.
+
+**CoCuP (Context over Context unresolving Peturbations)** :: Dependency Inadequate Integrity Identified | A state where...
