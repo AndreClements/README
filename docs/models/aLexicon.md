@@ -73,4 +73,6 @@
 
 **WT (Withdrawal Threshold)** :: cut-line | The minimal chain length L where any +1 link drops readiness or dignity below floor, or pushes risk over τ. Past WT: **trim or exit**.
 
-**CoCuP (Context over Context unresolving Peturbations)** :: Dependency Inadequate Integrity Identified | A state where...
+**CoCuP (Context-over-Context Unresolved Perturbations)** :: dependencies breaking; a twitching context stack **|** A systemic deadlock where a layered context stack fails to settle under iteration.
+
+**DII (Dependency Integrity Inadequate)** :: a programmatic cancer, a little death **|** State flagged when CET is violated (`V_total < θ` or `R_total > τ`), invariants fail to recover, or the context root `M_t` oscillates without convergence across N yields.
