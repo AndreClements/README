@@ -38,7 +38,7 @@
 
 * **Multi-partiality** *stands with* more than one party at once: listening for each object’s/agent's stakes and granting adequate attention without collapsing difference. It is *bias-aware stewardship*, not referee theatre.
 * **Neutrality** (as anti-pattern) withdraws; it often launders power by pretending not to see it.
-* **Power Equilibriam** *looks like* take your power, but only your own power. No More No less. Even when and where it is true that *'power is not shared, power is taken'*. 
+* **Power Equilibrium** *looks like* take your power, but only your own power. No More No less. Even when and where it is true that *'power is not shared, power is taken'*. 
 
 ### Conflict resilience (over conflict resolution)
 
