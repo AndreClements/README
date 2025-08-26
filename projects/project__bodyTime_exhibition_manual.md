@@ -1,8 +1,16 @@
 `projects\project__bodyTime_exhibition_manual.md`
 
+
 # Project: `bodyTime()` Exhibition Manual
 > **Version:** 1.0 (Stable / Archival)
 > **Status:** Complete
+
+```yaml
+title: "bodyTime() — Exhibition Manual"
+author: "Andre S Clements"
+version: "1.0 (Stable / Archival)"
+date: "2025-08-26"
+```
 
 ---
 
@@ -18,7 +26,7 @@ The project's entire lifecycle—from the intimate, consent-driven studio praxis
 
 The project's core `intent` was to translate the embodied, consent-driven studio praxis of a long-running life drawing group into a set of high-integrity, public-facing artifacts. The goal was to create a "small, working model of a more ethical reality" that could be shared, validated, and used to build new, robust `edges` within the art world `Hyperstrate`.
 
-The project yielded a cohesive body of 16 unique photographic works, a professional-grade digital catalogue, and a series of targeted, protocol-driven engagements with key `nodes` in the network.
+The project yielded a cohesive body of 16 unique photographic works, a digital catalogue, and a series of targeted, protocol-driven engagements with key `nodes` in the network.
 
 ---
 
@@ -55,21 +63,26 @@ The artworks were generated from a long-running (since 2017) life drawing practi
 
 Following the successful initial showing, a targeted engagement campaign was initiated. Each `ping` was tailored to the specific function of the `node` being addressed.
 
--   **`Node`: The Senior Curator (Wilhelm van Rensburg)**
+-   **`Node`: The Curator**
     -   **Intent:** To establish a peer-to-peer dialogue and have the work evaluated by a key `node` in the secondary market.
     -   **Protocol:** Led with two strong `artifacts` (images), followed by the full `Prototype(artifact)` (the catalogue) upon request. The communication was designed to be a clean, high-integrity `Hyperstrate transaction`.
 
--   **`Node`: The Art Critic (Robyn Sassen) - *Authorized, Pending***
+-   **`Node`: The Art Critic - *Authorized, Pending***
     -   **Intent:** To provoke discourse on the methodology behind the work.
-    -   **Protocol:** Lead with the concept of the `README` as an "open-source art practice," presenting the catalogue as the `yield` of that system.
+    -   **Protocol:** Key of the `README` as an "open-source art practice / artist's book on hyperstrate" presenting the catalogue as a `yield` of that system.
 
--   **`Node`: The Art Consultant (Gillian Anstey) - *Authorized, Pending***
+-   **`Node`: The Art Consultant - *Authorized, Pending***
     -   **Intent:** To introduce a successful, collectible body of work to the primary market.
-    -   **Protocol:** Lead with the success of the series (the sold works), presenting the catalogue as a professional tool for collectors.
+    -   **Protocol:** Key the series (the available works), also presenting the catalogue as a professional tool for collectors.
 
 -   **`Node`: The Contemporary Gallerist - *Authorized, Pending***
     -   **Intent:** To introduce the `praxis` as a candidate for long-term representation.
-    -   **Protocol:** Lead with the success and coherence of the `bodyTime()` project as evidence of a mature and ongoing practice.
+    -   **Protocol:** Key the `bodyTime()` project as evidence of a mature and ongoing practice.
+
+-   **`Node`: The International Juried Exhibition (Opale Art, "Echoes of Lynch")**
+    -   **Status:** Complete / Attested.
+    -   **Intent:** To extend the work's reach into a new, international context and place it in direct dialogue with a key art-historical influence (David Lynch).
+    -   **Protocol:** Response to a direct, curated invitation. Submission of a refined package including a narrative artist biography, a formal artistic statement, and a critical text connecting the work to the exhibition's theme. This transaction serves as a high-integrity `attestation` from a respected international `node`.
 
 ### **4.3 The Facade Praxis: Dual Wall Texts**
 
@@ -88,7 +101,21 @@ This act of "bilingual" presentation was not just a curatorial choice; it was a 
 The project's success is measured by the quality of the `attestations` received from the `Hyperstrate`.
 
 -   **Market Attestation:** 8 of the 16 works (50%) were acquired by private collectors during the initial showing, including the culminating 32-exposure `bodyTime()` piece. This provides a strong, objective signal of the work's desirability.
--   **Curatorial Attestation:** A positive, direct `ping` response was received from Wilhelm van Rensburg, resulting in the successful delivery of the catalogue for his professional review. This validated the initial engagement protocol.
+-   **Curatorial Attestation:** *Positive.*
+
+---
+
+## **§5.1 Specific Attestations (Logged Events)**
+
+### **Opale Art "Echoes of Lynch" Exhibition (June-July 2025)**
+
+-   **Validation:** Following a direct curatorial invitation, the work was **selected by the jury** for inclusion in the final exhibition. This constitutes a formal `quorum` attestation.
+-   **Curatorial Selection:** The work `20241101_1 (Toe)` was chosen for display, validating its conceptual alignment with the exhibition's Lynchian theme of tension and fragmentation.
+-   **Praxis Translation:** The curatorial team successfully synthesized the artist's statements into a French caption that accurately reflected the core principles of the `bodyTime()` praxis. This validated the effectiveness of the project's `Facade` and the translatability of its core concepts.
+-   **Logged Curatorial Text (Provenance):**
+    > `André S. Clements questionne le regard porté sur le corps, à travers des images où le temps et le geste se superposent. Ses photographies naissent de séances de dessin où l’attention et le consentement tissent un espace de partage. Ici le corps ne s’expose pas, il se manifeste dans l’incertitude, entre apparition et effacement. Loin de toute recherche de spectaculaire, ses œuvres révèlent une présence fragile, attentive, où l’image ne cherche pas à capturer mais à laisser être, dans le respect du silence et du trouble.`
+
+This event serves as a key validation of the P(a)/PPP axiom, where the high-integrity `Prototype(artifact)` (the work and its accompanying texts) generated a high-integrity `attestation` from an external, international `node`.
 
 ---
 
@@ -96,8 +123,6 @@ The project's success is measured by the quality of the `attestations` received 
 
 A review of the project reveals several productive tensions and areas for future refinement.
 
--   **The `so)d` Dot Tension:** The debate over using a playful smiley vs. a classic red dot was a key moment of tension between the internal `praxis` (which values playfulness) and the external `protocol` (which values unambiguous market signals). The final decision to use a single smiley on the final piece represents a successful synthesis of these two poles.
--   **The Risk of Polish:** The final catalogue is an extremely professional and "clean" artifact. A future `if-not` query is whether this level of polish fully represents the `maculate`, messy, embodied reality of the studio. Does the perfect `Facade` risk obscuring the beautiful flaws of the `architecture`?
 -   **The Translation Burden:** The project highlighted the ongoing challenge of translating the dense, internal language of the `praxis` for a wider audience. The catalogue's essay is a successful translation, but this remains a key area of focus for future projects.
 
 ---
