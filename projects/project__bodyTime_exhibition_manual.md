@@ -1,4 +1,5 @@
 `projects\project__bodyTime_exhibition_manual.md`
+`projects\project__bodyTime_exhibition_manual.md`
 
 # Project: `bodyTime()` Exhibition Manual
 > **Version:** 1.0 (Stable / Archival)  
@@ -15,15 +16,15 @@ date: "2025-08-26"
 
 ## **Lead Maintainer’s Note**
 
-This manual records the `bodyTime()` exhibition as it actually happened: a studio practice built on consent and care, carried outward into public view. It is the first major field test of the **P(a)/PPP** stance — **Prototype (artifact) over Proposals, Pitches, and Prayers** — where a finished body of work, with its own language and tools, leads the conversation.
+This manual records `bodyTime()` as it actually happened: a studio practice built on consent and care, carried outward into public view. It is the first major field test of **P(a)/PPP** — **Prototype (artifact) over Proposals, Pitches, and Prayers** — where a finished body of work, with its own language and tools, leads the conversation.
 
-What follows traces the life of the project from the quiet of the studio to the light of the room: people arriving, a check-in, paper and breath, then the work leaving with enough clarity to be met by others.
+What follows traces the life of the project from the quiet of the studio to the light of the room: people arrive, there’s a check-in, paper and breath; then the work leaves with enough clarity to be met by others.
 
 ---
 
 ## **§1. Intent & Abstract**
 
-Translate a long-running, consent-led life-drawing praxis into public artifacts that can travel well: images that carry their context, a catalogue that speaks plainly, and invitations that open a conversation without obligation.
+Translate a long-running, consent-led life-drawing praxis into public artifacts that travel well: images that carry their context, a catalogue that speaks plainly, and invitations that open conversation without obligation.
 
 The project yielded:
 - a cohesive set of **17** unique photographic works,
@@ -34,41 +35,35 @@ The project yielded:
 
 ## **§2. Core Principles Governing This Project**
 
-- **Maculate Design.** The work keeps the texture of real bodies and the soft ambiguity of double exposure. Even the catalogue holds a tiny smile — the single `so)d` — a reminder that polish is not our god.
+- **Maculate Design.** The work keeps the texture of real bodies and the soft ambiguity of double exposure. Even the catalogue keeps a small smile — the single `so)d` — a reminder that polish is not our god.  
+  *(Also present throughout: P(a)/PPP; sovereignty over victory; and a stubborn BODY check — prints matter.)*
 
 ---
 
 ## **§3. The Artifacts (Primary `Yield`)**
 
-### **The Photographic Works.**  
+### **The Photographic Works**
 
-Sixteen unique, 1/1 double-exposure photographs, archival pigment on cotton rag. Each is a discrete yield of the studio’s consent-first ritual. A Seventeenth print that is the equal exposure layering of the prior sixteen double exposures, for an image holding 32 moments in equilibriam.
+Sixteen unique, 1/1 double-exposure photographs, archival pigment on cotton rag. Each is a discrete yield of the studio’s consent-first ritual.  
+A seventeenth print layers the sixteen prior double exposures at equal weight — an image holding **32 moments in equilibrium**.
 
-###  **The Digital Catalogue** (`Catalogue-r13_Clements_bodyTime.pdf`).  
+### **The Digital Catalogue** (`Catalogue-r13_Clements_bodyTime.pdf`)
 
-A 42-page interface: full works, the essay *“Saying Yes, Softly,”* specs, provenance notes, and at-a-glance availability.
+A **42-page** interface: full works, the essay *“Saying Yes, Softly,”* specifications, provenance notes, and at-a-glance availability.
 
+### **Trial Run** (`prototype`)
 
-###  **Trialrun** (`Prototype`) 
+Exhibited at the **Go Naked Naturist** stand, **The Sex Expo**, 29 Nov – 1 Dec 2024, Gallagher Estate.  
+Theme context: non-sexual nudity in a sexualised world. A useful off-axis stress-test of the artifact and its facade.
 
-Exhibited at Go Naked naturist stand at The Sex Expo, 29 November to 1 December 2024, Gallagher Estate. Go Naked naturist advocates for the theme: nonsexual nudity in a sexualised world.
+### **The Physical Exhibition**
 
+A two-day installation at **Stokvel Gallery** (15–16 Mar 2025): the first public attestation site for the series.
 
-### **The Physical Exhibition.**  
+### **Continuation** (Opale Art, **“Echoes of Lynch”**)
 
-A two-day installation at Stokvel Gallery (15–16 Mar 2025): the first public attestation site for the series.
-
-###  **Continuation** (`Echose of Lych Exhibition: Opale Arts`) 
-
-Opale Arts joury selected a work from bodyTime in celebration of David Lynch's oevre, saying:
-
->André S. Clements
->South Africa
->
->André S. Clements questions the way we look at the body, through images where time and gesture overlap. His photographs are born from drawing sessions where attention and consent weave a space of sharing. Here, the body is not exposed; it manifests itself in uncertainty, between appearance and erasure. Far from any search for the spectacular, his works reveal a fragile, attentive presence, where the image does not seek to capture but to let be, respecting silence and confusion.
-
-In the good company of: Alex Aartus, Sebastian Kim Bateman, Elizabeth Bloom, Virginie Gallois, Stéphane Goin, Kevin Kuenster, Vilma Leino, Lucie Logier, Daniela Lozano, Paolo Perfranceschi, Christy Powers, Denise Prince, Joël Sadaune, Polina Schneider, Martial Rossignol, Natacha Thomas, Pascal Ungerer, Isabelle Vialle, Zsuzsa Ozsváth.
-
+Work from *bodyTime()* selected by jury for inclusion (see §5.1).  
+In the company of: Alex Aartus, Sebastian Kim Bateman, Elizabeth Bloom, Virginie Gallois, Stéphane Goin, Kevin Kuenster, Vilma Leino, Lucie Logier, Daniela Lozano, Paolo Perfranceschi, Christy Powers, Denise Prince, Joël Sadaune, Polina Schneider, Martial Rossignol, Natacha Thomas, Pascal Ungerer, Isabelle Vialle, Zsuzsa Ozsváth.
 
 ---
 
@@ -76,23 +71,24 @@ In the good company of: Alex Aartus, Sebastian Kim Bateman, Elizabeth Bloom, Vir
 
 ### **4.1 Studio Praxis: “Saying Yes, Softly”**
 
-Since 2017, sessions begin with a check-in that softens the usual power gradients between artist and model. Consent is not a waiver; it’s a live posture. The double-exposure method is the formal echo of that: layered time, shared attention, and the right to be a little blurred at the edges.
+Doors open; coats find a chair; the room settles. Since 2017, sessions begin with a short check-in that softens the usual gradients between artist and model. Consent isn’t a waiver; it’s a live posture we keep adjusting together.  
+The double exposure is the formal echo of that posture: layered time, shared attention, and the right to be a little blurred at the edges.
 
 ### **4.2 `Hyperstrate` Engagement: Person-Specific Notes**
 
 After the initial showing, a small, careful outreach followed. Each note matched the function of the node it addressed.
 
 - **`Node`: The Curator**  
-  **Intent:** A peer-level reading by a senior secondary-market node.  
+  **Intent:** Peer-level reading by a senior secondary-market node.  
   **Protocol:** Two strong images first; full catalogue on request. Clean, bounded exchange; no pressure.
 
 - **`Node`: The Art Critic — *authorised, pending***  
   **Intent:** Invite thinking about method and ethics.  
-  **Protocol:** Frame the `README` as an open-practice / artist’s-book spine; present the catalogue as a concrete yield.
+  **Protocol:** Frame the `README` as open practice / artist’s-book spine; present the catalogue as concrete yield.
 
 - **`Node`: The Art Consultant — *authorised, pending***  
   **Intent:** Introduce a coherent, collectible body to primary-market conversations.  
-  **Protocol:** Lead with the series (and current availability); the catalogue as a practical tool.
+  **Protocol:** Lead with the series (and current availability); the catalogue as practical tool.
 
 - **`Node`: The Contemporary Gallerist — *authorised, pending***  
   **Intent:** Share a practice durable enough for representation.  
@@ -115,9 +111,9 @@ This visible “bilingual” move is part of the work: artifact first, then two 
 
 ## **§5. Validation & Attestation (Results)**
 
-We read success through the quality of responses, not volume.
+We read success by the quality of responses, not volume.
 
-- **Market attestation.** **8 of 16** works placed with private collectors during the initial showing, including the culminating multi-exposure `bodyTime()` piece. A clear, external signal of desirability.  
+- **Market attestation.** **8 of 16** works placed with private collectors during the initial showing (the installation count), including the culminating multi-exposure *bodyTime()* piece. Clear, external signal of desirability.  
 - **Curatorial attestation.** Thoughtful, direct reply from a senior curator; catalogue received for professional review. Protocol confirmed; conversation open.
 
 ---
@@ -138,9 +134,7 @@ This event cleanly validates the P(a)/PPP stance: a high-integrity artifact gene
 
 ## **§6. Sceptic’s Pass: Post-Mortem & Refactor Notes**
 
-- **Translation burden.** The essay works; the wall pairing helps. Keep investing in bridges without sanding off the truth.  
-- **Polish vs patina.** The catalogue is very clean. In future, consider a small “process page” to show the studio’s hand.  
-- **Signals cadence.** Fewer, better notes felt right. Maintain this pacing.
+- **Translation burden.** The essay works; the dual wall text pairing helped. Building bridges without sanding off the truth. Wort exploring pursuing further.   
 
 ---
 
