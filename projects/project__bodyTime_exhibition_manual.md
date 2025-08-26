@@ -1,5 +1,4 @@
 `projects\project__bodyTime_exhibition_manual.md`
-`projects\project__bodyTime_exhibition_manual.md`
 
 # Project: `bodyTime()` Exhibition Manual
 > **Version:** 1.0 (Stable / Archival)  
@@ -134,7 +133,7 @@ This event cleanly validates the P(a)/PPP stance: a high-integrity artifact gene
 
 ## **§6. Sceptic’s Pass: Post-Mortem & Refactor Notes**
 
-- **Translation burden.** The essay works; the dual wall text pairing helped. Building bridges without sanding off the truth. Wort exploring pursuing further.   
+- **Translation burden.** The essay works; the dual wall text pairing helped. Building bridges without sanding off the truth. Worth exploring pursuing further.   
 
 ---
 
