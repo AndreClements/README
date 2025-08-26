@@ -2,7 +2,7 @@
 <!-- repo path: docs/methods/protocol__a_pragmatics_of_engagement.md -->
 <p align="center">
   <img src="../assets/midnight-darkmagic/repo_header_midnight.svg" alt="A Pragmatics of Engagement — header" width="100%">
-</p>
+</p>docs\assets\midnight-darkmagic\repo_header_midnight.svg
 
 <p align="center">
   <img src="../assets/midnight-darkmagic/repo_badges_midnight.svg" alt="as-if • if-not • risk_index = c×p×d" width="100%">
@@ -47,10 +47,14 @@ Increase vigilance with difference, complexity, and power. A simple tool ≠ a l
 risk_index = complexity × power × distance_from_wetware
 Validation.frequency ∝ risk_index
 Inspection.depth   ∝ risk_index
-````
+```
 
 **5 — The Goal: Sovereignty, Not Victory.**
 The aim is not to outsmart `Machines` but to engage them without being consumed by their logic. Preserve the integrity and sovereignty of the `human-OS` while executing under constraint.
+
+
+**6 — The P(a)/PPP Axiom (Proof of Work).**
+Lead with evidence. A **Prototype(artifact)** is a higher-integrity signal than a **Proposal**, a **Pitch**, or a **Prayer**. Engage the `Hyperstrate` by presenting a finished case—a `yield` of the praxis—rather than a request for belief. This is the principle of showing, not telling; of presenting a fact, not an ask.
 
 ---
 

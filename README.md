@@ -6,7 +6,7 @@
 **Notation key**: code = metaphor; unless marked “executable,” snippets are conceptual scaffolding.
 
 >
-> **Version:** 1.0.0 (Stable Release)
+> **Version:** 1.0.1 (Stable Release)
 
 ---
 
@@ -14,7 +14,7 @@
 
 Seeded in apartheid-era South Africa. Compiled through a disposition towards arts, occasional not-insignificant failures, code, the odd breakdown, and recursive practices and unlearning.
 
-Major subsystems rebooted by what seemed at the time like cataclysmic trauma and psychosis. (Occupational hazzard :-))
+Major subsystems rebooted by what seemed at the time like cataclysmic trauma and psychosis. (Occupational hazard :-))
 
 System uptime since last critical failure: >22.5 years.
 Resilience modules recompiled. Some logs corrupted, others archived for forensic aesthetics.
@@ -59,7 +59,7 @@ public static function getInstance(): Operator {
 ```
 ---
 
-## § 3. The CoreAxiology (Strategy Pattern)
+## § 3. The Core Axiology (Strategy Pattern)
 The Operator prefers being governed by a strategy that implements: Vita-Socio-Anarco. This strategy may also function as a protocol for healing.
 
 ```php
@@ -81,7 +81,7 @@ class VitaSocioAnarco implements HealingStrategy {
 
 ---
 
-## § 4. The Praxis (Refractoring)
+## § 4. The Praxis — reFractoring *(refactor × refract)* {#praxis-refractoring}
 
 The system's complexity is presented through a simplified interface of methods — the "small, working models of a more ethical reality."
 
@@ -177,7 +177,8 @@ The abstract Operator runs on a specific physical chassis. Dreams write directly
     "face": "A duality of sharp nose and softer features.",
     "beard": "Long, wild, with grey streaks as a visible record of runtime.",
     "head_hair": "Short-cropped; a managed counterpoint."
-  }
+  },
+  "favourite colour": "The first line of Neuromancer."
 }
 ```
 ---
