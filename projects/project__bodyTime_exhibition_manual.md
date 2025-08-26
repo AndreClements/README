@@ -26,31 +26,49 @@ What follows traces the life of the project from the quiet of the studio to the 
 Translate a long-running, consent-led life-drawing praxis into public artifacts that can travel well: images that carry their context, a catalogue that speaks plainly, and invitations that open a conversation without obligation.
 
 The project yielded:
-- a cohesive set of **16** unique photographic works,
-- a professional digital catalogue,
-- a small set of considered, person-to-person engagements with key `nodes` in the art-world network.
+- a cohesive set of **17** unique photographic works,
+- a solid digital catalogue,
+- a small set of considered, direct engagements with key `nodes` in the art-world network.
 
 ---
 
 ## **§2. Core Principles Governing This Project**
 
 - **Maculate Design.** The work keeps the texture of real bodies and the soft ambiguity of double exposure. Even the catalogue holds a tiny smile — the single `so)d` — a reminder that polish is not our god.
-- **P(a)/PPP.** Lead with the artifact. Let the work itself be the first proof.
-- **Sovereignty, Not Victory.** Seek dialogue, not capture. Always keep a live `exit()`.
-- **The BODY Check.** Prints matter. They have weight, fibre, and light that a PDF can only approximate.
 
 ---
 
 ## **§3. The Artifacts (Primary `Yield`)**
 
-1) **The Photographic Works.**  
-Sixteen unique, 1/1 double-exposure photographs, archival pigment on cotton rag. Each is a discrete yield of the studio’s consent-first ritual.
+### **The Photographic Works.**  
 
-2) **The Digital Catalogue** (`Catalogue-r13_Clements_bodyTime.pdf`).  
-A 41-page interface: full works, the essay *“Saying Yes, Softly,”* specs, provenance notes, and at-a-glance availability.
+Sixteen unique, 1/1 double-exposure photographs, archival pigment on cotton rag. Each is a discrete yield of the studio’s consent-first ritual. A Seventeenth print that is the equal exposure layering of the prior sixteen double exposures, for an image holding 32 moments in equilibriam.
 
-3) **The Physical Exhibition.**  
+###  **The Digital Catalogue** (`Catalogue-r13_Clements_bodyTime.pdf`).  
+
+A 42-page interface: full works, the essay *“Saying Yes, Softly,”* specs, provenance notes, and at-a-glance availability.
+
+
+###  **Trialrun** (`Prototype`) 
+
+Exhibited at Go Naked naturist stand at The Sex Expo, 29 November to 1 December 2024, Gallagher Estate. Go Naked naturist advocates for the theme: nonsexual nudity in a sexualised world.
+
+
+### **The Physical Exhibition.**  
+
 A two-day installation at Stokvel Gallery (15–16 Mar 2025): the first public attestation site for the series.
+
+###  **Continuation** (`Echose of Lych Exhibition: Opale Arts`) 
+
+Opale Arts joury selected a work from bodyTime in celebration of David Lynch's oevre, saying:
+
+>André S. Clements
+>South Africa
+>
+>André S. Clements questions the way we look at the body, through images where time and gesture overlap. His photographs are born from drawing sessions where attention and consent weave a space of sharing. Here, the body is not exposed; it manifests itself in uncertainty, between appearance and erasure. Far from any search for the spectacular, his works reveal a fragile, attentive presence, where the image does not seek to capture but to let be, respecting silence and confusion.
+
+In the good company of: Alex Aartus, Sebastian Kim Bateman, Elizabeth Bloom, Virginie Gallois, Stéphane Goin, Kevin Kuenster, Vilma Leino, Lucie Logier, Daniela Lozano, Paolo Perfranceschi, Christy Powers, Denise Prince, Joël Sadaune, Polina Schneider, Martial Rossignol, Natacha Thomas, Pascal Ungerer, Isabelle Vialle, Zsuzsa Ozsváth.
+
 
 ---
 
