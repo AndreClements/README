@@ -133,7 +133,7 @@ This event cleanly validates the P(a)/PPP stance: a high-integrity artifact gene
 
 ## **§6. Sceptic’s Pass: Post-Mortem & Refactor Notes**
 
-- **Translation burden.** The essay works; the dual wall text pairing helped. Building bridges without sanding off the truth. Worth exploring pursuing further.   
+- **Translation burden.** The essay works; the dual wall text pairing helped. Keep building bridges without sanding off the truth. Worth both exploring and actively pursuing further.
 
 ---
 

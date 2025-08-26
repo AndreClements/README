@@ -63,7 +63,8 @@ Lead with evidence. A **Prototype(artifact)** is a higher-integrity signal than 
 This document supplies the engagement grammar for the `human-OS`. **`intent` is the effective index key** for contracts and routing. The operational routines and protocol “solvents” are documented in their respective modules:
 
 * **Observer Circuit Breaker:** see `docs/protocols/observerCircuitBreaker_DBC_CQS.md` for `And Yet`, falsifiability gates, `Empty Turn`, and re-admit logic.
-* **Operator Praxis:** see `README.md` §§2–6 for `Operator`, `Network`, `BODY`, and runtime exception posture.
+* **Operator Praxis:** see `README.md` §§2–6 for `Operator`, `Network`, `BODY`, and runtime 
+* **Hyperstrate Model:** see `docs/models/philosophy_of_hyperstrate.md` for the protocolled field where inter-node transactions are verified.exception posture.
 
 **Minimal contract (indexing on `intent`).**
 
