@@ -35,7 +35,7 @@ Diff-Sophistication translates heterogeneous sophistication (people, tools, cont
 
 ## 1. Introduction: The Need for Sophisticated Differentiation
 
-In an increasingly interconnected and complex world, the ability to accurately assess and differentiate yields—economic, artistic, intellectual—of multi-unit agentic artefacts is pertinent. Conventional metrics might fall short, failing to capture the intricate interplay of forces that contribute to an artefact's overall value of affordances. Diff-Sophistication emerges from the need to move beyond superficial analysis, exploring the hyperstrate layer of such artefacts.
+In an increasingly interconnected and complex world, the ability to accurately assess and differentiate yields—economic, artistic, intellectual—of multi-unit agentic artefacts is, **pertinent**. Conventional metrics might fall short, failing to capture the intricate interplay of forces that contribute to an artefact's overall value of affordances. Diff-Sophistication emerges from the need to move beyond superficial analysis, exploring the hyperstrate layer of such artefacts.
 
 ### 1.1. Contextual Foundations: Hyperstrate and Parametric Authorship
 
