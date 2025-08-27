@@ -8,7 +8,7 @@
 >   Articulate the outlines of a publication text with commercial application potentiality on the conceptual interface surfaces of a set of yield-differentiation techniques and conventions when considering [a Philosophy of Hyperstrate (v0.2.1)](https://github.com/AndreClements/README/blob/main/docs/models/philosophy_of_hyperstrate.md) and applying the principles and axiology expressed in [The Fourth Dimension as Execution: A Formalisation of Parametric Authorship via the Hyperstrate, Semiological Ground, and Systemic Implications](https://github.com/AndreClements/README/blob/main/projects/theses/parametric_authorship.md) filtered through linguistic texture and semiological characteristics of [some of my poetry](https://andresclements.com/cat/poems/) and the frame of reference of my [weblog](https://andresclements.com/cat/blog/) and [artwork](https://andresclements.com/artwork/) looking at the need to evaluate multi-unit agentic artefacts, viewed through the prism of ideogrammatic equations validated as specified alongside aiming to satisfy the alongside stated principles while satisfying [SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod).
 > scope: ["studio", "commercial transactions", "academia"]
 > status: draft/development
-> version: 0.0.2
+> version: 0.0.3
 > last_updated: 2025-08-27
 > repository_binding:
 >    base_rel: "https://github.com/AndreClements/README"
@@ -18,7 +18,7 @@
 >   - "../projects/theses/parametric_authorship.md" # [1]
 >   - "../docs/landscapifications/LANDSCAPIFICATION_INIT.md" # [2]
 > validation: ["falsifiability_probe", "AndYet_counterread","Proximity_to_intent"]
-> principles(for pursuit): ["multi-partial", "non-weaponisation", "situational exceptions", "consentful directness", "responsible efficiency"]
+> principles(for pursuit): ["multi-partial", "non-weaponisation", "situational exceptions", "consentful directness", "responsible efficiency","precaution"]
 > link_policy:
 >    max_depth: 3
 >    preference: "repo-internal"
@@ -27,7 +27,7 @@
 
 ## Preamble: The Conceptual Interface of Yield-Differentiation
 
-This document outlines a business case for the concept of "Diff-Sophistication" – a framework for evaluating multi-unit agentic artefacts through the lens of ideogrammatic equations. Drawing heavily from a "Philosophy of Hyperstrate" and "The Fourth Dimension as Execution: A Formalisation of Parametric Authorship," Diff-Sophistication offers a pragmatic approach to understanding and engaging with complex systems. This analysis is filtered through the linguistic and semiological characteristics of [poetry](https://andresclements.com/cat/poems/) and the broader intellectual landscape of my [weblog](https://andresclements.com/cat/blog/) and [artwork](https://andresclements.com/artwork/), while aiming for interdisciplinary master's level complexity.
+**This** document outlines a business case for the concept of "Diff-Sophistication" – a framework for evaluating multi-unit agentic artefacts through the lens of ideogrammatic equations. Drawing heavily from a "Philosophy of Hyperstrate" and "The Fourth Dimension as Execution: A Formalisation of Parametric Authorship," Diff-Sophistication offers a pragmatic approach to understanding and engaging with complex systems. This analysis is filtered through the linguistic and semiological characteristics of [poetry](https://andresclements.com/cat/poems/) and the broader intellectual landscape of my [weblog](https://andresclements.com/cat/blog/) and [artwork](https://andresclements.com/artwork/), while aiming for interdisciplinary master's level complexity.
 
 ## Executive Summary
 
@@ -43,7 +43,7 @@ The ["Philosophy of Hyperstrate"](https://github.com/AndreClements/README/blob/m
 
 ### 1.2. The Role of Ideogrammatic Equations
 
-At the heart of Diff-Sophistication are ideogrammatic equations. These are not merely mathematical formulas but rather conceptual constructs that encapsulate complex relationships in a visually and semantically rich manner. Inspired by poetic linguistic textures and artistic ideograms, these equations provide a means to validate and express the nuanced value propositions of multi-unit agentic artefacts.
+At the heart of Diff-Sophistication are ideogrammatic equations. These are not only mathematical formulas but rather conceptual constructs that encapsulate complex relationships in a visually and semantically rich manner. Inspired by poetic linguistic textures and artistic ideograms, these equations provide a means to validate and express the nuanced value propositions of multi-unit agentic artefacts.
 
 ## 2. Business Case FOR Diff-Sophistication
 
