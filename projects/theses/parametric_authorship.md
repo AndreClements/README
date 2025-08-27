@@ -6,23 +6,22 @@
 
 > Operates under the praxis in **../README.md** (canonical mirror: https://github.com/AndreClements/README/blob/main/README.md).  
 > Style & axiology: *as-if / if-not*, maculate design, sovereignty over victory, scaled validation by risk_index.
-
-```yaml
-contract:
-  intent: "doctoral thesis draft (practice-led, theory-bearing, SOLID)"
-  scope: "projects/theses/parametric_authorship.md"
-  validation: ["falsifiability_probe","AndYet_counterread"]
-  repository_binding:
-    readme_rel: "../README.md"
-    methods_rel:
-      - "../docs/methods/METHODOLOGY_CI.md"
-    protocols_rel:
-      - "../docs/protocols/observerCircuitBreaker_DBC_CQS.md"
-      - "../docs/protocols/protocol__agentic_envelope.md"
-      - "../docs/protocols/protocol__provenance_ledger.md"
-    dependencies_rel:
-      - "../docs/DEPENDENCIES.md"
-```
+> ```yaml
+>contract:
+>  intent: "doctoral thesis draft (practice-led, theory-bearing, SOLID)"
+>  scope: "projects/theses/parametric_authorship.md"
+>  validation: ["falsifiability_probe","AndYet_counterread"]
+>  repository_binding:
+>    base_rel: "https://github.com/AndreClements/README"
+>    methods_rel:
+>      - "../docs/methods/METHODOLOGY_CI.md"
+>    protocols_rel:
+>      - "../docs/protocols/observerCircuitBreaker_DBC_CQS.md"
+>      - "../docs/protocols/protocol__agentic_envelope.md"
+>      - "../docs/protocols/protocol__provenance_ledger.md"
+>    dependencies_rel:
+>      - "../docs/DEPENDENCIES.md"
+> ```
 
 # Abstract
 
