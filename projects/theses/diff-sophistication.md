@@ -8,10 +8,11 @@
 >   Articulate the outlines of a publication text with commercial application potentiality on the conceptual interface surfaces of a set of yield-differentiation techniques and conventions when considering [a Philosophy of Hyperstrate (v0.2.1)](https://github.com/AndreClements/README/blob/main/docs/models/philosophy_of_hyperstrate.md) and applying the principles and axiology expressed in [The Fourth Dimension as Execution: A Formalisation of Parametric Authorship via the Hyperstrate, Semiological Ground, and Systemic Implications](https://github.com/AndreClements/README/blob/main/projects/theses/parametric_authorship.md) filtered through linguistic texture and semiological characteristics of [some of my poetry](https://andresclements.com/cat/poems/) and the frame of reference of my [weblog](https://andresclements.com/cat/blog/) and [artwork](https://andresclements.com/artwork/) looking at the need to evaluate multi-unit agentic artefacts, viewed through the prism of ideogrammatic equations validated as specified alongside aiming to satisfy the alongside stated principles while satisfying [SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod).
 > scope: ["studio", "commercial transactions", "academia"]
 > status: draft/development
-> version: 0.0.3
+> version: 0.0.4
 > last_updated: 2025-08-27
 > repository_binding:
 >    base_rel: "https://github.com/AndreClements/README"
+>    base_discipline: "technology"
 >    methods_rel:
 >      - "../docs/methods/METHODOLOGY_CI.md"
 > aligns:
