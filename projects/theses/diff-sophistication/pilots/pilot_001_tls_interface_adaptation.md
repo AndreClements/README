@@ -186,12 +186,3 @@ CustomLog /var/www/licensing-app/logs/access_tls.log tls_detailed
 3. **Dual-cert pattern.** ECDSA primary + RSA fallback as reusable **surface protocol** for heterogeneous sophistication.
 4. **Minimal proof kit.** TLS-aware access log + bounded rotation as the smallest durable observability set.
 
----
-
-**Commit hint**
-
-```
-feat(pilot): add pilot_001_tls_interface_adaptation (scoped vhost κ-adapter, dual certs, TLS 1.2+; probe ethics + bounded logging)
-```
-
-If you want reusable **definition cards** for Diff / Sophistication / DS to drop across the repo, say the word and I’ll draft them as tiny include-ready blocks.
