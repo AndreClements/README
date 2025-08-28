@@ -1,0 +1,35 @@
+`docs/protocols/room-card__host_multi_party_encounter.md`
+
+
+# Room Card — Multi-Party Encounter (Draft)
+
+>**Configuration**
+>```yaml
+>contract:
+>  intent: "Start-of-session readout for brave, maculate rooms; minimal guards; situational exceptions."
+>  status: draft/development
+>  version: 0.2.0
+>  aligns:
+>    - "../projects/theses/parametric_authorship.md" # [1]
+>    - "../docs/landscapifications/LANDSCAPIFICATION_INIT.md" # [2]
+
+We aim to have a Brave room, not a court, but also safety.
+Express yourself freely but don’t recruit others into drama.
+Consider bandwidth and other constraints of the collective.
+Critique the work, the pose, the gesture, not the person.
+Tap‑out is available; just signal.
+Advice by request.
+No unnecesary relays; direct consentful communication prefered.
+
+— Host holds multi‑partial attention; neutrality is not required.
+— We prefer conflict **resilience** to neat **resolution**.
+
+---
+
+## Footnotes
+
+\[1] Parametric Authorship — `projects/theses/parametric_authorship.md`
+\[2] LANDSCAPIFICATION\_INIT — `docs/landscapifications/LANDSCAPIFICATION_INIT.md`
+
+```
+

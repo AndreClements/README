@@ -1,4 +1,5 @@
 # flatten-md.ps1  — curated repo -> single Markdown "book" (+ optional HTML)
+#usage: powershell -ExecutionPolicy Bypass -File .\flatten-md.ps1
 param(
   [string]$Root = (Get-Location).Path,
   [string]$OutName = $("README__flattened_{0}.md" -f (Get-Date -Format "yyyyMMdd_HHmmss")),
