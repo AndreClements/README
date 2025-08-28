@@ -2,41 +2,48 @@
 
 # Case Study: Diff-Sophistication at a TLS Interface
 
-*A pilot in maculate reconciliation and parametric interface design*
-
+>*A pilot in maculate reconciliation and parametric interface design*
+>
 > ```yaml
 > contract:
->   intent: "Anonymised case translating a live server migration into a validation pilot for Diff-Sophistication + Parametric Authorship, enriched with practitioner dialogue."
+>   intent: "Anonymised case translating a live server migration into a validation pilot for Diff-Sophistication + Parametric Authorship, enriched with practitioner dialogue. Observations from 'the wild'."
+>   field: "Human–Computer Interaction"
 >   scope: ["commercial transactions", "academia"]
 >   status: "complete"
 >   validation: ["falsifiability_probe", "Proximity_to_intent", "AndYet_counterread"]
->   principles(applied): ["situational exceptions", "responsible efficiency", "precaution", "consentful directness"]
+>   principles_applied: ["situational exceptions", "responsible efficiency", "precaution", "consentful directness"]
+>   ethics:
+>     anonymisation: "roles, hosts; timestamps≈day; quotes lightly paraphrased"
+>     non_weaponisation: true
+>   metrics: ["F","I","C","T_x","consent_score","defaults_digest_change","handshake_success_rate","WT_hits","CoCuP_events","rollback_count"]
+>   tags: ["TLS","SECLEVEL=1","TLS1.2","TLS1.3","ECDSA","RSA","κ-adapter","PVP"]
 >   aligns:
->     - "../../parametric_authorship.md"                     # adjust if repo layout differs
->     - "../../../../docs/methods/protocol__a_pragmatics_of_engagement.md"
+>     - "projects/theses/parametric_authorship.md"
+>     - "projects/theses/diff-sophistication.md"
+>     - "docs/methods/METHODOLOGY_CI.md"
 > ```
 
 ## Preamble: propositions escalated from practice
 
 This pilot also **generates** definitions to be promoted into the parent theses.
 
-* **Diff (Δ).** Deliberately double-valent:
-  (1) *differentiation* — a small, controlled parameter change;
-  (2) *git diff* — the minimal, auditable textual/operational delta.
-  Here, `Δ` lives at the **interface**: `Δ_rule := {SECLEVEL=1 @ vhost}`, `Δ_cert := {+RSA fallback}`, `Δ_proto := {TLS 1.2/1.3 only}`.
+* **Diff (Δ).** Deliberately double-valent:  
+  (1) *differentiation* — a small, controlled parameter change;  
+  (2) *git diff* — the minimal, auditable textual/operational delta.  
+  Here, Δ lives at the **interface**: `Δ_rule := {SECLEVEL=1@vhost}`, `Δ_cert := {+RSA fallback}`, `Δ_proto := {TLS{1.2,1.3} only}`.
 
 * **Sophistication (S).** Not status theatre; an operational property: **capacity to maintain declared invariants under small perturbations** while exposing **legible control surfaces** (headers, logs, ledgers).
 
 * **Diff-Sophistication (DS).** Yield from small, legible deltas:
-
   $$
   DS := \frac{\Delta Y}{T_x + (1 - I)} \quad \text{with} \quad Y = F \cdot I \cdot C
   $$
+  `F` = functionality ∈ {0,1}, `I` = integrity ∈ [0,1], `C` = consent ∈ [0,1], `T_x` = complexity tax of the change.  
+  **Goal:** maximise `ΔY` via the smallest safe `Δ`, keep `T_x` low, conserve integrity, sustain consent.
 
-  `F`=functionality∈{0,1}, `I`=integrity∈\[0,1], `C`=consent∈\[0,1], `Tₓ`=complexity tax of the change.
-  **Goal:** maximise `ΔY` via the smallest safe `Δ`, keep `Tₓ` low, conserve integrity, sustain consent.
+* **Rails (ethics & anonymisation).** Hosts → `lic.example.com`; humans → roles; timestamps ≈ day; quotes lightly paraphrased; **non-weaponisation** governs publication.
 
-> **Anonymisation rails.** Hosts/services appear as `lic.example.com`. Human names are replaced by roles: **System Steward**, **Application Owner**, **Observer Node**. Quotes are lightly paraphrased to preserve tone, not identity.
+* **Vital signals.** `defaults_digest_change`, `handshake_success_rate ↑`, `WT_hits = 0`, `CoCuP_events = 0`, `rollback_count ≤ 1`.
 
 ---
 

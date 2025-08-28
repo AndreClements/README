@@ -1,4 +1,4 @@
-`projects\theses\parametric_authorship.md`
+`projects/theses/parametric_authorship.md`
 ### **Thesis Prototype**
 
 # **The Fourth Dimension as Execution**

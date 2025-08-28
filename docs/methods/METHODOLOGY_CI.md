@@ -1,4 +1,4 @@
-`/docs/methods/protocol__a_pragmatics_of_engagement.md`
+`docs\methods\METHODOLOGY_CI.md`
 <!-- repo path: docs/methods/protocol__a_pragmatics_of_engagement.md -->
 <p align="center">
   <img src="../assets/midnight-darkmagic/repo_header_midnight.svg" alt="A Pragmatics of Engagement — header" width="100%">
