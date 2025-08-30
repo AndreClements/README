@@ -41,13 +41,13 @@ We will structure the project like a professional design studio. This gives stud
 > **Why we use it:** This tool helps students feel more capable and confident. It quickly gives them many different visual ideas, which reduces the fear of starting. The student is in control because they choose which ideas to keep and develop. The AI is just a tool to start their thinking.
 
 ### The "Language Card v0.1"
-> **Why we use it:** This is the most important tool for helping students find and describe their own artistic style. It asks them to write down simple rules for how they use lines, light and dark, and marks. This makes their artistic style something clear and real that they can use again in future projects. To make this tangible for students, we frame this as the 'blueprint for their artistic vehicle'—connecting the abstract idea of a 'personal voice' to the practical concept of a career vehicle they can build and own.
+> **Why we use it:** This is the most important tool for helping students find and describe their own artistic style. It asks them to write down simple rules for how they use lines, light and dark, and marks. This makes their artistic style something clear and real that they can use again in future projects. To make this tangible for students, we frame this as the 'blueprint for their artistic vehicle'—connecting the abstract idea of a 'personal voice' to the practical concept of a **career vehicle** they can build and own.
 
 ### The Self-Assessment "Growth Audit"
 > **Why we use it:** This tool helps students think about their own learning process. By asking them to give points to different parts of the project, we encourage them to see value in the whole journey – including the difficult parts. This respects their effort and helps them focus on growth, not just the final grade.
 
 ## 5. How This Connects to Learning Theory (SDT)
-This approach operationalizes key concepts from the Learning Guide, such as fostering "disruption and rupture" in a positive light (UJ, 2024:8) and avoiding the "impoverishment" of "thin and predictable ideas" (UJ, 2024:7). The framework is designed through the lens of **Differential Sophistication** (Clements, 2023b), providing multiple access points for students with varying levels of confidence and skill.
+This approach operationalizes key concepts from the Learning Guide, such as fostering "disruption and rupture" in a positive light (UJ, 2024:8) and avoiding the "impoverishment" of "thin and predictable ideas" (UJ, 2024:7). The framework is designed through the lens of **Differential Sophistication** (Clements, 2023b), providing multiple access points for students with varying levels of **confidence and skill**.
 
 This new approach is based on Self-Determination Theory (SDT), which says that students are most motivated when three needs are met:
 
@@ -73,7 +73,7 @@ We also build on a foundation of **Safety and Dignity**, where it is okay to try
 ### References and Links
 *   Clements, A. (2023a). *Parametric Authorship*. GitHub Repository. Available at: https://github.com/AndreClements/README/blob/main/projects/theses/parametric_authorship.md (Accessed: 30 August 2025).
 *   Clements, A. (2023b). *Differential Sophistication*. GitHub Repository. Available at: https://github.com/AndreClements/README/blob/main/projects/theses/diff-sophistication.md (Accessed: 30 August 2025).
-*   Clements, J. (Date TBC). *[Placeholder for relevant work on Safety and Dignity]*.
+*   Clements, J. L. (Date TBC). *[Placeholder for relevant work on Safety and Dignity]*.
 *   Deci, E. L. & Ryan, R. M. (2000). 'The "What" and "Why" of Goal Pursuits: Human Needs and the Self-Determination of Behavior'. *Psychological Inquiry*, 11(4), pp. 227–268.
 *   University of Johannesburg. (2024). *Drawing II (BADR7Y2) Learning Guide – 2024*. Johannesburg: Department of Visual Art.
 
