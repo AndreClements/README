@@ -72,4 +72,4 @@ If you forget everything else, hold this in your head. This is the core of the p
 
 Okay. Let's get into the workshop.
 
-PS. In case the flat list of films is diffiucult to choose from we've also developed a kind of [map of the films list](https://github.com/AndreClements/README/blob/main/projects/project__film-resp_lan-card/film_territory_guide.md) to support your process of choosing - which is also a part of your authorship - you authot the paramaters of the space you are creating for yourself to work in - we try to make that as sensible as we can.
+PS. In case the flat list of films is diffiucult to choose from we've also developed a kind of [map of the films list](https://github.com/AndreClements/README/blob/main/projects/project__film-resp_lan-card/film_territory_guide.md) to support your process of choosing - which is also a part of your authorship - you author the paramaters of the space you are creating for yourself to work in - we try to make that as sensible as we can.

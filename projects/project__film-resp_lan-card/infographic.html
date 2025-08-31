@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Guide to the Film Territories</title>
+    
+    <!-- Performance Optimization: Preconnect to Google Fonts servers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --text-color: #e0e0e0;
+            --heading-color: #ffffff;
+            --border-color: #333333;
+            --shadow-color: rgba(0, 0, 0, 0.2);
+            --subtle-text: #888888;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 2rem;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--heading-color);
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #adb5bd;
+            max-width: 60ch;
+            margin: 0 auto;
+        }
+
+        .territory-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 12px var(--shadow-color);
+            transition: transform 0.2s ease, border-color 0.2s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #555;
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 1rem;
+        }
+
+        .card-number {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: #444;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .card-body {
+            flex-grow: 1;
+        }
+
+        .card-body p {
+            margin: 0 0 1rem 0;
+            font-size: 0.95rem;
+        }
+
+        .card-body strong {
+            color: var(--heading-color);
+            font-weight: 700;
+        }
+
+        .film-list {
+            list-style-type: none;
+            padding: 0;
+            margin-top: auto;
+            font-size: 0.9rem;
+            color: #b0b0b0;
+        }
+        
+        .film-list li {
+            margin-bottom: 0.25rem;
+        }
+        
+        /* --- Equidistant Hue Coloring --- */
+        .territory-grid .card:nth-child(1) .card-title { color: hsl(0, 85%, 65%); }
+        .territory-grid .card:nth-child(2) .card-title { color: hsl(40, 85%, 65%); }
+        .territory-grid .card:nth-child(3) .card-title { color: hsl(80, 85%, 65%); }
+        .territory-grid .card:nth-child(4) .card-title { color: hsl(120, 85%, 65%); }
+        .territory-grid .card:nth-child(5) .card-title { color: hsl(160, 85%, 65%); }
+        .territory-grid .card:nth-child(6) .card-title { color: hsl(200, 85%, 65%); }
+        .territory-grid .card:nth-child(7) .card-title { color: hsl(240, 85%, 65%); }
+        .territory-grid .card:nth-child(8) .card-title { color: hsl(280, 85%, 65%); }
+        .territory-grid .card:nth-child(9) .card-title { color: hsl(320, 85%, 65%); }
+        
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            font-style: italic;
+            color: var(--subtle-text);
+        }
+
+        /* UX Optimization: Better padding on small screens */
+        @media (max-width: 480px) {
+            body {
+                padding: 1rem;
+            }
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+
+        /* UX Optimization: Print-friendly styles */
+        @media print {
+            body {
+                background-color: #ffffff;
+                color: #000000;
+                padding: 0;
+            }
+            .card {
+                box-shadow: none;
+                border: 1px solid #ccc;
+                break-inside: avoid; /* Prevents cards from splitting across pages */
+            }
+            .card-title, .card-body strong, header h1 {
+                color: #000000 !important; /* Overrides inline HSL colors */
+            }
+            .card-body, .film-list, header p, footer {
+                color: #333 !important;
+            }
+            .card-number {
+                color: #ddd !important;
+            }
+            header, footer {
+                text-align: left;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>A Guide to the Film Territories</h1>
+            <p>Your Starting Point for the Filmic Response Project. These are not genres, but territories of feeling, style, and the big questions the films ask.</p>
+        </header>
+
+        <!-- Accessibility Optimization: Main content area -->
+        <main>
+            <div class="territory-grid">
+                <!-- Card 1: The Grid -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-number">1</span>
+                        <h2 class="card-title">The Grid</h2>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Vibe:</strong> Order, systems, principles. Precise, controlled visual style. Tension when rules are broken or the world isn't fair.</p>
+                        <p><strong>Interested in:</strong> Patterns, justice, social structures, critique, clean and powerful compositions.</p>
+                        <ul class="film-list">
+                            <li>The Grand Budapest Hotel (#40)</li>
+                            <li>Persepolis (#28)</li>
+                            <li>Citizen Kane (#9)</li>
+                            <li>The Man Who Wasn't There (#42)</li>
+                            <li>Zero Dark Thirty (#52)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 2: The Empath's Mirror -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-number">2</span>
+                        <h2 class="card-title">The Empath's Mirror</h2>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Vibe:</strong> Relationships, connection, sacrifice. Close, intimate feelings between people and the emotional cost of caring.</p>
+                        <p><strong>Interested in:</strong> Intimacy, secrets, relationships, telling stories through portraits and human gestures.</p>
+                        <ul class="film-list">
+                            <li>Amélie (#1)</li>
+                            <li>Talk to Her (#37)</li>
+                            <li>Portrait of a Lady on Fire (#30)</li>
+                            <li>Casablanca (#7)</li>
+                            <li>Cinema Paradiso (#8)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 3: In the Spotlight -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-number">3</span>
+                        <h2 class="card-title">In the Spotlight</h2>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Vibe:</strong> Performance, ambition, identity. The difference between who we are and the "mask" we show the world.</p>
+                        <p><strong>Interested in:</strong> Transformation, ambition, masks, success, and the tension between real and fake.</p>
+                        <ul class="film-list">
+                            <li>Being John Malkovich (#4)</li>
+                            <li>The Man Who Sold His Skin (#41)</li>
+                            <li>Mulholland Drive (#25)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 4: A Dreamer's Loss -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-number">4</span>
+                        <h2 class="card-title">A Dreamer's Loss</h2>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Vibe:</strong> Poetic, dreamlike (or nightmarish). Filled with memory, beauty, sadness, and the search for identity.</p>
+                        <p><strong>Interested in:</strong> Memory, beauty, melancholy, symbolism, creating work with a strong emotional atmosphere.</p>
+                        <ul class="film-list">
+                            <li>Lost in Translation (#20)</li>
+                            <li>Wings of Desire (#49)</li>
+                            <li>Melancholia (#21)</li>
+                            <li>Pan's Labyrinth (#27)</li>
+                            <li>The Diving Bell and the Butterfly (#38)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 5: Hideout -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-number">5</span>
+                        <h2 class="card-title">Hideout</h2>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Vibe:</strong> Watching, knowing, and trying to understand a complex puzzle. A character who sees things from a distance.</p>
+                        <p><strong>Interested in:</strong> Secrets, knowledge, systems, observation, creating complex, detailed, and layered images.</p>
+                        <ul class="film-list">
+                            <li>Rear Window (#31)</li>
+                            <li>Memento (#22)</li>
+                            <li>The Face of Another (#39)</li>
+                            <li>You Were Never Really Here (#51)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 6: Watchtower -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-number">6</span>
+                        <h2 class="card-title">Watchtower</h2>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Vibe:</strong> Suspense, anxiety, and the search for safety in a dangerous world. Makes you question who to trust.</p>
+                        <p><strong>Interested in:</strong> Suspense, trust, community under pressure, creating work with a feeling of tension.</p>
+                        <ul class="film-list">
+                            <li>Hotel Rwanda (#16)</li>
+                            <li>The Power of the Dog (#44)</li>
+                            <li>Monster (#23)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Card 7: Wanderer's Carnival -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-number">7</span>
+                        <h2 class="card-title">Wanderer's Carnival</h2>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Vibe:</strong> Escape, adventure, and the search for freedom. Often energetic, spectacular, and sometimes chaotic.</p>
+                        <p><strong>Interested in:</strong> Journeys, escape, freedom, spectacle, creating dynamic and energetic compositions.</p>
+                        <ul class="film-list">
+                            <li>Touki Bouki (#47)</li>
+                            <li>Fitzcarraldo (#14)</li>
+                            <li>Songs from the Second Floor (#36)</li>
+                            <li>Weekend (#48)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 8: Rebel's Fortress -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-number">8</span>
+                        <h2 class="card-title">Rebel's Fortress</h2>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Vibe:</strong> Power, control, and fighting for justice. Intense, direct, exploring conflict and the struggle for survival.</p>
+                        <p><strong>Interested in:</strong> Power, justice, truth, conflict, making bold and confrontational statements with your art.</p>
+                        <ul class="film-list">
+                            <li>Apocalypse Now (#2)</li>
+                            <li>Old Boy (#26)</li>
+                            <li>Selma (#35)</li>
+                            <li>This is not a Burial, It's a Resurrection (#46)</li>
+                            <li>Yeelen (#50)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 9: The Silent River -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-number">9</span>
+                        <h2 class="card-title">The Silent River</h2>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Vibe:</strong> Slow-moving, creating a powerful sense of atmosphere and place. Quiet harmony, unspoken connections.</p>
+                        <p><strong>Interested in:</strong> Atmosphere, landscape, slow time, quietness, creating work with a strong sense of mood.</p>
+                        <ul class="film-list">
+                            <li>Drive My Car (#12)</li>
+                            <li>Atlantics (#3)</li>
+                            <li>La Vie sur Terre (#18)</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        
+        <footer>
+            <p>Use this guide as a starting point, and trust your own response to the films. Happy viewing.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
