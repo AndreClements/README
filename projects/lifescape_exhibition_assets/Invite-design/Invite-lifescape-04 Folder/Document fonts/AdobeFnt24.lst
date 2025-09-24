@@ -1,0 +1,123 @@
+%!Adobe-FontList 1.24
+%Locale:0x809
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AlegreyaSans-Italic
+FamilyName:Alegreya Sans
+StyleName:Italic
+FullName:Alegreya Sans Italic
+MenuName:Alegreya Sans
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\User\Documents\GitHub\README\projects\lifescape_exhibition_assets\Invite-design-lifescape-r04\Invite-lifescape-04 Folder\Document fonts\AlegreyaSans-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:250588
+FileModTime:1757524128
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Alegreya Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:IBMPlexMono-Bold
+FamilyName:IBM Plex Mono
+StyleName:Bold
+FullName:IBM Plex Mono Bold
+MenuName:IBM Plex Mono
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\User\Documents\GitHub\README\projects\lifescape_exhibition_assets\Invite-design-lifescape-r04\Invite-lifescape-04 Folder\Document fonts\IBMPlexMono-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:135932
+FileModTime:1748591472
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,IBM Plex Mono
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:IBMPlexMono-Medium
+FamilyName:IBM Plex Mono
+StyleName:Medium
+FullName:IBM Plex Mono Medium
+MenuName:IBM Plex Mono Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\User\Documents\GitHub\README\projects\lifescape_exhibition_assets\Invite-design-lifescape-r04\Invite-lifescape-04 Folder\Document fonts\IBMPlexMono-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:134880
+FileModTime:1748591472
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,IBM Plex Mono Medium
+NameArray:0,Win,16,IBM Plex Mono
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:IBMPlexMono-Regular
+FamilyName:IBM Plex Mono
+StyleName:Regular
+FullName:IBM Plex Mono Regular
+MenuName:IBM Plex Mono
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\User\Documents\GitHub\README\projects\lifescape_exhibition_assets\Invite-design-lifescape-r04\Invite-lifescape-04 Folder\Document fonts\IBMPlexMono-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:133720
+FileModTime:1748591472
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,IBM Plex Mono
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\User\Documents\GitHub\README\projects\lifescape_exhibition_assets\Invite-design-lifescape-r04\Invite-lifescape-04 Folder\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:231312
+FileModTime:1265288442
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
