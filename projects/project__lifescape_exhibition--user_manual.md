@@ -195,7 +195,7 @@ Press Release
 lifescape() — A collaborative exhibition by Life Drawing Randburg
 4–5 October 2025 | Stokvel Gallery, 27 Boxes, Melville, Johannesburg
 
-The exhibition lifescape() gathers more than twenty artists connected through Life Drawing Randburg, a community studio where observation, attention, and practice are shared. This is the group’s first collective showing: works in drawing, painting, and adjacent media that bring the immediacy of the life-room into public space.
+The exhibition lifescape() gathers artists connected through Life Drawing Randburg, a community studio where observation, attention, and practice are shared. Participants span from first-time exhibitors to internationally recognised figures. This is the group’s first collective showing: works in drawing, painting, and adjacent media that carry the immediacy of the life-room into public space, while also extending outward into the wider practices of each artist.
 
 The title — lifescape() — borrows its syntax from programming. Read as a function call, it suggests a process set in motion. The exhibition does much the same: it opens a space where focus, striving, faltering, and occasional success belong to the same breath. A space where the living line can happen — marks made in the moment, not as decoration alone, but as evidence that living took place.
 
