@@ -123,3 +123,89 @@ For quick reference, here are the key operational points from the update:
     -   **Deadline:** Ready-to-hang by `3 Oct ’25`.
     -   **Costs:** Shared equally by all participants.
 -   **Curation:** A collective, non-hierarchical process. The final number of works per artist will be decided *by the group* - André recomends we start by comitting to 2 works per artist for relatively equal 'bandwidth'.
+
+# Texts
+
+Primary wall text (dense / high-register)
+
+We host a field for looking.
+The works stand as themselves—made from life, meeting you on their own terms.
+No single reading is expected. Different eyes, different maps.
+
+Process is visible. Traces include study, pause, misstep, continuation.
+The room is horizontal: no one is guru, everyone is guru; authority circulates as care.
+If there is an ethic, it is non-domination; if there is a method, it is to remain with what is present long enough for it to disclose its own logic.
+
+The star-within-cube mark signals many-sided attention: more than one centre, more than one path.
+Enter as witness. Leave with what the work gives you—and only that.
+
+---
+
+Bridge wall text (intermediate / second-language English with SA cadence)
+
+This is a place to look.
+Works come from life and meet you as they are.
+No one answer. Each person brings their own eyes.
+
+You can see the making—stop, try again, carry on.
+Room is flat: no big boss, no small voice. We share care.
+We don’t push meaning down. We stay with what is here and let it show itself.
+
+The star-and-box sign means: many sides, many paths.
+Come, witness. Take what the work gives you—nothing more, nothing less.
+
+---
+
+Micro entrance version (two lines each)
+
+Dense:
+A field for looking. Objects speak for themselves.
+Many sides, no single reading; care circulates.
+
+Bridge:
+Come look. Works meet you as they are.
+Many sides, no one answer; we keep care moving.
+
+
+——
+
+André’s words:
+
+Thank you, Elana.
+
+If Elana’s words show us how art is lived through the body and its willingness to be seen, then perhaps I can say something about why we called this exhibition lifescape().
+
+As a programmer, I can’t help but read it like a function call — a little piece of code that runs and does something. Of course, it’s only a metaphor — wink-wink. But if this practice of life drawing were a kind of program, what would it do?
+
+I think lifescape() creates a space.
+A space where focus can hold, where striving and failing and sometimes succeeding belong to the same breath.
+
+A space where the living line can happen — marks made in the moment, not just as decoration, but as evidence that living took place. Where different perspectives meet, intersect, refract and do all kinds of fascinating stuff in the mix. Where people meet, all bodies, both behind and in front of the easel.
+
+This exhibition is our first attempt to show some instances of those efforts and where they go. They are not immaculate; they are maculate, like life itself. I hope you will find in them honesty, gratitude, flashes of joy, and even moments of frustration — and that you also sense they embody and invoke, to borrow Je’anna’s acronym, CARDS: Competence, Autonomy, Relatedness, Safety, and Dignity. 
+
+And that spells courage - and an authentic kind of positivity I think.
+
+So welcome to the first exhibition of participants in Life Drawing Randburg. Thank you for witnessing. We hope you enjoy what the room and the work might open for you.
+
+
+
+Press Release
+
+lifescape() — A collaborative exhibition by Life Drawing Randburg
+4–5 October 2025 | Stokvel Gallery, 27 Boxes, Melville, Johannesburg
+
+The exhibition lifescape() gathers more than twenty artists connected through Life Drawing Randburg, a community studio where observation, attention, and practice are shared. This is the group’s first collective showing: works in drawing, painting, and adjacent media that bring the immediacy of the life-room into public space.
+
+The title — lifescape() — borrows its syntax from programming. Read as a function call, it suggests a process set in motion. The exhibition does much the same: it opens a space where focus, striving, faltering, and occasional success belong to the same breath. A space where the living line can happen — marks made in the moment, not as decoration alone, but as evidence that living took place.
+
+The works are not immaculate. They are maculate, like life itself — provisional, uneven, carrying fragility and force in equal measure. They resist singular meaning, inviting multiple readings instead. The ethos is non-domination: no one is guru, everyone is guru. Authority circulates as care, not hierarchy.
+
+If there is a principle, it is that art arises from witness: from being willing to look, to be looked at, and to let the mark itself stand as witness.
+
+Opening: Saturday 4 October 2025, 11:00 for 11:30
+Opening talk: Elana (Elaine Harman), artist’s model and writer
+Hours: Saturday & Sunday, 10:00–16:00
+Venue: Stokvel Gallery, 27 Boxes, Melville, Johannesburg
+
+If you feel drawn, you are welcome.
