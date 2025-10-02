@@ -231,22 +231,22 @@ We hope you enjoy what the room, and the work, might open for you.
 
 
 
-Press Release
+  Press Release
 
-lifescape() — A collaborative exhibition by Life Drawing Randburg
-4–5 October 2025 | Stokvel Gallery, 27 Boxes, Melville, Johannesburg
+  lifescape() — A collaborative exhibition by Life Drawing Randburg
+  4–5 October 2025 | Stokvel Gallery, 27 Boxes, Melville, Johannesburg
 
-The exhibition lifescape() gathers artists connected through Life Drawing Randburg, a community studio where observation, attention, and practice are shared. Participants span from first-time exhibitors to internationally recognised figures. This is the group’s first collective showing: works in drawing, painting, and adjacent media that carry the immediacy of the life-room into public space, while also extending outward into the wider practices of each artist.
+The exhibition lifescape() gathers twenty artists connected through Life Drawing Randburg, a community studio where observation, attention, and practice are shared. Participants span from first-time exhibitors to internationally recognised figures. This is the group’s first collective showing: works in drawing, painting, and adjacent media that carry the immediacy of the life-room into public space, while also extending outward into the wider practices of each artist.
 
-The title — lifescape() — borrows its syntax from programming. Read as a function call, it suggests a process set in motion. The exhibition does much the same: it opens a space where focus, striving, faltering, and occasional success belong to the same breath. A space where the living line can happen — marks made in the moment, not as decoration alone, but as evidence that living took place.
+  The title — lifescape() — borrows its syntax from programming. Read as a function call, it suggests a process set in motion. The exhibition does much the same: it opens a space where focus, striving, faltering, and occasional success belong to the same breath. A space where the living line can happen — marks made in the moment, not as decoration alone, but as evidence that living took place.
 
-The works are not immaculate. They are maculate, like life itself — provisional, uneven, carrying fragility and force in equal measure. They resist singular meaning, inviting multiple readings instead. The ethos is non-domination: no one is guru, everyone is guru. Authority circulates as care, not hierarchy.
+  The works are not immaculate. They are maculate, like life itself — provisional, uneven, carrying fragility and force in equal measure. They resist singular meaning, inviting multiple readings instead. The ethos is non-domination: no one is guru, everyone is guru. Authority circulates as care, not hierarchy.
 
-If there is a principle, it is that art arises from witness: from being willing to look, to be looked at, and to let the mark itself stand as witness.
+  If there is a principle, it is that art arises from witness: from being willing to look, to be looked at, and to let the mark itself stand as witness.
 
-Opening: Saturday 4 October 2025, 11:00 for 11:30
-Opening talk: Elana (Elaine Harman), artist’s model and writer
-Hours: Saturday & Sunday, 10:00–16:00
-Venue: Stokvel Gallery, 27 Boxes, Melville, Johannesburg
+  Opening: Saturday 4 October 2025, 11:00 for 11:30
+  Opening talk: Elana (Elaine Harman), artist’s model and writer
+  Hours: Saturday & Sunday, 10:00–16:00
+  Venue: Stokvel Gallery, 27 Boxes, Melville, Johannesburg
 
-If you feel drawn, you are welcome.
+  If you feel drawn, you are welcome.
