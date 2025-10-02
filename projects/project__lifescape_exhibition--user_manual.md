@@ -128,45 +128,49 @@ For quick reference, here are the key operational points from the update:
 
 ## **About.lifescape(the high-brow complex version)**
 
-We host a field for looking.
-The works stand as themselves—made from life, meeting you on their own terms.
-No single reading is required. Different eyes, different maps.
+We host a field for looking.  
+The works stand as themselves—made from life, meeting you on their own terms.  
+No single reading is required. Different eyes, different maps.  
 
-Process is visible. Traces remain: study, pause, misstep, continuation.
-The room is horizontal: no one is guru, everyone is guru; authority moves as care.
-If there is an ethic, it is non-domination.
-If there is a method, it is to stay with what is present long enough for it to reveal its own logic.
+Process is visible. Traces remain: study, pause, misstep, continuation.  
+The room is horizontal: no one is guru, everyone is guru; authority moves as care.  
+If there is an ethic, it is non-domination.  
+If there is a method, it is to stay with what is present long enough for it to disclose its own logic.  
 
-The star-within-cube mark signals many-sided attention:
-more than one centre, more than one path.
-Enter as witness. Take from the work what it offers—no more, no less.
+The octagram–tesseract mark (projection of an n-hypercube) signals multipartiality:  
+more than one centre, more than one path.  
+
+Enter as witness.  
+Take from the work what it offers — no more, no less. 
 
 ---
 
-## **welcomeTo.lifescape(the ‘mere-mortals’ friendly version)**
+## **About.lifescape(the ‘mere-mortals’ friendly version)**
 
-This is a place to look.
-Works come from life and meet you as they are.
-No single answer. Each person brings their own eyes.
+This is a place to look.  
+Works come from life and meet you as they are.  
+No single answer. Each person brings their own eyes.  
 
-You can see the making—stop, try again, carry on.
-Room is flat: no big boss, no small voice. We share care.
-We don’t force meaning. We stay with what is here and let it show itself.
+You can see the making—stop, try again, carry on.  
+Room is flat: no big boss, no small voice. We share care.  
+We don’t force meaning. We stay with what is here and let it show itself.  
 
-The star-and-box sign means: many sides, many paths.
+The star-and-box sign means: many sides, many paths.  
 Come, witness. Take what the work gives—nothing more, nothing less.
 
 ---
 
-## **lifescape.microVersion()**
+## **WelcomeTo.lifescape()**
 
-**Complex:**
-A field for looking. Objects speak for themselves.
-Many sides, no single reading; care circulates.
+**Complex:**  
 
-**Friendly:**
-Come look. Works meet you as they are.
-Many sides, no one answer; we keep care moving.
+A field for looking and seeing. Objects speak for themselves.  
+Many sides, no grand reading; care circulates.  
+
+**Friendly:**  
+
+Come look. Works meet you as they are.  
+Many sides, no one story; we care.
 
 ——
 
