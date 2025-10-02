@@ -126,46 +126,47 @@ For quick reference, here are the key operational points from the update:
 
 # Texts
 
-Primary wall text (dense / high-register)
+## **About.lifescape(the high-brow complex version)**
 
 We host a field for looking.
 The works stand as themselves—made from life, meeting you on their own terms.
-No single reading is expected. Different eyes, different maps.
+No single reading is required. Different eyes, different maps.
 
-Process is visible. Traces include study, pause, misstep, continuation.
-The room is horizontal: no one is guru, everyone is guru; authority circulates as care.
-If there is an ethic, it is non-domination; if there is a method, it is to remain with what is present long enough for it to disclose its own logic.
+Process is visible. Traces remain: study, pause, misstep, continuation.
+The room is horizontal: no one is guru, everyone is guru; authority moves as care.
+If there is an ethic, it is non-domination.
+If there is a method, it is to stay with what is present long enough for it to reveal its own logic.
 
-The star-within-cube mark signals many-sided attention: more than one centre, more than one path.
-Enter as witness. Leave with what the work gives you—and only that.
+The star-within-cube mark signals many-sided attention:
+more than one centre, more than one path.
+Enter as witness. Take from the work what it offers—no more, no less.
 
 ---
 
-Bridge wall text (intermediate / second-language English with SA cadence)
+## **welcomeTo.lifescape(the ‘mere-mortals’ friendly version)**
 
 This is a place to look.
 Works come from life and meet you as they are.
-No one answer. Each person brings their own eyes.
+No single answer. Each person brings their own eyes.
 
 You can see the making—stop, try again, carry on.
 Room is flat: no big boss, no small voice. We share care.
-We don’t push meaning down. We stay with what is here and let it show itself.
+We don’t force meaning. We stay with what is here and let it show itself.
 
 The star-and-box sign means: many sides, many paths.
-Come, witness. Take what the work gives you—nothing more, nothing less.
+Come, witness. Take what the work gives—nothing more, nothing less.
 
 ---
 
-Micro entrance version (two lines each)
+## **lifescape.microVersion()**
 
-Dense:
+**Complex:**
 A field for looking. Objects speak for themselves.
 Many sides, no single reading; care circulates.
 
-Bridge:
+**Friendly:**
 Come look. Works meet you as they are.
 Many sides, no one answer; we keep care moving.
-
 
 ——
 
@@ -173,20 +174,60 @@ André’s words:
 
 Thank you, Elana.
 
-If Elana’s words show us how art is lived through the body and its willingness to be seen, then perhaps I can say something about why we called this exhibition lifescape().
+If Elana’s words show us how art is lived through the body—
+through its willingness to be seen—
+then let me say something about why we called this exhibition lifescape().
 
-As a programmer, I can’t help but read it like a function call — a little piece of code that runs and does something. Of course, it’s only a metaphor — wink-wink. But if this practice of life drawing were a kind of program, what would it do?
+As a programmer, I can’t help but read it like a function call:
+a little piece of code that runs, that does something.
+It’s only a metaphor—wink-wink—
+but if life drawing were a kind of program, what would it do?
 
 I think lifescape() creates a space.
-A space where focus can hold, where striving and failing and sometimes succeeding belong to the same breath.
+A space where focus can hold.
+Where striving and failing and sometimes succeeding all belong to the same breath.
 
-A space where the living line can happen — marks made in the moment, not just as decoration, but as evidence that living took place. Where different perspectives meet, intersect, refract and do all kinds of fascinating stuff in the mix. Where people meet, all bodies, both behind and in front of the easel.
+A space where the living line can happen—
+marks made in the moment,
+not just as decoration,
+but as evidence that living took place.
 
-This exhibition is our first attempt to show some instances of those efforts and where they go. They are not immaculate; they are maculate, like life itself. I hope you will find in them honesty, gratitude, flashes of joy, and even moments of frustration — and that you also sense they embody and invoke, to borrow Je’anna’s acronym, CARDS: Competence, Autonomy, Relatedness, Safety, and Dignity. 
+And here’s something I love:
+some of us in this room—myself included—
+are both behind the easel and on the page.
+Sometimes artist, sometimes subject.
+Sometimes witness, sometimes witnessed.
+That circulation of roles feels very true to what we do here.
 
-And that spells courage - and an authentic kind of positivity I think.
+It’s also worth saying: not every work you see tonight is “life drawing” in the strict sense.
+The only requirement for this show was simple:
+to have participated in Life Drawing Randburg,
+whether as artist or as model.
+Beyond that, contributors were free to bring what they chose.
+So the exhibition is less about life drawing as a genre,
+and more about the shared artistry of participation —
+the qualities of attention, vulnerability, and craft that emerge
+whether the hand holds the pencil or the body holds the pose.
 
-So welcome to the first exhibition of participants in Life Drawing Randburg. Thank you for witnessing. We hope you enjoy what the room and the work might open for you.
+And this is, maybe, _a_ magic of life drawing, and of art and artistry more broadly:
+variety of vision,
+dimensions of mark-making,
+a presence that feels improbable—
+and yet unmistakable.
+
+The works you’ll see are not immaculate.
+They are maculate, like life itself.
+They carry honesty, gratitude, flashes of joy,
+even frustration—
+and, to borrow Je’anna’s acronym, they invoke CARDS:
+Competence, Autonomy, Relatedness, Safety, Dignity.
+
+That spells courage.
+And that, I think, is the kind of authentic positivity we need.
+
+So—welcome to the first exhibition of Life Drawing Randburg.
+Thank you for witnessing.
+We hope you enjoy what the room, and the work, might open for you.
 
 
 
