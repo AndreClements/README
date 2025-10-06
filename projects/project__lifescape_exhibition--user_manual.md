@@ -174,6 +174,38 @@ Many sides, no one story; we care.
 
 ——
 
+Elana's opening Talk:
+
+So you're probably wondering what inspires a person to show up as an artist's model?
+
+I believe my motivations may not be that different from others, although my articulation may be unexpected.
+
+Answering this question caused me to ask myself what is most important to me.
+
+I think the common perception is an artist's model has a desire to be seen. But this is far more nuanced and complex than you may realise. Please humour me and consider a prism and the analogy of the model as the prism. What refractions, what facets are reflected, ultimately I have no control of. And this speaks to me of the concepts of non dominance and non attachment, principles so intrinsic to André's impeccable facilitation  process. As a model, I too can have no attachment to how I am witnessed or the art that is created as a result. It's a radical act of surrender, not knowing what the witnesses will see and choose to capture or how I will be immortalised.
+
+It is said that when we die all that remains of us are the stories that others tell of us, and for the artist perhaps the art that will endure. But what of living? How do we know we are truly alive? I believe one of the most life affirming affirmations we can receive is to be witnessed by another. 
+
+Modelling for others is a way to affirm my existence. It's also radical act of defiance for those of us who are aware of our imperfections and yet choose to be seen in a society so obsessed with physical homogeneity. It's story telling through our very physicality yet without imposition of narrative. 
+
+And that feels a lot to me like art. 
+
+As the artist creates a work and leaves their canvas open for interpretation by the witness, so the model stands before the artist waiting to be interpreted too.
+
+But why art? My answer to this question informs so much of my philosophy to life and definitely why I am standing here today.
+
+I don't believe the answer to this question lies in any logical explanation that can be answered by the rational mind.
+
+I can't explain to you why I have walked around a corner in a museum filled by the works of masters and as I was about to leave, bumped into an incomplete sepia sketch which caused me to burst into tears.
+
+I discovered later this was a work of the master Da Vinci.
+
+Why does the visceral experience of art change the way we see the world, disrupt society or make our souls sing?
+
+Why art? Because art. For me I do not need any other answer. Whilst my technical skill may be personally limited, I believe my heart and soul has been afflicted by the same muses who afflict an artist. And these muses have taught me that life itself is art in motion, and how we choose to move and what we  notice is so important too.
+
+Why art? Much like the question why do we love? Could we do things any other way? And why have I chosen to model? Because ...art.
+
 André’s words:
 
 Thank you, Elana.
