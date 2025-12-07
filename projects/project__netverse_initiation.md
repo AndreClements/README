@@ -95,3 +95,16 @@ Monetization is structured around **agency** and **ownership**, not data extract
 *   **Methodology:** `../docs/methods/METHODOLOGY_CI.md`
 *   **Philosophy:** `../docs/models/philosophy_of_hyperstrate.md`
 
+---
+### **Update: v0.2 — The Gliding Leaf (2025-12-07)**
+
+**Refinement of Axioms:**
+The initial "Reilly" constraint has evolved into a more complex set of physical laws governing the behavior of meaning in the system.
+
+*   **A2 (Buoyancy):** Meaning is buoyant. Short words (functional particles) have low air resistance and fall fast. Long words (complex concepts) have high resistance and linger.
+*   **A3 (Aerodynamics):** Motion is a function of orientation. Items slide "down the slope" of their rotation.
+*   **A4 (Entropy & Placeness):** The system tends toward equilibrium (horizontal). "Pinned" is a gradient state (`adherence` 0.0 to 1.0), not a binary switch.
+*   **A5 (Dynamic Symmetry):** The coordinate system will migrate from rectilinear Base-10 to **Root-2 ($\sqrt{2}$)** dynamic symmetry to support organic unfolding.
+
+**Architectural implication:**
+State must persist. We are moving from a client-side simulation to a server-side state machine.
