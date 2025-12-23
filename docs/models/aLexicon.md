@@ -9,7 +9,7 @@
 
 ### **Core Concepts**
 
-**Hyperstrate** :: The stack of stuff that co-authors you (tools, UIs, policies). **|** The superposed, maculate milieu of often-opaque co-authorship.
+**Hyperstrate** :: The stack of stuff that co-authors (you, tools, UIs, policies). **|** The superposed, maculate milieu of often-opaque co-authorship.
 
 **PAF (Parametric Author Function)** :: Recipe for a generator. **|** The authored tuple ⟨S, 𝒫, C, E, Φ⟩ that constrains a generator’s sensitivity and potential.
 
