@@ -21,6 +21,11 @@ It refines and expands the **CAR** triad (Competence, Autonomy, Relatedness) fro
 
 > **Maintainer's Note:** This document is hosted in the `README` repository as a **reference node** to facilitate linking and usage within the network. It is not a claim of authorship. Je'anna L Clements is the author and intellectual owner of the CARDS framework.
 
+**Source Documents:**
+- `CARDSviaJLClements/The CARDS game simple overview.docx` — Data dictionary & state matrix (verbatim)
+- `CARDSviaJLClements/The CARDS game simple overview(1).docx` — Main instruction sheet
+- Email correspondence: Je'anna Clements → André Clements, 2026-01-27
+
 **Lineage:**
 ```
 Self-Determination Theory (Deci & Ryan, 1985)
