@@ -32,7 +32,9 @@ Integrity: The structural and moral coherence of a system that honors its "Contr
 
 3. The CARDS Model (Axiological Inputs)
 
-Integrating Self-Determination Theory (Deci & Ryan) and Right-Centered Education (Clements), the CARDS model serves as the primary metric for evaluating the axiological health of CI-assisted engineering processes:
+> **Attribution:** CARDS is a construct and needs-mapping game developed by **Je'anna L Clements**. It refines and extends CAR (Competence, Autonomy, Relatedness) from Self-Determination Theory (Deci & Ryan, 1985) by adding Dignity and Safety as explicit, non-negotiable human needs. Full documentation: [`../lib/CARDS.md`](../lib/CARDS.md)
+
+Integrating Self-Determination Theory and Je'anna L Clements' CARDS framework, the model serves as the primary metric for evaluating the axiological health of CI-assisted engineering processes:
 
 Principle
 
@@ -116,7 +118,7 @@ $$^4$$
 
 $$^5$$
 
-: Clements, J. L. (n.d.). Right-Centered Education and the CARDS Framework.
+: Clements, J. L. (2024). CARDS: A Human Needs Construct. Extending SDT's CAR triad with Dignity and Safety. See [`../lib/CARDS.md`](../lib/CARDS.md)
 
 
 $$^6$$

@@ -144,6 +144,25 @@ function make_art(): Promise<Connection> {
 }
 ```
 
+### § 5b. The Library (External Constructs)
+
+Imported constructs, frameworks, and "software libraries" that run on the `human-OS`. These are tools picked up along the way—authored by others, integrated with care.
+
+| Construct | Author | Use |
+|-----------|--------|-----|
+| **CARDS** | Je'anna L Clements | Needs-mapping diagnostic. Treats feelings as signals about underlying needs (Competence, Autonomy, Relatedness, Dignity, Safety). Navigate choice by asking: "Does this move my CARDS toward Green or Red?" |
+
+```php
+// Library import pattern
+use Lib\CARDS;  // Je'anna L Clements' needs-mapping construct
+
+function debug_feeling($emotion): NeedState {
+    return CARDS::diagnose($emotion);  // Returns which CARD is in Red
+}
+```
+
+*Full documentation: [`docs/lib/`](docs/lib/)*
+
 ---
 
 ## § 6. RUNTIME_ENVIRONMENT (Exception Handling & Vulnerabilities)

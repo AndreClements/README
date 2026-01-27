@@ -1,6 +1,8 @@
 # SRII CARDS Case Law
 ## When Values Meet the Concrete (and the Concrete Bites Back)
 
+> **Attribution:** The CARDS framework (Competence, Autonomy, Relatedness, Dignity, Safety) is a construct developed by **Je'anna L Clements**, extending Self-Determination Theory's CAR triad. This document applies her framework as "case law" for system design. Source: [`../lib/CARDS.md`](../lib/CARDS.md)
+
 ```yaml
 contract:
   intent: >

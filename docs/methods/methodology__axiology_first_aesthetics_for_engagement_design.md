@@ -108,7 +108,9 @@ High-power engagement systems (social platforms, AI assistants, financial tools)
 
 Use an 8-facet axiology octagon as your minimum viable "virtue geometry":
 
-### CARDS (from Self-Determination Theory + SRII)
+### CARDS (Je'anna L Clements, extending SDT)
+
+> *CARDS is a construct developed by Je'anna L Clements. See [`../lib/CARDS.md`](../lib/CARDS.md)*
 
 1. **Competence** — the system increases skill/clarity rather than confusion
 2. **Autonomy** — the system preserves user choice, pacing, and refusal
