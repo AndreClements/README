@@ -39,7 +39,7 @@ These are not "influences" (see [DEPENDENCIES.md](../../DEPENDENCIES.md) for tha
 
 | Construct | Author | Lineage | Use |
 |-----------|--------|---------|-----|
-| **[CARDS](CARDS.md)** | Je'anna L Clements | SDT (Deci & Ryan) → CAR → CARDS | Needs-mapping diagnostic; decision simulation |
+| **[CARDS](docs/lib/CARDS.md)** | Je'anna L Clements | Needs-mapping diagnostic. Treats feelings as signals about underlying needs (Competence, Autonomy, Relatedness, Dignity, Safety). **Dignity + Safety are framed as foundational needs underpinning Human Rights.** Navigate choice by asking: "Does this move my CARDS toward Green or Red?" |
 
 ---
 

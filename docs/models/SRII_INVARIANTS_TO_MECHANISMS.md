@@ -1,3 +1,4 @@
+`docs\models\SRII_INVARIANTS_TO_MECHANISMS.md`
 # SRII Invariants to Mechanisms
 ## Where Philosophy Becomes Debuggable
 

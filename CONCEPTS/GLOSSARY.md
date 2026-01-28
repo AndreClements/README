@@ -3,6 +3,7 @@
 - **if-not**: Parallel audit thread; look for mismatch, harm, hidden intent.
 - **maculate design**: Assume flaws and history; we work with patina, not purity.
 - **risk_index**: complexity × power × distance_from_wetware; drives cadence/depth of checks.
+- **elevator abstract**: A 1–2 sentence, high-signal description of a construct (what it is + what it’s for + who authored it), designed to be spoken or pasted above a link.
 - **Empty Turn**: The sovereign exit; stop/rescope when complexity budget < 0.
 - **quorum + dissent**: Merge rule that preserves minority views as first-class artifacts.
 - **BODY check**: Phenomenological verification notes (what held/failed in material contact).
