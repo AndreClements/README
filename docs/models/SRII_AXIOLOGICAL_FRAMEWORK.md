@@ -26,13 +26,13 @@ Replacing the standard, boilerplate "Social, Regulatory, Internal" (S-R-I) model
 
 Spatio-Relational: Acknowledging that intelligence is never abstract; it is always situated in a specific space and a network of relationships. This pillar examines the spatial context of code—its physical and digital environment—and the intricate relationships between the author, the CI agent, and the broader Hyperstrate.
 
-Intelligence: A formal recognition of the CI as a collaborative partner endowed with parametric authorship capabilities. This shift moves the CI from being a "tool used by a human" to a "participant in a generative process."
+Intelligence: A formal recognition of the CI as a collaborative partner endowed with parametric authorship capabilities. This shift moves the CI from being a "tool used by" to a "participant in a generative process."
 
 Integrity: The structural and moral coherence of a system that honors its "Contract of Aims" despite intense internal logic pressures and external ethical demands. Integrity is defined here by the system's ability to remain true to its foundational axiological inputs under stress.
 
-3. The CARDS Model (Axiological Inputs)
+1. The CARDS Model (Axiological Inputs)
 
-> **Attribution:** CARDS is a construct and needs-mapping game developed by **Je'anna L Clements**. It refines and extends CAR (Competence, Autonomy, Relatedness) from Self-Determination Theory (Deci & Ryan, 1985) by adding Dignity and Safety as explicit, non-negotiable human needs. Full documentation: [`../lib/CARDS.md`](../lib/CARDS.md)
+> **Attribution:** CARDS is a construct and needs-mapping game developed by **Je'anna L Clements**. It refines and extends SDT’s CAR triad (Competence, Autonomy, Relatedness) (Deci & Ryan, 1985; Ryan & Deci, 2000) by adding **Dignity** and **Safety** as explicit, non-negotiable human needs. **Je’anna’s rationale:** Dignity and Safety are foundational needs that underpin **Human Rights**. Full documentation: [`../lib/CARDS.md`](../lib/CARDS.md)
 
 Integrating Self-Determination Theory and Je'anna L Clements' CARDS framework, the model serves as the primary metric for evaluating the axiological health of CI-assisted engineering processes:
 
@@ -42,15 +42,15 @@ Engineering & Philosophical Application
 
 Competence
 
-The CI must provide "scaffolding" that enhances the human author's efficacy. It should foster a deep understanding of the generated logic rather than obscuring it through "black box" solutions.
+CI should provide “scaffolding” that enhances the author’s efficacy. It should foster a deep understanding of the generated logic rather than obscuring it via “black box” solutions or succumbing to the “black holes” of brittle, infinitesimal dependency chains.
 
 Autonomy
 
-Preserving the volition of all agents involved. This involves ensuring the human maintains final creative authority while allowing the CI agent the necessary parameters to operate autonomously within the "Contract of Aims."
+Preserving the volition of all agents involved. This involves ensuring the author maintains final creative authority while allowing the agents the necessary parameters to operate autonomously within the “Contract of Aims.” Authorship (human vs non-human) and agency (human vs non-human) are neither given constants nor stable.
 
 Relatedness
 
-A commitment to multi-partiality. The system must be engineered to respect and reflect the interconnectedness of all stakeholders, resisting the "view from nowhere" that characterizes generic algorithmic output.
+A commitment to multi-partiality. The system must be engineered to respect and reflect the interconnectedness of as many as possible stakeholders, resisting the "view from nowhere" that characterizes generic algorithmic output.
 
 Dignity
 
