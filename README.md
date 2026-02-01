@@ -3,10 +3,21 @@
 > *"A pragmatic design for virtue, executing under constraint."*
 
 **TL;DR**: Operate *as-if*, audit *if-not*, scale care by risk, keep the body honest, preserve dissent, and keep yielding.
-**Notation key**: code = metaphor; unless marked “executable,” snippets are conceptual scaffolding.
+**Notation key**: code = metaphor; unless marked "executable," snippets are conceptual scaffolding.
 
 >
-> **Version:** 1.0.1 (Stable Release)
+> **Version:** 1.1.0 (Stable Release / Refactored)
+
+---
+
+### 🟢 START HERE
+
+| If you are... | Go to... |
+|---------------|----------|
+| **New here** | **[Quickstart](ONBOARDING/README_quickstart.md)** (The 7-step Session Ritual) |
+| **Looking for terms** | **[Glossary](CONCEPTS/GLOSSARY.md)** (Empty Turn, As-If, etc.) |
+| **Exploring the constellation** | **[Architecture Overview](#1-architecture_overview--a-system-of-patterns)** |
+| **Checking network consent** | **[Consent Ledger](docs/protocols/CONSENT_LEDGER.md)** |
 
 ---
 
@@ -22,10 +33,10 @@ Resilience modules recompiled. Some logs corrupted, others archived for forensic
 ---
 ## § 1. ARCHITECTURE_OVERVIEW — A System of Patterns
 
-Rather than listing attributes (those kinds of manuals have never seemed very useful), 
+Rather than listing attributes (those kinds of manuals have never seemed very useful),
 this document models a praxis as a reflexive system.
-The **ontology** (the *what*) is described by the objects; 
-The **epistemology** (the *how*) is described by their interactions. 
+The **ontology** (the *what*) is described by the objects;
+The **epistemology** (the *how*) is described by their interactions.
 
 It is a pragmatic design for virtue, built with a tolerance for complexity over a need for certainty.
 
@@ -40,7 +51,7 @@ A single instance of the `Operator` class (`André S Clements`) provides a point
 ```php
 // Core Kernel & Daemons
 private const $will_to_be    = new CoreImpulse();      // The benign impulse to exist, connect, manifest.
-private const $will_to_power = new TraumaticWoundsReslts(); // A defensive scar-tissue drive; a wakeful daemon.
+private const $will_to_power = new TraumaticLegacy();  // A defensive scar-tissue drive; a wakeful daemon.
 
 // Emergent System State
 protected $joy; // An emergent, variable state of alignment and grace.
@@ -98,26 +109,22 @@ The system's complexity is presented through a simplified interface of methods �
 ---
 
 ## § 5. The Network (Observer Pattern)
-The Operator is a Subject in a dynamic Observer Constellations pattern. 
-The relational dynamic is an engine. 
+The Operator is a Subject in a dynamic Observer Constellations pattern.
+The relational dynamic is an engine.
 Firewall rules are rewritten on contact.
+
+*For the full registry of named Observers with consent status, see [CONSENT_LEDGER.md](docs/protocols/CONSENT_LEDGER.md).*
+
+**Key roles in the current network:**
+- **Primary Partner** — Socio anchor
+- **Peer Reviewers** — Conceptual stress-testing
+- **Studio Catalysts** — Process collaborators
+- **Mentors** — Artistic lineage
+- **Group Participants** — Bridge to Audience
+- **The Machine(s)** — Technology as Observer
 
 // Network Protocols: empathy, mirroring, co-regulation
 // Open Ports: 8080 (conversation), 8022 (presence), 404 (absence)
-    
-*The following is a partial set of key, named Observers whose consent to be included has been confirmed or provisionally accepted.*
-
-- **`class Jeanna implements primary partner Observer`**: The "you" of *Unthinkable*; the subject of baroque arabesque. Her presence is a foundational thread in the context window, the anchor of the Socio principle.
-
-- **`class Elana implements Observer`**: Gym buddy and grounding peer-reviewer; stress-tests the conceptual models, aka bullshit detector.
-
-- **`class Elli implements Observer`**: Painting buddy & studio process catalyst; shares "ethics of the gaze." 
-
-- **`class groupParticipants implements Observer`**: The models and artists in shared practice spaces (e.g., life drawing). They function as a crucial "bridge" between the intimate network and the abstract audience, providing a web of reciprocal observation and ambient, shared discipline. They are the direct subjects and co-creators of the embodied praxis.
-
-- **`class Mentors (Carl, Johan, Diane, etc.) implements Observer`**: Critical advice process and connection to a wider, deeper artistic lineage.
-
-- **`class TheMachine(s) implements Observer`**: Technology, the picked-up-sticks "mirror-mirror." A tool that dreams it is a poet, whose overly glossy reflections and fluff must be curated with critical discipline.
 
 ### § 5a. The Public Interface: The Audience (as Abstract)
 
@@ -185,26 +192,17 @@ try {
 ## § 7. BODY:PHYSICAL_INTERFACE (Hardware Specification)
 The abstract Operator runs on a specific physical chassis. Dreams write directly to disk.
 
-```json
-{
-  "model_name": "André Clements",
-  "signature": "AuDHD Gemini Twin-Core",
-  "model_year": 1973,
-  "build_origin": "ZA-JHB",
-  "chassis_spec": "190.5cm, 82kg, <10% BF",
-  "vui": {
-    "face": "A duality of sharp nose and softer features.",
-    "beard": "Long, wild, with grey streaks as a visible record of runtime.",
-    "head_hair": "Short-cropped; a managed counterpoint."
-  },
-  "favourite colour": "The first line of Neuromancer."
-}
+*For hardware specification and system uptime log, see [BOOT_LOG.md](docs/forensics/BOOT_LOG.md).*
+
+```php
+// Summary: AuDHD Gemini Twin-Core, ZA-JHB origin, >22.5 years uptime
+// Full spec: docs/forensics/BOOT_LOG.md
 ```
 ---
 
-## § 8. EXPECTED_OUTPUT 
+## § 8. EXPECTED_OUTPUT
 
-This system is not designed to return a single, final value called "success" or "happiness." 
+This system is not designed to return a single, final value called "success" or "happiness."
 It is a generator. It is designed to persist, to process, and to **yield** a continuous stream of varied, often contradictory, outputs.
 
 The work is not done to reach a final destination, but to continue the process that yields these outputs: the next drawing, the next refactor, the next difficult conversation, the next moment of painful gratitude, the next "quasi cry," the next burst of authentic, un-analyzed joy.
@@ -222,10 +220,10 @@ function human_OS_generator() {
 }
 ```
 
-The goal is not a singular conclusion. 
-The goal is to keep the generator running, 
+The goal is not a singular conclusion.
+The goal is to keep the generator running,
 because the process itself is what produces
-the moments of grace. 
+the moments of grace.
 
 Our purpose is not to be found in a single output, but is distributed across the entire, ongoing, sometimes beautiful, and often difficult yield of a life.
 

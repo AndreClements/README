@@ -81,7 +81,7 @@
 
 [19] **Musashi, Miyamoto**, _Go Rin no Sho_ [The Book of Five Rings] (c. 1645). The hardware driver for the `paintWithScalpel()` method.
 
-[20] **Nietzsche, Friedrich**, _The Basic Writings of_ (trans. Walter Kaufmann, Modern Library, 1992). A powerful library, imported with caution. Source for the `$will_to_power` concept, which was then refactored into the `TraumaticWoundsReslts` class.
+[20] **Nietzsche, Friedrich**, _The Basic Writings of_ (trans. Walter Kaufmann, Modern Library, 1992). A powerful library, imported with caution. Source for the `$will_to_power` concept, which was then refactored into the `TraumaticLegacy` class.
 
 [21] **Nussbaum, Martha C.**, "Objectification," _Philosophy & Public Affairs_ 24, no. 4 (1995). Provides the core `NonPathologicalObjectification.API`, a critical component of the "ethics of the gaze."
 
