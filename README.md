@@ -150,7 +150,7 @@ Imported constructs, frameworks, and "software libraries" that run on the `human
 
 | Construct | Author | Use |
 |-----------|--------|-----|
-| **CARDS** | Je'anna L Clements | Needs-mapping diagnostic. Treats feelings as signals about underlying needs (Competence, Autonomy, Relatedness, Dignity, Safety). Navigate choice by asking: "Does this move my CARDS toward Green or Red?" |
+| **[CARDS](docs/lib/CARDS.md)** | Je'anna L Clements | Needs-mapping diagnostic. Treats feelings as signals about underlying needs (Competence, Autonomy, Relatedness, Dignity, Safety). **Dignity + Safety are framed as foundational needs underpinning Human Rights.** Navigate choice by asking: "Does this move my CARDS toward Green or Red?" |
 
 ```php
 // Library import pattern

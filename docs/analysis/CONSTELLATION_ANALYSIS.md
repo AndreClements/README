@@ -1,3 +1,4 @@
+`docs\analysis\CONSTELLATION_ANALYSIS.md`
 ---
 title: "Constellation Analysis — SRII × NetVerse × Supporting Protocols"
 author: "André S. Clements (with CI assistance)"
