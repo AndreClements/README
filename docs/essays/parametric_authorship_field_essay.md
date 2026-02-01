@@ -18,7 +18,7 @@ contract:
 
 # Parametric Authorship — Permissions-as-Signature Field Essay
 
-The archive of configuration reads like a face drawn in constraints. Not a portrait of features, but a portrait of a capability boundary: what can be done smoothly, what must be witnessed, what must be explicitly consented-to.
+The archive of configuration reads like a face drawn in constraints, a portrait of features, a portrait of a capability boundary: what can be done smoothly, what must be witnessed, what must be explicitly consented-to. It is intimate in a way.
 
 A forensic reading of a permission allowlist does not reveal mere security hygiene; it reveals the shape of a pact between `Operator` and `theMachine(s)`.
 
