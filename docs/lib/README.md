@@ -40,6 +40,7 @@ These are not "influences" (see [DEPENDENCIES.md](../../DEPENDENCIES.md) for tha
 | Construct | Author | Lineage | Use |
 |-----------|--------|---------|-----|
 | **[CARDS](CARDS.md)** | Je'anna L Clements | SDT (Deci & Ryan) → CAR → CARDS | Needs-mapping diagnostic; decision simulation |
+| **[MULTI_PARTIALITY](MULTI_PARTIALITY.md)** | Ivan Boszormenyi-Nagy | Family therapy → Contextual therapy | Relational ethics; multi-stakeholder navigation; ledger of entitlements |
 | **[SALUTOGENESIS](SALUTOGENESIS.md)** | Aaron Antonovsky | Stress research → Medical sociology | Health-creation framework; SOC diagnostic |
 
 ---

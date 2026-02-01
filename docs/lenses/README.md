@@ -172,6 +172,7 @@ risk_index: <0.0-1.0>
 | Lens | Core Texts | Domain | Status |
 |------|------------|--------|--------|
 | [LENS__gravity_irreversibility_clarity](LENS__gravity_irreversibility_clarity.md) | README, Hyperstrate, PA | NetVerse2 physics | draft |
+| [LENS__multi_partiality](LENS__multi_partiality.md) | README, MULTI_PARTIALITY, CARDS, Hyperstrate, SRII, PA | Relational systems, multi-stakeholder design, Observer networks | draft |
 | [LENS__salutogenesis](LENS__salutogenesis.md) | README, SALUTOGENESIS, CARDS, Hyperstrate, Body, PA | Health systems, personal practice | draft |
 
 ---
