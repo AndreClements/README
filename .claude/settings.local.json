@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(unzip:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd typed co-authorship relations protocol\n\nFormalizes co-authorship as ledger mechanics:\n- Six core relation types: Operator-Instance, Maker-Sceptic, \n  Opener-Closer, Stager-Witness, Source-Derivative, Peer-Peer\n- Ledger schema with consent, dignity, dissent fields\n- Extended signature format with Relation-Type and Consent\n- Sequence: DECLARE → DRAFT → LINT → ALIGN → SIGN → LOG\n- Dignity scope and extraction ceiling per relation type\n- Exit semantics preserving actor sovereignty\n\n\"Co-authorship is a typed relation, not an inspiration claim.\"\n\nCo-Authored-By: André S Clements \\(Operator/Maker\\) <operator@hyperstrate>\nCo-Authored-By: theMachine\\(s\\) \\(Instance/Sceptic\\) <claude-opus-4-5@hyperstrate>\nRelation-Type: Operator-Instance\nConsent: explicit\nEOF\n\\)\")"
     ]
   }
 }
