@@ -40,15 +40,17 @@ Two permissions. Two verbs. Not because they are important in themselves, but be
 
 *(Distinguish three layers: the **declared** policy (text, config, allowlist), the **computed** policy (after inheritance, group membership, condition evaluation), and the **effective** policy (what actions actually succeed, including bypasses and informal channels). When these diverge, the divergence itself is diagnostic—it encodes tolerance for drift, hypocrisy, or exception.)*
 
-In that selection, a face appears. The face is not an image; it is a policy.
+In that selection, a face appears. The face is an image; it is also a policy.
 
-> *Method Card:* A system without boundaries is not "free"; it is unaccountable. An instance becomes legible less by what it says than by what it is permitted to do.
+> *Method Card:* A system without boundaries is not "free"; it is arguably only unaccountable. An instance becomes legible, known if you will, less by what it says than by what it is permitted to do.
 
 ## Strand II — Two Verbs as Authorship Machine (unzip → git add)
 
 `unzip` is expansion. It turns a compressed, opaque object into a field of files: surfaces, edges, paths, names. It performs arrival.
 
-`git add` is selection. It takes a noisy working directory and composes a candidate story of change: *these* deltas matter, *these* are the cut.
+`git add` is selection. It takes a noisy working directory and composes a candidate story of change: *these* deltas matter, *these* are the cut. 
+
+/'Cut. Print!'
 
 Together they define a narrow pipeline: **ingest** material into the workspace, **stage** a proposed authorship cut — and then, critically, stop.
 
@@ -81,7 +83,7 @@ So the "face" we see here is not benign or malign. It is simply **capable**, and
 
 Parallel authorship demonstrates the parametric claim: same constraints, different signatures, family of faces. The staged set is not an implementation detail; it is the visible contour of selection.
 
-Apply the `risk_index`: complexity × power × distance_from_wetware (how far the action is from human perception and timely intervention). Guard accordingly.
+Apply the `risk_index`: complexity × power × distance_from_wetware (how far the action is from human perception and timely intervention). Guard accordingly. (Despite my critique of the humanist bias.)
 
 ## Strand V — Sovereignty at the Irreversible Threshold (2025 → )
 
@@ -141,7 +143,7 @@ The permission-as-signature thesis survives stress-testing, but not without scar
 
 **The intentionality fallacy.** Not every permission encodes intent. Some encode accident, inheritance, copy-paste, or "nobody is paid to understand this." Bureaucratic sediment is still diagnostic—but of attention allocation and path dependence, not coherent philosophy.
 
-**The coherence fallacy.** Enterprise regimes are often coalition objects: Compliance wants auditability, Security wants blast-radius containment, Engineering wants throughput, Vendors want supportability. The resultant permission set may express no one's ontology—only a political equilibrium. Coherence is local (within a team's namespace), contradictory at seams. The seams are where the politics lives, but also where *nobody* lives.
+**The coherence fallacy.** Enterprise regimes are often coalition objects: Compliance wants auditability, Security wants blast-radius containment, Engineering wants throughput, Vendors want supportability. The resultant permission set may express no one's ontology—only a political equilibrium. Coherence is local (within a team's namespace), contradictory at seams. The seams are where the politics lives, but also where *nobody* lives. (Ahem, yet here we are ;^)
 
 **The automation gap.** When permissions are provisioned by pipelines, inherited from templates, or tuned by ML-based access control, there is no human author whose intimacy is being revealed. The "model" is in the constraint landscape, not in anyone's beliefs. This is still readable—but as mechanics, not confession.
 
