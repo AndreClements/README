@@ -172,6 +172,7 @@ risk_index: <0.0-1.0>
 | Lens | Core Texts | Domain | Status |
 |------|------------|--------|--------|
 | [LENS__gravity_irreversibility_clarity](LENS__gravity_irreversibility_clarity.md) | README, Hyperstrate, PA | NetVerse2 physics | draft |
+| [LENS__salutogenesis](LENS__salutogenesis.md) | README, SALUTOGENESIS, CARDS, Hyperstrate, Body, PA | Health systems, personal practice | draft |
 
 ---
 
@@ -181,3 +182,4 @@ risk_index: <0.0-1.0>
 - **philosophy_of_hyperstrate.md** — Field dynamics, CET, dignity conservation
 - **parametric_authorship.md** — PAF, invariants, designed transitions
 - **SRII_AXIOLOGICAL_FRAMEWORK.md** — Invariants that lenses must preserve
+- **[methodology__lens_transposition.md](../methods/methodology__lens_transposition.md)** — How to create lenses; figure-ground integration

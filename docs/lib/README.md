@@ -39,7 +39,8 @@ These are not "influences" (see [DEPENDENCIES.md](../../DEPENDENCIES.md) for tha
 
 | Construct | Author | Lineage | Use |
 |-----------|--------|---------|-----|
-| **[CARDS](docs/lib/CARDS.md)** | Je'anna L Clements | Needs-mapping diagnostic. Treats feelings as signals about underlying needs (Competence, Autonomy, Relatedness, Dignity, Safety). **Dignity + Safety are framed as foundational needs underpinning Human Rights.** Navigate choice by asking: "Does this move my CARDS toward Green or Red?" |
+| **[CARDS](CARDS.md)** | Je'anna L Clements | SDT (Deci & Ryan) → CAR → CARDS | Needs-mapping diagnostic; decision simulation |
+| **[SALUTOGENESIS](SALUTOGENESIS.md)** | Aaron Antonovsky | Stress research → Medical sociology | Health-creation framework; SOC diagnostic |
 
 ---
 
@@ -48,7 +49,6 @@ These are not "influences" (see [DEPENDENCIES.md](../../DEPENDENCIES.md) for tha
 *The following are candidates for future library entries (not yet documented):*
 
 - **Object-Oriented Ontology** (Harman, Bogost) — Flat ontology; withdrawn object realities
-- **Salutogenesis** (Antonovsky) — Health as movement toward coherence
 - **Gestalt Principles** — Perceptual organization; closure, proximity, continuity
 - **Autopoiesis** (Maturana & Varela) — Self-creating systems; structural coupling
 
