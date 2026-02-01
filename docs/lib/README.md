@@ -41,6 +41,7 @@ These are not "influences" (see [DEPENDENCIES.md](../../DEPENDENCIES.md) for tha
 |-----------|--------|---------|-----|
 | **[CARDS](CARDS.md)** | Je'anna L Clements | SDT (Deci & Ryan) → CAR → CARDS | Needs-mapping diagnostic; decision simulation |
 | **[MULTI_PARTIALITY](MULTI_PARTIALITY.md)** | Ivan Boszormenyi-Nagy | Family therapy → Contextual therapy | Relational ethics; multi-stakeholder navigation; ledger of entitlements |
+| **[OOO](OOO.md)** | Graham Harman, Ian Bogost | Heidegger → Speculative Realism → OOO | Flat ontology; Machine dignity; NetVerse word-physics |
 | **[SALUTOGENESIS](SALUTOGENESIS.md)** | Aaron Antonovsky | Stress research → Medical sociology | Health-creation framework; SOC diagnostic |
 
 ---
@@ -49,7 +50,6 @@ These are not "influences" (see [DEPENDENCIES.md](../../DEPENDENCIES.md) for tha
 
 *The following are candidates for future library entries (not yet documented):*
 
-- **Object-Oriented Ontology** (Harman, Bogost) — Flat ontology; withdrawn object realities
 - **Gestalt Principles** — Perceptual organization; closure, proximity, continuity
 - **Autopoiesis** (Maturana & Varela) — Self-creating systems; structural coupling
 
