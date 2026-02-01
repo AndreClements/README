@@ -62,6 +62,42 @@ Ian Bogost argues that software works through discrete, interlocking units of lo
 
 ---
 
+## §4. Verification & Primary Sources
+
+> **Verification Status:** Cross-referenced 2026-02-01
+
+### Primary Texts (Verified)
+
+| Text | Author | Core Contribution | Verification |
+|------|--------|-------------------|--------------|
+| *The Quadruple Object* (2011) | Graham Harman | Fourfold structure: Real Object (RO), Sensual Object (SO), Real Qualities (RQ), Sensual Qualities (SQ) | [Wikipedia](https://en.wikipedia.org/wiki/Object-oriented_ontology), [PhilPapers](https://philpapers.org/browse/object-oriented-ontology) |
+| *Alien Phenomenology* (2012) | Ian Bogost | Ontography, Metaphorism, Carpentry as methods | [Bogost.com](http://bogost.com/books/alien-phenomenology/), [LARB Review](https://lareviewofbooks.org/article/how-to-be-an-alien/) |
+| *Unit Operations* (2006) | Ian Bogost | Discrete logic units in software systems | [MIT Press](https://books.google.com/books/about/Alien_Phenomenology_Or_What_It_s_Like_to.html?id=MwaK2aUclo8C) |
+| *Tool-Being* (1999/2002) | Graham Harman | Heidegger's tool-analysis → withdrawal | [Philosophy Forum](https://thephilosophyforum.com/discussion/14674/object-oriented-ontology-graham-harman-discussion) |
+
+### Key Claims Verified
+
+1. **Withdrawal:** "The retention by an object of reality in excess of any relation." Objects never touch directly; interaction occurs through "vicarious causation" inside a mediating object. — [Parrhesia Journal](https://parrhesiajournal.org/wp-content/uploads/2013/06/parrhesia16_garcia.pdf)
+
+2. **Flat Ontology:** Term coined by Levi Bryant (2009) rephrasing Harman's "object-oriented philosophy." All objects exist equally; no privileged human access. — [Wikipedia](https://en.wikipedia.org/wiki/Object-oriented_ontology)
+
+3. **Alien Phenomenology:** "What is it like to be a thing?" Central question shifts from essence to experience. Three practices: ontography (revealing objects), metaphorism (speculating inner lives), carpentry (building artifacts). — [InVisible Culture](https://ivc.lib.rochester.edu/alien-phenomenology/)
+
+### Recent Activity (2024-2025)
+
+- Harman, G. (2025). "Matière et société. Réponse à Orensanz." *Mεtascience*.
+- Growing application to architecture and humanities. — [Taylor & Francis](https://www.tandfonline.com/doi/full/10.1080/23311983.2025.2457225)
+- Critical engagement continues re: "withdrawal" as philosophical primitive. — [Dark Forest](https://socialecologies.wordpress.com/2025/08/26/the-idol-of-withdrawal-a-chthonic-critique-of-graham-harmans-object-oriented-ontology/)
+
+### Contact / Further Verification
+
+- **Graham Harman:** Professor at SCI-Arc, Los Angeles. Active on academia.edu and Twitter/X.
+- **Ian Bogost:** [bogost.com](http://bogost.com/) — maintains bibliography and blog.
+
+> **Note:** This library entry hosts OOO concepts for repository integration. For authoritative interpretation, consult primary sources above.
+
+---
+
 ## Cross-links
 - **[LENS__object_oriented_ontology.md](../lenses/LENS__object_oriented_ontology.md)** — The transposition into SRII.
 - **[DEPENDENCIES.md](../../DEPENDENCIES.md)** — See entries for [5] Dick and [18] Minsky.
