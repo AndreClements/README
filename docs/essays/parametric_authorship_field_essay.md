@@ -2,7 +2,7 @@
 contract:
   file: "/docs/essays/parametric_authorship_field_essay.md"
   title: "Parametric Authorship — Permissions-as-Signature Field Essay"
-  version: "0.2.0"
+  version: "0.4.0"
   timestamp_local: "2026-02-01T00:00:00+02:00"
   operator: "André S Clements"
   coagent: "theMachine(s)"
@@ -14,13 +14,14 @@ contract:
     - "least privilege"
     - "inspectability (diff-first)"
     - "explicit consent at irreversible thresholds"
+  lens_applied: "../lenses/LENS__parametric_authorship.md"
 ```
 
 # Parametric Authorship — Permissions-as-Signature Field Essay
 
 The archive of configuration reads like a face drawn in constraints, a portrait of features, a portrait of a capability boundary: what can be done smoothly, what must be witnessed, what must be explicitly consented-to. It is intimate in a way.
 
-A forensic reading of a permission allowlist does not reveal mere security hygiene; it reveals the shape of a pact between `Operator` and `theMachine(s)`.
+A forensic reading of a permission allowlist does not reveal mere security hygiene; it reveals the shape of a pact between `Operator` and `theMachine(s)`. (Or its shadow: distrust, liability, trauma, neglect. The regime encodes relational weight—not always warmth.)
 
 ## Strand I — The Face in the Policy (2025 → )
 
@@ -36,6 +37,8 @@ Consider a minimal allowlist:
 ```
 
 Two permissions. Two verbs. Not because they are important in themselves, but because they are *selective*: they pick a thin slice of the world's possible transformations and say, **this may happen without asking**.
+
+*(Distinguish three layers: the **declared** policy (text, config, allowlist), the **computed** policy (after inheritance, group membership, condition evaluation), and the **effective** policy (what actions actually succeed, including bypasses and informal channels). When these diverge, the divergence itself is diagnostic—it encodes tolerance for drift, hypocrisy, or exception.)*
 
 In that selection, a face appears. The face is not an image; it is a policy.
 
@@ -130,6 +133,53 @@ The two faces are not redundant. Selection without closure is proposal without a
 
 ---
 
+## Strand VII — The Sceptic's Lint (where the reading breaks)
+
+The permission-as-signature thesis survives stress-testing, but not without scars. A responsible deployment of this lens requires knowing where it fails.
+
+### Where the reading over-reaches
+
+**The intentionality fallacy.** Not every permission encodes intent. Some encode accident, inheritance, copy-paste, or "nobody is paid to understand this." Bureaucratic sediment is still diagnostic—but of attention allocation and path dependence, not coherent philosophy.
+
+**The coherence fallacy.** Enterprise regimes are often coalition objects: Compliance wants auditability, Security wants blast-radius containment, Engineering wants throughput, Vendors want supportability. The resultant permission set may express no one's ontology—only a political equilibrium. Coherence is local (within a team's namespace), contradictory at seams. The seams are where the politics lives, but also where *nobody* lives.
+
+**The automation gap.** When permissions are provisioned by pipelines, inherited from templates, or tuned by ML-based access control, there is no human author whose intimacy is being revealed. The "model" is in the constraint landscape, not in anyone's beliefs. This is still readable—but as mechanics, not confession.
+
+**Moralisation drift.** Scar tissue is not philosophy. A permission regime shaped by past breach reveals a flinch frozen into policy—an immune system that may overreact. Reading trauma as trust-topology mistakes etiology for ontology.
+
+### Failure conditions for the method
+
+The permissions-as-signature reading *fails* when:
+
+- It produces no predictive leverage (you can't anticipate system behavior better by reading the regime)
+- The implied trust/distrust topology actively misleads (you trusted the wrong boundary)
+- You mistake noise for signal (random config drift, corrupted bits, orphaned rules)
+
+### What survives
+
+Even under sceptical pressure, certain patterns hold:
+
+| Invariant | Observation |
+|-----------|-------------|
+| **Reversibility gating** | Friction clusters around irreversible actions (commit, push, delete, transfer) |
+| **Visibility gating** | Access to logs, secrets, and customer data attracts special rules |
+| **Delegation patterns** | Who can *grant* permissions vs merely *exercise* them reveals hierarchy |
+| **Exception pathways** | Break-glass, admin overrides, sudo culture—this is where the "real" ontology often lives |
+
+These are not universal metaphysical truths; they are structural features of current permission systems. Change the substrate, and the invariants shift.
+
+### The survivable claim
+
+After sceptical refinement:
+
+> **Permission regimes distribute friction across a named world of actors, resources, and actions. Reading that friction distribution—where it clusters, where it's absent, where declared and effective diverge—reveals operational assumptions about what kinds of touch are treated as ordinary, dangerous, costly, or unthinkable. This reading is productive but not guaranteed.**
+
+The intimacy metaphor survives in high-agency contexts (your domestic keys, your CI write permissions, your own allowlist). It thins in low-agency contexts (enterprise provisioning, inherited templates, automated pipelines). Know which context you're in.
+
+> *Method Card:* Deploy the lens with built-in brakes. Ask: is this regime coherent or sediment? Authored or authorless? Calibrated or traumatic? The answer shapes what the reading can yield.
+
+---
+
 ## Coda — The Face We Draw by Refusing to Draw the Final Line
 
 A responsible workflow:
@@ -141,6 +191,6 @@ A responsible workflow:
 
 A signature is not only what you write at the bottom of a page. A signature is what you repeatedly do. Meaning is not a hidden essence; it is use. Likewise authorship is not a metaphysical badge; it is a practice of cuts, closures, and responsibilities.
 
-Every configuration implies a philosophy. This one implies: the world is too complex to hold in one mind; tools are necessary; tools must be bounded; boundedness is not always or only a cage — it is also signature.
+Every configuration implies a philosophy—or its residue: sediment, trauma, neglect. The reading is productive but not guaranteed; it fails when it produces no predictive leverage or actively misleads. This one implies: the world is too complex to hold in one mind; tools are necessary; tools must be bounded; boundedness is not always or only a cage — it is also signature.
 
-The `yield`: a legible face drawn in what the marks withhold — control and freedom cohabiting the constraint.
+The `yield`: a legible face drawn in what the marks withhold — control and freedom cohabiting the constraint. The method: read permission regimes as boundary narratives, but carry the Sceptic's brakes.
