@@ -230,6 +230,8 @@ In the [SRII Axiological Framework](../models/SRII_AXIOLOGICAL_FRAMEWORK.md), CA
 ## Cross-links
 
 - **[Library Index](README.md)** — Registry of imported constructs
+- **[SOLID.md](SOLID.md)** — Modular design principles; SOLID violations produce CARDS degradation signatures
+- **[LENS__solid_threshold_mechanics.md](../lenses/LENS__solid_threshold_mechanics.md)** — Threshold mechanics using CARDS as diagnostic
 - **[SRII_AXIOLOGICAL_FRAMEWORK.md](../models/SRII_AXIOLOGICAL_FRAMEWORK.md)** — Integration of CARDS as axiological spine
 - **[SRII_CARDS_CASES.md](../models/SRII_CARDS_CASES.md)** — Case law and failure modes
 - **[DEPENDENCIES.md](../../DEPENDENCIES.md)** — Broader constellation of influences

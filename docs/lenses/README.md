@@ -175,6 +175,7 @@ risk_index: <0.0-1.0>
 | [LENS__multi_partiality](LENS__multi_partiality.md) | README, MULTI_PARTIALITY, CARDS, Hyperstrate, SRII, PA | Relational systems, multi-stakeholder design, Observer networks | draft |
 | [LENS__object_oriented_ontology](LENS__object_oriented_ontology.md) | README, OOO, SRII, PA | NetVerse, CI Collaboration, Machine dignity | draft |
 | [LENS__salutogenesis](LENS__salutogenesis.md) | README, SALUTOGENESIS, CARDS, Hyperstrate, Body, PA | Health systems, personal practice | draft |
+| [LENS__solid_threshold_mechanics](LENS__solid_threshold_mechanics.md) | README, SOLID, CARDS, SALUTOGENESIS, Hyperstrate, PA | Modular systems, exhibition, civic, pedagogy, AI, game design | draft |
 
 ---
 

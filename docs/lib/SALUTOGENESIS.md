@@ -255,7 +255,9 @@ While Antonovsky focused on individuals, Salutogenesis applies at collective sca
 
 - **[Library Index](README.md)** — Registry of imported constructs
 - **[CARDS.md](CARDS.md)** — Human needs framework (GRRs map to CARDS)
+- **[SOLID.md](SOLID.md)** — SOLID compliance as GRR; SOC mapping to threshold health
 - **[LENS__salutogenesis.md](../lenses/LENS__salutogenesis.md)** — Transposition into repository substrate
+- **[LENS__solid_threshold_mechanics.md](../lenses/LENS__solid_threshold_mechanics.md)** — SOLID as coherence engineering
 - **[philosophy_of_body.md](../models/philosophy_of_body.md)** — Embodied resilience, adaptive history
 - **[philosophy_of_hyperstrate.md](../models/philosophy_of_hyperstrate.md)** — Field coherence, CET
 - **[SRII_AXIOLOGICAL_FRAMEWORK.md](../models/SRII_AXIOLOGICAL_FRAMEWORK.md)** — System-level health metrics

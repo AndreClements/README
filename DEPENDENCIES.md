@@ -26,6 +26,7 @@
 - Kundera, Milan [15]
 - Lao Tzu [16]
 - Maturana, Humberto R. & Varela, Francisco J. [17]
+- Martin, Robert C. ("Uncle Bob") [30]
 - Minsky, Marvin [18]
 - Musashi, Miyamoto [19]
 - Nietzsche, Friedrich [20]
@@ -100,3 +101,5 @@
 [28] **Wilber, Ken**, _A Brief History of Everything_ (Shambhala, 2000). Provides a framework for holding multiple perspectives (the quadrants), validating the system's multi-disciplinary approach.
 
 [29] **Zukav, Gary**, _The Dancing Wu Li Masters_ (1979). The system's main `Compiler/Interpreter` for translating between seemingly incompatible domains.
+
+[30] **Martin, Robert C.** ("Uncle Bob"), _Design Principles and Design Patterns_ (2000), _Agile Software Development: Principles, Patterns, and Practices_ (2003). Consolidator of the SOLID principles (synthesizing Parnas, Meyer, and Liskov). Provides the `ThresholdMechanics.lib` for modular coherence—the grammar governing what crosses, what's refused, and what transforms in transit.

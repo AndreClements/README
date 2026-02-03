@@ -43,6 +43,7 @@ These are not "influences" (see [DEPENDENCIES.md](../../DEPENDENCIES.md) for tha
 | **[MULTI_PARTIALITY](MULTI_PARTIALITY.md)** | Ivan Boszormenyi-Nagy | Family therapy → Contextual therapy | Relational ethics; multi-stakeholder navigation; ledger of entitlements |
 | **[OOO](OOO.md)** | Graham Harman, Ian Bogost | Heidegger → Speculative Realism → OOO | Flat ontology; Machine dignity; NetVerse word-physics |
 | **[SALUTOGENESIS](SALUTOGENESIS.md)** | Aaron Antonovsky | Stress research → Medical sociology | Health-creation framework; SOC diagnostic |
+| **[SOLID](SOLID.md)** | Robert C. Martin et al. | Parnas → Meyer → Liskov → Martin | Modular coherence; threshold mechanics |
 
 ---
 
