@@ -10,8 +10,8 @@ contract:
   game_mode: "cooperative infinite"
   validation_method: "Phase gates with crossing probes"
   created: 2026-02-03
-  current_session: 2
-  current_gate: "T2 (Project)"
+  current_session: 3
+  current_gate: "T2 (Project) → T3 (Publication)"
   last_updated: 2026-02-03
 ```
 
@@ -23,7 +23,7 @@ contract:
 |-------------|--------|----------|
 | 🚪 First Threshold | ✅ UNLOCKED | 2026-02-03 |
 | 🗺️ Cartographer | ✅ UNLOCKED | 2026-02-03 |
-| ⚗️ Alchemist | ⬜ Locked | — |
+| ⚗️ Alchemist | ✅ UNLOCKED | 2026-02-03 |
 | 🪚 Architect | ⬜ Locked | — |
 | 🎭 Threshold Guardian | ⬜ Locked | — |
 | 🔄 Reverse Engineer | ⬜ Locked | — |
@@ -38,7 +38,7 @@ contract:
 |---------|------|------|-----------|------------|--------|
 | **S1** | 2026-02-03 | T1 | Raw research archived, Checkpoints created | ✓ Files exist | ✅ Complete |
 | **S2** | 2026-02-03 | T2 | 4 mapping tables, strain points | ✓ Bidirectional coherence | ✅ Complete |
-| S3 | — | T2 | Threshold-Lint spec, Probes | Emergent insights ≥ 2 | ⬜ Pending |
+| **S3** | 2026-02-03 | T2 | Threshold-Lint spec, 5 probes, 4 applications, 4 emergences | ✓ Insights ≥ 2 | ✅ Complete |
 | S4 | — | T3 | SOLID.md, LENS__solid_threshold_mechanics.md | Cross-refs resolve | ⬜ Pending |
 | S5 | — | T3 | Case study, BODY check | Theory → Practice | ⬜ Pending |
 
@@ -258,23 +258,332 @@ SOC(system) = f(
 
 ## Session 3: The Synthesis Threshold ⚗️
 
-**Gate:** T2 (Project) | **XP Required:** Session 2 ✓
+**Gate:** T2 (Project) | **XP Required:** Session 2 ✓ | **Status:** ✅ Complete
 
 ### Tasks
-- [ ] Specify Threshold-Lint instrument (lint rules, scoring rubric)
-- [ ] Design 5 crossing probes
-- [ ] Document novel applications (exhibition, civic, pedagogy, AI workflows)
-- [ ] Capture points of emergence (insights in neither source alone)
+- [x] Specify Threshold-Lint instrument (lint rules, scoring rubric)
+- [x] Design 5 crossing probes
+- [x] Document novel applications (exhibition, civic, pedagogy, AI workflows)
+- [x] Capture points of emergence (insights in neither source alone)
 
 ### Expected Plot Twist #2
 > During synthesis, we discover that SOLID's *failure modes* are more diagnostic than its *success criteria*.
 
-### Validation Criteria
-- At least 2 genuine emergent insights
-- Probes are testable (not just rhetorical)
+**✅ CONFIRMED:** The lint rules are structured around **failure detection**, not compliance checking. You don't lint for "good doors"—you lint for "broken thresholds."
 
-### Notes (To Be Filled)
-*[Session 3 notes will go here]*
+### Validation Criteria
+- ✅ At least 2 genuine emergent insights (we found 4!)
+- ✅ Probes are testable (each has explicit pass/fail criteria)
+
+---
+
+### THRESHOLD-LINT INSTRUMENT SPECIFICATION
+
+#### Philosophy
+> *"The threshold doesn't judge what crosses—it ensures the crossing is coherent."*
+
+Threshold-Lint is a **diagnostic instrument**, not a compliance checker. It detects **symptoms of threshold dysfunction**—places where the modular boundary is failing to maintain coherence.
+
+#### Lint Rules (Failure Detection)
+
+| Rule ID | Name | Violation Symptom | CARDS Impact | Severity |
+|---------|------|-------------------|--------------|----------|
+| **SRP-T1** | God-Door | Threshold serves multiple unrelated purposes | C 🔴 | High |
+| **SRP-T2** | Hidden Passage | Undocumented side-effects cross the threshold | S 🔴 | Critical |
+| **OCP-T1** | Bricked Door | Adding new path requires demolishing existing | S 🔴 | High |
+| **OCP-T2** | Mutation Creep | Core semantics change during "extension" | D 🔴 | Medium |
+| **LSP-T1** | Bait-and-Switch | Substituted component violates expectations | D 🔴 | Critical |
+| **LSP-T2** | Semantic Drift | Same label, different behavior across contexts | C 🔴 | High |
+| **ISP-T1** | Loading Dock | Forced through irrelevant pathways | A 🔴 | Medium |
+| **ISP-T2** | Fat Interface | Exposed to decisions you can't affect | A 🔴 | Medium |
+| **DIP-T1** | Concrete Dependency | Locked to specific implementation | R 🔴 | High |
+| **DIP-T2** | Inverted Hierarchy | Low-level dictates high-level intent | R 🔴 | Critical |
+
+#### Scoring Rubric
+
+```
+Threshold Health Score (THS) = 1 - (Σ weighted_violations / max_possible)
+
+Weights:
+  Critical = 3.0
+  High     = 2.0
+  Medium   = 1.0
+
+Health Thresholds:
+  THS ≥ 0.85  → 🟢 Healthy (coherent under normal perturbation)
+  THS ≥ 0.60  → 🟠 Warning (functional but stressed)
+  THS < 0.60  → 🔴 Critical (coherence degrading)
+```
+
+#### Lint Output Format
+
+```yaml
+threshold_lint_report:
+  system: "<name>"
+  date: "<timestamp>"
+  health_score: <0.0-1.0>
+  status: "green|orange|red"
+
+  violations:
+    - rule: "SRP-T1"
+      location: "<where>"
+      symptom: "<what's happening>"
+      cards_impact: "C red"
+      evidence: "<observable>"
+
+  recommendations:
+    - "<actionable fix>"
+```
+
+---
+
+### CROSSING PROBES (5 Probes)
+
+#### Probe 1: ε-Nudge (Perturbation Resilience)
+
+```yaml
+probe: epsilon_nudge
+purpose: Test threshold stability under small change
+
+procedure:
+  1. Identify a threshold (module boundary, interface, transition point)
+  2. Apply minimal perturbation (ε):
+     - Change one token/rule
+     - Substitute one equivalent component
+     - Alter one input parameter
+  3. Observe downstream effects
+
+pass_criteria:
+  - Effects contained to expected blast radius
+  - No cascading failures across unrelated thresholds
+  - System returns to coherence within bounded time
+
+fail_criteria:
+  - Change propagates unpredictably
+  - Unrelated components break
+  - System enters unstable state
+
+maps_to: OCP (extend without breaking) + LSP (substitution preserves contract)
+```
+
+#### Probe 2: Context-Drift Watch (Medium Portability)
+
+```yaml
+probe: context_drift_watch
+purpose: Test threshold coherence across medium/context transitions
+
+procedure:
+  1. Document threshold behavior in Context A (e.g., print)
+  2. Move system to Context B (e.g., screen)
+  3. Move system to Context C (e.g., spatial/3D)
+  4. Measure semantic preservation at each transition
+
+pass_criteria:
+  - Core meaning preserved within ±ε
+  - Affordances adapt appropriately
+  - User comprehension maintained (test via interpretation tasks)
+
+fail_criteria:
+  - Meaning drifts beyond recognition
+  - Affordances contradict meaning
+  - Users misinterpret in new context
+
+maps_to: DIP (abstraction survives implementation change)
+```
+
+#### Probe 3: Peer-Swap Invariance (Multi-Author Consistency)
+
+```yaml
+probe: peer_swap_invariance
+purpose: Test whether threshold definitions are shared or idiosyncratic
+
+procedure:
+  1. Have Author A implement a module following the threshold spec
+  2. Have Author B implement the same spec independently
+  3. Swap implementations
+  4. Test whether swapped components maintain system coherence
+
+pass_criteria:
+  - Implementations are interchangeable
+  - No hidden assumptions surface
+  - Spec is sufficient for reproduction
+
+fail_criteria:
+  - Author-specific assumptions break interoperability
+  - Spec contains ambiguous thresholds
+  - "It works on my machine" syndrome
+
+maps_to: LSP (substitutability) + SRP (clear responsibility boundaries)
+```
+
+#### Probe 4: Exit-Liveness (Graceful Degradation)
+
+```yaml
+probe: exit_liveness
+purpose: Test whether thresholds support graceful exit/downgrade
+
+procedure:
+  1. Identify exit paths (alt representations, fallbacks, deprecation routes)
+  2. Force exit condition (remove capability, restrict access, change context)
+  3. Observe system behavior during exit
+
+pass_criteria:
+  - Alternate paths remain accessible
+  - No user is "trapped" in degraded state
+  - Exit is documented and dignified (D preserved)
+
+fail_criteria:
+  - No exit exists
+  - Exit punishes user (data loss, function loss, shame)
+  - System fails catastrophically
+
+maps_to: ISP (interface appropriate to user) + Sovereign Interface (exit always live)
+```
+
+#### Probe 5: Load Test (Threshold Under Stress)
+
+```yaml
+probe: load_test
+purpose: Test threshold behavior under volume/complexity stress
+
+procedure:
+  1. Establish baseline threshold behavior
+  2. Increase load (more users, more data, more concurrent changes)
+  3. Observe threshold integrity at scale
+
+pass_criteria:
+  - Threshold behavior degrades gracefully
+  - SRP boundaries remain visible under load
+  - No "everything talks to everything" emergence
+
+fail_criteria:
+  - Threshold dissolves under pressure
+  - Responsibilities merge chaotically
+  - System becomes incomprehensible (C collapses)
+
+maps_to: SRP (boundaries hold) + OCP (scale via extension, not mutation)
+```
+
+---
+
+### NOVEL APPLICATIONS (Implementation Patterns)
+
+#### Pattern A: Exhibition Didactics (Museum/Gallery)
+
+**Threshold Application:**
+| Principle | Exhibition Expression |
+|-----------|----------------------|
+| **SRP** | One panel = one takeaway concept |
+| **OCP** | New rooms extend exhibition; don't rewrite existing |
+| **LSP** | Icon vocabulary consistent across all galleries |
+| **ISP** | Audio guide only at relevant stops |
+| **DIP** | Didactic grammar (header/body/callout) works for any collection |
+
+**Threshold-Lint Application:**
+- Lint for "god-panels" (SRP-T1)
+- Lint for semantic drift in icon usage (LSP-T2)
+- Exit-liveness: Are accessibility alternatives always available?
+
+#### Pattern B: Civic Emergency Communication
+
+**Threshold Application:**
+| Principle | Emergency Comms Expression |
+|-----------|---------------------------|
+| **SRP** | One sign = one action ("EXIT HERE") |
+| **OCP** | New hazard types integrate without redesign |
+| **LSP** | Warning symbols mean same thing everywhere |
+| **ISP** | Only immediately relevant warnings visible |
+| **DIP** | Alert grammar (color/shape/position) works for any emergency |
+
+**Threshold-Lint Application:**
+- Lint for loading-dock detours (ISP-T1): "Do you have to read the entire emergency plan to find the exit?"
+- Context-drift probe: Does the system work across print/screen/spatial?
+
+#### Pattern C: Pedagogical Materials (Course Design)
+
+**Threshold Application:**
+| Principle | Pedagogy Expression |
+|-----------|---------------------|
+| **SRP** | One learning objective per activity |
+| **OCP** | Curriculum extends without rewriting prior modules |
+| **LSP** | Assessment rubrics work across analogous assignments |
+| **ISP** | Student sees only current level's requirements |
+| **DIP** | Pedagogical patterns (scaffold→practice→assess) work across subjects |
+
+**Threshold-Lint Application:**
+- Lint for hidden prerequisites (SRP-T2)
+- Peer-swap probe: Can different instructors teach the same module?
+
+#### Pattern D: AI Workflow Interfaces (Human-Machine Collaboration)
+
+**Threshold Application:**
+| Principle | AI Workflow Expression |
+|-----------|----------------------|
+| **SRP** | One tool = one function (no compound operations) |
+| **OCP** | New AI capabilities integrate without restructuring |
+| **LSP** | If tool claims "summarize," it must actually summarize |
+| **ISP** | User provides only context needed for this task |
+| **DIP** | Human intent is the abstraction; AI outputs are details |
+
+**Threshold-Lint Application:**
+- Lint for bait-and-switch (LSP-T1): AI claims capability it can't deliver
+- Lint for inverted hierarchy (DIP-T2): AI requirements dictating human workflow
+- Exit-liveness: Can user always override/reject AI output?
+
+---
+
+### POINTS OF EMERGENCE (Insights in Neither Source Alone)
+
+#### Emergence 1: Threshold as Membrane, Not Wall
+> SOLID principles don't create walls—they create **semi-permeable membranes** that regulate what crosses.
+
+This reframes SOLID from "defensive architecture" to "coherent flow design." The goal isn't isolation; it's controlled permeability.
+
+**Novel insight:** A well-designed threshold lets the *right* things cross easily while making *wrong* crossings expensive (visible, effortful, logged).
+
+#### Emergence 2: Failure Modes as Primary Diagnostics
+> You don't lint for "good SOLID"—you lint for **broken thresholds**.
+
+Traditional SOLID teaching emphasizes compliance ("does this class have only one responsibility?"). The threshold framing reveals that **failure is more detectable than success**. We can't easily prove a threshold is "correct," but we can detect when it's malfunctioning.
+
+**Plot Twist #2 confirmed.**
+
+#### Emergence 3: CARDS as Threshold Consequence
+> Every SOLID violation has a specific **CARDS signature**.
+
+This wasn't in either source:
+- SRP violation → C (Competence) degradation
+- OCP violation → S (Safety) degradation
+- LSP violation → D (Dignity) degradation
+- ISP violation → A (Autonomy) degradation
+- DIP violation → R (Relatedness) degradation
+
+This creates a **bidirectional diagnostic**: if someone reports "I feel incompetent using this system," check SRP. If system analysis shows SRP violation, expect user to report comprehension issues.
+
+#### Emergence 4: Infinite Game Architecture
+> SOLID maintains **playability**, not perfection.
+
+The game-theory spine reveals that SOLID isn't about achieving a final state—it's about maintaining the capacity for continued development. This aligns with:
+- Salutogenesis (health as ongoing process, not destination)
+- Generator semantics (yield, not return)
+- Infinite games (play to continue playing)
+
+**Novel framing:** Architecture that follows SOLID is architecture that *stays playable*. Architecture that violates SOLID eventually becomes *unplayable* (can't be changed, can't be understood, can't be trusted).
+
+---
+
+### Validation: Gate 3
+
+**As-If:** The synthesis produces genuinely new insights beyond compilation.
+
+**If-Not Tracking:**
+- [x] Emergence points are novel (not just restatement)
+- [x] Probes are testable (explicit pass/fail)
+- [x] Applications are concrete (not abstract gestures)
+
+**Emergent Insights Count:** 4 (requirement: ≥2) ✓
+
+**Gate Status:** ✅ **PASSED**
 
 ---
 
@@ -355,7 +664,7 @@ The real test is finding a case where the threshold metaphor *doesn't* help. Doc
 | Twist | Location | Status | Reveal |
 |-------|----------|--------|--------|
 | #1 | Game Theory / Session 1 | ✅ Noted | SOLID isn't about preventing change—it's about making change survivable |
-| #2 | Session 3 | ⬜ Pending | Failure modes are more diagnostic than success criteria |
+| #2 | Session 3 | ✅ CONFIRMED | Failure modes are more diagnostic than success criteria |
 | #3 | Hidden Level A | ⬜ Pending | SOLID itself might violate ISP |
 | #4 | ??? | ⬜ Pending | *To be discovered during implementation* |
 
