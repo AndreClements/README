@@ -176,6 +176,8 @@ risk_index: <0.0-1.0>
 | [LENS__object_oriented_ontology](LENS__object_oriented_ontology.md) | README, OOO, SRII, PA | NetVerse, CI Collaboration, Machine dignity | draft |
 | [LENS__salutogenesis](LENS__salutogenesis.md) | README, SALUTOGENESIS, CARDS, Hyperstrate, Body, PA | Health systems, personal practice | draft |
 | [LENS__solid_threshold_mechanics](LENS__solid_threshold_mechanics.md) | README, SOLID, CARDS, SALUTOGENESIS, Hyperstrate, PA | Modular systems, exhibition, civic, pedagogy, AI, game design | draft |
+| [LENS__objectification](LENS__objectification.md) | README, OBJECTIFICATION, CARDS, OOO, MULTI_PARTIALITY, SRII, PA | Ethical design, CI collaboration, machine dignity | draft |
+| [LENS__enneagram](LENS__enneagram.md) | README, ENNEAGRAM, CARDS, MULTI_PARTIALITY, SALUTOGENESIS, PA | Self-knowledge, relational navigation, system design | draft |
 
 ---
 
