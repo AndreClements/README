@@ -24,9 +24,9 @@ Every guide is **self-sufficient**: you can read it without clicking a single li
 
 ## Available Guide Sets
 
-### [Enneagram Guides](enneagram/README.md)
+### [The Enneaguides](enneagram/README.md)
 
-Nine essays, each written for a different Enneagram type's preferred literary style, cognitive mode, and characteristic concerns. This is the parametric principle applied to reading: the same repository, entered through nine different doors.
+Nine essays, nine doors. Each written for a different Enneagram type's preferred literary style, cognitive mode, and characteristic concerns. This is the parametric principle applied to reading: the same repository, entered through nine different doors.
 
 | Guide | Type | Opening Move |
 |-------|------|-------------|
