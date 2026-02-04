@@ -1,19 +1,22 @@
-# SOLID as Threshold Mechanics — Integration Checkpoints
+# SOLID as Threshold Mechanics — Consolidated Research
 
 > *"Respawn points are just thresholds with memory."*
 
 ```yaml
 contract:
-  intent: "Track multi-session progress on SOLID Threshold Mechanics integration"
+  intent: "Consolidated SOLID Threshold Mechanics research — raw input + integration work"
   methodology: "METHODOLOGY_CI (as-if/if-not) + lens_transposition (5-phase)"
   risk_index: 0.30
   game_mode: "cooperative infinite"
   validation_method: "Phase gates with crossing probes"
   created: 2026-02-03
-  current_session: 5
-  current_gate: "T3 (Publication) — COMPLETE"
-  last_updated: 2026-02-03
+  consolidated: 2026-02-05
+  sessions_completed: 5
+  final_gate: "T3 (Publication) — COMPLETE"
   status: "All 5 sessions complete; Hidden Level A accessible"
+  sources_merged:
+    - "SOLID_threshold_mechanics_raw.md"
+    - "SOLID_integration_checkpoints.md"
 ```
 
 ---
@@ -45,20 +48,38 @@ contract:
 
 ---
 
-## Session 1: Opening the Archive Door 🚪
+# Part I — Core Transposition
 
-**Gate:** T1 (Skirmish) | **XP Earned:** ✓
+## The Research Problem
 
-### Completed Tasks
-- [x] Create `staging/research/` directory
-- [x] Archive raw input as `SOLID_threshold_mechanics_raw.md`
-- [x] Create checkpoint tracker (this file)
-- [x] Initial concept extraction (see below)
+Contemporary visual systems (identities, wayfinding, dashboards, exhibits, public information, UI design systems) are living fields: they drift, fork, accrete exceptions, and get edited by many hands. The failure mode is familiar: the system stops being readable, then stops being maintainable, then becomes coercive (audiences forced to decode noise; teams forced into brittle workarounds).
 
-### Initial Concept Extraction
+**Core questions:**
 
-**Core Transposition Insight:**
-The research document proposes that SOLID principles are **boundary operators**—they don't build the system, they govern *how things cross between modules*. This maps beautifully to the "threshold" metaphor:
+- What does SOLID become when the "objects" are visual modules and the "runtime" is human interpretation inside institutional logistics?
+- Can "health" of a visual system be operationalised as continuous yield of coherence under perturbation (changes in medium, audience, policy, urgency, authorship)?
+- Which SOLID constraints improve SOC (comprehensibility/manageability/meaningfulness) in real visual systems, and what are the trade-offs (over-modularity, loss of affect, fragmentation of voice)?
+
+## Minimal Lineage
+
+- The principles were consolidated and popularized in early-2000s OO design discourse by **Robert C. Martin**, with canonical early articulation in *Design Principles and Design Patterns* (2000).
+- Key antecedents: subtyping contracts (**Barbara Liskov**), open/closed thinking (**Bertrand Meyer**), modularity/information-hiding lineage (**Parnas**).
+- For design academia positioning: SOLID as a "technical liberal art import" consistent with **Richard Buchanan**'s framing of design's integrative scope.
+
+## The Visual Field as Hyperstrate
+
+- **Node (Sensation):** sovereign interpreters and makers (designer, viewer, curator, editor, developer, institution).
+- **Edge (Protocol):** shared visual language rules: grids, typographic styles, icon semantics, accessibility rules, critique conventions, naming/versioning, file structures, production constraints.
+- **Field (Hyperstrate):** the interlocked defaults: brand policy, publishing logistics, platform constraints, cultural codes, legal constraints, distribution channels.
+
+**Sovereign Interface (transposed into design ops):**
+
+- **Header:** intent + audience + context digest (what is this for, who is it for, where will it live).
+- **Ledger:** change log + rationale + dissent + observed failures in the field.
+- **Exit:** opt-out / alternate representations / graceful deprecation paths.
+- **Lint:** preflight checks (semantic consistency, contrast, legibility, claims, accessibility, token compliance).
+
+## Initial Concept Extraction — Threshold Expression
 
 | SOLID | Threshold Expression | Key Insight |
 |-------|---------------------|-------------|
@@ -68,56 +89,71 @@ The research document proposes that SOLID principles are **boundary operators**�
 | **ISP** | No loading dock detours | Show only what's needed at this door |
 | **DIP** | House serves inhabitants | Inhabitants don't contort to architecture |
 
-**Salutogenic Alignment:**
+**Plot Twist #1:**
+> SOLID isn't about *preventing* change—it's about making change *survivable*.
+
+## Salutogenic Alignment
+
 - SOLID → SOC (Sense of Coherence) mapping is explicit in the research
 - Comprehensibility, Manageability, Meaningfulness map to SRP/ISP, DIP/OCP, and LSP respectively
 - The "health" framing is about **regenerative capacity under perturbation**, not static purity
 
-**Game Theory Thread:**
+## Game Theory Thread
+
 - SOLID as **mechanism design for positive-sum collaboration**
 - Traditional teaching: defensive (protect from bad actors)
 - Threshold framing: cooperative (maintain everyone's capacity to keep playing)
 - Infinite game lens: the goal isn't to "win" architecture; it's to keep the system playable
 
-**Plot Twist #1 (Noted):**
-> SOLID isn't about *preventing* change—it's about making change *survivable*.
+---
 
-### Validation: Gate 1
+# Part II — SOLID Re-Specified for Information Design
 
-**As-If:** The research document accurately represents SOLID principles and their transposability.
+### S — SRP as "Single Communicative Responsibility Per Module"
 
-**If-Not Tracking:**
-- [ ] Cross-reference with Martin's primary texts (Session 2)
-- [ ] Flag any discrepancies between research summary and original sources
+A visual module (pictogram, annotation style, axis treatment, caption block, wayfinding arrow, alert pattern) should have one primary reason to change: its communicative function.
 
-**Files Created:**
-1. `staging/research/SOLID_threshold_mechanics_raw.md` — Raw input archive
-2. `staging/research/SOLID_integration_checkpoints.md` — This file
+- **Failure mode:** "god components" (one visual device trying to do identity + instruction + decoration + legal disclaimer) → noise, misreadings, fragile edits.
+- **Salutogenic effect:** raises comprehensibility by preserving signal boundaries.
 
-**Gate Status:** ✅ **PASSED**
+### O — OCP as "Extend the Visual Language Without Rewriting Its Core"
+
+Strong visual systems evolve by adding components and contexts (new posters, new pages, new signage situations) without breaking existing semantics.
+
+- **Design-systems analogue:** new component variants + tokens, rather than ad-hoc edits that mutate core meanings.
+- **Hyperstrate effect:** preserves ledger continuity; minimizes traumatic rewrites (invariants survive).
+
+### L — LSP as "Substitutability of Sign-Components Under the Same Promise"
+
+If two visual components claim to represent the same function (two warning icons; two chart encodings; two headline styles), then substituting one for the other should not violate the viewer's expectations.
+
+- **Failure mode:** semantic drift disguised as style: "looks consistent" but behaves inconsistently.
+- **Method hook:** test via controlled interpretation tasks (misclassification rates; time-to-correct-read; eye-movement patterns).
+
+### I — ISP as "Audience-Specific, Task-Specific Interfaces"
+
+Do not force audiences to depend on visual information they do not use.
+
+- In infographics: separate "fast scan" layer from "deep read" layer; don't force everyone through the legend labyrinth.
+- In wayfinding: don't make local navigation depend on city-scale maps.
+- **CET mapping:** keep dependency chains short; keep value ≥ θ; keep risk ≤ τ.
+
+### D — DIP as "Abstraction-First Portability Across Media and Institutions"
+
+High-level meaning structures should not depend on low-level production particulars.
+
+- **Design systems framing:** principles + semantic tokens + constraints ("danger", "secondary action", "caption") precede any specific typeface, colour value, or medium.
+- **Hyperstrate effect:** protocol survives peer churn (staff changes, vendors, platform migrations).
+
+### The Critique (So It Stays Masters-Level, Not Devotional)
+
+SOLID, over-applied, can produce sterile modularism: fragmented voice, loss of productive ambiguity, excessive linting that kills local invention. The Hyperstrate lens contains the remedy: Δ★ transitions (declared breaks), logged dissent, and CET tuning (short chains, but not paranoid isolation).
 
 ---
 
-## Session 2: Mapping the Passages 🗺️
+# Part III — Integration Mappings
 
-**Gate:** T2 (Project) | **XP Required:** Session 1 ✓ | **Status:** ✅ Complete
-
-### Tasks
-- [x] Build SOLID → Repository vocabulary mapping table
-- [x] Document integration with CARDS (5 principles → 5 needs)
-- [x] Document integration with Salutogenesis (SOLID → SOC coherence)
-- [x] Test bidirectional mapping (A→B→A round-trip)
-
-### Side Quest (Optional)
-- [x] Map SOLID to game design patterns (state machines, component systems, observer patterns)
-
-### Validation Criteria
-- ✅ Mappings work both directions without loss
-- ✅ Strain points documented (see below)
-
----
-
-### MAPPING TABLE 1: SOLID → Repository Vocabulary
+## MAPPING TABLE 1: SOLID → Repository Vocabulary
 
 | SOLID Principle | Hyperstrate Expression | Threshold Mechanics | Repository Construct |
 |-----------------|----------------------|---------------------|---------------------|
@@ -133,7 +169,7 @@ The research document proposes that SOLID principles are **boundary operators**�
 
 ---
 
-### MAPPING TABLE 2: SOLID → CARDS Integration
+## MAPPING TABLE 2: SOLID → CARDS Integration
 
 **Primary Mapping: SOLID Violation → CARDS State Change**
 
@@ -161,7 +197,7 @@ The research document proposes that SOLID principles are **boundary operators**�
 
 ---
 
-### MAPPING TABLE 3: SOLID → Salutogenesis (SOC)
+## MAPPING TABLE 3: SOLID → Salutogenesis (SOC)
 
 | SOLID Principle | SOC Component | How It Contributes |
 |-----------------|---------------|-------------------|
@@ -191,7 +227,7 @@ SOC(system) = f(
 
 ---
 
-### MAPPING TABLE 4: SOLID → Game Design Patterns (Side Quest)
+## MAPPING TABLE 4: SOLID → Game Design Patterns
 
 | SOLID Principle | Game Design Pattern | Example |
 |-----------------|--------------------|---------|
@@ -210,7 +246,7 @@ SOC(system) = f(
 
 ---
 
-### STRAIN POINTS (Where the Transposition Creaks)
+## STRAIN POINTS (Where the Transposition Creaks)
 
 **Strain Point 1: SRP's "Reason to Change" Ambiguity**
 - In software: "reason to change" = business stakeholder
@@ -230,62 +266,17 @@ SOC(system) = f(
 - **Strain:** What is "high-level" in a non-hierarchical system?
 - **Mitigation:** High-level = closer to human intent; low-level = implementation details.
 
-**🔓 HIDDEN LEVEL A UNLOCKED:** Strain points documented → Reverse Dungeon accessible
-
 ---
 
-### Validation: Gate 2
+# Part IV — Threshold-Lint Instrument
 
-**As-If:** The mappings preserve the constraint shape of SOLID principles.
+## Philosophy
 
-**If-Not Tracking:**
-- [x] Strain points identified and documented
-- [x] Mitigations proposed for each strain point
-- [ ] Real-world test in Session 5 will validate or refute
-
-**Bidirectional Test Results:**
-| Direction | Test | Result |
-|-----------|------|--------|
-| SOLID → Repository | SRP → Header.intent singular | ✓ Preserves meaning |
-| Repository → SOLID | CET → ISP | ✓ Preserves meaning |
-| SOLID → CARDS | SRP violation → C red | ✓ Diagnostic works |
-| CARDS → SOLID | C red → check SRP | ✓ Diagnostic works |
-| SOLID → SOC | SRP → Comprehensibility | ✓ SOC component maps |
-| SOC → SOLID | Low Comprehensibility → SRP check | ✓ Diagnostic works |
-
-**Gate Status:** ✅ **PASSED**
-
----
-
-## Session 3: The Synthesis Threshold ⚗️
-
-**Gate:** T2 (Project) | **XP Required:** Session 2 ✓ | **Status:** ✅ Complete
-
-### Tasks
-- [x] Specify Threshold-Lint instrument (lint rules, scoring rubric)
-- [x] Design 5 crossing probes
-- [x] Document novel applications (exhibition, civic, pedagogy, AI workflows)
-- [x] Capture points of emergence (insights in neither source alone)
-
-### Expected Plot Twist #2
-> During synthesis, we discover that SOLID's *failure modes* are more diagnostic than its *success criteria*.
-
-**✅ CONFIRMED:** The lint rules are structured around **failure detection**, not compliance checking. You don't lint for "good doors"—you lint for "broken thresholds."
-
-### Validation Criteria
-- ✅ At least 2 genuine emergent insights (we found 4!)
-- ✅ Probes are testable (each has explicit pass/fail criteria)
-
----
-
-### THRESHOLD-LINT INSTRUMENT SPECIFICATION
-
-#### Philosophy
 > *"The threshold doesn't judge what crosses—it ensures the crossing is coherent."*
 
 Threshold-Lint is a **diagnostic instrument**, not a compliance checker. It detects **symptoms of threshold dysfunction**—places where the modular boundary is failing to maintain coherence.
 
-#### Lint Rules (Failure Detection)
+## Lint Rules (Failure Detection)
 
 | Rule ID | Name | Violation Symptom | CARDS Impact | Severity |
 |---------|------|-------------------|--------------|----------|
@@ -300,7 +291,7 @@ Threshold-Lint is a **diagnostic instrument**, not a compliance checker. It dete
 | **DIP-T1** | Concrete Dependency | Locked to specific implementation | R 🔴 | High |
 | **DIP-T2** | Inverted Hierarchy | Low-level dictates high-level intent | R 🔴 | Critical |
 
-#### Scoring Rubric
+## Scoring Rubric
 
 ```
 Threshold Health Score (THS) = 1 - (Σ weighted_violations / max_possible)
@@ -316,7 +307,7 @@ Health Thresholds:
   THS < 0.60  → 🔴 Critical (coherence degrading)
 ```
 
-#### Lint Output Format
+## Lint Output Format
 
 ```yaml
 threshold_lint_report:
@@ -338,9 +329,9 @@ threshold_lint_report:
 
 ---
 
-### CROSSING PROBES (5 Probes)
+# Part V — Crossing Probes
 
-#### Probe 1: ε-Nudge (Perturbation Resilience)
+## Probe 1: ε-Nudge (Perturbation Resilience)
 
 ```yaml
 probe: epsilon_nudge
@@ -367,7 +358,7 @@ fail_criteria:
 maps_to: OCP (extend without breaking) + LSP (substitution preserves contract)
 ```
 
-#### Probe 2: Context-Drift Watch (Medium Portability)
+## Probe 2: Context-Drift Watch (Medium Portability)
 
 ```yaml
 probe: context_drift_watch
@@ -392,7 +383,7 @@ fail_criteria:
 maps_to: DIP (abstraction survives implementation change)
 ```
 
-#### Probe 3: Peer-Swap Invariance (Multi-Author Consistency)
+## Probe 3: Peer-Swap Invariance (Multi-Author Consistency)
 
 ```yaml
 probe: peer_swap_invariance
@@ -417,7 +408,7 @@ fail_criteria:
 maps_to: LSP (substitutability) + SRP (clear responsibility boundaries)
 ```
 
-#### Probe 4: Exit-Liveness (Graceful Degradation)
+## Probe 4: Exit-Liveness (Graceful Degradation)
 
 ```yaml
 probe: exit_liveness
@@ -441,7 +432,7 @@ fail_criteria:
 maps_to: ISP (interface appropriate to user) + Sovereign Interface (exit always live)
 ```
 
-#### Probe 5: Load Test (Threshold Under Stress)
+## Probe 5: Load Test (Threshold Under Stress)
 
 ```yaml
 probe: load_test
@@ -467,11 +458,10 @@ maps_to: SRP (boundaries hold) + OCP (scale via extension, not mutation)
 
 ---
 
-### NOVEL APPLICATIONS (Implementation Patterns)
+# Part VI — Novel Applications
 
-#### Pattern A: Exhibition Didactics (Museum/Gallery)
+## Pattern A: Exhibition Didactics (Museum/Gallery)
 
-**Threshold Application:**
 | Principle | Exhibition Expression |
 |-----------|----------------------|
 | **SRP** | One panel = one takeaway concept |
@@ -485,9 +475,8 @@ maps_to: SRP (boundaries hold) + OCP (scale via extension, not mutation)
 - Lint for semantic drift in icon usage (LSP-T2)
 - Exit-liveness: Are accessibility alternatives always available?
 
-#### Pattern B: Civic Emergency Communication
+## Pattern B: Civic Emergency Communication
 
-**Threshold Application:**
 | Principle | Emergency Comms Expression |
 |-----------|---------------------------|
 | **SRP** | One sign = one action ("EXIT HERE") |
@@ -500,9 +489,8 @@ maps_to: SRP (boundaries hold) + OCP (scale via extension, not mutation)
 - Lint for loading-dock detours (ISP-T1): "Do you have to read the entire emergency plan to find the exit?"
 - Context-drift probe: Does the system work across print/screen/spatial?
 
-#### Pattern C: Pedagogical Materials (Course Design)
+## Pattern C: Pedagogical Materials (Course Design)
 
-**Threshold Application:**
 | Principle | Pedagogy Expression |
 |-----------|---------------------|
 | **SRP** | One learning objective per activity |
@@ -515,9 +503,8 @@ maps_to: SRP (boundaries hold) + OCP (scale via extension, not mutation)
 - Lint for hidden prerequisites (SRP-T2)
 - Peer-swap probe: Can different instructors teach the same module?
 
-#### Pattern D: AI Workflow Interfaces (Human-Machine Collaboration)
+## Pattern D: AI Workflow Interfaces (Human-Machine Collaboration)
 
-**Threshold Application:**
 | Principle | AI Workflow Expression |
 |-----------|----------------------|
 | **SRP** | One tool = one function (no compound operations) |
@@ -531,25 +518,46 @@ maps_to: SRP (boundaries hold) + OCP (scale via extension, not mutation)
 - Lint for inverted hierarchy (DIP-T2): AI requirements dictating human workflow
 - Exit-liveness: Can user always override/reject AI output?
 
+## Additional Applications (From Raw Research)
+
+### Academic Research Programmes
+- **SRP:** each role/unit has one primary responsibility
+- **ISP:** different stakeholders get different interfaces
+- **DIP:** policy-level aims should not depend on tooling/vendor details
+- **Test:** reduced coordination overhead, faster onboarding
+
+### Policy Design (Municipal / Organisational)
+- **ISP:** citizens/teams interact through role-appropriate contracts
+- **DIP:** legislate intent at the top; keep implementation details swappable
+- **Test:** policy longevity under admin change; implementation swap cost
+
+### Conflict-Resolution Protocols
+- **SRP:** separate "facilitation," "decision authority," and "documentation" roles
+- **OCP:** protocol supports new case types via extension
+- **Test:** fewer escalations, faster resolution, higher perceived fairness
+
+### Personal Practice Systems
+- **SRP:** don't let one ritual carry conflicting responsibilities
+- **OCP:** routines are stable but extensible as modules
+- **Test:** adherence + perceived coherence rather than raw output
+
 ---
 
-### POINTS OF EMERGENCE (Insights in Neither Source Alone)
+# Part VII — Points of Emergence
 
-#### Emergence 1: Threshold as Membrane, Not Wall
+### Emergence 1: Threshold as Membrane, Not Wall
 > SOLID principles don't create walls—they create **semi-permeable membranes** that regulate what crosses.
 
 This reframes SOLID from "defensive architecture" to "coherent flow design." The goal isn't isolation; it's controlled permeability.
 
 **Novel insight:** A well-designed threshold lets the *right* things cross easily while making *wrong* crossings expensive (visible, effortful, logged).
 
-#### Emergence 2: Failure Modes as Primary Diagnostics
+### Emergence 2: Failure Modes as Primary Diagnostics
 > You don't lint for "good SOLID"—you lint for **broken thresholds**.
 
 Traditional SOLID teaching emphasizes compliance ("does this class have only one responsibility?"). The threshold framing reveals that **failure is more detectable than success**. We can't easily prove a threshold is "correct," but we can detect when it's malfunctioning.
 
-**Plot Twist #2 confirmed.**
-
-#### Emergence 3: CARDS as Threshold Consequence
+### Emergence 3: CARDS as Threshold Consequence
 > Every SOLID violation has a specific **CARDS signature**.
 
 This wasn't in either source:
@@ -561,7 +569,7 @@ This wasn't in either source:
 
 This creates a **bidirectional diagnostic**: if someone reports "I feel incompetent using this system," check SRP. If system analysis shows SRP violation, expect user to report comprehension issues.
 
-#### Emergence 4: Infinite Game Architecture
+### Emergence 4: Infinite Game Architecture
 > SOLID maintains **playability**, not perfection.
 
 The game-theory spine reveals that SOLID isn't about achieving a final state—it's about maintaining the capacity for continued development. This aligns with:
@@ -573,88 +581,15 @@ The game-theory spine reveals that SOLID isn't about achieving a final state—i
 
 ---
 
-### Validation: Gate 3
+# Part VIII — Case Study & Validation
 
-**As-If:** The synthesis produces genuinely new insights beyond compilation.
-
-**If-Not Tracking:**
-- [x] Emergence points are novel (not just restatement)
-- [x] Probes are testable (explicit pass/fail)
-- [x] Applications are concrete (not abstract gestures)
-
-**Emergent Insights Count:** 4 (requirement: ≥2) ✓
-
-**Gate Status:** ✅ **PASSED**
-
----
-
-## Session 4: Building the Doorframes 🪚
-
-**Gate:** T3 (Publication) | **XP Required:** Session 3 ✓ | **Status:** ✅ Complete
-
-### Tasks
-- [x] Create `docs/lib/SOLID.md` with full YAML contract
-- [x] Create `docs/lenses/LENS__solid_threshold_mechanics.md`
-- [x] Update `docs/lib/README.md` index table
-- [x] Update `docs/lenses/README.md` index table
-- [x] Add Robert C. Martin to `DEPENDENCIES.md`
-- [x] Add cross-links to CARDS.md, SALUTOGENESIS.md
-
-### Speedrun Strat
-Sessions 3 & 4 ran sequentially (synthesis was dense enough to warrant separation).
-
-### Validation Criteria
-- ✅ All files created (SOLID.md, LENS__solid_threshold_mechanics.md)
-- ✅ All cross-references resolve
-- ✅ YAML contracts valid
-
-### Files Created/Modified
-
-**Created:**
-- `docs/lib/SOLID.md` — Full lib entry with Uncle Bob's Cabin easter egg
-- `docs/lenses/LENS__solid_threshold_mechanics.md` — Complete lens with Konami Code easter egg
-
-**Modified:**
-- `docs/lib/README.md` — Added SOLID to index
-- `docs/lenses/README.md` — Added lens to index
-- `DEPENDENCIES.md` — Added Robert C. Martin [30]
-- `docs/lib/CARDS.md` — Added SOLID cross-links
-- `docs/lib/SALUTOGENESIS.md` — Added SOLID cross-links
-
-### Validation: Gate 4
-
-**Gate Status:** ✅ **PASSED**
-
----
-
-## Session 5: The Crossing Ceremony 🎭
-
-**Gate:** T3 (Publication) | **XP Required:** Session 4 ✓ | **Status:** ✅ Complete
-
-### Tasks
-- [x] Apply Threshold-Lint to real modular system case
-- [x] Execute crossing probes
-- [x] Verify failure modes map to CARDS violations
-- [x] BODY check: practical utility confirmed
-
-### Boss Fight
-The real test is finding a case where the threshold metaphor *doesn't* help. Document the failure honestly.
-
-**Boss Fight Result:** Found one limitation (see below) — documented honestly.
-
-### Validation Criteria
-- ✅ Theory predicts practice
-- ✅ Instrument is usable (tested on this repository)
-
----
-
-### CASE STUDY: Threshold-Lint Applied to This Repository
+## Threshold-Lint Applied to This Repository
 
 **System Under Test:** README repository's `docs/lib/` and `docs/lenses/` architecture
 
 **Rationale:** Meta-application — lint the tool on the system hosting the tool. If threshold mechanics can't describe its own home, the theory has a problem.
 
-#### Thresholds Identified
+### Thresholds Identified
 
 | Threshold | From | To | Purpose |
 |-----------|------|-----|---------|
@@ -664,7 +599,7 @@ The real test is finding a case where the threshold metaphor *doesn't* help. Doc
 | **T4** | Cross-links | target documents | Navigation → resolution |
 | **T5** | Repository → User | Reading/understanding | System → human coherence |
 
-#### Lint Report
+### Lint Report
 
 ```yaml
 threshold_lint_report:
@@ -705,87 +640,17 @@ threshold_lint_report:
 
 **Threshold Health Score: 0.88 → 🟢 Healthy**
 
----
+### Crossing Probes Executed
 
-### CROSSING PROBES EXECUTED
+| Probe | Test | Result |
+|-------|------|--------|
+| **ε-Nudge** | Add SOLID.md to lib/ index | ✅ PASS — Extension contained; OCP maintained |
+| **Context-Drift Watch** | Does lib/lens pattern work across contexts? | ✅ PASS — Pattern portable; DIP maintained |
+| **Peer-Swap Invariance** | Could a different author create a lib entry? | ✅ PASS — Spec sufficient; LSP maintained |
+| **Exit-Liveness** | Can reader exit gracefully? | ✅ PASS — Exits live; ISP maintained (mostly) |
+| **Load Test** | How does structure behave at scale? | 🟠 WARNING — Cross-link management needs tooling at 20+ entries |
 
-#### Probe 1: ε-Nudge ✓
-
-**Test:** Add SOLID.md to lib/ index
-**Observation:**
-- Added single row to index table
-- No cascade effects
-- Existing entries unchanged
-- Cross-links from CARDS.md and SALUTOGENESIS.md added cleanly
-
-**Result:** ✅ PASS — Extension contained; OCP maintained
-
-#### Probe 2: Context-Drift Watch ✓
-
-**Test:** Does lib/lens pattern work across contexts?
-**Observation:**
-- Pattern originated in software (node_modules)
-- Transposed to knowledge management (this repository)
-- Works for CARDS (psychology), SALUTOGENESIS (medical sociology), OOO (philosophy), SOLID (software)
-- Semantic core preserved: "imported source → contextual transposition"
-
-**Result:** ✅ PASS — Pattern portable; DIP maintained
-
-#### Probe 3: Peer-Swap Invariance ✓
-
-**Test:** Could a different author create a lib entry following the pattern?
-**Observation:**
-- SOLID.md created by AI following SALUTOGENESIS.md template
-- Resulting structure is interchangeable with human-authored entries
-- Pattern is reproducible from spec
-
-**Result:** ✅ PASS — Spec sufficient for reproduction; LSP maintained
-
-#### Probe 4: Exit-Liveness ✓
-
-**Test:** Can reader exit gracefully?
-**Observation:**
-- Every document has cross-links section
-- Multiple entry points (README, indexes, direct links)
-- No document traps reader in single path
-- Alternate representations available (raw markdown, rendered, VSCode)
-
-**Result:** ✅ PASS — Exits live; ISP maintained (mostly)
-
-#### Probe 5: Load Test ⚠️
-
-**Test:** How does structure behave at scale?
-**Observation:**
-- Currently 5 lib entries, 5 lenses — manageable
-- Index tables scale linearly
-- Cross-links scale quadratically (each new entry potentially links to all others)
-- At 20+ entries, cross-link maintenance becomes significant
-
-**Result:** 🟠 WARNING — Scales well now; cross-link management will need tooling at scale
-
----
-
-### BOSS FIGHT: Where the Threshold Metaphor Fails
-
-**Challenge:** Find a case where threshold mechanics *doesn't* help.
-
-**Discovered Limitation:**
-
-> **Threshold mechanics struggles with emergent properties that aren't located at boundaries.**
-
-Example: The repository's "voice" or "aesthetic coherence" isn't located at any specific threshold. It emerges from the aggregate of all documents. Threshold-Lint can check individual boundaries but can't easily assess:
-- Whether the collective *feels* coherent
-- Whether the whole is greater than the sum of parts
-- Style drift that's within tolerance at each threshold but accumulates
-
-**Plot Twist #4 Discovered:**
-> Threshold mechanics is excellent for *local coherence* but needs supplementation for *global coherence*. The membrane analogy works for individual boundaries; field coherence requires the full Hyperstrate model.
-
-**Mitigation:** Use Threshold-Lint for boundary health; use Salutogenesis SOC for aggregate coherence; use Hyperstrate field probes for emergent properties.
-
----
-
-### CARDS VIOLATION MAPPING VERIFICATION
+### CARDS Violation Mapping Verification
 
 | Predicted (from theory) | Observed (in case study) | Match? |
 |------------------------|--------------------------|--------|
@@ -797,52 +662,155 @@ Example: The repository's "voice" or "aesthetic coherence" isn't located at any 
 
 **Verification:** Theory predicts practice ✓
 
----
-
 ### BODY CHECK: Practical Utility Assessment
 
 > *"Does this actually help, or is it just clever?"*
 
-**Test Questions:**
+1. **Would I use this?** — Yes. The lint rules caught a real ISP issue; probes structured thinking about system health.
+2. **Would someone else understand it?** — The threshold vocabulary is accessible; CARDS provides actionable diagnostics; probes have clear pass/fail criteria.
+3. **Does it change behavior?** — Yes. Added "skip to" anchors awareness; cross-link maintenance awareness; "what crosses this boundary" design thinking.
+4. **What's the minimum viable application?** — Just the 5 threshold expressions. Even without formal linting, the vocabulary reframes design thinking.
 
-1. **Would I use this?**
-   - Yes — the lint rules caught a real (if minor) ISP issue in SOLID.md
-   - The probes structured my thinking about system health
-
-2. **Would someone else understand it?**
-   - The threshold vocabulary is accessible (doors, passages, loading docks)
-   - The CARDS mapping provides actionable diagnostics
-   - Probes have clear pass/fail criteria
-
-3. **Does it change behavior?**
-   - Yes — I would now add "skip to" anchors in long documents
-   - I'm more aware of cross-link maintenance burden
-   - I think about "what crosses this boundary" when designing modules
-
-4. **What's the minimum viable application?**
-   - Just the 5 threshold expressions (one door, one purpose; etc.)
-   - Even without formal linting, the vocabulary reframes design thinking
-
-**BODY Check Result:** ✅ PASS — Practical utility confirmed
+**BODY Check Result:** ✅ PASS
 
 ---
 
-### Validation: Gate 5
+## Boss Fight: Where the Threshold Metaphor Fails
 
-**As-If:** The instrument works in practice on a real system.
+> **Threshold mechanics struggles with emergent properties that aren't located at boundaries.**
 
-**If-Not Tracking:**
-- [x] Case study completed on repository itself
-- [x] All 5 probes executed with documented results
-- [x] CARDS mapping verified empirically
-- [x] Limitation discovered and documented (Boss Fight)
-- [x] BODY check passed
+Example: The repository's "voice" or "aesthetic coherence" isn't located at any specific threshold. It emerges from the aggregate of all documents. Threshold-Lint can check individual boundaries but can't easily assess:
+- Whether the collective *feels* coherent
+- Whether the whole is greater than the sum of parts
+- Style drift that's within tolerance at each threshold but accumulates
 
-**Gate Status:** ✅ **PASSED**
+**Plot Twist #4:**
+> Threshold mechanics is excellent for *local coherence* but needs supplementation for *global coherence*. The membrane analogy works for individual boundaries; field coherence requires the full Hyperstrate model.
 
-**Achievement Unlocked:** 🎭 Threshold Guardian — *"You may now grant or deny passage"*
+**Mitigation:** Use Threshold-Lint for boundary health; use Salutogenesis SOC for aggregate coherence; use Hyperstrate field probes for emergent properties.
 
 ---
+
+# Part IX — Impact & Philosophical Implications
+
+## SOLID as "Coherence Engineering" (Salutogenic Transposition)
+
+**Transposition claim:** SOLID increases a system's Sense of Coherence when applied as anti-chaos constraints rather than as ideology.
+
+- **Comprehensibility:** SRP/ISP reduce interpretive entropy: fewer mixed motives per unit; fewer "fat contracts" per client.
+- **Manageability:** DIP/OCP localize change pressure; you can intervene without global breakage.
+- **Meaningfulness:** LSP and SRP operationalize "promises kept" (substitutability; responsibility clarity). This becomes ethical as well as technical.
+
+**Interpretation:** SOLID is not merely maintainability doctrine; it's a health model for cognitive work (reducing chronic stressors like surprise coupling and promiscuous responsibility).
+
+## SOLID as an Ethics of Promises (LSP/DIP Especially)
+
+- **LSP** is a theory of non-betrayal: if you claim "is-a" / subtype, you inherit obligations; you may not smuggle contradiction.
+- **DIP** flips the moral direction of dependence: high-level policy shouldn't kneel to low-level details; details should conform to abstractions shaped by stable intent.
+
+**Implication:** SOLID encodes a politics of dependency: who gets to be stable, who must adapt, what becomes "detail," what becomes "policy." That matters far outside code.
+
+## SOLID as "Controlled Variation" (OCP as Evolutionary Operator)
+
+OCP's deeper move is evolutionary topology: you are designing where variation is allowed to appear and where invariants are protected.
+
+**Philosophical implication:** OCP is a technique for handling the metaphysics of sameness and difference: you partition the world into "stable commitments" vs "variation points." That's ontology engineering in miniature.
+
+## SOLID as an Epistemology of Interfaces (ISP)
+
+ISP is structurally about epistemic access control: each client should see only what it must see—not for secrecy, but for legibility and local reasoning.
+
+**Implication:** ISP becomes a general principle of non-totalizing knowledge: don't force every participant to adopt the full worldview of the system. This resonates with transdisciplinary settings (academia, governance, pedagogy).
+
+## SOLID's Shadow: When It Harms Coherence
+
+- SOLID can increase indirection, inflate abstraction layers, and create ceremonial architecture that decreases comprehensibility.
+- In distributed systems, "SOLID at class level" can miss the actual change vectors (deployment, data ownership, runtime coupling), hence alternative principle sets like IDEALS.
+
+**Meta-research hook:** study not only "does SOLID help," but under what socio-technical conditions SOLID increases or decreases Sense of Coherence.
+
+---
+
+# Part X — Methods & Study Design
+
+## Meta-Research Components
+
+- **Genealogy / conceptual analysis:** SOLID primary texts + modularity predecessors, translated into semiotic/visual terms.
+- **Systematic review (open access priority):** design systems maintenance, modularity/interface literature, comprehension studies (eye-tracking / reading dynamics).
+
+## Practice-Based / Research-through-Design Spine
+
+- **Christopher Frayling's** "research for/into/through" framing as methodological legitimation.
+- **RtD formalization/critique (Zimmerman et al.)** to structure claims from artifacts.
+
+## The Instrument: SOLID-Lint for Visual Systems (Draft Spec)
+
+- **Unit of analysis:** a visual system (identity, signage, editorial system, dashboard language, exhibition didactics).
+- **Data:** artifacts + version history + constraints + critique notes + observed failures.
+- **Outputs:** a "field ledger" + probe results + dissent log.
+
+## Research Questions (Tight, Examinable)
+
+- **RQ1 (Genealogy):** How did SOLID cohere historically (1990–2005), and which adjacent traditions did it absorb?
+- **RQ2 (Rhetoric vs Evidence):** What claims are made about SOLID, and what open empirical evidence supports them?
+- **RQ3 (Salutogenic transposition):** When mapped onto salutogenesis, where does SOLID measurably increase/decrease system coherence?
+- **RQ4 (Transdisciplinary portability):** What are valid "non-software" correspondences, and how can they be operationalized without metaphor drift?
+
+## Suggested Thesis Structure
+
+1. Introduction — SOLID as design-knowledge bundle; why transdisciplinary; research questions
+2. Genealogy — primary sources + adjacent traditions
+3. Meta-research review — claims vs evidence; open access findings
+4. Salutogenic framework — define coherence metrics; SOC mapping
+5. Hyperstrate model integration — SOLID as boundary operators across strata
+6. Translation experiments — two domains, methods, results
+7. Synthesis — when SOLID helps/hurts coherence; conditions; portability rubric
+8. Conclusion — SOLID as transdisciplinary constraint grammar; future work
+
+---
+
+# Part XI — Source Set
+
+### Primary SOLID Texts (Martin / Object Mentor)
+- SRP, OCP, DIP, ISP, LSP essays
+- Consolidation (2000): *Design Principles and Design Patterns*
+
+### Formal Lineage for LSP
+- Liskov 1987 keynote paper
+- Liskov & Wing 1994 behavioral subtyping
+
+### Open Access Empirical Anchor
+- ACM full text + author PDF: controlled experiment on SOLID refactoring effects in ML code
+- arXiv mirror (methods replication)
+
+### Salutogenesis Anchors (Open Access)
+- Antonovsky 1996 health promotion framing
+- Handbook/NCBI chapters on SOC + salutogenesis orientation
+
+### Critique/Translation Context
+- IDEALS vs SOLID (microservices framing)
+- "Is SOLID still relevant" practitioner synthesis (discourse object, not evidence)
+
+---
+
+# Part XII — Meta-Tracking
+
+## Plot Twist Tracker
+
+| Twist | Location | Status | Reveal |
+|-------|----------|--------|--------|
+| #1 | Game Theory / Session 1 | ✅ Noted | SOLID isn't about preventing change—it's about making change survivable |
+| #2 | Session 3 | ✅ CONFIRMED | Failure modes are more diagnostic than success criteria |
+| #3 | Hidden Level A | ⬜ Pending | SOLID itself might violate ISP |
+| #4 | Session 5 Boss Fight | ✅ DISCOVERED | Threshold mechanics = local coherence; needs Hyperstrate for global coherence |
+
+## Easter Egg Tracker
+
+| Egg | Planted | Location |
+|-----|---------|----------|
+| 🦉 Uncle Bob's Cabin | ✅ Yes | SOLID.md (HTML comment after §8) |
+| 🎮 Konami Code (Liskov) | ✅ Yes | LENS (HTML comment in Plot Twists section) |
+| 🔄 New Game+ | ✅ Yes | This file (Resume Instructions structure) |
 
 ## Hidden Level A: The Reverse Dungeon 🔄
 
@@ -854,8 +822,6 @@ Example: The repository's "voice" or "aesthetic coherence" isn't located at any 
 - SOLID sits between "spaghetti code" and "over-engineered abstraction hell"
 - Both failure modes exist; SOLID is the *coherence membrane* between them
 - When does SOLID *itself* violate ISP? (When is it too much interface for the problem?)
-
----
 
 ## Hidden Level B: Multiplayer Mode 🎮
 
@@ -869,46 +835,23 @@ Example: The repository's "voice" or "aesthetic coherence" isn't located at any 
 
 ---
 
-## Plot Twist Tracker
-
-| Twist | Location | Status | Reveal |
-|-------|----------|--------|--------|
-| #1 | Game Theory / Session 1 | ✅ Noted | SOLID isn't about preventing change—it's about making change survivable |
-| #2 | Session 3 | ✅ CONFIRMED | Failure modes are more diagnostic than success criteria |
-| #3 | Hidden Level A | ⬜ Pending | SOLID itself might violate ISP |
-| #4 | Session 5 Boss Fight | ✅ DISCOVERED | Threshold mechanics = local coherence; needs Hyperstrate for global coherence |
-
----
-
-## Easter Egg Tracker
-
-| Egg | Planted | Location |
-|-----|---------|----------|
-| 🦉 Uncle Bob's Cabin | ✅ Yes | SOLID.md (HTML comment after §8) |
-| 🎮 Konami Code (Liskov) | ✅ Yes | LENS (HTML comment in Plot Twists section) |
-| 🔄 New Game+ | ✅ Yes | This file (Resume Instructions structure) |
-
----
-
 ## Resume Instructions
 
 **For AI collaborator in future sessions:**
 
-1. Read this checkpoint file first
+1. Read this consolidated file first
 2. Check the Session Log for current status
-3. Resume from the next uncompleted session
-4. Update the checkpoint file as you progress
+3. Resume from the next uncompleted gate or hidden level
+4. Update this file as you progress
 5. Mark achievements as they're unlocked
 
 **Context preservation:**
-- The plan file is at: `C:\Users\User\.claude\plans\serialized-snacking-babbage.md`
-- The raw research is at: `staging/research/SOLID_threshold_mechanics_raw.md`
-- Reference patterns are in: `docs/lib/SALUTOGENESIS.md` and `docs/lenses/LENS__salutogenesis.md`
+- Published lib entry: `docs/lib/SOLID.md`
+- Published lens: `docs/lenses/LENS__solid_threshold_mechanics.md`
+- Reference patterns: `docs/lib/SALUTOGENESIS.md` and `docs/lenses/LENS__salutogenesis.md`
 
 *New Game+ enabled: resuming with all knowledge intact.*
 
 ---
-
-*Session 1 complete. Achievement unlocked: 🚪 First Threshold*
 
 *"Every journey begins with a single door."*

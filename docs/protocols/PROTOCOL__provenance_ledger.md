@@ -1,4 +1,4 @@
-`docs/protocols/protocol__provenance_ledger.md`
+`docs/protocols/PROTOCOL__provenance_ledger.md`
 # Protocol — Provenance Ledger (CI Work)
 > **Version:** 1.1 (Stable)
 

@@ -80,8 +80,8 @@ This repository reads as a **cyber-artist's book** that doubles as an operationa
 - [methodology__host_multi_party_encounter.md](../methods/methodology__host_multi_party_encounter.md)
 
 ### Operational Protocols (Governance Primitives)
-- [protocol__provenance_ledger.md](../protocols/protocol__provenance_ledger.md)
-- [protocol__agentic_envelope.md](../protocols/protocol__agentic_envelope.md)
+- [PROTOCOL__provenance_ledger.md](../protocols/PROTOCOL__provenance_ledger.md)
+- [PROTOCOL__agentic_envelope.md](../protocols/PROTOCOL__agentic_envelope.md)
 - [observerCircuitBreaker_DBC_CQS.md](../protocols/observerCircuitBreaker_DBC_CQS.md)
 
 ### Incubation / "Pressure Relief Valves"
@@ -344,7 +344,7 @@ This reduces the risk of "consent theatre".
 
 ### 7.5 Provenance Ledger: Minimum Schema
 
-Turn `protocol__provenance_ledger.md` into an explicit minimal schema spec:
+Turn `PROTOCOL__provenance_ledger.md` into an explicit minimal schema spec:
 
 | Field | Type | Required |
 |-------|------|----------|
@@ -500,8 +500,8 @@ README.md (Master Node / The Operator)
     │
     ├─→ docs/protocols/ (Governance Primitives)
     │   ├─ observerCircuitBreaker_DBC_CQS.md (Exit gates)
-    │   ├─ protocol__provenance_ledger.md (Audit trail)
-    │   └─ protocol__agentic_envelope.md (Agent contracts)
+    │   ├─ PROTOCOL__provenance_ledger.md (Audit trail)
+    │   └─ PROTOCOL__agentic_envelope.md (Agent contracts)
     │
     ├─→ docs/lenses/ (Contextual Transpositions)
     │   └─ LENS__gravity_irreversibility_clarity.md (NetVerse2 physics)

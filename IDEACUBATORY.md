@@ -4,7 +4,7 @@
 
 A living chamber for incubating ideas in raw, aphoristic, poetic, or speculative form. This is the system's primary "sketchbook" — a low-friction, high-chaos environment for the `Analyst` to play.
 
-This document is the input. The structured `/docs/ideacubatory/` directory is the eventual output.
+This document is the input. The structured `/ideacubator/` directory is the eventual output.
 
 ---
 ## Potential implementation and or deployment

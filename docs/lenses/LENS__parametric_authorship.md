@@ -10,10 +10,10 @@ anchors:
     - "../models/philosophy_of_hyperstrate.md"
     - "../../README.md"
   protocols:
-    - "../protocols/protocol__agentic_envelope.md"
-    - "../protocols/protocol__provenance_ledger.md"
+    - "../protocols/PROTOCOL__agentic_envelope.md"
+    - "../protocols/PROTOCOL__provenance_ledger.md"
     - "../protocols/observerCircuitBreaker_DBC_CQS.md"
-    - "../protocols/protocol__typed_coauthorship_relations.md"
+    - "../protocols/PROTOCOL__typed_coauthorship_relations.md"
   readme_sections: ["§2", "§5", "§8"]
 context:
   field: "Agentic systems, toolchains, CI/CD pipelines, co-authorship"
@@ -231,7 +231,7 @@ CARDS-Impact: [C: skill-transfer, A: choice-respected, R: trust-maintained, D: c
 
 ### F) Sovereign Interface Checklist
 
-Cross-reference: [protocol__agentic_envelope.md](../protocols/protocol__agentic_envelope.md), [protocol__provenance_ledger.md](../protocols/protocol__provenance_ledger.md)
+Cross-reference: [PROTOCOL__agentic_envelope.md](../protocols/PROTOCOL__agentic_envelope.md), [PROTOCOL__provenance_ledger.md](../protocols/PROTOCOL__provenance_ledger.md)
 
 **Header (defaults disclosure) — A4**
 - model surface + toolset
@@ -467,10 +467,10 @@ Where ceremony exists, sovereignty is being protected. The presence of friction 
 - **[parametric_authorship_field_essay.md](../essays/parametric_authorship_field_essay.md)** — Permissions-as-signature narrative; two faces (Strand VI); Sceptic's Lint (Strand VII)
 
 ### Protocols
-- **[protocol__agentic_envelope.md](../protocols/protocol__agentic_envelope.md)** — Assembly Header specification
-- **[protocol__provenance_ledger.md](../protocols/protocol__provenance_ledger.md)** — Ledger schema, dissent recording
+- **[PROTOCOL__agentic_envelope.md](../protocols/PROTOCOL__agentic_envelope.md)** — Assembly Header specification
+- **[PROTOCOL__provenance_ledger.md](../protocols/PROTOCOL__provenance_ledger.md)** — Ledger schema, dissent recording
 - **[observerCircuitBreaker_DBC_CQS.md](../protocols/observerCircuitBreaker_DBC_CQS.md)** — Exit mechanics, refusal semantics
-- **[protocol__typed_coauthorship_relations.md](../protocols/protocol__typed_coauthorship_relations.md)** — Relation types, consent states
+- **[PROTOCOL__typed_coauthorship_relations.md](../protocols/PROTOCOL__typed_coauthorship_relations.md)** — Relation types, consent states
 
 ### Models
 - **[philosophy_of_hyperstrate.md](../models/philosophy_of_hyperstrate.md)** — Hyperstrate as enforcement layer; field coherence

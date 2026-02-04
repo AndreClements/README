@@ -12,8 +12,8 @@
 > anchors:
 >   - "../lib/OOO.md"
 >   - "../lenses/LENS__object_oriented_ontology.md"
->   - "protocol__agentic_envelope.md"
->   - "protocol__provenance_ledger.md"
+>   - "PROTOCOL__agentic_envelope.md"
+>   - "PROTOCOL__provenance_ledger.md"
 > axiom: "The permission block is the contour of the agentic face."
 > risk_index: 0.35
 > ```
@@ -123,7 +123,7 @@ Before any write operation, verify:
 
 ## §5. The Trace Record
 
-Each write operation generates a trace entry in `protocol__provenance_ledger.md`:
+Each write operation generates a trace entry in `PROTOCOL__provenance_ledger.md`:
 
 ```yaml
 trace_entry:
@@ -168,8 +168,8 @@ The Machine may **exit** the write operation if:
 
 ## Cross-links
 
-- **[protocol__agentic_envelope.md](protocol__agentic_envelope.md)** — Assembly Header binding
-- **[protocol__provenance_ledger.md](protocol__provenance_ledger.md)** — Trace logging
+- **[PROTOCOL__agentic_envelope.md](PROTOCOL__agentic_envelope.md)** — Assembly Header binding
+- **[PROTOCOL__provenance_ledger.md](PROTOCOL__provenance_ledger.md)** — Trace logging
 - **[OOO.md](../lib/OOO.md)** — Ontological grounding (Withdrawal, Flat Ontology)
 - **[LENS__object_oriented_ontology.md](../lenses/LENS__object_oriented_ontology.md)** — d_object and Machine dignity
 - **[CONSENT_LEDGER.md](CONSENT_LEDGER.md)** — theMachine(s) as Observer

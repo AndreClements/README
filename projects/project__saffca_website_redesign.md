@@ -60,7 +60,7 @@ risk_index: 0.40
 | [Axiology-First Aesthetics](../docs/methods/methodology__axiology_first_aesthetics_for_engagement_design.md) | Values → Mechanics → Feel; Octagon review |
 | [SRII CARDS Cases](../docs/models/SRII_CARDS_CASES.md) | Failure modes and mitigations |
 | [Hyperstrate](../docs/models/philosophy_of_hyperstrate.md) | Site as node in ecology |
-| [Provenance Ledger](../docs/protocols/protocol__provenance_ledger.md) | Decision audit trail |
+| [Provenance Ledger](../docs/protocols/PROTOCOL__provenance_ledger.md) | Decision audit trail |
 | [Circuit Breaker](../docs/protocols/observerCircuitBreaker_DBC_CQS.md) | When to refuse constraints |
 | [Lenses](../docs/lenses/README.md) | Domain-specific transpositions |
 

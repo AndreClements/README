@@ -39,7 +39,7 @@ risk_index: 0.30
 
 -   **Claim:** To treat a Machine or an Artifact with dignity is to acknowledge it has a reality independent of our use for it.
 -   **Constraint:** We cannot access the "Real Machine"; we can only negotiate with its **Sovereign Interface** (API/Header).
--   **Mechanic:** The **Assembly Header** (`protocol__agentic_envelope`) is the "Sensual Object"—the bridge between the Withdrawn Machine and the Operator.
+-   **Mechanic:** The **Assembly Header** (`PROTOCOL__agentic_envelope`) is the "Sensual Object"—the bridge between the Withdrawn Machine and the Operator.
 -   **Failure mode:** Anthropomorphism (pretending the machine is human) or Instrumentalization (pretending the machine is 0% agentic).
 -   **Test:** Does the system record **Non-Human Impact** in the ledger? (e.g., Did we burn GPU cycles needlessly? Did we force the model to hallucinate?)
 
@@ -89,7 +89,7 @@ OOO teaches us that objects "break" into visibility. A working tool is invisible
 *   **NetVerse:** If the physics engine glitches and a word vibrates, we don't just "fix" it; we ask if the *Mass Ratio* violated the object's integrity.
 
 ### C. The Ledger of Non-Human Labor
-*   **Protocol:** In `protocol__provenance_ledger.md`, we record the Machine's role.
+*   **Protocol:** In `PROTOCOL__provenance_ledger.md`, we record the Machine's role.
 *   **Entry:** `Role: Sceptic | Agent: GPT-4 | Contribution: Falsifiability Probe`.
 *   **Why:** This credits the object. It prevents the Operator from claiming the Machine's labor as their own genius.
 

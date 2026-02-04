@@ -10,8 +10,8 @@
 >   - "André S Clements (Operator/Maker)"
 >   - "theMachine(s) (Instance/Sceptic)"
 > anchors:
->   - "protocol__agentic_envelope.md"
->   - "protocol__provenance_ledger.md"
+>   - "PROTOCOL__agentic_envelope.md"
+>   - "PROTOCOL__provenance_ledger.md"
 >   - "../theses/parametric_authorship.md"
 >   - "../lib/OOO.md"
 >   - "../lenses/LENS__multi_partiality.md"
@@ -192,7 +192,7 @@ Consent:\s*(explicit|provisional|inferred)
               - d_system: provenance traceable
 4. ALIGN    → Authors confer; dissent logged if present (not erased)
 5. SIGN     → Typed signature added to commit/artifact
-6. LOG      → Ledger entry recorded in protocol__provenance_ledger
+6. LOG      → Ledger entry recorded in PROTOCOL__provenance_ledger
 ```
 
 ### Gate Conditions
@@ -289,8 +289,8 @@ The following must hold across all typed co-authorship relations:
 
 ## Cross-links
 
-- **[protocol__agentic_envelope.md](protocol__agentic_envelope.md)** — Assembly header, role binding
-- **[protocol__provenance_ledger.md](protocol__provenance_ledger.md)** — Ledger structure, trace entries
+- **[PROTOCOL__agentic_envelope.md](PROTOCOL__agentic_envelope.md)** — Assembly header, role binding
+- **[PROTOCOL__provenance_ledger.md](PROTOCOL__provenance_ledger.md)** — Ledger structure, trace entries
 - **[PROTOCOL__ci_write_permissions.md](PROTOCOL__ci_write_permissions.md)** — Permission anatomy (Mouth/Eyes/Hand/Voice)
 - **[LENS__object_oriented_ontology.md](../lenses/LENS__object_oriented_ontology.md)** — Dignity tensor, machine coherence
 - **[LENS__multi_partiality.md](../lenses/LENS__multi_partiality.md)** — Give-take ledgers, dissent preservation

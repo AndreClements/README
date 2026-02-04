@@ -17,8 +17,8 @@
 >      - "../docs/methods/METHODOLOGY_CI.md"
 >    protocols_rel:
 >      - "../docs/protocols/observerCircuitBreaker_DBC_CQS.md"
->      - "../docs/protocols/protocol__agentic_envelope.md"
->      - "../docs/protocols/protocol__provenance_ledger.md"
+>      - "../docs/protocols/PROTOCOL__agentic_envelope.md"
+>      - "../docs/protocols/PROTOCOL__provenance_ledger.md"
 >    dependencies_rel:
 >      - "../docs/DEPENDENCIES.md"
 > ```
@@ -276,8 +276,8 @@ Primary case: **Filmic Response A0** intervention *(../projects/project\_\_filmi
 
 ## 4.2 Instruments
 
-* **Assembly Header & Agentic Envelope** *(../docs/protocols/protocol\_\_agentic\_envelope.md)*
-* **Provenance Ledger** *(../docs/protocols/protocol\_\_provenance\_ledger.md)*
+* **Assembly Header & Agentic Envelope** *(../docs/protocols/PROTOCOL\_\_agentic\_envelope.md)*
+* **Provenance Ledger** *(../docs/protocols/PROTOCOL\_\_provenance\_ledger.md)*
 * **Circuit Breaker** with falsifiability + exit *(../docs/protocols/observerCircuitBreaker\_DBC\_CQS.md)*
 * **Dignity Linter** (pseudocode in §5.3)
 
@@ -393,11 +393,11 @@ A compact ideogram using quadratic fall-off to couple opening and discretion.
 
 ## 5.1 Assembly Binding (who/what is operating)
 
-Record **surface, model family, role, tools, retrieval, operator, tier**, and compute a contract hash. *(../docs/protocols/protocol\_\_agentic\_envelope.md)*
+Record **surface, model family, role, tools, retrieval, operator, tier**, and compute a contract hash. *(../docs/protocols/PROTOCOL\_\_agentic\_envelope.md)*
 
 ## 5.2 Ledger (the new indexical trace)
 
-Claims, rule locks (e.g., value by D9), host defaults, parameter deltas, validation method, sceptic pass, **non-human impact**. *(../docs/protocols/protocol\_\_provenance\_ledger.md)*
+Claims, rule locks (e.g., value by D9), host defaults, parameter deltas, validation method, sceptic pass, **non-human impact**. *(../docs/protocols/PROTOCOL\_\_provenance\_ledger.md)*
 
 ## 5.3 Dignity Linter (studio-safe)
 
@@ -555,8 +555,8 @@ pipeline parametric_authorship_case(student):
 ## Appendix C — Templates (pointers)
 
 * Language Card v0.1 and Studio Log: see **../projects/project\_\_filmic-response\_A0\_language-card\_intervention.md**.
-* Ledger schema: **../docs/protocols/protocol\_\_provenance\_ledger.md**.
-* Agentic envelope: **../docs/protocols/protocol\_\_agentic\_envelope.md**.
+* Ledger schema: **../docs/protocols/PROTOCOL\_\_provenance\_ledger.md**.
+* Agentic envelope: **../docs/protocols/PROTOCOL\_\_agentic\_envelope.md**.
 * Method: **../docs/methods/METHODOLOGY\_CI.md**.
 
 ## Appendix D - utilities

@@ -1,4 +1,4 @@
-`docs\protocols\protocol__agentic_envelope.md`
+`docs\protocols\PROTOCOL__agentic_envelope.md`
 # Protocol — Agentic Envelope (Assembly Header)
 > **Version:** 1.2 (Draft)
 

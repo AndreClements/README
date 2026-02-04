@@ -1,1 +1,16 @@
 /.claude
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Adobe InDesign lock/temp files
+*.idlk
+~*
+
+# Editor/temp backups
+*.bak
+*.tmp
+
+# Windows null device artifact
+nul

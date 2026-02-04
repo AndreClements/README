@@ -30,8 +30,8 @@ contract:
       - "../docs/methods/METHODOLOGY_CI.md"
     protocols:
       - "../docs/protocols/observerCircuitBreaker_DBC_CQS.md"
-      - "../docs/protocols/protocol__agentic_envelope.md"
-      - "../docs/protocols/protocol__provenance_ledger.md"
+      - "../docs/protocols/PROTOCOL__agentic_envelope.md"
+      - "../docs/protocols/PROTOCOL__provenance_ledger.md"
     dependencies:
       - "../docs/DEPENDENCIES.md"
   license_fqdn: "https://github.com/AndreClements/README/blob/main/README.md"
@@ -92,7 +92,7 @@ Autonomy (choice of film, materials, runway, obstruction) • Competence (scale-
 # Measures
 
 **Quantitative**: rubric scores; completion; obstruction uptake; time-on-task.
-**Qualitative**: mapping notes; relay notes; Language Cards; self-audit distributions. Provenance/decisions via ../docs/protocols/protocol\_\_provenance\_ledger.md.
+**Qualitative**: mapping notes; relay notes; Language Cards; self-audit distributions. Provenance/decisions via ../docs/protocols/PROTOCOL\_\_provenance\_ledger.md.
 
 # Limitations
 
@@ -102,7 +102,7 @@ Short duration; heterogeneous skill; uneven AI access; resource constraints. Pro
 
 Core stance: **../README.md** (canonical: [https://github.com/AndreClements/README/blob/main/README.md](https://github.com/AndreClements/README/blob/main/README.md))
 Methods: **../docs/methods/METHODOLOGY\_CI.md**
-Protocols: **../docs/protocols/observerCircuitBreaker\_DBC\_CQS.md**, **../docs/protocols/protocol\_\_agentic\_envelope.md**, **../docs/protocols/protocol\_\_provenance\_ledger.md**
+Protocols: **../docs/protocols/observerCircuitBreaker\_DBC\_CQS.md**, **../docs/protocols/PROTOCOL\_\_agentic\_envelope.md**, **../docs/protocols/PROTOCOL\_\_provenance\_ledger.md**
 Dependencies: **../docs/DEPENDENCIES.md**
 
 # Pseudocode — Meta-Executable Spec

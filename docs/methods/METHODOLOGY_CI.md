@@ -84,7 +84,7 @@ Identity is bound at the *assembly* level (surface + model + policy/tools + oper
 - **T2 (Project):** Full Assembly Header + minimal Ledger; at least one **Sceptic** pass for any external-facing claim.
 - **T3 (Publication/Exhibition):** Complete Ledger; **validation_method** recorded for every claim; **BODY** check recorded for artistic assets.
 
-See `..\protocols\protocol__agentic_envelope.md` and `..\protocols\protocol__provenance_ledger.md`.
+See `..\protocols\PROTOCOL__agentic_envelope.md` and `..\protocols\PROTOCOL__provenance_ledger.md`.
 
 ### §3.5 Hybrid Observer Graphs (human × machine)
 We treat observers by “distance-from-wetware” (dfw: 1=human, 3=org/process, 5=CI/opaque stack).
