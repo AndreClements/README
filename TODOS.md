@@ -1,7 +1,7 @@
 `TODOS.md`
 
 # TODOS.md
-*Last Updated: 2025-08-26*
+*Last Updated: 2026-02-05*
 
 A tactical checklist of immediate, actionable tasks for the `README` repository. For the long-term strategic plan, see `PLANS.md`.
 
@@ -75,10 +75,22 @@ A tactical checklist of immediate, actionable tasks for the `README` repository.
   - DoD: 10 captions with tone notes + usage contexts.
   - Commit: `chore(text): add CAPTIONS.md`
 
-- [ ] **project: Physical artifacts**
-  - Explore comic/poster/T-shirt editions; note constraints & vendors.
-  - DoD: One-page brief with costs, MOQ, fulfillment options.
-  - Commit: `chore(project): explore physical artifact editions`
+- [ ] **project: Physical manual edition(s)**[^physical_manual]
+  - Produce the README repository as a printed manual / artist's book — completing the software-manual metaphor in physical form.
+  - Format: ring-bound or spiral-bound (echoing IBM Redbook tradition); alternatively perfect-bound with exposed spine.
+  - Edition model: **1/1 or very small runs**. Each edition is a **git-state snapshot** — a forensic record of the system at a particular moment. Not a definitive text; a printing.
+  - The 9 enneagram guides as **parametric entry points**: 9 possible reading orders, 9 dust jackets, same book.
+  - Maculate design: boot logs, corrupted entries, patina — printed as material, not hidden.
+  - Research: `staging/research/research__computer_manual_history.md`
+  - Idea seed: `ideacubator/idea__readme_as_physical_manual.md`
+  - Sub-tasks (when ready):
+    - [ ] Define page architecture: section order, front/back matter, colophon
+    - [ ] Typography & format decisions (page size, binding, paper stock)
+    - [ ] Content audit: what translates to print, what stays digital-only
+    - [ ] Production research: vendors, costs, proofing workflow
+    - [ ] First snapshot: choose a git state, produce proof copy
+  - DoD: One physical proof copy in hand.
+  - Commit: `feat(project): physical manual edition — proof v0.1`
 
 - [ ] **chore(edit): Proof & anchors pass**[^proofing]
   - Repo-wide sweep for typos and anchor drift (link targets, diacritics, dates).  
@@ -106,6 +118,7 @@ A tactical checklist of immediate, actionable tasks for the `README` repository.
 [^micro_ligs]: Key terms sourced from `docs/concepts/aLexicon.md` and `docs/concepts/GLOSSARY.md`.
 [^mermaid]: System diagram lives in `README.md` §1 **ARCHITECTURE_OVERVIEW** (Mermaid).
 [^gaintaining]: `docs/methods/METHODOLOGY_GAINTAINING.md` (v0.1).
-[^proofing]: Check: *pare* (trim) vs *pair*; names: Opale Art, Stokvel Gallery; title casing: “Echoes of Lynch”; tokens: `so)d`; “equilibrium”; “jury-selected”.
+[^physical_manual]: Research: `staging/research/research__computer_manual_history.md`; idea seed: `ideacubator/idea__readme_as_physical_manual.md`.
+[^proofing]: Check: *pare* (trim) vs *pair*; names: Opale Art, Stokvel Gallery; title casing: "Echoes of Lynch"; tokens: `so)d`; "equilibrium"; "jury-selected".
 
 ---
