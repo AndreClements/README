@@ -43,6 +43,8 @@ These are not "influences" (see [DEPENDENCIES.md](../../DEPENDENCIES.md) for tha
 | **[MULTI_PARTIALITY](MULTI_PARTIALITY.md)** | Ivan Boszormenyi-Nagy | Family therapy → Contextual therapy | Relational ethics; multi-stakeholder navigation; ledger of entitlements |
 | **[OOO](OOO.md)** | Graham Harman, Ian Bogost | Heidegger → Speculative Realism → OOO | Flat ontology; Machine dignity; NetVerse word-physics |
 | **[SALUTOGENESIS](SALUTOGENESIS.md)** | Aaron Antonovsky | Stress research → Medical sociology | Health-creation framework; SOC diagnostic |
+| **[ENNEAGRAM](ENNEAGRAM.md)** | Ichazo, Naranjo, Riso & Hudson | Sufi geometry → Gurdjieff → Ichazo → Naranjo → Riso & Hudson | Dynamic personality system; self-knowledge diagnostic; integration/disintegration dynamics |
+| **[OBJECTIFICATION](OBJECTIFICATION.md)** | Martha C. Nussbaum, Rae Langton | Kant → MacKinnon/Dworkin → Nussbaum → Langton | Dignity diagnostic; 10-feature taxonomy; benign objectification argument; Machine dignity |
 | **[SOLID](SOLID.md)** | Robert C. Martin et al. | Parnas → Meyer → Liskov → Martin | Modular coherence; threshold mechanics |
 
 ---
@@ -72,8 +74,15 @@ inputs for SRII evaluation...
 
 ---
 
+## Creation Protocol
+
+New library entries should follow the **[Library Entry Creation Methodology](../methods/methodology__lib_entry_creation.md)**, which codifies selection criteria, structural template, quality rubric (LHS), and CI checkpoints.
+
+---
+
 ## Cross-links
 
 - **[DEPENDENCIES.md](../../DEPENDENCIES.md)** — Influences and provocations (broader constellation)
 - **[README.md §5](../../README.md)** — The Network (Observer relationships)
 - **[SRII_AXIOLOGICAL_FRAMEWORK.md](../models/SRII_AXIOLOGICAL_FRAMEWORK.md)** — Where CARDS is integrated as axiological spine
+- **[methodology__lib_entry_creation.md](../methods/methodology__lib_entry_creation.md)** — How to create new library entries
