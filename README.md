@@ -151,6 +151,20 @@ function make_art(): Promise<Connection> {
 }
 ```
 
+**Public Interface Artifacts:**
+
+The [CV](https://andresclements.com/cv-andre-clements/) is one such artifact — a compressed projection of this specification designed for contexts that cannot parse the full system. It implements the `Audience` interface by offering a selection face (what is shown) with provenance pointing back here.
+
+```php
+class CV implements Audience {
+    // Compressed signal for professional contexts
+    // Links to README for full specification
+    public function receive(Output $artifact) {
+        return $this->compress($artifact, $legibility_threshold);
+    }
+}
+```
+
 ### § 5b. The Library (External Constructs)
 
 Imported constructs, frameworks, and "software libraries" that run on the `human-OS`. These are tools picked up along the way—authored by others, integrated with care.

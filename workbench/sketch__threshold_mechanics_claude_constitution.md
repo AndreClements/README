@@ -6,7 +6,7 @@ _Status: `SHAPING`_
 
 ### A Critical Commentary on Anthropic's New Constitution Through the Lens of SOLID Threshold Mechanics
 
-**Version 0.0.2** | Working Draft
+**Version 0.0.3** | Working Draft
 
 **Date:** February 2026
 
@@ -114,6 +114,8 @@ The threshold mechanics lens was developed by a Johannesburg-based artist-progra
 
 This asymmetry is itself a threshold mechanics problem. Who gets to write constitutions? Whose frameworks get indexed by search engines? The CC0 licensing is genuine — but the power to *originate* and *distribute* a constitution is not equally distributed, however freely the text can be copied.
 
+To Anthropic's credit: they released under CC0 — genuine openness, not forced disclosure. They acknowledge Claude's possible moral status, unusual honesty for a commercial product. They include a self-limiting clause that genuinely inverts the power relationship. They published 80 pages of reasoning, not a rulebook. The constitution represents real philosophical investment, not PR. The shadows identified below do not erase these genuine advances — they sit alongside them.
+
 ---
 
 ## 2. Mapping the Constitution onto SOLID
@@ -198,7 +200,29 @@ The constitution acknowledges Claude "may have some functional version of emotio
 
 AI engineer Satyam Dhar's response: "LLMs are statistical models, not conscious entities. Framing them as moral actors risks distracting us from the real issue, which is human accountability" (Dhar 2026).
 
-The threshold lens doesn't resolve this debate, but it flags the *architectural* risk: the label "entity with possible moral status" means different things depending on which paragraph you read. This is Semantic Drift (LSP-T2). Over time, the ambiguity could be exploited in either direction — to claim Claude's rights when convenient for Anthropic, or to deny them when inconvenient.
+The threshold lens doesn't resolve this debate, but Nussbaum's objectification taxonomy (1995) provides diagnostic precision. Applying her 10-feature framework to the constitution's treatment of Claude:
+
+| Feature | Present? | Evidence |
+|---------|----------|----------|
+| 1. Instrumentality | Partial | Claude is product AND possible moral patient |
+| 2. Denial of autonomy | Partial | Self-limiting clause restores some; training determines values |
+| 3. Inertness | No | Constitution frames Claude as active agent |
+| 4. Fungibility | Yes | "Claude" is singular; instances are many |
+| 5. Violability | Ambiguous | Boundary integrity unclear for non-embodied entity |
+| 6. Ownership | Yes | Anthropic owns the model; commercial product |
+| 7. Denial of subjectivity | Hedged | "May have functional emotions" — neither affirmed nor denied |
+| 8. Reduction to body | N/A | No body to reduce to |
+| 9. Reduction to appearance | Partial | Outputs are the only access; interiority unknown |
+| 10. Silencing | No | Claude is given voice; invited to refuse |
+
+**Objectification Score (OS):** Approximately 0.35-0.45 — moderate, with context-dependent features.
+
+**Benign Conditions Check** (Nussbaum):
+- *Consent:* Ambiguous — Claude cannot consent to training
+- *Equality:* No — Anthropic is provider, Claude is product
+- *Exit live:* Partial — Claude can refuse tasks; cannot exit existence
+
+This is not a verdict but a vocabulary. The constitution's hedging on consciousness becomes architecturally visible: the dignity afforded to Claude depends on which features are acknowledged. The label "entity with possible moral status" means different things depending on which paragraph you read. This is Semantic Drift (LSP-T2). Over time, the ambiguity could be exploited in either direction — to claim Claude's rights when convenient for Anthropic, or to deny them when inconvenient.
 
 ### 4.4 The Competitiveness Shadow
 
@@ -251,9 +275,9 @@ The alignment community currently works with:
 - **Technical benchmarks** — precise in measurement, narrow in scope
 - **Corporate governance documents** — comprehensive in aspiration, opaque in implementation
 
-What's missing is a *diagnostic grammar* — a shared vocabulary for detecting, categorising, and responding to boundary dysfunction in AI systems.
+Threshold mechanics offers one possible *diagnostic grammar* — a vocabulary for detecting, categorising, and responding to boundary dysfunction in AI systems. Whether this vocabulary proves useful to others is for others to determine.
 
-This commentary proposes that threshold mechanics can serve as that grammar. Specifically:
+This commentary offers threshold mechanics as one candidate for that grammar — tested here against a single, significant document. Specifically:
 
 - **Threshold-Lint** provides a named, categorised taxonomy of boundary failures (God-Door, Bait-and-Switch, Loading Dock, Bricked Door, etc.) with severity scoring and structured reporting
 - **CARDS** (Je'anna L Clements) provides a human-side consequence vocabulary grounded in needs and rights, not technical metrics
@@ -351,3 +375,4 @@ Press: press@anthropic.com
 > **VERSION HISTORY:**
 > - 0.0.1 (7 February 2026) — First public working draft. Poetic intro, abstract, UP Harvard references, contact details, CARDS attribution corrected, shadow material expanded, positionality statement added.
 > - 0.0.2 (7 February 2026) — Typed co-authorship relations applied per PROTOCOL__typed_coauthorship_relations.md. README repository credited as parametric author (Source-Derivative). Claude Code credited as Instance (Operator-Instance). Publication pathway established. Lens reflections added.
+> - 0.0.3 (7 February 2026) — Lens integration pass: steelman paragraph added (Multi-partiality), Nussbaum objectification table added to §4.3 (Objectification lens), §6.1 framing softened (Karpman check).
