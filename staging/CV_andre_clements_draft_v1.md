@@ -194,5 +194,5 @@ For the full specification of influences, methodology, and philosophical framewo
 
 ---
 
-**Note:** This CV is the public interface — a compressed projection of a fuller specification. The [README repository](https://github.com/AndreClements/README) contains the complete methodology, philosophical framework, and documented praxis.
+**Note:** This CV is the public interface — a compressed projection of a fuller specification. The [README repository](https://github.com/AndreClements/README) contains the *more* complete methodology, philosophical framework, and documented praxis.
 
