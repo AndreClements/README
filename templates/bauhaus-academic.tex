@@ -1,0 +1,242 @@
+%% bauhaus-academic.tex — Pandoc LaTeX template
+%% Factorial harmonic proportions design system
+%%
+%% DESIGN SYSTEM:
+%%   Base unit: 11pt
+%%   Scale ratio: phi = 1.618033988749895
+%%   All proportions derive from phi, never arbitrary
+
+\documentclass[$if(fontsize)$$fontsize$$else$11pt$endif$,$if(papersize)$$papersize$paper$else$a4paper$endif$]{article}
+
+%% ============================================================================
+%% PACKAGES
+%% ============================================================================
+
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{enumitem}
+\usepackage{fancyvrb}
+\usepackage{framed}
+\usepackage{etoolbox}
+
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+%% ============================================================================
+%% FACTORIAL HARMONIC CONSTANTS (phi = golden ratio)
+%% ============================================================================
+
+\newlength{\spaceXS}   \setlength{\spaceXS}{6.11pt}
+\newlength{\spaceSM}   \setlength{\spaceSM}{9.89pt}
+\newlength{\spaceBASE} \setlength{\spaceBASE}{16pt}
+\newlength{\spaceMD}   \setlength{\spaceMD}{25.89pt}
+\newlength{\spaceLG}   \setlength{\spaceLG}{41.89pt}
+\newlength{\spaceXL}   \setlength{\spaceXL}{67.77pt}
+
+%% ============================================================================
+%% COLORS — Bauhaus Palette
+%% ============================================================================
+
+\definecolor{colorBlack}{HTML}{1a1a1a}
+\definecolor{colorGreyDark}{HTML}{4a4a4a}
+\definecolor{colorGreyMid}{HTML}{808080}
+\definecolor{colorGreyLight}{HTML}{e0e0e0}
+\definecolor{colorGreyPale}{HTML}{f5f5f5}
+\definecolor{colorAccent}{HTML}{c41e3a}
+\definecolor{shadecolor}{HTML}{f5f5f5}
+
+\color{colorBlack}
+
+%% ============================================================================
+%% GEOMETRY
+%% ============================================================================
+
+\geometry{
+  $if(papersize)$$papersize$paper$else$a4paper$endif$,
+  top=3cm,
+  bottom=3cm,
+  left=2.5cm,
+  right=2.5cm,
+  headheight=14pt
+}
+
+%% ============================================================================
+%% TYPOGRAPHY
+%% ============================================================================
+
+\setmainfont{$if(mainfont)$$mainfont$$else$Segoe UI$endif$}
+\setsansfont{$if(sansfont)$$sansfont$$else$Segoe UI$endif$}
+\setmonofont{$if(monofont)$$monofont$$else$Consolas$endif$}[Scale=0.85]
+
+\linespread{1.618}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{\spaceBASE}
+
+%% ============================================================================
+%% HEADINGS — Modular Scale
+%% ============================================================================
+
+\titleformat{\section}
+  {\fontsize{28pt}{34pt}\selectfont\sffamily\color{colorBlack}}
+  {\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{\spaceXL}{\spaceLG}
+
+\titleformat{\subsection}
+  {\fontsize{18pt}{22pt}\selectfont\sffamily\color{colorBlack}}
+  {\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{\spaceLG}{\spaceMD}
+
+\titleformat{\subsubsection}
+  {\fontsize{14pt}{17pt}\selectfont\sffamily\color{colorBlack}}
+  {\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{\spaceMD}{\spaceSM}
+
+\titleformat{\paragraph}[runin]
+  {\normalsize\sffamily\bfseries\color{colorBlack}}
+  {}{}{}
+\titlespacing*{\paragraph}{0pt}{\spaceMD}{\spaceSM}
+
+%% ============================================================================
+%% HYPERLINKS
+%% ============================================================================
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=colorBlack,
+  urlcolor=colorGreyDark,
+  citecolor=colorGreyDark,
+  pdfborder={0 0 0}
+}
+
+%% ============================================================================
+%% HEADERS & FOOTERS
+%% ============================================================================
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\color{colorGreyMid}\small\thepage}
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[C]{\color{colorGreyMid}\small\thepage}
+}
+
+%% ============================================================================
+%% BLOCKQUOTES
+%% ============================================================================
+
+\renewenvironment{quote}{%
+  \vspace{\spaceMD}%
+  \list{}{\leftmargin=\spaceMD \rightmargin=\spaceMD}%
+  \item\relax\itshape\color{colorGreyDark}%
+}{%
+  \endlist%
+  \vspace{\spaceMD}%
+}
+
+%% ============================================================================
+%% TABLES
+%% ============================================================================
+
+\setlength{\heavyrulewidth}{1.5pt}
+\setlength{\lightrulewidth}{0.5pt}
+\renewcommand{\arraystretch}{1.4}
+\setlength{\tabcolsep}{\spaceSM}
+
+%% ============================================================================
+%% LISTS
+%% ============================================================================
+
+\setlist{
+  topsep=\spaceSM,
+  itemsep=\spaceXS,
+  parsep=0pt,
+  leftmargin=\spaceMD
+}
+
+\setlist[itemize]{label=\textcolor{colorGreyMid}{\textbullet}}
+\setlist[enumerate]{label=\textcolor{colorGreyMid}{\arabic*.}}
+
+%% ============================================================================
+%% TITLE BLOCK
+%% ============================================================================
+
+$if(title)$
+\title{%
+  \fontsize{36pt}{44pt}\selectfont\sffamily%
+  \color{colorBlack}%
+  $title$%
+}
+$endif$
+
+$if(author)$
+\author{%
+  \normalsize\sffamily\color{colorGreyDark}%
+  $for(author)$$author$$sep$, $endfor$%
+}
+$endif$
+
+$if(date)$
+\date{\small\sffamily\color{colorGreyMid}$date$}
+$else$
+\date{}
+$endif$
+
+%% ============================================================================
+%% TABLE OF CONTENTS
+%% ============================================================================
+
+\titlecontents{section}[0pt]
+  {\addvspace{\spaceSM}\sffamily}
+  {\thecontentslabel\hspace{1em}}
+  {}
+  {\titlerule*[0.5pc]{.}\contentspage}
+
+\titlecontents{subsection}[\spaceMD]
+  {\sffamily\small}
+  {\thecontentslabel\hspace{1em}}
+  {}
+  {\titlerule*[0.5pc]{.}\contentspage}
+
+%% ============================================================================
+%% DOCUMENT
+%% ============================================================================
+
+\begin{document}
+
+$if(title)$
+\maketitle
+\thispagestyle{plain}
+$endif$
+
+$if(abstract)$
+\begin{quote}
+\textbf{Abstract:} $abstract$
+\end{quote}
+$endif$
+
+$if(toc)$
+{
+\hypersetup{linkcolor=colorGreyDark}
+\setcounter{tocdepth}{$if(toc-depth)$$toc-depth$$else$2$endif$}
+\tableofcontents
+\clearpage
+}
+$endif$
+
+$body$
+
+\end{document}

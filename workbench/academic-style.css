@@ -1,0 +1,385 @@
+/*
+ * THRESHOLD MECHANICS — Academic Stylesheet
+ * Bauhaus-inspired design with mathematically-grounded proportions
+ *
+ * DESIGN SYSTEM:
+ * - Base unit (β): 16px
+ * - Scale ratio (φ): 1.618033988749895 (golden ratio)
+ * - Line-height: φ (1.618)
+ * - Modular type scale: β × φ^n
+ * - Spacing scale: β × φ^n (same progression)
+ *
+ * Type Scale (φ = 1.618):
+ *   n=-2: 6.11px   → small/caption
+ *   n=-1: 9.89px   → footnotes
+ *   n=0:  16px     → body (base)
+ *   n=1:  25.89px  → h4
+ *   n=2:  41.89px  → h3
+ *   n=3:  67.77px  → h2
+ *   n=4:  109.66px → h1
+ *
+ * Spacing Scale:
+ *   β/φ²: 6.11px   → micro
+ *   β/φ:  9.89px   → small
+ *   β:    16px     → base
+ *   β×φ:  25.89px  → medium
+ *   β×φ²: 41.89px  → large
+ *   β×φ³: 67.77px  → xlarge
+ */
+
+/* === CSS CUSTOM PROPERTIES (Mathematical Foundations) === */
+:root {
+  /* Base unit */
+  --base: 16px;
+
+  /* Golden ratio */
+  --phi: 1.618033988749895;
+
+  /* Type scale: base × φ^n */
+  --text-xs: calc(var(--base) / var(--phi) / var(--phi));  /* 6.11px */
+  --text-sm: calc(var(--base) / var(--phi));                /* 9.89px */
+  --text-base: var(--base);                                  /* 16px */
+  --text-lg: calc(var(--base) * var(--phi));                /* 25.89px */
+  --text-xl: calc(var(--base) * var(--phi) * var(--phi));   /* 41.89px */
+  --text-2xl: calc(var(--base) * var(--phi) * var(--phi) * var(--phi)); /* 67.77px */
+  --text-3xl: calc(var(--base) * var(--phi) * var(--phi) * var(--phi) * var(--phi)); /* 109.66px */
+
+  /* Spacing scale: same progression */
+  --space-xs: calc(var(--base) / var(--phi) / var(--phi));  /* 6.11px */
+  --space-sm: calc(var(--base) / var(--phi));                /* 9.89px */
+  --space-base: var(--base);                                  /* 16px */
+  --space-md: calc(var(--base) * var(--phi));               /* 25.89px */
+  --space-lg: calc(var(--base) * var(--phi) * var(--phi));  /* 41.89px */
+  --space-xl: calc(var(--base) * var(--phi) * var(--phi) * var(--phi)); /* 67.77px */
+  --space-2xl: calc(var(--base) * var(--phi) * var(--phi) * var(--phi) * var(--phi)); /* 109.66px */
+
+  /* Line height: golden ratio */
+  --leading: var(--phi);
+
+  /* Colors: Bauhaus primary palette */
+  --color-black: #1a1a1a;
+  --color-grey-dark: #4a4a4a;
+  --color-grey-mid: #808080;
+  --color-grey-light: #e0e0e0;
+  --color-grey-pale: #f5f5f5;
+  --color-white: #ffffff;
+  --color-accent: #c41e3a;  /* Bauhaus red */
+
+  /* Content width: ~65 characters at base size (optimal reading length) */
+  --content-width: calc(var(--base) * 40);  /* 640px */
+
+  /* Page margins (A4): derived from content width */
+  --margin-page: calc((210mm - var(--content-width)) / 2);
+}
+
+/* === TYPOGRAPHY === */
+
+/* IBM Plex font stack */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: local('IBM Plex Sans'), local('IBMPlexSans');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBM Plex Serif';
+  src: local('IBM Plex Serif'), local('IBMPlexSerif');
+  font-weight: 100 900;
+  font-style: normal italic;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: local('IBM Plex Mono'), local('IBMPlexMono');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+html {
+  font-size: var(--base);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 1rem;
+  line-height: var(--leading);
+  color: var(--color-black);
+  background-color: var(--color-white);
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-md);
+}
+
+/* === HEADINGS === */
+/* Each heading level is φ times larger than the next */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;  /* Light weight for Bauhaus elegance */
+  line-height: 1.2;  /* Tighter for headings: 1.2 ≈ 2/φ */
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-md);
+  color: var(--color-black);
+}
+
+h1 {
+  font-size: calc(1rem * var(--phi) * var(--phi) * var(--phi));  /* ~4.236rem */
+  font-weight: 200;
+  margin-top: 0;
+  margin-bottom: var(--space-lg);
+  text-align: center;
+}
+
+h2 {
+  font-size: calc(1rem * var(--phi) * var(--phi));  /* ~2.618rem */
+  font-weight: 300;
+  border-bottom: 1px solid var(--color-grey-light);
+  padding-bottom: var(--space-sm);
+  page-break-before: always;
+}
+
+h2:first-of-type {
+  page-break-before: auto;
+}
+
+h3 {
+  font-size: calc(1rem * var(--phi));  /* ~1.618rem */
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+h5, h6 {
+  font-size: calc(1rem / var(--phi));  /* ~0.618rem → normalized to 0.875rem for readability */
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+/* === PARAGRAPHS & BODY TEXT === */
+
+p {
+  margin-top: 0;
+  margin-bottom: var(--space-base);
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* === BLOCKQUOTES (Epigraphs) === */
+/* Indented by φ units on each side */
+
+blockquote {
+  font-family: 'IBM Plex Serif', Georgia, serif;
+  font-style: italic;
+  font-size: 1rem;
+  line-height: calc(var(--leading) * 1.1);  /* Slightly more open for contemplation */
+  color: var(--color-grey-dark);
+  margin: var(--space-lg) 0;
+  padding: 0 var(--space-md);
+  margin-left: var(--space-md);
+  margin-right: var(--space-md);
+  border: none;
+}
+
+blockquote p {
+  text-align: left;
+  margin-bottom: var(--space-sm);
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Attribution in blockquotes */
+blockquote p:last-child em:only-child,
+blockquote cite {
+  display: block;
+  font-style: normal;
+  font-size: calc(1rem / var(--phi));
+  color: var(--color-grey-mid);
+  margin-top: var(--space-sm);
+}
+
+/* === TABLES === */
+/* Clean horizontal rules only (Bauhaus minimal) */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-lg) 0;
+  font-size: calc(1rem / var(--phi) * var(--phi));  /* ~1rem, normalized */
+  font-size: 0.9375rem;
+}
+
+thead {
+  border-top: 2px solid var(--color-black);
+  border-bottom: 1px solid var(--color-grey-dark);
+}
+
+th {
+  font-weight: 600;
+  text-align: left;
+  padding: var(--space-sm) var(--space-base);
+  vertical-align: bottom;
+}
+
+td {
+  padding: var(--space-sm) var(--space-base);
+  vertical-align: top;
+  border-bottom: 1px solid var(--color-grey-light);
+}
+
+tbody tr:last-child td {
+  border-bottom: 2px solid var(--color-black);
+}
+
+/* === CODE === */
+/* IBM Plex Mono with Bauhaus red accent */
+
+code, pre {
+  font-family: 'IBM Plex Mono', 'Consolas', 'Monaco', monospace;
+  font-size: calc(1rem / var(--phi));  /* ~0.618rem → normalized */
+  font-size: 0.875rem;
+}
+
+code {
+  background-color: var(--color-grey-pale);
+  padding: 0.1em 0.3em;
+  border-radius: 2px;
+}
+
+pre {
+  background-color: var(--color-grey-pale);
+  border-left: 2px solid var(--color-accent);
+  padding: var(--space-base);
+  margin: var(--space-lg) 0;
+  overflow-x: auto;
+  line-height: 1.4;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+/* === HORIZONTAL RULES === */
+/* Generous whitespace, thin line */
+
+hr {
+  border: none;
+  border-top: 1px solid var(--color-grey-light);
+  margin: var(--space-xl) 0;
+}
+
+/* === LINKS === */
+
+a {
+  color: var(--color-black);
+  text-decoration: underline;
+  text-decoration-color: var(--color-grey-mid);
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  text-decoration-color: var(--color-accent);
+}
+
+/* === LISTS === */
+
+ul, ol {
+  margin: var(--space-base) 0;
+  padding-left: var(--space-md);
+}
+
+li {
+  margin-bottom: var(--space-xs);
+}
+
+li > ul, li > ol {
+  margin-top: var(--space-xs);
+  margin-bottom: 0;
+}
+
+/* === SPECIAL ELEMENTS === */
+
+/* Status badge (SHAPING, DRAFT, etc.) */
+p:first-child em:only-child {
+  display: block;
+  font-size: calc(1rem / var(--phi));
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-grey-mid);
+  margin-bottom: var(--space-lg);
+  text-align: center;
+}
+
+/* Strong emphasis */
+strong {
+  font-weight: 600;
+}
+
+/* Emphasis */
+em {
+  font-style: italic;
+}
+
+/* Small text / captions */
+small {
+  font-size: calc(1rem / var(--phi));
+  color: var(--color-grey-dark);
+}
+
+/* === PRINT STYLES === */
+
+@media print {
+  body {
+    max-width: none;
+    padding: 0;
+    font-size: 11pt;
+  }
+
+  h2 {
+    page-break-before: always;
+  }
+
+  h1, h2, h3, h4 {
+    page-break-after: avoid;
+  }
+
+  table, blockquote, pre {
+    page-break-inside: avoid;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--color-black);
+  }
+
+  /* Show URLs after links in print */
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: var(--color-grey-dark);
+  }
+}
+
+/* === PAGE LAYOUT (for PDF generation) === */
+
+@page {
+  size: A4;
+  margin: 3cm 2.5cm;
+}
+
+/* First page: no header, extra top margin */
+@page :first {
+  margin-top: 4cm;
+}

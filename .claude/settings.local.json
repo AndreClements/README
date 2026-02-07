@@ -8,7 +8,15 @@
       "Bash(ls:*)",
       "WebFetch(domain:andresclements.com)",
       "Bash(powershell -Command:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(\"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Pandoc\\\\pandoc.exe\" --version)",
+      "Bash(pandoc:*)",
+      "Bash(winget install:*)",
+      "Bash(winget search:*)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"c:/Users/User/Documents/GitHub/README/render-pdf.ps1\":*)",
+      "Bash(powershell -ExecutionPolicy Bypass -File:*)",
+      "Bash(\"C:/Users/User/AppData/Local/Pandoc/pandoc.exe\" \"workbench/sketch__threshold_mechanics_claude_constitution.md\" -o \"workbench/sketch__threshold_mechanics_claude_constitution.pdf\" --pdf-engine=\"C:/Users/User/AppData/Local/Programs/MiKTeX/miktex/bin/x64/xelatex.exe\" -V mainfont=\"Segoe UI\" -V monofont=\"Consolas\" --toc)",
+      "Bash(git push:*)"
     ]
   }
 }
