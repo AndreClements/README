@@ -591,7 +591,7 @@ fn axioms_lint(assembly, contract, mapping, artifacts):
 
 **Plain-English Equation Translations**
 
-*In which the formalisms are translated for those who sensibly avoided mathematics at school but still want to understand what all the fuss is about.*
+*In which the formalisms are translated for those of us who sensibly avoided mathematics at school but still want to understand what all the fuss is about.*
 
 [^eq_generator]: *Plain-English (Eq. 1, Generator):* The Grand Machine takes your ingredients (tools, settings, rules, and whatever chaos the universe throws in) and produces... stuff. Lots of stuff, potentially. It's rather like a sausage machine, except the sausages might be poems or paintings, and nobody's entirely certain what went in. The important bit is that it's a *machine*—give it the same ingredients, it'll give you the same family of sausages, near enough. (Near enough. Which in mathematics means "don't ask about the edge cases unless you've brought drinks.")
 
