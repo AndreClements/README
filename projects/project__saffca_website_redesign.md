@@ -12,6 +12,8 @@ contract:
   status: "Initiation"
   url: "https://saffca.com/"
 risk_index: 0.40
+  workspace: "C:\\xampp\\htdocs\\saffca.com\\26\\"
+  repo: "https://github.com/AndreClements/saffca_26.com"
 ```
 
 ---
@@ -78,4 +80,6 @@ risk_index: 0.40
 
 ## Notes
 
-*Initiated 2026-01-27. More to follow.*
+*Initiated 2026-01-27.*
+
+**2026-02-07:** Project workspace established at `C:\xampp\htdocs\saffca.com\26\`. Input assets moved to workspace under `_assets/input/`. GitHub repo: https://github.com/AndreClements/saffca_26.com (private). All future development and the canonical project state lives at the workspace. This file in the README repo serves as the project index entry and reference to frameworks only.
