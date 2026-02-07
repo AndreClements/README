@@ -16,7 +16,14 @@
       "Bash(powershell -ExecutionPolicy Bypass -File \"c:/Users/User/Documents/GitHub/README/render-pdf.ps1\":*)",
       "Bash(powershell -ExecutionPolicy Bypass -File:*)",
       "Bash(\"C:/Users/User/AppData/Local/Pandoc/pandoc.exe\" \"workbench/sketch__threshold_mechanics_claude_constitution.md\" -o \"workbench/sketch__threshold_mechanics_claude_constitution.pdf\" --pdf-engine=\"C:/Users/User/AppData/Local/Programs/MiKTeX/miktex/bin/x64/xelatex.exe\" -V mainfont=\"Segoe UI\" -V monofont=\"Consolas\" --toc)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(python tools/render_equations.py:*)",
+      "Bash(where:*)",
+      "Bash(dir:*)",
+      "Bash(\"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python3.exe\" tools/render_equations.py tools/equations/parametric_authorship.yaml)",
+      "Bash(py:*)",
+      "Bash(powershell.exe:*)",
+      "Bash(\"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\" tools/render_equations.py tools/equations/parametric_authorship.yaml)"
     ]
   }
 }
