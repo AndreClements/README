@@ -14,3 +14,4 @@ Thumbs.db
 
 # Windows null device artifact
 nul
+.claude/settings.local.json
