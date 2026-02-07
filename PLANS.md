@@ -3,6 +3,7 @@
 # PLANS 
 
 >Configuration:
+>*This block speaks to parsers, not people. Scroll freely.*
 >```yaml
 >title: "PLANS — Project Architecture & Strategic Roadmap"
 >subtitle: "Commits on the Hyperstrate"

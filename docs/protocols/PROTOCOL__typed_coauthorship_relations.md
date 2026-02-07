@@ -1,6 +1,7 @@
 # Protocol — Typed Co-Authorship Relations
 
 > **Contract:**
+> *Protocol metadata follows — the philosophy lives between the lines.*
 > ```yaml
 > title: "Typed Co-Authorship Relations Protocol"
 > version: "0.1.0"
@@ -85,6 +86,8 @@ Each relation type carries a default dignity profile:
 ## §4. Ledger Schema
 
 Each co-authorship instance generates a ledger entry:
+
+*Ledger schema for computational parsing. If this looks like spreadsheet poetry, mission accomplished.*
 
 ```yaml
 coauthorship_entry:

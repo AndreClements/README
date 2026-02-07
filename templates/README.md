@@ -1,6 +1,7 @@
 # /templates/ — Reusable Document Scaffolds
 
 > **Configuration:**
+> *Folder metadata for robots. Templates await below.*
 > ```yaml
 > intent: >
 >   A registry of reusable templates — document scaffolds that

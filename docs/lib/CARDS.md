@@ -1,6 +1,7 @@
 # LIBRARY — CARDS (Je'anna L Clements)
 
 > **Contract:**
+> *Attribution metadata follows. The authorship lives in the prose below.*
 > ```yaml
 > title: "CARDS — Human Needs Construct"
 > author: "Je'anna L Clements"

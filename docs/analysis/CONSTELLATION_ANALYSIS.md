@@ -1,4 +1,7 @@
 `docs\analysis\CONSTELLATION_ANALYSIS.md`
+
+*Frontmatter for machines — the patterns emerge in the prose.*
+
 ---
 title: "Constellation Analysis — SRII × NetVerse × Supporting Protocols"
 author: "André S. Clements (with CI assistance)"
@@ -7,6 +10,8 @@ updated: "2026-01-25"
 ---
 
 # CONSTELLATION_ANALYSIS
+
+*Assessment schema for computational readers. Humans: scroll to the analysis.*
 
 ```yaml
 contract:

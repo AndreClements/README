@@ -1,5 +1,7 @@
 # Lenses — Contextual Transpositions of Core Texts
 
+*Index metadata follows. Skip freely; the map is for navigation, not reading.*
+
 ```yaml
 contract:
   intent: >

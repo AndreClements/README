@@ -1,3 +1,5 @@
+*Structured metadata follows — feel free to skip if it reads like robot poetry.*
+
 ```yaml
 ---
 type: "onboarding"
@@ -56,6 +58,7 @@ Any focused work session — writing, making, designing, debugging a relationshi
 | [`guides/`](../guides/) | Curated reading paths — including the [Enneaguides](../guides/enneagram/README.md) (9 doors, 9 types) |
 | [`projects/`](../projects/) | Active and archived projects (exhibitions, research, design) |
 | [`ideacubator/`](../ideacubator/) | Raw idea incubation — poems, aphorisms, specs in progress |
+| [`workbench/`](../workbench/) | Sub-draft sketches — more formed than ideacubator, not yet staging-ready |
 
 ---
 
@@ -84,6 +87,8 @@ Any focused work session — writing, making, designing, debugging a relationshi
 5. **[Consent Ledger](../docs/protocols/CONSENT_LEDGER.md)** — How the system tracks consent with named observers.
 
 ---
+
+*Machine-readable summary below. The prose above tells the real story.*
 
 ```
 attach:

@@ -1,6 +1,7 @@
 # /docs/essays/ — Reflective Field Essays
 
 > **Configuration:**
+> *Configuration for systems. The essays themselves are for humans.*
 > ```yaml
 > intent: >
 >   A registry of field essays — reflective documents that perform

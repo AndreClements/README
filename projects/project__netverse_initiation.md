@@ -11,6 +11,8 @@ Resuscitating a legacy concept (the "Flash-era" magnetic poetry screensaver) and
 
 This document logs the conceptual constraints, the chosen stack, and the initial axioms of the system.
 
+*Project contract for parsers. The vision lives in the prose.*
+
 ```yaml
 contract:
   intent: "resuscitate legacy project; architect persistent semiotic space"

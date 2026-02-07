@@ -29,6 +29,8 @@
 | O1 | object  | Prints: archival pigment on cotton rag / baryta   | studio notes                    | Archivist | primary       | high       | Operator_verified  | —                      | —                                 | sizes/editions below |
 
 ### Edition/print mini-spec (reference from A1/A2)
+*Material specifications for machines. The craft lives in the process.*
+
 ```yaml
 print_object:
   process: "archival pigment"

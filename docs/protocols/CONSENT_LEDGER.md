@@ -1,6 +1,7 @@
 # CONSENT_LEDGER — Network Observer Registry
 
 > **Contract:**
+> *This contract is for systems to verify. If it looks like legalese for robots, that's because it is.*
 > ```yaml
 > title: "CONSENT_LEDGER"
 > type: "Protocol / Registry"

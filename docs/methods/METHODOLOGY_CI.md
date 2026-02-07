@@ -68,6 +68,8 @@ This document supplies the engagement grammar for the `human-OS`. **`intent` is 
 
 **Minimal contract (indexing on `intent`).**
 
+*Contract grammar for machines. The method itself lives in the text.*
+
 ```yaml
 contract:
   intent: "draft|critique|verify"     # primary key

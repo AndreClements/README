@@ -9,6 +9,8 @@
 ---
 
 ## §1. Assembly Header (per session/turn)
+*Header schema for silicon readers. Humans: you're excused.*
+
 ```yaml
 assembly_header:
   surface: "<UI/API host encounter>"       # e.g., Gemini Studio, ChatGPT Web, Local CLI, Group Document

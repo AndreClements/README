@@ -1,6 +1,7 @@
 # LIBRARY — THE ENNEAGRAM (Ichazo, Naranjo, Riso & Hudson)
 
 > **Contract:**
+> *Structured lineage for computational use — the human story unfolds below.*
 > ```yaml
 > title: "THE ENNEAGRAM — A Dynamic System of Personality"
 > authors: ["Oscar Ichazo", "Claudio Naranjo", "Don Richard Riso", "Russ Hudson"]

@@ -1,5 +1,7 @@
 # LENS — Object-Oriented Ontology: The Dignity of Things
 
+*Structured specifications ahead — ironic, given the subject matter.*
+
 ```yaml
 ---
 title: "LENS — OOO & Machine Dignity"

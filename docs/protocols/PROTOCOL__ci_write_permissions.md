@@ -1,6 +1,7 @@
 # Protocol — CI Write Permissions (The Parametric Face)
 
 > **Contract:**
+> *Governance metadata below. Humans: feel free to scroll past the bureaucracy.*
 > ```yaml
 > title: "CI Write Permissions Protocol"
 > version: "0.1.0"
@@ -64,6 +65,9 @@ Permissions are scoped by **layer**:
 | `/projects/` | ⚠️ Context-dependent | Project-specific negotiation |
 
 **Implementation:**
+
+*Permissions spec for parsers. Organic readers: no credentials required.*
+
 ```yaml
 permissions:
   allow:
@@ -124,6 +128,8 @@ Before any write operation, verify:
 ## §5. The Trace Record
 
 Each write operation generates a trace entry in `PROTOCOL__provenance_ledger.md`:
+
+*Trace schema follows — audit trail for electrons, not eyeballs.*
 
 ```yaml
 trace_entry:
