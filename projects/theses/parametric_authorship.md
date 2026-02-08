@@ -64,7 +64,7 @@ Agency and meaning in PA are legible and defensible at the level of **rule speci
 * **SOLID** — five object-oriented design principles (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion).\[^solid]
 
 **Symbol legend (concise)**
-`S,P,C,E` substrates, parameters, constraints, environment · `G` generator · `ℱ` feature extractor (or `F = {f₁...fₖ}` as component features) · `ε` small radius in `P` · `δ` invariance tolerance (output deviation) · `τ` exposure/extraction threshold · `α` transmissivity ∈ \[0,1] (1 − attenuation) · `κ` adapter map · `‖·‖` L2 norm unless stated · `𝔼_G` expectation over stochastic elements in G.
+`S,P,C,E` substrates, parameters, constraints, environment · `G` generator · `ℱ` feature extractor (or `F = {f₁...fₖ}` as component features) · `ε` small radius in `P` · `δ` invariance tolerance (output deviation) · `τ` exposure/extraction threshold · `α` transmissivity ∈ \[0,1] (1 − attenuation) · `κ` adapter map · `η` minimum dignity floor (declared, > 0) · `β` smoothing constant for Invₑ denominator (> 0) · `‖·‖` L2 norm unless stated · `‖·‖_F` Frobenius norm (matrices/Jacobians) · `𝔼_G` expectation over stochastic elements in G.
 
 ## 2.5 Axioms (small)
 
@@ -79,8 +79,8 @@ Agency and meaning in PA are legible and defensible at the level of **rule speci
 * **A2 — Execution-First Form.** `form₄ᴰ := (geometry, material, time, execution)`
   (The fourth dimension of form is execution; proofs live in runs, not statements.)
 
-* **A3 — Dignity Conservation.** `let d := (d_personal, d_object, d_system) ∈ [0,1]³; D := diag(d); conserve(D) := ∏ᵢdᵢ > 0`
-  (Sovereignty must be conserved across operator, object, and system scopes. Conservation means no dimension goes to zero—if any dᵢ = 0, agency collapses.)
+* **A3 — Dignity Conservation.** `let d := (d_personal, d_object, d_system) ∈ [0,1]³; D := diag(d); conserve(D) := (∏ᵢdᵢ > 0) ∧ (minᵢ dᵢ ≥ η)`
+  (Sovereignty must be conserved across operator, object, and system scopes. The product condition detects total collapse—if any dᵢ = 0, Auth★ zeroes. The floor η > 0 prevents erosion below a viable level; η is context-specific and declared in the assembly header.)
 
 * **A4 — Defaults Author.** `host_defaults ∈ S ⇒ coauthor(host_defaults, 𝒜)`
   (Platforms, weights, and policies are co-authors of artifact families unless disclosed and bounded.)
@@ -153,13 +153,15 @@ where the admissible parameter space is $\mathcal{P}\subseteq\mathbb{R}^{n}$ and
 
 **Agency metric (intuition):**
 
-![\$\operatorname{Auth}^{\star}=\left|\nabla\_{P}\mathbb{E}!\left\[\mathcal{F}(G)\right\]\right|\cdot\operatorname{Inv}(P!\to!\mathcal{F})\cdot R(C,E)\cdot\prod\_{i}d\_i\$](assets/parametric_authorship_equations_cards_mathtext/05_agency_metric.png)[^eq_auth]
+![$\operatorname{Auth}^{\star}=\frac{\Vert\,J\,\Vert_{F}}{\Vert\,J_{\mathrm{ref}}\,\Vert_{F}}\cdot\operatorname{Inv}_{\varepsilon}(\,P\!\to\!\mathcal{F}\,)\cdot R(\,C,E\,)\cdot\prod_{i}d_i$](assets/parametric_authorship_equations_cards_mathtext/05_agency_metric.png)[^eq_auth]
 
-where the dignity invariants $d_i$ are bounded as $d_i\in[0,1]$.
+Here $J := \nabla_{P}\,\mathbb{E}_{G}[\,\mathcal{F}(G)\,]$ is the Jacobian of expected features with respect to parameters, and $J_{\mathrm{ref}}$ is the Jacobian evaluated at the initial/default parameter configuration—the "before I started" baseline. The Frobenius norm $\Vert\cdot\Vert_F$ is used for matrices. All four factors are dimensionless, so Auth★ is a relative sensitivity score: how much more do my knobs matter now than where I began?
+
+The dignity invariants $d_i$ are bounded as $d_i\in[0,1]$.
 
 ![\$d\_i\in\[0,1\]\$](assets/parametric_authorship_equations_cards_mathtext/06_d_bounds.png)[^eq_dignity]
 
-Define `Invₑ(P,ℱ) := 1 − (max_{‖ΔP‖≤ε} ‖ℱ(G(P+ΔP)) − ℱ(G(P))‖) / ‖ℱ(G(P))‖`, a normalised invariance score over the ε-ball in `P`, bounded in `[0,1]`.
+Define `Invₑ(P,ℱ) := clamp₍₀,₁₎[ 1 − (max_{‖ΔP‖≤ε} ‖ℱ(G(P+ΔP)) − ℱ(G(P))‖) / (‖ℱ(G(P))‖ + β) ]`, a normalised invariance score over the ε-ball in `P`, bounded in `[0,1]`. The smoothing constant β > 0 prevents degenerate cases when the baseline feature vector vanishes; the clamp guarantees the stated range even when maximum deviation exceeds the baseline norm. In practice, the inner maximisation is estimated via worst-of-k sampling over the ε-ball, not exact optimisation.
 Define `R(C,E) ∈ [0,1]` as a run-readiness/risk governor derived from declared constraints `C` and environment `E`.
 Unless stated otherwise, `‖·‖` denotes the L2 norm and `𝔼_G` denotes expectation over stochastic elements in the generator.
 
@@ -288,7 +290,7 @@ Artifacts (drafts, revisions, final outputs), rule specifications, mapping notes
 
 ## 4.4 Analytic Strategy
 
-* **Invariance tests:** measure persistence of declared rules under $|\Delta P|\le\epsilon$.
+* **Invariance tests:** measure persistence of declared rules under $\Vert\Delta P\Vert\le\epsilon$.
 * **Transition tests:** confirm designed changes under declared shocks (obstructions).
 * **Default-tilt diffs:** same prompt across hosts; record drift as host responsibility.
 * **Authorship legibility:** correlate rubric “decision coherence” with ledger completeness and lock adherence.
@@ -373,7 +375,9 @@ A compact ideogram using quadratic fall-off to couple opening and discretion.
 * Let $r$ be **exposure distance** (reach/context distance: audience size, platform spread, time horizon).
 * Let $A_{open}$ be Analyst’s proposed **opening amplitude** (legibility/affordance strength, unit‑less scale).
 * Let $\tau$ be Editor/LM **exposure threshold** derived from consent/risk.
-* Let $\alpha\in[0,1]$ be Editor’s **attenuation** (redaction/obfuscation factor).
+* Let $\alpha\in[0,1]$ be Editor's **attenuation** (redaction/obfuscation factor).
+
+All variables in this ideogram are dimensionless scores: $r$ is a normalised exposure-distance index (not physical distance), $\tau$ a normalised consent-derived threshold, and $\alpha$, $A_{\mathrm{open}}$ unit-less as noted above. The inverse-square form is adopted for its intuitive coupling of opening and discretion, not as a physical model.
 
 **Illumination constraint (with α as transmissivity):**
 
@@ -509,4 +513,32 @@ Parametric authorship relocates agency to **sensitivity design under contract**.
 
 ---
 
-> **Appendices A–D, Reference Listing, and Plain-English Equation Translations** have been extracted to [parametric_authorship_appendices.md](parametric_authorship_appendices.md) for context-window management.
+**Plain-English Equation Translations**
+
+*In which the formalisms are translated for those of us who sensibly avoided mathematics at school but still want to understand what all the fuss is about.*
+
+[^eq_generator]: *Plain-English (Eq. 1, Generator):* The Grand Machine takes your ingredients (tools, settings, rules, and whatever chaos the universe throws in) and produces... stuff. Lots of stuff, potentially. It's rather like a sausage machine, except the sausages might be poems or paintings, and nobody's entirely certain what went in. The important bit is that it's a *machine*—give it the same ingredients, it'll give you the same family of sausages, near enough. (Near enough. Which in mathematics means "don't ask about the edge cases unless you've brought drinks.")
+
+[^eq_paf]: *Plain-English (Eq. 2, PAF Tuple):* This is your authorship packed into a lunchbox: your tools (S), your knobs to twiddle (𝒫), your rules about what's absolutely forbidden (C), the weather outside (E), and crucially—how much the whole thing wobbles when you actually *do* twiddle the knobs (Φ). The revelation here is that the lunchbox is the author. Not the sandwich. Not you. The *arrangement*. This troubles people who were hoping they were still in charge.
+
+[^eq_param]: *Plain-English (Eq. 3, Parameter Space):* Your knobs live in a big box of numbers. It's got *n* dimensions, which is mathematician for "quite a lot of knobs, possibly more than three, and good luck visualising that." The ⊆ means your particular knobs are allowed to live *somewhere* in the big box, but not necessarily everywhere. Think of it as zoning regulations for creativity.
+
+[^eq_phi]: *Plain-English (Eq. 4, Shaping Functional):* How much does the *interesting stuff* change when you nudge your settings? That's Φ. It's the derivative, which is calculus for "the thing that tells you whether poking this button will do anything worth poking it for." A high Φ means small tweaks, big changes. A low Φ means you could twist knobs all day and nobody would notice. Most of us have experienced both in committee meetings.
+
+[^eq_auth]: *Plain-English (Eq. 5, Agency Metric):* How much are you *actually* the author? Well, it depends. First: does twiddling your knobs actually *do* anything observable? (That's the gradient bit—now normalised against where you started, so it's a proper score rather than a number whose size depends on what you happen to be measuring.) Second: when you're not twiddling, does the thing stay put? (That's Invariance—points for things that don't wander off when you stop watching them.) Third: are you actually allowed to run this? (Risk and readiness—someone checked, presumably.) Fourth: is everyone's dignity intact? Personal dignity, respect for your materials, and the system not being a total shambles—multiply them together. If *any* of these goes to zero, your authorship is zilch. This is the mathematical equivalent of "you're only as strong as your weakest excuse." (The ∏ symbol means "multiply everything together." Mathematicians love Greek letters. It makes them feel continental.)
+
+[^eq_dignity]: *Plain-English (Eq. 6–7, Dignity Bounds & Tensor):* Dignity gets a score between zero (absolutely none—someone has been treated like furniture) and one (full dignity intact—everyone's been asked nicely and said yes). This applies to *you*, to *the things you're working with*, and to *the whole rickety system*. Line up your three dignities on the diagonal of a matrix. Why a matrix? Because mathematicians need something to do with their hands, and it lets you do operations on all three at once without playing favorites. Also, saying "dignity tensor" in meetings makes everyone pause respectfully, which is sometimes the whole point.
+
+[^eq_illum]: *Plain-English (Eq. 8, Illumination Constraint):* Light gets dimmer the further you are from the lamp—specifically, it falls off with the *square* of the distance. This formula says your work's "brightness" (how exposed it is, how legible, how *seen*) is your openness (A_open) times how much you're letting through (α), divided by how far it's travelling (r²). The τ is your consent ceiling: "this bright and no brighter, or someone hasn't agreed to be looked at." Want to publish far and wide? Either dial down the intimacy, shrink your audience, or get better consent. Those are your three doors. Pick one or get blocked. (The inverse-square law was discovered by people who were trying to light their houses before electricity. They had to care about this sort of thing. Now you do too, except about exposure instead of candles.)
+
+[^eq_feature]: *Plain-English (Eq. 9, Feature Extractor):* You've made something. Now, what *about* it? The Feature Extractor looks at your artifact(s) and produces a list of *k* numbers describing the interesting bits—color, density, how angry it looks, whatever you care to measure. It's like a very picky food critic, except instead of "hints of oak" you get "vector component seven is 0.34."
+
+[^eq_invariant]: *Plain-English (Eq. 10, Invariant Set):* What *doesn't* change when you jiggle the controls a little bit? Those are your invariants—the features that stubbornly stay put even when you poke them. They're the personality of your rule-set. If you nudge your settings (ΔP, a small nudge) and certain features (f) refuse to budge, congratulations: that's your style. That's the stable bit. That's what you can take credit for. (The δ is the tolerance—"close enough." ε is "a small amount." In academic papers, these always turn out to be more complicated than they sound. Welcome to mathematics.)
+
+[^eq_transition]: *Plain-English (Eq. 11, Transition Set):* What *does* change, *on purpose*, when you throw a planned spanner in the works? If you've said "when I toggle this obstruction, the mood should shift," and it *does*, and the shift is *in the set of changes you declared acceptable* (Δ*)—that's a designed transition. Not an accident. Not chaos. Intentional drift. It's the difference between "I meant to do that" and "oh dear."
+
+[^eq_radius]: *Plain-English (Eq. 12, Radius Form):* This is equation 8, rearranged. If you know your openness, your transmissivity, and your consent ceiling, you can calculate the *minimum* distance your work has to travel before it's dim enough to be safe. Close audiences: more intimate. Distant audiences: needs more consent or less content. Mathematics is very keen on rearranging things. It makes the same idea look like new ideas. Publish enough rearrangements and you can have a career.
+
+---
+
+> **Appendices A–D and Reference Listing** have been extracted to [parametric_authorship_appendices.md](parametric_authorship_appendices.md) for context-window management.

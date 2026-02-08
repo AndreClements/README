@@ -6,10 +6,11 @@
 # Version history:
 #   1.0 - Initial extraction from parametric_authorship.md
 #   1.1 - Notational corrections (norm bars, expectation subscripts)
+#   1.2 - Normalised Jacobian in Auth★ (Frobenius, J_ref baseline)
 
 meta:
   title: "Parametric Authorship Equations"
-  version: "1.1"
+  version: "1.2"
   output_dir: "../projects/theses/assets/parametric_authorship_equations_cards_mathtext"
   style:
     width: 1080
@@ -77,10 +78,10 @@ equations:
 
   - slug: "05_agency_metric"
     name: "Agency Metric"
-    # Corrected: using ‖·‖ (norm) instead of |·| (absolute value)
-    latex: "$\\operatorname{Auth}^{\\star}=\\Vert\\nabla_{P}\\mathbb{E}_{G}\\!\\left[\\,\\mathcal{F}(\\,G\\,)\\,\\right]\\Vert\\cdot\\operatorname{Inv}_{\\varepsilon}(\\,P\\!\\to\\!\\mathcal{F}\\,)\\cdot R(\\,C,E\\,)\\cdot\\prod_{i}d_i$"
+    # v1.2: Normalised Jacobian (Frobenius), dimensionless
+    latex: "$\\operatorname{Auth}^{\\star}=\\frac{\\Vert\\,J\\,\\Vert_{F}}{\\Vert\\,J_{\\mathrm{ref}}\\,\\Vert_{F}}\\cdot\\operatorname{Inv}_{\\varepsilon}(\\,P\\!\\to\\!\\mathcal{F}\\,)\\cdot R(\\,C,E\\,)\\cdot\\prod_{i}d_i$"
     section: "§3.2"
-    notes: "Corrected v1.1: |·| → ‖·‖ (using Vert), added subscript to expectation"
+    notes: "v1.2: Normalised Jacobian (Frobenius). J = nabla_P E_G[F(G)], J_ref = J at initial/default config."
     footnote: |
       How much are you *actually* the author? Well, it depends.
 
@@ -98,7 +99,12 @@ equations:
       your materials, and the system not being a total shambles—multiply
       them together. If *any* of these goes to zero, your authorship is
       zilch. This is the mathematical equivalent of "you're only as strong
-      as your weakest excuse."†
+      as your weakest excuse."
+
+      (The gradient is now normalised against where you started—how much
+      your knobs matter *relative to* how much they mattered before you
+      began tuning. This keeps everything as a proper score rather than
+      a number whose size depends on what you happen to be measuring.)†
 
       †The ∏ symbol means "multiply everything together." Mathematicians
       love Greek letters. It makes them feel continental.

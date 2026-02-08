@@ -23,7 +23,12 @@
       "Bash(\"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python3.exe\" tools/render_equations.py tools/equations/parametric_authorship.yaml)",
       "Bash(py:*)",
       "Bash(powershell.exe:*)",
-      "Bash(\"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\" tools/render_equations.py tools/equations/parametric_authorship.yaml)"
+      "Bash(\"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\" tools/render_equations.py tools/equations/parametric_authorship.yaml)",
+      "Bash(find:*)",
+      "Bash(while read f)",
+      "Bash(done)",
+      "Bash(xargs ls:*)",
+      "Bash(python:*)"
     ]
   }
 }
