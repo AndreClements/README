@@ -89,6 +89,11 @@ Finite and Infinite Games provides a **game-type diagnostic lens** — a clean, 
 > *"There are at least two kinds of games. One could be called finite, the other infinite. A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play."*
 > — Carse (1986), opening sentences
 
+> *"There is but one infinite game."*
+> — Carse (1986), final sentence (constitutes the entire final chapter)
+
+The book opens with "at least two kinds" and closes with "but one." The framework's own architecture encodes a tension that §8 (The And-Yet) examines.
+
 ---
 
 ## §2. The Central Binary
@@ -347,6 +352,8 @@ Carse's framework, over-applied or under-examined, has its own failure modes. Th
 
 The finite/infinite distinction is a *heuristic*, not an ontology. Not everything reduces to this binary. Some domains are genuinely finite (a chess game, a tax return, a sprint) and treating them as infinite generates confusion, not insight. The diagnostic power of the binary depends on knowing *when* to apply it — and the framework itself offers no meta-rule for this. Wyss-Flamm & Zandee (2001) introduce "transitional play" as a productive middle ground that the clean binary elides.
 
+Notably, Carse's own final sentence — *"There is but one infinite game"* — already complicates the binary from within. The book opens by proposing "at least two kinds of games" and closes by asserting one. The binary is scaffolding the author himself dismantles; the framework's deepest move is not the distinction but its dissolution.
+
 ### Known Limitations
 
 - **Not empirical.** Carse offers propositions, not evidence. The framework is speculative-philosophical, closer to Huizinga's *Homo Ludens* or Pirsig's *Zen and the Art of Motorcycle Maintenance* than to a testable theory. Partial empirical validation exists (Harré & Madden, 2017), but the framework's power is heuristic, not predictive.
@@ -397,6 +404,7 @@ This is the deepest test of the framework's integrity: can it resist being used 
 | Infinite play conditions produce connection, expression, vitality values | Harré & Madden (2017) | Empirical (N=1,085, 30 workshops) |
 | Gamification threatens autonomy via "value leakage" | Nguyen (2020), Ch. 1, 11 | Philosophical argument (OUP monograph) |
 | "Transitional play" as third mode between finite and infinite | Wyss-Flamm & Zandee (2001) | Peer-reviewed (abstract; paywall limits full verification) |
+| "There is but one infinite game" | Carse (1986), final chapter (one sentence) | Direct quote; constitutes the entire final chapter |
 
 ### Recent Academic Activity
 

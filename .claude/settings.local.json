@@ -28,7 +28,30 @@
       "Bash(while read f)",
       "Bash(done)",
       "Bash(xargs ls:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(wc:*)",
+      "WebFetch(domain:www.triarchypress.net)",
+      "WebFetch(domain:faculty.uml.edu)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:doi.org)",
+      "WebFetch(domain:link.springer.com)",
+      "WebFetch(domain:journals.sagepub.com)",
+      "WebFetch(domain:academic.oup.com)",
+      "WebFetch(domain:longnow.org)",
+      "WebFetch(domain:www.researchgate.net)",
+      "WebFetch(domain:pmc.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:cris.unibo.it)",
+      "WebFetch(domain:designforsustainability.medium.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:www.tandfonline.com)",
+      "WebFetch(domain:wiki.p2pfoundation.net)",
+      "WebFetch(domain:research-repository.griffith.edu.au)",
+      "WebFetch(domain:www.semanticscholar.org)",
+      "WebFetch(domain:www.witpress.com)",
+      "WebFetch(domain:pubmed.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:www.internationalfuturesforum.com)",
+      "WebFetch(domain:www.stockholmresilience.org)",
+      "WebFetch(domain:thirdhorizon.earth)"
     ]
   }
 }

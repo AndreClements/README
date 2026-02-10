@@ -231,6 +231,7 @@ In the [SRII Axiological Framework](../models/SRII_AXIOLOGICAL_FRAMEWORK.md), CA
 ## Cross-links
 
 - **[Library Index](README.md)** — Registry of imported constructs
+- **[INFINITE_GAMES.md](INFINITE_GAMES.md)** — Carse's finite/infinite diagnostic; Je'anna L Clements identifies the deeper reading: Carse's final sentence ("There is but one infinite game") dissolves the binary into a question of *mode* — one can play anything in infinite mode, and anything in finite mode. The CARDS diagnostic then asks not "which game is this?" but "which mode is this being played in?"
 - **[SOLID.md](SOLID.md)** — Modular design principles; SOLID violations produce CARDS degradation signatures
 - **[LENS__solid_threshold_mechanics.md](../lenses/LENS__solid_threshold_mechanics.md)** — Threshold mechanics using CARDS as diagnostic
 - **[SRII_AXIOLOGICAL_FRAMEWORK.md](../models/SRII_AXIOLOGICAL_FRAMEWORK.md)** — Integration of CARDS as axiological spine
