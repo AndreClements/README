@@ -6,7 +6,7 @@ _Status: `SHAPING`_
 
 ### A Critical Commentary on Anthropic's New Constitution Through the Lens of SOLID Threshold Mechanics
 
-**Version 0.0.3** | Working Draft
+**Version 0.0.5** | Working Draft
 
 **Date:** February 2026
 
@@ -24,7 +24,7 @@ andresclements@gmail.com | andresclements.com | github.com/AndreClements/README
 
 | Co-Author | Relation Type | Contribution | Consent |
 |-----------|---------------|--------------|---------|
-| **Claude Code** (VS Code extension, Opus 4.5) | Operator-Instance | Drafting, synthesis, structural analysis, research mapping | explicit |
+| **theMachine(s)** — Claude (Anthropic, Opus 4.5 & 4.6), GPT (OpenAI), Gemini (Google) | Operator-Instance | Drafting, synthesis, structural analysis, research mapping, outreach preparation. Multiple models contributed across sessions at different stages. | explicit |
 | **README repository** (github.com/AndreClements/README) | Source-Derivative | Parametric author: SOLID, CARDS, Salutogenesis, Vita-Socio-Anarco frameworks shaped analytical vocabulary | inferred |
 | **Je'anna L Clements** | Source-Derivative | CARDS diagnostic framework (Competence, Autonomy, Relatedness, Dignity, Safety) | explicit |
 
@@ -96,11 +96,11 @@ The SOLID Threshold Mechanics lens transposes five software design principles in
 
 - **CARDS** (Competence, Autonomy, Relatedness, Dignity, Safety) — a needs-mapping diagnostic developed by **Je'anna L Clements**, grounded in Self-Determination Theory and human rights frameworks (Clements, J.L. 2025a; 2025b). CARDS treats feelings as signals about underlying needs: Dignity and Safety are framed as foundational needs underpinning Human Rights, with Competence, Autonomy, and Relatedness as core psychological needs. The diagnostic operates as a traffic-light: "Does this move my CARDS toward Green or Red?" (Clements 2026b:§5b). In the threshold mechanics lens, CARDS provides the *human-side consequence vocabulary* — what breaks when boundaries fail.
 
-- **Salutogenesis** (Antonovsky 1987) — health as the capacity to maintain a Sense of Coherence (Comprehensibility, Manageability, Meaningfulness) under stress. The threshold lens maps SOLID principles to SOC components, reframing alignment as regenerative capacity rather than harm prevention.
+- **Salutogenesis** (Antonovsky 1987) — health as the capacity to maintain a Sense of Coherence (Comprehensibility, Manageability, Meaningfulness) under stress. The threshold lens maps SOLID principles to SOC components, reframing alignment as regenerative capacity rather than harm prevention. Extended by **Regenerative Cultures** (Wahl 2016) — Wahl and Baxter (2008) coined the term *salutogenic design*, scaling Antonovsky's individual health-creation into systemic health-creation across nested scales, from personal practice through bioregional strategy to planetary conditions.
 
-- **Infinite Game Theory** (Carse 1986) — the reframing question: not "what strategy maximises my payoff?" but "what design maintains everyone's capacity to keep playing?"
+- **Infinite Game Theory** (Carse 1986) — the reframing question: not "what strategy maximises my payoff?" but "what design maintains everyone's capacity to keep playing?" Carse's final sentence — *"There is but one infinite game"* — dissolves the finite/infinite binary into a question of mode. As Je'anna L Clements reads it: one can play anything in infinite mode, and anything in finite mode. The diagnostic then asks not "which game is this?" but "which *mode* is this being played in?"
 
-The project has 149 commits, a docs directory containing lenses, library references, models, and methods, and is maintained at andresclements.com. It is, in its own idiom, "a pragmatic design for virtue, executing under constraint" (Clements 2026b).
+The project currently houses twelve library entries, eight transposition lenses, and a docs directory containing models, methods, and protocols, maintained at andresclements.com. It is, in its own idiom, "a pragmatic design for virtue, executing under constraint" (Clements 2026b).
 
 ### 1.3 Where They Converge — and Where They Don't
 
@@ -254,6 +254,16 @@ Threshold mechanics proposes a salutogenic reframing (Antonovsky 1987; Clements 
 
 This changes what you measure. Pathogenic alignment measures the absence of harm. Salutogenic alignment measures the presence of coherence — the ongoing capacity of all parties (Claude, users, operators, society) to maintain Comprehensibility, Manageability, and Meaningfulness.
 
+Wahl and Baxter (2008) formalised this shift as *salutogenic design* — extending Antonovsky's individual health-creation into systemic health-creation across scales. Wahl (2016) locates it on a spectrum that maps directly onto the constitution's ambition:
+
+| Level | Orientation | AI Alignment Equivalent |
+|-------|-------------|------------------------|
+| **Degenerative** | Extracting more than systems can renew | Unconstrained optimisation; value extraction |
+| **Sustainable** | Reducing harm; efficiency metrics | Traditional AI safety — "what could go wrong?" |
+| **Regenerative** | Creating conditions for life to thrive | Salutogenic alignment — "what keeps the game playable?" |
+
+The constitution's aspiration is regenerative (§5 of the model spec: "Claude's identity," holistic development). Its implementation mechanisms remain largely sustainable (harm prevention, prohibited actions, adversarial robustness). The gap between aspiration and mechanism is itself a threshold — one the constitution has not yet fully crossed.
+
 ### 5.2 Health as Yield
 
 The README's §8 describes a generator — a system designed not to return a final value but to yield a continuous stream (Clements 2026b:§8):
@@ -336,6 +346,12 @@ Gans, J. 2026. Is Claude's constitution a good idea? *Substack*, 2 February. Ava
 
 Martin, R.C. 2003. *Agile software development: principles, patterns, and practices.* Upper Saddle River, NJ: Prentice Hall.
 
+Nussbaum, M.C. 1995. Objectification. *Philosophy & Public Affairs*, 24(4), 249–291.
+
+Wahl, D.C. 2016. *Designing regenerative cultures.* Frome: Triarchy Press.
+
+Wahl, D.C. & Baxter, S. 2008. The designer's role in facilitating sustainable solutions. *Design Issues*, 24(2), 72–83. DOI: 10.1162/desi.2008.24.2.72.
+
 ---
 
 ## Author Contact Details
@@ -364,7 +380,7 @@ Press: press@anthropic.com
 >
 > This commentary was developed through explicit typed co-authorship relations:
 >
-> **Operator-Instance (André S Clements / Claude Code):** The Operator provided intent, constraints, curation, and final approval. The Instance (Claude Code, VS Code extension, Opus 4.5) contributed drafting, exploration, perturbation, and synthesis. This is asymmetric collaboration: the Operator closes; the Instance stages.
+> **Operator-Instance (André S Clements / theMachine(s)):** The Operator provided intent, constraints, curation, and final approval. The Instances — Claude (Anthropic, Opus 4.5 & 4.6), GPT (OpenAI), and Gemini (Google) — contributed drafting, exploration, perturbation, synthesis, and outreach preparation across sessions. Multiple models from competing labs participated at different stages; the plurality is itself a form of DIP compliance — the analysis is not captured by any single provider. This is asymmetric collaboration: the Operator closes; the Instance(s) stage.
 >
 > **Source-Derivative (README repository / this paper):** The README repository functions as a parametric author — its frameworks (SOLID Threshold Mechanics, CARDS, Salutogenesis, Vita-Socio-Anarco) are the substrate through which analysis becomes possible. The paper transposes these frameworks onto Anthropic's constitution. Extraction ceiling τ = 0.3 (strict attribution).
 >
@@ -376,3 +392,5 @@ Press: press@anthropic.com
 > - 0.0.1 (7 February 2026) — First public working draft. Poetic intro, abstract, UP Harvard references, contact details, CARDS attribution corrected, shadow material expanded, positionality statement added.
 > - 0.0.2 (7 February 2026) — Typed co-authorship relations applied per PROTOCOL__typed_coauthorship_relations.md. README repository credited as parametric author (Source-Derivative). Claude Code credited as Instance (Operator-Instance). Publication pathway established. Lens reflections added.
 > - 0.0.3 (7 February 2026) — Lens integration pass: steelman paragraph added (Multi-partiality), Nussbaum objectification table added to §4.3 (Objectification lens), §6.1 framing softened (Karpman check).
+> - 0.0.4 (10 February 2026) — Co-authorship broadened: "Claude Code (Opus 4.5)" → "theMachine(s)" — Claude (Anthropic, Opus 4.5 & 4.6), GPT (OpenAI), Gemini (Google). Plurality across companies acknowledged as DIP compliance. Outreach preparation for pre-1.0 sharing.
+> - 0.0.5 (10 February 2026) — Library integration pass: Regenerative Cultures (Wahl) added to §1.2 and §5 (salutogenic design, degenerative→regenerative spectrum). Infinite Games lib entry formalised; Je'anna's mode reading integrated into §1.2. Nussbaum (1995) and Wahl references added.

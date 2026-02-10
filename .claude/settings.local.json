@@ -51,7 +51,12 @@
       "WebFetch(domain:pubmed.ncbi.nlm.nih.gov)",
       "WebFetch(domain:www.internationalfuturesforum.com)",
       "WebFetch(domain:www.stockholmresilience.org)",
-      "WebFetch(domain:thirdhorizon.earth)"
+      "WebFetch(domain:thirdhorizon.earth)",
+      "Bash(git -C \"c:\\\\xampp\\\\htdocs\\\\README\" log --oneline -20)",
+      "WebFetch(domain:www.natebjones.com)",
+      "WebFetch(domain:www.anthropic.com)",
+      "WebFetch(domain:linktr.ee)",
+      "WebFetch(domain:www.cxotalk.com)"
     ]
   }
 }
