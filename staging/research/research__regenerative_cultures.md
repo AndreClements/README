@@ -7,10 +7,10 @@
 archive:
   title: "Designing Regenerative Cultures — Library Research Brief"
   candidate: "REGENERATIVE_CULTURES"
-  status: "scoping"
+  status: "complete"
   created: 2026-02-10
-  sessions_completed: 1
-  current_phase: "scoping"
+  sessions_completed: 2
+  current_phase: "validating"
   gate: "research"
   relevance: "Scale-linking salutogenic design; bridge between autopoiesis and praxis; regeneration as axiological stance"
   early_signal: "proceed"
@@ -233,10 +233,152 @@ Strong candidate with a specific structural advantage: creates a *genealogical b
 
 ---
 
+## Phase 2: Source Discovery — Confirmed
+
+Source list with tier assignments completed in Phase 1 (above). Minimum viable evidence base met: 2 Gold by Wahl + 4 Gold citing field + 1 Silver primary text. No additional sources required.
+
+`current_phase` advanced to "discovering" → immediately to "evaluating".
+
+---
+
+## Phase 3: Source Evaluation Snapshots
+
+### Wahl (2016/2022) — *Designing Regenerative Cultures*
+
+**Tier:** Silver (Triarchy Press)
+
+**Key claims:**
+1. Converging ecological and social crises are rooted in a "crisis of perception" (following Bateson and Capra) — the epistemological separation of nature from culture — not merely in operational failures of policy or technology.
+2. Sustainability (harm reduction, net zero) is insufficient; the response must be *regenerative* — actively restoring ecological and social health, net positive rather than neutral — through diverse cultures adapted to the biocultural uniqueness of place.
+3. Design methodology should be inquiry-driven ("living the questions together") rather than prescriptive, because regenerative cultures emerge from place-specific conditions and cannot be universalised from a single blueprint.
+
+**Methodology:** Integrative practitioner-academic synthesis structured around questions rather than propositions, drawing on systems epistemology (Bateson, Capra, Maturana & Varela) and spanning finance, agriculture, design, and ecology — more pedagogical framework than empirical study.
+
+**Relevance:** **High** — Primary text defining the candidate framework; all other sources orbit it; core constructs (crisis of perception, salutogenic design, scale-linking, questions-based method) directly populate the lib entry.
+
+---
+
+### Wahl & Baxter (2008) — "The Designer's Role in Facilitating Sustainable Solutions"
+
+**Tier:** Gold (*Design Issues*, MIT Press)
+
+**Key claims:**
+1. Designers should function as *transdisciplinary integrators and facilitators* — not specialists in aesthetic form, but agents who guide collaborative dialogue toward healthier solutions across domains.
+2. *Salutogenic design* — extending Antonovsky's salutogenesis (health-creation rather than disease-prevention) into design practice — reframes the designer's task as creating conditions that generate systemic health across scales.
+3. Worldviews, value systems, and organising ideas constitute *metadesign* — the immaterial layer that shapes all material design outcomes — and transforming metadesign is prerequisite to sustainable practice.
+
+**Methodology:** Theoretical/conceptual paper integrating Antonovsky's salutogenic model with design theory via literature synthesis; draws on Wilber's Integral Theory as framing device; no empirical data collection.
+
+**Relevance:** **High** — Wahl's peer-reviewed articulation of "salutogenic design"; creates the genealogical bridge between the existing SALUTOGENESIS lib entry and the regenerative cultures candidate; strongest Gold-tier evidence for the candidate's theoretical rigour.
+
+---
+
+### Wahl (2007) — "Scale-linking Design for Systemic Health"
+
+**Tier:** Gold (*Int. J. Ecodynamics*, WIT Press)
+
+**Key claims:**
+1. Sustainable communities require a conceptual framework grounded in complex dynamic systems theory that links interventions across spatial and temporal scales — from product design through architecture to bioregional and planetary systems.
+2. Panarchy (Gunderson & Holling) provides the structural model: nested adaptive cycles at each scale are linked such that actions at any single scale propagate upward and downward — no single-scale intervention suffices.
+3. Systemic health emerges when design integrates both material conditions and immaterial factors (worldviews, values, ecological literacy).
+
+**Methodology:** Theoretical paper applying complexity theory (Holling's panarchy, adaptive cycle) and integral theory to urban and ecological design; conceptual framework development without primary empirical data.
+
+**Relevance:** **High** — Scale-linking design is a load-bearing construct in the candidate framework; provides the vertical integration model (individual → planetary) that distinguishes regenerative design from single-scale sustainability; directly relevant to landscapification and autopoiesis connections.
+
+---
+
+### Reed (2007) — "Shifting from 'Sustainability' to Regeneration"
+
+**Tier:** Gold (*Building Research & Information*, Taylor & Francis)
+
+**Key claims:**
+1. Sustainability as currently practised in the built environment is primarily an exercise in *efficiency* — using rating systems to reduce damage — not a transformative framework, and insufficient for genuine ecological health.
+2. A "trajectory of environmentally responsible design" progresses through nested levels: conventional → green → sustainable → restorative → *regenerative*. Each level is nested within the more holistic one above it.
+3. The critical cultural leap is the shift from a fragmented worldview to a *whole-systems* model: using the health of ecological systems (not efficiency metrics) as the basis for design.
+
+**Methodology:** Forum/position paper establishing a conceptual typology grounded in the Regenesis Group practice and whole-systems design theory; argumentative and normative rather than empirical.
+
+**Relevance:** **High** — Reed's trajectory model is the foundational framing that Wahl builds upon; establishes the sustainability → regeneration distinction that is axiomatic to the entire candidate framework.
+
+---
+
+### Taveras-Dalmau, Becken & Westoby (2025) — "From Paradigm Blindness to Paradigm Shift?"
+
+**Tier:** Gold (*Ambio*, Springer; open access via Griffith Univ.)
+
+**Key claims:**
+1. Thematic analysis of 320 cross-disciplinary articles yields a "Regenerative Paradigm Map" comprising 7 core principles, 33 themes, and 253 specific elements — the most comprehensive cartographic synthesis of the regenerative field to date.
+2. When assessed against 14 paradigm criteria, regeneration meets *several but not all* criteria required for a full paradigm shift — functioning as a "potentially displacing paradigm" with significant gaps in power, governance, and larger societal structures.
+3. The first core principle ("inner world") appears in 86% of the reviewed literature, reinforcing a tendency to emphasise consciousness and worldview transformation while under-developing verifiable, structural system change — a manifestation of "paradigm blindness" within the regenerative paradigm itself.
+
+**Methodology:** Systematic integrative review using thematic analysis across 320 peer-reviewed and practitioner articles; synthesis into an interactive map structure; evaluation against 14 paradigm criteria derived from philosophy-of-science literature. Most methodologically rigorous external assessment identified.
+
+**Relevance:** **High** — Primary critical-external calibration source; its finding that regeneration partially but incompletely meets paradigm-shift criteria, and identification of the "inner world" bias and governance gap, provide essential And-Yet material and guard against uncritical adoption.
+
+---
+
+### Evaluation Confidence Notes
+
+All five sources verified. Publication details (journals, DOIs, publishers, dates) confirmed. Key claims drawn from abstracts, author summaries, publisher descriptions, and partial open-access texts — not from complete full-text close reading of paywalled sources (Wahl 2007, Reed 2007). Honest limitation: the specific 7 principle names in Taveras-Dalmau's Regenerative Paradigm Map could not be fully enumerated from available web sources; the 7/33/253 structure is confirmed.
+
+---
+
+## Phase 4: Synthesis
+
+### Integration Hypothesis
+
+Wahl's *Designing Regenerative Cultures* functions as a **scale-linking bridge** within the repository. It extends the existing Salutogenesis lib entry (individual health-creation) into the domain of ecological and cultural design, creating a genealogical chain: Antonovsky (SOC) → Wahl & Baxter (salutogenic design) → Wahl (regenerative cultures). Simultaneously, its dependence on living-systems thinking (Maturana & Varela, Santiago Theory) prepares the conceptual ground for the planned Autopoiesis lib entry. The framework's questions-based, place-adapted methodology aligns with Parametric Authorship (designer sets parameters; cultures self-author), while its axiological stance — regeneration as net-positive, dignity-extending practice — maps cleanly to CARDS without threatening any axis.
+
+### Draft Utility Statement
+
+Regenerative Cultures provides a scale-linking design framework that extends salutogenesis from individual health-creation to planetary health-creation. It inverts the sustainability paradigm: where sustainability asks "how do we do less damage?", regeneration asks "how do we actively restore and improve the conditions for life?" This matters for the repository because it bridges existing constructs (Salutogenesis, planned Autopoiesis) into praxis — offering a questions-based methodology for designing place-adapted, life-affirming systems across scales.
+
+### CARDS Alignment — Formalised
+
+No CARDS axes threatened. Framework actively serves Relatedness (reciprocal human-nature-community relationships), Dignity (extends to non-human entities and future generations), and Safety (root-cause ecological harm prevention). Competence is served (systemic literacy). Autonomy is served (questions-based, not prescriptive). **Proceed.**
+
+### Aesthetic Resonance — Formalised
+
+Moderate-high. Warm, accessible, pedagogical. Opens spaces rather than closing arguments. "Garden" and "landscape" metaphors align naturally with repository substrate. Less aphoristic than Carse, more pedagogical — but felt logic is present.
+
+### Technical Soundness — Formalised
+
+Transparent methodology (questions-based; upstream sources clearly cited). Core claims partially falsifiable (regeneration/sustainability distinction is conceptual but testable via outcome metrics). Author accountable (PhD, peer-reviewed, living, FRSA). Known critiques partially acknowledged in 2nd edition; well-documented externally (Taveras-Dalmau et al.).
+
+---
+
+## Phase 5: Validity Check (Full Import Gate)
+
+| # | Question | Answer | Confidence | Evidence |
+|---|----------|--------|------------|----------|
+| 1 | External authorship? | **YES** | High | Daniel Christian Wahl, PhD (Dundee); FRSA. Host ≠ Author. |
+| 2 | Verifiable primary sources? | **YES** | High | Silver primary text (Triarchy Press, 2016/2022) + 2 Gold peer-reviewed by author (*Design Issues*, *Int. J. Ecodynamics*) |
+| 3 | Integrates with ≥2 existing constructs? | **YES** | High | Salutogenesis (genealogical), Autopoiesis (planned, genealogical), CARDS (axiological mapping), Landscapification (scale-linking), Parametric Authorship (structural analogy) |
+| 4 | Fills a gap? | **YES** | High | Scale-linking design framework; bridges salutogenesis (individual) to ecological/planetary health-creation. No existing lib entry covers this domain. |
+| 5 | Active use case? | **YES** | High | Confirmed: landscapification projects, thesis work, exhibition design |
+
+**Full gate: 5/5. Proceed to lib entry creation.**
+
+### T1 Gate Sign-off
+
+```
+T1 Sign-off:
+  ✓ Selection criteria: 5/5
+  ✓ Primary sources: Silver (Wahl 2016/2022), Gold (Wahl & Baxter 2008), Gold (Wahl 2007)
+  ✓ Lineage: Verified (Bateson → Capra → Maturana & Varela → Antonovsky → Wahl)
+  ✓ Utility: "Scale-linking design framework extending salutogenesis to planetary health-creation"
+```
+
+### Recommendation — Final
+
+**Proceed to lib entry creation** using [methodology__lib_entry_creation.md](../../docs/methods/methodology__lib_entry_creation.md).
+
+---
+
 ## Resume Instructions
 
 1. Read this file first.
-2. Check `current_phase` and `early_signal` above.
-3. Resume from Phase 2 (Source Evaluation) — sources are listed; evaluation snapshots needed.
-4. Update this file as you progress.
-5. When synthesis is complete, run the full Import Gate (Protocol §6.3) and update recommendation.
+2. Check `status: "complete"` and `current_phase: "validating"` above.
+3. Research complete. Proceed to lib entry creation.
+4. After lib entry is created, update this file's status if needed.

@@ -44,7 +44,9 @@ These are not "influences" (see [DEPENDENCIES.md](../../DEPENDENCIES.md) for tha
 | **[OOO](OOO.md)** | Graham Harman, Ian Bogost | Heidegger → Speculative Realism → OOO | Flat ontology; Machine dignity; NetVerse word-physics |
 | **[SALUTOGENESIS](SALUTOGENESIS.md)** | Aaron Antonovsky | Stress research → Medical sociology | Health-creation framework; SOC diagnostic |
 | **[ENNEAGRAM](ENNEAGRAM.md)** | Ichazo, Naranjo, Riso & Hudson | Sufi geometry → Gurdjieff → Ichazo → Naranjo → Riso & Hudson | Dynamic personality system; self-knowledge diagnostic; integration/disintegration dynamics |
+| **[INFINITE_GAMES](INFINITE_GAMES.md)** | James P. Carse | Huizinga → Carse | Game-type diagnostic; parametric authorship grounding; gamification threat assessment |
 | **[OBJECTIFICATION](OBJECTIFICATION.md)** | Martha C. Nussbaum, Rae Langton | Kant → MacKinnon/Dworkin → Nussbaum → Langton | Dignity diagnostic; 10-feature taxonomy; benign objectification argument; Machine dignity |
+| **[REGENERATIVE_CULTURES](REGENERATIVE_CULTURES.md)** | Daniel Christian Wahl | Bateson → Capra → Living systems; Antonovsky → Salutogenic design; Reed → Regeneration | Scale-linking design; salutogenic design praxis; regenerative assessment |
 | **[SOLID](SOLID.md)** | Robert C. Martin et al. | Parnas → Meyer → Liskov → Martin | Modular coherence; threshold mechanics |
 
 ---

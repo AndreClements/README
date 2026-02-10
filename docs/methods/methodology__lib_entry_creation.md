@@ -167,6 +167,17 @@ Every lib entry follows this structure. Sections marked **[required]** must be p
 
 Hidden HTML comments that reward careful readers. Not required, but they add personality and signal that the document was crafted with care, not generated mechanically.
 
+**The quality gate:** An easter egg that *only* inventories constructs, *only* borrows another entry's punchline structure, or *only* paraphrases the framework's own axioms is performative — it signals cleverness, not understanding. None of these are inherently wrong: a borrowed structure filled with real observation works; a paraphrase that refracts through a new lens works. The failure is when any of these is the *entire* content — when the egg has no substance independent of the framework's own vocabulary.
+
+The test: if you removed the construct names and framework jargon, would anything remain? If yes, it's observational. If no, it's inventory.
+
+An easter egg succeeds when it **demonstrates understanding by *being*, not *describing*** — it embodies or applies the framework's logic rather than summarising it.
+
+**Benchmarks:**
+- SOLID: "Uncle Bob's Cabin" — wordplay earns the scene; "Barbara Liskov wins consistently" rewards specific historical knowledge; punchline is original
+- OBJECTIFICATION: "The Object's Complaint" — the hammer speaks and says something the framework doesn't already say (the insult is denial of interiority, not being-used)
+- KARPMAN: Two sentences; no construct inventory; identifies the exit mechanism (meta-awareness) without listing the three roles
+
 ```html
 <!-- Your easter egg here -->
 ```

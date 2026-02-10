@@ -11,6 +11,7 @@
 
 - Banks, Iain M. [1]
 - Bateson, Gregory & Nora [2]
+- Carse, James P. [32]
 - Cohen, Leonard [3]
 - de Certeau, Michel [4]
 - Dick, Philip K. [5]
@@ -38,6 +39,7 @@
 - Rancière, Jacques [25]
 - *The Human Nodes* (Mentors, Teachers, Peers) [26]
 - *The Drawing Tradition* (Aristides, Faragasi, Wood, et al.) [27]
+- Wahl, Daniel Christian [33]
 - Wilber, Ken [28]
 - Zukav, Gary [29]
 
@@ -106,3 +108,7 @@
 [30] **Martin, Robert C.** ("Uncle Bob"), _Design Principles and Design Patterns_ (2000), _Agile Software Development: Principles, Patterns, and Practices_ (2003). Consolidator of the SOLID principles (synthesizing Parnas, Meyer, and Liskov). Provides the `ThresholdMechanics.lib` for modular coherence—the grammar governing what crosses, what's refused, and what transforms in transit.
 
 [31] **Pirsig, Robert M.**, _Zen and the Art of Motorcycle Maintenance_ (1974). The `Quality.lib` — the pre-intellectual, pre-rational recognition that something works before you can say why. The classical/romantic split maps directly to this repo's technicality/poetry axis. The motorcycle-as-maintained-system metaphor resonates with *chop wood, carry water, clean brushes* (the circuit-breaker protocol's invariant). ZATAOMM sits between philosophy and autobiography — Quality as a metaphysic encountered through the practice of maintenance. See also: Bateson [2] (pattern), Gurdjieff [8] (attention-as-practice), Lao Tzu [16] (effortless action) — shared maintenance/attention/quality thread.
+
+[32] **Carse, James P.**, _Finite and Infinite Games: A Vision of Life as Play and Possibility_ (1986). The `GameTypeDiagnostic.lib` — a clean binary (finite/infinite) that interrogates whether a system, relationship, or design choice is played to win or played to continue play. The parametric author is an infinite player: constraints enable continuation, not determination. "Whoever must play, cannot play" grounds CARDS Autonomy as a precondition for play itself. See also: Huizinga [_Homo Ludens_] (foundational play theory), SOLID [30] (OCP as infinite-game architecture), Pirsig [31] (shared genre: speculative-philosophical with heuristic utility).
+
+[33] **Wahl, Daniel Christian**, _Designing Regenerative Cultures_ (Triarchy Press, 2016/2022). The `SalutogenicDesign.lib` — extending Antonovsky's salutogenesis [via SALUTOGENESIS.md] from individual health-creation to planetary regeneration through scale-linking design. Coined "salutogenic design" (with Baxter, 2008) as a peer-reviewed bridge between health-creation and ecological design practice. The questions-based methodology ("living the questions together") aligns with Parametric Authorship: the designer sets parameters; cultures self-author. See also: Antonovsky [via SALUTOGENESIS.md] (genealogical upstream), Bateson [2] (crisis of perception), Maturana & Varela [17] (autopoiesis as foundation), Capra (living-systems theory).
