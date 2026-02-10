@@ -32,6 +32,7 @@
 - Nietzsche, Friedrich [20]
 - Nussbaum, Martha C. [21]
 - Pavlov, Ivan P. [22]
+- Pirsig, Robert M. [31]
 - Poe, Edgar Allan [23]
 - Pratchett, Terry [24]
 - Rancière, Jacques [25]
@@ -103,3 +104,5 @@
 [29] **Zukav, Gary**, _The Dancing Wu Li Masters_ (1979). The system's main `Compiler/Interpreter` for translating between seemingly incompatible domains.
 
 [30] **Martin, Robert C.** ("Uncle Bob"), _Design Principles and Design Patterns_ (2000), _Agile Software Development: Principles, Patterns, and Practices_ (2003). Consolidator of the SOLID principles (synthesizing Parnas, Meyer, and Liskov). Provides the `ThresholdMechanics.lib` for modular coherence—the grammar governing what crosses, what's refused, and what transforms in transit.
+
+[31] **Pirsig, Robert M.**, _Zen and the Art of Motorcycle Maintenance_ (1974). The `Quality.lib` — the pre-intellectual, pre-rational recognition that something works before you can say why. The classical/romantic split maps directly to this repo's technicality/poetry axis. The motorcycle-as-maintained-system metaphor resonates with *chop wood, carry water, clean brushes* (the circuit-breaker protocol's invariant). ZATAOMM sits between philosophy and autobiography — Quality as a metaphysic encountered through the practice of maintenance. See also: Bateson [2] (pattern), Gurdjieff [8] (attention-as-practice), Lao Tzu [16] (effortless action) — shared maintenance/attention/quality thread.

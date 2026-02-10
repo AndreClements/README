@@ -442,4 +442,5 @@ This methodology, applied to itself:
 - **[SOLID.md](../lib/SOLID.md)** — Benchmark lib entry (LHS: 0.97)
 - **[OOO.md](../lib/OOO.md)** — Growth target lib entry (LHS: 0.53)
 - **[Axiology-First Aesthetics](methodology__axiology_first_aesthetics_for_engagement_design.md)** — Octagon review; dignity as design constraint
+- **[PROTOCOL__lib_research.md](../protocols/PROTOCOL__lib_research.md)** — Upstream: research protocol that validates candidates before this methodology begins
 - **[DEPENDENCIES.md](../../DEPENDENCIES.md)** — Broader constellation of influences

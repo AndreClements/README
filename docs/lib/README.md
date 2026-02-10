@@ -76,7 +76,7 @@ inputs for SRII evaluation...
 
 ## Creation Protocol
 
-New library entries should follow the **[Library Entry Creation Methodology](../methods/methodology__lib_entry_creation.md)**, which codifies selection criteria, structural template, quality rubric (LHS), and CI checkpoints.
+New library entries begin with upstream research governed by the **[Library Research Protocol](../protocols/PROTOCOL__lib_research.md)**, which manages scoping, source evaluation, and context externalisation across sessions. Once research validates a candidate, it hands off to the **[Library Entry Creation Methodology](../methods/methodology__lib_entry_creation.md)**, which codifies selection criteria, structural template, quality rubric (LHS), and CI checkpoints.
 
 ---
 
