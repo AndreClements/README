@@ -89,7 +89,8 @@
       "Bash([ -f \"$f\" ])",
       "Bash(while read path)",
       "Bash(if [[ \"$path\" == http* ]])",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(del \"workbench\\\\sketch__threshold_mechanics_claude_constitution - Copy.pdf\")"
     ]
   }
 }
