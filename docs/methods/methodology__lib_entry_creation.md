@@ -449,7 +449,7 @@ This methodology, applied to itself:
 
 - **[Library Index](../lib/README.md)** — Registry of imported constructs; usage protocol
 - **[Lens Transposition](methodology__lens_transposition.md)** — Downstream method; assumes lib entry exists
-- **[METHODOLOGY_CI.md](METHODOLOGY_CI.md)** — CI governance; As-If/If-Not; risk tiers
+- **[METHODOLOGY_CI.md](METHODOLOGY_CI.md)** — CI governance; as-if/if-not; tier model; SOLID self-diagnostic; hallucination prevention; context management; exception handling
 - **[SOLID.md](../lib/SOLID.md)** — Benchmark lib entry (LHS: 0.97)
 - **[OOO.md](../lib/OOO.md)** — Growth target lib entry (LHS: 0.53)
 - **[Axiology-First Aesthetics](methodology__axiology_first_aesthetics_for_engagement_design.md)** — Octagon review; dignity as design constraint

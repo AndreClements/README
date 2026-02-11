@@ -490,6 +490,6 @@ This protocol, applied to itself:
 - **[PROTOCOL__provenance_ledger.md](PROTOCOL__provenance_ledger.md)** — Provenance tracking for claims surfaced during research
 - **[methodology__axiology_first_aesthetics_for_engagement_design.md](../methods/methodology__axiology_first_aesthetics_for_engagement_design.md)** — Evaluation ordering (§4)
 - **[methodology__lens_transposition.md](../methods/methodology__lens_transposition.md)** — Further downstream: lens creation after lib entry
-- **[METHODOLOGY_CI.md](../methods/METHODOLOGY_CI.md)** — CI governance; tier model; risk_index
+- **[METHODOLOGY_CI.md](../methods/METHODOLOGY_CI.md)** — CI governance; as-if/if-not; tier model; SOLID self-diagnostic; hallucination prevention; context management; exception handling
 - **[observerCircuitBreaker_DBC_CQS.md](observerCircuitBreaker_DBC_CQS.md)** — Falsifiability gate; And-Yet protocol
 - **[docs/lib/README.md](../lib/README.md)** — Library index; planned additions as research candidates
