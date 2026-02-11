@@ -1,6 +1,7 @@
 # render-pdf.ps1 - Markdown to PDF via Pandoc + XeLaTeX
 # Factorial harmonic proportions design system
 # Usage: powershell -ExecutionPolicy Bypass -File .\tools\render-pdf.ps1 -InputFile path\to\file.md
+# Brand: powershell -ExecutionPolicy Bypass -File .\tools\render-pdf.ps1 -InputFile path\to\file.md -Brand
 
 [CmdletBinding()]
 param(
@@ -17,7 +18,7 @@ param(
     [string]$Title,
 
     [Parameter(Mandatory=$false)]
-    [string]$Author = 'Andre S Clements',
+    [string]$Author = "Andr$([char]0x00E9) S Clements",
 
     [Parameter(Mandatory=$false)]
     [string]$Lang = 'en',
@@ -35,7 +36,10 @@ param(
     [string]$PaperSize = 'a4',
 
     [Parameter(Mandatory=$false)]
-    [string]$FontSize = '11pt'
+    [string]$FontSize = '11pt',
+
+    [Parameter(Mandatory=$false)]
+    [switch]$Brand
 )
 
 # ============================================================================
@@ -223,15 +227,19 @@ $null = $pandocArgs.Add('fontsize=' + $FontSize)
 $null = $pandocArgs.Add('-V')
 $null = $pandocArgs.Add('geometry:margin=2.5cm')
 
-# Font configuration - use system fonts as fallback
-# IBM Plex requires manual installation from https://github.com/IBM/plex
+# Font configuration
+# IBM Plex installed via: .\tools\install-plex-fonts.ps1
 # Fallback: Segoe UI (Windows default sans), Consolas (monospace)
-$null = $pandocArgs.Add('-V')
-$null = $pandocArgs.Add('mainfont="Segoe UI"')
-$null = $pandocArgs.Add('-V')
-$null = $pandocArgs.Add('sansfont="Segoe UI"')
-$null = $pandocArgs.Add('-V')
-$null = $pandocArgs.Add('monofont="Consolas"')
+if (-not $Brand) {
+    # Default mode: use IBM Plex if available, fall back to Segoe UI
+    $null = $pandocArgs.Add('-V')
+    $null = $pandocArgs.Add('mainfont="IBM Plex Serif"')
+    $null = $pandocArgs.Add('-V')
+    $null = $pandocArgs.Add('sansfont="IBM Plex Sans"')
+    $null = $pandocArgs.Add('-V')
+    $null = $pandocArgs.Add('monofont="IBM Plex Mono"')
+}
+# When -Brand is set, fonts are configured by asc-branding.tex (via fontspec)
 
 if ($Toc) {
     $null = $pandocArgs.Add('--toc')
@@ -244,8 +252,26 @@ if ($NumberSections) {
 
 $null = $pandocArgs.Add('--standalone')
 
+# ASC branding (octagram, IBM Plex, terracotta accents)
+if ($Brand) {
+    $brandingHeader = Join-Path (Join-Path $REPO_ROOT 'templates') 'asc-branding.tex'
+    if (Test-Path $brandingHeader) {
+        $null = $pandocArgs.Add('--include-in-header=' + $brandingHeader)
+        Write-Log "Branding: ASC (octagram + IBM Plex + earth tones)"
+    } else {
+        Write-Log "Branding header not found: $brandingHeader" 'WARNING'
+    }
+    # Lua filter: emoji → coloured LaTeX circles (CARDS signals)
+    $luaFilter = Join-Path (Join-Path $REPO_ROOT 'templates') 'emoji-to-latex.lua'
+    if (Test-Path $luaFilter) {
+        $null = $pandocArgs.Add('--lua-filter=' + $luaFilter)
+        Write-Log "Lua filter: emoji-to-latex"
+    }
+}
+
 $inputDir = Split-Path -Parent $InputFile
-$resourcePaths = @($inputDir, $REPO_ROOT, 'docs', 'docs/assets', 'projects')
+$templatesDir = Join-Path $REPO_ROOT 'templates'
+$resourcePaths = @($inputDir, $REPO_ROOT, $templatesDir, 'docs', 'docs/assets', 'projects')
 $resourcePathArg = $resourcePaths -join [System.IO.Path]::PathSeparator
 $null = $pandocArgs.Add('--resource-path=' + $resourcePathArg)
 

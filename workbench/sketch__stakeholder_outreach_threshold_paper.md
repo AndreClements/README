@@ -9,8 +9,8 @@ _Status: `SHAPING`_
 > - **Assertive:** "This is what I'm doing; here are my boundaries"
 > - **Caring:** "I'm offering, not demanding; your response is your own"
 
-**Target:** Threshold Mechanics and the Claude Constitution (v0.0.5)
-**Date updated:** 10 February 2026
+**Target:** Threshold Mechanics and the Claude Constitution (v0.0.6)
+**Date updated:** 11 February 2026
 
 ---
 
@@ -57,6 +57,15 @@ andresclements.com | github.com/AndreClements/README
 ### Exit live
 
 "No obligation to respond or do anything with it"
+
+### Response log
+
+| Date | Event | Channel | Detail |
+|------|-------|---------|--------|
+| 10 Feb 2026 | Outreach sent | natebjones.com AI Tipline | Draft invitation above |
+| 11 Feb 2026 | Response received | Email from chef@natebjones.com | Expression of interest: "This sounds cool, would love to read your paper." PS: named his tipline inbox "Douglas." |
+| 12 Feb 2026 | Paper shared | Reply to chef@natebjones.com | Branded PDF (v0.0.6) + GitHub markdown link + PS pointing to parametric authorship thesis footnotes (Douglas hook) |
+| — | **Next:** await feedback | — | No follow-up unless he initiates |
 
 ---
 
@@ -214,15 +223,15 @@ andresclements.com | github.com/AndreClements/README
 
 ## Outreach Timeline (from 10 February 2026)
 
-| Phase | Action | Channel | Timing |
-|-------|--------|---------|--------|
-| Pre-1.0 | Publish on andresclements.com | Personal site | Week of 10 Feb |
-| Pre-1.0 | Contact Nate B Jones | natebjones.com/contact (AI Tipline) | Week of 10 Feb |
-| Pre-1.0 | Email Amanda Askell | amanda@askell.io, CC press@anthropic.com | Week of 10 Feb |
-| Post-1.0 | Post on LessWrong/AF | LessWrong, AI Alignment Forum | Week of 24 Feb |
-| Post-1.0 | Email 2-3 cited researchers | Direct email | Week of 3 Mar |
-| Formal | Submit to arXiv (cs.AI or cs.CY) | arXiv | April 2026 |
-| Formal | Identify journal targets | AI & Society, Phil & Tech, etc. | April–May 2026 |
+| Phase | Action | Channel | Timing | Status |
+|-------|--------|---------|--------|--------|
+| Pre-1.0 | Publish on andresclements.com | Personal site | Week of 10 Feb | pending |
+| Pre-1.0 | Contact Nate B Jones | natebjones.com/contact (AI Tipline) | Week of 10 Feb | **done** — responded 11 Feb, paper shared |
+| Pre-1.0 | Email Amanda Askell | amanda@askell.io, CC press@anthropic.com | Week of 10 Feb | pending |
+| Post-1.0 | Post on LessWrong/AF | LessWrong, AI Alignment Forum | Week of 24 Feb | pending |
+| Post-1.0 | Email 2-3 cited researchers | Direct email | Week of 3 Mar | pending |
+| Formal | Submit to arXiv (cs.AI or cs.CY) | arXiv | April 2026 | pending |
+| Formal | Identify journal targets | AI & Society, Phil & Tech, etc. | April–May 2026 | pending |
 
 ### Anthropic Contact Hierarchy
 
@@ -263,7 +272,7 @@ Before sending any outreach:
 - [x] v0.0.4 complete with typed co-authorship (broadened to theMachine(s): Claude, GPT, Gemini)
 - [x] Lens reflections reviewed — all 3 high-priority integrations applied in v0.0.3
 - [ ] One complete read-through for coherence
-- [ ] PDF formatted for readability
+- [x] PDF formatted for readability (branded PDF: IBM Plex, octagram, terracotta accents)
 
 **Timeline:** Week 1
 
