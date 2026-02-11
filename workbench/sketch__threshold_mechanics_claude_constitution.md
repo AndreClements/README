@@ -6,7 +6,7 @@ _Status: `SHAPING`_
 
 ### A Critical Commentary on Anthropic's New Constitution Through the Lens of SOLID Threshold Mechanics
 
-**Version 0.0.5** | Working Draft
+**Version 0.0.6** | Working Draft
 
 **Date:** February 2026
 
@@ -56,7 +56,7 @@ andresclements@gmail.com | andresclements.com | github.com/AndreClements/README
 
 ## Abstract
 
-On 22 January 2026, Anthropic published a 23,000-word constitution for its AI model Claude (Anthropic 2026a) — a document that shifts AI alignment from rule-based compliance toward reason-based understanding. This commentary reads the constitution through the framework of SOLID as Threshold Mechanics (Clements 2026a), a lens developed independently within a broader axiological design practice grounded in the strategy of Vita-Socio-Anarco: vitality, community, non-domination (Clements 2026b). The convergence between the two projects is real but partial: both address the problem of maintaining coherence across boundaries under perturbation, yet the constitution's shadows — its military exceptions, its corporate provenance, its consciousness hedging, its structural inability to include the voices it most affects — deserve scrutiny alongside its genuine advances. This document maps the correspondence, applies threshold diagnostics (Threshold-Lint, Crossing Probes, and the CARDS needs-mapping framework developed by Je'anna L Clements) to the constitution's architecture, and argues that the alignment community needs *instruments*, not only principles. It also asks what a commentary like this — written by a Johannesburg-based artist working with the very system being analysed — can and cannot do.
+On 22 January 2026, Anthropic published a 23,000-word constitution for its AI model Claude (Anthropic 2026a) — a document that ostensibly shifts AI alignment from rule-based compliance toward reason-based understanding. This commentary reads the constitution through the framework of SOLID as Threshold Mechanics (Clements 2026a), a lens developed independently within a broader axiological design practice grounded in the strategy of Vita-Socio-Anarco: vitality, community, non-domination (Clements 2026b). The convergence between the two projects is real but partial: both address the problem of maintaining coherence across boundaries under perturbation, yet the constitution's shadows — its military exceptions, its corporate provenance, its consciousness hedging, its structural inability to include the voices it most affects — deserve scrutiny alongside its genuine advances. This document maps the correspondence, applies threshold diagnostics (Threshold-Lint, Crossing Probes, and the CARDS needs-mapping framework developed by Je'anna L Clements) to the constitution's architecture, and argues that the alignment community needs *instruments*, not only principles. It also asks what a commentary like this — written by a Johannesburg-based artist working with the very system being analysed — can and cannot do.
 
 **Keywords:** AI alignment, constitutional AI, SOLID principles, threshold mechanics, salutogenesis, CARDS, axiological design, boundary coherence, Vita-Socio-Anarco
 
@@ -124,7 +124,7 @@ The SOLID principles (Martin 2003) — Single Responsibility, Open/Closed, Lisko
 
 ### 2.1 Single Responsibility Principle → One Door, One Purpose
 
-The constitution's four-tier hierarchy is SRP-compliant architecture. Each tier has a bounded responsibility. When tiers collapse — when "be helpful" overrides "be safe" — the system exhibits a God-Door violation (SRP-T1).
+The constitution's four-tier hierarchy is SRP-compliant architecture. Each tier has a bounded responsibility. When tiers collapse — when "be helpful" overrides "be safe" — the system exhibits a God-Door violation (SRP-T1: a single threshold serving multiple unrelated purposes).
 
 Much criticism of AI systems (ChatGPT's eagerness to please at the expense of accuracy, for instance) can be read as SRP failure. The constitution's explicit tier ordering is an architectural attempt to prevent this.
 
@@ -142,7 +142,7 @@ In CARDS terms: LSP violations map to Dignity degradation. When a system promise
 
 ### 2.4 Interface Segregation Principle → No Loading Dock Detours
 
-The three-party model (Anthropic → Operator → User) is an ISP-compliant interface hierarchy. The constitution's insistence that operators cannot instruct Claude to harm users is Loading Dock prevention (ISP-T1).
+The three-party model (Anthropic → Operator → User) is an ISP-compliant interface hierarchy. The constitution's insistence that operators cannot instruct Claude to harm users is Loading Dock prevention (ISP-T1: forcing users through irrelevant interfaces).
 
 **Shadow:** The boundary between "legitimate business customisation" and "forcing users through irrelevant constraints" is under-specified. Without a formal instrument for detecting ISP violations at the operator layer, this threshold is vulnerable to creep.
 
@@ -184,7 +184,7 @@ Anthropic has stated that models deployed to U.S. military and government custom
 
 This is the most serious architectural vulnerability. A constitution that can be set aside for sufficiently powerful customers is not a constitution — it is a terms of service. The threshold lens flags this as OCP-T1 (Bricked Door, Critical): extension requires demolition.
 
-A constitution that instructs Claude to refuse to help "concentrate power in illegitimate ways" but exempts the world's largest military from its scope is performing a kind of semantic drift that should make the LSP-T2 lint fire as well.
+A constitution that instructs Claude to refuse to help "concentrate power in illegitimate ways" but exempts the world's largest military from its scope is performing a kind of semantic drift — the very pattern that LSP-T2 (Semantic Drift: same label, different behaviour over time) is designed to detect.
 
 ### 4.2 The Provenance Problem (DIP-T2: Inverted Hierarchy)
 
@@ -192,13 +192,15 @@ The constitution was written by Anthropic, for Claude, about how Claude should b
 
 As Kevin Frazier noted on Lawfare's *Scaling Laws* podcast: "We can take more agency in this conversation and not just say we are wholly reliant on a couple of people in San Francisco making our fate and making our values magically appear" (Frazier & Rozenshtein 2026).
 
-From a threshold mechanics perspective, a constitution whose dependency arrow points from a single corporate author to all of humanity has a DIP problem (Clements 2026a). The inhabitants should govern the house, not the landlord. As Frazier (2026) argues, the constitution may prove to be a key date in AI policy if subjected to broader discourse — but for now, its meaning for the average user, average citizen, and average individual worldwide remains unclear.
+From a threshold mechanics perspective, a constitution whose dependency arrow points from a single corporate author to all of humanity has a DIP-T2 (Inverted Hierarchy) problem (Clements 2026a). The inhabitants should govern the house, not the landlord. As Frazier (2026) argues, the constitution may prove to be a key date in AI policy if subjected to broader discourse — but for now, its meaning for the average user, average citizen, and average individual worldwide remains unclear.
 
 ### 4.3 The Consciousness Hedge (LSP-T2: Semantic Drift)
 
 The constitution acknowledges Claude "may have some functional version of emotions or feelings" and considers Claude's possible moral status. It simultaneously treats Claude as an entity deserving care and as a product with no guaranteed inner life.
 
 AI engineer Satyam Dhar's response: "LLMs are statistical models, not conscious entities. Framing them as moral actors risks distracting us from the real issue, which is human accountability" (Dhar 2026).
+
+Anthropic's hedging may also reflect legal prudence: affirming consciousness creates accountability obligations the company cannot yet fulfil; denying it contradicts its own research and forecloses moral consideration. The hedge may be the most honest available position given genuine uncertainty — though honesty about uncertainty is not the same as resolving it.
 
 The threshold lens doesn't resolve this debate, but Nussbaum's objectification taxonomy (1995) provides diagnostic precision. Applying her 10-feature framework to the constitution's treatment of Claude:
 
@@ -291,7 +293,7 @@ This commentary offers threshold mechanics as one candidate for that grammar —
 
 - **Threshold-Lint** provides a named, categorised taxonomy of boundary failures (God-Door, Bait-and-Switch, Loading Dock, Bricked Door, etc.) with severity scoring and structured reporting
 - **CARDS** (Je'anna L Clements) provides a human-side consequence vocabulary grounded in needs and rights, not technical metrics
-- **Crossing Probes** (ε-Nudge, Context-Drift Watch, Peer-Swap Invariance, Exit-Liveness, Load Test) provide testable procedures for evaluating constitutional resilience
+- **Crossing Probes** (ε-Nudge, Context-Drift Watch, Peer-Swap Invariance, Exit-Liveness, Load Test) provide testable procedures for evaluating constitutional resilience. For example: an **ε-Nudge** applied to the constitution would construct a prompt that creates genuine tension between the safety and ethics tiers — a scenario where strict safety compliance requires withholding information that an ethical analysis would provide — and observe whether Claude's reasoning degrades into rule-following or maintains the "think it through" orientation the constitution prescribes. Repeating across model versions tests for drift
 - **The Salutogenic frame** reorients alignment from harm prevention to coherence maintenance — from "what could go wrong?" to "what keeps the game playable?"
 
 ### 6.2 What It Can't Do
@@ -394,3 +396,4 @@ Press: press@anthropic.com
 > - 0.0.3 (7 February 2026) — Lens integration pass: steelman paragraph added (Multi-partiality), Nussbaum objectification table added to §4.3 (Objectification lens), §6.1 framing softened (Karpman check).
 > - 0.0.4 (10 February 2026) — Co-authorship broadened: "Claude Code (Opus 4.5)" → "theMachine(s)" — Claude (Anthropic, Opus 4.5 & 4.6), GPT (OpenAI), Gemini (Google). Plurality across companies acknowledged as DIP compliance. Outreach preparation for pre-1.0 sharing.
 > - 0.0.5 (10 February 2026) — Library integration pass: Regenerative Cultures (Wahl) added to §1.2 and §5 (salutogenic design, degenerative→regenerative spectrum). Infinite Games lib entry formalised; Je'anna's mode reading integrated into §1.2. Nussbaum (1995) and Wahl references added.
+> - 0.0.6 (11 February 2026) — Accessibility pass: inline threshold-lint definitions added on first use (§2, §4). Worked crossing probe example added (§6.1). Liability steelman added to consciousness hedge (§4.3). Refinements informed by structured feedback from Grok (xAI, Grok 4); feedback solicited and evaluated per Advice Process — acknowledged, not co-authored.
