@@ -28,7 +28,13 @@
       "Bash(while read f)",
       "Bash(done)",
       "Bash(xargs ls:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(php -m:*)",
+      "Bash(php -r:*)",
+      "Bash(test:*)",
+      "Bash(C:\\\\xampp\\\\php\\\\php.exe \"c:\\\\Users\\\\User\\\\Documents\\\\GitHub\\\\README\\\\staging\\\\convert-cv.php\")",
+      "Bash(/c/xampp/php/php.exe:*)",
+      "Bash(scp:*)"
     ]
   }
 }
