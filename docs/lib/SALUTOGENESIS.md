@@ -260,4 +260,5 @@ While Antonovsky focused on individuals, Salutogenesis applies at collective sca
 - **[LENS__solid_threshold_mechanics.md](../lenses/LENS__solid_threshold_mechanics.md)** — SOLID as coherence engineering
 - **[philosophy_of_body.md](../models/philosophy_of_body.md)** — Embodied resilience, adaptive history
 - **[philosophy_of_hyperstrate.md](../models/philosophy_of_hyperstrate.md)** — Field coherence, CET
+- **[REGENERATIVE_CULTURES.md](REGENERATIVE_CULTURES.md)** — Genealogical downstream: salutogenic design, scale-linking, regenerative cultures
 - **[SRII_AXIOLOGICAL_FRAMEWORK.md](../models/SRII_AXIOLOGICAL_FRAMEWORK.md)** — System-level health metrics

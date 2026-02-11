@@ -167,6 +167,17 @@ Every lib entry follows this structure. Sections marked **[required]** must be p
 
 Hidden HTML comments that reward careful readers. Not required, but they add personality and signal that the document was crafted with care, not generated mechanically.
 
+**The quality gate:** An easter egg that *only* inventories constructs, *only* borrows another entry's punchline structure, or *only* paraphrases the framework's own axioms is performative — it signals cleverness, not understanding. None of these are inherently wrong: a borrowed structure filled with real observation works; a paraphrase that refracts through a new lens works. The failure is when any of these is the *entire* content — when the egg has no substance independent of the framework's own vocabulary.
+
+The test: if you removed the construct names and framework jargon, would anything remain? If yes, it's observational. If no, it's inventory.
+
+An easter egg succeeds when it **demonstrates understanding by *being*, not *describing*** — it embodies or applies the framework's logic rather than summarising it.
+
+**Benchmarks:**
+- SOLID: "Uncle Bob's Cabin" — wordplay earns the scene; "Barbara Liskov wins consistently" rewards specific historical knowledge; punchline is original
+- OBJECTIFICATION: "The Object's Complaint" — the hammer speaks and says something the framework doesn't already say (the insult is denial of interiority, not being-used)
+- KARPMAN: Two sentences; no construct inventory; identifies the exit mechanism (meta-awareness) without listing the three roles
+
 ```html
 <!-- Your easter egg here -->
 ```
@@ -438,8 +449,9 @@ This methodology, applied to itself:
 
 - **[Library Index](../lib/README.md)** — Registry of imported constructs; usage protocol
 - **[Lens Transposition](methodology__lens_transposition.md)** — Downstream method; assumes lib entry exists
-- **[METHODOLOGY_CI.md](METHODOLOGY_CI.md)** — CI governance; As-If/If-Not; risk tiers
+- **[METHODOLOGY_CI.md](METHODOLOGY_CI.md)** — CI governance; as-if/if-not; tier model; SOLID self-diagnostic; hallucination prevention; context management; exception handling
 - **[SOLID.md](../lib/SOLID.md)** — Benchmark lib entry (LHS: 0.97)
 - **[OOO.md](../lib/OOO.md)** — Growth target lib entry (LHS: 0.53)
 - **[Axiology-First Aesthetics](methodology__axiology_first_aesthetics_for_engagement_design.md)** — Octagon review; dignity as design constraint
+- **[PROTOCOL__lib_research.md](../protocols/PROTOCOL__lib_research.md)** — Upstream: research protocol that validates candidates before this methodology begins
 - **[DEPENDENCIES.md](../../DEPENDENCIES.md)** — Broader constellation of influences

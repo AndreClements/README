@@ -44,7 +44,8 @@ CARDS (lib) → SRII (model) → methodology (method) → practice (life)
 
 | Method | Purpose | Key Anchors |
 |--------|---------|-------------|
-| **[METHODOLOGY_CI.md](METHODOLOGY_CI.md)** | A Pragmatics of Engagement with Machines; as-if/if-not protocol | README §4; SRII |
+| **[METHODOLOGY_CI.md](METHODOLOGY_CI.md)** | CI governance methodology; as-if/if-not protocol; tier model; SOLID self-diagnostic; hallucination prevention; context management; exception handling | README §4; SRII; SOLID.md |
+| **[methodology__lib_entry_creation.md](methodology__lib_entry_creation.md)** | Library entry creation; Import Gate (5-question); LHS scoring rubric; T1/T2/T3 CI checkpoints | METHODOLOGY_CI.md; /lib/ |
 | **[methodology__host_multi_party_encounter.md](methodology__host_multi_party_encounter.md)** | Hosting protocols for multi-party encounters | README §4, §5 |
 | **[methodology__axiology_first_aesthetics_for_engagement_design.md](methodology__axiology_first_aesthetics_for_engagement_design.md)** | Design methodology; aesthetics as governance | CARDS.md; SRII |
 | **[methodology__lens_transposition.md](methodology__lens_transposition.md)** | Transposing external frameworks via figure-ground integration | /lenses/; /lib/ |

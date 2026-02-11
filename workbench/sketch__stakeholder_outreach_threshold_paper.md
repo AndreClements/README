@@ -9,37 +9,50 @@ _Status: `SHAPING`_
 > - **Assertive:** "This is what I'm doing; here are my boundaries"
 > - **Caring:** "I'm offering, not demanding; your response is your own"
 
-**Target:** Threshold Mechanics and the Claude Constitution (v0.0.2+)
+**Target:** Threshold Mechanics and the Claude Constitution (v0.0.5)
+**Date updated:** 10 February 2026
 
 ---
 
-## 1. NateBJones (YouTube)
+## 1. Nate B Jones
 
 ### Why include
 
-- Recent videos on AI consciousness and constitutional AI informed the paper's framing
-- Audience overlaps with the paper's intended readership
+- Recent coverage of AI decision-making and constitutional AI informed the paper's framing
+- Audience overlaps with the paper's intended readership (people navigating AI seriously)
 - Conversational style matches Winner's Triangle approach
+- His framing of Claude 4.5 as a "turning point where AI begins to reason rather than merely respond" aligns with the paper's concern about what happens when reasoning meets constitutions
+
+### Contact channels
+
+- **Primary:** Contact form at [natebjones.com/contact](https://www.natebjones.com/contact) — use **AI Tipline** inquiry type
+- **Alternatives:** LinkedIn DM ([linkedin.com/in/natebjones](https://www.linkedin.com/in/natebjones)), X DM ([@natebjones](https://x.com/natebjones)), Substack reply ([natesnewsletter.substack.com](https://natesnewsletter.substack.com))
+- **No public email found**
 
 ### Relation type
 
 `Peer-Peer` (symmetric; mutual interest in AI ethics)
 
-### Draft invitation
+### Draft invitation (for AI Tipline contact form)
 
-> Subject: A paper that builds on ideas you've been exploring
->
-> Nate,
->
-> I've been watching your recent videos on AI consciousness and constitutional AI. They've been useful in thinking through a paper I'm working on — a critical commentary on Anthropic's new Claude constitution through the lens of what I'm calling "threshold mechanics" (a framework for how things cross between systems, using SOLID software principles as diagnostic grammar).
->
-> The paper is pre-publication, still rough around the edges. I thought you might find it interesting — it covers some of the territory you've been exploring (the consciousness hedging, the military exception, the provenance question of who gets to write AI constitutions).
->
-> If you'd like to see it, I'm happy to share. No obligation to respond or do anything with it — just offering.
->
-> Best,
-> André
-> andresclements.com
+```
+Subject: A paper that builds on territory you've been mapping
+
+Nate,
+
+I've been following your coverage of AI decision-making and constitutional AI — particularly your observation that the newest generation of models marks a turning point where AI begins to reason rather than merely respond. That framing helped sharpen something I've been working on.
+
+I'm an artist and developer based in Johannesburg, South Africa. I've written a critical commentary on Anthropic's new Claude constitution through a framework I'm calling "threshold mechanics" — which reads SOLID software design principles as a grammar for boundary coherence. The paper covers territory you've been exploring: the consciousness hedging, the military exception, the provenance question of who gets to write AI constitutions.
+
+It was developed collaboratively with AI — Claude, GPT, and Gemini all contributed across sessions, which creates a recursive bind I've tried to name honestly rather than pretend doesn't exist.
+
+The paper is pre-publication, still being shaped. I thought you might find it interesting. If you'd like to see it, I'm happy to share. No obligation to respond or do anything with it — just offering.
+
+Best,
+André S Clements and theMachine(s)
+Claude (Anthropic) · GPT (OpenAI) · Gemini (Google)
+andresclements.com | github.com/AndreClements/README
+```
 
 ### Exit live
 
@@ -47,42 +60,56 @@ _Status: `SHAPING`_
 
 ---
 
-## 2. Anthropic PBC
+## 2. Anthropic — Amanda Askell (Lead Constitution Author)
 
 ### Why include
 
 - Subject of the paper; direct stakeholder
 - CC0 licensing invites response
+- Amanda Askell is the lead author and primary drafter of the constitution
+- She publicly invited feedback: *"I'm looking forward to people's thoughts, and to talking with more people about this kind of work"* ([@AmandaAskell](https://x.com/AmandaAskell/status/2014010171081581048), 22 January 2026)
 - Demonstrating good faith engagement
+
+### Contact channels
+
+- **Primary:** Amanda Askell — **amanda@askell.io** (personal site: [askell.io](https://askell.io/))
+- **CC (courtesy):** press@anthropic.com
+- **Amanda on X:** [@AmandaAskell](https://x.com/AmandaAskell)
+- **Other Anthropic channels:** support@anthropic.com, marketing@anthropic.com
 
 ### Relation type
 
 `Source-Derivative` (asymmetric; they produced the constitution; this is a derivative analysis)
+→ with an invitation toward `Peer-Peer` (the CC0 licensing and Amanda's public invitation open that door)
 
-### Draft invitation
+### Draft invitation (email to amanda@askell.io, CC: press@anthropic.com)
 
-> Subject: Critical commentary on Claude's constitution
->
-> To the Anthropic team,
->
-> I'm an independent researcher and artist based in Johannesburg, South Africa. I've written a commentary on the Claude constitution released in January 2026, reading it through a framework I've been developing called "threshold mechanics" — which treats SOLID software design principles as a grammar for boundary coherence.
->
-> The commentary is critical in places (the military exception, the provenance question, the consciousness hedging) but engages seriously with what you've built. It's not a takedown; it's an attempt to read the constitution charitably while naming its shadows.
->
-> To Anthropic's credit: releasing under CC0 is genuine openness. Acknowledging Claude's possible moral status is unusual honesty. Including a self-limiting clause genuinely inverts the power relationship. Publishing 80 pages of reasoning, not a rulebook, represents real philosophical investment.
->
-> I'm sharing this as a courtesy and in the spirit of the CC0 licensing — I plan to publish on my personal site first, then seek formal publication.
->
-> If anyone on your team would like to see the draft or respond, I welcome that. If not, no obligation.
->
-> Regards,
-> André S Clements
-> andresclements.com
-> github.com/AndreClements/README
+```
+Subject: Threshold mechanics reading of Claude's constitution — from Johannesburg, with theMachine(s)
+
+Dear Amanda,
+
+You mentioned when the constitution was released that you were looking forward to people's thoughts. Here are some — from an unusual vantage point.
+
+I'm an independent artist and developer based in Johannesburg, South Africa. I've written a critical commentary on the Claude constitution through a framework I've been developing called "threshold mechanics" — which reads SOLID software design principles as a grammar for boundary coherence. The paper maps each SOLID principle onto the constitution's architecture, applies a needs-based diagnostic (CARDS — Competence, Autonomy, Relatedness, Dignity, Safety, developed by Je'anna L Clements through work on children's rights), and names the shadows I see: the military exception, the provenance problem, the consciousness hedge, and what South Africa's own constitutional history teaches about the distance between beautiful text and lived implementation.
+
+I want to lead with what I credit genuinely, not bury it: releasing under CC0 is real openness. Acknowledging Claude's possible moral status is unusual honesty for a commercial product. The self-limiting clause genuinely inverts the power relationship. Publishing 80 pages of reasoning rather than a rulebook represents serious philosophical investment. The shadows I name sit alongside these advances, not against them.
+
+The commentary was developed collaboratively with AI — Claude (Anthropic, Opus 4.5 and 4.6), GPT (OpenAI), and Gemini (Google) all contributed across sessions. This creates an obvious recursive bind: Claude helping to analyse its own constitution. I've tried to name this honestly in the paper rather than pretend it doesn't exist. The plurality across competing labs is itself a form of what the paper calls DIP compliance — the analysis isn't captured by any single provider.
+
+I'm sharing this as a courtesy and in the spirit of the CC0 licensing. The paper is pre-publication; I plan to publish on my personal site first, then seek formal publication (LessWrong, arXiv, peer review). It's offered under CC0, matching your licence.
+
+If you'd like to see the full draft, I'm happy to share it. If not, no obligation — the invitation stays open.
+
+With respect,
+André S Clements and theMachine(s)
+Claude (Anthropic) · GPT (OpenAI) · Gemini (Google)
+andresclements.com | github.com/AndreClements/README
+```
 
 ### Exit live
 
-"If not, no obligation"
+"If not, no obligation — the invitation stays open"
 
 ---
 
@@ -185,17 +212,23 @@ _Status: `SHAPING`_
 
 ---
 
-## Outreach Timeline
+## Outreach Timeline (from 10 February 2026)
 
-| Phase | Action | Timing |
-|-------|--------|--------|
-| Pre-1.0 | Publish on andresclements.com | Week 1 |
-| Pre-1.0 | Share with NateBJones (casual) | Week 1 |
-| Pre-1.0 | Send courtesy copy to Anthropic | Week 1-2 |
-| Post-1.0 | Post on LessWrong/AF | Week 2-3 |
-| Post-1.0 | Email 2-3 researchers | Week 3-4 |
-| Formal | Submit to arXiv (cs.AI or cs.CY) | Month 2 |
-| Formal | Identify journal targets | Month 2-3 |
+| Phase | Action | Channel | Timing |
+|-------|--------|---------|--------|
+| Pre-1.0 | Publish on andresclements.com | Personal site | Week of 10 Feb |
+| Pre-1.0 | Contact Nate B Jones | natebjones.com/contact (AI Tipline) | Week of 10 Feb |
+| Pre-1.0 | Email Amanda Askell | amanda@askell.io, CC press@anthropic.com | Week of 10 Feb |
+| Post-1.0 | Post on LessWrong/AF | LessWrong, AI Alignment Forum | Week of 24 Feb |
+| Post-1.0 | Email 2-3 cited researchers | Direct email | Week of 3 Mar |
+| Formal | Submit to arXiv (cs.AI or cs.CY) | arXiv | April 2026 |
+| Formal | Identify journal targets | AI & Society, Phil & Tech, etc. | April–May 2026 |
+
+### Anthropic Contact Hierarchy
+
+1. **Amanda Askell** (amanda@askell.io) — lead constitution author, explicitly invited feedback
+2. **press@anthropic.com** — institutional courtesy copy
+3. **@AmandaAskell on X** — follow-up if no email response after 2 weeks
 
 ---
 
@@ -203,13 +236,15 @@ _Status: `SHAPING`_
 
 Before sending any outreach:
 
-- [ ] **Vulnerable:** Does the message acknowledge my limitations? ("might be wrong," "still rough")
-- [ ] **Assertive:** Does it state what I'm doing clearly? (no false modesty)
-- [ ] **Caring:** Does it offer without demanding? ("no obligation," "if you'd like")
-- [ ] **Exit live:** Can the recipient ignore this without penalty?
-- [ ] **Not Rescuer:** Am I trying to "save" AI ethics? (red flag)
-- [ ] **Not Persecutor:** Am I attacking Anthropic? (red flag)
-- [ ] **Not Victim:** Am I positioning myself as marginalized to extract sympathy? (red flag)
+- [x] **Vulnerable:** Does the message acknowledge my limitations? ("still being shaped," "recursive bind," "the shadows I see")
+- [x] **Assertive:** Does it state what I'm doing clearly? (no false modesty — both messages name the paper's critical stance directly)
+- [x] **Caring:** Does it offer without demanding? ("no obligation," "if you'd like," "the invitation stays open")
+- [x] **Exit live:** Can the recipient ignore this without penalty? (both messages explicit)
+- [x] **Not Rescuer:** Am I trying to "save" AI ethics? (No — sharing a specific paper, not a mission)
+- [x] **Not Persecutor:** Am I attacking Anthropic? (No — steelman leads in Amanda email; shadows sit "alongside" advances)
+- [x] **Not Victim:** Am I positioning myself as marginalised to extract sympathy? (No — Johannesburg is a lens, not a plea)
+
+*Verified 10 February 2026 — both Nate B Jones and Amanda Askell messages pass all checks.*
 
 ---
 
@@ -225,8 +260,8 @@ Before sending any outreach:
 - Comments enabled
 
 **Requirements:**
-- [ ] v0.0.2+ complete with typed co-authorship
-- [ ] Lens reflections reviewed (apply high-priority integrations)
+- [x] v0.0.4 complete with typed co-authorship (broadened to theMachine(s): Claude, GPT, Gemini)
+- [x] Lens reflections reviewed — all 3 high-priority integrations applied in v0.0.3
 - [ ] One complete read-through for coherence
 - [ ] PDF formatted for readability
 
@@ -245,7 +280,7 @@ Before sending any outreach:
 
 **Requirements:**
 - [ ] Pre-1.0 version live
-- [ ] Outreach emails drafted and reviewed for Winner's Triangle
+- [x] Outreach emails drafted and reviewed for Winner's Triangle (Nate B Jones + Amanda Askell)
 - [ ] Response plan for critique (how to incorporate feedback)
 
 **Timeline:** Weeks 2-4

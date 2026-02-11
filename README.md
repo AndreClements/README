@@ -100,7 +100,7 @@ The system's complexity is presented through a simplified interface of methods â
 - **`method: paintWithScalpel()`**: An ethics of "careful violence" using precise tools to dissect and reveal complex truths.
 - **`method: Landscapify()`**: Renders the body and its environment as a single, continuous territory.
 - **`method: meticulousBlur()`**: Crafts deliberate ambiguity; a "smoky mirror" as an honest representation.
-- **`method: play(context)`**: A state of non-purposeful engagement. Its implementation is context-dependent:
+- **`method: play(context)`**: A state of non-purposeful engagement. A mode, not a game â€” 'one can play anything in infinite mode' JLC. *(cf. Carse: "There is but one infinite game.")*  Its implementation is context-dependent:
     - `case 'intimate'`: The uninhibited "happy dance."
     - `case 'friendly'`: Witty, high-context banter.
     - `case 'transactional'`: "Jamming as an analyst."
