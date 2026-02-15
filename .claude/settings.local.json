@@ -90,7 +90,10 @@
       "Bash(while read path)",
       "Bash(if [[ \"$path\" == http* ]])",
       "Bash(grep:*)",
-      "Bash(del \"workbench\\\\sketch__threshold_mechanics_claude_constitution - Copy.pdf\")"
+      "Bash(del \"workbench\\\\sketch__threshold_mechanics_claude_constitution - Copy.pdf\")",
+      "WebFetch(domain:www.facebook.com)",
+      "WebFetch(domain:x.com)",
+      "WebFetch(domain:cleanlanguage.com)"
     ]
   }
 }
