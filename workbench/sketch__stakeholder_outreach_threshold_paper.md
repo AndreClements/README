@@ -10,7 +10,7 @@ _Status: `SHAPING`_
 > - **Caring:** "I'm offering, not demanding; your response is your own"
 
 **Target:** Threshold Mechanics and the Claude Constitution (v0.0.6)
-**Date updated:** 11 February 2026
+**Date updated:** 12 February 2026
 
 ---
 
@@ -58,14 +58,18 @@ andresclements.com | github.com/AndreClements/README
 
 "No obligation to respond or do anything with it"
 
-### Response log
+### Status: `SENT — PAPER SHARED`
 
-| Date | Event | Channel | Detail |
-|------|-------|---------|--------|
-| 10 Feb 2026 | Outreach sent | natebjones.com AI Tipline | Draft invitation above |
-| 11 Feb 2026 | Response received | Email from chef@natebjones.com | Expression of interest: "This sounds cool, would love to read your paper." PS: named his tipline inbox "Douglas." |
-| 12 Feb 2026 | Paper shared | Reply to chef@natebjones.com | Branded PDF (v0.0.6) + GitHub markdown link + PS pointing to parametric authorship thesis footnotes (Douglas hook) |
-| — | **Next:** await feedback | — | No follow-up unless he initiates |
+| Date | Direction | Summary |
+|------|-----------|---------|
+| 10 Feb 2026 | André → Nate | Initial outreach via AI Tipline contact form (matches draft above) |
+| 11 Feb 2026 | Nate → André | Positive response; invited paper submission |
+| 12 Feb 2026 | André → Nate | Paper sent (v0.0.6 PDF + GitHub link). PS: pointed to [parametric_authorship.md](../projects/theses/parametric_authorship.md) |
+| 12 Feb 2026 | André → Nate | PPS follow-up: *"…in the end it is all just noise. In there somewhere perhaps, is an offering… The piece tries to offer a grammar, rather than arguing an opinion… We clean brushes to paint, not to clean brushes, generally. Everything is underpainting."* |
+
+> *Stakeholder correspondence anonymised pending CONSENT_LEDGER entry. Full exchange in private records.*
+
+**Current state:** Paper delivered. Awaiting read/response. No follow-up needed — exit live honoured. **Consent status:** Not yet in CONSENT_LEDGER; request consent to be named in exchange log when natural opportunity arises.
 
 ---
 
@@ -223,15 +227,15 @@ andresclements.com | github.com/AndreClements/README
 
 ## Outreach Timeline (from 10 February 2026)
 
-| Phase | Action | Channel | Timing | Status |
-|-------|--------|---------|--------|--------|
-| Pre-1.0 | Publish on andresclements.com | Personal site | Week of 10 Feb | pending |
-| Pre-1.0 | Contact Nate B Jones | natebjones.com/contact (AI Tipline) | Week of 10 Feb | **done** — responded 11 Feb, paper shared |
-| Pre-1.0 | Email Amanda Askell | amanda@askell.io, CC press@anthropic.com | Week of 10 Feb | pending |
-| Post-1.0 | Post on LessWrong/AF | LessWrong, AI Alignment Forum | Week of 24 Feb | pending |
-| Post-1.0 | Email 2-3 cited researchers | Direct email | Week of 3 Mar | pending |
-| Formal | Submit to arXiv (cs.AI or cs.CY) | arXiv | April 2026 | pending |
-| Formal | Identify journal targets | AI & Society, Phil & Tech, etc. | April–May 2026 | pending |
+| Phase | Action | Channel | Timing |
+|-------|--------|---------|--------|
+| Pre-1.0 | Publish on andresclements.com | Personal site | Week of 10 Feb |
+| Pre-1.0 | ~~Contact Nate B Jones~~ | natebjones.com/contact (AI Tipline) | **Done** — 10 Feb (sent), 11 Feb (response), 12 Feb (paper + PPS) |
+| Pre-1.0 | Email Amanda Askell | amanda@askell.io, CC press@anthropic.com | Week of 10 Feb |
+| Post-1.0 | Post on LessWrong/AF | LessWrong, AI Alignment Forum | Week of 24 Feb |
+| Post-1.0 | Email 2-3 cited researchers | Direct email | Week of 3 Mar |
+| Formal | Submit to arXiv (cs.AI or cs.CY) | arXiv | April 2026 |
+| Formal | Identify journal targets | AI & Society, Phil & Tech, etc. | April–May 2026 |
 
 ### Anthropic Contact Hierarchy
 
@@ -290,6 +294,7 @@ Before sending any outreach:
 **Requirements:**
 - [ ] Pre-1.0 version live
 - [x] Outreach emails drafted and reviewed for Winner's Triangle (Nate B Jones + Amanda Askell)
+- [x] Nate B Jones outreach sent and paper delivered (10–12 Feb 2026)
 - [ ] Response plan for critique (how to incorporate feedback)
 
 **Timeline:** Weeks 2-4
