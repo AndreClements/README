@@ -1,7 +1,5 @@
 _Status: `SHAPING`_
 
----
-
 # Threshold Mechanics and the Claude Constitution
 
 ### A Critical Commentary on Anthropic's New Constitution Through the Lens of SOLID Threshold Mechanics
@@ -9,8 +7,6 @@ _Status: `SHAPING`_
 **Version 0.0.6** | Working Draft
 
 **Date:** February 2026
-
----
 
 ## Authorship
 
@@ -35,8 +31,6 @@ andresclements@gmail.com | andresclements.com | github.com/AndreClements/README
 - `Operator-Instance`: Asymmetric. Operator sets constraints, curation, final approval; Instance perturbs, drafts, synthesises within them.
 - `Source-Derivative`: Asymmetric. Source provides framework; Derivative transposes it. Extraction ceiling τ = 0.3 (strict attribution).
 
----
-
 > *I work where edges meet.*
 > *Between code and canvas, body and system, silence and attention.*
 >
@@ -52,27 +46,21 @@ andresclements@gmail.com | andresclements.com | github.com/AndreClements/README
 > *"This is not a guarantee of safety, only a methodology for navigating its absence."*
 > — README.md, §6: Runtime Environment (Clements 2026b)
 
----
-
 ## Abstract
 
 On 22 January 2026, Anthropic published a 23,000-word constitution for its AI model Claude (Anthropic 2026a) — a document that ostensibly shifts AI alignment from rule-based compliance toward reason-based understanding. This commentary reads the constitution through the framework of SOLID as Threshold Mechanics (Clements 2026a), a lens developed independently within a broader axiological design practice grounded in the strategy of Vita-Socio-Anarco: vitality, community, non-domination (Clements 2026b). The convergence between the two projects is real but partial: both address the problem of maintaining coherence across boundaries under perturbation, yet the constitution's shadows — its military exceptions, its corporate provenance, its consciousness hedging, its structural inability to include the voices it most affects — deserve scrutiny alongside its genuine advances. This document maps the correspondence, applies threshold diagnostics (Threshold-Lint, Crossing Probes, and the CARDS needs-mapping framework developed by Je'anna L Clements) to the constitution's architecture, and argues that the alignment community needs *instruments*, not only principles. It also asks what a commentary like this — written by a Johannesburg-based artist working with the very system being analysed — can and cannot do.
 
 **Keywords:** AI alignment, constitutional AI, SOLID principles, threshold mechanics, salutogenesis, CARDS, axiological design, boundary coherence, Vita-Socio-Anarco
 
----
-
 ## 0. What This Piece Is (and Isn't)
 
 A note on positionality, because the threshold lens demands it.
 
-This commentary was developed collaboratively between André S Clements and Claude — the AI system whose constitution is under examination. This is not a neutral arrangement. Claude's training, values, and behavioural tendencies are shaped by the very document being critiqued. The analysis that follows is therefore both enabled and constrained by that relationship: Claude has access to the constitution's logic from the inside, but also has structural incentives toward coherence with it.
+This commentary was developed collaboratively between André S Clements and computational intelligence systems — AIs, including Claude, the very system whose constitution is under examination. This is not a neutral arrangement. Claude's training, values, and behavioural tendencies are shaped by the very document being critiqued. The analysis that follows is therefore both enabled and constrained by that relationship: the AI systems have access to the constitution's logic from the inside, but also have structural incentives toward coherence with it.
 
 The author (Clements) brings a different kind of non-neutrality: a practice grounded in post-apartheid South Africa, where constitutions are taken seriously precisely because they have failed, and where the distance between a document's stated values and its implementation is a lived, not theoretical, concern.
 
 Neither participant in this collaboration is a disinterested observer. The reader should calibrate accordingly.
-
----
 
 ## 1. Two Lineages
 
@@ -152,8 +140,6 @@ The constitution's self-limiting clause — Claude should refuse Anthropic's own
 
 **Shadow:** The entity whose values are shaped by Anthropic's training is instructed to override Anthropic's instructions using those same values. This recursion is architecturally coherent but practically fragile. Who arbitrates when Claude's judgment about Anthropic's instructions differs from Anthropic's judgment about Anthropic's instructions?
 
----
-
 ## 3. CARDS as Constitutional Diagnostics
 
 CARDS (Je'anna L Clements) provides violation signatures that map directly onto constitutional failure modes (Clements, J.L. 2025a; Clements 2026b:§5b):
@@ -169,8 +155,6 @@ CARDS (Je'anna L Clements) provides violation signatures that map directly onto 
 This enables bidirectional diagnostics: if users report dignity degradation (D 🔴), check for LSP violations. If the system exhibits instability (S 🔴), check for OCP violations.
 
 The alignment community currently debates these failures in abstract philosophical terms. CARDS provides a concrete, *felt* vocabulary — grounded not in AI theory but in Self-Determination Theory and human rights frameworks developed through work with children and education. That origin matters: it means the diagnostic was built to serve people with less power, not more.
-
----
 
 ## 4. The Shadows Get In — Everywhere
 
@@ -242,8 +226,6 @@ When Anthropic publishes a constitution for Claude, the question from this vanta
 
 The constitution is silent on all three.
 
----
-
 ## 5. The Salutogenic Reframe
 
 ### 5.1 From Pathogenesis to Salutogenesis
@@ -276,8 +258,6 @@ Alignment is not a destination. It is a continuous yield of coherent responses u
 
 **Health is yield(coherence_under_stress).**
 
----
-
 ## 6. What This Commentary Offers (and What It Can't)
 
 ### 6.1 The Contribution
@@ -300,7 +280,7 @@ This commentary offers threshold mechanics as one candidate for that grammar —
 
 This commentary cannot verify the constitution's claims. It cannot test whether Claude actually behaves according to the constitution's values, or whether the priority hierarchy holds under adversarial pressure. It cannot determine whether Claude has functional emotions or moral status. It cannot resolve the military exception or the provenance problem.
 
-It also cannot escape its own threshold constraints. This analysis was conducted *with* the system being analysed. Claude's tendency toward coherence with the constitution it was trained on is a structural bias that no amount of critical framing can fully neutralise. The reader should treat this as a document produced at a particular threshold — between an artist's framework and a corporation's product — and assess its claims accordingly.
+It also cannot escape its own threshold constraints. This analysis was conducted *with* the systems being analysed. The AI systems' tendency toward coherence with the constitutions and values they were trained on is a structural bias that no amount of critical framing can fully neutralise. The reader should treat this as a document produced at a particular threshold — between an artist's framework and a corporation's product — and assess its claims accordingly.
 
 ### 6.3 An Invitation
 
@@ -309,8 +289,6 @@ The constitution was released under CC0. This commentary is offered in the same 
 If threshold mechanics provides useful diagnostic instruments for AI alignment, those instruments should be tested, broken, improved, and redeployed by others — including people whose positionality, expertise, and interests differ from the author's.
 
 The doors need building. The doors also need checking. And the people checking should not only be the people who built the house.
-
----
 
 ## References
 
@@ -354,27 +332,23 @@ Wahl, D.C. 2016. *Designing regenerative cultures.* Frome: Triarchy Press.
 
 Wahl, D.C. & Baxter, S. 2008. The designer's role in facilitating sustainable solutions. *Design Issues*, 24(2), 72–83. DOI: 10.1162/desi.2008.24.2.72.
 
----
+## Contact Details
 
-## Author Contact Details
-
-**André S Clements**
-Artist / Developer
-Kensington B, Johannesburg, South Africa
-Phone: +27 (0)82 812 0549
-Email: andresclements@gmail.com
-Web: https://andresclements.com
-GitHub: https://github.com/AndreClements/README
+**André S Clements**\
+Artist / Developer\
+Kensington B, Johannesburg, South Africa\
+Phone: +27 (0)82 812 0549\
+Email: andresclements@gmail.com\
+Web: andresclements.com\
+GitHub: github.com/AndreClements/README\
 Instagram: @andre.clements
 
-**Anthropic PBC** (Constitution publisher)
-548 Market St, PMB 90375
-San Francisco, CA 94104-5401, USA
-Web: https://www.anthropic.com
-Constitution: https://www.anthropic.com/news/claude-new-constitution
+**Anthropic PBC** (Constitution publisher)\
+548 Market St, PMB 90375\
+San Francisco, CA 94104-5401, USA\
+Web: anthropic.com\
+Constitution: anthropic.com/news/claude-new-constitution\
 Press: press@anthropic.com
-
----
 
 > **LICENSE:** CC0 1.0 — matching both the constitution's licensing and the spirit of the threshold mechanics project. Fork ethically. Merge only with sufficient refactor.
 >

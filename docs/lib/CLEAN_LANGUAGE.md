@@ -385,6 +385,7 @@ Walker, C. 2014. *From contempt to curiosity: creating the conditions for groups
 
 ## Cross-links
 
+- **[CLEAN_SPACE.md](CLEAN_SPACE.md)** — Sibling entry; spatial facilitation methodology; extends Clean Language into embodied space
 - **[Library Index](README.md)** — Registry of imported constructs
 - **[CARDS.md](CARDS.md)** — Human needs framework; Clean as CARDS-preserving protocol
 - **[MULTI_PARTIALITY.md](MULTI_PARTIALITY.md)** — Multi-partial stance; Clean as verbal syntax

@@ -12,6 +12,13 @@ Thumbs.db
 *.bak
 *.tmp
 
+# LaTeX build artifacts
+*.aux
+*.log
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
 # Windows null device artifact
 nul
 .claude/settings.local.json

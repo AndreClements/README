@@ -276,7 +276,7 @@ Before sending any outreach:
 - [x] v0.0.4 complete with typed co-authorship (broadened to theMachine(s): Claude, GPT, Gemini)
 - [x] Lens reflections reviewed — all 3 high-priority integrations applied in v0.0.3
 - [ ] One complete read-through for coherence
-- [ ] PDF formatted for readability
+- [x] PDF formatted for readability (branded PDF: IBM Plex, octagram, terracotta accents)
 
 **Timeline:** Week 1
 
