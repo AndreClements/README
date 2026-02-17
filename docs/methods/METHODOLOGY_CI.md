@@ -17,15 +17,19 @@
 > **Contract:**
 > ```yaml
 > title: "A General Theory of Machines: A Pragmatics of Engagement"
-> version: "4.0.0"
+> version: "4.1.0"
 > status: "Active"
 > intent: >
 >   The CI governance methodology for the human-OS repository.
 >   Defines the philosophical stance (as-if/if-not), operational tier model
 >   (T1/T2/T3), SOLID-derived self-diagnostic grammar, hallucination prevention
->   gates, context management strategy, exception handling patterns, and session
->   continuity protocol for all CI operations.
-> emerged_from: "v3.3.3 outgrown by operational CI practice (2026-02-11)"
+>   gates, context management strategy, exception handling patterns, session
+>   continuity protocol, and lessons-learnt surfacing for all CI operations.
+> emerged_from: >
+>   v4.0.0 + META repo field notes (2026-02-17): upward propagation of
+>   lessons-learnt was under-specified — self-diagnostic was session-scoped
+>   not cumulative, And-Yet was write-time not use-time, exception handling
+>   logged but didn't aggregate. See META/field_notes/field_notes__methodology_ci.md.
 > anchors:
 >   - "../../README.md"
 >   - "../protocols/PROTOCOL__lib_research.md"
@@ -516,6 +520,30 @@ play sessionClose(task):
     task.primary_artifact.append("## Session Violations", violations)
 ```
 
+### 8.5 META Repo Integration (Lessons-Learnt Surfacing)
+
+After the standard session close, surface process-level learning to the META repo — a separate, portable git repository that holds operational observations about methodology and protocol performance across projects and machines. See [META/PROTOCOL__field_notes.md](../../../META/PROTOCOL__field_notes.md) for governance.
+
+```pseudo
+play sessionClose_meta(session):
+  // After standard sessionClose (§8.4)
+
+  // 1. Process observations → field notes
+  if session.process_observations.count > 0:
+    for obs in session.process_observations:
+      append(obs, "META/field_notes/field_notes__" + obs.document + ".md")
+
+  // 2. Diagnostic summary → cumulative log
+  if session.self_diagnostic_run:
+    append(session.diagnostic_one_liner, "META/diagnostic_log.md")
+
+  // 3. Project context changed?
+  if session.context_changed_materially:
+    update("META/context/context__" + session.project + ".md")
+```
+
+**Not every session generates process observations.** Most T1 sessions will skip this step entirely. The trigger is noticing something about the *methodology or protocol itself* — not about the content being worked on. Content observations stay in project-local `staging/reflections/`.
+
 ---
 
 ## §9. Exception Handling (The Try-Catch Protocol)
@@ -632,6 +660,8 @@ This methodology, applied to itself:
 4. **Token cost.** This document is ~4× longer than v3.3.3. Is the additional context worth the tokens? The test: does an LLM agent produce measurably better output — fewer hallucinations, fewer SOLID violations, fewer re-derivations — with this document loaded? If the answer is no, cut. The ISP principle demands it.
 
 5. **Sovereignty check.** Does this methodology inadvertently constrain the Operator's freedom to override, deviate, or ignore? The Empty Turn (§9.3) must remain live at every stage. No gate, no checklist, no DBC overrides the Operator's sovereign right to stop.
+
+6. **Lessons-learnt surfacing (v4.1.0).** This document's upward feedback loop — from operational experience back into methodology revision — was under-specified until v4.1.0. The `emerged_from` field records *that* a version changed but not the accumulated observations that led to it. Mitigation: the META repo (§8.5) now provides a governed holding artefact for process observations. **Version-bump precondition:** before revising this document, review accumulated field notes in `META/field_notes/field_notes__methodology_ci.md` and reference specific entries in the new version's `emerged_from` field.
 
 ---
 
