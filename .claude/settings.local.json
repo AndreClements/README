@@ -89,7 +89,11 @@
       "Bash([ -f \"$f\" ])",
       "Bash(while read path)",
       "Bash(if [[ \"$path\" == http* ]])",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(git remote:*)",
+      "Bash(git init:*)",
+      "Bash(gh auth status:*)",
+      "Bash(cmd.exe //c \"winget install GitHub.cli --accept-source-agreements --accept-package-agreements\")"
     ]
   }
 }
