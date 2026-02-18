@@ -23,10 +23,13 @@ powershell -ExecutionPolicy Bypass -File .\tools\render-pdf.ps1 -InputFile "path
 | `-Template` | `templates/bauhaus-academic.tex` | LaTeX template |
 | `-Title` | (from YAML) | Document title |
 | `-Author` | `André S Clements` | Author name |
+| `-Lang` | `en` | Document language |
 | `-TocDepth` | `2` | Table of contents depth |
 | `-NumberSections` | `$true` | Number sections |
+| `-Toc` | `$true` | Include table of contents |
 | `-PaperSize` | `a4` | Paper size |
 | `-FontSize` | `11pt` | Base font size |
+| `-Brand` | (switch) | Apply ASC branding: octagram footer/title, IBM Plex fonts (via fontspec), terracotta accents, emoji-to-latex filter |
 
 ### Dependencies
 
@@ -66,10 +69,32 @@ Spacing Scale (same progression):
 | Feature | Status |
 |---------|--------|
 | PDF generation | Working |
-| Custom LaTeX template | Disabled (table issues) |
-| IBM Plex fonts | Pending (using Segoe UI fallback) |
-| Emoji support | Pending |
+| Custom LaTeX template | Disabled (table issues with Pandoc default) |
+| IBM Plex fonts (via `-Brand`) | Working (fontspec in `asc-branding.tex`) |
+| IBM Plex fonts (default mode) | Font name resolution — uses system font names |
+| Emoji → LaTeX filter | Working (via `-Brand`, `emoji-to-latex.lua`) |
 | Factorial harmonics refinement | Pending |
+
+### YAML Front Matter
+
+Pandoc consumes `---` delimited YAML front matter as metadata without rendering it in the PDF body. Use this for archive contracts, provenance metadata, and governance fields that should be in the source but not in the output:
+
+```yaml
+---
+title: "Document Title"
+subtitle: "Research Brief — Upstream Investigation"
+archive:
+  candidate: "MY_DOCUMENT"
+  status: "revised"
+  lineage: "Source A → Source B → Source C"
+  revision_notes: >
+    v2: What changed and why.
+---
+```
+
+The `title:` and `subtitle:` fields are used by Pandoc for the title page. Custom fields (like `archive:`) are silently ignored unless a custom template references them. `Extract-YamlTitle` in `render-pdf.ps1` extracts the title from front matter automatically.
+
+See `../META/field_notes/field_notes__yaml_front_matter_pdf.md` for the full pattern.
 
 ### Example
 
@@ -79,6 +104,12 @@ Spacing Scale (same progression):
 
 # Custom output location
 .\tools\render-pdf.ps1 -InputFile "docs\paper.md" -OutputFile "output\paper.pdf"
+
+# With ASC branding (octagram, IBM Plex, terracotta accents)
+.\tools\render-pdf.ps1 -InputFile "docs\paper.md" -Brand
+
+# Custom author for co-authored documents
+.\tools\render-pdf.ps1 -InputFile "docs\paper.md" -Brand -Author "André (and theMachine(s))"
 ```
 
 ---
@@ -173,6 +204,9 @@ python tools/render_equations.py tools/equations/parametric_authorship.yaml --fo
 | `tools/equations/` | YAML equation definitions for render_equations.py |
 | `tools/equations/parametric_authorship.yaml` | Parametric authorship thesis equations + footnotes |
 | `templates/bauhaus-academic.tex` | LaTeX template (Bauhaus-inspired design) |
+| `templates/asc-branding.tex` | ASC branding header (octagram, IBM Plex, earth tones) |
+| `templates/emoji-to-latex.lua` | CARDS signal emoji → coloured LaTeX circles |
+| `templates/octagram-mark-standalone.pdf` | Pre-rendered octagram for footer/title |
 | `workbench/academic-style.css` | CSS for HTML output |
 | `flatten-md.ps1` | Repo flattening script (root) |
 
