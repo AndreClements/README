@@ -92,12 +92,83 @@ Prefer quotes that are **profound, precise, or poetic** — not decorative.
 
 ## §4. The Structural Template
 
-Every lib entry follows this structure. Sections marked **[required]** must be present; sections marked **[recommended]** strengthen the entry.
+Every lib entry follows this structure. The document is organised into two zones: **Subject Matter** (the framework itself, for any reader) and **Repository Integration** (how this repository uses the framework). Sections marked **[required]** must be present; sections marked **[recommended]** strengthen the entry.
 
 ```
 # LIBRARY — [FRAMEWORK NAME] ([Author(s)])
 
-> **Contract:**
+> **Status:** Imported Library | **Host:** André S Clements | [Full contract →](#appendix-contract)
+
+---
+
+                    ── SUBJECT MATTER ──
+
+## Attribution & Ownership                          [required]
+- Author identification and intellectual ownership
+- Key works (bibliography)
+- Lineage diagram (ASCII tree — framework lineage only; no repository nodes)
+
+## §1–§N. Core Constructs (The Primitives)          [required]
+- Each major construct gets its own subsection
+- Definition (original author's formulation)
+- Formal notation where appropriate
+- Pure subject matter: no inline repository mappings or CARDS annotations
+
+## §N+1. The And-Yet (Shadow)                       [recommended → required at LHS ≥ 0.80]
+- Over-application risks
+- Known limitations
+- Scientific/methodological critiques
+- Cultural or contextual constraints
+- The meta-question: when does this framework itself violate its own principles?
+
+## §N+2. Verification & Primary Sources             [recommended]
+- Source verification status
+- Key claims verified (with citations)
+- Recent academic activity
+- Contact/further verification paths
+
+---
+
+                    ── REPOSITORY INTEGRATION ──
+
+## What This Changes                                [required]
+- Inversion table (what this framework does differently from conventional thinking)
+- Bridge into integration: contextualises why this framework was imported
+
+## Maintainer's Note                                [required]
+- Host ≠ Author declaration
+- Hosting context and intellectual ownership clarity
+
+## Integration with CARDS                           [required]
+- Bidirectional mapping table
+- Each construct ↔ CARDS axis
+- Diagnostic protocol
+
+## Integration with [Other Framework(s)]            [recommended]
+- At least one additional integration beyond CARDS
+- Bidirectional mapping preferred
+- Strain points documented where mappings are imperfect
+
+## Execution Routines                               [recommended]
+- Routine A: Diagnostic (assessing/understanding)
+- Routine B: Relational/Design (building/applying)
+- Routine C: Context-specific (domain application)
+
+## Why This Matters for the Repository              [required]
+- Numbered list (≥3 reasons)
+- Integration hooks (which existing constructs connect)
+
+## Cross-links                                      [required]
+- Library Index
+- Related lib entries
+- Corresponding lens (if exists)
+- Related models, methods, protocols
+- DEPENDENCIES.md
+
+---
+
+## Appendix: Contract                               [required]
+
 > ```yaml
 > title: "[Full Title]"
 > author: "[Primary Author(s)]"
@@ -107,61 +178,9 @@ Every lib entry follows this structure. Sections marked **[required]** must be p
 > status: "Imported Library"
 > usage: "[Primary use cases within repository]"
 > ```
-
----
-
-## Attribution & Ownership                          [required]
-- Author identification and intellectual ownership
-- Key works (bibliography)
-- Lineage diagram (ASCII tree)
-- Maintainer's note (Host ≠ Author)
-
-## §1. The Utility (Why Import This?)               [required]
-- Inversion table (what this framework does differently)
-- Why this matters for the repository (numbered list, ≥3 reasons)
-- Integration hooks (which existing constructs connect)
-
-## §2–§N. Core Constructs (The Primitives)          [required]
-- Each major construct gets its own subsection
-- Definition (original author's formulation)
-- Formal notation where appropriate
-- Repository mapping (how it translates)
-
-## §N+1. Integration with CARDS                     [required]
-- Bidirectional mapping table
-- Each construct ↔ CARDS axis
-- Diagnostic protocol
-
-## §N+2. Integration with [Other Framework(s)]      [recommended]
-- At least one additional integration beyond CARDS
-- Bidirectional mapping preferred
-- Strain points documented where mappings are imperfect
-
-## §N+3. Execution Routines                         [recommended]
-- Routine A: Diagnostic (assessing/understanding)
-- Routine B: Relational/Design (building/applying)
-- Routine C: Context-specific (domain application)
-
-## §N+4. The And-Yet (Shadow)                       [recommended → required at LHS ≥ 0.80]
-- Over-application risks
-- Known limitations
-- Scientific/methodological critiques
-- Cultural or contextual constraints
-- The meta-question: when does this framework itself violate its own principles?
-
-## §N+5. Verification & Primary Sources             [recommended]
-- Source verification status
-- Key claims verified (with citations)
-- Recent academic activity
-- Contact/further verification paths
-
-## Cross-links                                      [required]
-- Library Index
-- Related lib entries
-- Corresponding lens (if exists)
-- Related models, methods, protocols
-- DEPENDENCIES.md
 ```
+
+**Rationale for the two-zone structure:** A reader encountering the framework for the first time should meet the subject matter itself — definitions, dynamics, limitations, sources — before encountering how this repository applies it. The Repository Integration zone preserves all integration content (CARDS mapping, execution routines, inversion tables, repo-specific rationale) but positions it as curatorial context rather than the entry's opening.
 
 ### Easter Eggs [optional]
 
@@ -193,9 +212,9 @@ The LHS evaluates lib entries across 10 weighted dimensions:
 | # | Dimension | Weight | Description |
 |---|-----------|--------|-------------|
 | D1 | **Provenance** | 15% | Source verification quality; lineage completeness |
-| D2 | **Structural Compliance** | 10% | Adherence to §4 template; all required sections present |
+| D2 | **Structural Compliance** | 10% | Adherence to §4 two-zone template; subject matter zone precedes repository integration zone; all required sections present |
 | D3 | **Conceptual Depth** | 15% | Core constructs explained with precision and nuance |
-| D4 | **CARDS Integration** | 10% | Bidirectional mapping to CARDS; diagnostic protocol |
+| D4 | **CARDS Integration** | 10% | Bidirectional mapping to CARDS; diagnostic protocol (located in Repository Integration zone) |
 | D5 | **Cross-Framework Integration** | 10% | Meaningful connections to ≥2 other frameworks |
 | D6 | **Execution Routines** | 10% | Actionable procedures; not theory-only |
 | D7 | **The And-Yet (Shadow)** | 10% | Honest self-critique; limitations documented |
@@ -251,7 +270,7 @@ LHS range: 0.00 — 1.00
 
 ### 6.1 Mandatory: CARDS Mapping
 
-Every lib entry must map its core constructs to CARDS. The minimum viable integration:
+Every lib entry must map its core constructs to CARDS. This mapping lives in the **Repository Integration** zone (not inline within core constructs). The minimum viable integration:
 
 ```
 For each core construct C_i:
@@ -326,8 +345,8 @@ Lib entry creation follows CI methodology tiers:
 
 | Gate | Name | Requirements | Artifacts |
 |------|------|-------------|-----------|
-| **T1** | **Source Gate** | Selection criteria passed (§2); primary sources identified and verified (§3); lineage diagram drafted; utility statement drafted | Source list, lineage, draft §1 |
-| **T2** | **Structure Gate** | Full structural draft complete (§4 template); CARDS integration mapped (§6.1); ≥1 additional integration; core constructs specified | Complete draft (all sections) |
+| **T1** | **Source Gate** | Selection criteria passed (§2); primary sources identified and verified (§3); lineage diagram drafted; inversion table drafted | Source list, lineage, draft "What This Changes" |
+| **T2** | **Structure Gate** | Full two-zone structural draft complete (§4 template); CARDS integration mapped (§6.1); ≥1 additional integration; core constructs specified | Complete draft (both zones) |
 | **T3** | **Integrity Gate** | And-Yet section complete (§7); execution routines written; all cross-links verified; LHS calculated ≥ 0.70; indexes updated | Final entry + LHS scorecard |
 
 ### 8.2 Gate Validation
@@ -342,7 +361,7 @@ T1 Sign-off:
   ✓ Utility: [draft statement]
 
 T2 Sign-off:
-  ✓ Template compliance: [all required sections present]
+  ✓ Template compliance: [two-zone structure; all required sections present]
   ✓ CARDS integration: [bidirectional / forward-only]
   ✓ Cross-framework: [which frameworks, mapping quality]
   ✓ Depth check: [core constructs ≥ score 2]
@@ -397,12 +416,17 @@ After completing a lib entry:
 ### 9.3 Verification Checklist
 
 ```
-- [ ] YAML contract complete and well-formed
-- [ ] Attribution & Ownership section present with lineage
+- [ ] Two-zone structure: Subject Matter precedes Repository Integration
+- [ ] Tiny referral line present (status, host, contract link)
+- [ ] YAML contract in Appendix — complete and well-formed
+- [ ] Attribution & Ownership section present with lineage (no repo terminal nodes)
+- [ ] Core constructs free of inline CARDS/repository annotations
+- [ ] The And-Yet (Shadow) present — immediately after core constructs
 - [ ] All cross-references resolve (test each link)
+- [ ] What This Changes (inversion table) opens Repository Integration zone
+- [ ] Maintainer's Note present (Host ≠ Author) — in Repository Integration zone
 - [ ] Index tables updated
 - [ ] LHS scorecard computed and documented
-- [ ] Maintainer's note present (Host ≠ Author)
 - [ ] No claims without citation
 - [ ] Easter egg planted (optional but encouraged)
 ```
@@ -415,11 +439,11 @@ After completing a lib entry:
 
 SOLID demonstrates benchmark quality through:
 - **Lineage** tracing from Parnas (1972) through Meyer, Liskov, to Martin
-- **Threshold transposition** that doesn't just explain but recontextualizes
+- **Threshold transposition** that doesn't just explain but recontextualises
 - **Failure modes** for each principle (not just success conditions)
-- **Triple integration** — CARDS (§5), Salutogenesis (§4), Game Theory (§6)
+- **Triple integration** (Repository Integration zone) — CARDS, Salutogenesis, Game Theory
 - **Three execution routines** — Diagnostic, Design, Debugging
-- **The Shadow** (§7) — over-modularity, premature abstraction, ceremonial architecture
+- **The Shadow** — over-modularity, premature abstraction, ceremonial architecture
 - **Easter egg** — Uncle Bob's Cabin (rewards careful readers)
 
 ### 10.2 Growth Target: OOO (LHS: 0.53)

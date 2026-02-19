@@ -1,16 +1,6 @@
 # LIBRARY — CARDS (Je'anna L Clements)
 
-> **Contract:**
-> *Attribution metadata follows. The authorship lives in the prose below.*
-> ```yaml
-> title: "CARDS — Human Needs Construct"
-> author: "Je'anna L Clements"
-> host: "André S Clements (Reference Hosting Only)"
-> intent: "To provide a stable reference URL for the CARDS construct/game."
-> lineage: "Self-Determination Theory (Deci & Ryan, 1985) → CAR → CARDS (Clements)"
-> status: "Imported Library"
-> usage: "Diagnostic tool for needs-mapping, decision simulation, and understanding others."
-> ```
+> **Status:** Imported Library | **Host:** André S Clements | [Full contract →](#appendix-contract)
 
 ---
 
@@ -20,10 +10,7 @@
 
 It refines and expands the **CAR** triad (Competence, Autonomy, Relatedness) from **Self-Determination Theory** (SDT) by adding **Dignity** and **Safety** as explicit, non-negotiable human needs.
 
-**Je’anna’s rationale for the “D” and “S”:** Dignity and Safety are foundational needs that underpin **Human Rights**.
-
-
-> **Maintainer's Note:** This document is hosted in the `README` repository as a **reference node** to facilitate linking and usage within the network. It is not a claim of authorship. Je'anna L Clements is the author and intellectual owner of the CARDS framework.
+**Je'anna's rationale for the "D" and "S":** Dignity and Safety are foundational needs that underpin **Human Rights**.
 
 **Source Documents:**
 - `CARDSviaJLClements/The CARDS game simple overview.docx` — Data dictionary & state matrix (verbatim)
@@ -39,14 +26,12 @@ Self-Determination Theory (Deci & Ryan, 1985)
 
 ---
 
-## §1. The Utility (Why Import This?)
-
 CARDS is a lightweight, high-signal diagnostic tool used to:
 
 1. **Decode Feelings:** Treat emotions not as noise, but as precise signals about underlying **needs**.
 2. **Navigate Choice:** Simulate decisions by asking, "Does this move my CARDS toward Green or Red?"
-3. **Read the Room:** Interpret others' behavior as "need states" rather than character flaws.
-4. **Detect Manipulation:** Recognize when systems or people are playing with your CARDS.
+3. **Read the Room:** Interpret others' behaviour as "need states" rather than character flaws.
+4. **Detect Manipulation:** Recognise when systems or people are playing with your CARDS.
 
 It is designed to be executable by adults and children in real-time.
 
@@ -57,7 +42,7 @@ It is designed to be executable by adults and children in real-time.
 
 ---
 
-## §2. The 5 CARDS (The Primitives)
+## §1. The 5 CARDS (The Primitives)
 
 | Card | Need | Definition |
 |:----:|:-----|:-----------|
@@ -69,9 +54,9 @@ It is designed to be executable by adults and children in real-time.
 
 ---
 
-## §3. The State Colors (Status)
+## §2. The State Colours (Status)
 
-| Color | State | Meaning |
+| Colour | State | Meaning |
 |:-----:|:------|:--------|
 | 🟢 | **Green** | **Settled.** The need is met. "I am okay." |
 | 🟠 | **Orange** | **Warning.** The need is partly met or threatened. "I want this to be better." |
@@ -79,12 +64,12 @@ It is designed to be executable by adults and children in real-time.
 
 ---
 
-## §4. Execution: How to Play
+## §3. How to Play
 
 ### Routine A: Diagnostic (Understanding Myself)
 
 1. **Pause.**
-2. Assign a color (🟢🟠🔴) to each of your 5 CARDS right now.
+2. Assign a colour (🟢🟠🔴) to each of your 5 CARDS right now.
 3. **Query:** "Which CARDS are in **Red**? What do I need?"
 4. **Action:** "What can move more CARDS into **Green**?"
 
@@ -97,19 +82,19 @@ It is designed to be executable by adults and children in real-time.
 
 ### Routine C: Debugging (Understanding Others)
 
-1. Observe the behavior (distress, withdrawal, aggression, etc.).
+1. Observe the behaviour (distress, withdrawal, aggression, etc.).
 2. **Query:** "Which CARDS might be in **Red** for them right now?"
 3. **Intervention:** "What do they need? How can we help move that need toward **Green**?"
 
 ### Routine D: Helping Children
 
-1. Notice distress or difficult behavior.
+1. Notice distress or difficult behaviour.
 2. **Query:** "Which CARDS are in **Red** or **Orange**?"
 3. **Intervention:** "How can we help move them into **Green**?"
 
 ---
 
-## §5. Data Dictionary (The "Back of the Cards")
+## §4. Data Dictionary (The "Back of the Cards")
 
 ### Competence
 - "I can do it."
@@ -153,7 +138,7 @@ It is designed to be executable by adults and children in real-time.
 
 ---
 
-## §6. State Matrix (Examples by Color)
+## §5. State Matrix (Examples by Colour)
 
 ### 🟢 GREEN (Needs are met — I am okay)
 
@@ -187,13 +172,13 @@ It is designed to be executable by adults and children in real-time.
 
 ---
 
-## §7. Warning: Manipulation Detection
+## §6. Manipulation Detection
 
 **Axiom:** When systems or people want to control you, they manipulate your CARDS.
 
 ### The Pattern
 
-1. **Destabilize:** They make you feel afraid, angry, ashamed, or special. (CARDS move fast into 🔴 or artificially into 🟢)
+1. **Destabilise:** They make you feel afraid, angry, ashamed, or special. (CARDS move fast into 🔴 or artificially into 🟢)
 2. **Tunnel Vision:** They offer **one** specific solution: buy, join, believe, obey, click.
 3. **Urgency:** They push you to act quickly **without thinking** or checking your internal state.
 
@@ -211,20 +196,51 @@ It is designed to be executable by adults and children in real-time.
 
 ---
 
-## §8. Integration with SRII
+# Repository Integration
+
+## What This Changes
+
+CARDS inverts the conventional approach to understanding behaviour and making decisions:
+
+| Conventional View | CARDS View |
+|-------------------|------------|
+| Emotions are noise to manage | Emotions are precise signals about underlying needs |
+| Behaviour reveals character | Behaviour reveals need states |
+| Decision-making is rational analysis | Decisions can be simulated through needs-mapping |
+| Manipulation is hard to detect | Rapid CARDS velocity shifts signal manipulation |
+| Human needs are complex and abstract | Five cards. Three colours. Executable in real-time. |
+
+---
+
+## Maintainer's Note
+
+This document is hosted in the `README` repository as a **reference node** to facilitate linking and usage within the network. It is not a claim of authorship. Je'anna L Clements is the author and intellectual owner of the CARDS framework. Host ≠ Author.
+
+---
+
+## Integration with SRII
 
 In the [SRII Axiological Framework](../models/SRII_AXIOLOGICAL_FRAMEWORK.md), CARDS serves as the **primary metric for evaluating axiological health**:
 
 | SRII Application | CARDS Role |
 |------------------|------------|
 | **CI Collaboration** | Each CARD maps to a system obligation (competence scaffolding, autonomy preservation, etc.) |
-| **Dignity Assessment** | The D-axis (Dignity) is operationalized as respect, non-instrumentalization, and shame-freedom |
+| **Dignity Assessment** | The D-axis (Dignity) is operationalised as respect, non-instrumentalisation, and shame-freedom |
 | **Safety Evaluation** | The S-axis (Safety) extends beyond security to systemic and psychological resilience |
 | **Multi-partiality** | Relatedness (R) informs the commitment to holding multiple valid perspectives |
 
 **See also:**
 - [SRII_CARDS_CASES.md](../models/SRII_CARDS_CASES.md) — Detailed case law for each CARDS axis
 - [methodology__axiology_first_aesthetics_for_engagement_design.md](../methods/methodology__axiology_first_aesthetics_for_engagement_design.md) — CARDS + PCC octagon
+
+---
+
+## Why This Matters for the Repository
+
+1. **Axiological spine:** CARDS is the primary evaluative framework for the entire repository — every other library entry integrates with it
+2. **Accessibility:** Designed to be used by adults and children alike, CARDS makes abstract needs-theory concrete and executable
+3. **Manipulation literacy:** §6 provides a counter-protocol for detecting when systems or people destabilise your CARDS — directly relevant to the repository's ethical commitments
+4. **SDT extension:** By adding Dignity and Safety to the CAR triad, CARDS grounds Self-Determination Theory in Human Rights
 
 ---
 
@@ -237,3 +253,17 @@ In the [SRII Axiological Framework](../models/SRII_AXIOLOGICAL_FRAMEWORK.md), CA
 - **[SRII_AXIOLOGICAL_FRAMEWORK.md](../models/SRII_AXIOLOGICAL_FRAMEWORK.md)** — Integration of CARDS as axiological spine
 - **[SRII_CARDS_CASES.md](../models/SRII_CARDS_CASES.md)** — Case law and failure modes
 - **[DEPENDENCIES.md](../../DEPENDENCIES.md)** — Broader constellation of influences
+
+---
+
+## Appendix: Contract
+
+> ```yaml
+> title: "CARDS — Human Needs Construct"
+> author: "Je'anna L Clements"
+> host: "André S Clements (Reference Hosting Only)"
+> intent: "To provide a stable reference URL for the CARDS construct/game."
+> lineage: "Self-Determination Theory (Deci & Ryan, 1985) → CAR → CARDS (Clements)"
+> status: "Imported Library"
+> usage: "Diagnostic tool for needs-mapping, decision simulation, and understanding others."
+> ```

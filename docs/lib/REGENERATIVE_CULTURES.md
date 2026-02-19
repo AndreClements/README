@@ -1,15 +1,6 @@
 # LIBRARY — REGENERATIVE CULTURES (Daniel Christian Wahl)
 
-> **Contract:**
-> ```yaml
-> title: "REGENERATIVE CULTURES — Designing for Life"
-> author: "Daniel Christian Wahl (b. 1972)"
-> host: "André S Clements (Reference Hosting Only)"
-> intent: "To provide a stable reference for the Regenerative Cultures framework."
-> lineage: "Bateson → Capra → Living systems; Antonovsky → Salutogenesis → Salutogenic design; McHarg → Reed → Regeneration"
-> status: "Imported Library"
-> usage: "Scale-linking design; salutogenic design praxis; regenerative assessment; place-adapted culture design."
-> ```
+> **Status:** Imported Library | **Host:** André S Clements | [Full contract →](#appendix-contract)
 
 ---
 
@@ -18,8 +9,6 @@
 **Regenerative Cultures is a framework developed by Daniel Christian Wahl**, a German-born biologist, designer, and educator. Wahl holds a BSc in Biology (Edinburgh), an MSc in Holistic Science (Schumacher College / Plymouth), and a PhD in Natural Design (University of Dundee, supervised by Seaton Baxter). He is a Fellow of the Royal Society of Arts (FRSA), a recipient of the RSA Bicentenary Medal (2021), and has served as consultant to Gaia Education, the International Futures Forum, and Schumacher College.
 
 First synthesised in his doctoral work *Design for Human and Planetary Health* (2006) and elaborated in *Designing Regenerative Cultures* (Triarchy Press, 2016; 2nd ed. 2022), the framework integrates salutogenesis, living-systems thinking, and ecological design into a questions-based methodology for cultural transformation.
-
-> **Maintainer's Note:** This document is hosted in the `README` repository as a **reference node** to facilitate linking and usage within the network. It is not a claim of authorship. Daniel Christian Wahl is the intellectual author of the Regenerative Cultures framework.
 
 **Key Works:**
 - Wahl, D.C. (2016/2022). *Designing Regenerative Cultures*. Frome: Triarchy Press. ISBN 978-1-909470-77-4.
@@ -43,29 +32,7 @@ Wilber (AQAL) ──────────────────────
 
 ---
 
-## §1. The Utility (Why Import This?)
-
-Regenerative Cultures inverts the dominant sustainability question:
-
-| Sustainability Paradigm | Regenerative Paradigm |
-|--------------------------|------------------------|
-| "How do we do less damage?" | "How do we actively restore life?" |
-| Harm reduction | Health creation |
-| Net zero | Net positive |
-| Universal standards | Place-adapted cultures |
-| Prescriptive solutions | Questions-based inquiry |
-| Single-scale intervention | Scale-linking design |
-
-**Why this matters for the repository:**
-
-1. **Scale-linking bridge:** Extends the existing [Salutogenesis](SALUTOGENESIS.md) framework (individual health-creation) to planetary health-creation — from SOC to salutogenic design to regenerative cultures. The genealogical chain is direct, not analogical.
-2. **Salutogenic design:** Wahl & Baxter (2008) coined the term, creating a peer-reviewed articulation of how Antonovsky's principles translate into design practice across scales. This extends a lib entry we already host.
-3. **Living-systems bridge:** The framework's dependence on autopoiesis, Santiago Theory, and self-organisation prepares conceptual ground for the planned Autopoiesis lib entry.
-4. **Parametric alignment:** The questions-based methodology aligns with Parametric Authorship — the designer sets parameters (questions, principles); cultures self-author within constraints. The regenerative designer is not prescriber but facilitator.
-
----
-
-## §2. The Core Question
+## §1. The Core Question
 
 > *"How do we design cultures that are regenerative rather than degenerative — cultures that heal, restore, and create conditions conducive to life?"*
 
@@ -82,7 +49,7 @@ This reframes ecological design as **cultural design** — not technical problem
 
 ---
 
-## §3. Regenerative vs. Sustainable
+## §2. Regenerative vs. Sustainable
 
 The central conceptual move is a spectrum, not a binary:
 
@@ -109,7 +76,7 @@ Following Reed (2007), these levels are **nested**, not sequential — regenerat
 
 ---
 
-## §4. Salutogenic Design
+## §3. Salutogenic Design
 
 The concept of **salutogenic design** was coined by Wahl & Baxter (2008) in *Design Issues* (MIT Press), directly extending Antonovsky's salutogenesis into design practice.
 
@@ -145,7 +112,7 @@ Wahl reframes the designer's role: not as the author of solutions but as the **f
 
 ---
 
-## §5. Scale-Linking Design
+## §4. Scale-Linking Design
 
 Design interventions must connect across scales. No single scale suffices.
 
@@ -179,7 +146,7 @@ even if locally sustainable.
 
 ---
 
-## §6. Biocultural Uniqueness of Place
+## §5. Biocultural Uniqueness of Place
 
 Regenerative cultures are necessarily **plural**. There is no universal blueprint for a regenerative culture — each must emerge from the specific ecological, social, cultural, and historical conditions of its place.
 
@@ -196,13 +163,9 @@ Wahl draws on the concept of **bioregionalism** — the recognition that human c
 
 **Key insight:** This opposes the universalising tendency of both industrial capitalism and certain strands of sustainability science. The questions remain universal ("How do we create conditions conducive to life?"); the answers are necessarily local.
 
-### Connection to Landscapification
-
-The biocultural uniqueness of place connects directly to the repository's concept of Landscapification — environment as continuous territory rather than discrete objects; identity as emerging from place-based relationships rather than imposed categories.
-
 ---
 
-## §7. Appropriate Participation
+## §6. Appropriate Participation
 
 Rather than controlling nature, design should enable humans to **participate** in natural processes.
 
@@ -231,7 +194,113 @@ Regenerative design works *with* these processes rather than against them. The d
 
 ---
 
-## §8. Integration with CARDS
+## §7. The And-Yet (Shadow)
+
+### 7.1 Not Yet a Full Paradigm Shift
+
+Taveras-Dalmau et al. (2025), in the most rigorous external assessment of the regenerative field (*Ambio*, Springer; 320 articles reviewed), found that regeneration meets *several but not all* criteria for a paradigm shift. It functions as a "potentially displacing paradigm" with significant gaps — particularly in connection to power, governance, and structural societal change. The regenerative paradigm is promising but incomplete.
+
+### 7.2 The Inner-World Bias
+
+The same review found that the first core principle ("inner world") appears in 86% of the regenerative literature. The field emphasises consciousness, worldview, and belief transformation while under-developing verifiable, structural system change. This is a manifestation of "paradigm blindness" within the regenerative paradigm itself — a tendency to mistake changed perception for changed conditions.
+
+### 7.3 Corporate Co-option
+
+"Regenerative" is being rapidly adopted by corporate actors — particularly in agriculture and fashion — without corresponding practice change. Without legal or regulatory definition, the term has no verification mechanism. This risks reducing "regenerative" to the fate of "sustainable" — a marketing term hollowed of meaning through promiscuous application.
+
+### 7.4 Western-Centric Framing
+
+Despite drawing on principles that resonate across cultures (reciprocity, place-adaptation, living-systems thinking), the framework's intellectual lineage is overwhelmingly Western European: Bateson, Capra, Maturana & Varela, Antonovsky, Wilber. Indigenous and non-Western knowledge systems that have practised regenerative principles for millennia are acknowledged but not centred.
+
+### 7.5 Depoliticisation Risk
+
+The focus on "crisis of perception" and "worldview transformation" can inadvertently depoliticise structural power asymmetries. If the root cause of ecological crisis is framed as epistemological (we see wrongly) rather than political-economic (power is distributed unjustly), then the prescribed response — changed perception — may leave extractive structures intact. Seeing clearly is necessary but not sufficient when the problem is also about who controls what.
+
+### 7.6 The Gentrification Shadow
+
+In urban contexts, particularly in the UK and US, "regeneration" has a specific and painful history as a euphemism for gentrification — the displacement of existing communities in the name of improvement. Wahl's usage is ecologically grounded and distinct from this urban-planning usage, but the terminological overlap is not innocent. Users of the framework should be aware of this shadow.
+
+### 7.7 The Self-Referential Test
+
+> *"If the regenerative framework were applied to itself, where would it fail?"*
+
+A framework that advocates place-adapted, diverse, emergent responses — but is itself articulated as a single book by a single author from a particular cultural position — risks becoming the universal prescription it critiques. The questions-based methodology mitigates this (it opens rather than closes), but the framework's own institutional expression (conferences, certifications, consultancies) tends toward the standardisation it opposes. Regenerative thinking must regenerate itself — or it becomes sustainable-thinking-with-better-branding.
+
+---
+
+## §8. Verification & Primary Sources
+
+### Source Verification Status
+
+| Source | Tier | Verified | DOI / ISBN |
+|--------|------|----------|------------|
+| Wahl (2016/2022). *Designing Regenerative Cultures*. Triarchy Press. | **Silver** | ✓ | ISBN 978-1-909470-77-4 |
+| Wahl & Baxter (2008). "The Designer's Role…" *Design Issues*, MIT Press. | **Gold** | ✓ | 10.1162/desi.2008.24.2.72 |
+| Wahl (2007). "Scale-linking Design…" *Int. J. Ecodynamics*. | **Gold** | ✓ | 10.2495/ECO-V2-N1-57-72 |
+| Reed (2007). "Shifting from 'Sustainability' to Regeneration." *BRI*. | **Gold** | ✓ | 10.1080/09613210701475753 |
+| Taveras-Dalmau et al. (2025). "From Paradigm Blindness…" *Ambio*. | **Gold** | ✓ | 10.1007/s13280-025-02232-7 |
+| du Plessis (2012). "Towards a Regenerative Paradigm." *BRI*. | **Gold** | ✓ | 10.1080/09613218.2012.628548 |
+
+### Key Claims Verified
+
+| Claim | Source | Status |
+|-------|--------|--------|
+| Wahl coined "salutogenic design" (with Baxter) | Wahl & Baxter (2008), *Design Issues* | ✓ Verified |
+| Scale-linking design requires panarchy model | Wahl (2007), *Int. J. Ecodynamics* | ✓ Verified |
+| Reed's sustainability → regeneration trajectory | Reed (2007), *BRI* | ✓ Verified |
+| 86% of regen literature emphasises "inner world" | Taveras-Dalmau et al. (2025), *Ambio* | ✓ Verified |
+| RSA Bicentenary Medal (2021) | RSA records | ✓ Verified |
+
+### Recent Academic Activity
+
+The regenerative field shows active growth:
+- Taveras-Dalmau et al. (2025): systematic review of 320 articles in *Ambio*
+- Yunibandhu & Hallinger (2025): bibliometric analysis in *Sustainable Development* (Wiley)
+- Wahl's 2nd edition (2022) updated and revised with additional material
+
+---
+
+## Sources
+
+- Wahl, D.C. (2016/2022). *Designing Regenerative Cultures*. Frome: Triarchy Press.
+- Wahl, D.C. & Baxter, S. (2008). "The Designer's Role in Facilitating Sustainable Solutions." *Design Issues*, 24(2), 72–83.
+- Wahl, D.C. (2007). "Scale-linking Design for Systemic Health." *Int. J. Ecodynamics*, 2(1), 57–72.
+- Reed, B. (2007). "Shifting from 'Sustainability' to Regeneration." *Building Research & Information*, 35(6), 674–680.
+- Taveras-Dalmau, C., Becken, S. & Westoby, R. (2025). "From Paradigm Blindness to Paradigm Shift?" *Ambio* (Springer).
+- du Plessis, C. (2012). "Towards a Regenerative Paradigm for the Built Environment." *Building Research & Information*, 40(1), 7–22.
+- Antonovsky, A. (1987). *Unraveling the Mystery of Health*. San Francisco: Jossey-Bass.
+- Maturana, H.R. & Varela, F.J. (1980). *Autopoiesis and Cognition*. Dordrecht: D. Reidel.
+
+---
+
+# Repository Integration
+
+---
+
+## What This Changes
+
+Regenerative Cultures inverts the dominant sustainability question:
+
+| Sustainability Paradigm | Regenerative Paradigm |
+|--------------------------|------------------------|
+| "How do we do less damage?" | "How do we actively restore life?" |
+| Harm reduction | Health creation |
+| Net zero | Net positive |
+| Universal standards | Place-adapted cultures |
+| Prescriptive solutions | Questions-based inquiry |
+| Single-scale intervention | Scale-linking design |
+
+---
+
+## Maintainer's Note
+
+This document is hosted in the `README` repository as a **reference node** to facilitate linking and usage within the network. It is not a claim of authorship. Daniel Christian Wahl is the intellectual author of the Regenerative Cultures framework.
+
+**Host ≠ Author.**
+
+---
+
+## Integration with [CARDS](CARDS.md)
 
 The CARDS framework ([Je'anna L Clements](CARDS.md)) maps to Regenerative Cultures:
 
@@ -271,7 +340,7 @@ CARDS provides the individual-scale diagnostic that Wahl's framework lacks. Wahl
 
 ---
 
-## §9. Integration with Salutogenesis
+## Integration with Salutogenesis
 
 The connection between Regenerative Cultures and [Salutogenesis](SALUTOGENESIS.md) is **genealogical**, not analogical. Wahl directly extends Antonovsky.
 
@@ -304,7 +373,7 @@ Wahl extends Antonovsky's empirically grounded framework (SOC has been validated
 
 ---
 
-## §10. Execution Routines
+## Execution Routines
 
 ### Routine A: Regenerative Assessment (Diagnostic)
 
@@ -335,69 +404,9 @@ Test an intervention across nested scales:
 
 ---
 
-## §11. The And-Yet (Shadow)
+## Connection to Landscapification
 
-### 11.1 Not Yet a Full Paradigm Shift
-
-Taveras-Dalmau et al. (2025), in the most rigorous external assessment of the regenerative field (*Ambio*, Springer; 320 articles reviewed), found that regeneration meets *several but not all* criteria for a paradigm shift. It functions as a "potentially displacing paradigm" with significant gaps — particularly in connection to power, governance, and structural societal change. The regenerative paradigm is promising but incomplete.
-
-### 11.2 The Inner-World Bias
-
-The same review found that the first core principle ("inner world") appears in 86% of the regenerative literature. The field emphasises consciousness, worldview, and belief transformation while under-developing verifiable, structural system change. This is a manifestation of "paradigm blindness" within the regenerative paradigm itself — a tendency to mistake changed perception for changed conditions.
-
-### 11.3 Corporate Co-option
-
-"Regenerative" is being rapidly adopted by corporate actors — particularly in agriculture and fashion — without corresponding practice change. Without legal or regulatory definition, the term has no verification mechanism. This risks reducing "regenerative" to the fate of "sustainable" — a marketing term hollowed of meaning through promiscuous application.
-
-### 11.4 Western-Centric Framing
-
-Despite drawing on principles that resonate across cultures (reciprocity, place-adaptation, living-systems thinking), the framework's intellectual lineage is overwhelmingly Western European: Bateson, Capra, Maturana & Varela, Antonovsky, Wilber. Indigenous and non-Western knowledge systems that have practised regenerative principles for millennia are acknowledged but not centred.
-
-### 11.5 Depoliticisation Risk
-
-The focus on "crisis of perception" and "worldview transformation" can inadvertently depoliticise structural power asymmetries. If the root cause of ecological crisis is framed as epistemological (we see wrongly) rather than political-economic (power is distributed unjustly), then the prescribed response — changed perception — may leave extractive structures intact. Seeing clearly is necessary but not sufficient when the problem is also about who controls what.
-
-### 11.6 The Gentrification Shadow
-
-In urban contexts, particularly in the UK and US, "regeneration" has a specific and painful history as a euphemism for gentrification — the displacement of existing communities in the name of improvement. Wahl's usage is ecologically grounded and distinct from this urban-planning usage, but the terminological overlap is not innocent. Users of the framework should be aware of this shadow.
-
-### 11.7 The Self-Referential Test
-
-> *"If the regenerative framework were applied to itself, where would it fail?"*
-
-A framework that advocates place-adapted, diverse, emergent responses — but is itself articulated as a single book by a single author from a particular cultural position — risks becoming the universal prescription it critiques. The questions-based methodology mitigates this (it opens rather than closes), but the framework's own institutional expression (conferences, certifications, consultancies) tends toward the standardisation it opposes. Regenerative thinking must regenerate itself — or it becomes sustainable-thinking-with-better-branding.
-
----
-
-## §12. Verification & Primary Sources
-
-### Source Verification Status
-
-| Source | Tier | Verified | DOI / ISBN |
-|--------|------|----------|------------|
-| Wahl (2016/2022). *Designing Regenerative Cultures*. Triarchy Press. | **Silver** | ✓ | ISBN 978-1-909470-77-4 |
-| Wahl & Baxter (2008). "The Designer's Role…" *Design Issues*, MIT Press. | **Gold** | ✓ | 10.1162/desi.2008.24.2.72 |
-| Wahl (2007). "Scale-linking Design…" *Int. J. Ecodynamics*. | **Gold** | ✓ | 10.2495/ECO-V2-N1-57-72 |
-| Reed (2007). "Shifting from 'Sustainability' to Regeneration." *BRI*. | **Gold** | ✓ | 10.1080/09613210701475753 |
-| Taveras-Dalmau et al. (2025). "From Paradigm Blindness…" *Ambio*. | **Gold** | ✓ | 10.1007/s13280-025-02232-7 |
-| du Plessis (2012). "Towards a Regenerative Paradigm." *BRI*. | **Gold** | ✓ | 10.1080/09613218.2012.628548 |
-
-### Key Claims Verified
-
-| Claim | Source | Status |
-|-------|--------|--------|
-| Wahl coined "salutogenic design" (with Baxter) | Wahl & Baxter (2008), *Design Issues* | ✓ Verified |
-| Scale-linking design requires panarchy model | Wahl (2007), *Int. J. Ecodynamics* | ✓ Verified |
-| Reed's sustainability → regeneration trajectory | Reed (2007), *BRI* | ✓ Verified |
-| 86% of regen literature emphasises "inner world" | Taveras-Dalmau et al. (2025), *Ambio* | ✓ Verified |
-| RSA Bicentenary Medal (2021) | RSA records | ✓ Verified |
-
-### Recent Academic Activity
-
-The regenerative field shows active growth:
-- Taveras-Dalmau et al. (2025): systematic review of 320 articles in *Ambio*
-- Yunibandhu & Hallinger (2025): bibliometric analysis in *Sustainable Development* (Wiley)
-- Wahl's 2nd edition (2022) updated and revised with additional material
+The biocultural uniqueness of place connects directly to the repository's concept of Landscapification — environment as continuous territory rather than discrete objects; identity as emerging from place-based relationships rather than imposed categories.
 
 ---
 
@@ -426,6 +435,15 @@ The regenerative field shows active growth:
 
 ---
 
+## Why This Matters for the Repository
+
+1. **Scale-linking bridge:** Extends the existing [Salutogenesis](SALUTOGENESIS.md) framework (individual health-creation) to planetary health-creation — from SOC to salutogenic design to regenerative cultures. The genealogical chain is direct, not analogical.
+2. **Salutogenic design:** Wahl & Baxter (2008) coined the term, creating a peer-reviewed articulation of how Antonovsky's principles translate into design practice across scales. This extends a lib entry we already host.
+3. **Living-systems bridge:** The framework's dependence on autopoiesis, Santiago Theory, and self-organisation prepares conceptual ground for the planned Autopoiesis lib entry.
+4. **Parametric alignment:** The questions-based methodology aligns with Parametric Authorship — the designer sets parameters (questions, principles); cultures self-author within constraints. The regenerative designer is not prescriber but facilitator.
+
+---
+
 ## Cross-links
 
 - **[Library Index](README.md)** — Registry of imported constructs
@@ -438,13 +456,14 @@ The regenerative field shows active growth:
 
 ---
 
-## Sources
+## Appendix: Contract
 
-- Wahl, D.C. (2016/2022). *Designing Regenerative Cultures*. Frome: Triarchy Press.
-- Wahl, D.C. & Baxter, S. (2008). "The Designer's Role in Facilitating Sustainable Solutions." *Design Issues*, 24(2), 72–83.
-- Wahl, D.C. (2007). "Scale-linking Design for Systemic Health." *Int. J. Ecodynamics*, 2(1), 57–72.
-- Reed, B. (2007). "Shifting from 'Sustainability' to Regeneration." *Building Research & Information*, 35(6), 674–680.
-- Taveras-Dalmau, C., Becken, S. & Westoby, R. (2025). "From Paradigm Blindness to Paradigm Shift?" *Ambio* (Springer).
-- du Plessis, C. (2012). "Towards a Regenerative Paradigm for the Built Environment." *Building Research & Information*, 40(1), 7–22.
-- Antonovsky, A. (1987). *Unraveling the Mystery of Health*. San Francisco: Jossey-Bass.
-- Maturana, H.R. & Varela, F.J. (1980). *Autopoiesis and Cognition*. Dordrecht: D. Reidel.
+> ```yaml
+> title: "REGENERATIVE CULTURES — Designing for Life"
+> author: "Daniel Christian Wahl (b. 1972)"
+> host: "André S Clements (Reference Hosting Only)"
+> intent: "To provide a stable reference for the Regenerative Cultures framework."
+> lineage: "Bateson → Capra → Living systems; Antonovsky → Salutogenesis → Salutogenic design; McHarg → Reed → Regeneration"
+> status: "Imported Library"
+> usage: "Scale-linking design; salutogenic design praxis; regenerative assessment; place-adapted culture design."
+> ```

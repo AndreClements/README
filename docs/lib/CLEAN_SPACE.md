@@ -1,16 +1,6 @@
 # LIBRARY — CLEAN SPACE (David Grove)
 
-> **Contract:**
-> ```yaml
-> title: "Clean Space — Spatial Facilitation through Emergence"
-> author: "David Grove (1950-2008)"
-> host: "André S Clements (Reference Hosting Only)"
-> intent: "To provide a stable reference for Clean Space as a spatial facilitation methodology that externalises internal models through embodied movement and network emergence."
-> lineage: "Clean Language (Grove, 1980s) → Symbolic Modelling (Lawley & Tompkins, 2000) → Clean Space (Grove, 2000s) → Systemic Modelling (Walker, 2014)"
-> status: "Imported Library"
-> usage: "2nd-order facilitation; technical presentation coaching; solution externalisation; multi-party spatial hosting."
-> version: "0.0.1"
-> ```
+> **Status:** Imported Library | **Host:** André S Clements | [Full contract →](#appendix-contract)
 
 ---
 
@@ -21,8 +11,6 @@
 Grove created Clean Space as the natural evolution of his earlier Clean Language work. Where Clean Language explores a client's inner world through verbal metaphor, Clean Space moves the exploration into physical room-space. The client literally walks to positions in a room, stands in them, and reports what they know "from here." Each space becomes a node in a network; once enough nodes exist and relationships between them are established, emergent properties appear — new understanding that could not have been predicted from the individual components.
 
 The methodology was first documented by **James Lawley and Penny Tompkins** (2003), who also formalised the broader **Symbolic Modelling** process (2000) that contextualises both Clean Language and Clean Space within a coherent facilitation framework. **Caitlin Walker** (PhD) later extended the family of approaches into **Systemic Modelling** for groups and organisations.
-
-> **Maintainer's Note:** This document hosts Clean Space for repository integration. David Grove is the intellectual author. Lawley and Tompkins are the primary documenters. Walker is the primary group-context adapter. Host ≠ Author.
 
 **Key Works:**
 - Lawley, J. & Tompkins, P. 2003/2009. "Clean Space: Modeling Human Perception through Emergence." ResearchGate / cleanlanguage.com.
@@ -46,38 +34,9 @@ Clean Language (Grove, 1980s)
 
 ---
 
-## §1. The Utility (Why Import This?)
+## §1. The Core Constructs
 
-Clean Space inverts the conventional facilitation stance for knowledge externalisation:
-
-| Conventional Facilitation | Clean Space Facilitation |
-|---------------------------|--------------------------|
-| Facilitator structures the output | Client discovers their own structure |
-| Requires domain expertise to guide | Requires process expertise only |
-| Thinking happens seated, at a whiteboard | Thinking happens through physical movement |
-| "Draw your architecture" (assumes visual thinking) | "Find a space that knows something" (kinesthetic, spatial) |
-| Facilitator interprets and organises | Facilitator asks; client organises |
-| Linear: input → process → output | Emergent: populate spaces → network effects → insight |
-
-### Why this matters for the repository:
-
-1. **2nd-order facilitation:** Clean Space is a tool for people who help other people think. The facilitator does not need to understand the client's domain — they provide process, not content. This is the operational definition of sovereignty-preserving facilitation.
-
-2. **Non-visual externalisation:** Technical professionals who cannot "just draw it" can walk it instead. Clean Space works through kinesthetic and spatial channels. You do not need to be a visual thinker to populate a room with your knowledge and then see what emerges from the arrangement.
-
-3. **CARDS alignment:** Preserves all five CARDS — the client directs movement (Autonomy), determines content (Competence), has their spatial logic respected (Dignity), works at their own pace (Safety), and is genuinely met by an attentive facilitator (Relatedness).
-
-4. **Emergence over prescription:** Clean Space does not impose a template. It trusts that once enough of a person's thinking is externalised and spatially arranged, the relationships between parts will surface on their own. This aligns with the repository's commitment to non-prescriptive methodology.
-
-5. **Complement to Clean Language:** The existing [CLEAN_LANGUAGE.md](CLEAN_LANGUAGE.md) entry covers the verbal inquiry tool. Clean Space extends that tool into embodied space — the same "Clean" principles (minimal facilitator projection, client's own words, no interpretation) applied through a different medium.
-
-> *Grove's foundational insight: "People store information in space."*
-
----
-
-## §2. The Core Constructs
-
-### 2.1 Psychoactive Space
+### 1.1 Psychoactive Space
 
 The central theoretical claim of Clean Space:
 
@@ -87,7 +46,7 @@ When a client stands in a particular spot and places a note representing an aspe
 
 This is not metaphorical. The claim is phenomenological: people literally know different things from different physical positions. A change in location produces a change in perspective — not as an analogy, but as a direct cognitive effect.
 
-### 2.2 The Clean Space Toolkit
+### 1.2 The Clean Space Toolkit
 
 Clean Space uses a deliberately minimal toolkit — far smaller than Clean Language's question set:
 
@@ -113,7 +72,7 @@ Clean Space uses a deliberately minimal toolkit — far smaller than Clean Langu
 
 The "(And)" prefix convention from Clean Language applies here too — it signals continuity, not interruption.
 
-### 2.3 The Process
+### 1.3 The Process
 
 A Clean Space session unfolds roughly as follows (though no two sessions follow the same path):
 
@@ -154,7 +113,7 @@ A Clean Space session unfolds roughly as follows (though no two sessions follow 
 
 **Key principle:** The facilitator does not decide how many spaces exist, where they go, what order they are visited, or what the relationships mean. All of this is client-determined during the process.
 
-### 2.4 The Six Set-Ups
+### 1.4 The Six Set-Ups
 
 Lawley and Tompkins describe Clean Space not as a linear sequence but as six interacting "set-ups" — each designed to contribute to the conditions for creative emergence:
 
@@ -169,7 +128,7 @@ Lawley and Tompkins describe Clean Space not as a linear sequence but as six int
 
 The set-ups are not phases. They interact throughout. The facilitator's task is to notice which set-up the client is currently in and support the conditions for the next natural movement.
 
-### 2.5 Network Effects and Emergence
+### 1.5 Network Effects and Emergence
 
 Grove drew heavily on complexity theory. His insight: a network of spaces behaves like a complex adaptive system. Emergence happens when:
 
@@ -181,7 +140,7 @@ At this threshold, the network produces **emergent properties** — features and
 
 The facilitator's job is to create the conditions for emergence. Not to cause it. Not to interpret it. To create the conditions and wait.
 
-### 2.6 Symbolic Modelling: The Process Frame
+### 1.6 Symbolic Modelling: The Process Frame
 
 **Symbolic Modelling** (Lawley & Tompkins, 2000) is the broader facilitation process that contextualises both Clean Language and Clean Space. It combines three elements:
 
@@ -203,11 +162,11 @@ The Symbolic Modelling process follows five stages:
 
 ---
 
-## §3. The 2nd-Order Utility: Technical Professionals and Non-Visual Thinkers
+## §2. The 2nd-Order Utility: Technical Professionals and Non-Visual Thinkers
 
 This section addresses the specific use case that motivated this entry's creation.
 
-### 3.1 The Problem
+### 2.1 The Problem
 
 Technical professionals — engineers, developers, architects, analysts — often carry rich, complex internal models of systems, solutions, and problems. When asked to *present* those models externally (to a team, a stakeholder, an audience), they face a translation gap:
 
@@ -221,7 +180,7 @@ Conventional advice: "Draw it on a whiteboard." "Sketch the architecture." "Make
 
 This assumes visual thinking. Many technical professionals do not think visually. They think in abstractions, logical relationships, code structures, system dynamics. Telling them to "draw it" is like telling a musician to "paint it" — wrong medium for the mind.
 
-### 3.2 How Clean Space Bridges the Gap
+### 2.2 How Clean Space Bridges the Gap
 
 Clean Space provides an externalisation process that does **not** require visual thinking:
 
@@ -239,7 +198,7 @@ The externalisation happens through **kinesthetic and proprioceptive channels**:
 
 The spatial layout that results IS the structural representation. There is no separate "now translate this into a visual" step. The person has built it by walking it.
 
-### 3.3 The 2nd-Order Frame
+### 2.3 The 2nd-Order Frame
 
 | Order | What the facilitator does | What the client experiences |
 |-------|---------------------------|----------------------------|
@@ -254,7 +213,7 @@ Clean Space is a 2nd-order tool because:
 
 This is sovereignty-preserving presentation coaching. The technical expert remains the expert. The facilitator provides the conditions for the expert's own knowledge to self-organise into communicable form.
 
-### 3.4 What Emerges
+### 2.4 What Emerges
 
 After a Clean Space session focused on presentation preparation, the client typically has:
 
@@ -266,11 +225,126 @@ After a Clean Space session focused on presentation preparation, the client typi
 
 ---
 
-## §4. Integration with CARDS
+## §3. The And-Yet (Shadow)
+
+Clean Space, over-applied or misapplied, can harm:
+
+### 3.1 Over-Application Risks
+
+- **Process fetishism:** Clean Space's minimal toolkit can become a cage. If a client says "I just need to talk this through," forcing them to walk around a room is not Clean — it is imposing your preferred modality.
+- **Spatial privilege:** The process requires a room with space to move. It is physically inaccessible to people with certain mobility limitations unless adapted (tabletop versions exist but change the embodied character).
+- **Facilitation skill gap:** Clean Space looks deceptively simple (six questions!). In practice, knowing *when* to ask which question, when to wait, and when to invite movement requires significant training and experience. The simplicity of the toolkit amplifies the cost of poor deployment.
+
+### 3.2 Known Limitations
+
+- **Empirical evidence:** Peer-reviewed research on Clean Space specifically (as distinct from Clean Language) is sparse. The primary documentation is practitioner literature (Lawley & Tompkins papers) rather than controlled studies. The methodology's claims about emergence and network effects are theoretically grounded but experimentally under-tested.
+- **Cultural assumptions:** The process assumes a Western-individualist comfort with physical movement in a facilitated setting. In some cultural contexts, being asked to walk around a room and stand in emotionally significant positions may violate norms of bodily restraint or interpersonal distance.
+- **Training pipeline:** There are relatively few accredited Clean Space trainers worldwide. Quality control depends on a small community of practice.
+- **Documentation gap:** David Grove died in 2008 before fully documenting Clean Space's theoretical foundations. What we have is Lawley and Tompkins' modelling of Grove's practice, not Grove's own systematic account.
+
+### 3.3 The 2nd-Order Shadow
+
+The SkillsClinic framing — Clean Space as a tool for helping technical people present — carries its own risks:
+
+- **Overselling emergence:** Not every presentation structure needs to be "discovered." Sometimes the client already knows their structure and just needs help refining it. Clean Space is for when the structure is genuinely unclear, not for when the client needs editing.
+- **Process as avoidance:** A technical person who is anxious about presenting may find the spatial exploration process comforting precisely because it postpones the moment of actually speaking to an audience. The facilitator must know when to stop facilitating and start rehearsing.
+- **Sovereignty theatre:** If the facilitator already knows what presentation structure would work and uses Clean Space to guide the client to "discover" it, that is manipulation, not facilitation. The questions must be genuinely clean — asked to discover, not to lead.
+
+### 3.4 The Meta-Question
+
+> *When does "finding another space" become a way of avoiding standing still?*
+
+Clean Space prizes movement and exploration. But sometimes the most important thing is to stay where you are and feel what is there. The toolkit's bias toward finding new spaces can become a flight from depth — breadth as a defence against staying with difficulty.
+
+**Mitigation:** The question "And what do you know... from here?" applies at every space, including the uncomfortable ones. The facilitator's job is to hold the pause, not fill it with movement.
+
+---
+
+## §4. Verification & Primary Sources
+
+### Source Verification
+
+| Source | Tier | Verification |
+|--------|------|--------------|
+| Lawley & Tompkins 2003/2009, "Clean Space" paper | Silver | Published on ResearchGate; primary methodology documentation |
+| Lawley & Tompkins 2000, *Metaphors in Mind* | Silver | Published book; Developing Company Press; ISBN 0953875105 |
+| Lawley & Tompkins 2011, "Symbolic Modelling" chapter | Silver | Published chapter; available on Academia.edu |
+| Tosey, Lawley & Meese 2014 | Gold | Peer-reviewed; *British Journal of Management*, 25(3): 629–646 |
+| Walker 2014, *From Contempt to Curiosity* | Silver | Published book; ISBN 9780957486614 |
+| Grove 1996, *Analecta Husserliana* | Gold | Peer-reviewed; Kluwer Academic; Vol. 48, pp. 271–297 |
+| Sullivan & Rees 2008 | Silver | Published book; Crown House Publishing; multi-language translations |
+
+### Key Claims Verified
+
+| Claim | Source | Verified |
+|-------|--------|----------|
+| Grove developed Clean Space in the early 2000s | Lawley & Tompkins (2003/2009) | ✅ |
+| Clean Space uses 6 questions + 4 directing statements | Lawley & Tompkins (Clean Space paper) | ✅ |
+| Symbolic Modelling formalised by Lawley & Tompkins (2000) | Lawley & Tompkins 2000 | ✅ |
+| Network effects produce emergent properties | Lawley & Tompkins (Clean Space paper); complexity theory | ✅ (theoretical) |
+| Clean approaches adopted in Agile coaching | InfoQ; Rees & Lewitz; Neis | ✅ |
+| Grove died January 2008 | Multiple obituaries | ✅ |
+
+### Scientific Status
+
+| Dimension | Assessment |
+|-----------|-----------|
+| Clinical/practitioner consensus | Strong acceptance in coaching and facilitation communities |
+| Peer-reviewed research (Clean Language) | Growing — Tosey et al. 2014 in *British Journal of Management*; healthcare studies |
+| Peer-reviewed research (Clean Space specifically) | Sparse — primarily practitioner literature |
+| Validated measurements | Limited |
+| Training infrastructure | Small but established; Clean Learning, Training Attention |
+
+---
+
+## References
+
+Grove, D.J. 1996. "Clean Language: A Linguistic-Experiential Phenomenology." *Analecta Husserliana*, 48: 271–297. Kluwer Academic.
+
+Lawley, J. & Tompkins, P. 2000. *Metaphors in mind: transformation through symbolic modelling*. London: Developing Company Press.
+
+Lawley, J. & Tompkins, P. 2003/2009. "Clean Space: Modeling Human Perception through Emergence." Available at ResearchGate and cleanlanguage.com.
+
+Lawley, J. & Tompkins, P. 2011. "Symbolic Modelling: Emergent Change through Metaphor and Clean Language." Chapter in edited academic volume. Available at Academia.edu and cleanlanguage.com.
+
+Sullivan, W. & Rees, J. 2008. *Clean language: revealing metaphors and opening minds*. Carmarthen: Crown House Publishing.
+
+Tosey, P., Lawley, J. & Meese, R. 2014. Eliciting metaphor through Clean Language: an innovation in qualitative research. *British Journal of Management*, 25(3): 629–646.
+
+Walker, C. 2014. *From contempt to curiosity: creating the conditions for groups to collaborate using Clean Language and Systemic Modelling*. Hampshire: Clean Publishing.
+
+---
+
+# Repository Integration
+
+## What This Changes
+
+Clean Space inverts the conventional facilitation stance for knowledge externalisation:
+
+| Conventional Facilitation | Clean Space Facilitation |
+|---------------------------|--------------------------|
+| Facilitator structures the output | Client discovers their own structure |
+| Requires domain expertise to guide | Requires process expertise only |
+| Thinking happens seated, at a whiteboard | Thinking happens through physical movement |
+| "Draw your architecture" (assumes visual thinking) | "Find a space that knows something" (kinesthetic, spatial) |
+| Facilitator interprets and organises | Facilitator asks; client organises |
+| Linear: input → process → output | Emergent: populate spaces → network effects → insight |
+
+> *Grove's foundational insight: "People store information in space."*
+
+---
+
+## Maintainer's Note
+
+This document hosts Clean Space for repository integration. David Grove is the intellectual author. Lawley and Tompkins are the primary documenters. Walker is the primary group-context adapter. Host ≠ Author.
+
+---
+
+## Integration with [CARDS](CARDS.md)
 
 Clean Space preserves all five [CARDS](CARDS.md):
 
-### 4.1 CARDS Preservation
+### CARDS Preservation
 
 | CARD | How Clean Space Preserves It |
 |------|------------------------------|
@@ -280,7 +354,7 @@ Clean Space preserves all five [CARDS](CARDS.md):
 | **D** (Dignity) | Client's spatial arrangement is respected as meaningful. If they place "the database" in the corner and "the user" by the window, that arrangement is honoured, not corrected. |
 | **S** (Safety) | Physical movement provides embodied self-regulation. The spatial distance from the written topic provides working distance. Non-verbal channels are available. Client controls pace. |
 
-### 4.2 Diagnostic Use
+### Diagnostic Use
 
 ```
 If CARDS degradation detected during Clean Space facilitation:
@@ -293,15 +367,15 @@ If CARDS degradation detected during Clean Space facilitation:
 Intervention = return to toolkit: "And what do you know... from here?"
 ```
 
-### 4.3 The Added Safety of Embodiment
+### The Added Safety of Embodiment
 
 Clean Space offers a CARDS advantage over purely verbal methods: the physical channel provides **embodied self-regulation**. A client who feels overwhelmed can literally step away from a space. A client who needs grounding can feel their feet on the floor. The body participates in safety management in ways that seated verbal exploration cannot access.
 
 ---
 
-## §5. Cross-Framework Integration
+## Cross-Framework Integration
 
-### 5.1 Clean Language (Sibling)
+### Clean Language (Sibling)
 
 | Dimension | Clean Language | Clean Space |
 |-----------|---------------|-------------|
@@ -313,7 +387,7 @@ Clean Space offers a CARDS advantage over purely verbal methods: the physical ch
 
 **Integration:** Clean Language questions can be used *within* Clean Space sessions. When a client at a particular space offers a metaphor ("From here it feels like a wall"), the facilitator can develop it with Clean Language ("And what kind of wall?") before moving to the next space. The two methodologies nest cleanly.
 
-### 5.2 Multi-Partiality
+### Multi-Partiality
 
 Clean Space with groups enacts [multi-partiality](MULTI_PARTIALITY.md) spatially:
 
@@ -328,7 +402,7 @@ This IS multi-partial hosting — expressed through spatial arrangement
 rather than verbal acknowledgement.
 ```
 
-### 5.3 Object-Oriented Ontology
+### Object-Oriented Ontology
 
 Each space in Clean Space shares a structural property with [OOO](OOO.md)'s objects:
 
@@ -338,7 +412,7 @@ Each space in Clean Space shares a structural property with [OOO](OOO.md)'s obje
 
 Grove's "psychoactive space" resonates with Harman's "withdrawal": you cannot exhaust what a space knows by standing in it. You must view it from elsewhere to discover what it withholds.
 
-### 5.4 Salutogenesis
+### Salutogenesis
 
 Clean Space maps to [Antonovsky's SOC](SALUTOGENESIS.md) components:
 
@@ -348,7 +422,7 @@ Clean Space maps to [Antonovsky's SOC](SALUTOGENESIS.md) components:
 | **Manageability** | Physical movement = agency. The client can walk to any space, rearrange, add, or step away. The resources are literally in front of them. |
 | **Meaningfulness** | Emergent insight — the "aha" that appears when the network reaches critical mass — is experienced as deeply meaningful because the client built it themselves. |
 
-### 5.5 Regenerative Cultures
+### Regenerative Cultures
 
 Clean Space shares [Wahl's](REGENERATIVE_CULTURES.md) commitment to:
 - **Emergence over prescription** — creating conditions, not imposing solutions
@@ -357,7 +431,7 @@ Clean Space shares [Wahl's](REGENERATIVE_CULTURES.md) commitment to:
 
 ---
 
-## §6. Execution Routines
+## Execution Routines
 
 ### Routine A: Basic Clean Space (1-on-1)
 
@@ -485,93 +559,17 @@ Clean Space shares [Wahl's](REGENERATIVE_CULTURES.md) commitment to:
 
 ---
 
-## §7. The And-Yet (Shadow)
+## Why This Matters for the Repository
 
-Clean Space, over-applied or misapplied, can harm:
+1. **2nd-order facilitation:** Clean Space is a tool for people who help other people think. The facilitator does not need to understand the client's domain — they provide process, not content. This is the operational definition of sovereignty-preserving facilitation.
 
-### 7.1 Over-Application Risks
+2. **Non-visual externalisation:** Technical professionals who cannot "just draw it" can walk it instead. Clean Space works through kinesthetic and spatial channels. You do not need to be a visual thinker to populate a room with your knowledge and then see what emerges from the arrangement.
 
-- **Process fetishism:** Clean Space's minimal toolkit can become a cage. If a client says "I just need to talk this through," forcing them to walk around a room is not Clean — it is imposing your preferred modality.
-- **Spatial privilege:** The process requires a room with space to move. It is physically inaccessible to people with certain mobility limitations unless adapted (tabletop versions exist but change the embodied character).
-- **Facilitation skill gap:** Clean Space looks deceptively simple (six questions!). In practice, knowing *when* to ask which question, when to wait, and when to invite movement requires significant training and experience. The simplicity of the toolkit amplifies the cost of poor deployment.
+3. **CARDS alignment:** Preserves all five CARDS — the client directs movement (Autonomy), determines content (Competence), has their spatial logic respected (Dignity), works at their own pace (Safety), and is genuinely met by an attentive facilitator (Relatedness).
 
-### 7.2 Known Limitations
+4. **Emergence over prescription:** Clean Space does not impose a template. It trusts that once enough of a person's thinking is externalised and spatially arranged, the relationships between parts will surface on their own. This aligns with the repository's commitment to non-prescriptive methodology.
 
-- **Empirical evidence:** Peer-reviewed research on Clean Space specifically (as distinct from Clean Language) is sparse. The primary documentation is practitioner literature (Lawley & Tompkins papers) rather than controlled studies. The methodology's claims about emergence and network effects are theoretically grounded but experimentally under-tested.
-- **Cultural assumptions:** The process assumes a Western-individualist comfort with physical movement in a facilitated setting. In some cultural contexts, being asked to walk around a room and stand in emotionally significant positions may violate norms of bodily restraint or interpersonal distance.
-- **Training pipeline:** There are relatively few accredited Clean Space trainers worldwide. Quality control depends on a small community of practice.
-- **Documentation gap:** David Grove died in 2008 before fully documenting Clean Space's theoretical foundations. What we have is Lawley and Tompkins' modelling of Grove's practice, not Grove's own systematic account.
-
-### 7.3 The 2nd-Order Shadow
-
-The SkillsClinic framing — Clean Space as a tool for helping technical people present — carries its own risks:
-
-- **Overselling emergence:** Not every presentation structure needs to be "discovered." Sometimes the client already knows their structure and just needs help refining it. Clean Space is for when the structure is genuinely unclear, not for when the client needs editing.
-- **Process as avoidance:** A technical person who is anxious about presenting may find the spatial exploration process comforting precisely because it postpones the moment of actually speaking to an audience. The facilitator must know when to stop facilitating and start rehearsing.
-- **Sovereignty theatre:** If the facilitator already knows what presentation structure would work and uses Clean Space to guide the client to "discover" it, that is manipulation, not facilitation. The questions must be genuinely clean — asked to discover, not to lead.
-
-### 7.4 The Meta-Question
-
-> *When does "finding another space" become a way of avoiding standing still?*
-
-Clean Space prizes movement and exploration. But sometimes the most important thing is to stay where you are and feel what is there. The toolkit's bias toward finding new spaces can become a flight from depth — breadth as a defence against staying with difficulty.
-
-**Mitigation:** The question "And what do you know... from here?" applies at every space, including the uncomfortable ones. The facilitator's job is to hold the pause, not fill it with movement.
-
----
-
-## §8. Verification & Primary Sources
-
-### Source Verification
-
-| Source | Tier | Verification |
-|--------|------|--------------|
-| Lawley & Tompkins 2003/2009, "Clean Space" paper | Silver | Published on ResearchGate; primary methodology documentation |
-| Lawley & Tompkins 2000, *Metaphors in Mind* | Silver | Published book; Developing Company Press; ISBN 0953875105 |
-| Lawley & Tompkins 2011, "Symbolic Modelling" chapter | Silver | Published chapter; available on Academia.edu |
-| Tosey, Lawley & Meese 2014 | Gold | Peer-reviewed; *British Journal of Management*, 25(3): 629–646 |
-| Walker 2014, *From Contempt to Curiosity* | Silver | Published book; ISBN 9780957486614 |
-| Grove 1996, *Analecta Husserliana* | Gold | Peer-reviewed; Kluwer Academic; Vol. 48, pp. 271–297 |
-| Sullivan & Rees 2008 | Silver | Published book; Crown House Publishing; multi-language translations |
-
-### Key Claims Verified
-
-| Claim | Source | Verified |
-|-------|--------|----------|
-| Grove developed Clean Space in the early 2000s | Lawley & Tompkins (2003/2009) | ✅ |
-| Clean Space uses 6 questions + 4 directing statements | Lawley & Tompkins (Clean Space paper) | ✅ |
-| Symbolic Modelling formalised by Lawley & Tompkins (2000) | Lawley & Tompkins 2000 | ✅ |
-| Network effects produce emergent properties | Lawley & Tompkins (Clean Space paper); complexity theory | ✅ (theoretical) |
-| Clean approaches adopted in Agile coaching | InfoQ; Rees & Lewitz; Neis | ✅ |
-| Grove died January 2008 | Multiple obituaries | ✅ |
-
-### Scientific Status
-
-| Dimension | Assessment |
-|-----------|-----------|
-| Clinical/practitioner consensus | Strong acceptance in coaching and facilitation communities |
-| Peer-reviewed research (Clean Language) | Growing — Tosey et al. 2014 in *British Journal of Management*; healthcare studies |
-| Peer-reviewed research (Clean Space specifically) | Sparse — primarily practitioner literature |
-| Validated measurements | Limited |
-| Training infrastructure | Small but established; Clean Learning, Training Attention |
-
----
-
-## References
-
-Grove, D.J. 1996. "Clean Language: A Linguistic-Experiential Phenomenology." *Analecta Husserliana*, 48: 271–297. Kluwer Academic.
-
-Lawley, J. & Tompkins, P. 2000. *Metaphors in mind: transformation through symbolic modelling*. London: Developing Company Press.
-
-Lawley, J. & Tompkins, P. 2003/2009. "Clean Space: Modeling Human Perception through Emergence." Available at ResearchGate and cleanlanguage.com.
-
-Lawley, J. & Tompkins, P. 2011. "Symbolic Modelling: Emergent Change through Metaphor and Clean Language." Chapter in edited academic volume. Available at Academia.edu and cleanlanguage.com.
-
-Sullivan, W. & Rees, J. 2008. *Clean language: revealing metaphors and opening minds*. Carmarthen: Crown House Publishing.
-
-Tosey, P., Lawley, J. & Meese, R. 2014. Eliciting metaphor through Clean Language: an innovation in qualitative research. *British Journal of Management*, 25(3): 629–646.
-
-Walker, C. 2014. *From contempt to curiosity: creating the conditions for groups to collaborate using Clean Language and Systemic Modelling*. Hampshire: Clean Publishing.
+5. **Complement to Clean Language:** The existing [CLEAN_LANGUAGE.md](CLEAN_LANGUAGE.md) entry covers the verbal inquiry tool. Clean Space extends that tool into embodied space — the same "Clean" principles (minimal facilitator projection, client's own words, no interpretation) applied through a different medium.
 
 ---
 
@@ -596,3 +594,16 @@ And what does this space know that the rendered page does not?
 
 ...Find a space that knows something else.
 -->
+
+## Appendix: Contract
+
+> ```yaml
+> title: "Clean Space — Spatial Facilitation through Emergence"
+> author: "David Grove (1950-2008)"
+> host: "André S Clements (Reference Hosting Only)"
+> intent: "To provide a stable reference for Clean Space as a spatial facilitation methodology that externalises internal models through embodied movement and network emergence."
+> lineage: "Clean Language (Grove, 1980s) → Symbolic Modelling (Lawley & Tompkins, 2000) → Clean Space (Grove, 2000s) → Systemic Modelling (Walker, 2014)"
+> status: "Imported Library"
+> usage: "2nd-order facilitation; technical presentation coaching; solution externalisation; multi-party spatial hosting."
+> version: "0.0.1"
+> ```

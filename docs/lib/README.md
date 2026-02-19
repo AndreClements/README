@@ -40,14 +40,16 @@ These are not "influences" (see [DEPENDENCIES.md](../../DEPENDENCIES.md) for tha
 | Construct | Author | Lineage | Use |
 |-----------|--------|---------|-----|
 | **[CARDS](CARDS.md)** | Je'anna L Clements | SDT (Deci & Ryan) → CAR → CARDS | Needs-mapping diagnostic; decision simulation |
-| **[MULTI_PARTIALITY](MULTI_PARTIALITY.md)** | Ivan Boszormenyi-Nagy | Family therapy → Contextual therapy | Relational ethics; multi-stakeholder navigation; ledger of entitlements |
-| **[OOO](OOO.md)** | Graham Harman, Ian Bogost | Heidegger → Speculative Realism → OOO | Flat ontology; Machine dignity; NetVerse word-physics |
-| **[SALUTOGENESIS](SALUTOGENESIS.md)** | Aaron Antonovsky | Stress research → Medical sociology | Health-creation framework; SOC diagnostic |
+| **[CLEAN_LANGUAGE](CLEAN_LANGUAGE.md)** | David Grove; Lawley & Tompkins | Phenomenology → Ericksonian → Clean Language → Symbolic Modelling | Clean inquiry; metaphor development; minimal-projection facilitation |
+| **[CLEAN_SPACE](CLEAN_SPACE.md)** | David Grove; Lawley & Tompkins | Clean Language → Symbolic Modelling → Clean Space | Spatial facilitation; 2nd-order presentation coaching; non-visual externalisation |
 | **[ENNEAGRAM](ENNEAGRAM.md)** | Ichazo, Naranjo, Riso & Hudson | Sufi geometry → Gurdjieff → Ichazo → Naranjo → Riso & Hudson | Dynamic personality system; self-knowledge diagnostic; integration/disintegration dynamics |
 | **[INFINITE_GAMES](INFINITE_GAMES.md)** | James P. Carse | Huizinga → Carse | Game-type diagnostic; parametric authorship grounding; gamification threat assessment |
+| **[KARPMAN_DRAMA_TRIANGLE](KARPMAN_DRAMA_TRIANGLE.md)** | Stephen B. Karpman | Transactional Analysis (Berne) → Script Drama Analysis (Karpman) | Dysfunctional role dynamics; game interruption; role-switch awareness |
+| **[MULTI_PARTIALITY](MULTI_PARTIALITY.md)** | Ivan Boszormenyi-Nagy | Family therapy → Contextual therapy | Relational ethics; multi-stakeholder navigation; ledger of entitlements |
 | **[OBJECTIFICATION](OBJECTIFICATION.md)** | Martha C. Nussbaum, Rae Langton | Kant → MacKinnon/Dworkin → Nussbaum → Langton | Dignity diagnostic; 10-feature taxonomy; benign objectification argument; Machine dignity |
+| **[OOO](OOO.md)** | Graham Harman, Ian Bogost | Heidegger → Speculative Realism → OOO | Flat ontology; Machine dignity; NetVerse word-physics |
 | **[REGENERATIVE_CULTURES](REGENERATIVE_CULTURES.md)** | Daniel Christian Wahl | Bateson → Capra → Living systems; Antonovsky → Salutogenic design; Reed → Regeneration | Scale-linking design; salutogenic design praxis; regenerative assessment |
-| **[CLEAN_SPACE](CLEAN_SPACE.md)** | David Grove; Lawley & Tompkins | Clean Language → Symbolic Modelling → Clean Space | Spatial facilitation; 2nd-order presentation coaching; non-visual externalisation |
+| **[SALUTOGENESIS](SALUTOGENESIS.md)** | Aaron Antonovsky | Stress research → Medical sociology | Health-creation framework; SOC diagnostic |
 | **[SOLID](SOLID.md)** | Robert C. Martin et al. | Parnas → Meyer → Liskov → Martin | Modular coherence; threshold mechanics |
 
 ---
@@ -56,8 +58,20 @@ These are not "influences" (see [DEPENDENCIES.md](../../DEPENDENCIES.md) for tha
 
 *The following are candidates for future library entries (not yet documented):*
 
-- **Gestalt Principles** — Perceptual organization; closure, proximity, continuity
+- **Gestalt Principles** — Perceptual organisation; closure, proximity, continuity
 - **Autopoiesis** (Maturana & Varela) — Self-creating systems; structural coupling
+
+---
+
+## Entry Structure
+
+Each library entry follows a **two-zone template** (see [methodology__lib_entry_creation.md](../methods/methodology__lib_entry_creation.md) §4):
+
+1. **Subject Matter zone** — Pure framework content: Attribution, Core Constructs, The And-Yet (Shadow), Verification & Sources. No repo-specific content.
+2. **Repository Integration zone** — What This Changes, Maintainer's Note, CARDS integration, cross-framework integrations, Execution Routines, repo-relevance bullets, Cross-links.
+3. **Appendix: Contract** — YAML metadata at the bottom, referenced by a tiny referral line at the top.
+
+This separation ensures each entry reads as a standalone subject-matter reference while preserving all repository integration work.
 
 ---
 

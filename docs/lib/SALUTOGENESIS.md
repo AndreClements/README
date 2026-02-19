@@ -1,15 +1,6 @@
 # LIBRARY — SALUTOGENESIS (Aaron Antonovsky)
 
-> **Contract:**
-> ```yaml
-> title: "SALUTOGENESIS — Origins of Health"
-> author: "Aaron Antonovsky (1923-1994)"
-> host: "André S Clements (Reference Hosting Only)"
-> intent: "To provide a stable reference for the Salutogenesis framework."
-> lineage: "Stress research → Medical sociology → Salutogenesis (1979)"
-> status: "Imported Library"
-> usage: "Health-creation orientation; SOC diagnostic; resilience framework."
-> ```
+> **Status:** Imported Library | **Host:** André S Clements | [Full contract →](#appendix-contract)
 
 ---
 
@@ -18,8 +9,6 @@
 **Salutogenesis is a framework developed by Aaron Antonovsky (1923-1994)**, an Israeli-American medical sociologist.
 
 First articulated in *Health, Stress, and Coping* (1979) and elaborated in *Unraveling the Mystery of Health* (1987), Salutogenesis emerged from Antonovsky's research on women who had survived Nazi concentration camps and maintained good health despite extreme trauma.
-
-> **Maintainer's Note:** This document is hosted in the `README` repository as a **reference node** to facilitate linking and usage within the network. It is not a claim of authorship. Aaron Antonovsky is the intellectual author of the Salutogenesis framework.
 
 **Key Works:**
 - Antonovsky, A. (1979). *Health, Stress, and Coping*. San Francisco: Jossey-Bass.
@@ -31,33 +20,11 @@ Stress Research (Selye, 1950s)
     └── Medical Sociology
             └── Salutogenesis (Antonovsky, 1979)
                     └── Sense of Coherence (SOC)
-                            └── Integration with CARDS (this repository)
 ```
 
 ---
 
-## §1. The Utility (Why Import This?)
-
-Salutogenesis inverts the dominant medical question:
-
-| Pathogenesis | Salutogenesis |
-|--------------|---------------|
-| "What causes disease?" | "What creates health?" |
-| Risk factors | Resistance resources |
-| Deficits | Assets |
-| Binary: sick/well | Continuum: ease ↔ dis-ease |
-| Fix what's broken | Strengthen what works |
-
-**Why this matters for the repository:**
-
-1. **Generator semantics:** Health is not a state to achieve but a process to sustain — aligns with §8's `yield` model
-2. **CARDS integration:** Generalized Resistance Resources map to CARDS in green
-3. **Embodied resilience:** Philosophy of Body's "alchemical record" is a salutogenic asset
-4. **System design:** SOC provides a diagnostic for healthy systems, not just healthy individuals
-
----
-
-## §2. The Core Question
+## §1. The Core Question
 
 > *"What moves people toward the health end of the health-ease/dis-ease continuum?"*
 
@@ -70,7 +37,7 @@ This reframes health as **active maintenance under perturbation** — not the ab
 
 ---
 
-## §3. Sense of Coherence (SOC)
+## §2. Sense of Coherence (SOC)
 
 The **Sense of Coherence** is the central construct of Salutogenesis — a global orientation that expresses the degree to which one has a pervasive, enduring, though dynamic feeling that:
 
@@ -98,9 +65,9 @@ Where a strong SOC means high scores on all three components, with **meaningfuln
 
 ---
 
-## §4. Generalized Resistance Resources (GRRs)
+## §3. Generalised Resistance Resources (GRRs)
 
-**GRRs** are the factors that help people move toward health. They are *generalized* because they apply across situations, and *resistance* because they buffer against stressors.
+**GRRs** are the factors that help people move toward health. They are *generalised* because they apply across situations, and *resistance* because they buffer against stressors.
 
 ### Categories of GRRs
 
@@ -112,7 +79,7 @@ Where a strong SOC means high scores on all three components, with **meaningfuln
 | **Coping Strategies** | Rationality, flexibility, farsightedness |
 | **Social Support** | Relationships, community, belonging |
 | **Cultural Stability** | Shared meaning systems, traditions |
-| **Preventive Health Orientation** | Health behaviors, body awareness |
+| **Preventive Health Orientation** | Health behaviours, body awareness |
 | **Genetic/Constitutional** | Physical resilience, baseline health |
 
 ### GRRs Build SOC
@@ -129,7 +96,7 @@ A person who consistently experiences:
 
 ---
 
-## §5. The River Metaphor
+## §4. The River Metaphor
 
 Antonovsky's central metaphor distinguishes Salutogenesis from pathogenesis:
 
@@ -148,7 +115,7 @@ Antonovsky's central metaphor distinguishes Salutogenesis from pathogenesis:
 
 ---
 
-## §6. The Health-Ease/Dis-Ease Continuum
+## §5. The Health-Ease/Dis-Ease Continuum
 
 Antonovsky rejected the binary healthy/sick dichotomy:
 
@@ -167,9 +134,87 @@ Health Ease ◄─────────────────────�
 
 ---
 
-## §7. Integration with CARDS
+## §6. Stressors and Tension
 
-The CARDS framework ([Je'anna L Clements](CARDS.md)) maps directly to Salutogenesis:
+Antonovsky distinguished between:
+
+| Concept | Definition | Effect |
+|---------|------------|--------|
+| **Stressor** | Demand for which there is no automatic response | Creates tension |
+| **Tension** | State of readiness to respond | Neutral — can resolve well or poorly |
+| **Stress** | Tension that fails to resolve | Damaging |
+
+**Key insight:** Stressors are not inherently bad. Tension that resolves successfully becomes a **GRR** — the adaptive history that builds future resilience.
+
+---
+
+## §7. Collective Salutogenesis
+
+While Antonovsky focused on individuals, Salutogenesis applies at collective scales:
+
+| Scale | SOC Expression | GRRs |
+|-------|----------------|------|
+| **Individual** | Personal sense of coherence | Personal resources, relationships |
+| **Group** | Shared understanding, collective efficacy | Group norms, mutual support |
+| **Organisation** | Institutional coherence, clear protocols | Policies, resources, culture |
+| **Community** | Social cohesion, shared meaning | Civic infrastructure, traditions |
+
+**For system design:** Build collective GRRs. Design for comprehensibility, manageability, and meaningfulness at the system level.
+
+---
+
+## §8. The And-Yet (Shadow)
+
+Antonovsky himself acknowledged tensions within the framework:
+
+- **SOC crystallisation:** Antonovsky proposed that SOC largely stabilises by age 30, raising questions about late-life transformation. Subsequent research has contested this boundary, suggesting SOC remains more dynamic than originally theorised.
+- **Measurement limits:** The SOC-29 and SOC-13 questionnaires capture self-report, not lived coherence — the map is not the territory.
+- **Cultural bias:** GRR categories were developed within a Western sociological tradition; what counts as a "resource" is culturally situated.
+- **Individual focus:** Despite §7's extension to collectives, the core framework centres on the individual. Structural determinants of health (poverty, oppression, systemic exclusion) can overwhelm even a strong SOC.
+
+---
+
+## §9. Verification & Primary Sources
+
+| Claim | Source | Status |
+|-------|--------|--------|
+| SOC correlates with health outcomes | Eriksson & Lindström (2006), systematic review of 458 studies | Well-supported |
+| SOC stabilises by age 30 | Antonovsky (1987), Ch. 6 | Contested — later research shows more dynamism |
+| GRRs build SOC through life experience | Antonovsky (1979, 1987) | Foundational claim; supported by longitudinal studies |
+| Salutogenesis applies at collective scales | Lindström & Eriksson (2005) | Growing evidence base |
+
+**Scientific status:** Salutogenesis is an established framework in public health and health promotion, endorsed by the WHO as a guiding orientation. The Sense of Coherence is one of the most widely researched constructs in health psychology.
+
+## References
+
+- Antonovsky, A. (1979). *Health, Stress, and Coping*. San Francisco: Jossey-Bass.
+- Antonovsky, A. (1987). *Unraveling the Mystery of Health: How People Manage Stress and Stay Well*. San Francisco: Jossey-Bass.
+- Eriksson, M. & Lindström, B. (2006). Antonovsky's sense of coherence scale and the relation with health: a systematic review. *Journal of Epidemiology & Community Health*, 60(5), 376–381.
+- Lindström, B. & Eriksson, M. (2005). Salutogenesis. *Journal of Epidemiology & Community Health*, 59(6), 440–442.
+
+---
+
+# Repository Integration
+
+## What This Changes
+
+Salutogenesis inverts the dominant medical question:
+
+| Pathogenesis | Salutogenesis |
+|--------------|---------------|
+| "What causes disease?" | "What creates health?" |
+| Risk factors | Resistance resources |
+| Deficits | Assets |
+| Binary: sick/well | Continuum: ease ↔ dis-ease |
+| Fix what's broken | Strengthen what works |
+
+## Maintainer's Note
+
+> This document is hosted in the `README` repository as a **reference node** to facilitate linking and usage within the network. It is not a claim of authorship. Aaron Antonovsky is the intellectual author of the Salutogenesis framework.
+
+## Integration with CARDS
+
+The [CARDS](CARDS.md) framework (Je'anna L Clements) maps directly to Salutogenesis:
 
 ### GRRs as CARDS in Green
 
@@ -193,30 +238,12 @@ The CARDS framework ([Je'anna L Clements](CARDS.md)) maps directly to Salutogene
 
 The CARDS diagnostic routine becomes a **SOC check**:
 
-1. **Assess CARDS state** (🟢🟠🔴 for each)
+1. **Assess CARDS state** (green/amber/red for each)
 2. **Evaluate trajectory** — are cards trending toward green or red?
 3. **Check GRR availability** — what resources can shift the trajectory?
-4. **Assess meaning** — which needs are worth prioritizing?
+4. **Assess meaning** — which needs are worth prioritising?
 
----
-
-## §8. Stressors and Tension
-
-Antonovsky distinguished between:
-
-| Concept | Definition | Effect |
-|---------|------------|--------|
-| **Stressor** | Demand for which there is no automatic response | Creates tension |
-| **Tension** | State of readiness to respond | Neutral — can resolve well or poorly |
-| **Stress** | Tension that fails to resolve | Damaging |
-
-**Key insight:** Stressors are not inherently bad. Tension that resolves successfully becomes a **GRR** — the adaptive history that builds future resilience.
-
-This connects to Philosophy of Body's concept of the **alchemical record**: scars and adaptations from past challenges become resources for future challenges.
-
----
-
-## §9. Perturbation and Invariance
+## Integration with Parametric Authorship — Perturbation and Invariance
 
 In the vocabulary of [Parametric Authorship](../../projects/theses/parametric_authorship.md):
 
@@ -234,22 +261,20 @@ In the vocabulary of [Parametric Authorship](../../projects/theses/parametric_au
 
 A strong SOC means the system maintains coherence under routine perturbation.
 
----
+## Integration with Philosophy of Body — Alchemical Record
 
-## §10. Collective Salutogenesis
+The concept of **stressor-as-resource** (§6) connects to Philosophy of Body's concept of the **alchemical record**: scars and adaptations from past challenges become resources for future challenges. Tension that resolves successfully becomes a GRR — the adaptive history that builds future resilience.
 
-While Antonovsky focused on individuals, Salutogenesis applies at collective scales:
+## Execution Routines
 
-| Scale | SOC Expression | GRRs |
-|-------|----------------|------|
-| **Individual** | Personal sense of coherence | Personal resources, relationships |
-| **Group** | Shared understanding, collective efficacy | Group norms, mutual support |
-| **Organization** | Institutional coherence, clear protocols | Policies, resources, culture |
-| **Community** | Social cohesion, shared meaning | Civic infrastructure, traditions |
+*(No routines currently defined for this library entry.)*
 
-**For system design:** Build collective GRRs. Design for comprehensibility, manageability, and meaningfulness at the system level.
+## Why This Matters for the Repository
 
----
+1. **Generator semantics:** Health is not a state to achieve but a process to sustain — aligns with §8's `yield` model
+2. **CARDS integration:** Generalised Resistance Resources map to CARDS in green
+3. **Embodied resilience:** Philosophy of Body's "alchemical record" is a salutogenic asset
+4. **System design:** SOC provides a diagnostic for healthy systems, not just healthy individuals
 
 ## Cross-links
 
@@ -262,3 +287,17 @@ While Antonovsky focused on individuals, Salutogenesis applies at collective sca
 - **[philosophy_of_hyperstrate.md](../models/philosophy_of_hyperstrate.md)** — Field coherence, CET
 - **[REGENERATIVE_CULTURES.md](REGENERATIVE_CULTURES.md)** — Genealogical downstream: salutogenic design, scale-linking, regenerative cultures
 - **[SRII_AXIOLOGICAL_FRAMEWORK.md](../models/SRII_AXIOLOGICAL_FRAMEWORK.md)** — System-level health metrics
+
+---
+
+## Appendix: Contract
+
+> ```yaml
+> title: "SALUTOGENESIS — Origins of Health"
+> author: "Aaron Antonovsky (1923-1994)"
+> host: "André S Clements (Reference Hosting Only)"
+> intent: "To provide a stable reference for the Salutogenesis framework."
+> lineage: "Stress research → Medical sociology → Salutogenesis (1979)"
+> status: "Imported Library"
+> usage: "Health-creation orientation; SOC diagnostic; resilience framework."
+> ```

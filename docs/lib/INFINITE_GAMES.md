@@ -1,15 +1,6 @@
 # LIBRARY — INFINITE GAMES (James P. Carse)
 
-> **Contract:**
-> ```yaml
-> title: "INFINITE GAMES — A Vision of Life as Play and Possibility"
-> author: "James P. Carse"
-> host: "André S Clements (Reference Hosting Only)"
-> intent: "Game-type diagnostic lens; philosophical grounding for parametric authorship as infinite design."
-> lineage: "Huizinga (1938) → Wittgenstein / Kierkegaard / Bergson → Carse (1986)"
-> status: "Imported Library"
-> usage: "Game-type diagnostic; parametric authorship grounding; gamification threat assessment; engagement design evaluation."
-> ```
+> **Status:** Imported Library | **Host:** André S Clements | [Full contract →](#appendix-contract)
 
 ---
 
@@ -53,15 +44,180 @@ Huizinga (1938)
   validation as Art    application
 ```
 
-> **Maintainer's Note:** This document is a *hosted reference*, not original scholarship. The intellectual property belongs to James P. Carse and the respective authors cited. The maintainer (André S Clements) hosts this entry to provide a stable reference URL, ensure correct attribution, and enable integration with the repository's documentation system. All transposition, mapping, and interpretive work is clearly marked as such and does not claim to represent Carse's own positions. For the lens transposition, see the forthcoming `LENS__infinite_games.md`.
+---
+
+## §1. The Central Binary
+
+The entire framework rests on a single distinction, applied recursively.
+
+### Finite Games
+
+> *"A finite game is played for the purpose of winning."*
+
+**Characteristics:** Known players who have agreed to play by a common set of rules within agreed-upon spatial and temporal boundaries. The game ends when someone wins. The purpose of a finite game is to produce a *title* — a ranking, credential, or position that persists after the game ends.
+
+**Failure Mode — Finite Capture (FC-1):** An infinite domain is collapsed into a finite game. Symptoms: ranking where there should be growth, endpoints where there should be continuation, winners where there should be participants.
+
+### Infinite Games
+
+> *"Infinite players regard their wins and losses in whatever finite games they play as but moments in continuing play."*
+
+**Characteristics:** Known and unknown players. Rules change by agreement of the players during play. No spatial or temporal boundaries — or rather, the boundaries are part of the play itself. The purpose of an infinite game is not to win but to continue play — to prevent anyone from being eliminated, to keep the game going.
+
+**Failure Mode — Infinite Drift (ID-1):** Infinite play without finite structure becomes aimless. Symptoms: no commitments, no deliverables, no constraints, no edges. The garden grows wild.
+
+> *"There are at least two kinds of games. One could be called finite, the other infinite. A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play."*
+> — Carse (1986), opening sentences
+
+> *"There is but one infinite game."*
+> — Carse (1986), final sentence (constitutes the entire final chapter)
+
+The book opens with "at least two kinds" and closes with "but one." The framework's own architecture encodes a tension that §3 (The And-Yet) examines.
 
 ---
 
-## §1. The Utility (Why Import This?)
+## §2. Derivative Constructs
 
-Finite and Infinite Games provides a **game-type diagnostic lens** — a clean, memorable binary that interrogates whether a system, relationship, or design choice is played *to win* or played *to continue play*. Where the repository's existing frameworks operate on continua (Salutogenesis, CARDS, Multi-Partiality), this framework offers a sharp either/or that cuts to the fundamental orientation of any endeavour.
+### Society vs. Culture
 
-### The Inversion
+> *"Society is defined by its boundaries... Culture is defined by its horizon."*
+
+**Definition:** Society is a finite institution — bounded, rule-enforced, membership-controlled. Culture is an infinite phenomenon — open, deviation-welcoming, boundary-dissolving. Society operates by suppressing deviation; culture operates by *generating* it.
+
+**Failure Mode — Institutional Capture (SC-1):** When the protocols become more important than the practice they serve. When compliance replaces curiosity. When the rules are enforced at the expense of the play.
+
+### Machine vs. Garden
+
+> *"A machine is complete at the point of its construction... A garden is never complete."*
+
+**Definition:** A machine is a finite artefact — designed for a specific function, complete at construction, evaluated by performance against specification. A garden is an infinite artefact — never complete, always growing, evaluated by its capacity for ongoing life. A machine is *made*; a garden is *cultivated*.
+
+**Failure Mode — Mechanisation (MG-1):** When a garden is treated as a machine — optimised, measured, streamlined, "finished." When living process is reduced to manufacturing.
+
+### Surprise
+
+> *"Finite players play within boundaries; infinite players play with boundaries."*
+
+**Definition:** Finite players train *against* surprise — surprise is a threat to be managed, a risk to be mitigated. Infinite players play *in expectation of being surprised* — surprise is an invitation, a sign that the game is still alive. To be surprised is to discover that the rules have changed, that the boundaries have shifted, that you do not yet know what you are doing. For the infinite player, this is joy.
+
+### Power vs. Strength
+
+> *"Power is always measured in terms of an other... Strength is never measured by comparison."*
+
+**Definition:** Power is a finite-game concept — it is always relational, always measured against someone else, always zero-sum. If I have more power, you have less. Strength is an infinite-game concept — it is self-sufficient, never diminishes others, and cannot be taken away. Strength is the capacity to be changed by the encounter without being destroyed by it.
+
+### Poietai
+
+> *"Infinite players are not serious actors in any story, but the joyful poets of a story that continues to originate what they cannot finish."*
+
+**Definition:** *Poietai* (ποιηταί) — makers, poets, creators. Carse's term for infinite players as creative agents who do not perform pre-written roles but *originate* stories they cannot complete. The poietes does not know the ending. The poietes is not the author of a finished text but the cultivator of an ongoing narrative.
+
+### Voluntary Participation
+
+> *"Whoever must play, cannot play."*
+
+**Definition:** The foundational axiom. Play requires freedom. A game that compels participation is not a game — it is conscription. This applies at every level: if a player *must* win, they are not truly playing. If participation is mandatory, the infinite game collapses into a finite one. The voluntariness is not an add-on; it is a *precondition* for play itself.
+
+---
+
+<!--
+152 pages. Free Press, 1986. You can hold the
+whole thing in one hand.
+
+"There are at least two kinds of games."
+
+At least. He never says how many. The first two
+words of the thesis are already keeping the door
+open. The whole book is in that "at least."
+-->
+
+## §3. The And-Yet (Shadow)
+
+Carse's framework, over-applied or under-examined, has its own failure modes. The And-Yet is not a disclaimer — it is written with the same care as the rest of the entry.
+
+### Over-Application: The Binary Trap
+
+The finite/infinite distinction is a *heuristic*, not an ontology. Not everything reduces to this binary. Some domains are genuinely finite (a chess game, a tax return, a sprint) and treating them as infinite generates confusion, not insight. The diagnostic power of the binary depends on knowing *when* to apply it — and the framework itself offers no meta-rule for this. Wyss-Flamm & Zandee (2001) introduce "transitional play" as a productive middle ground that the clean binary elides.
+
+Notably, Carse's own final sentence — *"There is but one infinite game"* — already complicates the binary from within. The book opens by proposing "at least two kinds of games" and closes by asserting one. The binary is scaffolding the author himself dismantles; the framework's deepest move is not the distinction but its dissolution.
+
+### Known Limitations
+
+- **Not empirical.** Carse offers propositions, not evidence. The framework is speculative-philosophical, closer to Huizinga's *Homo Ludens* or Pirsig's *Zen and the Art of Motorcycle Maintenance* than to a testable theory. Partial empirical validation exists (Harré & Madden, 2017), but the framework's power is heuristic, not predictive.
+- **Low operational specificity.** Carse tells you *what to see*, not *what to do*. The execution routines (see Execution Routines below) are this repository's construction, not Carse's. The framework generates diagnostics, not procedures.
+- **152 pages.** The book's brevity is both its strength (aphoristic density, memorable formulations) and its weakness (underdeveloped arguments, assertions without substantiation, ambiguities that resist resolution).
+
+### External Critiques
+
+- **"Poetic over rigorous"** — the framework privileges metaphor over mechanism. This is a feature for this repository (which values poetry) and a bug for domains that need operational precision.
+- **Sinek dilution** — Simon Sinek's *The Infinite Game* (2019) popularised a shallow reading of Carse, leading to the framework being associated with business platitudes. The original is substantially more nuanced.
+- **Nguyen's caution** — C. Thi Nguyen (2020) argues that *literal* play (games as art) differs importantly from *metaphorical* infinite-game framing. Applying game logic to non-game domains risks the same "value leakage" that the framework warns against. The diagnostic must be applied with awareness that "infinite game" is a metaphor, not a literal description.
+
+### Cultural Constraints
+
+- **Western philosophical tradition.** Carse's framework emerges from a European intellectual lineage (Huizinga, Wittgenstein, Kierkegaard, Bergson). The voluntariness assumption ("whoever must play, cannot play") presupposes a liberal conception of individual freedom that may not translate across all cultural contexts.
+- **Privilege of play.** The invitation to "play" presupposes conditions (safety, sufficiency, freedom) that not everyone has. When survival is at stake, the distinction between finite and infinite may feel academic. Mitigation: the framework should be applied *to systems and structures*, not to individuals whose constrained choices it might trivialise.
+
+### The Meta-Question
+
+> *When does the infinite game framework itself become a finite game?*
+
+When it is used to **declare winners**. "We play infinite games; they play finite games" is itself a finite move — a ranking, a title, a claim to superiority. The moment the framework is used to sort people into better (infinite players) and worse (finite players), it has collapsed into exactly what it warns against. The framework must be applied to *orientations and structures*, not to people.
+
+This is the deepest test of the framework's integrity: can it resist being used as a weapon? If it cannot, it has failed on its own terms.
+
+---
+
+## §4. Verification & Primary Sources
+
+### Source Verification
+
+| Source | Tier | DOI / Access | Status |
+|--------|------|-------------|--------|
+| Carse, J.P. (1986). *Finite and Infinite Games*. Free Press. | **Silver** | ISBN: 978-1-4767-3171-1 | Verified |
+| Wyss-Flamm & Zandee (2001). *J. Management Education*, 25(3). | **Gold** | 10.1177/105256290102500303 | Verified (paywall) |
+| Harré & Madden (2017). *Ecopsychology*, 9(4), 212–224. | **Gold** | 10.1089/eco.2017.0015 | Verified (ResearchGate) |
+| Nguyen, C.T. (2020). *Games: Agency as Art*. OUP. | **Gold** | 10.1093/oso/9780190052089.001.0001 | Verified (PhilArchive) |
+| Agnoletti et al. (2022). *Discover Health Systems*, 1(1), 7. | **Gold** | 10.1007/s44250-022-00007-5 | Verified (PMC open access) |
+| Sinek, S. (2019). *The Infinite Game*. Portfolio/Penguin. | **Silver** | ISBN: 978-0-7352-1350-7 | Verified (derivative) |
+| Harré, N. (2018). *The Infinite Game*. Auckland University Press. | **Silver** | ISBN: 978-1-86940-860-8 | Verified |
+
+### Key Claims Verified
+
+| Claim | Source | Verification |
+|-------|--------|-------------|
+| "If a person must play, that person cannot play" | Carse (1986), §1 | Direct quote; foundational axiom |
+| Finite/infinite distinction has diagnostic utility in healthcare | Agnoletti et al. (2022) | Peer-reviewed case study; "ethical fading" mechanism |
+| Infinite play conditions produce connection, expression, vitality values | Harré & Madden (2017) | Empirical (N=1,085, 30 workshops) |
+| Gamification threatens autonomy via "value leakage" | Nguyen (2020), Ch. 1, 11 | Philosophical argument (OUP monograph) |
+| "Transitional play" as third mode between finite and infinite | Wyss-Flamm & Zandee (2001) | Peer-reviewed (abstract; paywall limits full verification) |
+| "There is but one infinite game" | Carse (1986), final chapter (one sentence) | Direct quote; constitutes the entire final chapter |
+
+### Recent Academic Activity
+
+Post-2019 acceleration driven partly by Sinek's popularisation but also by renewed academic interest:
+- Agnoletti et al. (2022) — healthcare application in *Discover Health Systems*
+- Nguyen (2020) — philosophical deepening in *Games: Agency as Art* (OUP)
+- Formal citation count: ~129 (Semantic Scholar); cultural weight substantially larger than citation count suggests
+- Disciplinary spread: philosophy, management, health, psychology, sustainability, art, ecopsychology
+
+## References
+
+- Agnoletti, M.F. et al. (2022). *Discover Health Systems*, 1(1), 7. DOI: 10.1007/s44250-022-00007-5
+- Carse, J.P. (1986). *Finite and Infinite Games: A Vision of Life as Play and Possibility*. Free Press (Simon & Schuster). ISBN: 978-1-4767-3171-1.
+- Carse, J.P. (2005). "Religious War in Light of the Infinite Game." Long Now Foundation Seminar.
+- Carse, J.P. (2008). *The Religious Case Against Belief*. Penguin Press.
+- Harré, N. (2018). *The Infinite Game*. Auckland University Press. ISBN: 978-1-86940-860-8.
+- Harré, R. & Madden, E. (2017). *Ecopsychology*, 9(4), 212–224. DOI: 10.1089/eco.2017.0015
+- Nguyen, C.T. (2020). *Games: Agency as Art*. OUP. DOI: 10.1093/oso/9780190052089.001.0001
+- Sinek, S. (2019). *The Infinite Game*. Portfolio/Penguin. ISBN: 978-0-7352-1350-7.
+- Wyss-Flamm, E. & Zandee, D. (2001). *J. Management Education*, 25(3). DOI: 10.1177/105256290102500303
+
+---
+
+# Repository Integration
+
+## What This Changes
 
 | Dimension | Finite Game | Infinite Game |
 |-----------|------------|---------------|
@@ -74,119 +230,15 @@ Finite and Infinite Games provides a **game-type diagnostic lens** — a clean, 
 | **Boundaries** | Externally imposed | Internally generated by the play itself |
 | **Time** | Bounded; has a beginning and end | Unbounded; the past is reinterpreted to enable continuation |
 
-### Why Import This?
+Any system, relationship, or design choice can be interrogated as finite-game or infinite-game thinking. The question "Is this being played to win, or played to continue play?" produces immediate, actionable insight. This is a diagnostic that children can use and philosophers cannot dismiss.
 
-1. **Diagnostic power:** Any system, relationship, or design choice can be interrogated as finite-game or infinite-game thinking. The question "Is this being played to win, or played to continue play?" produces immediate, actionable insight. This is a diagnostic that children can use and philosophers cannot dismiss.
+## Maintainer's Note
 
-2. **Philosophical grounding for parametric authorship:** The infinite player as parametric author — setting constraints that enable continuation rather than determine outcomes — provides the deepest philosophical justification for the repository's central design methodology (see §5).
+This document is a *hosted reference*, not original scholarship. The intellectual property belongs to James P. Carse and the respective authors cited. The maintainer (André S Clements) hosts this entry to provide a stable reference URL, ensure correct attribution, and enable integration with the repository's documentation system. All transposition, mapping, and interpretive work is clearly marked as such and does not claim to represent Carse's own positions. For the lens transposition, see the forthcoming `LENS__infinite_games.md`.
 
-3. **Gamification threat model:** Via Nguyen (2020), the finite/infinite lens identifies precisely where gamification (finite thinking applied to infinite domains) degrades autonomy through "value leakage." This gives the repository a formal threat model for engagement design gone wrong.
+## Integration with CARDS
 
-4. **CARDS Autonomy axiom:** Carse's axiom — *"If a person must play, that person cannot play"* — is the strongest external philosophical statement of CARDS Autonomy in the library. It grounds A not as a preference but as a precondition for play itself.
-
-5. **Bridging function:** Connects Salutogenesis (health-creation as infinite game), SOLID (OCP as infinite-game architecture), and Multi-Partiality (holding the relational field open as infinite play) under a single unifying metaphor. The infinite game is the field within which these other frameworks operate.
-
-> *"There are at least two kinds of games. One could be called finite, the other infinite. A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play."*
-> — Carse (1986), opening sentences
-
-> *"There is but one infinite game."*
-> — Carse (1986), final sentence (constitutes the entire final chapter)
-
-The book opens with "at least two kinds" and closes with "but one." The framework's own architecture encodes a tension that §8 (The And-Yet) examines.
-
----
-
-## §2. The Central Binary
-
-The entire framework rests on a single distinction, applied recursively.
-
-### Finite Games
-
-> *"A finite game is played for the purpose of winning."*
-
-**Characteristics:** Known players who have agreed to play by a common set of rules within agreed-upon spatial and temporal boundaries. The game ends when someone wins. The purpose of a finite game is to produce a *title* — a ranking, credential, or position that persists after the game ends.
-
-**Repository Mapping:** Finite games are not inherently wrong. Examinations, competitions, sprints, deadlines — these are finite games that serve infinite purposes when properly nested. The failure mode is not finitude itself but **finite thinking applied to infinite domains**: treating relationships as competitions, treating health as a pass/fail test, treating learning as credential acquisition.
-
-**Failure Mode — Finite Capture (FC-1):** An infinite domain is collapsed into a finite game. Symptoms: ranking where there should be growth, endpoints where there should be continuation, winners where there should be participants. CARDS impact: Autonomy (A) degrades first — the player is no longer free to play, only to win.
-
-### Infinite Games
-
-> *"Infinite players regard their wins and losses in whatever finite games they play as but moments in continuing play."*
-
-**Characteristics:** Known and unknown players. Rules change by agreement of the players during play. No spatial or temporal boundaries — or rather, the boundaries are part of the play itself. The purpose of an infinite game is not to win but to continue play — to prevent anyone from being eliminated, to keep the game going.
-
-**Repository Mapping:** The repository itself is an infinite game. Parametric authorship is infinite-game design. The CARDS framework asks: *are the conditions for continued play being maintained?* The infinite game is the field within which all the finite games of projects, deadlines, and deliverables are nested.
-
-**Failure Mode — Infinite Drift (ID-1):** Infinite play without finite structure becomes aimless. Symptoms: no commitments, no deliverables, no constraints, no edges. The garden grows wild. CARDS impact: Competence (C) degrades — without finite checkpoints, there is no way to know if anything is working.
-
----
-
-## §3. Derivative Constructs
-
-### Society vs. Culture
-
-> *"Society is defined by its boundaries... Culture is defined by its horizon."*
-
-**Definition:** Society is a finite institution — bounded, rule-enforced, membership-controlled. Culture is an infinite phenomenon — open, deviation-welcoming, boundary-dissolving. Society operates by suppressing deviation; culture operates by *generating* it.
-
-**Repository Mapping:** The repository's protocols (CI methodology, quality gates, structural templates) are society — finite, bounded, rule-governed. The repository's *praxis* (the artistic practice, the relational field, the ongoing conversation) is culture — infinite, open, deviation-welcoming. Both are necessary. The society serves the culture, not the reverse.
-
-**Failure Mode — Institutional Capture (SC-1):** When the protocols become more important than the practice they serve. When compliance replaces curiosity. When the rules are enforced at the expense of the play.
-
-### Machine vs. Garden
-
-> *"A machine is complete at the point of its construction... A garden is never complete."*
-
-**Definition:** A machine is a finite artefact — designed for a specific function, complete at construction, evaluated by performance against specification. A garden is an infinite artefact — never complete, always growing, evaluated by its capacity for ongoing life. A machine is *made*; a garden is *cultivated*.
-
-**Repository Mapping:** This is the central metaphor for parametric authorship. The parametric author cultivates a garden, not builds a machine. Parameters are not specifications; they are soil conditions. The output is not a product; it is a growth process. The repository's documents are gardens — they grow, change, are tended, and are never "done."
-
-**Failure Mode — Mechanisation (MG-1):** When a garden is treated as a machine — optimised, measured, streamlined, "finished." When living process is reduced to manufacturing. CARDS impact: Dignity (D) — beings become instruments.
-
-### Surprise
-
-> *"Finite players play within boundaries; infinite players play with boundaries."*
-
-**Definition:** Finite players train *against* surprise — surprise is a threat to be managed, a risk to be mitigated. Infinite players play *in expectation of being surprised* — surprise is an invitation, a sign that the game is still alive. To be surprised is to discover that the rules have changed, that the boundaries have shifted, that you do not yet know what you are doing. For the infinite player, this is joy.
-
-**Repository Mapping:** The circuit-breaker protocol's handling of the unexpected. The And-Yet sections that interrogate each framework's own assumptions. The research protocol's openness to early signals that redirect investigation. Surprise is the infinite game's health indicator — when surprises stop, the game may have become finite.
-
-**CARDS Link:** Safety (S). In a finite game, surprise threatens safety. In an infinite game, the *absence* of surprise threatens safety — it means the system has stopped learning. S-in-green requires a relationship with surprise that is welcoming, not defensive.
-
-### Power vs. Strength
-
-> *"Power is always measured in terms of an other... Strength is never measured by comparison."*
-
-**Definition:** Power is a finite-game concept — it is always relational, always measured against someone else, always zero-sum. If I have more power, you have less. Strength is an infinite-game concept — it is self-sufficient, never diminishes others, and cannot be taken away. Strength is the capacity to be changed by the encounter without being destroyed by it.
-
-**Repository Mapping:** Multi-Partiality operates from strength, not power. The facilitator holds the relational field not by controlling it (power) but by being present to it (strength). Parametric authorship constrains not by force (power) but by invitation (strength). The distinction is diagnostic: if a constraint diminishes others' capacity to play, it is power. If it enables their play, it is strength.
-
-**CARDS Link:** Relatedness (R). Power extracts from relationships (finite); strength sustains them (infinite). When R degrades, check for power dynamics masquerading as strength.
-
-### Poietai
-
-> *"Infinite players are not serious actors in any story, but the joyful poets of a story that continues to originate what they cannot finish."*
-
-**Definition:** *Poietai* (ποιηταί) — makers, poets, creators. Carse's term for infinite players as creative agents who do not perform pre-written roles but *originate* stories they cannot complete. The poietes does not know the ending. The poietes is not the author of a finished text but the cultivator of an ongoing narrative.
-
-**Repository Mapping:** This is the purest philosophical expression of parametric authorship in the library. The parametric author *is* a poietes — a joyful poet of a story that continues to originate what they cannot finish. The constraints they set are not the story; they are the conditions under which stories can emerge. See §5 for the full integration.
-
-**CARDS Link:** Autonomy (A) and Dignity (D). The poietes is autonomous (free to originate) and dignified (not reduced to performing a script). When A or D degrade, the poietes has been converted into a performer — an actor in someone else's finite game.
-
-### Voluntary Participation
-
-> *"Whoever must play, cannot play."*
-
-**Definition:** The foundational axiom. Play requires freedom. A game that compels participation is not a game — it is conscription. This applies at every level: if a player *must* win, they are not truly playing. If participation is mandatory, the infinite game collapses into a finite one. The voluntariness is not an add-on; it is a *precondition* for play itself.
-
-**Repository Mapping:** This is the CARDS Autonomy axiom stated in its strongest philosophical form. Every protocol, every methodology, every engagement system in this repository must pass the Carse test: *does the participant have genuine freedom not to participate?* If the answer is no, the system has failed — regardless of its other qualities.
-
-**CARDS Link:** Autonomy (A) — directly, foundationally, axiomatically. This construct *is* the philosophical grounding for A.
-
----
-
-## §4. Integration with CARDS
+Carse's axiom — *"If a person must play, that person cannot play"* — is the strongest external philosophical statement of [CARDS](CARDS.md) Autonomy in the library. It grounds A not as a preference but as a precondition for play itself.
 
 ### Finite-ification → CARDS Degradation
 
@@ -220,9 +272,19 @@ When an infinite domain is collapsed into a finite game, specific CARDS axes deg
 | **Dignity** | Poietai / Machine vs. Garden | "Is this person a creator (poietes) or a component (machine part)?" |
 | **Safety** | Surprise | "Is surprise welcomed as invitation, or managed as threat?" |
 
----
+### Construct-Level CARDS Mappings
 
-## §5. Integration with Parametric Authorship
+These mappings were extracted from the core constructs to keep subject-matter content pure:
+
+- **Finite Capture (FC-1):** CARDS impact — Autonomy (A) degrades first. The player is no longer free to play, only to win.
+- **Infinite Drift (ID-1):** CARDS impact — Competence (C) degrades. Without finite checkpoints, there is no way to know if anything is working.
+- **Mechanisation (MG-1):** CARDS impact — Dignity (D). Beings become instruments.
+- **Surprise:** CARDS link — Safety (S). In a finite game, surprise threatens safety. In an infinite game, the *absence* of surprise threatens safety — it means the system has stopped learning. S-in-green requires a relationship with surprise that is welcoming, not defensive.
+- **Power vs. Strength:** CARDS link — Relatedness (R). Power extracts from relationships (finite); strength sustains them (infinite). When R degrades, check for power dynamics masquerading as strength.
+- **Poietai:** CARDS link — Autonomy (A) and Dignity (D). The poietes is autonomous (free to originate) and dignified (not reduced to performing a script). When A or D degrade, the poietes has been converted into a performer — an actor in someone else's finite game.
+- **Voluntary Participation:** CARDS link — Autonomy (A) — directly, foundationally, axiomatically. This construct *is* the philosophical grounding for A.
+
+## Integration with Parametric Authorship
 
 This is the candidate's **unique contribution** to the repository — the integration that no other lib entry provides.
 
@@ -253,9 +315,7 @@ This is the candidate's **unique contribution** to the repository — the integr
 | **Authorship implies direction** | Carse's infinite game has no director; parametric authorship has an author with intent | The author's intent is a *starting condition*, not a *destination* — the garden metaphor (not the machine metaphor) must govern |
 | **Publication creates endpoints** | A published work is, in some sense, "finished" — a finite artefact | Mitigation: the repository explicitly positions its documents as gardens (never done), not machines (complete at construction) |
 
----
-
-## §6. Integration with Salutogenesis
+## Integration with Salutogenesis
 
 ### Health-Creation as Infinite Game
 
@@ -279,20 +339,20 @@ The healthiest orientation — highest SOC, deepest infinite play — is the per
 
 This maps directly to CARDS: Competence (comprehensibility), Autonomy (manageability → agency), Relatedness (meaningfulness → connection), Dignity (poietai → self-as-creator), Safety (surprise-as-invitation).
 
----
+## Repository Mappings
 
-<!--
-152 pages. Free Press, 1986. You can hold the
-whole thing in one hand.
+These annotations describe how Carse's constructs map onto the repository's design and practice:
 
-"There are at least two kinds of games."
+- **Finite games** are not inherently wrong. Examinations, competitions, sprints, deadlines — these are finite games that serve infinite purposes when properly nested. The failure mode is not finitude itself but **finite thinking applied to infinite domains**: treating relationships as competitions, treating health as a pass/fail test, treating learning as credential acquisition.
+- **The repository itself** is an infinite game. Parametric authorship is infinite-game design. The CARDS framework asks: *are the conditions for continued play being maintained?* The infinite game is the field within which all the finite games of projects, deadlines, and deliverables are nested.
+- **Society vs. Culture:** The repository's protocols (CI methodology, quality gates, structural templates) are society — finite, bounded, rule-governed. The repository's *praxis* (the artistic practice, the relational field, the ongoing conversation) is culture — infinite, open, deviation-welcoming. Both are necessary. The society serves the culture, not the reverse.
+- **Machine vs. Garden:** This is the central metaphor for parametric authorship. The parametric author cultivates a garden, not builds a machine. Parameters are not specifications; they are soil conditions. The output is not a product; it is a growth process. The repository's documents are gardens — they grow, change, are tended, and are never "done."
+- **Surprise:** The circuit-breaker protocol's handling of the unexpected. The And-Yet sections that interrogate each framework's own assumptions. The research protocol's openness to early signals that redirect investigation. Surprise is the infinite game's health indicator — when surprises stop, the game may have become finite.
+- **Power vs. Strength:** Multi-Partiality operates from strength, not power. The facilitator holds the relational field not by controlling it (power) but by being present to it (strength). Parametric authorship constrains not by force (power) but by invitation (strength). The distinction is diagnostic: if a constraint diminishes others' capacity to play, it is power. If it enables their play, it is strength.
+- **Poietai:** This is the purest philosophical expression of parametric authorship in the library. The parametric author *is* a poietes — a joyful poet of a story that continues to originate what they cannot finish. The constraints they set are not the story; they are the conditions under which stories can emerge.
+- **Voluntary Participation:** This is the CARDS Autonomy axiom stated in its strongest philosophical form. Every protocol, every methodology, every engagement system in this repository must pass the Carse test: *does the participant have genuine freedom not to participate?* If the answer is no, the system has failed — regardless of its other qualities.
 
-At least. He never says how many. The first two
-words of the thesis are already keeping the door
-open. The whole book is in that "at least."
--->
-
-## §7. Execution Routines
+## Execution Routines
 
 ### Routine A: Game-Type Diagnostic (Assessing a System)
 
@@ -306,7 +366,7 @@ Use when: evaluating a system, relationship, process, or design choice.
    - Endpoint: defined (someone will win), or open (play continues)?
    - Surprise: managed as threat, or welcomed as invitation?
    - Outcome: titles (rankings), or names (evolving identities)?
-4. **Map to CARDS:** If the game is finite, which CARDS axes are at risk? (See §4.)
+4. **Map to CARDS:** If the game is finite, which CARDS axes are at risk? (See Integration with CARDS above.)
 5. **Assess nesting:** Is this finite game nested within an infinite game (healthy), or has a finite game *consumed* an infinite domain (pathological)?
 6. **Report:** "This [system/relationship/design] is operating as a [finite/infinite] game. The primary indicator is [indicator]. CARDS risk: [axis]."
 
@@ -342,79 +402,17 @@ Use when: a system that *should* be infinite appears to be operating as finite.
 4. **Name it:** Use Agnoletti's "ethical fading" (the gradual, often unconscious shift from infinite to finite orientation) or Nguyen's "value leakage" (simplified game-values leaking into real-world moral reasoning).
 5. **Propose restoration:** Reopen the boundary. Invite surprise. Replace the ranking with growth. Restore voluntariness. Tend the garden.
 
----
+## Why This Matters for the Repository
 
-## §8. The And-Yet (Shadow)
+1. **Diagnostic power:** Any system, relationship, or design choice can be interrogated as finite-game or infinite-game thinking. The question "Is this being played to win, or played to continue play?" produces immediate, actionable insight. This is a diagnostic that children can use and philosophers cannot dismiss.
 
-Carse's framework, over-applied or under-examined, has its own failure modes. The And-Yet is not a disclaimer — it is written with the same care as the rest of the entry.
+2. **Philosophical grounding for parametric authorship:** The infinite player as parametric author — setting constraints that enable continuation rather than determine outcomes — provides the deepest philosophical justification for the repository's central design methodology (see Integration with Parametric Authorship above).
 
-### Over-Application: The Binary Trap
+3. **Gamification threat model:** Via Nguyen (2020), the finite/infinite lens identifies precisely where gamification (finite thinking applied to infinite domains) degrades autonomy through "value leakage." This gives the repository a formal threat model for engagement design gone wrong.
 
-The finite/infinite distinction is a *heuristic*, not an ontology. Not everything reduces to this binary. Some domains are genuinely finite (a chess game, a tax return, a sprint) and treating them as infinite generates confusion, not insight. The diagnostic power of the binary depends on knowing *when* to apply it — and the framework itself offers no meta-rule for this. Wyss-Flamm & Zandee (2001) introduce "transitional play" as a productive middle ground that the clean binary elides.
+4. **CARDS Autonomy axiom:** Carse's axiom — *"If a person must play, that person cannot play"* — is the strongest external philosophical statement of CARDS Autonomy in the library. It grounds A not as a preference but as a precondition for play itself.
 
-Notably, Carse's own final sentence — *"There is but one infinite game"* — already complicates the binary from within. The book opens by proposing "at least two kinds of games" and closes by asserting one. The binary is scaffolding the author himself dismantles; the framework's deepest move is not the distinction but its dissolution.
-
-### Known Limitations
-
-- **Not empirical.** Carse offers propositions, not evidence. The framework is speculative-philosophical, closer to Huizinga's *Homo Ludens* or Pirsig's *Zen and the Art of Motorcycle Maintenance* than to a testable theory. Partial empirical validation exists (Harré & Madden, 2017), but the framework's power is heuristic, not predictive.
-- **Low operational specificity.** Carse tells you *what to see*, not *what to do*. The execution routines in §7 are this repository's construction, not Carse's. The framework generates diagnostics, not procedures.
-- **152 pages.** The book's brevity is both its strength (aphoristic density, memorable formulations) and its weakness (underdeveloped arguments, assertions without substantiation, ambiguities that resist resolution).
-
-### External Critiques
-
-- **"Poetic over rigorous"** — the framework privileges metaphor over mechanism. This is a feature for this repository (which values poetry) and a bug for domains that need operational precision.
-- **Sinek dilution** — Simon Sinek's *The Infinite Game* (2019) popularised a shallow reading of Carse, leading to the framework being associated with business platitudes. The original is substantially more nuanced.
-- **Nguyen's caution** — C. Thi Nguyen (2020) argues that *literal* play (games as art) differs importantly from *metaphorical* infinite-game framing. Applying game logic to non-game domains risks the same "value leakage" that the framework warns against. The diagnostic must be applied with awareness that "infinite game" is a metaphor, not a literal description.
-
-### Cultural Constraints
-
-- **Western philosophical tradition.** Carse's framework emerges from a European intellectual lineage (Huizinga, Wittgenstein, Kierkegaard, Bergson). The voluntariness assumption ("whoever must play, cannot play") presupposes a liberal conception of individual freedom that may not translate across all cultural contexts.
-- **Privilege of play.** The invitation to "play" presupposes conditions (safety, sufficiency, freedom) that not everyone has. When survival is at stake, the distinction between finite and infinite may feel academic. Mitigation: the framework should be applied *to systems and structures*, not to individuals whose constrained choices it might trivialise.
-
-### The Meta-Question
-
-> *When does the infinite game framework itself become a finite game?*
-
-When it is used to **declare winners**. "We play infinite games; they play finite games" is itself a finite move — a ranking, a title, a claim to superiority. The moment the framework is used to sort people into better (infinite players) and worse (finite players), it has collapsed into exactly what it warns against. The framework must be applied to *orientations and structures*, not to people.
-
-This is the deepest test of the framework's integrity: can it resist being used as a weapon? If it cannot, it has failed on its own terms.
-
----
-
-## §9. Verification & Primary Sources
-
-### Source Verification
-
-| Source | Tier | DOI / Access | Status |
-|--------|------|-------------|--------|
-| Carse, J.P. (1986). *Finite and Infinite Games*. Free Press. | **Silver** | ISBN: 978-1-4767-3171-1 | Verified |
-| Wyss-Flamm & Zandee (2001). *J. Management Education*, 25(3). | **Gold** | 10.1177/105256290102500303 | Verified (paywall) |
-| Harré & Madden (2017). *Ecopsychology*, 9(4), 212–224. | **Gold** | 10.1089/eco.2017.0015 | Verified (ResearchGate) |
-| Nguyen, C.T. (2020). *Games: Agency as Art*. OUP. | **Gold** | 10.1093/oso/9780190052089.001.0001 | Verified (PhilArchive) |
-| Agnoletti et al. (2022). *Discover Health Systems*, 1(1), 7. | **Gold** | 10.1007/s44250-022-00007-5 | Verified (PMC open access) |
-| Sinek, S. (2019). *The Infinite Game*. Portfolio/Penguin. | **Silver** | ISBN: 978-0-7352-1350-7 | Verified (derivative) |
-| Harré, N. (2018). *The Infinite Game*. Auckland University Press. | **Silver** | ISBN: 978-1-86940-860-8 | Verified |
-
-### Key Claims Verified
-
-| Claim | Source | Verification |
-|-------|--------|-------------|
-| "If a person must play, that person cannot play" | Carse (1986), §1 | Direct quote; foundational axiom |
-| Finite/infinite distinction has diagnostic utility in healthcare | Agnoletti et al. (2022) | Peer-reviewed case study; "ethical fading" mechanism |
-| Infinite play conditions produce connection, expression, vitality values | Harré & Madden (2017) | Empirical (N=1,085, 30 workshops) |
-| Gamification threatens autonomy via "value leakage" | Nguyen (2020), Ch. 1, 11 | Philosophical argument (OUP monograph) |
-| "Transitional play" as third mode between finite and infinite | Wyss-Flamm & Zandee (2001) | Peer-reviewed (abstract; paywall limits full verification) |
-| "There is but one infinite game" | Carse (1986), final chapter (one sentence) | Direct quote; constitutes the entire final chapter |
-
-### Recent Academic Activity
-
-Post-2019 acceleration driven partly by Sinek's popularisation but also by renewed academic interest:
-- Agnoletti et al. (2022) — healthcare application in *Discover Health Systems*
-- Nguyen (2020) — philosophical deepening in *Games: Agency as Art* (OUP)
-- Formal citation count: ~129 (Semantic Scholar); cultural weight substantially larger than citation count suggests
-- Disciplinary spread: philosophy, management, health, psychology, sustainability, art, ecopsychology
-
----
+5. **Bridging function:** Connects Salutogenesis (health-creation as infinite game), SOLID (OCP as infinite-game architecture), and Multi-Partiality (holding the relational field open as infinite play) under a single unifying metaphor. The infinite game is the field within which these other frameworks operate.
 
 ## Cross-links
 
@@ -429,3 +427,17 @@ Post-2019 acceleration driven partly by Sinek's popularisation but also by renew
 - **[PROTOCOL__lib_research.md](../protocols/PROTOCOL__lib_research.md)** — Upstream research protocol
 - **[research__infinite_games.md](../../staging/research/research__infinite_games.md)** — Research brief (status: complete, gate: 5/5)
 - **[DEPENDENCIES.md](../../DEPENDENCIES.md)** — Carse in the broader constellation [32]
+
+---
+
+## Appendix: Contract
+
+> ```yaml
+> title: "INFINITE GAMES — A Vision of Life as Play and Possibility"
+> author: "James P. Carse"
+> host: "André S Clements (Reference Hosting Only)"
+> intent: "Game-type diagnostic lens; philosophical grounding for parametric authorship as infinite design."
+> lineage: "Huizinga (1938) → Wittgenstein / Kierkegaard / Bergson → Carse (1986)"
+> status: "Imported Library"
+> usage: "Game-type diagnostic; parametric authorship grounding; gamification threat assessment; engagement design evaluation."
+> ```

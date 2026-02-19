@@ -1,15 +1,6 @@
 # LIBRARY — MULTI-PARTIALITY (Ivan Boszormenyi-Nagy)
 
-> **Contract:**
-> ```yaml
-> title: "MULTI-PARTIALITY — Contextual Therapy & Relational Ethics"
-> author: "Ivan Boszormenyi-Nagy (1920-2007)"
-> host: "André S Clements (Reference Hosting Only)"
-> intent: "To provide a stable reference for the Multi-directed Partiality framework."
-> lineage: "Family therapy → Contextual therapy → Relational ethics (1973)"
-> status: "Imported Library"
-> usage: "Multi-stakeholder navigation; relational ethics; loyalty dynamics; ledger of entitlements."
-> ```
+> **Status:** Imported Library | **Host:** André S Clements | [Full contract →](#appendix-contract)
 
 ---
 
@@ -18,8 +9,6 @@
 **Multi-directed Partiality (Multidirected Partiality) is a framework developed by Ivan Boszormenyi-Nagy (1920-2007)**, a Hungarian-American psychiatrist and one of the founders of family therapy.
 
 First articulated in *Invisible Loyalties: Reciprocity in Intergenerational Family Therapy* (1973, with Geraldine Spark) and elaborated in *Between Give and Take: A Clinical Guide to Contextual Therapy* (1986, with Barbara Krasner), Multi-directed Partiality emerged from Nagy's integration of psychodynamic, existential, and systemic approaches with a relational ethics grounding.
-
-> **Maintainer's Note:** This document is hosted in the `README` repository as a **reference node** to facilitate linking and usage within the network. It is not a claim of authorship. Ivan Boszormenyi-Nagy is the intellectual author of Contextual Therapy and the Multi-directed Partiality methodology.
 
 **Key Works:**
 - Boszormenyi-Nagy, I. & Spark, G. (1973). *Invisible Loyalties: Reciprocity in Intergenerational Family Therapy*. New York: Harper & Row.
@@ -32,33 +21,11 @@ Psychodynamic Theory (Freud, object relations)
             └── Contextual Therapy (Boszormenyi-Nagy, 1973)
                     └── Multi-directed Partiality (methodology)
                             └── Relational Ethics (the fourth dimension)
-                                    └── Integration with CARDS & Observer Pattern (this repository)
 ```
 
 ---
 
-## §1. The Utility (Why Import This?)
-
-Multi-directed Partiality inverts the dominant therapeutic stance:
-
-| Neutrality Paradigm | Multi-partiality Paradigm |
-|---------------------|---------------------------|
-| "Stay impartial" | "Be partial to everyone" |
-| Don't take sides | Take all sides simultaneously |
-| Focus on the "identified patient" | Focus on the relational system |
-| Binary: helper/helped | Continuum: give ↔ take |
-| Treat individual pathology | Strengthen relational resources |
-
-**Why this matters for the repository:**
-
-1. **Observer Pattern:** README §5 models relationships as a constellation; multi-partiality provides the ethical methodology for holding multiple Observer perspectives without collapsing into one
-2. **CARDS integration:** The "ledger of merits and entitlements" maps to CARDS — particularly Relatedness (R) and Dignity (D)
-3. **Hyperstrate coherence:** Multi-partiality enables field coherence through holding dissent; dignity conservation across the graph
-4. **Provenance:** The intergenerational ledger maps to provenance tracking — obligations and entitlements have traceable origins
-
----
-
-## §2. The Core Question
+## §1. The Core Question
 
 > *"How can we be fair to everyone in a relational system, including those not present, those who came before, and those yet to come?"*
 
@@ -72,14 +39,14 @@ This reframes ethics as **relational balance** — not abstract rules, but the c
 
 ---
 
-## §3. The Five Dimensions of Contextual Therapy
+## §2. The Five Dimensions of Contextual Therapy
 
 Contextual Therapy integrates five dimensions of human reality. Multi-directed Partiality operates across all of them but finds its home in the fourth (Relational Ethics).
 
 | Dimension | Definition | Focus |
 |-----------|------------|-------|
 | **1. Facts** | Objective circumstances: genetics, health, history, socioeconomic context | "What are the givens?" |
-| **2. Individual Psychology** | Intrapsychic dynamics: defenses, motivations, cognitions | "What does this person feel/think?" |
+| **2. Individual Psychology** | Intrapsychic dynamics: defences, motivations, cognitions | "What does this person feel/think?" |
 | **3. Systemic Interactions** | Patterns, roles, power dynamics, communication structures | "How does this system function?" |
 | **4. Relational Ethics** | Ledger of fairness, loyalty, entitlement, legacy, trustworthiness | "What is owed? What has been given?" |
 | **5. Ontic** | Existential dimension: being-in-relation, I-Thou encounter | "What does it mean to truly meet?" |
@@ -88,9 +55,9 @@ Contextual Therapy integrates five dimensions of human reality. Multi-directed P
 
 ---
 
-## §4. Core Constructs
+## §3. Core Constructs
 
-### 4.1 The Ledger of Merits and Entitlements
+### 3.1 The Ledger of Merits and Entitlements
 
 Every relationship has an implicit **ledger** that tracks:
 - What has been given
@@ -107,7 +74,7 @@ Negative balance → Accumulated debt
 
 **Key insight:** This ledger is not always conscious, but it operates. People act from their sense of what they deserve based on what they've given.
 
-### 4.2 Destructive Entitlement
+### 3.2 Destructive Entitlement
 
 When a person has been genuinely wronged but cannot address it with the original wrongdoer, they may feel entitled to extract payment from others.
 
@@ -119,7 +86,7 @@ Destructive Entitlement := unaddressed_injury → displaced_claim → harm_to_in
 
 **Critical:** This is not pathology but a relational logic. The entitlement is real; the displacement is the problem.
 
-### 4.3 Loyalty
+### 3.3 Loyalty
 
 Loyalty is the **invisible thread** that binds people across generations. It can be:
 
@@ -131,7 +98,7 @@ Loyalty is the **invisible thread** that binds people across generations. It can
 
 **Split loyalty** is one of the most painful human experiences — and one of the most common sources of presenting problems.
 
-### 4.4 Legacy
+### 3.4 Legacy
 
 What is passed down — not just material inheritance, but patterns, debts, mandates, and gifts.
 
@@ -141,7 +108,7 @@ Legacy := {material, relational, ethical, existential}
 
 Each person inherits legacies and creates legacies. Multi-partiality asks: "What legacy is being passed on? What ledger entries are being transferred?"
 
-### 4.5 Trustworthiness
+### 3.5 Trustworthiness
 
 The currency of relational ethics. Built through:
 - Acknowledgment of the other's entitlement
@@ -155,7 +122,7 @@ Trust := f(acknowledgment, fair_accounting, give_credit, accept_debt)
 
 ---
 
-## §5. Multi-directed Partiality as Method
+## §4. Multi-directed Partiality as Method
 
 ### The Core Stance
 
@@ -180,7 +147,7 @@ Absent person (child, ancestor) → acknowledgment → credit
 Integration → what emerges from holding all?
 ```
 
-**Key:** The therapist does not synthesize into a single truth. They hold multiple truths simultaneously, allowing the system to find its own integration.
+**Key:** The therapist does not synthesise into a single truth. They hold multiple truths simultaneously, allowing the system to find its own integration.
 
 ### Lending Weight
 
@@ -195,7 +162,7 @@ Weight allocation := f(vulnerability, voice_access, historical_debt)
 
 ---
 
-## §6. The Give-Take Balance
+## §5. The Give-Take Balance
 
 The fundamental dynamic of relational life:
 
@@ -223,9 +190,50 @@ The process of rebalancing a relationship through:
 
 ---
 
-## §7. Integration with CARDS
+## §6. The And-Yet (Shadow)
 
-The CARDS framework ([Je'anna L Clements](CARDS.md)) maps to Contextual Therapy:
+- **Relational focus.** May underweight individual pathology when present
+- **Western lineage.** Concepts like "ledger" may not translate across all cultures
+- **Complexity.** Holding multiple perspectives requires high cognitive/emotional load
+- **Time.** Rejunction is slow; not suited for acute crisis intervention
+
+---
+
+## §7. Verification & Primary Sources
+
+- [Ivan Boszormenyi-Nagy - Wikipedia](https://en.wikipedia.org/wiki/Ivan_Boszormenyi-Nagy)
+- [Applying the Paradigm of Relational Ethics into Contextual Therapy - PubMed](https://pubmed.ncbi.nlm.nih.gov/28869763/)
+- [Boszormenyi-Nagy and Contextual Therapy: An Overview - Wiley](https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1467-8438.2001.tb00469.x)
+- [What is Contextual Therapy? - Tretbar Therapy](https://tretbartherapy.com/help/articles/what-is-contextual-therapy)
+
+## References
+
+- Boszormenyi-Nagy, I. & Spark, G. (1973). *Invisible Loyalties: Reciprocity in Intergenerational Family Therapy*. New York: Harper & Row.
+- Boszormenyi-Nagy, I. & Krasner, B. (1986). *Between Give and Take: A Clinical Guide to Contextual Therapy*. New York: Brunner/Mazel.
+
+---
+
+# Repository Integration
+
+## What This Changes
+
+Multi-directed Partiality inverts the dominant therapeutic stance:
+
+| Neutrality Paradigm | Multi-partiality Paradigm |
+|---------------------|---------------------------|
+| "Stay impartial" | "Be partial to everyone" |
+| Don't take sides | Take all sides simultaneously |
+| Focus on the "identified patient" | Focus on the relational system |
+| Binary: helper/helped | Continuum: give ↔ take |
+| Treat individual pathology | Strengthen relational resources |
+
+## Maintainer's Note
+
+This document is hosted in the `README` repository as a **reference node** to facilitate linking and usage within the network. It is not a claim of authorship. Ivan Boszormenyi-Nagy is the intellectual author of Contextual Therapy and the Multi-directed Partiality methodology.
+
+## Integration with CARDS
+
+The [CARDS](CARDS.md) framework (Je'anna L Clements) maps to Contextual Therapy:
 
 ### Relational Ethics via CARDS
 
@@ -261,9 +269,7 @@ D_ledger := "Have I been seen and credited? Have I seen and credited others?"
 S_ledger := "Have I been protected? Have I protected others?"
 ```
 
----
-
-## §8. Integration with Observer Pattern (README §5)
+## Integration with Observer Pattern
 
 The **Observer Pattern** in README §5 models relationships as a dynamic constellation. Multi-partiality provides the ethical methodology:
 
@@ -298,9 +304,7 @@ For D to remain non-decreasing:
   Exits must be clean (ledger settled or acknowledged as unsettled)
 ```
 
----
-
-## §9. Practical Application: The Multi-partiality Routine
+## Execution Routines
 
 ### Routine A: Self-Check (Before Engaging)
 
@@ -323,16 +327,12 @@ For D to remain non-decreasing:
 3. **Preserve dissent.** Log minority views; they may carry truths.
 4. **Enable clean exits.** Ledgers can be acknowledged even if unsettled.
 
----
+## Why This Matters for the Repository
 
-## §10. Limits & Bias
-
-- **Relational focus.** May underweight individual pathology when present
-- **Western lineage.** Concepts like "ledger" may not translate across all cultures
-- **Complexity.** Holding multiple perspectives requires high cognitive/emotional load
-- **Time.** Rejunction is slow; not suited for acute crisis intervention
-
----
+1. **Observer Pattern:** README §5 models relationships as a constellation; multi-partiality provides the ethical methodology for holding multiple Observer perspectives without collapsing into one
+2. **CARDS integration:** The "ledger of merits and entitlements" maps to CARDS — particularly Relatedness (R) and Dignity (D)
+3. **Hyperstrate coherence:** Multi-partiality enables field coherence through holding dissent; dignity conservation across the graph
+4. **Provenance:** The intergenerational ledger maps to provenance tracking — obligations and entitlements have traceable origins
 
 ## Cross-links
 
@@ -345,9 +345,14 @@ For D to remain non-decreasing:
 
 ---
 
-## Sources
+## Appendix: Contract
 
-- [Ivan Boszormenyi-Nagy - Wikipedia](https://en.wikipedia.org/wiki/Ivan_Boszormenyi-Nagy)
-- [Applying the Paradigm of Relational Ethics into Contextual Therapy - PubMed](https://pubmed.ncbi.nlm.nih.gov/28869763/)
-- [Boszormenyi-Nagy and Contextual Therapy: An Overview - Wiley](https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1467-8438.2001.tb00469.x)
-- [What is Contextual Therapy? - Tretbar Therapy](https://tretbartherapy.com/help/articles/what-is-contextual-therapy)
+> ```yaml
+> title: "MULTI-PARTIALITY — Contextual Therapy & Relational Ethics"
+> author: "Ivan Boszormenyi-Nagy (1920-2007)"
+> host: "André S Clements (Reference Hosting Only)"
+> intent: "To provide a stable reference for the Multi-directed Partiality framework."
+> lineage: "Family therapy → Contextual therapy → Relational ethics (1973)"
+> status: "Imported Library"
+> usage: "Multi-stakeholder navigation; relational ethics; loyalty dynamics; ledger of entitlements."
+> ```

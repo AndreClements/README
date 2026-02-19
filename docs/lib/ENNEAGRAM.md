@@ -1,26 +1,14 @@
 # LIBRARY — THE ENNEAGRAM (Ichazo, Naranjo, Riso & Hudson)
 
-> **Contract:**
-> *Structured lineage for computational use — the human story unfolds below.*
-> ```yaml
-> title: "THE ENNEAGRAM — A Dynamic System of Personality"
-> authors: ["Oscar Ichazo", "Claudio Naranjo", "Don Richard Riso", "Russ Hudson"]
-> host: "André S Clements (Reference Hosting Only)"
-> intent: "To provide a stable reference for the Enneagram as a dynamic system of movement, not a static typology."
-> lineage: "Sufi geometry → Gurdjieff (process symbol) → Ichazo (ego fixations) → Naranjo (clinical psychology) → Riso & Hudson (Levels of Development)"
-> status: "Imported Library"
-> usage: "Self-knowledge diagnostic; relational navigation; observational stance mapping; integration/disintegration dynamics."
-> ```
+> **Status:** Imported Library | **Host:** André S Clements | [Full contract →](#appendix-contract)
 
 ---
 
 ## Attribution & Ownership
 
-**The Enneagram of Personality is a typological system with roots in Sufi sacred geometry, developed as a personality framework by Oscar Ichazo and Claudio Naranjo, and systematized by Don Richard Riso and Russ Hudson.**
+**The Enneagram of Personality is a typological system with roots in Sufi sacred geometry, developed as a personality framework by Oscar Ichazo and Claudio Naranjo, and systematised by Don Richard Riso and Russ Hudson.**
 
 The nine-pointed symbol (Greek: *ennea* = nine, *gramma* = drawing) has deep historical roots, while its application to personality typology is a twentieth-century development with multiple contributing lineages.
-
-> **Maintainer's Note:** This document hosts the Enneagram framework for repository integration. The Enneagram's lineage is collaborative and multi-generational — no single author "owns" it, though specific elaborations (e.g., Riso-Hudson's Levels of Development) have clear attributions. This entry traces the full lineage while crediting specific contributions.
 
 **Key Works:**
 
@@ -42,40 +30,14 @@ Sufi Sacred Geometry (origin unknown; nine-pointed figure)
                 └── Claudio Naranjo (1970s) — Clinical psychology; linked to DSM categories
                     └── Don Richard Riso & Russ Hudson (1990s-2000s)
                         ├── Levels of Development (9 levels per type)
-                        ├── Instinctual Variants (sp/so/sx)
-                        └── Integration with CARDS (this repository)
+                        └── Instinctual Variants (sp/so/sx)
 ```
 
 ---
 
-## §1. The Utility (Why Import This?)
+## §1. The 9 Types (The Primitives)
 
-The Enneagram inverts the dominant personality paradigm:
-
-| Static Typology | Enneagram as Dynamic System |
-|-----------------|----------------------------|
-| "You are Type X" | "You are currently *at* Type X — here are your paths" |
-| Fixed categories | Lines of movement (integration, disintegration) |
-| Describe behavior | Explain underlying motivation |
-| External observation | Internal phenomenology |
-| Labels as endpoints | Labels as starting positions |
-
-**Why this matters for the repository:**
-
-1. **CARDS diagnostic depth:** Each type has a characteristic CARDS vulnerability signature — knowing the type predicts which CARD will go red first under stress, enabling targeted intervention
-2. **Multi-partiality operationalized:** The 9 types represent 9 genuinely different observational stances; multi-partiality becomes concrete when you understand *why* each perspective sees what it sees
-3. **Salutogenic alignment:** The Levels of Development (Riso-Hudson) map directly to the health-ease/dis-ease continuum — health is a direction of movement, not a type
-4. **Observer Pattern enrichment:** Each type is a distinct observer with specific perceptual biases, blind spots, and gifts — the constellation becomes navigable
-5. **The Key Insight:** What integrates one person may destroy another. The same quality is medicine or poison depending on where you stand
-
-> *"The Enneagram doesn't put you in a box. It shows you the box you're already in — and how to get out."*
-> — Don Richard Riso & Russ Hudson, *The Wisdom of the Enneagram* (1999)
-
----
-
-## §2. The 9 Types (The Primitives)
-
-Each type is defined not by behavior but by **core motivation** — the underlying fear and desire that organize perception and response.
+Each type is defined not by behaviour but by **core motivation** — the underlying fear and desire that organise perception and response.
 
 | Type | Name | Core Fear | Core Desire | Basic Proposition |
 |:----:|:-----|:----------|:------------|:------------------|
@@ -94,21 +56,21 @@ Each type is defined not by behavior but by **core motivation** — the underlyi
 
 ---
 
-## §3. The Dynamic System
+## §2. The Dynamic System
 
-### 3.1 The Three Centers of Intelligence
+### 2.1 The Three Centres of Intelligence
 
-The 9 types cluster into three **Centers** — three fundamentally different ways of processing experience:
+The 9 types cluster into three **Centres** — three fundamentally different ways of processing experience:
 
-| Center | Types | Intelligence | Core Emotion | Processes Through |
+| Centre | Types | Intelligence | Core Emotion | Processes Through |
 |--------|-------|-------------|--------------|-------------------|
 | **Gut / Body** | 8, 9, 1 | Instinctive / Somatic | Anger (often suppressed or redirected) | Action, boundary, will |
 | **Heart / Feeling** | 2, 3, 4 | Emotional / Relational | Shame (identity and image) | Connection, recognition, identity |
 | **Head / Thinking** | 5, 6, 7 | Intellectual / Analytical | Fear (security and orientation) | Understanding, planning, mapping |
 
-**Jungian resonance:** The three Centers echo (without replicating) Jung's function typology — thinking, feeling, and sensation/intuition as distinct modes of engaging reality. The Enneagram adds a crucial specificity: within each Center, three types represent different *relationships* to the core emotion (over-expressing, under-expressing, or turning it inward).
+**Jungian resonance:** The three Centres echo (without replicating) Jung's function typology — thinking, feeling, and sensation/intuition as distinct modes of engaging reality. The Enneagram adds a crucial specificity: within each Centre, three types represent different *relationships* to the core emotion (over-expressing, under-expressing, or turning it inward).
 
-### 3.2 Lines of Integration and Disintegration
+### 2.2 Lines of Integration and Disintegration
 
 Each type has two **lines** connecting it to other types on the Enneagram figure:
 
@@ -127,11 +89,11 @@ Each type has two **lines** connecting it to other types on the Enneagram figure
 | 8 | → **2** (tenderness, generosity, vulnerability) | → **5** (withdrawal, paranoia, isolation) |
 | 9 | → **3** (energy, focus, self-development) | → **6** (anxiety, reactivity, suspicion) |
 
-### 3.3 Wings
+### 2.3 Wings
 
 Each type is influenced by one or both adjacent types on the circle. A Type 4 may lean toward 3 (4w3: "The Aristocrat" — more ambitious and image-aware) or toward 5 (4w5: "The Bohemian" — more withdrawn and intellectual). Wings add nuance without changing the core type.
 
-### 3.4 Instinctual Variants
+### 2.4 Instinctual Variants
 
 Three biological drives overlay the type system:
 
@@ -145,9 +107,9 @@ Each person has all three but in a characteristic stacking (e.g., sp/so/sx), cre
 
 ---
 
-## §4. Levels of Development (Riso-Hudson)
+## §3. Levels of Development (Riso-Hudson)
 
-Perhaps the most clinically significant contribution to Enneagram theory: Riso and Hudson's **9 Levels of Development** per type, organized into three bands.
+Perhaps the most clinically significant contribution to Enneagram theory: Riso and Hudson's **9 Levels of Development** per type, organised into three bands.
 
 | Band | Levels | Direction | Character |
 |------|--------|-----------|-----------|
@@ -160,11 +122,9 @@ Perhaps the most clinically significant contribution to Enneagram theory: Riso a
 > *"Growth for each type involves moving against the grain of its habitual pattern. The type structure is not the problem — the identification with it is."*
 > — Don Richard Riso & Russ Hudson, *The Wisdom of the Enneagram* (1999)
 
-**Salutogenic mapping:** The Levels of Development *are* the health-ease/dis-ease continuum (Antonovsky) applied within a typological frame. Movement toward Level 1 = movement toward health-ease. Movement toward Level 9 = movement toward dis-ease.
-
 ---
 
-## §5. The Key Insight: Same Medicine, Different Patient
+## §4. The Key Insight: Same Medicine, Different Patient
 
 This is the Enneagram's most powerful — and most counterintuitive — teaching:
 
@@ -202,165 +162,26 @@ This is **parametric** — the value of a quality is not intrinsic but depends o
 
 ---
 
-## §6. Integration with CARDS
+## §5. The And-Yet (Shadow)
 
-### 6.1 CARDS Vulnerability by Type
-
-Each type has a characteristic **CARDS vulnerability signature** — the CARD most likely to go red under stress:
-
-| Type | Primary Vulnerability | CARDS Signature Under Stress | What They Need Most |
-|:----:|:---------------------|:----------------------------|:-------------------|
-| **1** | **A** (Autonomy) 🔴 | "I can't be myself; my impulses are wrong" | Permission: A → 🟢 |
-| **2** | **D** (Dignity) 🔴 | "I only matter when I'm helping; I'm not seen for myself" | Recognition: D → 🟢 |
-| **3** | **D** (Dignity) 🔴 | "My worth is my performance; without success I'm nothing" | Unconditional worth: D → 🟢 |
-| **4** | **R** (Relatedness) 🔴 | "I don't belong; I'm fundamentally different" | Belonging: R → 🟢 |
-| **5** | **C** (Competence) 🔴 | "I don't have enough knowledge/resources to cope" | Sufficiency: C → 🟢 |
-| **6** | **S** (Safety) 🔴 | "The world is dangerous; I can't trust" | Security: S → 🟢 |
-| **7** | **S** (Safety) 🔴 | "I'll be trapped in pain; I must keep moving" | Safety to stay: S → 🟢 |
-| **8** | **A** (Autonomy) 🔴 | "I'll be controlled; I must dominate first" | Autonomy without armor: A → 🟢 |
-| **9** | **C** (Competence) 🔴 | "My presence doesn't matter; I can't affect anything" | Agency: C → 🟢 |
-
-### 6.2 Bidirectional Diagnostic
-
-**Forward (Type → CARDS):** If you know someone's type, predict which CARD is most vulnerable.
-
-**Reverse (CARDS → Type):** If you observe a CARDS degradation pattern, consider which type structure might be driving it.
-
-```
-Diagnostic Protocol:
-1. Assess CARDS state (🟢🟠🔴 for each)
-2. Identify which CARD is most persistently red
-3. Check: does the pattern match a type signature?
-4. If yes: consult integration direction for that type
-5. Intervention: support the CARD + encourage movement toward integration point
-```
-
-### 6.3 Integration Lines as CARDS Recovery Paths
-
-| Type | CARDS Vulnerability | Integration Direction | CARDS Recovery Mechanism |
-|:----:|:-------------------:|:---------------------:|:------------------------|
-| **1** | A 🔴 | → 7 | Joy and spontaneity restore autonomy permission |
-| **2** | D 🔴 | → 4 | Self-awareness restores self-dignity |
-| **3** | D 🔴 | → 6 | Loyalty to others restores genuine worth |
-| **4** | R 🔴 | → 1 | Discipline and purpose build reliable connection |
-| **5** | C 🔴 | → 8 | Decisive action builds embodied competence |
-| **6** | S 🔴 | → 9 | Relaxation and trust restore felt safety |
-| **7** | S 🔴 | → 5 | Depth and focus build inner stability |
-| **8** | A 🔴 | → 2 | Vulnerability restores authentic autonomy |
-| **9** | C 🔴 | → 3 | Self-development restores sense of agency |
-
----
-
-## §7. Integration with Multi-Partiality
-
-### 7.1 Loyalty Patterns by Type
-
-Each type has a characteristic **loyalty structure** (Boszormenyi-Nagy):
-
-| Type | Primary Loyalty | Ledger Tendency | Vulnerability |
-|:----:|:---------------|:----------------|:-------------|
-| **1** | To principles, standards, "the right way" | Over-giving (effort, correction) | Resentment when unreciprocated |
-| **2** | To specific people; vertical and horizontal | Over-giving (care, service) | Covert ledger: "You owe me" |
-| **3** | To success system; institutional loyalty | Transactional: give performance, take admiration | Ledger collapse when image fails |
-| **4** | To authentic self; to unique experience | Uneven: intense giving, then withdrawal | Feels chronically owed (understanding) |
-| **5** | To knowledge, competence, inner world | Under-giving (presence, emotional energy) | Depleted ledger: gives less than needed |
-| **6** | To group, authority, trusted system | Tests loyalty constantly; gives vigilance | Split loyalty: cannot serve two masters |
-| **7** | To freedom, possibility, experience | Promises more than delivers; future-oriented | Loyalty to options over commitments |
-| **8** | To those under protection; to the vulnerable | Massive giving (protection) + massive taking (control) | Destructive entitlement from early vulnerability |
-| **9** | To harmony, to everyone equally | Gives peace, takes invisibility | Self-erasure as relational strategy |
-
-### 7.2 Multi-Partiality Application
-
-When holding space for multiple types in a relational system:
-
-1. **Credit each type's contribution** according to its own ledger logic (a 2's care-giving IS their currency; a 5's intellectual contribution IS their giving)
-2. **Name the loyalty binds** — a 6 torn between authority figures; a 9 caught between competing needs
-3. **Weight toward the vulnerable** — at any given moment, the type under most stress needs more acknowledgment
-4. **Represent the absent type's perspective** — if a 4 is not in the room, their need for recognition still has entitlement
-
----
-
-## §8. Integration with Salutogenesis
-
-### 8.1 SOC by Type
-
-Each type has characteristic **Sense of Coherence** strengths and vulnerabilities:
-
-| Type | SOC Strength | SOC Vulnerability | Primary GRR |
-|:----:|:------------|:------------------|:------------|
-| **1** | Comprehensibility (strong standards provide structure) | Meaningfulness (rigidity drains joy) | Coping strategies (rationality) |
-| **2** | Meaningfulness (helping gives purpose) | Manageability (over-extension depletes resources) | Social support (but conditional) |
-| **3** | Manageability (high competence, many resources) | Comprehensibility (confusion between mask and self) | Ego identity (but image-based) |
-| **4** | Meaningfulness (deep emotional engagement) | Manageability (overwhelmed by feelings) | Ego identity (authentic but fragile) |
-| **5** | Comprehensibility (understanding as primary mode) | Manageability (insufficient resources for demands) | Knowledge/intelligence |
-| **6** | Comprehensibility (anticipates and maps dangers) | Meaningfulness (anxiety undermines investment) | Social support (when trust is intact) |
-| **7** | Manageability (resourceful, many options) | Comprehensibility (scattered attention resists structure) | Coping strategies (flexibility) |
-| **8** | Manageability (will and energy to meet demands) | Comprehensibility (denial of vulnerability creates blind spots) | Constitutional resilience |
-| **9** | Meaningfulness (connects to larger wholes) | Manageability (passivity reduces available resources) | Social support + cultural stability |
-
-### 8.2 Integration as Salutogenic Movement
-
-Movement toward the integration point *is* movement toward health-ease:
-
-```
-Integration direction → strengthens weakest SOC component
-Disintegration direction → degrades strongest SOC component
-
-∴ Health trajectory = f(type, level, direction_of_movement)
-```
-
-**The river metaphor applies:** Every type is always in the river. The integration point shows how to swim better *for that type*. Teaching a 5 to swim like an 8 (engagement, embodiment) builds their capacity. Teaching an 8 to swim like a 5 (retreat, isolation) — under stress — drowns them.
-
----
-
-## §9. Execution Routines
-
-### Routine A: Self-Diagnostic
-
-1. **Identify your Center** — Gut (anger), Heart (shame), or Head (fear)?
-2. **Narrow to type** — Within your Center, what is your core fear?
-3. **Assess your Level** — Are you in Healthy (1-3), Average (4-6), or Unhealthy (7-9) range right now?
-4. **Check integration direction** — What quality would move you toward health?
-5. **Cross-check with CARDS** — Which CARD is currently most vulnerable?
-
-### Routine B: Relational Navigation
-
-1. **Map the types present** — What types are in this relational system?
-2. **Identify the loyalty structures** — Who is loyal to what? Where are the binds?
-3. **Credit the contributions** — Each type gives in its own currency; acknowledge it
-4. **Anticipate the stress responses** — Under pressure, where will each type go?
-5. **Design for multi-partiality** — Can you hold space for all 9 perspectives?
-
-### Routine C: System Design
-
-1. **Which types does this system serve?** — Does the interface assume one cognitive style?
-2. **Are all three Centers addressed?** — Gut (action), Heart (connection), Head (understanding)?
-3. **Where are the integration paths?** — Does the system facilitate growth or entrench patterns?
-4. **What are the stress triggers?** — Does the system inadvertently push types toward disintegration?
-5. **Is the type a cage or a map?** — Does the system use typology to expand possibility or restrict it?
-
----
-
-## §10. The And-Yet (Shadow)
-
-### 10.1 Scientific Validity
+### 5.1 Scientific Validity
 
 The Enneagram's empirical status is **mixed**:
 
 - **Early validation:** Wagner & Walker (1983) found preliminary reliability and validity for the 9-type structure in *Journal of Clinical Psychology*
 - **Factor-analytic concerns:** Several studies have failed to reproduce a clean 9-factor structure using standard psychometric methods
-- **RHETI validity:** The Riso-Hudson Enneagram Type Indicator shows moderate test-retest reliability but has been criticized for insufficient discriminant validity between some types
-- **Not DSM-aligned:** Despite Naranjo's efforts to connect types to DSM categories, the Enneagram is not recognized by APA or similar bodies as a validated clinical instrument
+- **RHETI validity:** The Riso-Hudson Enneagram Type Indicator shows moderate test-retest reliability but has been criticised for insufficient discriminant validity between some types
+- **Not DSM-aligned:** Despite Naranjo's efforts to connect types to DSM categories, the Enneagram is not recognised by APA or similar bodies as a validated clinical instrument
 
 **Honest assessment:** The Enneagram's power is **phenomenological and clinical**, not psychometric. It works better as a map for self-inquiry than as a measurement instrument. This is a genuine limitation — and also part of its strength. What cannot be easily quantified (motivation, inner experience) is precisely what the Enneagram tracks.
 
-### 10.2 The Barnum Effect
+### 5.2 The Barnum Effect
 
 Any typological system risks the **Barnum effect** (Forer effect) — people accepting vague, generally applicable statements as personally meaningful. The Enneagram is not immune.
 
 **Mitigation:** The system's depth (Levels, wings, instinctual variants, integration lines) resists Barnum-level vagueness. A description of "Type 4w5 at Level 6 with sp dominant" is specific enough to be falsifiable. The danger lives at the level of superficial typing, not deep engagement.
 
-### 10.3 The Cage Danger
+### 5.3 The Cage Danger
 
 The Enneagram can become the cage it promises to unlock:
 
@@ -373,7 +194,7 @@ The Enneagram can become the cage it promises to unlock:
 > *"The point of knowing your type is not to resign yourself to it but to become free of its automatic pattern."*
 > — Helen Palmer, *The Enneagram* (1988)
 
-### 10.4 Cultural Appropriation Concerns
+### 5.4 Cultural Appropriation Concerns
 
 The Enneagram's Sufi and Gurdjieffian roots raise questions about cultural appropriation:
 - Ichazo's specific debt to Sufi sources is debated; some Sufi practitioners contest the lineage claims
@@ -382,7 +203,7 @@ The Enneagram's Sufi and Gurdjieffian roots raise questions about cultural appro
 
 **The repository's stance:** Document the full lineage honestly. Credit the contested origins. Use the system for its structural dynamics, not as spiritual authority.
 
-### 10.5 Reductionism
+### 5.5 Reductionism
 
 9 types for 8 billion people is, on its face, absurd. The system mitigates this through wings, instinctual variants, Levels, and integration lines — creating a 9 × 2 × 3 × 9 × 2 space of variation. But the mitigation doesn't eliminate the fundamental tension between typological mapping and human uniqueness.
 
@@ -390,7 +211,7 @@ The Enneagram's Sufi and Gurdjieffian roots raise questions about cultural appro
 
 ---
 
-## §11. Verification & Primary Sources
+## §6. Verification & Primary Sources
 
 ### Verification Status
 
@@ -415,10 +236,201 @@ The Enneagram's Sufi and Gurdjieffian roots raise questions about cultural appro
 
 ### Recent Activity
 
-- Growing application in organizational development and leadership coaching
+- Growing application in organisational development and leadership coaching
 - Integration with contemplative psychology (Almaas, Diamond Approach)
 - Narrative Enneagram tradition (Helen Palmer, David Daniels) continues at Stanford-affiliated programs
 - Critical engagement from personality psychology regarding factor structure
+
+---
+
+# Repository Integration
+
+## What This Changes
+
+The Enneagram inverts the dominant personality paradigm:
+
+| Static Typology | Enneagram as Dynamic System |
+|-----------------|----------------------------|
+| "You are Type X" | "You are currently *at* Type X — here are your paths" |
+| Fixed categories | Lines of movement (integration, disintegration) |
+| Describe behaviour | Explain underlying motivation |
+| External observation | Internal phenomenology |
+| Labels as endpoints | Labels as starting positions |
+
+> *"The Enneagram doesn't put you in a box. It shows you the box you're already in — and how to get out."*
+> — Don Richard Riso & Russ Hudson, *The Wisdom of the Enneagram* (1999)
+
+---
+
+## Maintainer's Note
+
+This document hosts the Enneagram framework for repository integration. The Enneagram's lineage is collaborative and multi-generational — no single author "owns" it, though specific elaborations (e.g., Riso-Hudson's Levels of Development) have clear attributions. This entry traces the full lineage while crediting specific contributions. Host ≠ Author.
+
+---
+
+## Integration with [CARDS](CARDS.md)
+
+### CARDS Vulnerability by Type
+
+Each type has a characteristic **CARDS vulnerability signature** — the CARD most likely to go red under stress:
+
+| Type | Primary Vulnerability | CARDS Signature Under Stress | What They Need Most |
+|:----:|:---------------------|:----------------------------|:-------------------|
+| **1** | **A** (Autonomy) 🔴 | "I can't be myself; my impulses are wrong" | Permission: A → 🟢 |
+| **2** | **D** (Dignity) 🔴 | "I only matter when I'm helping; I'm not seen for myself" | Recognition: D → 🟢 |
+| **3** | **D** (Dignity) 🔴 | "My worth is my performance; without success I'm nothing" | Unconditional worth: D → 🟢 |
+| **4** | **R** (Relatedness) 🔴 | "I don't belong; I'm fundamentally different" | Belonging: R → 🟢 |
+| **5** | **C** (Competence) 🔴 | "I don't have enough knowledge/resources to cope" | Sufficiency: C → 🟢 |
+| **6** | **S** (Safety) 🔴 | "The world is dangerous; I can't trust" | Security: S → 🟢 |
+| **7** | **S** (Safety) 🔴 | "I'll be trapped in pain; I must keep moving" | Safety to stay: S → 🟢 |
+| **8** | **A** (Autonomy) 🔴 | "I'll be controlled; I must dominate first" | Autonomy without armour: A → 🟢 |
+| **9** | **C** (Competence) 🔴 | "My presence doesn't matter; I can't affect anything" | Agency: C → 🟢 |
+
+### Bidirectional Diagnostic
+
+**Forward (Type → CARDS):** If you know someone's type, predict which CARD is most vulnerable.
+
+**Reverse (CARDS → Type):** If you observe a CARDS degradation pattern, consider which type structure might be driving it.
+
+```
+Diagnostic Protocol:
+1. Assess CARDS state (🟢🟠🔴 for each)
+2. Identify which CARD is most persistently red
+3. Check: does the pattern match a type signature?
+4. If yes: consult integration direction for that type
+5. Intervention: support the CARD + encourage movement toward integration point
+```
+
+### Integration Lines as CARDS Recovery Paths
+
+| Type | CARDS Vulnerability | Integration Direction | CARDS Recovery Mechanism |
+|:----:|:-------------------:|:---------------------:|:------------------------|
+| **1** | A 🔴 | → 7 | Joy and spontaneity restore autonomy permission |
+| **2** | D 🔴 | → 4 | Self-awareness restores self-dignity |
+| **3** | D 🔴 | → 6 | Loyalty to others restores genuine worth |
+| **4** | R 🔴 | → 1 | Discipline and purpose build reliable connection |
+| **5** | C 🔴 | → 8 | Decisive action builds embodied competence |
+| **6** | S 🔴 | → 9 | Relaxation and trust restore felt safety |
+| **7** | S 🔴 | → 5 | Depth and focus build inner stability |
+| **8** | A 🔴 | → 2 | Vulnerability restores authentic autonomy |
+| **9** | C 🔴 | → 3 | Self-development restores sense of agency |
+
+---
+
+## Integration with Multi-Partiality
+
+### Loyalty Patterns by Type
+
+Each type has a characteristic **loyalty structure** (Boszormenyi-Nagy):
+
+| Type | Primary Loyalty | Ledger Tendency | Vulnerability |
+|:----:|:---------------|:----------------|:-------------|
+| **1** | To principles, standards, "the right way" | Over-giving (effort, correction) | Resentment when unreciprocated |
+| **2** | To specific people; vertical and horizontal | Over-giving (care, service) | Covert ledger: "You owe me" |
+| **3** | To success system; institutional loyalty | Transactional: give performance, take admiration | Ledger collapse when image fails |
+| **4** | To authentic self; to unique experience | Uneven: intense giving, then withdrawal | Feels chronically owed (understanding) |
+| **5** | To knowledge, competence, inner world | Under-giving (presence, emotional energy) | Depleted ledger: gives less than needed |
+| **6** | To group, authority, trusted system | Tests loyalty constantly; gives vigilance | Split loyalty: cannot serve two masters |
+| **7** | To freedom, possibility, experience | Promises more than delivers; future-oriented | Loyalty to options over commitments |
+| **8** | To those under protection; to the vulnerable | Massive giving (protection) + massive taking (control) | Destructive entitlement from early vulnerability |
+| **9** | To harmony, to everyone equally | Gives peace, takes invisibility | Self-erasure as relational strategy |
+
+### Multi-Partiality Application
+
+When holding space for multiple types in a relational system:
+
+1. **Credit each type's contribution** according to its own ledger logic (a 2's care-giving IS their currency; a 5's intellectual contribution IS their giving)
+2. **Name the loyalty binds** — a 6 torn between authority figures; a 9 caught between competing needs
+3. **Weight toward the vulnerable** — at any given moment, the type under most stress needs more acknowledgement
+4. **Represent the absent type's perspective** — if a 4 is not in the room, their need for recognition still has entitlement
+
+---
+
+## Integration with Salutogenesis
+
+### SOC by Type
+
+Each type has characteristic **Sense of Coherence** strengths and vulnerabilities:
+
+| Type | SOC Strength | SOC Vulnerability | Primary GRR |
+|:----:|:------------|:------------------|:------------|
+| **1** | Comprehensibility (strong standards provide structure) | Meaningfulness (rigidity drains joy) | Coping strategies (rationality) |
+| **2** | Meaningfulness (helping gives purpose) | Manageability (over-extension depletes resources) | Social support (but conditional) |
+| **3** | Manageability (high competence, many resources) | Comprehensibility (confusion between mask and self) | Ego identity (but image-based) |
+| **4** | Meaningfulness (deep emotional engagement) | Manageability (overwhelmed by feelings) | Ego identity (authentic but fragile) |
+| **5** | Comprehensibility (understanding as primary mode) | Manageability (insufficient resources for demands) | Knowledge/intelligence |
+| **6** | Comprehensibility (anticipates and maps dangers) | Meaningfulness (anxiety undermines investment) | Social support (when trust is intact) |
+| **7** | Manageability (resourceful, many options) | Comprehensibility (scattered attention resists structure) | Coping strategies (flexibility) |
+| **8** | Manageability (will and energy to meet demands) | Comprehensibility (denial of vulnerability creates blind spots) | Constitutional resilience |
+| **9** | Meaningfulness (connects to larger wholes) | Manageability (passivity reduces available resources) | Social support + cultural stability |
+
+### Integration as Salutogenic Movement
+
+Movement toward the integration point *is* movement toward health-ease:
+
+```
+Integration direction → strengthens weakest SOC component
+Disintegration direction → degrades strongest SOC component
+
+∴ Health trajectory = f(type, level, direction_of_movement)
+```
+
+**The river metaphor applies:** Every type is always in the river. The integration point shows how to swim better *for that type*. Teaching a 5 to swim like an 8 (engagement, embodiment) builds their capacity. Teaching an 8 to swim like a 5 (retreat, isolation) — under stress — drowns them.
+
+The Levels of Development *are* the health-ease/dis-ease continuum (Antonovsky) applied within a typological frame. Movement toward Level 1 = movement toward health-ease. Movement toward Level 9 = movement toward dis-ease.
+
+---
+
+## Execution Routines
+
+### Routine A: Self-Diagnostic
+
+1. **Identify your Centre** — Gut (anger), Heart (shame), or Head (fear)?
+2. **Narrow to type** — Within your Centre, what is your core fear?
+3. **Assess your Level** — Are you in Healthy (1-3), Average (4-6), or Unhealthy (7-9) range right now?
+4. **Check integration direction** — What quality would move you toward health?
+5. **Cross-check with CARDS** — Which CARD is currently most vulnerable?
+
+### Routine B: Relational Navigation
+
+1. **Map the types present** — What types are in this relational system?
+2. **Identify the loyalty structures** — Who is loyal to what? Where are the binds?
+3. **Credit the contributions** — Each type gives in its own currency; acknowledge it
+4. **Anticipate the stress responses** — Under pressure, where will each type go?
+5. **Design for multi-partiality** — Can you hold space for all 9 perspectives?
+
+### Routine C: System Design
+
+1. **Which types does this system serve?** — Does the interface assume one cognitive style?
+2. **Are all three Centres addressed?** — Gut (action), Heart (connection), Head (understanding)?
+3. **Where are the integration paths?** — Does the system facilitate growth or entrench patterns?
+4. **What are the stress triggers?** — Does the system inadvertently push types toward disintegration?
+5. **Is the type a cage or a map?** — Does the system use typology to expand possibility or restrict it?
+
+---
+
+## Why This Matters for the Repository
+
+1. **CARDS diagnostic depth:** Each type has a characteristic CARDS vulnerability signature — knowing the type predicts which CARD will go red first under stress, enabling targeted intervention
+2. **Multi-partiality operationalised:** The 9 types represent 9 genuinely different observational stances; multi-partiality becomes concrete when you understand *why* each perspective sees what it sees
+3. **Salutogenic alignment:** The Levels of Development (Riso-Hudson) map directly to the health-ease/dis-ease continuum — health is a direction of movement, not a type
+4. **Observer Pattern enrichment:** Each type is a distinct observer with specific perceptual biases, blind spots, and gifts — the constellation becomes navigable
+5. **The Key Insight:** What integrates one person may destroy another. The same quality is medicine or poison depending on where you stand
+
+---
+
+## Cross-links
+
+- **[Library Index](README.md)** — Registry of imported constructs
+- **[CARDS.md](CARDS.md)** — Human needs framework; CARDS vulnerability mapping per type
+- **[MULTI_PARTIALITY.md](MULTI_PARTIALITY.md)** — Loyalty patterns and ledger tendencies by type
+- **[SALUTOGENESIS.md](SALUTOGENESIS.md)** — SOC mapping; Levels of Development as health continuum
+- **[SOLID.md](SOLID.md)** — Typing as SRP for self-knowledge; over-typing as ISP violation
+- **[OOO.md](OOO.md)** — Each type's "withdrawnness"; alien phenomenology of type
+- **[OBJECTIFICATION.md](OBJECTIFICATION.md)** — Type-specific objectification vulnerabilities
+- **[philosophy_of_hyperstrate.md](../models/philosophy_of_hyperstrate.md)** — Types as nodes in observer constellation
+- **[SRII_AXIOLOGICAL_FRAMEWORK.md](../models/SRII_AXIOLOGICAL_FRAMEWORK.md)** — Multi-partiality across type perspectives
+- **[DEPENDENCIES.md](../../DEPENDENCIES.md)** — Broader constellation of influences
 
 ---
 
@@ -434,15 +446,14 @@ But here's the secret: all nine doors open onto the same room.
 The Peacemaker knew this all along. They just forgot to mention it.
 -->
 
-## Cross-links
+## Appendix: Contract
 
-- **[Library Index](README.md)** — Registry of imported constructs
-- **[CARDS.md](CARDS.md)** — Human needs framework; CARDS vulnerability mapping per type
-- **[MULTI_PARTIALITY.md](MULTI_PARTIALITY.md)** — Loyalty patterns and ledger tendencies by type
-- **[SALUTOGENESIS.md](SALUTOGENESIS.md)** — SOC mapping; Levels of Development as health continuum
-- **[SOLID.md](SOLID.md)** — Typing as SRP for self-knowledge; over-typing as ISP violation
-- **[OOO.md](OOO.md)** — Each type's "withdrawnness"; alien phenomenology of type
-- **[OBJECTIFICATION.md](OBJECTIFICATION.md)** — Type-specific objectification vulnerabilities
-- **[philosophy_of_hyperstrate.md](../models/philosophy_of_hyperstrate.md)** — Types as nodes in observer constellation
-- **[SRII_AXIOLOGICAL_FRAMEWORK.md](../models/SRII_AXIOLOGICAL_FRAMEWORK.md)** — Multi-partiality across type perspectives
-- **[DEPENDENCIES.md](../../DEPENDENCIES.md)** — Broader constellation of influences
+> ```yaml
+> title: "THE ENNEAGRAM — A Dynamic System of Personality"
+> authors: ["Oscar Ichazo", "Claudio Naranjo", "Don Richard Riso", "Russ Hudson"]
+> host: "André S Clements (Reference Hosting Only)"
+> intent: "To provide a stable reference for the Enneagram as a dynamic system of movement, not a static typology."
+> lineage: "Sufi geometry → Gurdjieff (process symbol) → Ichazo (ego fixations) → Naranjo (clinical psychology) → Riso & Hudson (Levels of Development)"
+> status: "Imported Library"
+> usage: "Self-knowledge diagnostic; relational navigation; observational stance mapping; integration/disintegration dynamics."
+> ```
