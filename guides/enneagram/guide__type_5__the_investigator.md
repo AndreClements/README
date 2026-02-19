@@ -49,7 +49,7 @@ CET := argmin(length(deps)) s.t. value(deps) >= theta AND risk(deps) <= tau
 
 Where **risk_index** = complexity * power * distance_from_wetware. The further a system operates from embodied, felt experience — and the more power it concentrates — the higher its risk score. This formula encodes a philosophical claim as a computable heuristic: abstraction without grounding is not neutral. It is dangerous in proportion to its power.
 
-The five-axis diagnostic is **[CARDS](../../docs/lib/CARDS.md)**: Competence, Autonomy, Relatedness, Dignity, Safety. Each axis carries a traffic-light state (green/orange/red). The diagnostic runs bidirectionally: if you know someone's Enneagram type, you can predict which CARD goes red first; if you observe a persistently red CARD, you can infer the type structure driving it. For a Type 5, the predicted vulnerability is **C (Competence) in red**: *"I can't cope."*
+The five-axis diagnostic is **[CARDS](../../docs/lib/CARDS.md)**, developed by Je'anna L Clements: Competence, Autonomy, Relatedness, Dignity, Safety. Each axis carries a traffic-light state (green/orange/red). The diagnostic runs bidirectionally: if you know someone's Enneagram type, you can predict which CARD goes red first; if you observe a persistently red CARD, you can infer the type structure driving it. For a Type 5, the predicted vulnerability is **C (Competence) in red**: *"I can't cope."*
 
 That prediction may strike you as incorrect. You are, after all, competent. The claim is not about your actual capability. It is about the fear that organises your attention.
 

@@ -45,7 +45,7 @@ This is the Heart Centre's countertype. Where the Two moves toward others throug
 
 Rilke knew this territory. In the eighth *Duino Elegy*, animals face into the Open while humans are turned backward, facing into their own consciousness. The Four lives in that turning. The ache is not incidental. It is the structure of your attention.
 
-[CARDS](../../docs/lib/CARDS.md) maps feelings to needs: Competence, Autonomy, Relatedness, Dignity, Safety. For the Four, the primary vulnerability is **Relatedness (R) in red**: "I don't belong." Not "I am not loved" (the Two's wound) but something structural — one's essential nature is alien to the group; true belonging would require a falsification too costly to bear. The defense mechanism is **introjection**: absorbing the negative, repelling the positive. The loyalty pattern is intense giving followed by withdrawal; beneath it, a chronic sense of being owed not favours but *understanding*.
+[CARDS](../../docs/lib/CARDS.md), developed by Je'anna L Clements, maps feelings to needs: Competence, Autonomy, Relatedness, Dignity, Safety. For the Four, the primary vulnerability is **Relatedness (R) in red**: "I don't belong." Not "I am not loved" (the Two's wound) but something structural — one's essential nature is alien to the group; true belonging would require a falsification too costly to bear. The defense mechanism is **introjection**: absorbing the negative, repelling the positive. The loyalty pattern is intense giving followed by withdrawal; beneath it, a chronic sense of being owed not favours but *understanding*.
 
 ---
 
