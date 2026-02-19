@@ -342,7 +342,7 @@ This document hosts Clean Space for repository integration. David Grove is the i
 
 ## Integration with [CARDS](CARDS.md)
 
-Clean Space preserves all five [CARDS](CARDS.md):
+Clean Space preserves all five [CARDS](CARDS.md) ([Je'anna L Clements](CARDS.md)):
 
 ### CARDS Preservation
 

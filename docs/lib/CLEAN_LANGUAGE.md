@@ -243,7 +243,7 @@ This document hosts Clean Language for repository integration. David Grove is th
 
 ## Integration with [CARDS](CARDS.md)
 
-Clean Language inherently preserves all five [CARDS](CARDS.md):
+Clean Language inherently preserves all five [CARDS](CARDS.md) ([Je'anna L Clements](CARDS.md)):
 
 ### CARDS Preservation
 

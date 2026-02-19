@@ -292,7 +292,7 @@ Nussbaum's framework inverts the conventional understanding of objectification:
 
 ## Integration with CARDS
 
-All objectification features map to specific [CARDS](CARDS.md) violations. The following table consolidates the inline annotations from the core constructs and the full feature-to-CARDS mapping.
+All objectification features map to specific [CARDS](CARDS.md) ([Je'anna L Clements](CARDS.md)) violations. The following table consolidates the inline annotations from the core constructs and the full feature-to-CARDS mapping.
 
 ### Inline Annotations (from Core Constructs)
 

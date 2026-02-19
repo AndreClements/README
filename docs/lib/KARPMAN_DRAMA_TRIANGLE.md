@@ -244,6 +244,8 @@ This document hosts the Drama Triangle framework for repository integration. Ste
 
 ## Integration with [CARDS](CARDS.md)
 
+Drama Triangle roles produce characteristic [CARDS](CARDS.md) ([Je'anna L Clements](CARDS.md)) degradation patterns:
+
 ### Role → CARDS Impact
 
 | Role | Primary CARDS Impact | User Experience |

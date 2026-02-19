@@ -272,7 +272,7 @@ This document hosts the Enneagram framework for repository integration. The Enne
 
 ### CARDS Vulnerability by Type
 
-Each type has a characteristic **CARDS vulnerability signature** — the CARD most likely to go red under stress:
+Each type has a characteristic [CARDS](CARDS.md) ([Je'anna L Clements](CARDS.md)) **vulnerability signature** — the CARD most likely to go red under stress:
 
 | Type | Primary Vulnerability | CARDS Signature Under Stress | What They Need Most |
 |:----:|:---------------------|:----------------------------|:-------------------|

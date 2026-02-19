@@ -238,7 +238,7 @@ This document is a *hosted reference*, not original scholarship. The intellectua
 
 ## Integration with CARDS
 
-Carse's axiom — *"If a person must play, that person cannot play"* — is the strongest external philosophical statement of [CARDS](CARDS.md) Autonomy in the library. It grounds A not as a preference but as a precondition for play itself.
+Carse's axiom — *"If a person must play, that person cannot play"* — is the strongest external philosophical statement of [CARDS](CARDS.md) ([Je'anna L Clements](CARDS.md)) Autonomy in the library. It grounds A not as a preference but as a precondition for play itself.
 
 ### Finite-ification → CARDS Degradation
 

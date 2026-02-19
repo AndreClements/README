@@ -140,7 +140,7 @@ This document hosts SOLID principles for repository integration as **threshold m
 
 ## Integration with CARDS
 
-SOLID violations produce specific [CARDS](CARDS.md) degradation signatures:
+SOLID violations produce specific [CARDS](CARDS.md) ([Je'anna L Clements](CARDS.md)) degradation signatures:
 
 | SOLID Violation | CARDS Impact | User Experience |
 |-----------------|--------------|-----------------|
