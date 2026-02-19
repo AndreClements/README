@@ -116,7 +116,7 @@ This is ethics that behaves like:
 
 ### 3.2 CARDS Model as Usable Spine
 
-CARDS (Competence, Autonomy, Relatedness, Dignity, Safety) is strong because it's:
+[CARDS](../lib/CARDS.md) (Competence, Autonomy, Relatedness, Dignity, Safety — [Je'anna L Clements](../lib/CARDS.md)) is strong because it's:
 - **Non-reductionist** (not just "harm minimisation")
 - **Socially aware** (relatedness isn't an afterthought)
 - **Implementable** (each term can be mapped to mechanisms)
@@ -479,7 +479,7 @@ This keeps composition guidance without authoritarian layout.
 | **Parametric Authorship** | Authorship expressed by shaping possibility space, not sole output control |
 | **Multi-partiality** | Retaining multiple legitimate perspectives without forcing premature collapse |
 | **Provenance Ledger** | Append-only trace of transformations; trust substrate |
-| **CARDS** | Competence, Autonomy, Relatedness, Dignity, Safety |
+| **CARDS** | Competence, Autonomy, Relatedness, Dignity, Safety ([Je'anna L Clements](../lib/CARDS.md)) |
 | **Invariants** | Conditions the system must preserve (identity/boundary/provenance/consent/continuity/irreversibility) |
 | **PAF** | Parametric Author Function: <S, P, C, E, Φ> |
 | **Maculate Design** | Assume flaws and history in all systems; build protocols, not purity |

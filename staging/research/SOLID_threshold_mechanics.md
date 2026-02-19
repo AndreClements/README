@@ -171,6 +171,8 @@ SOLID, over-applied, can produce sterile modularism: fragmented voice, loss of p
 
 ## MAPPING TABLE 2: SOLID → CARDS Integration
 
+> CARDS ([Je'anna L Clements](../../docs/lib/CARDS.md)): Competence, Autonomy, Relatedness, Dignity, Safety.
+
 **Primary Mapping: SOLID Violation → CARDS State Change**
 
 | SOLID Violation | CARDS Impact | Symptom |

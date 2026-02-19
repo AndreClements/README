@@ -89,8 +89,8 @@ The key words **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT**, and **MAY** ar
 2. **The Commitment to Agency:** We do not ban non-ideal behaviors by default; we adjust the energetic cost of performing them.
    - Destructive actions **MUST** require high effort (**Resistance**).
    - Reparative actions **MUST** require low effort (**Conductance**).
-3. **The Anti-Drama Mandate:** The architecture must not incentivize the "Drama Triangle" (Victim/Persecutor/Rescuer). It must incentivize sovereign negotiation of terrain, supporting **CARDS**:
-   - **C**ompetency
+3. **The Anti-Drama Mandate:** The architecture must not incentivize the "Drama Triangle" (Victim/Persecutor/Rescuer). It must incentivize sovereign negotiation of terrain, supporting **[CARDS](../lib/CARDS.md)** ([Je'anna L Clements](../lib/CARDS.md)):
+   - **C**ompetence
    - **A**utonomy
    - **R**elatedness
    - **D**ignity
