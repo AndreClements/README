@@ -105,7 +105,7 @@ The aim is not to outsmart `Machines` but to engage them without being consumed 
 Lead with evidence. A **Prototype(artifact)** is a higher-integrity signal than a **Proposal**, a **Pitch**, or a **Prayer**. Engage the `Hyperstrate` by presenting a finished case — a `yield` of the praxis — rather than a request for belief. This is the principle of showing, not telling; of presenting a fact, not an ask.
 
 **7 — CARDS as Axiological Spine.**
-All CI operations are evaluated in strict order: **Axiology** (CARDS: Competence, Autonomy, Relatedness, Dignity, Safety) → **Poetry/artistry** (aesthetic resonance, metaphorical power) → **Ethos/technicality** (peer-review status, transparency, accountability). Values first; craft last. See [methodology__axiology_first_aesthetics_for_engagement_design.md](methodology__axiology_first_aesthetics_for_engagement_design.md).
+All CI operations are evaluated in strict order: **Axiology** ([CARDS](../lib/CARDS.md), developed by Je'anna L Clements: Competence, Autonomy, Relatedness, Dignity, Safety) → **Poetry/artistry** (aesthetic resonance, metaphorical power) → **Ethos/technicality** (peer-review status, transparency, accountability). Values first; craft last. See [methodology__axiology_first_aesthetics_for_engagement_design.md](methodology__axiology_first_aesthetics_for_engagement_design.md).
 
 **8 — Host ≠ Author.**
 The repository maintainer hosts external frameworks but does not author them. Every imported construct retains its original attribution. Transpositions are explicitly marked as the Operator's interpretive work. This integrity constraint runs through all lib entries, lenses, and protocols.
