@@ -71,7 +71,7 @@ function Show-Paths {
     Write-Entry "projects/" "Project workspaces"
     Write-Entry "staging/" "Drafts, reflections, in-progress work"
     Write-Entry "CONCEPTS/" "Glossary and conceptual index"
-    Write-Entry "../META/" "Sibling repo -- process observations, field notes"
+    Write-Entry "../PRIVATE_META/" "Sibling repo -- process observations, field notes"
 }
 
 # --- Main ---

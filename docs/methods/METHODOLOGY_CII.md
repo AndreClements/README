@@ -30,8 +30,8 @@
 >   Integrity) as governing term — intentionally multi-layered to hold Computational
 >   Intelligence, Continuous Integration, Codified Information, and emergent readings.
 >   Differentiates methodology from standard DevOps CI attribution while including it.
->   Prior: v4.0.0 → v4.1.0 added META repo integration (§8.5) and And-Yet #6.
->   See META/field_notes/field_notes__methodology_ci.md.
+>   Prior: v4.0.0 → v4.1.0 added PRIVATE_META repo integration (§8.5) and And-Yet #6.
+>   See PRIVATE_META/field_notes/field_notes__methodology_ci.md.
 > anchors:
 >   - "../../README.md"
 >   - "../protocols/PROTOCOL__lib_research.md"
@@ -524,9 +524,9 @@ play sessionClose(task):
     task.primary_artifact.append("## Session Violations", violations)
 ```
 
-### 8.5 META Repo Integration (Lessons-Learnt Surfacing)
+### 8.5 PRIVATE_META Repo Integration (Lessons-Learnt Surfacing)
 
-After the standard session close, surface process-level learning to the META repo — a separate, portable git repository that holds operational observations about methodology and protocol performance across projects and machines. See [META/PROTOCOL__field_notes.md](../../../META/PROTOCOL__field_notes.md) for governance.
+After the standard session close, surface process-level learning to the PRIVATE_META repo — a separate, portable git repository that holds operational observations about methodology and protocol performance across projects and machines. See [PRIVATE_META/PROTOCOL__field_notes.md](../../../PRIVATE_META/PROTOCOL__field_notes.md) for governance.
 
 ```pseudo
 play sessionClose_meta(session):
@@ -535,15 +535,15 @@ play sessionClose_meta(session):
   // 1. Process observations → field notes
   if session.process_observations.count > 0:
     for obs in session.process_observations:
-      append(obs, "META/field_notes/field_notes__" + obs.document + ".md")
+      append(obs, "PRIVATE_META/field_notes/field_notes__" + obs.document + ".md")
 
   // 2. Diagnostic summary → cumulative log
   if session.self_diagnostic_run:
-    append(session.diagnostic_one_liner, "META/diagnostic_log.md")
+    append(session.diagnostic_one_liner, "PRIVATE_META/diagnostic_log.md")
 
   // 3. Project context changed?
   if session.context_changed_materially:
-    update("META/context/context__" + session.project + ".md")
+    update("PRIVATE_META/context/context__" + session.project + ".md")
 ```
 
 **Not every session generates process observations.** Most T1 sessions will skip this step entirely. The trigger is noticing something about the *methodology or protocol itself* — not about the content being worked on. Content observations stay in project-local `staging/reflections/`.
@@ -665,7 +665,7 @@ This methodology, applied to itself:
 
 5. **Sovereignty check.** Does this methodology inadvertently constrain the Operator's freedom to override, deviate, or ignore? The Empty Turn (§9.3) must remain live at every stage. No gate, no checklist, no DBC overrides the Operator's sovereign right to stop.
 
-6. **Lessons-learnt surfacing (v4.1.0).** This document's upward feedback loop — from operational experience back into methodology revision — was under-specified until v4.1.0. The `emerged_from` field records *that* a version changed but not the accumulated observations that led to it. Mitigation: the META repo (§8.5) now provides a governed holding artefact for process observations. **Version-bump precondition:** before revising this document, review accumulated field notes in `META/field_notes/field_notes__methodology_ci.md` and reference specific entries in the new version's `emerged_from` field.
+6. **Lessons-learnt surfacing (v4.1.0).** This document's upward feedback loop — from operational experience back into methodology revision — was under-specified until v4.1.0. The `emerged_from` field records *that* a version changed but not the accumulated observations that led to it. Mitigation: the PRIVATE_META repo (§8.5) now provides a governed holding artefact for process observations. **Version-bump precondition:** before revising this document, review accumulated field notes in `PRIVATE_META/field_notes/field_notes__methodology_ci.md` and reference specific entries in the new version's `emerged_from` field.
 
 7. **The name is recursive (v4.2.0).** CII is a polysemiologism whose readings nest inside each other. This is by design — but it means the governing term cannot be pinned to a single definition. The recursion mirrors And-Yet #2: the methodology that names itself must be named *by* itself. Mitigation: the §0 note introduces the constellation without collapsing it. The Operator retains sovereign right to add, remove, or reweight readings as the term evolves.
 

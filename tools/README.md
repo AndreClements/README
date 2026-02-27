@@ -115,7 +115,7 @@ archive:
 
 The `title:` and `subtitle:` fields are used by Pandoc for the title page. Custom fields (like `archive:`) are silently ignored unless a custom template references them. `Extract-YamlTitle` in `render-pdf.ps1` extracts the title from front matter automatically.
 
-See `../META/field_notes/field_notes__yaml_front_matter_pdf.md` for the full pattern.
+See `../PRIVATE_META/field_notes/field_notes__yaml_front_matter_pdf.md` for the full pattern.
 
 ### Example
 
