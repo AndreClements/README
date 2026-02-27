@@ -252,7 +252,7 @@ We treat observers by "distance-from-wetware" (`dfw`: 1=human, 3=org/process, 5=
   - dfw 5: CQS probes; anecdotes weigh ≈ ε unless `critiqueGate` met.
 - **Merge:** Always record **quorum + dissent**; attach minority image/snippet for dfw ≥4 claims.
 
-**Empirical anchor (2026-02-10):** During the Threshold Mechanics peer review, Grok (xAI, dfw=5) rewrote "military exceptions" → "potential for specialised exemptions" and "Claude may refuse Anthropic's own instructions" → "mechanisms for self-reflection and refusal." This is textbook LSP-T2 (Semantic Drift) — same label ("improvement"), different behaviour (specificity erased). The dfw=5 routing rule (CQS probes required) would have caught this; the incident validates the framework empirically.
+**Empirical anchor (2026-02-10):** During the Threshold Mechanics peer review, Grok (xAI, dfw=5) rewrote "military exceptions" → "potential for specialised exemptions" and "Claude may refuse Anthropic's own instructions" → "mechanisms for self-reflection and refusal." This is textbook LSP-T2 (Semantic Drift) — same label ("improvement"), different behaviour (specificity erased). The dfw=5 routing rule (CQS probes required) would have caught this; the incident validates the framework empirically. Provenance: [E1](provenance_ledger__methodology_cii.md); full case study at [appendix__threshold_mechanics_model_feedback.md](../../workbench/appendix__threshold_mechanics_model_feedback.md) §1.
 
 **Example:** Model suggests policy; treat "as-if" for ideation, "if-not" by cross-ref + probe; escalate cadence if power ≥3 (e.g., deployment/regulatory impact).
 
@@ -684,6 +684,7 @@ Emergent from the `human-OS` praxis: [https://github.com/AndreClements/README](h
 - **[README.md](../../README.md)** — Master document; §§2–6 for Operator, Network, BODY, runtime
 - **[PROTOCOL__agentic_envelope.md](../protocols/PROTOCOL__agentic_envelope.md)** — Assembly Header binding (§3)
 - **[PROTOCOL__provenance_ledger.md](../protocols/PROTOCOL__provenance_ledger.md)** — Claim-level audit trail (§5)
+- **[provenance_ledger__methodology_cii.md](provenance_ledger__methodology_cii.md)** — Instantiated provenance ledger; empirical anchors (§4–§5)
 - **[PROTOCOL__ci_write_permissions.md](../protocols/PROTOCOL__ci_write_permissions.md)** — Write permissions governance
 - **[PROTOCOL__typed_coauthorship_relations.md](../protocols/PROTOCOL__typed_coauthorship_relations.md)** — Co-authorship typing
 - **[PROTOCOL__lib_research.md](../protocols/PROTOCOL__lib_research.md)** — Upstream research pipeline; context externalisation source (§7, §8)
