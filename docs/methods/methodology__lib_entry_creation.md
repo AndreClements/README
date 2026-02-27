@@ -11,7 +11,7 @@
 > emerged_from: "Comparative analysis of CARDS, MULTI_PARTIALITY, OOO, SALUTOGENESIS, SOLID — 2026-02-04"
 > anchors:
 >   - "../lib/README.md"
->   - "METHODOLOGY_CI.md"
+>   - "METHODOLOGY_CII.md"
 >   - "methodology__lens_transposition.md"
 > status: "active"
 > risk_index: 0.25
@@ -376,7 +376,7 @@ T3 Sign-off:
 
 ### 8.3 Risk-Scaled Validation
 
-Per METHODOLOGY_CI.md:
+Per METHODOLOGY_CII.md:
 
 ```
 risk_index = complexity × power × distance_from_wetware
@@ -473,7 +473,7 @@ This methodology, applied to itself:
 
 - **[Library Index](../lib/README.md)** — Registry of imported constructs; usage protocol
 - **[Lens Transposition](methodology__lens_transposition.md)** — Downstream method; assumes lib entry exists
-- **[METHODOLOGY_CI.md](METHODOLOGY_CI.md)** — CI governance; as-if/if-not; tier model; SOLID self-diagnostic; hallucination prevention; context management; exception handling
+- **[METHODOLOGY_CII.md](METHODOLOGY_CII.md)** — CII governance; as-if/if-not; tier model; SOLID self-diagnostic; hallucination prevention; context management; exception handling
 - **[SOLID.md](../lib/SOLID.md)** — Benchmark lib entry (LHS: 0.97)
 - **[OOO.md](../lib/OOO.md)** — Growth target lib entry (LHS: 0.53)
 - **[Axiology-First Aesthetics](methodology__axiology_first_aesthetics_for_engagement_design.md)** — Octagon review; dignity as design constraint

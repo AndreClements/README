@@ -309,9 +309,9 @@ This is multi-partiality operationalised as inquiry syntax.
 
 ---
 
-## Integration with METHODOLOGY_CI
+## Integration with METHODOLOGY_CII
 
-Clean Language aligns with the [As-If / If-Not methodology](../methods/METHODOLOGY_CI.md):
+Clean Language aligns with the [As-If / If-Not methodology](../methods/METHODOLOGY_CII.md):
 
 ### As-If Inquiry
 
@@ -387,7 +387,7 @@ CI Session using Clean:
 - **[Library Index](README.md)** — Registry of imported constructs
 - **[CARDS.md](CARDS.md)** — Human needs framework; Clean as CARDS-preserving protocol
 - **[MULTI_PARTIALITY.md](MULTI_PARTIALITY.md)** — Multi-partial stance; Clean as verbal syntax
-- **[METHODOLOGY_CI.md](../methods/METHODOLOGY_CI.md)** — As-If / If-Not; Clean as inquiry protocol
+- **[METHODOLOGY_CII.md](../methods/METHODOLOGY_CII.md)** — As-If / If-Not; Clean as inquiry protocol
 - **[methodology__host_multi_party_encounter.md](../methods/methodology__host_multi_party_encounter.md)** — Facilitation methodology; Clean questions in hosting
 
 ---

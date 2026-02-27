@@ -57,5 +57,5 @@
 
 - **[PROTOCOL__provenance_ledger.md](../docs/protocols/PROTOCOL__provenance_ledger.md)** — Governance definition the provenance template instantiates
 - **[PROTOCOL__agentic_envelope.md](../docs/protocols/PROTOCOL__agentic_envelope.md)** — Related governance for CI session structure
-- **[METHODOLOGY_CI.md](../docs/methods/METHODOLOGY_CI.md)** — Engagement methodology these templates serve
+- **[METHODOLOGY_CII.md](../docs/methods/METHODOLOGY_CII.md)** — Engagement methodology these templates serve
 - **[/docs/protocols/](../docs/protocols/)** — Full protocol registry

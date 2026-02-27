@@ -57,7 +57,7 @@ The Eight's defence mechanism is **denial** -- the disavowal of vulnerability, t
 
 The repository does not try to sneak tenderness past you. It states the claim directly: **vulnerability is not weakness. It is data.** CARDS treats a need-in-red as a diagnostic signal, not a character flaw. When your Autonomy goes red, that is information about the system you are operating in, not evidence that you are defective. But the diagnostic also requires you to acknowledge that the signal exists -- and acknowledgment is precisely what denial prevents.
 
-The concept of **maculate design** ([CI Methodology](../../docs/methods/METHODOLOGY_CI.md)) applies here. All systems -- including you -- are assumed flawed. Built on compromised hardware, running with hidden biases, stained by history. The project is "not a search for immaculate systems but a method for moving through occasionally beautiful, sometimes functional, and often dangerous flaws." An Eight who has built an identity around strength may hear "maculate" as "weak." It is not. Maculate means honest. It means the system shows its history instead of performing invulnerability.
+The concept of **maculate design** ([CII Methodology](../../docs/methods/METHODOLOGY_CII.md)) applies here. All systems -- including you -- are assumed flawed. Built on compromised hardware, running with hidden biases, stained by history. The project is "not a search for immaculate systems but a method for moving through occasionally beautiful, sometimes functional, and often dangerous flaws." An Eight who has built an identity around strength may hear "maculate" as "weak." It is not. Maculate means honest. It means the system shows its history instead of performing invulnerability.
 
 ---
 
@@ -67,11 +67,11 @@ You do not trust frameworks. You trust evidence. Here is what the architecture p
 
 **The [Hyperstrate](../../docs/models/philosophy_of_hyperstrate.md)** -- the field where all interactions are protocolled -- guarantees that exits remain live. No one is trapped. Every node maintains an `exit()` function. Every edge supports `rollback()`. The system's merge rule requires **quorum plus dissent**: minority views are logged, not overwritten. Dissent is not error. It is data. For someone who has been on the wrong end of a system that silenced opposition, this is not decoration. It is structural protection.
 
-**risk_index = complexity x power x distance_from_wetware.** This formula, documented in the [CI Methodology](../../docs/methods/METHODOLOGY_CI.md), scales vigilance proportionally to power. The more power a system accumulates, the more scrutiny it requires. The further it operates from the body's honest signals, the higher the danger. An Eight will recognise this instinctively: power without accountability is the thing you have spent your life fighting against -- or, in your darker moments, wielding.
+**risk_index = complexity x power x distance_from_wetware.** This formula, documented in the [CII Methodology](../../docs/methods/METHODOLOGY_CII.md), scales vigilance proportionally to power. The more power a system accumulates, the more scrutiny it requires. The further it operates from the body's honest signals, the higher the danger. An Eight will recognise this instinctively: power without accountability is the thing you have spent your life fighting against -- or, in your darker moments, wielding.
 
-**The [as-if/if-not](../../docs/methods/METHODOLOGY_CI.md) protocol.** Engage provisionally -- act *as-if* the framework holds -- while running a parallel audit: *if-not*, what are the hidden intentions, the harm vectors, the structural faults? This is not naive trust. It is strategic engagement with built-in scepticism. You already operate this way. The system formalises it.
+**The [as-if/if-not](../../docs/methods/METHODOLOGY_CII.md) protocol.** Engage provisionally -- act *as-if* the framework holds -- while running a parallel audit: *if-not*, what are the hidden intentions, the harm vectors, the structural faults? This is not naive trust. It is strategic engagement with built-in scepticism. You already operate this way. The system formalises it.
 
-**[P(a)/PPP Axiom](../../docs/methods/METHODOLOGY_CI.md)**: Prototype > Proposal > Pitch > Prayer. Lead with evidence, not with asks. Build the working model before writing the deck. This hierarchy will feel like home. You have never had patience for people who talk without having done the work. The system agrees with you.
+**[P(a)/PPP Axiom](../../docs/methods/METHODOLOGY_CII.md)**: Prototype > Proposal > Pitch > Prayer. Lead with evidence, not with asks. Build the working model before writing the deck. This hierarchy will feel like home. You have never had patience for people who talk without having done the work. The system agrees with you.
 
 **[Multi-partiality](../../docs/lib/MULTI_PARTIALITY.md)** weights toward the vulnerable and represents the absent stance. This is the structural version of what a healthy Eight already does: protect those who cannot protect themselves. The difference is that here it is not dependent on your personal energy or your willingness to fight. It is embedded in the architecture.
 
@@ -85,7 +85,7 @@ The Eight's loyalty pattern is massive: massive giving (protection, provision, f
 
 In SOC terms (from the [Salutogenesis Lens](../../docs/lenses/LENS__salutogenesis.md)), your strength is **Manageability** -- raw will and energy. You can marshal what is needed and push through. Your vulnerability is **Comprehensibility** -- the denial of vulnerability creates blind spots. What you refuse to see does not stop existing. It operates outside your awareness, and that makes it more dangerous, not less.
 
-Disintegration moves toward 5 -- withdrawal, paranoia, isolation. When the Eight's power fails to control the situation, the collapse is not into surrender but into the bunker: cutting off, accumulating information as ammunition, trusting no one. The repository's concept of **sovereignty, not victory** ([CI Methodology](../../docs/methods/METHODOLOGY_CI.md)) addresses this directly. The goal is not to outsmart every system or dominate every room. The goal is to engage without being consumed. The bunker is not sovereignty. It is a cage you built yourself.
+Disintegration moves toward 5 -- withdrawal, paranoia, isolation. When the Eight's power fails to control the situation, the collapse is not into surrender but into the bunker: cutting off, accumulating information as ammunition, trusting no one. The repository's concept of **sovereignty, not victory** ([CII Methodology](../../docs/methods/METHODOLOGY_CII.md)) addresses this directly. The goal is not to outsmart every system or dominate every room. The goal is to engage without being consumed. The bunker is not sovereignty. It is a cage you built yourself.
 
 ---
 
@@ -105,7 +105,7 @@ The philosopher Simone Weil wrote in *Gravity and Grace* (1947): "All the natura
 
 These entry points are selected for what matters to the Eight's observer position -- power, structure, evidence, and the architecture of protection:
 
-1. **[CI Methodology](../../docs/methods/METHODOLOGY_CI.md)** -- The as-if/if-not protocol, the risk_index formula, the maculate design axiom, and the principle that sovereignty is not victory. This is the operational spine. Read it first.
+1. **[CII Methodology](../../docs/methods/METHODOLOGY_CII.md)** -- The as-if/if-not protocol, the risk_index formula, the maculate design axiom, and the principle that sovereignty is not victory. This is the operational spine. Read it first.
 
 2. **[Objectification Lens](../../docs/lenses/LENS__objectification.md)** -- Nussbaum's 10-feature taxonomy transposed into a working diagnostic for dignity violations. If you care about justice, this gives you precision tools -- not outrage, but a scalpel.
 

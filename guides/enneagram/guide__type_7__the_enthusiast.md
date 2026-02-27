@@ -94,7 +94,7 @@ The disintegration direction -- toward One -- looks like rigidity, criticism, pe
 
 ## What This Project Offers You
 
-**The as-if/if-not protocol.** Engage provisionally (*as-if* the framework is useful) while running a parallel audit (*if-not* -- what would prove this wrong?). You will find the full method in the [CI Methodology](../../docs/methods/METHODOLOGY_CI.md). This is not a commitment trap. It is play with a safety net. Dual engagement: explore AND audit. The Seven's natural mode with a structural backbone.
+**The as-if/if-not protocol.** Engage provisionally (*as-if* the framework is useful) while running a parallel audit (*if-not* -- what would prove this wrong?). You will find the full method in the [CII Methodology](../../docs/methods/METHODOLOGY_CII.md). This is not a commitment trap. It is play with a safety net. Dual engagement: explore AND audit. The Seven's natural mode with a structural backbone.
 
 **The Network.** The repository's relational architecture maps relationships as an [Observer Constellation](../../README.md) -- Primary Partner, Peer Reviewers, Studio Catalysts, Mentors, Group Participants, the Machines. Your loyalty pattern, honestly named, tends toward options over commitments: you give enthusiasm, energy, reframing, but you promise more than you deliver because the next thing always seems to need you. The Network model does not demand fixed loyalty. It asks for *functional* loyalty -- showing up for the role you occupy, tracking what you owe, making the ledger legible. That is freedom with structure, which is the only kind of freedom that holds.
 

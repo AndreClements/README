@@ -21,7 +21,7 @@ This guide is written for the part of you that scans for danger before it scans 
 
 That is a lot of moving parts. Here is what matters for your purposes: the system assumes it is flawed, and it has built that assumption into the foundations.
 
-The first principle in the [CI Methodology](../../docs/methods/METHODOLOGY_CI.md) — the document that governs how this project engages with any system, including itself — is called the **Axiom of Maculate Design**. "Maculate" means stained, marked, imperfect. Every system in this repository is assumed to be running on compromised hardware with hidden biases, built from flawed code, shaped by history. There is no claim of immaculate architecture anywhere. If you go looking for one, you will not find it. That absence is deliberate.
+The first principle in the [CII Methodology](../../docs/methods/METHODOLOGY_CII.md) — the document that governs how this project engages with any system, including itself — is called the **Axiom of Maculate Design**. "Maculate" means stained, marked, imperfect. Every system in this repository is assumed to be running on compromised hardware with hidden biases, built from flawed code, shaped by history. There is no claim of immaculate architecture anywhere. If you go looking for one, you will not find it. That absence is deliberate.
 
 ---
 
@@ -87,7 +87,7 @@ These entry points are chosen for what they offer a reader who needs to verify b
 
 1. **[Observer Circuit Breaker](../../docs/protocols/observerCircuitBreaker_DBC_CQS.md)** — The full protocol for the "And Yet" probe, falsifiability gates, Empty Turn, and re-admit logic. This is the document that shows how the system handles its own contamination. If you read one thing, read this.
 
-2. **[CI Methodology](../../docs/methods/METHODOLOGY_CI.md)** — The as-if/if-not protocol, risk_index formula, maculate design axiom, and the quorum + dissent merge rule. This is the epistemological spine of the project: how it knows what it claims to know, and how it handles being wrong.
+2. **[CII Methodology](../../docs/methods/METHODOLOGY_CII.md)** — The as-if/if-not protocol, risk_index formula, maculate design axiom, and the quorum + dissent merge rule. This is the epistemological spine of the project: how it knows what it claims to know, and how it handles being wrong.
 
 3. **[CARDS](../../docs/lib/CARDS.md)** — The five-need diagnostic in full detail. You can run it on yourself immediately. Pay attention to your S (Safety) card. Notice what state it is in right now, reading this. That is data.
 

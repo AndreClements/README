@@ -582,7 +582,7 @@ Clean Space shares [Wahl's](REGENERATIVE_CULTURES.md) commitment to:
 - **[OOO.md](OOO.md)** — Object-Oriented Ontology; each space as withdrawn object with perspective-dependent access
 - **[SALUTOGENESIS.md](SALUTOGENESIS.md)** — Sense of Coherence; Clean Space as SOC-enhancing process
 - **[REGENERATIVE_CULTURES.md](REGENERATIVE_CULTURES.md)** — Emergence over prescription; wisdom of the system
-- **[METHODOLOGY_CI.md](../methods/METHODOLOGY_CI.md)** — As-If / If-Not; Clean Space as embodied CI inquiry
+- **[METHODOLOGY_CII.md](../methods/METHODOLOGY_CII.md)** — As-If / If-Not; Clean Space as embodied CII inquiry
 
 ---
 

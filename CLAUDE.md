@@ -8,7 +8,7 @@ A cyber artist's book by Andre S Clements. Content, frameworks, art.
 
 ## Methodology
 
-Governance lives in `docs/methods/METHODOLOGY_CI.md`. Start at **§0 Dispatch Table** to load only the sections your tier requires:
+Governance lives in `docs/methods/METHODOLOGY_CII.md`. Start at **§0 Dispatch Table** to load only the sections your tier requires:
 
 | Task type | Read §… |
 |-----------|---------|
@@ -24,7 +24,7 @@ Governance lives in `docs/methods/METHODOLOGY_CI.md`. Start at **§0 Dispatch Ta
 
 ## META Integration (Operational Learning)
 
-Process-level observations about the methodology live in the **META repo** (`../META/`), not in this repo. See `METHODOLOGY_CI.md §8.5`.
+Process-level observations about the methodology live in the **META repo** (`../META/`), not in this repo. See `METHODOLOGY_CII.md §8.5`.
 
 > `../META/` assumes sibling repos under the same parent directory. Adjust if layout changes.
 

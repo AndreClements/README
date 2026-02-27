@@ -80,7 +80,7 @@ This repository reads as a **cyber-artist's book** that doubles as an operationa
 ### Support Philosophy + Method
 - [philosophy_of_hyperstrate.md](../models/philosophy_of_hyperstrate.md)
 - [philosophy_of_body.md](../models/philosophy_of_body.md)
-- [METHODOLOGY_CI.md](../methods/METHODOLOGY_CI.md)
+- [METHODOLOGY_CII.md](../methods/METHODOLOGY_CII.md)
 - [parametric_authorship.md](../../projects/theses/parametric_authorship.md)
 - [methodology__host_multi_party_encounter.md](../methods/methodology__host_multi_party_encounter.md)
 
@@ -475,6 +475,7 @@ This keeps composition guidance without authoritarian layout.
 | Term | Definition |
 |------|------------|
 | **CI** | Computational Intelligence; avoids personhood claims but admits agency-like behaviour |
+| **CII** | Computational Intelligence Integrity; polysemiologism governing methodology — nests CI, Continuous Integration, Codified Information. See [METHODOLOGY_CII.md](../methods/METHODOLOGY_CII.md) §0 |
 | **Hyperstrate** | Layered co-authorship field; meaning emerges from stacked constraints and traces; superstate-field with atmospherics |
 | **Parametric Authorship** | Authorship expressed by shaping possibility space, not sole output control |
 | **Multi-partiality** | Retaining multiple legitimate perspectives without forcing premature collapse |
@@ -500,7 +501,7 @@ README.md (Master Node / The Operator)
     │   └─ srii__contract_of_aims.md (Normative constitution)
     │
     ├─→ docs/methods/ (Engagement Protocols)
-    │   ├─ METHODOLOGY_CI.md (as-if / if-not / risk_index)
+    │   ├─ METHODOLOGY_CII.md (as-if / if-not / risk_index)
     │   └─ methodology__axiology_first_aesthetics.md (Octagon)
     │
     ├─→ docs/protocols/ (Governance Primitives)
@@ -537,5 +538,5 @@ SRII (axiology + invariants)
 - **README.md** — §8: Generator semantics; §5: Observer Pattern; §4: reFractoring
 - **philosophy_of_hyperstrate.md** — Field dynamics, CET, dignity conservation
 - **parametric_authorship.md** — PAF, fourth dimension as execution, dignity tensor
-- **METHODOLOGY_CI.md** — as-if/if-not engagement, risk_index
+- **METHODOLOGY_CII.md** — as-if/if-not engagement, risk_index
 - **srii__contract_of_aims.md** — Six invariants, normative requirements

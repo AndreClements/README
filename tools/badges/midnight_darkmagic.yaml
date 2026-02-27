@@ -1,0 +1,188 @@
+# midNight darkMagic — SVG badge configuration
+# YAML schema for render_badges.py
+#
+# Usage: python tools/render_badges.py tools/badges/midnight_darkmagic.yaml
+#
+# Version history:
+#   1.0 - CII era rebuild; IBM Plex Mono embedded; φ-based proportions
+#
+# Design system references:
+#   - LANDSCAPIFICATION_INIT.md §5 (palette)
+#   - tools/README.md (φ-based type scale)
+#   - templates/asc-branding.tex (IBM Plex family)
+#   - METHODOLOGY_CII.md §0 (CII constellation)
+
+meta:
+  title: "CII: A Pragmatics of Engagement"
+  version: "4.2.0"
+  attribution: "theMachine(s)"
+  theme: "midNight darkMagic"
+  output_dir: "../../docs/assets/midnight-darkmagic"
+
+palette:
+  # midNight darkMagic — LAB-derived equidistant hues
+  bg:       "#0B0F14"
+  fg:       "#E6EAEF"
+  comment:  "#9AA3AF"
+  keyword:  "#5DF1D8"    # as-if, if-not
+  function: "#CAE48E"    # risk_index
+  type:     "#DFCFFF"    # CII
+  number:   "#FFC891"
+  operator: "#FFB9DC"    # =, ×, quorum+dissent
+
+typography:
+  # IBM Plex Mono — embedded as base64 subset in each SVG
+  font_source: "C:/xampp/htdocs/andresclements.com/cms/wp-content/themes/asc/assets/fonts/IBMPlexMono-Regular.woff2"
+  font_family: "IBM Plex Mono"
+  fallback_stack: "ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace"
+  # φ-based type scale (px equivalents for SVG)
+  # Base unit: 18px (φ^0). Scale factor: φ = 1.618
+  scale:
+    phi_neg2: 11    # micro (φ^-2)
+    phi_neg1: 14    # captions, footnotes (φ^-1 × 18 ≈ 11, rounded to 14 for legibility)
+    phi_0:    18    # body / standard text (φ^0)
+    phi_1:    29    # section labels (φ^1)
+    phi_2:    47    # document title — header only (φ^2)
+
+shield:
+  width: 520
+  height: 64
+  rx: 10
+  stroke_width: 1.2
+  padding: 12
+  title:
+    text: "A Pragmatics of Engagement"
+    color: "fg"
+    size: "phi_neg1"      # 14px
+  subtitle:
+    parts:
+      - text: "CII"
+        color: "type"
+      - text: " • v4.2.0 • theMachine(s)"
+        color: "comment"
+    size: "phi_neg2"      # 11px
+
+header:
+  width: 1400
+  height: 360
+  rx: 16
+  margin_left: 44
+  line1:
+    text: "A GENERAL THEORY OF MACHINES"
+    color: "fg"
+    size: "phi_1"         # 29px
+    y: 84
+  line2:
+    parts:
+      - text: "CII"
+        color: "type"
+      - text: ": A Pragmatics of Engagement — v4.2.0 • theMachine(s)"
+        color: "comment"
+    size: "phi_0"         # 18px
+    y: 118
+  line3:
+    parts:
+      - text: "as-if"
+        color: "keyword"
+      - text: " / "
+        color: "comment"
+      - text: "if-not"
+        color: "keyword"
+      - text: " — "
+        color: "comment"
+      - text: "risk_index"
+        color: "function"
+      - text: " = "
+        color: "operator"
+      - text: "complexity"
+        color: "type"
+      - text: "×"
+        color: "operator"
+      - text: "power"
+        color: "type"
+      - text: "×"
+        color: "operator"
+      - text: "distance_from_wetware"
+        color: "type"
+    size: "phi_neg1"      # 14px
+    y: 160
+  constellation:
+    # Diamond topology: CII → as-if + if-not → quorum+dissent
+    origin_x: 860
+    origin_y: 60
+    pill_height: 34
+    pill_rx: 12
+    stroke_width: 1.75
+    line_stroke_width: 1.2
+    text_size: "phi_neg1"   # 14px
+    pills:
+      - label: "CII"
+        color: "type"
+        width: 100
+        cx: 200          # centre x relative to origin
+        cy: 0            # centre y relative to origin
+      - label: "as-if"
+        color: "keyword"
+        width: 120
+        cx: 60
+        cy: 80
+      - label: "if-not"
+        color: "keyword"
+        width: 120
+        cx: 340
+        cy: 80
+      - label: "quorum + dissent"
+        color: "operator"
+        width: 180
+        cx: 200
+        cy: 160
+    # Bezier connections between pills (from → to, via control points)
+    connections:
+      - from: "CII"
+        to: "as-if"
+      - from: "CII"
+        to: "if-not"
+      - from: "as-if"
+        to: "quorum + dissent"
+      - from: "if-not"
+        to: "quorum + dissent"
+
+badges:
+  width: 1280
+  height: 120
+  rx: 12
+  pill_height: 40
+  pill_rx: 14
+  pill_stroke_width: 1.6
+  text_size: "phi_0"      # 18px (was 16px, bumped to φ^0)
+  gap: 20
+  margin_left: 28
+  margin_top: 40
+  pills:
+    - label: "CII"
+      color: "type"
+      width: 140
+    - label: "as-if"
+      color: "keyword"
+      width: 200
+    - label: "if-not"
+      color: "keyword"
+      width: 200
+    - label: "risk_index = c×p×d"
+      color: "operator"       # pill stroke colour
+      width: 660
+      tspans:
+        - text: "risk_index"
+          color: "function"
+        - text: " = "
+          color: "operator"
+        - text: "c"
+          color: "type"
+        - text: "×"
+          color: "operator"
+        - text: "p"
+          color: "type"
+        - text: "×"
+          color: "operator"
+        - text: "d"
+          color: "type"

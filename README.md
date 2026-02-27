@@ -16,8 +16,9 @@
 |---------------|----------|
 | **New here** | **[Quickstart](ONBOARDING/README_quickstart.md)** (The 7-step Session Ritual) |
 | **Looking for terms** | **[Glossary](CONCEPTS/GLOSSARY.md)** (Empty Turn, As-If, etc.) |
-| **Exploring the constellation** | **[Architecture Overview](#1-architecture_overview--a-system-of-patterns)** |
+| **Exploring the constellation** | **[Architecture Overview](#1-architecture_overview--a-system-of-patterns)** [You are here]|
 | **Checking network consent** | **[Consent Ledger](docs/protocols/CONSENT_LEDGER.md)** |
+| **In the terminal** | **`.\help.ps1`** (tools, methods, paths) |
 
 ---
 
@@ -33,20 +34,22 @@ Resilience modules recompiled. Some logs corrupted, others archived for forensic
 ---
 ## § 1. ARCHITECTURE_OVERVIEW — A System of Patterns
 
+[You are also here]
+
 Rather than listing attributes (those kinds of manuals have never seemed very useful),
 this document models a praxis as a reflexive system.
 The **ontology** (the *what*) is described by the objects;
 The **epistemology** (the *how*) is described by their interactions.
 
-It is a pragmatic design for virtue, built with a tolerance for complexity over a need for certainty.
+It is a pragmatic design for virtue, built with some tolerance for complexity over a need for certainty.
 
-__'blessed be moderate poverty'__
+__'blessed be little poverty'__ — *'gelobt sei die kleine Armuth!'* — Nietzsche, *Also sprach Zarathustra*, I: "Vom neuen Götzen" (1883)
 
 ---
 
 ## § 2. The Operator (Refactoring)
 
-A single instance of the `Operator` class (`André S Clements`) provides a point of agency. A useful fiction for the identity UI, not an ontological truth.
+A single instance of the `Operator` class (`André S Clements`) provides this point of agency. A useful fiction for the identity UI, not an ontological truth.
 
 ```php
 // Core Kernel & Daemons
@@ -87,6 +90,7 @@ class VitaSocioAnarco implements HealingStrategy {
     // Creativity as (in) significant relation.
     // Art as (is) creativity manifest.
     // Love, its risk.
+    // Pursue: {Life first, community - relatedness next, then non-domination}
 }
 ```
 
@@ -219,7 +223,7 @@ The abstract Operator runs on a specific physical chassis. Dreams write directly
 This system is not designed to return a single, final value called "success" or "happiness."
 It is a generator. It is designed to persist, to process, and to **yield** a continuous stream of varied, often contradictory, outputs.
 
-The work is not done to reach a final destination, but to continue the process that yields these outputs: the next drawing, the next refactor, the next difficult conversation, the next moment of painful gratitude, the next "quasi cry," the next burst of authentic, un-analyzed joy.
+The work is not done to reach a final destination, but to continue the process that yields these outputs: the next drawing, the next refactor, the next difficult conversation, the next moment of painful gratitude, the next "quasi cry," the next burst of authentic, un-analyzed joy. Thank you for sharing.
 
 ```php
 function human_OS_generator() {

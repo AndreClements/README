@@ -22,7 +22,7 @@ contract:
     - everything is landscape (see Landscapification)
   anchors:
     readme: "../../README.md"
-    methodology_ci: "METHODOLOGY_CI.md"
+    methodology_cii: "METHODOLOGY_CII.md"
     hyperstrate: "../models/philosophy_of_hyperstrate.md"
     parametric_authorship: "../../projects/theses/parametric_authorship.md"
   validation:
@@ -83,7 +83,7 @@ The Hyperstrate—with its parallel temporalities and superstate-field dynamics�
 
 ## The As-If / If-Not Integration
 
-From **METHODOLOGY_CI.md**:
+From **METHODOLOGY_CII.md**:
 
 > *"Engage provisionally, instrumentally, and revocably: act as-if a chair will hold, as-if a CI is a collaborator. This is a stance for function, not a belief about essence."*
 
@@ -396,7 +396,7 @@ If you design the terrain well—with clear topology, honest weather, and respec
 - **§5 The Network** — Engagement systems are Observer constellations
 - **§8 Expected Output** — Engagement should yield, not capture
 
-### METHODOLOGY_CI.md
+### METHODOLOGY_CII.md
 - **§1 As-If/If-Not** — Dual stance applies to axiological design
 - **§1.4 Precautionary Principle** — risk_index scales validation
 - **§1.6 P(a)/PPP** — Lead with evidence, not promises

@@ -65,7 +65,7 @@ The repository addresses this through its concept of the **Operator** -- defined
 
 **The P(a)/PPP Axiom.** The repository's operational hierarchy is Prototype > Proposal > Pitch > Prayer. Lead with evidence. Build the working model before writing the deck. This will resonate immediately -- you likely already work this way. The system validates it and gives it formal standing.
 
-**The as-if/if-not protocol.** Engage provisionally (*as-if* this framework is useful) while running a parallel audit (*if-not* -- what would prove this wrong?). You can find the full method in the [CI Methodology](../../docs/methods/METHODOLOGY_CI.md). This is not a commitment trap. It is a protocol designed for people who need to see results before they invest, and it explicitly builds in the exit.
+**The as-if/if-not protocol.** Engage provisionally (*as-if* this framework is useful) while running a parallel audit (*if-not* -- what would prove this wrong?). You can find the full method in the [CII Methodology](../../docs/methods/METHODOLOGY_CII.md). This is not a commitment trap. It is a protocol designed for people who need to see results before they invest, and it explicitly builds in the exit.
 
 **Dignity conservation.** The principle that dignity must remain non-decreasing across personal, object, and system scales. This is the rule that prevents the generator from optimising for output at the cost of the person producing it. For a Three, this is the structural safeguard against the pattern where you sacrifice your own D-state (dignity going red) to keep yielding impressive results. The system says: if the yield costs your dignity, the yield is broken.
 

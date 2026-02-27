@@ -1,6 +1,27 @@
 # Tools
 
-House tools for the README repository. CI-methodology scripts for document generation and automation.
+House tools for the README repository. CII-methodology scripts for document generation and automation.
+
+---
+
+## help.ps1 (repo root)
+
+Project-specific help for the PowerShell terminal. Lists available tools, methodology quick-reference, and key paths. Lives at repo root for quick access.
+
+### Usage
+
+```powershell
+.\help.ps1              # Show all sections
+.\help.ps1 tools        # Tools only
+.\help.ps1 methods      # CII methodology quick-reference
+.\help.ps1 paths        # Key directory paths
+```
+
+To enable bare `help` command, dot-source once per session:
+
+```powershell
+function help { & .\help.ps1 @args }
+```
 
 ---
 
@@ -197,24 +218,123 @@ python tools/render_equations.py tools/equations/parametric_authorship.yaml --fo
 
 ---
 
+## render_badges.py
+
+Renders SVG badge, header, and shield graphics from YAML definitions. Follows the same YAML-driven pattern as `render_equations.py` — data separated from code, deterministic output, no network calls.
+
+### Usage
+
+```bash
+python tools/render_badges.py tools/badges/midnight_darkmagic.yaml
+python tools/render_badges.py tools/badges/midnight_darkmagic.yaml --output ./custom_dir
+python tools/render_badges.py tools/badges/midnight_darkmagic.yaml --shield-only
+```
+
+### Parameters
+
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `yaml_file` | (required) | Path to YAML file with badge definitions |
+| `--output`, `-o` | (from YAML) | Override output directory |
+| `--no-font-embed` | false | Skip font subsetting/embedding (use system fonts) |
+| `--shield-only` | false | Only render the shield SVG |
+| `--header-only` | false | Only render the header SVG |
+| `--badges-only` | false | Only render the badges SVG |
+
+### Dependencies
+
+```bash
+pip install pyyaml fonttools brotli
+```
+
+### YAML Schema
+
+Badge definitions live in `tools/badges/`:
+
+```yaml
+meta:
+  title: "CII: A Pragmatics of Engagement"
+  version: "4.2.0"
+  attribution: "theMachine(s)"
+  output_dir: "../../docs/assets/midnight-darkmagic"
+
+palette:
+  bg: "#0B0F14"
+  fg: "#E6EAEF"
+  comment: "#9AA3AF"
+  keyword: "#5DF1D8"
+  function: "#CAE48E"
+  type: "#DFCFFF"
+  number: "#FFC891"
+  operator: "#FFB9DC"
+
+typography:
+  font_source: "path/to/IBMPlexMono-Regular.woff2"
+  font_stack: "'IBM Plex Mono', ui-monospace, ..."
+  scale:  # φ-based type scale
+    phi_neg2: 11
+    phi_neg1: 14
+    phi_0: 18
+    phi_1: 29
+    phi_2: 47
+```
+
+### Features
+
+- **YAML-driven** — Separate data from code; version bumps and content changes happen in YAML
+- **Font subsetting** — Extracts only used glyphs from woff2 via fonttools (~6.9KB embedded)
+- **Self-contained SVGs** — Base64-embedded IBM Plex Mono renders everywhere (GitHub, VS Code, browsers)
+- **midNight darkMagic palette** — LAB-derived equidistant hues with semantic colour mapping
+- **φ-based proportions** — Type scale, spacing, and border-radius derive from golden ratio
+- **Constellation diagram** — Diamond topology (CII → as-if/if-not → quorum+dissent) with bezier curves
+- **Accessible** — `<title>`, `<desc>`, `aria-labelledby` on all SVGs
+
+### Visual Style
+
+Three SVG outputs matching the midNight darkMagic design system:
+
+| SVG | Dimensions | Content |
+|-----|-----------|---------|
+| `repo_shield_midnight.svg` | 520×64 | Title + CII version line |
+| `repo_header_midnight.svg` | 1400×360 | Title, subtitle, formula, constellation diagram |
+| `repo_badges_midnight.svg` | 1280×120 | Four semantic pills: CII, as-if, if-not, risk_index |
+
+### Example
+
+```bash
+# Render all midNight darkMagic badges
+python tools/render_badges.py tools/badges/midnight_darkmagic.yaml
+
+# Render only the header (e.g. after changing constellation layout)
+python tools/render_badges.py tools/badges/midnight_darkmagic.yaml --header-only
+
+# Render without embedded font (smaller files, system font fallback)
+python tools/render_badges.py tools/badges/midnight_darkmagic.yaml --no-font-embed
+```
+
+---
+
 ## Related Files
 
 | Path | Purpose |
 |------|---------|
 | `tools/equations/` | YAML equation definitions for render_equations.py |
 | `tools/equations/parametric_authorship.yaml` | Parametric authorship thesis equations + footnotes |
+| `tools/badges/` | YAML badge definitions for render_badges.py |
+| `tools/badges/midnight_darkmagic.yaml` | midNight darkMagic theme badge/header/shield config |
 | `templates/bauhaus-academic.tex` | LaTeX template (Bauhaus-inspired design) |
 | `templates/asc-branding.tex` | ASC branding header (octagram, IBM Plex, earth tones) |
 | `templates/emoji-to-latex.lua` | CARDS signal emoji → coloured LaTeX circles |
 | `templates/octagram-mark-standalone.pdf` | Pre-rendered octagram for footer/title |
 | `workbench/academic-style.css` | CSS for HTML output |
+| `help.ps1` | Project help command (root) |
 | `flatten-md.ps1` | Repo flattening script (root) |
 
 ---
 
-## CI Methodology
+## CII Methodology
 
-These tools follow the repository's CI methodology:
+These tools follow the repository's CII methodology:
 
 - **Explicit parameters** via `CmdletBinding()` — declarative configuration
 - **Modular functions** with clear responsibilities
@@ -222,4 +342,4 @@ These tools follow the repository's CI methodology:
 - **Graceful degradation** when dependencies missing
 - **Logging** with timestamps and severity levels
 
-See `docs/methods/METHODOLOGY_CI.md` for full CI governance model.
+See [`METHODOLOGY_CII.md`](../docs/methods/METHODOLOGY_CII.md) for full CII governance model.

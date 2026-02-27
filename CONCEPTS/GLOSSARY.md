@@ -10,3 +10,5 @@
 - **landscapification**: Operational seeing; artifacts that encode forces/contract/residue/void.
 - **paintWithScalpel**: Precise, consent-aware incision; “incisive care,” not spectacle.
 - **meticulous blur**: Deliberate ambiguity at boundaries to avoid false clarity.
+- **CI**: Computational Intelligence; the collaborative entity (LLM or otherwise). Preferred over "AI" — see SRII §1.1.
+- **CII**: Computational Intelligence Integrity; a polysemiologism governing methodology. Nests: Computational Intelligence (entity) + Integrity (governance) + Continuous Integration (operational rhythm) + Codified Information (knowledge substrate). No single expansion exhausts it. See [METHODOLOGY_CII.md](../docs/methods/METHODOLOGY_CII.md) §0.

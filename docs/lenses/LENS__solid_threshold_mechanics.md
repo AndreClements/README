@@ -395,7 +395,7 @@ Health is yield(coherence_under_stress). SOLID increases a system's SOC—its ca
 - **[SRII_AXIOLOGICAL_FRAMEWORK.md](../models/SRII_AXIOLOGICAL_FRAMEWORK.md)** — Dignity conservation
 
 ### Methods
-- **[METHODOLOGY_CI.md](../methods/METHODOLOGY_CI.md)** — As-if/if-not validation
+- **[METHODOLOGY_CII.md](../methods/METHODOLOGY_CII.md)** — As-if/if-not validation
 - **[methodology__lens_transposition.md](../methods/methodology__lens_transposition.md)** — How this lens was built
 
 ### Other Lenses

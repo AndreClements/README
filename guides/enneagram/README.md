@@ -120,7 +120,7 @@ The following repository documents are linked from within the guide essays. Path
 
 | Document | Path | What Guides Reference It For |
 |----------|------|------------------------------|
-| CI Methodology | [docs/methods/METHODOLOGY_CI.md](../../docs/methods/METHODOLOGY_CI.md) | as-if/if-not protocol; risk_index; sovereignty not victory |
+| CII Methodology | [docs/methods/METHODOLOGY_CII.md](../../docs/methods/METHODOLOGY_CII.md) | as-if/if-not protocol; risk_index; sovereignty not victory |
 | Enneagram Lens | [docs/lenses/LENS__enneagram.md](../../docs/lenses/LENS__enneagram.md) | Type as observer position; CARDS integration; parametric personality |
 | SOLID Threshold Mechanics | [docs/lenses/LENS__solid_threshold_mechanics.md](../../docs/lenses/LENS__solid_threshold_mechanics.md) | SOLID as "door design"; boundary negotiation |
 | Salutogenesis Lens | [docs/lenses/LENS__salutogenesis.md](../../docs/lenses/LENS__salutogenesis.md) | SOC as health metric; type-specific health trajectories |

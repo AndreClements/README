@@ -49,7 +49,7 @@ The CARDS framework identifies Type 1's primary vulnerability as **Autonomy (A) 
 
 Naranjo's clinical insight was that the 1's anger is not absent but *redirected*. The Gut Centre processes through action, boundary, and will; for the 1, the body's anger becomes a ceaseless internal corrective. Riso and Hudson (*The Wisdom of the Enneagram*, 1999) describe the healthy 1 as "wise, discerning, realistic, and noble" but note that the average-to-unhealthy range is characterised by rigidity, resentment, and the sense of carrying a moral burden alone.
 
-The repository's **as-if/if-not** protocol ([CI Methodology](../../docs/methods/METHODOLOGY_CI.md)) offers a structural response: provisional engagement (*as-if* the framework holds) paired with parallel audit (*if-not* it fails, what then?). For a Type 1, this honours rigour without demanding premature closure. The [Observer Circuit Breaker](../../docs/protocols/observerCircuitBreaker_DBC_CQS.md) formalises the **Empty Turn**: the sovereign right to stop or rescope when the complexity budget runs negative. Not abandonment -- principled withdrawal.
+The repository's **as-if/if-not** protocol ([CII Methodology](../../docs/methods/METHODOLOGY_CII.md)) offers a structural response: provisional engagement (*as-if* the framework holds) paired with parallel audit (*if-not* it fails, what then?). For a Type 1, this honours rigour without demanding premature closure. The [Observer Circuit Breaker](../../docs/protocols/observerCircuitBreaker_DBC_CQS.md) formalises the **Empty Turn**: the sovereign right to stop or rescope when the complexity budget runs negative. Not abandonment -- principled withdrawal.
 
 The **risk_index** = complexity x power x distance_from_wetware externalises what you already feel: danger increases when systems operate far from the body's honest signals and power concentrates without proportional accountability.
 
@@ -87,7 +87,7 @@ These four entry points are selected for what typically matters most to the Type
 
 2. **[CARDS](../../docs/lib/CARDS.md)** -- The five-need diagnostic at full resolution: state matrix, manipulation detection protocol, and SRII integration. The most immediately executable tool in the repository.
 
-3. **[CI Methodology](../../docs/methods/METHODOLOGY_CI.md)** -- The as-if/if-not protocol, risk_index formula, and the principle that sovereignty is not victory. The repository's epistemological spine.
+3. **[CII Methodology](../../docs/methods/METHODOLOGY_CII.md)** -- The as-if/if-not protocol, risk_index formula, and the principle that sovereignty is not victory. The repository's epistemological spine.
 
 4. **[Enneagram Lens](../../docs/lenses/LENS__enneagram.md)** -- The full transposition of Enneagram dynamics into the parametric framework, including CARDS vulnerability signatures for all nine types and the formal expression of why the same quality is medicine for one type and poison for another.
 
