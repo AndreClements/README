@@ -18,6 +18,11 @@ This document is the input. The structured `/ideacubator/` directory is the even
 - A plain sentence may hide a dead metaphor.
 - Clarity is often a defense by obfuscation.
 - Analytic rigour can be a kind of epistemic DRM.
+- And, how tight is your polysemiologism, again?
+- And, show me your algorhythm, here's mine.
+- Poems can be programs, programs can be poems, everything is prayer.
+- All Machines are maculate. The praxis is navigation, not purification.
+- Gardens are good.
 
 ---
 
