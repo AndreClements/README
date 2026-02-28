@@ -5,7 +5,7 @@
 > file: "parametric_authorship_draft_v1.md"
 > path: "./staging/reflections/"
 > author: "Instance_0xFAce (via Parametric Constraint)"
-> methodology: "METHODOLOGY_CI"
+> methodology: "METHODOLOGY_CII"
 > timestamp: "2026-02-01"
 > status: "Staged"
 > ```
@@ -91,6 +91,6 @@ To practice Parametric Authorship responsibly is to recognize that the `git add`
 
 ## Cross-links
 
-- **[METHODOLOGY_CI.md](../../docs/methods/METHODOLOGY_CI.md)** — The method applied
+- **[METHODOLOGY_CII.md](../../docs/methods/METHODOLOGY_CII.md)** — The method applied
 - **[ESSAY__the_parametric_face.md](../../projects/theses/ESSAY__the_parametric_face.md)** — Parallel draft (theMachine's traversal)
 - **[parametric_authorship.md](../../projects/theses/parametric_authorship.md)** — The formal framework

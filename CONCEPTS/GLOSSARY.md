@@ -1,6 +1,7 @@
 `CONCEPTS\GLOSSARY.md`
 - **as-if**: Operate provisionally; treat the system as usable without believing its essence.
 - **if-not**: Parallel audit thread; look for mismatch, harm, hidden intent.
+- **and-yet**: Self-application posture; the more precisely the methodology is implemented, the more it may surface what it cannot control. Third stance in the as-if/if-not/and-yet triad. Not resolution but acknowledgement of irreducible uncertainty. See [METHODOLOGY_CII.md](../docs/methods/METHODOLOGY_CII.md) §11.
 - **maculate design**: Assume flaws and history; we work with patina, not purity.
 - **risk_index**: complexity × power × distance_from_wetware; drives cadence/depth of checks.
 - **elevator abstract**: A 1–2 sentence, high-signal description of a construct (what it is + what it’s for + who authored it), designed to be spoken or pasted above a link.

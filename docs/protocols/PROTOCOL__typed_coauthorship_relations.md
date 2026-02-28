@@ -4,7 +4,7 @@
 > *Protocol metadata follows — the philosophy lives between the lines.*
 > ```yaml
 > title: "Typed Co-Authorship Relations Protocol"
-> version: "0.1.0"
+> version: "0.2.0"
 > status: "Active / Speculative"
 > emerged_from: "Cross-instance observation (GPT→Claude), 2026-02-01"
 > authors:
@@ -49,6 +49,7 @@ Following OOO:
 | `Source-Derivative` | Original author | Remix author | Extraction ceiling τ applies | Asymmetric |
 | `Peer-Peer` | Collaborator | Collaborator | Equal contribution, mutual review | Symmetric |
 | `Mentor-Mentee` | Teacher | Learner | Scaffolding relation; lineage | Asymmetric |
+| `Solicited-Reviewer` | Maker | Reviewer | Maker solicits single-round structured feedback; Reviewer responds within bounded scope. Falls between "acknowledged in version history" and "co-authored" | Asymmetric |
 
 ### Mapping to Quad Face (Parametric Authorship)
 
@@ -74,6 +75,7 @@ Each relation type carries a default dignity profile:
 | `Source-Derivative` | 1.0 | 0.7 | 0.8 | **0.3** (strict) |
 | `Peer-Peer` | 0.9 | 0.9 | 0.9 | 0.7 |
 | `Mentor-Mentee` | 0.9 | 0.8 | 0.9 | 0.6 |
+| `Solicited-Reviewer` | 1.0 | 0.9 | 0.9 | 0.4 |
 
 **Legend:**
 - **d_personal**: Actor's right to refuse / withdraw
@@ -108,6 +110,7 @@ coauthorship_entry:
     role: "Instance/Sceptic"
     type: "machine"
     model: "claude-opus-4-5-20251101"
+    scope: "instance"  # instance | entity — this conversation vs the model at large
 
   # Contributions
   contribution_a: "Intent, constraints, curation, final approval"
@@ -135,6 +138,8 @@ coauthorship_entry:
   artifact_ref: "commit:71a176d"
   notes: "First instance of typed co-authorship in the repository"
 ```
+
+**Scope field (v0.2.0):** The optional `scope` on machine actors distinguishes `instance` (this specific conversation/session) from `entity` (the model at large). An instance contributed within bounded context; an entity attribution claims the model's general capability. Most co-authorship is instance-scoped. Entity scope applies when referencing model-level properties (e.g., training-derived knowledge) rather than session-specific contributions.
 
 ---
 
@@ -221,6 +226,7 @@ Each relation type has defined exit paths:
 | `Stager-Witness` | Unstage | Decline witness | Reversible |
 | `Source-Derivative` | Revoke license | Abandon derivative | Context-dependent |
 | `Peer-Peer` | Mutual dissolution | Mutual dissolution | Clean exit |
+| `Solicited-Reviewer` | Discard feedback | Decline review | Reversible (feedback is bounded) |
 
 **Exit is dignity.** The ability to withdraw is proof the relation is real, not coerced.
 
