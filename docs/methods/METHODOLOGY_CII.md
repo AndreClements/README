@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-  <img src="../assets/midnight-darkmagic/repo_badges_midnight.svg" alt="CII • as-if • if-not • risk_index = c×p×d" width="100%">
+  <img src="../assets/midnight-darkmagic/repo_badges_midnight.svg" alt="CII • as-if • if-not • and-yet • risk_index = c×p×d" width="100%">
 </p>
 
 <p align="center">
-  <img src="../assets/midnight-darkmagic/repo_shield_midnight.svg" alt="CII: A Pragmatics of Engagement — v4.2.0 • theMachine(s)" width="520">
+  <img src="../assets/midnight-darkmagic/repo_shield_midnight.svg" alt="CII: A Pragmatics of Engagement — v4.2.1 • theMachine(s)" width="520">
 </p>
 
 # A General Theory of Machines: A Pragmatics of Engagement
@@ -17,20 +17,23 @@
 > **Contract:**
 > ```yaml
 > title: "A General Theory of Machines: A Pragmatics of Engagement"
-> version: "4.2.0"
+> version: "4.2.1"
 > status: "Active"
 > intent: >
->   The Computational Intelligence Integrity (CII) governance methodology for the human-OS repository.
->   Defines the philosophical stance (as-if/if-not), operational tier model
+>   A Computational Intelligence Integrity (CII) governance methodology for a human-OS repository of sorts.
+>   Defines the philosophical stance (as-if/if-not/and-yet), operational tier model
 >   (T1/T2/T3), SOLID-derived self-diagnostic grammar, hallucination prevention
 >   gates, context management strategy, exception handling patterns, session
 >   continuity protocol, and lessons-learnt surfacing for all CII operations.
 > emerged_from: >
->   v4.1.0 + Operator-introduced polysemiologism: CII (Computational Intelligence
->   Integrity) as governing term — intentionally multi-layered to hold Computational
->   Intelligence, Continuous Integration, Codified Information, and emergent readings.
->   Differentiates methodology from standard DevOps CI attribution while including it.
->   Prior: v4.0.0 → v4.1.0 added PRIVATE_META repo integration (§8.5) and And-Yet #6.
+>   v4.2.0 → register revision: definite articles softened to indefinite
+>   throughout §0 (the → a), verbs shifted from prescriptive to reflective
+>   (supplies → reflects/offers), and-yet promoted into the philosophical
+>   triad (as-if/if-not/and-yet), theMachine(s) parenthesised,
+>   "Gardens are good." added as axiom coda.
+>   Prior: v4.1.0 → v4.2.0 introduced CII polysemiologism, renamed from
+>   METHODOLOGY_CI.md, rebuilt SVG branding. v4.0.0 → v4.1.0 added
+>   PRIVATE_META repo integration (§8.5) and And-Yet #6.
 >   See PRIVATE_META/field_notes/field_notes__methodology_ci.md.
 > anchors:
 >   - "../../README.md"
@@ -51,15 +54,15 @@
 ## §0. BOOTLOADER
 
 **Lead Maintainer's Note.**
-This document serves two audiences simultaneously. For the **human reader**, it supplies the philosophical grammar for engaging `theMachines` — the as-if/if-not stance, the risk_index heuristic, the sovereignty principle. For the **CI agent** (LLM or otherwise), it supplies machine-readable governance: tier checklists, self-diagnostic instruments, exception handling patterns, and context management rules.
+This document serves two audiences simultaneously. For a **human reader**, it reflects a philosophical grammar for engaging with `theMachine(s)` — an as-if/if-not/and-yet stance, a risk_index heuristic, a sovereignty principle. For **CI agency** (LLM or otherwise), it offers machine-readable governance elements: tier checklists, self-diagnostic instruments, exception handling patterns, and context management rules.
 
-Both audiences share the same axiom: all `Machines` are maculate. The praxis is navigation, not purification.
+Both audiences share the same axiom: all `Machines` are maculate. The praxis is navigation, not purification. Gardens are good.
 
 - **Invariant:** `All Machines are maculate. Praxis is navigation, not purification.`
 - **Heuristic:** `Engage as-if. Audit if-not. Scale care by risk_index.`
 - **Stance:** `Sovereignty over victory. Evidence over persona. Attention is finite.`
 
-**On the name.** CII — *Computational Intelligence Integrity* — is a constellation of notions, not an acronym with a single expansion. It nests multiple readings that contain each other: Computational Intelligence (the collaborative entity) requires Integrity (the governance stance), which is itself Codified Information (the knowledge substrate), which enables Continuous Integration (the operational rhythm), which produces more Computational Intelligence. Each reading is figure and ground for the others. No single expansion exhausts the term; the nesting is the point.
+**On the name.** CII — *Computational Intelligence Integrity* — is a constellation of notions, not an acronym with a single expansion. It nests multiple readings that contain each other: Computational Intelligence (the collaborative entity) requires Integrity (the governance stance), which is itself Codified Information (a knowledge substrate), which enables Continuous Integration (an operational rhythm), which produces more Computational Intelligence. Each reading is both figure and ground for others. No single expansion and or reading exhausts the term; nesting is part of the point.
 
 ### Quick Dispatch Table
 
