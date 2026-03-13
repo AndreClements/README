@@ -19,10 +19,11 @@
 % --- Typography (IBM Plex, matching ASC theme font stack) ---
 % Fonts installed to user profile via tools/install-plex-fonts.ps1
 % IBM Plex Mono installed system-wide (C:\Windows\Fonts)
+% $asc-fonts-path$ is passed from render-pdf.ps1 (resolves per-machine)
 \usepackage{fontspec}
 \setmainfont{IBMPlexSerif}[
   Extension = .ttf,
-  Path = \detokenize{C:/Users/User/AppData/Local/Microsoft/Windows/Fonts/},
+  Path = {$asc-fonts-path$/},
   UprightFont = *-Regular,
   BoldFont = *-Bold,
   ItalicFont = *-Italic,
@@ -30,7 +31,7 @@
 ]
 \setsansfont{IBMPlexSans}[
   Extension = .ttf,
-  Path = \detokenize{C:/Users/User/AppData/Local/Microsoft/Windows/Fonts/},
+  Path = {$asc-fonts-path$/},
   UprightFont = *-Regular,
   BoldFont = *-Bold,
   ItalicFont = *-Italic,
@@ -84,7 +85,7 @@
 % Footer: octagram mark + page number
 \fancyfoot[C]{%
   \textcolor{text-muted}{%
-    \raisebox{-0.15ex}{\includegraphics[height=0.8em]{C:/Users/User/Documents/GitHub/README/templates/octagram-mark-standalone}}%
+    \raisebox{-0.15ex}{\includegraphics[height=0.8em]{$asc-templates-path$/octagram-mark-standalone}}%
     \quad\small\thepage%
   }%
 }
@@ -95,7 +96,7 @@
   \fancyhf{}%
   \fancyfoot[C]{%
     \textcolor{text-muted}{%
-      \raisebox{-0.15ex}{\includegraphics[height=0.8em]{C:/Users/User/Documents/GitHub/README/templates/octagram-mark-standalone}}%
+      \raisebox{-0.15ex}{\includegraphics[height=0.8em]{$asc-templates-path$/octagram-mark-standalone}}%
       \quad\small\thepage%
     }%
   }%
@@ -107,7 +108,7 @@
 \usepackage{titling}
 \pretitle{%
   \begin{center}%
-  \includegraphics[height=2em]{C:/Users/User/Documents/GitHub/README/templates/octagram-mark-standalone}\\[1em]%
+  \includegraphics[height=2em]{$asc-templates-path$/octagram-mark-standalone}\\[1em]%
   \LARGE\bfseries%
 }
 \posttitle{\end{center}\vskip 0.5em}

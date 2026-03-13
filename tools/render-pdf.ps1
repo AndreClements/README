@@ -257,6 +257,13 @@ if ($Brand) {
     $brandingHeader = Join-Path (Join-Path $REPO_ROOT 'templates') 'asc-branding.tex'
     if (Test-Path $brandingHeader) {
         $null = $pandocArgs.Add('--include-in-header=' + $brandingHeader)
+        # Pass repo root and user fonts dir as LaTeX variables so .tex is machine-portable
+        $templatesPath = (Join-Path $REPO_ROOT 'templates').Replace('\', '/')
+        $userFontsPath = (Join-Path $env:LOCALAPPDATA 'Microsoft\Windows\Fonts').Replace('\', '/')
+        $null = $pandocArgs.Add('-V')
+        $null = $pandocArgs.Add('asc-templates-path=' + $templatesPath)
+        $null = $pandocArgs.Add('-V')
+        $null = $pandocArgs.Add('asc-fonts-path=' + $userFontsPath)
         Write-Log "Branding: ASC (octagram + IBM Plex + earth tones)"
     } else {
         Write-Log "Branding header not found: $brandingHeader" 'WARNING'
