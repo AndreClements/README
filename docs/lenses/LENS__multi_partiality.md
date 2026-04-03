@@ -476,3 +476,5 @@ generator Relationship():
 ### Lenses
 
 - **[LENS__salutogenesis.md](LENS__salutogenesis.md)** — Multi-partiality as collective comprehensibility; social support as GRR
+- **[LENS__infinite_games.md](LENS__infinite_games.md)** — Holding the relational field open as infinite play; strength (not power) as the facilitator's mode
+- **[LENS__wheel_of_consent.md](LENS__wheel_of_consent.md)** — Give-take as quadrant balance; multi-party encounter complexity grows as N(N-1)

@@ -48,6 +48,7 @@ These are not "influences" (see [DEPENDENCIES.md](../../DEPENDENCIES.md) for tha
 | **[MULTI_PARTIALITY](MULTI_PARTIALITY.md)** | Ivan Boszormenyi-Nagy | Family therapy → Contextual therapy | Relational ethics; multi-stakeholder navigation; ledger of entitlements |
 | **[OBJECTIFICATION](OBJECTIFICATION.md)** | Martha C. Nussbaum, Rae Langton | Kant → MacKinnon/Dworkin → Nussbaum → Langton | Dignity diagnostic; 10-feature taxonomy; benign objectification argument; Machine dignity |
 | **[OOO](OOO.md)** | Graham Harman, Ian Bogost | Heidegger → Speculative Realism → OOO | Flat ontology; Machine dignity; NetVerse word-physics |
+| **[PERMACULTURE](PERMACULTURE.md)** | Bill Mollison & David Holmgren | Howard/Yeomans/Fukuoka/Odum → Mollison & Holmgren | Design methodology; zone diagnostic; ethics-to-design bridge; spatial/temporal vocabulary |
 | **[REGENERATIVE_CULTURES](REGENERATIVE_CULTURES.md)** | Daniel Christian Wahl | Bateson → Capra → Living systems; Antonovsky → Salutogenic design; Reed → Regeneration | Scale-linking design; salutogenic design praxis; regenerative assessment |
 | **[SALUTOGENESIS](SALUTOGENESIS.md)** | Aaron Antonovsky | Stress research → Medical sociology | Health-creation framework; SOC diagnostic |
 | **[SOLID](SOLID.md)** | Robert C. Martin et al. | Parnas → Meyer → Liskov → Martin | Modular coherence; threshold mechanics |

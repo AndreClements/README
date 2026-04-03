@@ -475,6 +475,7 @@ The Wheel is **dyadic** (two people, one agreement). Multi-partiality is **syste
 - **[MULTI_PARTIALITY.md](MULTI_PARTIALITY.md)** — Give-take balance; relational ledger; rejunction
 - **[CLEAN_SPACE.md](CLEAN_SPACE.md)** — Embodied facilitation; spatial sovereignty; facilitator non-directiveness
 - **[SALUTOGENESIS.md](SALUTOGENESIS.md)** — SOC: consent literacy builds Comprehensibility (understanding relational dynamics), Manageability (having tools for navigating them), Meaningfulness (investing in genuine connection)
+- **[LENS__wheel_of_consent.md](../lenses/LENS__wheel_of_consent.md)** — Lens transposition: sovereign touch; SI-quadrant mapping; consent granularity; OS_allowing diagnostic
 - **[DEPENDENCIES.md](../../DEPENDENCIES.md)** — Broader constellation of influences
 
 ---

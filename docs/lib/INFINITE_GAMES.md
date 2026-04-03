@@ -234,7 +234,7 @@ Any system, relationship, or design choice can be interrogated as finite-game or
 
 ## Maintainer's Note
 
-This document is a *hosted reference*, not original scholarship. The intellectual property belongs to James P. Carse and the respective authors cited. The maintainer (André S Clements) hosts this entry to provide a stable reference URL, ensure correct attribution, and enable integration with the repository's documentation system. All transposition, mapping, and interpretive work is clearly marked as such and does not claim to represent Carse's own positions. For the lens transposition, see the forthcoming `LENS__infinite_games.md`.
+This document is a *hosted reference*, not original scholarship. The intellectual property belongs to James P. Carse and the respective authors cited. The maintainer (André S Clements) hosts this entry to provide a stable reference URL, ensure correct attribution, and enable integration with the repository's documentation system. All transposition, mapping, and interpretive work is clearly marked as such and does not claim to represent Carse's own positions. For the lens transposition, see [LENS__infinite_games.md](../lenses/LENS__infinite_games.md).
 
 ## Integration with CARDS
 
@@ -426,6 +426,7 @@ Use when: a system that *should* be infinite appears to be operating as finite.
 - **[methodology__lib_entry_creation.md](../methods/methodology__lib_entry_creation.md)** — How this entry was created
 - **[PROTOCOL__lib_research.md](../protocols/PROTOCOL__lib_research.md)** — Upstream research protocol
 - **[research__infinite_games.md](../../staging/research/research__infinite_games.md)** — Research brief (status: complete, gate: 5/5)
+- **[LENS__infinite_games.md](../lenses/LENS__infinite_games.md)** — Lens transposition: play as generator semantics; surprise as field-liveness; finite nesting grammar
 - **[DEPENDENCIES.md](../../DEPENDENCIES.md)** — Carse in the broader constellation [32]
 
 ---

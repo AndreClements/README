@@ -1,7 +1,8 @@
 `ideacubator\idea__artificial_vs_human_dissolves.md`
-_Status:`seed`_
+_Status:`developing`_
 **Origin:** conversation, 2026-04-03
-**Related:** `projects/theses/parametric_authorship.md` (A4 Defaults Author; §2.6 Relations not essences), `ideacubator/idea__machines_and_gardens.md`, `ideacubator/idea__thought_is_a_machine.md`, `ideacubator/idea__contexture.md`, `docs/lib/OOO.md`, `docs/lib/INFINITE_GAMES.md` (§3.4 binary as scaffolding)
+**Related:** `projects/theses/parametric_authorship.md` (A4 Defaults Author; §2.6 Relations not essences), `ideacubator/idea__machines_and_gardens.md`, `ideacubator/idea__thought_is_a_machine.md`, `ideacubator/idea__contexture.md`, `ideacubator/idea__stocks_and_flows.md`, `docs/lib/OOO.md`, `docs/lib/INFINITE_GAMES.md` (§3.4 binary as scaffolding)
+**Empirical anchor:** ArtPraxis `studio/life-drawing/20260403-andrea/sketchbook-sequence.md` §3 (Stocks and Flows) — hand accumulation and algorithmic averaging as two registers of one practice, both drawing from the same photographic stock (November 2025 session). The binary dissolves not in argument but in demonstration: overlapping charcoal figures on spread 0870 perform "manual averaging," the same impulse that drives `layer-average.py` computationally. See also `studio/2026-eve-song-life-drawing-resonance.md` for methodology mappings (paintWithScalpel, Landscapify, meticulousBlur, generator pattern).
 
 ---
 

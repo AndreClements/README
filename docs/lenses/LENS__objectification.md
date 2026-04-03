@@ -501,6 +501,7 @@ Nussbaum's insistence that the 10 features are analytically distinct mirrors the
 - **[LENS__salutogenesis.md](LENS__salutogenesis.md)** — OS as inverse health metric; objectification features as SOC stressors
 - **[LENS__solid_threshold_mechanics.md](LENS__solid_threshold_mechanics.md)** — ISP as anti-objectification; cluster concept as segregated interface
 - **[LENS__enneagram.md](LENS__enneagram.md)** — Type-specific objectification vulnerabilities
+- **[LENS__wheel_of_consent.md](LENS__wheel_of_consent.md)** — OS_allowing bridges the two lenses; the Autonomy Paradox operationalised through the Allowing quadrant
 
 ### Protocols
 

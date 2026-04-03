@@ -452,6 +452,7 @@ The biocultural uniqueness of place connects directly to the repository's concep
 - **[SOLID.md](SOLID.md)** — Structural analogy: SRP ↔ ecosystem role; OCP ↔ adaptive-not-extractive
 - **[OOO.md](OOO.md)** — Tension: Wahl's holism vs. OOO's withdrawal; both reject anthropocentrism
 - **[MULTI_PARTIALITY.md](MULTI_PARTIALITY.md)** — Multi-stakeholder navigation including non-human entities
+- **[LENS__regenerative_cultures.md](../lenses/LENS__regenerative_cultures.md)** — Lens transposition: scale-linking coherence; nested Hyperstrate; extended dignity trajectory; panarchy
 - **[DEPENDENCIES.md](../../DEPENDENCIES.md)** — Broader constellation of influences
 
 ---

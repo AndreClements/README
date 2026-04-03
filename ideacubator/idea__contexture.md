@@ -1,7 +1,8 @@
 `ideacubator\idea__contexture.md`
-_Status:`seed`_
+_Status:`developing`_
 **Origin:** conversation, 2026-04-03
-**Related:** `ideacubator/idea__artificial_vs_human_dissolves.md`, `docs/methods/METHODOLOGY_CII.md`, `projects/theses/parametric_authorship.md` (A6 Provenance is the Indexical Trace)
+**Related:** `ideacubator/idea__artificial_vs_human_dissolves.md`, `ideacubator/idea__stocks_and_flows.md`, `docs/methods/METHODOLOGY_CII.md`, `projects/theses/parametric_authorship.md` (A6 Provenance is the Indexical Trace)
+**Empirical anchor:** ArtPraxis `studio/life-drawing/20260403-andrea/sketchbook-sequence.md` §1–§2 — six sketchbook spreads trace the development of a compression/decompression diptych. The raised arm hunted across spread 0870, isolated in 0868, committed to in the final diptych: each page carries the compressed residue of prior pages. The contexture of the sequence is visible — the trace is haptic (charcoal density, gestural confidence) even when the specific ancestry (which pose, which minute) is lost.
 
 ---
 

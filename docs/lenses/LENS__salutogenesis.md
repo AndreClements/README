@@ -470,3 +470,8 @@ This has design implications: perspective-homogenization degrades system health.
 ### Thesis
 
 - **[parametric_authorship.md](../../projects/theses/parametric_authorship.md)** — Perturbation framework; dignity tensor; designed transitions
+
+### Other Lenses
+
+- **[LENS__regenerative_cultures](LENS__regenerative_cultures.md)** — Genealogical downstream: extends SOC from individual/system to multi-scale; GRRs from personal to collective; adds panarchy as temporal model
+- **[LENS__infinite_games](LENS__infinite_games.md)** — `yield(health)` as one expression of `yield(play)`; complementary diagnostics (SOC + field-liveness)
