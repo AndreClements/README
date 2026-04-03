@@ -1,4 +1,5 @@
 /.claude
+/.private
 
 # OS artifacts
 .DS_Store
