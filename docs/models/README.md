@@ -45,6 +45,7 @@ CARDS (lib) → SRII_AXIOLOGICAL_FRAMEWORK (model) → LENS__salutogenesis (lens
 |-------|---------|-------------|
 | **[philosophy_of_hyperstrate.md](philosophy_of_hyperstrate.md)** | Field dynamics, coherence, CET, multi-partiality | README §5; all lenses |
 | **[philosophy_of_body.md](philosophy_of_body.md)** | Embodied resilience, adaptive history, sovereign boundary | README §2 |
+| **[spans.md](spans.md)** | Page-dialogue across gutters; four registers of span; boundary-as-skin/sensor/screen/interface | philosophy_of_body.md; docs/essays/spans_field_essay.md |
 | **[SRII_AXIOLOGICAL_FRAMEWORK.md](SRII_AXIOLOGICAL_FRAMEWORK.md)** | Spatio-Relational Intelligence Integrity; CARDS as axiological spine | CARDS.md |
 | **[srii__contract_of_aims.md](srii__contract_of_aims.md)** | Normative constitution; five articles and six invariants | SRII framework |
 | **[SRII_CARDS_CASES.md](SRII_CARDS_CASES.md)** | Failure modes and mitigation patterns for each CARD | CARDS.md; case law |
