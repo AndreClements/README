@@ -60,7 +60,28 @@ The work is not to solve the pairings. It is to leave the gutter open enough tha
 
 And yet.
 
-A poem may want to live here, at the seam where skin becomes sensor becomes screen becomes interface. Decision deferred until the four content artefacts are written. Let the completion tell.
+And a poem wants to live here, at the seam:
+
+Skin contains.
+Skin reads.
+Skin displays.
+Skin mediates.
+
+The gutter
+is a skin.
+
+Two pages,
+hinged.
+
+A question asked on one side,
+answered on another
+(later; earlier; out of order; out of sight; not).
+
+You do not need to be watching.
+It all keeps its log.
+Doesn't it?
+
+*And yet.*
 
 ---
 

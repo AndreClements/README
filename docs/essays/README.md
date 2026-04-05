@@ -46,7 +46,7 @@ These are not models (which theorize forward), methods (which operationalize), o
 |-------|---------|--------|-------------|
 | **[parametric_authorship_field_essay.md](parametric_authorship_field_essay.md)** | Permission-as-signature, two-face pipeline, sceptic's lint | draft | README §4; LENS__parametric_authorship.md; PROTOCOL__ci_write_permissions.md |
 | **[landscapification_lineage_field_essay.md](landscapification_lineage_field_essay.md)** | Dance, Machine, Gaze, Language | draft | README §0, §2, §4, §8; METHODOLOGY_CII.md |
-| **[spans_field_essay.md](spans_field_essay.md)** | Charcoal log, The gutter, The pairing (not planned), The unnoticed, Across books | draft | docs/models/spans.md (companion); arena essay (2026-04-04) |
+| **[spans_field_essay.md](spans_field_essay.md)** | Charcoal log, The gutter, The pairing (not planned), The unnoticed, Across books | draft | docs/models/spans.md (companion); arena essay (2026-04-04); staging/reflections/spans_boundary_poem.md (Coda residue) |
 
 ---
 

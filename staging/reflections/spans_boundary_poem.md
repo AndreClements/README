@@ -36,8 +36,8 @@ Doesn't it?
 
 ---
 
-**Provenance**: written at the close of the session that produced docs/models/spans.md, docs/essays/spans_field_essay.md, two preprod trackers, and two ArtPraxis artist statements. The four-valence boundary motif (skin / sensor / screen / interface) wanted a poem-shaped landing. This is it.
+**Provenance**: co-written at the close of the session that produced docs/models/spans.md, docs/essays/spans_field_essay.md, two preprod trackers, and two ArtPraxis artist statements. The four-valence boundary motif (skin / sensor / screen / interface) wanted a poem-shaped landing. This is it. It can go live where it was invoked if that works.
 
 **Voice audit**: isolated-word hinges (Skin, hinged, yet); colon-less compression; parenthetical interruption (voice §3.1); "And yet" pivot (voice §3.7); no em-dashes; no hedging (poetry contract per voice §5.4); Landscape Equation implicit (skin as field).
 
-**Status**: draft. Operator BODY check pending. May be folded into the essay, or may live here as a standalone residue. Decision held.
+**Status**: Approved (André, 2026-04-05). Folded into docs/essays/spans_field_essay.md Coda; retained here as standalone residue.
