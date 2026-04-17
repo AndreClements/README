@@ -46,6 +46,7 @@ CARDS (lib) → SRII_AXIOLOGICAL_FRAMEWORK (model) → LENS__salutogenesis (lens
 | **[philosophy_of_hyperstrate.md](philosophy_of_hyperstrate.md)** | Field dynamics, coherence, CET, multi-partiality | README §5; all lenses |
 | **[philosophy_of_body.md](philosophy_of_body.md)** | Embodied resilience, adaptive history, sovereign boundary | README §2 |
 | **[spans.md](spans.md)** | Page-dialogue across gutters; four registers of span; boundary-as-skin/sensor/screen/interface | philosophy_of_body.md; docs/essays/spans_field_essay.md |
+| **[engineering.md](engineering.md)** | Engineering is bridging between body and hyperstrate. Boundary design at module/system scale; n-valence grammar (Structure/Seam/Signal/Graveyard + surfacing faces: Substrate/Ledger/Ritual/Residue) | philosophy_of_body.md; philosophy_of_hyperstrate.md; docs/lib/lib__cross_domain_engineering_principles.md |
 | **[SRII_AXIOLOGICAL_FRAMEWORK.md](SRII_AXIOLOGICAL_FRAMEWORK.md)** | Spatio-Relational Intelligence Integrity; CARDS as axiological spine | CARDS.md |
 | **[srii__contract_of_aims.md](srii__contract_of_aims.md)** | Normative constitution; five articles and six invariants | SRII framework |
 | **[SRII_CARDS_CASES.md](SRII_CARDS_CASES.md)** | Failure modes and mitigation patterns for each CARD | CARDS.md; case law |
@@ -73,6 +74,7 @@ The philosophy documents provide **foundational orientations**:
 
 - **philosophy_of_hyperstrate.md** — The field; what holds everything together
 - **philosophy_of_body.md** — The ground; where theory meets flesh
+- **engineering.md** — The middle rung; engineering is bridging between body and hyperstrate (boundary design at module/system scale)
 
 ### Supporting Documents
 

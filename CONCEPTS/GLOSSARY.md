@@ -20,3 +20,13 @@
 - **gutter**: The fold or boundary between two surfaces that could be read together; operational (not only typographic). Operates with usually at least four valences: skin, sensor, (cinema-)screen, (computer-)screen/interface. See [spans.md](../docs/models/spans.md) §1.
 - **four registers of span**: Noticed / unnoticed / solicited / cross-book. The grammars by which a span instantiates. See [spans.md](../docs/models/spans.md) §2.
 - **boundary-as-X**: Four-valence frame for any gutter — skin (sovereignty), sensor (reception), screen (projection), interface (I/O). Continuous with [philosophy_of_body.md](../docs/models/philosophy_of_body.md) §3.
+- **engineering**: Homegrown model. *Engineering is bridging between body and hyperstrate* — the deliberate design of boundaries between what may change and what must hold, at the module/system scale that sits between [philosophy_of_body](../docs/models/philosophy_of_body.md) (component) and [philosophy_of_hyperstrate](../docs/models/philosophy_of_hyperstrate.md) (field). Valence count is **open (n)**; a named core surfaces reliably. See [engineering.md](../docs/models/engineering.md).
+- **n-valence (engineering)**: The open-count discipline applied to engineered boundaries. Named core: Structure / Seam / Signal / Graveyard. Surfacing also: Substrate / Ledger / Ritual / Residue. A new face earns its place only if it generates execution consequences the existing set does not (see [engineering.md](../docs/models/engineering.md) §2.6).
+- **Structure (engineering valence)**: The load-bearing invariant; the part that cannot change without breaking trust.
+- **Seam (engineering valence)**: The interface designed to absorb change without propagating it.
+- **Signal (engineering valence)**: The face that reports; how you know the other valences are still intact.
+- **Graveyard (engineering valence)**: The face designed to die quietly; fail-safe, deprecation, end-of-life.
+- **Substrate (engineering valence, surfacing)**: The physical / economic / legal ground the engineered thing rests on; often invisible until it shifts.
+- **Ledger (engineering valence, surfacing)**: The record of which boundaries were drawn where, and why. Overlaps with [philosophy_of_hyperstrate](../docs/models/philosophy_of_hyperstrate.md)'s federated ledger at a different scale.
+- **Ritual (engineering valence, surfacing)**: The ongoing maintenance practice; the engineered thing as something that must be tended, not only deployed.
+- **Residue (engineering valence, surfacing)**: The emissions no design brief authorised; where an artefact's maculation actually lives.

@@ -40,6 +40,7 @@ These are not "influences" (see [DEPENDENCIES.md](../../DEPENDENCIES.md) for tha
 | Construct | Author | Lineage | Use |
 |-----------|--------|---------|-----|
 | **[CARDS](CARDS.md)** | Je'anna L Clements | SDT (Deci & Ryan) → CAR → CARDS | Needs-mapping diagnostic; decision simulation |
+| **[Cross-Domain Engineering Principles](lib__cross_domain_engineering_principles.md)** | LLM (AI-generated synthesis, 2026; non-standard import) | Parnas / Codd / Dijkstra / Meyer / Simon / Liskov / Boehm / Pareto / Gilbert & Lynch → LLM synthesis | Scaffolding for the homegrown [engineering model](../models/engineering.md); cross-domain convergence table |
 | **[CLEAN_LANGUAGE](CLEAN_LANGUAGE.md)** | David Grove; Lawley & Tompkins | Phenomenology → Ericksonian → Clean Language → Symbolic Modelling | Clean inquiry; metaphor development; minimal-projection facilitation |
 | **[CLEAN_SPACE](CLEAN_SPACE.md)** | David Grove; Lawley & Tompkins | Clean Language → Symbolic Modelling → Clean Space | Spatial facilitation; 2nd-order presentation coaching; non-visual externalisation |
 | **[ENNEAGRAM](ENNEAGRAM.md)** | Ichazo, Naranjo, Riso & Hudson | Sufi geometry → Gurdjieff → Ichazo → Naranjo → Riso & Hudson | Dynamic personality system; self-knowledge diagnostic; integration/disintegration dynamics |
