@@ -155,6 +155,9 @@ For each claimed span, ask: *Would another reader, uninformed of my claim, regis
 - Companion essay: [spans_field_essay.md](../essays/spans_field_essay.md) — lineage, narrative, the same material in phenomenological register
 - [philosophy_of_body.md](philosophy_of_body.md) — closest sibling model; the body as boundary
 - [docs/essays/landscapification_lineage_field_essay.md](../essays/landscapification_lineage_field_essay.md) — spans-as-topology ancestor
+- [docs/lenses/LENS__objectification.md](../lenses/LENS__objectification.md) — violability (Feature 5) as the failure-case shadow of boundary-as-interface; the port is opened without consent, or the skin is breached while being read only as sensor/screen
+- [docs/lenses/LENS__wheel_of_consent.md](../lenses/LENS__wheel_of_consent.md) — Allowing quadrant presupposes boundary-as-skin; the boundary/limit distinction maps onto the four-valence frame (skin/sensor/screen/interface)
+- [docs/methods/voice_signature.md](../methods/voice_signature.md) — voice contract (this doc itself exercises Colon Expansion, And-Yet Pivot, Maculate Disclosure, the Deflating Coda)
 - [ideacubator/idea__stocks_and_flows.md](../../ideacubator/idea__stocks_and_flows.md) — sketchbook-accumulation prior art
 - [ideacubator/idea__contexture.md](../../ideacubator/idea__contexture.md) — raised-arm-across-spreads prior art
 - [projects/project__bodyTime_exhibition_manual.md](../../projects/project__bodyTime_exhibition_manual.md) — `bodyTime()` as layered-averaging sibling

@@ -493,6 +493,7 @@ Nussbaum's insistence that the 10 features are analytically distinct mirrors the
 - **[SRII_AXIOLOGICAL_FRAMEWORK.md](../models/SRII_AXIOLOGICAL_FRAMEWORK.md)** — Article III: Integrity as Dignity; objectification as Corrupt Data
 - **[philosophy_of_hyperstrate.md](../models/philosophy_of_hyperstrate.md)** — Field coherence; dignity topology
 - **[srii__contract_of_aims.md](../models/srii__contract_of_aims.md)** — Normative invariants; objectification as violation
+- **[spans.md](../models/spans.md)** — Boundary-as-interface (four-valence gutter grammar). Feature 5 (violability) reads as a specific failure case of spans' boundary-as-interface valence: the port is opened without consent, or the skin is breached while being read as mere sensor/screen.
 
 ### Other Lenses
 

@@ -49,6 +49,7 @@ CARDS (lib) → SRII (model) → methodology (method) → practice (life)
 | **[methodology__host_multi_party_encounter.md](methodology__host_multi_party_encounter.md)** | Hosting protocols for multi-party encounters | README §4, §5 |
 | **[methodology__axiology_first_aesthetics_for_engagement_design.md](methodology__axiology_first_aesthetics_for_engagement_design.md)** | Design methodology; aesthetics as governance | CARDS.md; SRII |
 | **[methodology__lens_transposition.md](methodology__lens_transposition.md)** | Transposing external frameworks via figure-ground integration | /lenses/; /lib/ |
+| **[voice_signature.md](voice_signature.md)** | Operator's voice-and-style contract (mirror); registers, signature moves, operational vocabulary, anti-patterns, usage contract. LSP-T2 verified against GLOSSARY | METHODOLOGY_CII §0; aLexicon; andresclements.com:docs/research/voice-signature.md |
 
 ---
 

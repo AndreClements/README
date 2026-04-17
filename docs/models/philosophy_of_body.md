@@ -32,6 +32,7 @@ A body is what defines the boundary between a system and the world. The integrit
 
 - **The Paradox:** The body is the ultimate site of the individual system, the `Singleton`. It is where a system is fundamentally separate and alone. `LOVE`, or "significant relation," is the ultimate expression of the `Network`, the yearning to bridge that separation.
 - **The Synthesis (The `Sovereign Container`):** The work of the body — maintaining its boundaries, managing its inputs and outputs, preserving its core functions — creates a **sovereign container**. Only from this position of systemic integrity can the profound, often sovereignty-threatening, risk of the **erotic** and the vulnerability of connection be safely undertaken. A system must have a robust firewall before it can open a port to another. One must *first* be sovereign in one's own skin to truly and freely connect with, and perhaps `LOVE`, another.
+- **The Boundary's Other Valences:** The body's skin is containment (sovereignty) and it is also sensor (afferent reception), screen (projection surface), and interface (I/O). The firewall framing is the sovereignty valence; the others operate alongside. The [spans model](spans.md) names this four-valence grammar of boundary and scales it to any gutter (sketchbook spread, repo, exhibition sequence) — the same four valences operate across adjacent surfaces hinged at a fold, not only around a single body.
 
 #### **4. Synthesis: The Body as the Vehicle of Synthesis**
 

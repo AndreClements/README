@@ -20,6 +20,8 @@ Governance lives in `docs/methods/METHODOLOGY_CII.md`. Start at **§0 Dispatch T
 
 **Host ≠ Author** principle applies to all lib entries.
 
+**Voice (prose-producing sessions):** When the session will generate prose for the repo (lib entry, lens, essay, methodology doc), load [docs/methods/voice_signature.md](docs/methods/voice_signature.md) alongside `METHODOLOGY_CII.md`. It carries the operator's voice contract — registers, signature moves, operational vocabulary, anti-patterns — and is the reference for LLM-hygiene checks. Not required for code-only or research-brief sessions.
+
 ---
 
 ## PRIVATE_META Integration (Operational Learning)

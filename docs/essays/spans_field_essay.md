@@ -87,4 +87,5 @@ Doesn't it?
 
 **Formal model**: [docs/models/spans.md](../models/spans.md)  
 **Originating material**: "The First and Final Arena" (2026-04-04)  
-**Provenance**: [staging/reflections/spans_seed.md](../../staging/reflections/spans_seed.md)
+**Provenance**: [staging/reflections/spans_seed.md](../../staging/reflections/spans_seed.md)  
+**Voice exemplar**: [docs/methods/voice_signature.md](../methods/voice_signature.md) — phenomenological register, bilingual seam (*Die liggaam kan nie vir altyd lieg oor sy toestand nie.*), and-yet Coda, isolated-word hinge ("And yet.").

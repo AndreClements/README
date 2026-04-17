@@ -1,9 +1,11 @@
 
 `docs/models/aLexicon.md`
 
-# **aLexicon** (v1.0.1 woking)
+# **aLexicon** (v1.1.0 working)
 
 **Lead Maintainer's Note:** This is the becoming high-density operational lexicon for the praxis. It uses a double-barrel syntax to provide both a simple, actionable definition and a dense, theoretical one. This contrast is intentional. Read the first for speed, the second for depth.
+
+> **v1.1.0 (2026-04-17):** Added four new sections — Voice & Signature Moves, Homegrown Methods (voice-signature operational vocabulary), Code-Prose Hybrids, Spans. Folds in the operational vocabulary verified by the [voice-signature](../methods/voice_signature.md) (v1.0.0, 2026-04-04) and the landed [spans model](spans.md) (v0.1.0, 2026-04-05). Sibling entries in [GLOSSARY.md](../../CONCEPTS/GLOSSARY.md) carry short-form pointers for the same terms.
 
 ---
 
@@ -76,3 +78,83 @@
 **CoCuP (Context-over-Context Unresolved Perturbations)** :: dependencies breaking; a twitching context stack **|** A systemic deadlock where a layered context stack fails under iteration.
 
 **DII (Dependency Integrity Inadequate)** :: a programmatic cancer, a little death **|** State flagged when CET is violated (`V_total < θ` or `R_total > τ`), invariants fail to recover, or the context root `M_t` oscillates without convergence across N yields.
+
+### **Voice & Signature Moves**
+
+Operational shorthand for the rhetorical moves catalogued in [voice_signature.md §3](../methods/voice_signature.md). Use these names when flagging a move's presence or absence in a draft.
+
+**And-Yet Pivot** :: Hold without resolving. **|** Acknowledges a preceding claim and pivots to its complication; the grammatical enactment of multi-partiality (also in Afrikaans: *en tog*).
+
+**Parenthetical Interruption** :: Alternate reading, in-line. **|** The voice's pre-LLM native interruption device — parallel tracks within a line, ghost-text beside text. Em-dashes are a flagged LLM artefact; parentheticals carry the reliable voice signal.
+
+**Isolated-Word Hinge** :: One word, its own line. **|** A load-bearing wall in miniature; forces the reader to re-weight everything around it. Carries multiple simultaneous readings.
+
+**Colon Expansion** :: Thesis, then unpacked. **|** The generative colon — a detonation device that splits a compressed claim into its constituents. Not a list introducer.
+
+**Code-as-Ontology** :: Code as metaphor, idiom, and material at once. **|** Programming syntax is used not only as metaphor and idiom but also as material with its own aesthetic and philosophical weight (`return relation;` is both valid code and the practice's thesis). Syntax is held in its own grammar, untranslated.
+
+**Bilingual Seam** :: Afrikaans enters untranslated. **|** Afrikaans at an emotional, embodied, or political hinge in English prose; the reader meets the text halfway. No gloss. See [§4.4](../methods/voice_signature.md) for the Afrikaans seam inventory.
+
+**Maculate Disclosure** :: Declare flaws as features. **|** Structural self-critique; vulnerabilities sections; Sceptic's Lint. Includes the **deflating coda** — *"something like that"*, *"doesn't everyone?"* — that punctures a precise description's solemnity.
+
+**Short-Long-Short Sandwich** :: Strike — expand — land. **|** Fragment opener, clause-rich elaboration, punchy closer. The paragraph's micro-architecture enacts the practice's macro-architecture (assertion, complication, sufficiency).
+
+**Invitational Address** :: Offer, not instruct. **|** Second person as open door — *"I invite you to visit. To look closely. To dwell."* Holds a door open without pushing anyone through it.
+
+**Landscape Equation** :: Internal state as spatial field. **|** Structural identification (not metaphor): body becomes terrain, attention becomes weather, relation becomes topology. Landscapification is the method. Most consistently confirmed move across corpus validation.
+
+**Constraint Gift** :: Constraint is generative. **|** Formal, technical, ethical constraint inverts the romantic unconstrained-artist model. A permission allowlist becomes a portrait; a blending stump that "holds no reserve" becomes a method.
+
+**Distributed Signature** :: Authorship is typed and relational. **|** Co-authorship with machines declared transparently (*"developed in dialogue with"*, not hidden); human contributors credited for what they specifically contributed. See also [PROTOCOL__typed_coauthorship_relations.md](../protocols/PROTOCOL__typed_coauthorship_relations.md).
+
+### **Homegrown Methods (Voice-Signature Vocabulary)**
+
+Core operational vocabulary that appears across practice, blog, and methodology. Short-form pointers also in [GLOSSARY.md](../../CONCEPTS/GLOSSARY.md). Full catalogue in [voice_signature.md §4](../methods/voice_signature.md).
+
+**meticulousBlur / meticulous blur** :: Deliberate boundary ambiguity. **|** Studio method *and* philosophical stance; refuses false clarity at a boundary. Named in "Another Portrait" (1997); operational across the corpus.
+
+**Landscapification** :: Operational seeing. **|** Artifacts that encode forces, contract, residue, void. The body-terrain mapping is its most visible application; the concept is broader — a way of making systems legible as topology.
+
+**multipartiality** :: Stand with more than one party at once. **|** Adequate attention without collapsing difference; *"more than one centre, more than one path."* See [LENS__multi_partiality.md](../lenses/LENS__multi_partiality.md).
+
+**maculate / maculate design** :: Marked, stained, imperfect — work with patina. **|** Assume flaws and history as structural features, not bugs. The foundational axiom of METHODOLOGY_CII (all `Machines` are maculate).
+
+**salutogenic** :: Comprehensible, manageable, meaningful. **|** Stance borrowed from Antonovsky via Eriksson & Lindström; treats health as the generator, not illness as the subtraction. See [LENS__salutogenesis.md](../lenses/LENS__salutogenesis.md).
+
+**pyngenot** :: Afrikaans compound: pain-pleasure. **|** Single lexeme that English cannot host; requires Afrikaans to exist. Emotional register that declines translation.
+
+**eindoplaas** :: Afrikaans: final destination. **|** Title of a 1991 poem; later collapsed into a code comment inside `returnRelation()` (2025). Thirty-five years compressed into an inline `//`.
+
+### **Code-Prose Hybrids**
+
+Function-style identifiers that operate simultaneously as code, method-names, and theses. Each is both a callable shorthand inside the praxis and a citable entry in other docs.
+
+**returnRelation()** :: Code as thesis. **|** *`return relation;`* — both valid code and the practice's generative claim. Near-kin to `human_OS_generator()`.
+
+**bodyTime(fugitivity)** :: Layered-averaging method. **|** Exhibition and process name for the fugitive-time layering that accumulates instants onto a single surface; computational sibling of `layer-average.py`. See [project__bodyTime_exhibition_manual.md](../../projects/project__bodyTime_exhibition_manual.md).
+
+**paintWithScalpel** :: Precise, consent-aware incision. **|** Incisive care, not spectacle. The studio method extended to CSS (1px borders, no radius, no shadows) and permission architecture.
+
+**hostEncounter()** :: Multi-party encounter hosting. **|** The hosting protocol embodied in a function name. See [methodology__host_multi_party_encounter.md](methodology__host_multi_party_encounter.md).
+
+**human_OS_generator()** :: The repository's yield pattern. **|** Function-style shorthand for the praxis's generative output; every lib, lens, model, and essay is one of its yields.
+
+**theMachine(s)** :: Co-agent, parenthesised plurality. **|** Acknowledges CI as collaborator; the parenthetical `(s)` holds singular, plural, and ambiguous counts simultaneously (a distributed-signature move at the naming level).
+
+### **Spans**
+
+Operational vocabulary for the [spans model](spans.md) (v0.1.0, 2026-04-05). See [docs/essays/spans_field_essay.md](../essays/spans_field_essay.md) for the phenomenological companion.
+
+**Span** :: A pairing across a gutter. **|** A dialogue conducted across a structural break — two pages, two books, two repos — often without authorial intent, sometimes without authorial notice, and load-bearing anyway.
+
+**Gutter** :: A boundary with (usually) at least four valences. **|** The fold between two surfaces that could be read together. Operational, not only typographic; the sketchbook spread is canonical, but the gutter also runs repo-to-repo and decade-to-decade.
+
+**Four Registers of Span** :: Noticed / unnoticed / solicited / cross-book. **|** The grammars by which a span instantiates. A single pairing may drift between registers. Unnoticed is the model's hinge claim (attention is not a precondition for integrity).
+
+**Boundary-as-Skin** :: Containment, sovereignty. **|** The gutter as separator; what keeps two pages distinct. Continuous with [philosophy_of_body.md §3](philosophy_of_body.md) (the firewall-before-port logic).
+
+**Boundary-as-Sensor** :: Reception, afferent channel. **|** The gutter registers what the practice deposited on either side of it; it is what *reads* the adjacency.
+
+**Boundary-as-(Cinema)Screen** :: Projection surface. **|** The gutter displays accumulated attention; the spread as an image encountered by a viewer (including the maker returning to the page).
+
+**Boundary-as-(Computer)Screen / Interface** :: I/O between substrates. **|** The gutter mediates hand-and-archive, page-and-page, repo-and-repo.

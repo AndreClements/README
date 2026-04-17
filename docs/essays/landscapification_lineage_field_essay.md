@@ -26,3 +26,7 @@ Languages are `Machines`; conversations are `Machines`; both instantiate relatio
 The trajectory is from raw, intuitive praxis to a conscious, documented, and resilient practice. A line from **`Another Portrait` (1997)** — `"I sculpt a meticulous blur"` — becomes a named method in the `README`. The code was always there. The work was learning to read it. The `praxis` is not a destination. It is the ongoing, humble, and necessary work of maintenance. Language → conversation → relationship. Keep dissent. Keep play. We leave legible traces. Then we clean the brushes.
 
 The `yield`: not mastery, not proof, not always success, but a hard-won navigable tenderness — relation that does not eat its young — and so, to a language of landscapes.
+
+---
+
+**Voice exemplar**: [docs/methods/voice_signature.md](../methods/voice_signature.md) — the Landscape Equation (3.10) as signature move; "a hard-won navigable tenderness" cited as voice evidence in §1.

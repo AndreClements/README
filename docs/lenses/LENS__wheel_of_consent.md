@@ -398,6 +398,7 @@ Limit:    the current port configuration (which ports are open, to whom, for wha
 
 - **[philosophy_of_body.md](../models/philosophy_of_body.md)** — Body as sovereign boundary; the firewall of LOVE; somatic sovereignty as consent precondition
 - **[SRII_AXIOLOGICAL_FRAMEWORK.md](../models/SRII_AXIOLOGICAL_FRAMEWORK.md)** — Dignity conservation under embodied encounter
+- **[spans.md](../models/spans.md)** — Boundary-as-skin (containment, sovereignty) is the same valence the Allowing quadrant presupposes; the four-valence gutter grammar refines the boundary/limit distinction (§Points of Emergence 4) into skin/sensor/screen/interface across any adjacency, not only body-to-body.
 
 ### Thesis
 

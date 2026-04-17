@@ -144,6 +144,7 @@ METHODOLOGY_CII.md (policy / abstractions)
 | **Library Entry Creation** | Import Gate, LHS scoring, T1/T2/T3 gates | [methodology__lib_entry_creation.md](methodology__lib_entry_creation.md) |
 | **Lens Transposition** | Framework transposition into operational lenses | [methodology__lens_transposition.md](methodology__lens_transposition.md) |
 | **Axiology-First Aesthetics** | Evaluation ordering, dignity as design constraint | [methodology__axiology_first_aesthetics_for_engagement_design.md](methodology__axiology_first_aesthetics_for_engagement_design.md) |
+| **Voice Signature** | Operator's voice-and-style contract (mirror); operationalises the §0 register shift in corpus-anchored detail | [voice_signature.md](voice_signature.md) |
 
 ### Minimal Contract Grammar
 
@@ -695,6 +696,7 @@ Emergent from the `human-OS` praxis: [https://github.com/AndreClements/README](h
 - **[methodology__lib_entry_creation.md](methodology__lib_entry_creation.md)** — Import Gate; LHS scoring; T1/T2/T3 gate definitions
 - **[methodology__axiology_first_aesthetics_for_engagement_design.md](methodology__axiology_first_aesthetics_for_engagement_design.md)** — Evaluation ordering (Principle 7)
 - **[methodology__lens_transposition.md](methodology__lens_transposition.md)** — Framework transposition into operational lenses
+- **[voice_signature.md](voice_signature.md)** — Operator's voice-and-style contract (mirror); companion to §0 v4.2.1 register shift
 - **[SOLID.md](../lib/SOLID.md)** — SOLID principles; failure mode taxonomy (§6 source)
 - **[LENS__solid_threshold_mechanics.md](../lenses/LENS__solid_threshold_mechanics.md)** — Threshold-Lint instrument; scoring rubric (§6 source)
 - **[CARDS.md](../lib/CARDS.md)** — Axiological spine; needs diagnostic (Principle 7)

@@ -15,6 +15,7 @@ contract:
     - "inspectability (diff-first)"
     - "explicit consent at irreversible thresholds"
   lens_applied: "../lenses/LENS__parametric_authorship.md"
+  voice_exemplar: "../methods/voice_signature.md"   # technical→ethical register transition
 ```
 
 # Parametric Authorship — Permissions-as-Signature Field Essay
