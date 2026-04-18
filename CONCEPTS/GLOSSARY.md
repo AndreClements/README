@@ -1,15 +1,35 @@
 `CONCEPTS\GLOSSARY.md`
+
+This glossary holds two sections. **Foundations** carries the art-philosophy ground (canonical at the site glossary, mirrored here). **Operational vocabulary** carries the methodological grammar (canonical here, mirrored at the site). The two are not disjoint: Creativity is defined as "relations between elements" — which is what spans, gutters, valences, and boundary-as-X model; Non-dualism's "absence of separation between subject and object" is what four registers of span and multipartiality enact; Vita-Socio-Anarco's non-domination is what Empty Turn, quorum + dissent, and maculate disclosure discharge. Foundations name the telos; operational vocabulary names the instruments.
+
+## Foundations
+
+*Canonical at [https://andresclements.com/glossary/](https://andresclements.com/glossary/); mirrored here verbatim. Any revision should be made at the site and re-mirrored here.*
+
+- **Art**: "The appreciable manifestation of creativity," emphasizing that art is something that can be perceived and appreciated, and that it is a product of creativity.
+- **Creativity**: The ability to create new or different relations between elements, highlighting the idea that art is not simply a representation or expression of the artist's subjective experience, but rather something that arises from the manipulation or arrangement of elements in a new or different way, by creating new relationships between them.
+- **Radical Creativity**: The ability to create or discover new relations between elements, in a way that aligns with the framework of "Vita-Socio-Anarco," promoting the well-being of all life, social relations and non-domination.
+- **Object-Oriented Ontology (OOO)**: An ontological framework that emphasizes the autonomy, presence and impact of objects and entities in art studies. It aligns with Heidegger's concept of "aura," which posits that artworks possess an unique presence that cannot be reduced to their physical or functional properties.
+- **Non-dualism**: An approach that emphasizes the interconnectedness and interdependence of all things, and the absence of a fundamental separation between subject and object.
+- **Artistry**: The ways of engaging with elements conducive to producing "Art."
+- **Radical Artistry**: The ways of engaging with elements in a creative process that leads to the production of "Art" that promotes the well-being of all life, social relations, and non-domination as prioritized by the "Vita-Socio-Anarco" framework.
+- **Vita-Socio-Anarco**: A framework that prioritizes values for positive change and is used as a guide for Radical artistry, by prioritizing all life, then social relations, then non-domination.
+
+## Operational vocabulary
+
+*Canonical here; mirrored at [https://andresclements.com/glossary/](https://andresclements.com/glossary/). Edits made here; the site mirror is regenerated from this source.*
+
 - **as-if**: Operate provisionally; treat the system as usable without believing its essence.
 - **if-not**: Parallel audit thread; look for mismatch, harm, hidden intent.
 - **and-yet**: Self-application posture; the more precisely the methodology is implemented, the more it may surface what it cannot control. Third stance in the as-if/if-not/and-yet triad. Not resolution but acknowledgement of irreducible uncertainty. See [METHODOLOGY_CII.md](../docs/methods/METHODOLOGY_CII.md) §11.
 - **maculate design**: Assume flaws and history; we work with patina, not purity.
 - **risk_index**: complexity × power × distance_from_wetware; drives cadence/depth of checks.
-- **elevator abstract**: A 1–2 sentence, high-signal description of a construct (what it is + what it’s for + who authored it), designed to be spoken or pasted above a link.
+- **elevator abstract**: A 1–2 sentence, high-signal description of a construct (what it is + what it's for + who authored it), designed to be spoken or pasted above a link.
 - **Empty Turn**: The sovereign exit; stop/rescope when complexity budget < 0.
 - **quorum + dissent**: Merge rule that preserves minority views as first-class artifacts.
 - **BODY check**: Phenomenological verification notes (what held/failed in material contact).
 - **landscapification**: Operational seeing; artifacts that encode forces/contract/residue/void.
-- **paintWithScalpel**: Precise, consent-aware incision; “incisive care,” not spectacle.
+- **paintWithScalpel**: Precise, consent-aware incision; "incisive care," not spectacle.
 - **meticulous blur**: Deliberate ambiguity at boundaries to avoid false clarity.
 - **CI**: Computational Intelligence; the collaborative entity (LLM or otherwise). Preferred over "AI" — see SRII §1.1.
 - **CII**: Computational Intelligence Integrity; a polysemiologism implementing methodology. Nests: Computational Intelligence (entity) + Integrity (governance) + Continuous Integration (operational rhythm) + Codified Information (knowledge substrate). No single expansion exhausts it. See [METHODOLOGY_CII.md](../docs/methods/METHODOLOGY_CII.md) §0.
