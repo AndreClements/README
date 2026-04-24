@@ -32,6 +32,7 @@
 - Mollison, Bill & Holmgren, David [35]
 - Musashi, Miyamoto [19]
 - Nietzsche, Friedrich [20]
+- Norman, Don [36]
 - Nussbaum, Martha C. [21]
 - Pavlov, Ivan P. [22]
 - Pirsig, Robert M. [31]
@@ -88,6 +89,8 @@
 [19] **Musashi, Miyamoto**, _Go Rin no Sho_ [The Book of Five Rings] (c. 1645). The hardware driver for the `paintWithScalpel()` method.
 
 [20] **Nietzsche, Friedrich**, _The Basic Writings of_ (trans. Walter Kaufmann, Modern Library, 1992). A powerful library, imported with caution. Source for the `$will_to_power` concept, which was then refactored into the `TraumaticLegacy` class.
+
+[36] **Norman, Don**, _The Design of Everyday Things_ (originally _The Psychology of Everyday Things_, 1988; revised and expanded edition, 2013). The `EverydayDesignPractice.lib` — affordances, signifiers, mappings, feedback, constraints, conceptual models, discoverability, and error as a design responsibility rather than user failure. Provides the perceptual/action grammar for humane everyday design: how people know what can be done, what has happened, and how to recover when the system misleads them. A likely future bridge into resources on design systems as governed practice — shared decisions, language, interaction contracts, accessibility, code, maintenance, and organisational memory — rather than as a component library or tool account. See also: SOLID [30] (modular coherence), CARDS [via CARDS.md] (Competence, Autonomy, Dignity), OBJECTIFICATION [via OBJECTIFICATION.md] (anti-instrumentalisation), PERMACULTURE [35] (design as attention topology), and Parametric Authorship (rule-design across strata).
 
 [21] **Nussbaum, Martha C.**, "Objectification," _Philosophy & Public Affairs_ 24, no. 4 (1995). Provides the core `NonPathologicalObjectification.API`, a critical component of the "ethics of the gaze."
 

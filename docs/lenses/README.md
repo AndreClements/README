@@ -188,6 +188,14 @@ risk_index: <0.0-1.0>
 
 ---
 
+## Candidate Lenses
+
+| Candidate | Likely Core Texts | Domain | Trigger |
+|-----------|-------------------|--------|---------|
+| LENS__everyday_design_practice | README, THE_DESIGN_OF_EVERYDAY_THINGS, CARDS, SOLID, Engineering, PA | Everyday design, design systems as governed practice, artistry-as-design | After Norman lib entry reaches T3 / Imported Library status |
+
+---
+
 ## Cross-links
 
 - **README.md** — The Operator; master node in the constellation (§5 Observer Pattern)

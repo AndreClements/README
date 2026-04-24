@@ -56,6 +56,11 @@ A tactical checklist of immediate, actionable tasks for the `README` repository.
   - DoD: Seed v0.1 exists; linked from philosophies + methods where relevant.
   - Commit: `feat(land): add Landscapification init spec and structure`
 
+- [@] **feat(lib): Everyday Design Practice / Norman**
+  - Draft `docs/lib/THE_DESIGN_OF_EVERYDAY_THINGS.md` from `staging/research/research__everyday_design_practice.md`.
+  - DoD: Norman 2013 direct-source pass complete; T3 sign-off recorded; status promoted from Draft Imported Library to Imported Library; future lens scoped.
+  - Commit: `feat(lib): draft everyday design practice entry`
+
 ---
 
 ### 🟢 Low Priority — **Ongoing & Housekeeping**

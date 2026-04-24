@@ -53,6 +53,7 @@ These are not "influences" (see [DEPENDENCIES.md](../../DEPENDENCIES.md) for tha
 | **[REGENERATIVE_CULTURES](REGENERATIVE_CULTURES.md)** | Daniel Christian Wahl | Bateson → Capra → Living systems; Antonovsky → Salutogenic design; Reed → Regeneration | Scale-linking design; salutogenic design praxis; regenerative assessment |
 | **[SALUTOGENESIS](SALUTOGENESIS.md)** | Aaron Antonovsky | Stress research → Medical sociology | Health-creation framework; SOC diagnostic |
 | **[SOLID](SOLID.md)** | Robert C. Martin et al. | Parnas → Meyer → Liskov → Martin | Modular coherence; threshold mechanics |
+| **[THE_DESIGN_OF_EVERYDAY_THINGS](THE_DESIGN_OF_EVERYDAY_THINGS.md)** | Don Norman | Gibson → Norman & Draper → Norman → Gaver / Hartson | Everyday interaction grammar; affordances/signifiers; feedback, constraints, conceptual models; error dignity |
 | **[WHEEL_OF_CONSENT](WHEEL_OF_CONSENT.md)** | Betty Martin, D.C. | BDSM consent culture → Body Electric → 3-Minute Game (Faddis) → Martin | Somatic consent diagnostic; touch literacy; facilitation check; OBJECTIFICATION operationalisation |
 
 ---
