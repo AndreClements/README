@@ -385,6 +385,7 @@ For each reusable pattern:
 - [Engineering model](../models/engineering.md)
 - [Axiology-First Aesthetics](../methods/methodology__axiology_first_aesthetics_for_engagement_design.md)
 - [Parametric Authorship](../../projects/theses/parametric_authorship.md)
+- [Field essay: How to Build a Design System](../essays/how_to_build_a_design_system.md)
 - [Research brief](../../staging/research/research__everyday_design_practice.md)
 - [DEPENDENCIES.md](../../DEPENDENCIES.md)
 
