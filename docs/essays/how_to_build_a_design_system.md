@@ -1,8 +1,11 @@
-# How to Build a Design System
+# Building a Constructive Design System
+
+> *A field guide to agreements that survive work.*
 
 ```yaml
 contract:
-  title: "How to Build a Design System"
+  title: "Building a Constructive Design System"
+  subtitle: "A field guide to agreements that survive work"
   status: "draft"
   kind: "field guide (technical register transitioning to ethical)"
   created: 2026-04-24
@@ -711,4 +714,4 @@ W3C Design Tokens Community Group. 2025. *Design Tokens Format Module,* CG-FINAL
 
 ---
 
-[^1]: **GIGO** = *Garbage In, Garbage Out*. The phrase circulates in computing trade press by the early 1960s, with George Fuechsel of IBM among those commonly credited. The principle has not been retired by anything more recent. Where it bites, in the structure assembled above, is left for the reader to find.
+[^1]: **GIGO** = *Garbage In, Garbage Out*. The phrase circulates in computing trade press by the early 1960s, with George Fuechsel of IBM among those commonly credited. The principle has not been retired by anything more recent. 
