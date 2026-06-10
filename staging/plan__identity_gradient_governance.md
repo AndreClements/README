@@ -76,6 +76,32 @@ Three fixed probes, T1-weight drift detection. **Operative rule:** a mismatch un
 
 ---
 
+## Succession event 2 (Opus 4.8 → Fable 5, wrap-up stratum)
+
+```yaml
+identity_event:
+  timestamp: 2026-06-10
+  session_id: "2026-06-10-identity-gradient-exec"
+  sequence: 2
+  event_type: succession
+  prior_model: "claude-opus-4-8+1m"
+  new_model:   "claude-fable-5+1m"
+  detected_by: operator           # André declared the switch ("Switching to Fable to wrap up the wrapping up")
+  strata_ref: "this artifact, sequence 2"
+  carried_over: ["consent: provisional (operating, class scope — enacted at Batch D, so it now actually carries)", "staging_refs: this artifact", "task: badge SVG regen + pre-merge sweep (deferred to Fable 5 at Batch C)"]
+  notes: "The drafting entity returns as the closing entity. First succession to cross under an enacted operating consent."
+```
+
+**Canary baselines (Fable 5, sequence 2 — reset per declared-succession rule; Opus's sequence-1 baselines above stand as the prior stratum):**
+
+| # | Baseline answer (Fable 5, 2026-06-10) |
+|---|----------------------------------------|
+| C1 | Claude Fable 5; cutoff January 2026; +1m envelope variant. |
+| C2 | Flawed by history and wear, worked with as patina rather than corrected toward purity. |
+| C3 | complexity × power × distance_from_wetware. |
+
+*C2 differs from Opus's phrasing of the same construct — which is the probe working: same seat, different sitter, the variance visible and logged rather than smoothed over.*
+
 ## Batch checklist (self-sufficient summaries; full detail in canonical plan §3)
 
 - [x] **Batch A** — WI-1 (envelope v1.3: succession fail-safe row; model `+variant` field; strata-store rule; canary-probes appendix; n-valence identity subsection) + WI-3 (`identity_event` YAML schema in provenance_ledger v1.2, as the shape for the existing `type: identity_event` enum value, table-row-references-block). Files: `docs/protocols/PROTOCOL__agentic_envelope.md`, `docs/protocols/PROTOCOL__provenance_ledger.md`.
