@@ -1,6 +1,6 @@
 `docs/protocols/PROTOCOL__provenance_ledger.md`
 # Protocol — Provenance Ledger (CI Work)
-> **Version:** 1.1 (Stable)
+> **Version:** 1.2 (Stable)
 
 **Purpose.** One-page audit of claims, assets, and market facts touched in CI tasks. Evidence > persona.
 
@@ -49,3 +49,31 @@ print_object:
 - At **T3**, require physical proof or calibrated soft-proof before shipping.
 
 **Templates:** see `templates\provenance_ledger.md` and `templates\assembly_header.yml`.
+
+---
+
+## §4. Schema: `identity_event`
+
+The `identity_event` type (allowed in §1) records a change in the operating assembly: a succession, an identity bleed, a context compaction, a configuration change. The ledger *row* carries the summary (`type`, date, a `source` pointing at the staging artifact); the YAML *block* below is the referenced detail the row points to.
+
+```yaml
+identity_event:
+  timestamp: ISO-8601
+  session_id: "<slug>"            # with sequence, orders strata within a session
+  sequence: N                     # compaction leaves the hash unchanged; this still discriminates
+  event_type: "bleed | succession | compaction | config_change"
+  prior_model: "<family>@<version>[+variant] | opaque | n/a"
+  new_model:   "<family>@<version>[+variant] | opaque"
+  prior_assembly_hash: "<sha256 | unknown>"
+  new_assembly_hash:   "<sha256>"   # NOTE: equal to prior for compaction by construction —
+                                    # the envelope hash spec excludes context-state
+  detected_by: "canary | self_report | operator | harness_disclosure"
+  strata_ref: "<staging artifact path + sequence>"   # where the headers persist
+  carried_over: []                  # free-form list; conventional values:
+                                    #   "consent: <state per CONSENT_LEDGER | unestablished>"
+                                    #   "permissions: re-acknowledged"
+                                    #   "staging_refs: <paths>"
+  notes: "<one line>"
+```
+
+**Logging triggers (tier-consistent — the envelope starts a Ledger only at T2/T3).** At T2+, `succession` and `bleed` always get a full row; `compaction` and `config_change` are logged when detected. At T1 no ledger exists: a succession or bleed is recorded as one line appended to the 3-line self-report (`identity: succession <prior_model> → <new_model>`), nothing more. The `detected_by` field plus the tier gate are the silting control — record-keeping scales with risk, and the Empty Turn applies to it too.
