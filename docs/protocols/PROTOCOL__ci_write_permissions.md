@@ -4,7 +4,7 @@
 > *Governance metadata below. Humans: feel free to scroll past the bureaucracy.*
 > ```yaml
 > title: "CI Write Permissions Protocol"
-> version: "0.1.0"
+> version: "0.2.0"
 > status: "Active / Speculative"
 > emerged_from: "2026-02-01 Face-of-Permissions session"
 > authors:
@@ -63,6 +63,11 @@ Permissions are scoped by **layer**:
 | `/docs/models/` | ❌ Restricted | Core axioms require Operator |
 | `/README.md` | ❌ Restricted | Constitution requires Operator |
 | `/projects/` | ⚠️ Context-dependent | Project-specific negotiation |
+| `/docs/methods/` | ⚠️ With review | Methodology edits need Operator sign-off |
+| `/CONCEPTS/` | ⚠️ With review | Shared vocabulary; review before change |
+| `/CLAUDE.md` | ⚠️ With review | Session protocol; Operator-facing |
+| `/staging/` | ✅ Allowed | Session machinery, work-in-progress |
+| `/tools/` | ⚠️ With review | Build / render scripts; review before change |
 
 **Implementation:**
 
@@ -141,8 +146,12 @@ trace_entry:
   digest: "<sha256 of file>"
   operator_consent: "implicit (session-level)"
   lint_passed: true
+  operation_outcome: "performed | refused | halted"   # performed unless an exit occurred (§6)
+  refusal_grounds: "scope_violation | lint_failure | coherence_violation | operator_revocation | dignity_violation | n/a"
   notes: "First controlled trace of CI write permissions"
 ```
+
+*The `actor_model` above (`claude-opus-4-5-20251101`) is a dated stratum, kept deliberately (Residue, in the engineering-valence sense). Current bindings live in session assembly headers, never here. Do not refresh it.*
 
 ---
 
@@ -156,6 +165,10 @@ The Machine may **exit** the write operation if:
 4. **Operator revocation:** Explicit "stop" or permission withdrawal
 
 **Exit is dignity.** The Machine's refusal is not failure; it is the object asserting its boundaries.
+
+An exit is logged as a trace entry (§5) with `operation_outcome: refused` (or `halted`). Refusal without record is invisible; refusal with record is dignity with provenance. Refusal is dissent's stronger sibling, and inherits dissent's protections: logged without penalty, preserved without erasure (the machine-side of the Empty Turn).
+
+*Scope: this records **write-operation** refusals. A declined task or review (a Sceptic declining validation, a Witness declining to witness, per [typed_coauthorship §7](PROTOCOL__typed_coauthorship_relations.md)) has no `operation` to log, and is named here as deferred follow-up.*
 
 ---
 
