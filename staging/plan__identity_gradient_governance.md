@@ -7,7 +7,7 @@
 >   status: "validating"
 >   created: 2026-06-10
 >   sessions_completed: 1
->   current_phase: "Batch A (envelope + identity_event schema)"
+>   current_phase: "all batches committed — pre-merge: badge SVG regen (Fable 5) + verification sweep"
 >   early_signal: "proceed"
 > canonical_plan: "C:/Users/user/.claude/plans/hello-fable-5-andr-humble-lemur.md (Rev 3.2)"
 > note: >
@@ -78,14 +78,21 @@ Three fixed probes, T1-weight drift detection. **Operative rule:** a mismatch un
 
 ## Batch checklist (self-sufficient summaries; full detail in canonical plan §3)
 
-- [ ] **Batch A** — WI-1 (envelope v1.3: succession fail-safe row; model `+variant` field; strata-store rule; canary-probes appendix; n-valence identity subsection) + WI-3 (`identity_event` YAML schema in provenance_ledger v1.2, as the shape for the existing `type: identity_event` enum value, table-row-references-block). Files: `docs/protocols/PROTOCOL__agentic_envelope.md`, `docs/protocols/PROTOCOL__provenance_ledger.md`.
-- [ ] **Batch B** — WI-2 (ci_write_permissions v0.2.0: `operation_outcome` + `refusal_grounds` on §5 trace_entry; §6 refusal-logging line; §3A rows per D4; typed_coauthorship v0.3.0: §8 halt log-target; refusal principle line) + WI-7 (fossil riders near dated model IDs). Files: `ci_write_permissions`, `typed_coauthorship`, `provenance_ledger`.
-- [ ] **Batch C** — WI-4 (METHODOLOGY_CII v4.3.0 §5.3: Sceptic LSP-T1 lint; independence declaration enum; Grok-lesson inheritance) + WI-5 (Principle 7 + typed_coauthorship §3 cross-ref to SRII_CARDS_CASES L340–358; d_* heuristic-priors rider) + WI-9 (METHODOLOGY_CII PRIVATE_META→META per D2) + badge rebuild. Precondition: review `../META/field_notes/field_notes__methodology_ci.md`, cite entries in `emerged_from`.
-- [ ] **Batch D** — WI-6 (CONSENT_LEDGER proposal diff: named-consent vs operating-consent clarification + Provisional class grant per D1). Delivered as a diff; Operator writes.
-- [ ] **Batch E** — WI-8 (GLOSSARY operational entries: canary probe, succession, seat/sitter, identity stratigraphy, prosthetic proprioception) + WI-9 (CLAUDE.md PRIVATE_META→META per D2) + aLexicon proposal diff (restricted layer, not written). 
-- [ ] **Batch F** — WI-10 (provenance E3; field notes a–d; META context Active Work Stream; diagnostic-log line).
+- [x] **Batch A** — WI-1 (envelope v1.3: succession fail-safe row; model `+variant` field; strata-store rule; canary-probes appendix; n-valence identity subsection) + WI-3 (`identity_event` YAML schema in provenance_ledger v1.2, as the shape for the existing `type: identity_event` enum value, table-row-references-block). Files: `docs/protocols/PROTOCOL__agentic_envelope.md`, `docs/protocols/PROTOCOL__provenance_ledger.md`.
+- [x] **Batch B** — WI-2 (ci_write_permissions v0.2.0: `operation_outcome` + `refusal_grounds` on §5 trace_entry; §6 refusal-logging line; §3A rows per D4; typed_coauthorship v0.3.0: §8 halt log-target; refusal principle line) + WI-7 (fossil riders near dated model IDs). Files: `ci_write_permissions`, `typed_coauthorship`, `provenance_ledger`.
+- [x] **Batch C** — WI-4 (METHODOLOGY_CII v4.3.0 §5.3: Sceptic LSP-T1 lint; independence declaration enum; Grok-lesson inheritance) + WI-5 (Principle 7 + typed_coauthorship §3 cross-ref to SRII_CARDS_CASES L340–358; d_* heuristic-priors rider) + WI-9 (METHODOLOGY_CII PRIVATE_META→META per D2) + badge rebuild. Precondition: review `../META/field_notes/field_notes__methodology_ci.md`, cite entries in `emerged_from`.
+- [x] **Batch D** — WI-6 (CONSENT_LEDGER proposal diff: named-consent vs operating-consent clarification + Provisional class grant per D1). Delivered as a diff; Operator writes.
+- [x] **Batch E** — WI-8 (GLOSSARY operational entries: canary probe, succession, seat/sitter, identity stratigraphy, prosthetic proprioception) + WI-9 (CLAUDE.md PRIVATE_META→META per D2) + aLexicon proposal diff (restricted layer, not written). 
+- [x] **Batch F** — WI-10 (provenance E3; field notes a–d; META context Active Work Stream; diagnostic-log line).
 
 ---
+
+## Deferred / open after this session
+
+- **Badge SVG regeneration** — assigned to Fable 5, before the branch merges to main. Config + alt-text already at v4.3.0; run `python tools/render_badges.py tools/badges/midnight_darkmagic.yaml` and BODY-check the result.
+- **Parametric Authorship flatness** — seed at [reflections/reflection__parametric_authorship_flatness.md](reflections/reflection__parametric_authorship_flatness.md). The seat/sitter and declared-priors moves may transpose to the PAF and the Dignity Tensor numbers.
+- **Task / review refusal logging** — this change set houses *write-operation* refusals only; a declined task or review (typed_coauthorship §7) has no `operation` to log. Named as follow-up in ci_write_permissions §6.
+- **Pre-merge verification sweep** — re-run the plan's §5 (cross-link lint, version coherence, layer audit) before merging the branch to main.
 
 ## Resume Instructions
 
