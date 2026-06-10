@@ -14,7 +14,7 @@
 
 meta:
   title: "CII: A Pragmatics of Engagement"
-  version: "4.2.1"
+  version: "4.3.0"
   attribution: "theMachine(s)"
   theme: "midNight darkMagic"
   output_dir: "../../docs/assets/midnight-darkmagic"
@@ -32,7 +32,9 @@ palette:
 
 typography:
   # IBM Plex Mono — embedded as base64 subset in each SVG
-  font_source: "C:/xampp/htdocs/andresclements.com/cms/wp-content/themes/asc/assets/fonts/IBMPlexMono-Regular.woff2"
+  # Provisioned by tools/install-plex-fonts.ps1 (system install); previously pointed at the
+  # andresclements.com theme copy, a sibling-repo dependency not present on every machine.
+  font_source: "C:/Windows/Fonts/IBMPlexMono-Regular.ttf"
   font_family: "IBM Plex Mono"
   fallback_stack: "ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace"
   # φ-based type scale (px equivalents for SVG)
@@ -58,7 +60,7 @@ shield:
     parts:
       - text: "CII"
         color: "type"
-      - text: " • v4.2.1 • theMachine(s)"
+      - text: " • v4.3.0 • theMachine(s)"
         color: "comment"
     size: "phi_neg2"      # 11px
 
@@ -76,7 +78,7 @@ header:
     parts:
       - text: "CII"
         color: "type"
-      - text: ": A Pragmatics of Engagement — v4.2.1 • theMachine(s)"
+      - text: ": A Pragmatics of Engagement — v4.3.0 • theMachine(s)"
         color: "comment"
     size: "phi_0"         # 18px
     y: 118

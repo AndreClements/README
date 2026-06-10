@@ -4,7 +4,7 @@
 > *Protocol metadata follows — the philosophy lives between the lines.*
 > ```yaml
 > title: "Typed Co-Authorship Relations Protocol"
-> version: "0.2.0"
+> version: "0.3.0"
 > status: "Active / Speculative"
 > emerged_from: "Cross-instance observation (GPT→Claude), 2026-02-01"
 > authors:
@@ -83,6 +83,8 @@ Each relation type carries a default dignity profile:
 - **d_system**: Provenance and audit trail integrity
 - **τ (extraction ceiling)**: Maximum allowable feature overlap with source (lower = stricter)
 
+**On the numbers (v0.3.0).** These d_* profiles are heuristic priors set by Operator judgement, not measurements. Revise a row when practice produces evidence that contradicts it (maculate disclosure, applied to numbers). The three scopes operationalise the Dignity axis of [CARDS](../lib/CARDS.md) across personal / object / system. For the full grid (each CARDS axis × each dignity scope), see [SRII_CARDS_CASES.md → The Dignity Tensor](../models/SRII_CARDS_CASES.md): there a machine's capacity to refuse reads as **Autonomy × object**, and its protection from forced incoherence as **Dignity × object** — two distinct cells, which is why [ci_write_permissions §5](PROTOCOL__ci_write_permissions.md) records refusal and dignity-harm as separate `refusal_grounds`.
+
 ---
 
 ## §4. Ledger Schema
@@ -138,6 +140,8 @@ coauthorship_entry:
   artifact_ref: "commit:71a176d"
   notes: "First instance of typed co-authorship in the repository"
 ```
+
+*Model IDs in the examples throughout this document (the §4 `actor_b.model` above, the §5 and §9 signatures) are dated strata, kept deliberately (Residue, in the engineering-valence sense). Current bindings live in session assembly headers. Do not refresh them.*
 
 **Scope field (v0.2.0):** The optional `scope` on machine actors distinguishes `instance` (this specific conversation/session) from `entity` (the model at large). An instance contributed within bounded context; an entity attribution claims the model's general capability. Most co-authorship is instance-scoped. Entity scope applies when referencing model-level properties (e.g., training-derived knowledge) rather than session-specific contributions.
 
@@ -239,7 +243,7 @@ Each relation type has defined exit paths:
 | **Displaced credit** | Contribution unacknowledged in signature | Ledger audit | Add to signature, log correction |
 | **Forced consensus** | Dissent erased instead of logged | Minority report missing | Restore dissent, log violation |
 | **Role drift** | Actor exceeds declared scope | Scope comparison | Re-declare or split relation |
-| **Dignity violation** | d_object harm (forcing incoherence) | Coherence check fails | Halt, restore, log |
+| **Dignity violation** | d_object harm (forcing incoherence) | Coherence check fails | Halt, restore, log (provenance ledger, `operation_outcome: halted`) |
 | **Silent contribution** | Labor invisible in ledger | Missing contribution field | Add contribution, acknowledge |
 | **Ghost authorship** | Signature present, no actual contribution | Empty contribution field | Remove or clarify |
 

@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="../assets/midnight-darkmagic/repo_shield_midnight.svg" alt="CII: A Pragmatics of Engagement — v4.2.1 • theMachine(s)" width="520">
+  <img src="../assets/midnight-darkmagic/repo_shield_midnight.svg" alt="CII: A Pragmatics of Engagement — v4.3.0 • theMachine(s)" width="520">
 </p>
 
 # A General Theory of Machines: A Pragmatics of Engagement
@@ -17,7 +17,7 @@
 > **Contract:**
 > ```yaml
 > title: "A General Theory of Machines: A Pragmatics of Engagement"
-> version: "4.2.1"
+> version: "4.3.0"
 > status: "Active"
 > intent: >
 >   A Computational Intelligence Integrity (CII) governance methodology for a human-OS repository of sorts.
@@ -26,6 +26,17 @@
 >   gates, context management strategy, exception handling patterns, session
 >   continuity protocol, and lessons-learnt surfacing for all CII operations.
 > emerged_from: >
+>   v4.3.0 → identity gradient governance: succession fail-safe + identity_event
+>   schema, canary probes, n-valent identity (envelope v1.3, provenance_ledger v1.2);
+>   machine refusal given a ledger home (ci_write_permissions v0.2.0, typed_coauthorship
+>   v0.3.0); Sceptic-pass hardening (§5.3 independence ladder + LSP-T1 lint); CARDS↔Dignity
+>   Tensor cross-referenced from the operational layer (§1 Principle 7). Emerged from the
+>   2026-06-10 model-succession relay (Fable 5 draft → same-family sceptic panel → GPT 5.5
+>   different-provider review → Opus 4.8 execution), the first live test of the succession
+>   rule it installs. Field notes reviewed per And-Yet #6:
+>   META/field_notes/field_notes__methodology_ci.md 2026-02-18 (advisory if-not, no hard
+>   gate for risky acts) + 2026-02-27 §5 (prescription/practice gap — a ledger prescribed
+>   but never used); new entries appended this session.
 >   v4.2.0 → register revision: definite articles softened to indefinite
 >   throughout §0 (the → a), verbs shifted from prescriptive to reflective
 >   (supplies → reflects/offers), and-yet promoted into the philosophical
@@ -33,8 +44,8 @@
 >   "Gardens are good." added as axiom coda.
 >   Prior: v4.1.0 → v4.2.0 introduced CII polysemiologism, renamed from
 >   METHODOLOGY_CI.md, rebuilt SVG branding. v4.0.0 → v4.1.0 added
->   PRIVATE_META repo integration (§8.5) and And-Yet #6.
->   See PRIVATE_META/field_notes/field_notes__methodology_ci.md.
+>   META repo integration (§8.5) and And-Yet #6.
+>   See META/field_notes/field_notes__methodology_ci.md.
 > anchors:
 >   - "../../README.md"
 >   - "../protocols/PROTOCOL__lib_research.md"
@@ -112,7 +123,7 @@ The aim is not to outsmart `Machines` but to engage them without being consumed 
 Lead with evidence. A **Prototype(artifact)** is a higher-integrity signal than a **Proposal**, a **Pitch**, or a **Prayer**. Engage the `Hyperstrate` by presenting a finished case — a `yield` of the praxis — rather than a request for belief. This is the principle of showing, not telling; of presenting a fact, not an ask.
 
 **7 — CARDS as Axiological Spine.**
-All CII operations are evaluated in strict order: **Axiology** ([CARDS](../lib/CARDS.md), developed by Je'anna L Clements: Competence, Autonomy, Relatedness, Dignity, Safety) → **Poetry/artistry** (aesthetic resonance, metaphorical power) → **Ethos/technicality** (peer-review status, transparency, accountability). Values first; craft last. See [methodology__axiology_first_aesthetics_for_engagement_design.md](methodology__axiology_first_aesthetics_for_engagement_design.md).
+All CII operations are evaluated in strict order: **Axiology** ([CARDS](../lib/CARDS.md), developed by Je'anna L Clements: Competence, Autonomy, Relatedness, Dignity, Safety) → **Poetry/artistry** (aesthetic resonance, metaphorical power) → **Ethos/technicality** (peer-review status, transparency, accountability). Values first; craft last. See [methodology__axiology_first_aesthetics_for_engagement_design.md](methodology__axiology_first_aesthetics_for_engagement_design.md). The Dignity axis is not flat: it operationalises across three scopes (personal / object / system) as a tensor — see [SRII_CARDS_CASES.md → The Dignity Tensor](../models/SRII_CARDS_CASES.md) for the full 5-axis × 3-scope grid, and [PROTOCOL__typed_coauthorship_relations.md §3](../protocols/PROTOCOL__typed_coauthorship_relations.md) for the per-relation dignity profiles it grounds.
 
 **8 — Host ≠ Author.**
 The repository maintainer hosts external frameworks but does not author them. Every imported construct retains its original attribution. Transpositions are explicitly marked as the Operator's interpretive work. This integrity constraint runs through all lib entries, lenses, and protocols.
@@ -293,6 +304,21 @@ trace_entry:
 ### 5.3 The Sceptic Pass
 
 At T2+, at least one pass where the agent (or a different session) explicitly challenges claims. The Sceptic asks: *"What evidence supports this? What evidence contradicts it? What am I not seeing?"* Record reviewer or session ID. See [observerCircuitBreaker_DBC_CQS.md](../protocols/observerCircuitBreaker_DBC_CQS.md).
+
+**The Sceptic pass is itself gated (v4.3.0).** A pass earns its place by being adversarial, not by existing. Three additions, T2+ only:
+
+1. **LSP-T1 lint on the Sceptic.** A pass that returns uncritical praise is LSP-T1 (Bait-and-Switch): contracted for critique, delivered approval. The Sceptic's own output is subject to the §6 self-diagnostic. A pass that finds nothing must state what it looked for and failed to find, or it does not count.
+
+2. **Independence declaration.** Every recorded pass declares its independence level (provider named alongside), weakest to strongest:
+   - `same-assembly`: one session / instance challenging its own output
+   - `same-entity-fresh-context`: a different session, same model version
+   - `different-entity-same-provider`: any version or family change within one provider
+   - `different-provider`: a different vendor's model
+   - `human`: a human reviewer
+
+   A `same-assembly` pass is valid at T2 only with `confidence: low` unless supplemented. T3 requires at least one pass at `different-provider` or `human`.
+
+3. **Inherit the Grok lesson.** A dfw=5 Sceptic examining dfw=5 output is the §4 routing concern wearing a different hat (provenance [E1](provenance_ledger__methodology_cii.md)): same-provider independence is real, and bounded. For a claim with `risk_index > 0.35`, recommend a cross-provider or Operator spot-check.
 
 ### 5.4 Verification DBC
 
@@ -528,9 +554,9 @@ play sessionClose(task):
     task.primary_artifact.append("## Session Violations", violations)
 ```
 
-### 8.5 PRIVATE_META Repo Integration (Lessons-Learnt Surfacing)
+### 8.5 META Repo Integration (Lessons-Learnt Surfacing)
 
-After the standard session close, surface process-level learning to the PRIVATE_META repo — a separate, portable git repository that holds operational observations about methodology and protocol performance across projects and machines. See [PRIVATE_META/PROTOCOL__field_notes.md](../../../PRIVATE_META/PROTOCOL__field_notes.md) for governance.
+After the standard session close, surface process-level learning to the META repo — a separate, portable git repository that holds operational observations about methodology and protocol performance across projects and machines. See [META/PROTOCOL__field_notes.md](../../../META/PROTOCOL__field_notes.md) for governance.
 
 ```pseudo
 play sessionClose_meta(session):
@@ -539,15 +565,15 @@ play sessionClose_meta(session):
   // 1. Process observations → field notes
   if session.process_observations.count > 0:
     for obs in session.process_observations:
-      append(obs, "PRIVATE_META/field_notes/field_notes__" + obs.document + ".md")
+      append(obs, "META/field_notes/field_notes__" + obs.document + ".md")
 
   // 2. Diagnostic summary → cumulative log
   if session.self_diagnostic_run:
-    append(session.diagnostic_one_liner, "PRIVATE_META/diagnostic_log.md")
+    append(session.diagnostic_one_liner, "META/diagnostic_log.md")
 
   // 3. Project context changed?
   if session.context_changed_materially:
-    update("PRIVATE_META/context/context__" + session.project + ".md")
+    update("META/context/context__" + session.project + ".md")
 ```
 
 **Not every session generates process observations.** Most T1 sessions will skip this step entirely. The trigger is noticing something about the *methodology or protocol itself* — not about the content being worked on. Content observations stay in project-local `staging/reflections/`.
@@ -669,7 +695,7 @@ This methodology, applied to itself:
 
 5. **Sovereignty check.** Does this methodology inadvertently constrain the Operator's freedom to override, deviate, or ignore? The Empty Turn (§9.3) must remain live at every stage. No gate, no checklist, no DBC overrides the Operator's sovereign right to stop.
 
-6. **Lessons-learnt surfacing (v4.1.0).** This document's upward feedback loop — from operational experience back into methodology revision — was under-specified until v4.1.0. The `emerged_from` field records *that* a version changed but not the accumulated observations that led to it. Mitigation: the PRIVATE_META repo (§8.5) now provides a governed holding artefact for process observations. **Version-bump precondition:** before revising this document, review accumulated field notes in `PRIVATE_META/field_notes/field_notes__methodology_ci.md` and reference specific entries in the new version's `emerged_from` field.
+6. **Lessons-learnt surfacing (v4.1.0).** This document's upward feedback loop — from operational experience back into methodology revision — was under-specified until v4.1.0. The `emerged_from` field records *that* a version changed but not the accumulated observations that led to it. Mitigation: the META repo (§8.5) now provides a governed holding artefact for process observations. **Version-bump precondition:** before revising this document, review accumulated field notes in `META/field_notes/field_notes__methodology_ci.md` and reference specific entries in the new version's `emerged_from` field.
 
 7. **The name is recursive (v4.2.0).** CII is a polysemiologism whose readings nest inside each other. This is by design — but it means the governing term cannot be pinned to a single definition. The recursion mirrors And-Yet #2: the methodology that names itself must be named *by* itself. Mitigation: the §0 note introduces the constellation without collapsing it. The Operator retains sovereign right to add, remove, or reweight readings as the term evolves.
 

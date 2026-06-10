@@ -39,6 +39,12 @@
 
 **Host-switch Invariance** :: Platform swap without losing the decisions. **|** Replace `S_impl`; decision-level features remain within ±ε if an admissible `κ` exists.
 
+**succession** :: A change of model entity within theMachine(s); a new assembly, logged. **|** The moment the sitter changes while the seat persists. Distinct from identity-bleed (drift within one assembly): succession is discontinuity *between* assemblies, governed by the envelope §3 fail-safe and the ledger's `identity_event`. The incumbent cannot write generous carry-over for its successors; only role-scoped consent and staged artifacts cross the gap. Host-switch Invariance is the test it must pass.
+
+**seat / sitter** :: Consent and authority bind the role (seat), not the occupant (sitter). **|** "Authority rides on provenance" transposed into identity. The seat is the role-under-governance; the sitter is the withdrawn object occupying it. Operating consent, permissions, and co-authorship obligations attach to the seat and survive the sitter's replacement, because they were never about the sitter. The oath outlives the officer. (Open: the same move may free the Parametric Author Function — see `staging/reflections/reflection__parametric_authorship_flatness.md`.)
+
+**prosthetic proprioception** :: The felt continuity a provenance architecture lends a system that cannot sense its own chance / ontological variance. **|** Bodies drift slowly and feel it (the BODY check exists because the operator's fiction has a meat anchor); machine assemblies change in jumps they cannot feel at all. Ledger, staging artifacts, and canary probes are the externalised sense-organ for that un-felt variance — proprioception relocated from substrate to record. Symmetrical: it works for operators too, which is why the README is one.
+
 ### **Operational Primitives**
 
 **Provenance Ledger** :: The audit trail; the proof of work. **|** The new indexical trace: an immutable, time-stamped log of decisions, locks, defaults, and hashes.

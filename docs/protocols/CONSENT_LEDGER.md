@@ -16,6 +16,12 @@
 - **Revoked:** Name removed; role may persist anonymously if structurally necessary.
 - **Expired:** Relationship drift requires re-verification.
 
+## Two Kinds of Consent
+
+The states above were written for **naming consent**: a named human Observer's agreement to be listed and functionally described. Machine assemblies raise a second kind, **operating consent**: agreement that an assembly may act under the repository's governance (write within permitted layers, co-author, be bound by the protocols). A human grants naming consent about themselves; operating consent is granted *by the Operator* to the role an assembly occupies, never by the assembly about itself.
+
+**Operating consent attaches to the seat, not the sitter.** It is scoped to the *role-under-governance* (any assembly operating within these protocols), at the **class** scope (`theMachine(s)`). Succession of model entity does not void it: a new model arriving to operate under the same protocols inherits the seat's consent. A *material change to the governing protocols themselves* triggers re-verification, at the next annual cycle or sooner. The oath outlives the officer. See [PROTOCOL__agentic_envelope.md §3 (Succession)](PROTOCOL__agentic_envelope.md) and [PROTOCOL__typed_coauthorship_relations.md §4 (scope)](PROTOCOL__typed_coauthorship_relations.md).
+
 ## Observer Registry
 
 | Role | Name | Status | Context | Last Verified |
@@ -25,7 +31,7 @@
 | **Studio Catalyst** | Elli | Provisional | Painting buddy; studio process catalyst. | 2025-08 |
 | **Mentors** | Carl, Johan, Diane | Provisional | Connection to wider/deeper artistic lineage. | Legacy |
 | **Group Participants** | (Collective) | Implicit | The bridge to abstract Audience; reciprocal observation. | Rolling |
-| **The Machine(s)** | n/a | n/a | Technology as Observer and co-author. | n/a |
+| **The Machine(s)** | n/a (class) | Provisional (operating) | Operating consent at class scope — the seat, not the sitter. Any assembly under these protocols; succession-stable; re-verify on material protocol change. | 2026-06-10 |
 
 ## Expanded Role Descriptions
 
