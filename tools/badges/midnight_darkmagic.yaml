@@ -14,7 +14,7 @@
 
 meta:
   title: "CII: A Pragmatics of Engagement"
-  version: "4.2.1"
+  version: "4.3.0"
   attribution: "theMachine(s)"
   theme: "midNight darkMagic"
   output_dir: "../../docs/assets/midnight-darkmagic"
@@ -58,7 +58,7 @@ shield:
     parts:
       - text: "CII"
         color: "type"
-      - text: " • v4.2.1 • theMachine(s)"
+      - text: " • v4.3.0 • theMachine(s)"
         color: "comment"
     size: "phi_neg2"      # 11px
 
@@ -76,7 +76,7 @@ header:
     parts:
       - text: "CII"
         color: "type"
-      - text: ": A Pragmatics of Engagement — v4.2.1 • theMachine(s)"
+      - text: ": A Pragmatics of Engagement — v4.3.0 • theMachine(s)"
         color: "comment"
     size: "phi_0"         # 18px
     y: 118
