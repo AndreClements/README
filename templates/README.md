@@ -41,6 +41,7 @@
 |----------|-------------|---------------|------------|
 | **[assembly_header.md](assembly_header.md)** | CI session metadata | Paste at top of any CI session or log | surface, model, system_role, tools, retrieval, operator, session_id, tier, authorship_clause, facade |
 | **[provenance_ledger.md](provenance_ledger.md)** | Provenance tracking schema | One per project or brief; tracks claims, assets, evidence | id, type, claim/asset, source, role, evidence, confidence, validation_method, sceptic_pass, body_check |
+| **[presence_ledger.md](presence_ledger.md)** | Live-room consent/presence trace (extends provenance_ledger) | One per consent-based session (workshop, sitting); records presence and consent *events*, not claims | session header, event_type taxonomy (A5/A6 + Empty Turn), dignity_scope, risk_note, non_human_impact, body_check, session-close footer |
 
 ---
 
