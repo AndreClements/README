@@ -277,7 +277,7 @@ An adapter `κ:S_impl→S_iface` is admissible iff
 
 Primary case: **[TBD — case study pending]** implementing rule extraction, locks, and self-audit. Candidate: *Threshold Mechanics and the Claude Constitution* *(../workbench/sketch\_\_threshold\_mechanics\_claude\_constitution.md)* — a critical commentary on Anthropic's AI constitution developed collaboratively between human operator and AI instance, testing parametric co-authorship in document synthesis. Secondary micro-studies probe host-default tilt and parameter sensitivity.
 
-> **Realised practice-led companion (2026-06-26):** a masters-level case study now fills this slot — [parametric_authorship_masters.md](parametric_authorship_masters.md), *Composed, Not Generated*, reading the Objectification Workshop and the layered-averaging works (Eve Song, University of Pretoria) through the apparatus above. It cites this thesis rather than re-deriving it.
+> **Realised practice-led companion (2026-06-26):** a practice-led case study now fills this slot — [parametric_authorship_masters.md](parametric_authorship_masters.md), *Composed, Not Generated*, reading the Objectification Workshop and the layered-averaging works (Eve Song, University of Pretoria) through the apparatus above. It cites this thesis rather than re-deriving it.
 
 ## 4.2 Instruments
 

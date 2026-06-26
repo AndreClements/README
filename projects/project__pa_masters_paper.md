@@ -4,7 +4,7 @@
 
 > ```yaml
 > contract:
->   title: "Parametric Authorship (as-if a masters presentation) — practice-led, transdisciplinary"
+>   title: "Parametric Authorship (as-if a research presentation) — practice-led, transdisciplinary"
 >   tier: "T3"
 >   status: "drafting"
 >   output_path: "projects/theses/parametric_authorship_masters.md"
@@ -20,14 +20,15 @@
 
 ---
 
-**Lead Maintainer's Note.** This tracker holds the preproduction, voice audit, CARDS mapping, sceptic-pass, and provenance record for the parametric-authorship masters paper. The paper draft is the output, at `projects/theses/parametric_authorship_masters.md`. The case material lives across the gutter in ArtPraxis (`exhibitions/2026-eve-song/`, `studio/`) — a **cross-book span** (see [docs/models/spans.md](../docs/models/spans.md) §2). The doctoral thesis `projects/theses/parametric_authorship.md` is the spine to **cite, not reproduce**: its §4 names a "TBD case study"; this paper realises that slot.
+**Lead Maintainer's Note.** This tracker holds the preproduction, voice audit, CARDS mapping, sceptic-pass, and provenance record for the parametric-authorship masters paper. The paper draft is the output, at `projects/theses/parametric_authorship_masters.md`. The case material lives across the gutter in ArtPraxis (`exhibitions/2026-eve-song/`, `studio/`) — a **cross-book span** (see [docs/models/spans.md](../docs/models/spans.md) §2). The companion working thesis `projects/theses/parametric_authorship.md` is the spine to **cite, not reproduce**: its §4 names a "TBD case study"; this paper realises that slot.
 
 ---
 
 ## §1. Brief
 
-- **What:** an *as-if* masters-level transdisciplinary paper with **Parametric Authorship as the spine** and the **Objectification Workshop + the three exhibition works** as the practice-led case.
-- **Stance:** the invitation to exhibit *as-if* a masters presentation, however casually; *if-not*, still good work shown well; *and-yet* the theory of language applies (README.md closing couplet) and fans out.
+- **What:** an *as-if* research presentation, a practice-led transdisciplinary paper with **Parametric Authorship as the spine** and the **Objectification Workshop + the three exhibition works** as the practice-led case.
+- **Stance:** the invitation to exhibit *as-if* a piece of presented research, however casually; *if-not*, still good work shown well; *and-yet* the theory of language applies (README.md closing couplet) and fans out.
+- **Read-the-room (2026-06-26):** the "masters" framing has been stripped from the paper body (title → *practice-led research paper*); filename kept. The companion spine is referred to as a *working thesis*, not a *doctoral thesis*, to drop the institutional claim. See §6/§8 below.
 - **Distinct contribution:** PA as *transdisciplinary connective tissue* reading one room (and one wall) six ways at once; operationalises and partially tests **A3★**.
 - **Scale:** ~7–9k words body, one case, formalism cited not re-derived.
 - **Governance:** METHODOLOGY_CII referenced prominently (as-if/if-not/and-yet, CARDS axiology-first, Empty Turn, risk_index, Host≠Author, maculate design).
@@ -79,7 +80,8 @@ Cross-book span: paper planned-and-output here (README, theory home); case cited
 | Pass | Date | Reviewer | Outcome |
 |---|---|---|---|
 | Pre-draft | 2026-06-26 | operator + theMachine | scoped; guardrails set |
-| Post-draft | pending | operator + theMachine | — |
+| Post-draft | 2026-06-26 | operator + theMachine | draft answered the four questions; voice/em-dash/semicolon sweep run |
+| Two-tier / refactor pass | 2026-06-26 | operator + theMachine | applied the author's refactor review: de-mastered framing; **two-tier cut** (constitutive/scoped) inserted at §2 with back-refs from §6/§8; OOO inversion marked a transposition; refusal-limit + two-unknowns added to §8; autopoietic graft (Maturana & Varela 1980, Thompson 2007 — **entered unverified**); "one practice"/F7 re-tiered; compressed gradients + *n≥2 located eyes* into §4; A3/A3★ glossary disambiguation; companion spine reframed *working thesis*. BODY check still the operator's. |
 
 **Sceptic's questions:** (1) Does the paper centre PA, or use Eve as a prop? (2) Is consent *demonstrated* in the paper's own voice, or only described? (3) Does A3★ name its falsifier and what it excludes? (4) Is the framing respectful of Sue Clark's curation and Ailyn Nienaber's voice (not recentring the visual over the vocal)?
 
@@ -93,8 +95,8 @@ Maintained inline in the paper's back matter (11-column schema, `validation_meth
 |---|---|---|
 | Tracker created | 2026-06-26 | this file |
 | Scaffolding built | 2026-06-26 | briefing, prompt-pool, presence ledger (template+instance), handout |
-| Paper draft | in progress | — |
-| T3 close (sceptic+BODY+voice audit+ledger) | pending | — |
+| Paper draft | 2026-06-26 | full draft + author's refactor-review pass applied (two-tier cut keystone; de-mastering; working-thesis reframe; autopoietic graft entered unverified) |
+| T3 close (sceptic+BODY+voice audit+ledger) | pending | operator read-aloud BODY check outstanding; autopoietic primaries to confirm |
 | PDF renders + cross-links | pending | — |
 
 ## §9. Cross-links
