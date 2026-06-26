@@ -256,14 +256,15 @@ $null = $pandocArgs.Add('--standalone')
 if ($Brand) {
     $brandingHeader = Join-Path (Join-Path $REPO_ROOT 'templates') 'asc-branding.tex'
     if (Test-Path $brandingHeader) {
-        $null = $pandocArgs.Add('--include-in-header=' + $brandingHeader)
-        # Pass repo root and user fonts dir as LaTeX variables so .tex is machine-portable
+        # Pandoc does not substitute template variables inside an --include-in-header file, so
+        # resolve the asc-templates-path / asc-fonts-path placeholders into a temp header here.
         $templatesPath = (Join-Path $REPO_ROOT 'templates').Replace('\', '/')
         $userFontsPath = (Join-Path $env:LOCALAPPDATA 'Microsoft\Windows\Fonts').Replace('\', '/')
-        $null = $pandocArgs.Add('-V')
-        $null = $pandocArgs.Add('asc-templates-path=' + $templatesPath)
-        $null = $pandocArgs.Add('-V')
-        $null = $pandocArgs.Add('asc-fonts-path=' + $userFontsPath)
+        $brandRaw = Get-Content $brandingHeader -Raw -Encoding UTF8
+        $brandResolved = $brandRaw.Replace('$asc-templates-path$', $templatesPath).Replace('$asc-fonts-path$', $userFontsPath)
+        $resolvedHeader = Join-Path ([System.IO.Path]::GetTempPath()) 'asc-branding-resolved.tex'
+        [System.IO.File]::WriteAllText($resolvedHeader, $brandResolved, (New-Object System.Text.UTF8Encoding($false)))
+        $null = $pandocArgs.Add('--include-in-header=' + $resolvedHeader)
         Write-Log "Branding: ASC (octagram + IBM Plex + earth tones)"
     } else {
         Write-Log "Branding header not found: $brandingHeader" 'WARNING'

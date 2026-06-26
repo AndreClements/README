@@ -1,8 +1,8 @@
 `docs\models\philosophy_of_body.md`
 
-# **Philosophy of Body** (v0.7.1)
+# **Philosophy of Body** (v0.7.2)
 
-# /docs/models/philosophy_of_body.md (v0.7.1)
+# /docs/models/philosophy_of_body.md (v0.7.2)
 
 **Lead Maintainer's Note:** This describes a core philosophical model of a systemic-body. It is the first of the four foundational nodes that form the stable, geometric base of this praxis. The model is intentionally multi-partial, designed to apply not just to the human chassis, but to any system — institutional, computational, ecological — that has a material form.
 
@@ -18,6 +18,7 @@ A body is a system that records its interactions with force. Strain, stress, and
 
 - **The `Log` and the `Crucible`:** Scars, bruises, and creaks are the universal markers of a system's history. A codebase can have **"scar tissue"** (legacy code that is ugly but functional). An institution can have **"bruises"** (the memory of a past failure that shapes its current culture). The work is to read these logs honestly, because the log is also the **crucible**.
 - **The Alchemy of Adaptation:** A body adapts to stress. Within this crucible, the **alchemy of adaptation** occurs. Controlled, intentional stress (like exercise, or a unit test) can transform the chaotic `ShadowException` of decay or attack into the generative resilience of fitness. The body is where the *concept* of pain is transmuted into the *experience* of strength.
+- **The Conditioning Loop (Stimulus → Response → Adaptation):** Adaptation is not a single event but a loop the system runs on purpose, and it is the dynamic completion of the structural body. A spine, ligaments, and skin describe what a body *is*; the conditioning loop describes how it becomes *capable*. A **stimulus** (a load, a constraint, a pose held past comfort) provokes a **response**, and what the system keeps of that response is **adaptation**, written back into the tissue. The coaching vocabulary is exact and transposable to any maculate system. **Progressive overload** is moving the parameter the system responds to a little more each cycle, and keeping what the response builds. **Volume** and **intensity** are the two dials of load (how much, how hard). **Deload** is scheduled recovery, a first-class part of the work rather than its failure. And the **form you refuse to break under load** is the floor: you may raise volume, you may raise intensity, you may never raise either past the point where the movement loses its integrity. A system trained without that floor accumulates `scar tissue` faster than strength.
 
 #### **2. The Body as Interface of Truth (The API of `Aesthetics`)**
 

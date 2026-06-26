@@ -67,6 +67,18 @@
 \let\oldbfus\_
 \renewcommand{\_}{\oldbfus\hspace{0pt}}
 
+% --- Line-breaking quality (microtype + anti-orphan / anti-hyphen-stub) ---
+% Stop short paragraphs from hyphenating into a stranded last-line word, and keep
+% widow/orphan lines off page breaks. microtype improves line breaks throughout.
+\usepackage{microtype}
+\widowpenalty=10000          % no widow (paragraph's last line alone atop a page)
+\clubpenalty=10000           % no orphan (paragraph's first line alone at page foot)
+\brokenpenalty=10000         % don't break a page right after a hyphen
+\finalhyphendemerits=100000  % avoid a hyphen on the penultimate line (it strands a fragment)
+\hyphenpenalty=1500          % discourage hyphenation (moderate; \sloppy absorbs the slack)
+\lefthyphenmin=3
+\righthyphenmin=3
+
 % --- Line spacing (ASC --leading-normal: 1.6) ---
 \usepackage{setspace}
 \setstretch{1.5}
@@ -141,6 +153,14 @@
   bottom=4pt,
   breakable
 }
+
+% Pandoc renders fenced code via Shaded+Highlighting (not the tcolorbox above);
+% make those wrap long lines and inset ~2em on both sides.
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{%
+  commandchars=\\\{\},%
+  breaklines=true, breakanywhere=true, breaksymbolleft={},%
+  xleftmargin=2em, xrightmargin=2em, fontsize=\small}
 
 % --- Blockquote styling ---
 \usepackage{mdframed}
