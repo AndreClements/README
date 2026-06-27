@@ -39,7 +39,10 @@ param(
     [string]$FontSize = '11pt',
 
     [Parameter(Mandatory=$false)]
-    [switch]$Brand
+    [switch]$Brand,
+
+    [Parameter(Mandatory=$false)]
+    [switch]$NoTitleBlock
 )
 
 # ============================================================================
@@ -213,12 +216,16 @@ $null = $pandocArgs.Add('--pdf-engine-opt=-interaction=nonstopmode')
 #     $null = $pandocArgs.Add('--template=' + $Template)
 # }
 
-if ($Title) {
-    $null = $pandocArgs.Add('--metadata=title:"' + $Title + '"')
-}
-$null = $pandocArgs.Add('--metadata=author:"' + $Author + '"')
 $null = $pandocArgs.Add('--metadata=lang:' + $Lang)
-$null = $pandocArgs.Add('--metadata=date:' + (Get-Date -Format 'yyyy-MM-dd'))
+if (-not $NoTitleBlock) {
+    if ($Title) {
+        $null = $pandocArgs.Add('--metadata=title:"' + $Title + '"')
+    }
+    $null = $pandocArgs.Add('--metadata=author:"' + $Author + '"')
+    $null = $pandocArgs.Add('--metadata=date:' + (Get-Date -Format 'yyyy-MM-dd'))
+} else {
+    Write-Log 'Title block suppressed (-NoTitleBlock); the document supplies its own title section.'
+}
 
 $null = $pandocArgs.Add('-V')
 $null = $pandocArgs.Add('papersize=' + $PaperSize)

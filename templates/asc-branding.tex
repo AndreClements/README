@@ -8,6 +8,11 @@
 %
 % Usage: pandoc --include-in-header=templates/asc-branding.tex ...
 
+% --- Underscore handling (loaded FIRST, before other packages) ---
+% Fixes XeLaTeX "Missing $" on underscored .md links, e.g. \href{...parametric_authorship.md}{...},
+% permits line breaks at underscores in long filenames, and keeps _ safe in \texttt formulae.
+\usepackage[strings]{underscore}
+
 % --- Colour palette (ASC earth tones, light-background print) ---
 \usepackage{xcolor}
 \definecolor{accent}{HTML}{C06A3E}          % terracotta — links, heading accents
@@ -63,9 +68,8 @@
 % Break URLs at any character
 \expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks\do\/\do\-\do\_\do\.\do\:\do\=\do\?\do\&\do\#}
 \expandafter\def\expandafter\UrlBigBreaks\expandafter{\UrlBigBreaks\do\/\do\-}
-% Allow line breaks after underscores (filenames like PROTOCOL__typed_coauthorship_relations.md)
-\let\oldbfus\_
-\renewcommand{\_}{\oldbfus\hspace{0pt}}
+% Underscore handling (text, filenames, and \href URLs) and Unicode glyph fallback
+% are set up at the end of this file (loaded last so other packages initialise cleanly).
 
 % --- Line-breaking quality (microtype + anti-orphan / anti-hyphen-stub) ---
 % Stop short paragraphs from hyphenating into a stranded last-line word, and keep
@@ -179,6 +183,35 @@
 % --- Table styling (clean, minimal) ---
 \usepackage{booktabs}
 
+% --- Compact tables: back-matter ledgers carry dense, paragraph-length cells ---
+% Shrink table type and tighten column padding / row height so wide governance
+% tables (provenance ledger, sceptic-pass record) stay readable and on-page.
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtable}{\footnotesize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.05}}
+\AtBeginEnvironment{tabular}{\footnotesize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.05}}
+
 % --- Page break after TOC ---
 \let\oldtableofcontents\tableofcontents
 \renewcommand{\tableofcontents}{\oldtableofcontents\clearpage}
+
+% --- Unicode glyph fallback: render glyphs IBM Plex lacks (★, Greek, math-script, operators) ---
+% so the formalism (PAF tuple, A3★, η, Φ, 𝒫) shows correctly instead of as tofu boxes.
+% (Underscore handling is loaded at the TOP of this file, before other packages.)
+\usepackage{newunicodechar}
+\newfontfamily\symbolfallback{Segoe UI Symbol}
+\newfontfamily\mathfallback{Cambria Math}
+\newunicodechar{★}{{\symbolfallback ★}}
+\newunicodechar{⚑}{{\symbolfallback ⚑}}
+\newunicodechar{⟨}{{\mathfallback ⟨}}
+\newunicodechar{⟩}{{\mathfallback ⟩}}
+\newunicodechar{∧}{{\mathfallback ∧}}
+\newunicodechar{∏}{{\mathfallback ∏}}
+\newunicodechar{≥}{{\mathfallback ≥}}
+\newunicodechar{≠}{{\mathfallback ≠}}
+\newunicodechar{≈}{{\mathfallback ≈}}
+\newunicodechar{η}{{\mathfallback η}}
+\newunicodechar{Φ}{{\mathfallback Φ}}
+\newunicodechar{κ}{{\mathfallback κ}}
+\newunicodechar{𝒫}{{\mathfallback 𝒫}}
+\newunicodechar{𝒜}{{\mathfallback 𝒜}}
+\newunicodechar{ᵢ}{{\mathfallback ᵢ}}

@@ -82,6 +82,10 @@ Cross-book span: paper planned-and-output here (README, theory home); case cited
 | Pre-draft | 2026-06-26 | operator + theMachine | scoped; guardrails set |
 | Post-draft | 2026-06-26 | operator + theMachine | draft answered the four questions; voice/em-dash/semicolon sweep run |
 | Two-tier / refactor pass | 2026-06-26 | operator + theMachine | applied the author's refactor review: de-mastered framing; **two-tier cut** (constitutive/scoped) inserted at §2 with back-refs from §6/§8; OOO inversion marked a transposition; refusal-limit + two-unknowns added to §8; autopoietic graft (Maturana & Varela 1980, Thompson 2007 — **entered unverified**); "one practice"/F7 re-tiered; compressed gradients + *n≥2 located eyes* into §4; A3/A3★ glossary disambiguation; companion spine reframed *working thesis*. BODY check still the operator's. |
+| Body-as-spine + external-reader passes | 2026-06-27 | operator + theMachine | body-as-spine/physiology figure seeded; packaging pass (LaTeX math, working-draft notice, contract→back-matter). |
+| Width-as-rigour / transdisciplinary-programming pass | 2026-06-27 | operator + theMachine | wove the **width-as-rigour** grammar answering the standing **"too wide"** criticism: new §2 subsection + **§4.6 dark-code instance** + **F8** + §8 avowal; case-agnostic grammar (the nesting; gate-as-authored-surface; responsibility concentrates on the answerable maker; dark code as a feature of deep nesting). Counting rule held; no new citations. |
+| Navigation + external-links pass | 2026-06-27 | operator + theMachine | linked **Contents** TOC + internal §-cross-references (PDF-targeted anchors); repo-internal links converted to GitHub `blob/main` URLs; external links to the three artworks + *How to See Eve* (live), workshop event/poster (forthcoming), Sue Clark (curator site). |
+| Title-block + taxonomy pass | 2026-06-27 | operator + theMachine | opt-in `-NoTitleBlock` added to `render-pdf.ps1` (suppresses pandoc's duplicate cover title); render command now `-Brand -Toc:$false -NumberSections:$false -NoTitleBlock`; stray line-1 path label moved to back matter. **Taxonomic cross-references** section grouping every borrowed construct to its repo home (lib/lenses/models/methods/protocols/spine), all targets verified on `origin/main`. Capstone essay *Objectively Objectifying Objectification* **published** + linked (andresclements.com). Paper → **v0.0.2**. BODY check still the operator's. |
 
 **Sceptic's questions:** (1) Does the paper centre PA, or use Eve as a prop? (2) Is consent *demonstrated* in the paper's own voice, or only described? (3) Does A3★ name its falsifier and what it excludes? (4) Is the framing respectful of Sue Clark's curation and Ailyn Nienaber's voice (not recentring the visual over the vocal)?
 
@@ -96,8 +100,10 @@ Maintained inline in the paper's back matter (11-column schema, `validation_meth
 | Tracker created | 2026-06-26 | this file |
 | Scaffolding built | 2026-06-26 | briefing, prompt-pool, presence ledger (template+instance), handout |
 | Paper draft | 2026-06-26 | full draft + author's refactor-review pass applied (two-tier cut keystone; de-mastering; working-thesis reframe; autopoietic graft entered unverified) |
-| T3 close (sceptic+BODY+voice audit+ledger) | pending | operator read-aloud BODY check outstanding; autopoietic primaries to confirm |
-| PDF renders + cross-links | pending | — |
+| Paper draft → v0.0.2 | 2026-06-27 | body-as-spine, width-as-rigour weave, navigation, taxonomy cross-refs, external links |
+| PDF renders + cross-links | 2026-06-27 | branded render working (title block suppressed via `-NoTitleBlock`); internal TOC/§-anchors + GitHub + website links wired; taxonomy cross-references added |
+| Capstone essay published | 2026-06-27 | *Objectively Objectifying Objectification* live at andresclements.com/objectively-objectifying-objectification/ and linked in §1 + references |
+| T3 close (sceptic+BODY+voice audit+ledger) | pending | operator read-aloud BODY check outstanding; autopoietic primaries to confirm; Sue Clark canonical Eve Song URL to confirm |
 
 ## §9. Cross-links
 
