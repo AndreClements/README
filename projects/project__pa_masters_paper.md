@@ -80,6 +80,8 @@ Cross-book span: paper planned-and-output here (README, theory home); case cited
 
 Pre-circulation **right of response** offered to those the paper names or implicates, on an **advice-process** logic (Laloux), *not* an approval logic: responses are sought and weighed; the author keeps the final framing. **Response is optional (Empty Turn); silence is not read as consent, endorsement, or agreement.** Three lanes per invitee: **fact check** (dates / roles / policies / relationships) · **consent-and-comfort** (the naming, at this specificity) · **substantive** (the framing or its implications).
 
+**Working intent (sequencing):** circulate for response *before* the workshop where it can inform the practice — the prompt-pool, the consent architecture, the framing — so the advice process feeds the room, not only the text. The paper that is about a formative, consented practice then has a formative, consented circulation. (Specific lanes and dates as we go; the Laloux citation and the UP-institutional timing held open.)
+
 **Tiered parties:**
 - **Institutional right of response** — UP (the head of Fine Arts who gave the policy nod; Zita Oranje as channel). *Timing call:* policy still informal, workshop not yet run — weigh whether an institutional invitation now helps or front-runs.
 - **Scholarly right of response** — the living interlocutors transposed here: **Amanda du Preez, Rory du Plessis** (is the transposition fair?).
