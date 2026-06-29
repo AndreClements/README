@@ -3,9 +3,9 @@ title: "Felt Beauty and Legible Constraint"
 ---
 
 # Felt Beauty and Legible Constraint
-## *A practice-led test of felt beauty, in parametric authorship: that, in the authored case, beauty tracks a legible, freely-chosen, dignity-preserving constraint — read through an Objectification Workshop and layered-averaging works (Eve Song, University of Pretoria, 2026)*
+## *A practice-led inquiry into felt beauty, through parametric authorship: that, in the authored case, beauty tracks a legible, freely-chosen, dignity-preserving constraint — read through an Objectification Workshop and layered-averaging works (Eve Song, University of Pretoria, 2026)*
 
-*Practice-led research paper · draft · tier T3 · v0.2.0. Circulated for comment; please do not cite as final. Composed by André S Clements with theMachine(s) in a typed, disclosed collaboration; the argument and the claims are the operator's. Governed by METHODOLOGY_CII at tier T3; the companion working thesis is cited, not reproduced. Full contract in the [back matter](#research-contract-full).*
+*Practice-led research paper · draft · tier T3 · v0.2.0. Circulated for comment; please do not cite as final or formalised. Composed by André S Clements with theMachine(s) in a typed, disclosed collaboration; the argument and the claims are the author's. Governed by METHODOLOGY_CII at tier T3; the companion working thesis is cited, not reproduced. Full contract in the [back matter](#research-contract-full).*
 
 ---
 
@@ -31,7 +31,7 @@ This practice-led paper tests one claim. The claim — the **felt-beauty claim**
 ## Contents
 
 - [Felt Beauty and Legible Constraint](#felt-beauty-and-legible-constraint)
-  - [*A practice-led test of felt beauty, in parametric authorship: that, in the authored case, beauty tracks a legible, freely-chosen, dignity-preserving constraint — read through an Objectification Workshop and layered-averaging works (Eve Song, University of Pretoria, 2026)*](#a-practice-led-test-of-felt-beauty-in-parametric-authorship-that-in-the-authored-case-beauty-tracks-a-legible-freely-chosen-dignity-preserving-constraint--read-through-an-objectification-workshop-and-layered-averaging-works-eve-song-university-of-pretoria-2026)
+  - [*A practice-led inquiry into felt beauty, through parametric authorship: that, in the authored case, beauty tracks a legible, freely-chosen, dignity-preserving constraint — read through an Objectification Workshop and layered-averaging works (Eve Song, University of Pretoria, 2026)*](#a-practice-led-inquiry-into-felt-beauty-through-parametric-authorship-that-in-the-authored-case-beauty-tracks-a-legible-freely-chosen-dignity-preserving-constraint--read-through-an-objectification-workshop-and-layered-averaging-works-eve-song-university-of-pretoria-2026)
   - [Abstract](#abstract)
   - [Contents](#contents)
   - [1. Introduction — From the unnamed gaze to the designed constraint](#1-introduction--from-the-unnamed-gaze-to-the-designed-constraint)
