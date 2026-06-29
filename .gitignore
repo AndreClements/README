@@ -24,3 +24,6 @@ Thumbs.db
 nul
 .claude/settings.local.json
 templates/asc-invoice.tex
+
+# Rendered thesis PDFs (build artifacts; regenerate via render-pdf.ps1)
+/projects/theses/parametric_authorship_masters.pdf
