@@ -70,6 +70,12 @@ Agency and meaning in PA are legible and defensible at the level of **rule speci
 
 > Compact invariants that bind the thesis across theory, governance, and studio practice.
 
+> **Aesthetic frame (the genus).** These axioms operate within the operator's theory of art: *art is the appreciable manifestation of creativity; creativity is the making of new relations between elements, towards the desirable* — where the desirable is a dependent variable, not a `const`. Parametric authorship is the relation-making engine; A3 (dignity conservation) is one binding of the desirable; the **felt-beauty claim** (masters paper §6) is the authored-case *species* of the genus. The genus has no outside, and is named here as the frame the axioms are read *within*, not as a peer of them. See [theory_of_art.md](../../docs/models/theory_of_art.md).
+
+* **A0′ — The Two-Tier Cut (meta-axiom).** `read(axiom) := tier(axiom) ∈ {constitutive, scoped}`
+  (Every axiom below is read on one of two tiers. **Constitutive** axioms forbid no observation; they are judged by fertility and coherence, not by a crucial experiment. **Scoped** axioms carry defeaters, name their boundaries, and answer to evidence. The cut keeps constitutive claims from borrowing the empirical credit of the scoped ones, and keeps scoped claims from inheriting the constitutive ones' immunity to disproof. Rendered `A0′` (prime, no star). Source: masters paper §2, promoted 2026-06-29; held lightly.)
+  - **Constitutive:** A0, A1, A2. **Scoped:** A3, A4, A5, A6, A7, A8.
+
 * **A0 — Equation-as-Machine.** `equation ≡ language_machine`
   (A formal expression is an executable grammar; reading = running.)
 
@@ -80,7 +86,7 @@ Agency and meaning in PA are legible and defensible at the level of **rule speci
   (The fourth dimension of form is execution; proofs live in runs, not statements.)
 
 * **A3 — Dignity Conservation.** `let d := (d_personal, d_object, d_system) ∈ [0,1]³; D := diag(d); conserve(D) := (∏ᵢdᵢ > 0) ∧ (minᵢ dᵢ ≥ η)`
-  (Sovereignty must be conserved across operator, object, and system scopes. The product condition detects total collapse—if any dᵢ = 0, Auth★ zeroes. The floor η > 0 prevents erosion below a viable level; η is context-specific and declared in the assembly header.)
+  (Sovereignty must be conserved across operator, object, and system scopes. The product condition detects total collapse—if any dᵢ = 0, Auth★ zeroes. The floor η > 0 prevents erosion below a viable level; η is context-specific and declared in the assembly header. **Status: emergent** — dignity arises within the coupling of the parties, neither imported as an external deontic axiom nor epiphenomenal to the run; it has causal weight (it can zero Auth★) precisely because it is constitutive of the coupling, not added to it. Source: masters paper §2, promoted 2026-06-29.)
 
 * **A4 — Defaults Author.** `host_defaults ∈ S ⇒ coauthor(host_defaults, 𝒜)`
   (Platforms, weights, and policies are co-authors of artifact families unless disclosed and bounded.)
@@ -93,6 +99,9 @@ Agency and meaning in PA are legible and defensible at the level of **rule speci
 
 * **A7 — Dependency Inversion of Dignity.** `policies depend_on abstractions; tools implement_via adapters`
   (High-level authorial policies depend on declared **abstract interfaces**; concrete tools must conform via **adapters**. Dignity is enforced at the interface, not begged from implementations.)
+
+* **A8 — The Answerable Maker (scoped).** `author(𝒜) = distributed; account(𝒜) = concentrated`
+  (Authorship may distribute across substrates, defaults, and co-agents (A4); the account is owed by the one who set the control surfaces and chose to launch the run. The sailor sets the sails and the tiller, not the wind, and answers for the voyage all the same. Distinct from A4 (which distributes authorship) and A6 (which records the trace): A8 locates *responsibility*, which neither does. Source: masters paper §2, promoted 2026-06-29; held lightly.)
 
 **Corollaries.**
 C1: `if feature_overlap(artifact, source) ≤ τ then translation; else transplantation (blocked)`

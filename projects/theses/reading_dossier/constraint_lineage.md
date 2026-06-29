@@ -15,7 +15,7 @@ Across five works the lineage argues that a chosen limit is generative rather th
 
 ## What to internalise — in your voice
 
-This is the bedrock under A3★: felt beauty tracks a legible, freely-chosen, dignity-preserving constraint. The lineage gives me each clause. Stravinsky supplies "freely-chosen" — the obstacle is invented, then honoured. Boden supplies "legible" — the constraint is a conceptual space you can see the edges of. Haught-Tromp supplies the only hard floor I have: rated creativity actually rises under the given-noun rule, and rises again with practice. So the Constraint Gift is less a romance, more a measurable lift.
+This is the bedrock under the felt-beauty claim: felt beauty tracks a legible, freely-chosen, dignity-preserving constraint. The lineage gives me each clause. Stravinsky supplies "freely-chosen" — the obstacle is invented, then honoured. Boden supplies "legible" — the constraint is a conceptual space you can see the edges of. Haught-Tromp supplies the only hard floor I have: rated creativity actually rises under the given-noun rule, and rises again with practice. So the Constraint Gift is less a romance, more a measurable lift.
 
 And yet the lineage stops short of where my work needs it to go. None of them carry the dignity clause. Stokes precludes options to force search; Elster binds the self against the self. Both treat the constraint instrumentally — it serves the maker. My 1/N hinge does something they do not: it makes the constraint serve the sources. Equal weight, no image crowned. The limit is not chosen to sharpen my output but to refuse my dominion over thirty-five Eves.
 

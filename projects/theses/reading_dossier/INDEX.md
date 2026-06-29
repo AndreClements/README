@@ -2,7 +2,7 @@
 
 A working dossier of the **core cited texts** the narrowed paper leans on, built for review. Each
 entry pairs a verified citation and a neutral summary with a **voice-matched "what to internalise"
-note** — the operator's own reading notes, connecting each source to A3★, the 1/N = dignity hinge,
+note** — the operator's own reading notes, connecting each source to the felt-beauty claim, the 1/N = dignity hinge,
 the dignity gate, or the gender tension.
 
 **Honesty about copies (copyright).** Only legitimately-available copies are saved locally:

@@ -7,6 +7,13 @@
 > Companion to [parametric_authorship_masters.md](parametric_authorship_masters.md). Runs the
 > [Term Linter](../../docs/methods/methodology__term_linter.md) across the paper's coined
 > vocabulary. The linter is the authored constraint; this map is the family it yields.
+>
+> **DECISION — APPLIED 2026-06-29 (aesthetic-spine refactor).** Handle chosen: **felt beauty**
+> (lowercase, no star), *not* "Legible Grace" — the recommendation in §3 below is **superseded**,
+> kept as the deliberation record. The `A3★` code is **dropped** in the paper (one lineage note at
+> provenance row 12). The beauty claim is re-nested as the **authored-case species** of the genus,
+> [theory_of_art](../../docs/models/theory_of_art.md). See
+> [staging/refactor__aesthetic_spine.md](../../staging/refactor__aesthetic_spine.md).
 
 ---
 

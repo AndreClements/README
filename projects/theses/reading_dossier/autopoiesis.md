@@ -18,6 +18,6 @@ The hinge I keep returning to: a living thing does not receive a world, it bring
 
 And yet the membrane is exactly where the dignity gate lives. Autopoiesis gives me the language for why the 1/N hinge is not arbitrary politeness: equal weight is structural, the way a cell grants no organelle sovereignty over the whole. No source crowned. Crown one and the closure becomes domination, the world it brings forth narrows to one voice.
 
-Thompson lets me say it in the body: to live is to know, sense-making is not bolted onto life, it is life. So when felt beauty tracks a constraint (A3★), the felt is not decorative — it is the system recognising a viable coherence, a closure it can live inside.
+Thompson lets me say it in the body: to live is to know, sense-making is not bolted onto life, it is life. So when felt beauty tracks a constraint (the felt-beauty claim), the felt is not decorative — it is the system recognising a viable coherence, a closure it can live inside.
 
 The shadow stays in the open: a man operating his own closure, averaging 35 images of Eve, theorising the gaze from inside the very organisation that produced the gaze. The system brings forth the world it is made of. I cannot stand outside my own autopoiesis to audit it cleanly. The dignity floor is the most I can hold — a constraint chosen, legible, honoured. Not innocence. A practised limit.

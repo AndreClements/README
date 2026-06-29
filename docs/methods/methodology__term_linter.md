@@ -154,6 +154,11 @@ The full reception-side candidate scoring and the recommended handle live in the
 where the lead recommendation (**Legible Grace**, BODY-check pending) is run against all six
 gates with *The Enabling Read* as the lowest-leak alternative.
 
+> **Outcome (2026-06-29).** The operator chose **felt beauty** (lowercase, no star) over both —
+> plainer, lower-leak, reception-side — and dropped the `A3★` star-code entirely, which resolves the
+> Gate-3 A3/A3★ collision at the root. The claim is re-nested as the authored-case species of the
+> genus, [theory_of_art](../models/theory_of_art.md).
+
 ---
 
 ## How to run the linter

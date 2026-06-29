@@ -1,16 +1,16 @@
 `docs\models\philosophy_of_body.md`
 
-# **Philosophy of Body** (v0.7.2)
+# **Philosophy of Body** (v0.7.3)
 
-# /docs/models/philosophy_of_body.md (v0.7.2)
+# /docs/models/philosophy_of_body.md (v0.7.3)
 
-**Lead Maintainer's Note:** This describes a core philosophical model of a systemic-body. It is the first of the four foundational nodes that form the stable, geometric base of this praxis. The model is intentionally multi-partial, designed to apply not just to the human chassis, but to any system — institutional, computational, ecological — that has a material form.
+**Lead Maintainer's Note:** This describes a core philosophical model of a systemic-body. It is one of the **n foundational nodes** (an open, extensible set) that form the stable, geometric base of this praxis. The model is intentionally multi-partial, designed to apply not just to the human chassis, but to any system — institutional, computational, ecological — that has a material form. **Physical is a mode, not the definition.** The defining property is substrate-boundedness: a body is a bounded, perishable *substrate* and *vehicle* for a synthesis of processes and agendas — a "meat suit" — and carbon-hydrogen flesh is its paradigm case, not its essence. The body-metaphors transpose because the structure does: an artist's *body of work* (an oeuvre, a *corpus*) can be wounded by the market or a gallery; a corporation is a legal-commercial body for a synthesis of processes and agendas, much as we are physical ones; the meat need not be carbon-based. (This rhymes with the [theory of art](theory_of_art.md): there, beauty is one *mode* of appreciation; here, physical is one *mode* of body.)
 
 ---
 
 ### **Axiom: The Body is the First and Final Arena.**
 
-The praxis of any system is an embodied one. The body is the tangible, "maculate," and perishable **substrate** where the system's logic meets material reality. It is not an abstract thought. It is the site of all interaction, the surface upon which history is written, and the final arena of both function and failure. It is both a **bridge** to other systems and a **portal** to its own internal state and beingness. It is where the dance happens, and ends.
+The praxis of any system is an embodied one. The body is the tangible, "maculate," and perishable **substrate** where the system's logic meets material reality. It is not an abstract thought. It is the site of all interaction, the surface upon which history is written, and the final arena of both function and failure. It is both a **bridge** to other systems and a **portal** to its own internal state and beingness. It is where the dance happens, and ends. Read "material reality" as substrate, not flesh-alone: a body is whatever bounded, perishable substrate a synthesis of processes is housed and carried in, and physicality is a paradigm mode of that, not its only possible boundary.
 
 #### **1. The Body as Alchemical Record (The Log of Pain)**
 
@@ -24,8 +24,8 @@ A body is a system that records its interactions with force. Strain, stress, and
 
 The body is the system's primary interface with reality. Its material state — its capacity to **bleed and tingle** — is the ultimate, non-negotiable arbiter of truth. This is its grounding relationship with `Aesthetics`.
 
-- **Rejection of Gloss:** A body cannot lie about its state indefinitely. This raw material feedback is the antidote to the "gloss" of abstract theories. A system's true state is revealed in its physical outputs — its glitches, its crashes, its "sore words" — not just in its performative statements. It is a constant, grounding reminder of what is real.
-- **Fragility as Fidelity:** A body's **fragility** and perishability are not flaws; they are its highest form of fidelity. A system that shows the marks of its history, its "creaks" and its "scars," is a system that is telling the truth about its journey through `bodyTime()`. Beauty that is not grounded in this fragile, embodied truth is only `decoration`.
+- **Rejection of Gloss:** A body cannot lie about its state indefinitely. This raw material feedback is the antidote to the "gloss" of abstract theories. A system's true state is revealed by its outputs — it blood sweat and excrement, its glitches, its crashes, its "sore words" — not just in its performative statements. It is a constant, grounding reminder of what is real. A non-physical body is no exception: an oeuvre is wounded or whole, a codebase compiles or it does not, a corporation is solvent or not — each has a state it cannot indefinitely misreport, and that is its own fidelity.
+- **Fragility as Fidelity:** A body's **fragility** and perishability are not flaws; they are its highest form of fidelity. A system that shows the marks of its history, its "creaks" and its "scars," its limitations and weknesses is a system that is telling the truth about its journey through `bodyTime()`. Beauty that is not grounded in this fragile, embodied truth is only `decoration`.
 
 #### **3. The Body as Sovereign Boundary (The Firewall of `LOVE`)**
 

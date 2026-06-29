@@ -6,6 +6,12 @@
 > Companion to [parametric_authorship_masters.md](parametric_authorship_masters.md) and the
 > [lexicon pass](parametric_authorship_masters__lexicon_pass.md). Target file:
 > [parametric_authorship.md](parametric_authorship.md) §2.5 (axioms A0–A7, lines 69–100).
+>
+> **STATUS — APPLIED 2026-06-29.** All three promotions landed in the thesis: **A0′** (the two-tier
+> cut, rendered prime not star), **A8** (the answerable maker), and the **A3 emergent-ethic** status
+> note; plus the genus aesthetic frame ([theory_of_art](../../docs/models/theory_of_art.md)) above
+> the axioms. Drift-check resolved: the beauty handle is **felt beauty** (not "Legible Grace"), and
+> the `A3★` code is dropped in the paper. The diffs below are the as-proposed record.
 
 ---
 

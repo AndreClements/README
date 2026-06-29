@@ -6,6 +6,11 @@
 > pass (*less chrome, more polish*): the scholarly document should end on argument, not on a
 > build log. The governance the methodology requires (provenance ledger + validation stack)
 > stays in the paper's back matter; the process narrative lives here.
+>
+> **Update (2026-06-29, aesthetic-spine refactor).** The claim formerly coded **A3★** is renamed
+> **felt beauty** (lowercase, no star) and re-nested as the authored-case species of the genus
+> ([theory_of_art](../../docs/models/theory_of_art.md)). Historical references below retain the old
+> code as record.
 
 ---
 
