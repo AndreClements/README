@@ -1,8 +1,8 @@
 ---
-title: "Composed, using Parametric Authorship"
+title: "Felt Beauty and Legible Constraint"
 ---
 
-# Composed, using Parametric Authorship
+# Felt Beauty and Legible Constraint
 ## *A practice-led test of felt beauty: that, in the authored case, beauty tracks a legible, freely-chosen, dignity-preserving constraint — read through an Objectification Workshop and layered-averaging works (Eve Song, University of Pretoria, 2026)*
 
 *Practice-led research paper · draft · tier T3 · v0.2.0. Circulated for comment; please do not cite as final. Composed by André S Clements with theMachine(s) in a typed, disclosed collaboration; the argument and the claims are the operator's. Governed by METHODOLOGY_CII at tier T3; the companion working thesis is cited, not reproduced. Full contract in the [back matter](#research-contract-full).*
@@ -30,7 +30,7 @@ This practice-led paper tests one claim. The claim — the **felt-beauty claim**
 
 ## Contents
 
-- [Composed, using Parametric Authorship](#composed-using-parametric-authorship)
+- [Felt Beauty and Legible Constraint](#felt-beauty-and-legible-constraint)
   - [*A practice-led test of felt beauty: that, in the authored case, beauty tracks a legible, freely-chosen, dignity-preserving constraint — read through an Objectification Workshop and layered-averaging works (Eve Song, University of Pretoria, 2026)*](#a-practice-led-test-of-felt-beauty-that-in-the-authored-case-beauty-tracks-a-legible-freely-chosen-dignity-preserving-constraint--read-through-an-objectification-workshop-and-layered-averaging-works-eve-song-university-of-pretoria-2026)
   - [Abstract](#abstract)
   - [Contents](#contents)
@@ -70,7 +70,7 @@ This practice-led paper tests one claim. The claim — the **felt-beauty claim**
 
 To draw from life is to look hard at a person and make of them, for a while, an object of attention. For the length of a pose they become, to the hand, less a whole person than a problem of edges: a line, a mass, the weight of a shoulder under a fall of light. The life room has long had good reasons to leave that mostly unspoken: a working focus to keep, a courtesy to the sitter, a craft whose conventions were earned honestly and still serve. This paper does not arrive to correct the tradition, nor to claim that naming is the better way. It begins where a more pointed companion essay leaves off (Clements, [*Objectively Objectifying Objectification*](https://andresclements.com/objectively-objectifying-objectification/)) by making one dynamic explicit rather than ambient (and only the one the inquiry turns on), then asking what is left of authorship once the looking is named. What it offers is a method, set beside the conventional one rather than over it, and read best as neither confession nor accusation.
 
-I was invited to exhibit. I have decided to treat that invitation *as-if* it were a piece of presented research: provisionally, instrumentally, and with a straight face about the rigour even while keeping the tone light. The stance is borrowed wholesale from my README repository's engagement methodology (METHODOLOGY_CII §1): engage *as-if*, audit *if-not*, hold for the *and-yet*. *If-not* a formal presentation, then still: work made that I can stand behind, shown well. *And yet*: the theory of language at the foot of my own README applies here; Language is a magical, world-creating force. Language is also just the noise made by a piece of meat in a mouth. The two readings appears to not resolve. A held pose is the same shape of problem. A body worked *as-if* a chair is world-creating (it makes a study, a family, a small room of meaning) and it is also just a body, meat under a fall of light. Meaning fans out across the gap between those readings and never quite collapses to either. That is a engine of sorts for everything below.
+I was invited to exhibit. I have decided to treat that invitation *as-if* it were a piece of presented research: provisionally, instrumentally, and with a straight face about the rigour even while keeping the tone light. The stance is borrowed wholesale from my README repository's engagement methodology (METHODOLOGY_CII §1): engage *as-if*, audit *if-not*, hold for the *and-yet*. *If-not* a formal presentation, then still: work made that I can stand behind, shown well. *And yet*: the theory of language at the foot of my own README applies here. Language is a magical, world-creating force. Language is also just the noise made by a piece of meat in a mouth. The two readings appear not to resolve. A held pose is the same shape of problem. A body worked *as-if* a chair is world-creating (it makes a study, a family, a small room of meaning) and it is also just a body, meat under a fall of light. Meaning fans out across the gap between those readings and never quite collapses to either. That is an engine of sorts for everything below.
 
 The paper studies one practice at two scales. At the scale of a body: the **Objectification Workshop**, in which sitters pose as objects (a chair, a doorway, a tree) under actively held consent, and a small room draws them. At the scale of a wall: three composite works in the same exhibition ([*Shroud of Eve*](https://andresclements.com/artwork/shroud-of-eve/), [*Study of Eve*](https://andresclements.com/artwork/study-of-eve/), [*Twelve Refractions*](https://andresclements.com/artwork/twelve-refractions/)), each made by holding many source images at equal weight until a figure emerges that none of them alone contains. The two are one practice read at two scales, and parametric authorship is the frame that holds them together. The 1/N, equal weight with no source crowned, is the load-bearing joint: the place where a formal decision and an ethical one turn out to be the same decision (under conditions [§4.2](#the-layered-averaging-works-parametric-authorship-at-exhibition-scale) makes explicit, since equal weighting prevents crowning without, on its own, guaranteeing dignity). And it is the cleanest case the paper has for the one claim it sets out to test: that the felt beauty of an authored artefact tracks, defeasibly, a legible, freely-chosen, dignity-preserving constraint. The paper calls that the felt-beauty claim, and the rest of the work is built to put it where evidence can reach it.
 
@@ -84,7 +84,7 @@ The posture throughout is mediating rather than adjudicating, in a conflict-resi
 
 RQ3 is the question the paper stakes itself on. RQ1 and RQ2 prepare the ground for it: what authorship becomes once the work is a family, and what keeps the family's constraint dignity-preserving, so that RQ3 can be asked of a room that has earned the asking.
 
-A note on register, because the paper will keep two of them in one room. It is academic where it reasons and hedges; it is plainer, and occasionally bodily, where it does not. This is deliberate, and it is methodological: the operator's voice signature treats [multipartiality](https://github.com/AndreClements/README/blob/main/docs/lib/MULTI_PARTIALITY.md) (standing with more than one party at once, without collapsing the difference) as an ethical stance, not a stylistic flourish. A paper about holding many readings at equal weight might choose hold its own registers that way too.
+A note on register, because the paper will keep two of them in one room. It is academic where it reasons and hedges; it is plainer, and occasionally bodily, where it does not. This is deliberate, and it is methodological: the operator's voice signature treats [multipartiality](https://github.com/AndreClements/README/blob/main/docs/lib/MULTI_PARTIALITY.md) (standing with more than one party at once, without collapsing the difference) as an ethical stance, not a stylistic flourish. A paper about holding many readings at equal weight might choose to hold its own registers that way too.
 
 ## 2. Theoretical framework — objectification, constraint, and the dignity gate
 
@@ -98,7 +98,7 @@ The framework carries three bodies of thought the case needs: the ethics and aes
 
 The formal apparatus of parametric authorship is set out in a companion working thesis (Clements, *The Fourth Dimension as Execution*) and is not re-derived here. This paper carries only what the case needs.
 
-Authorship, in PA, is the design of control surfaces: you articulate a rule-set, set ranges, fix what must hold, and let a generator instantiate a family. It is setting the sails, as well as the till. The authored object is a tuple, the **Parametric Author Function**:
+Authorship, in PA, is the design of control surfaces: you articulate a rule-set, set ranges, fix what must hold, and let a generator instantiate a family. It is setting the sails, as well as the tiller. The authored object is a tuple, the **Parametric Author Function**:
 
 $$\mathrm{PAF} := \langle\, S,\ \mathcal{P},\ C,\ E,\ \Phi \,\rangle$$
 
@@ -314,7 +314,7 @@ The mark is meat-noise. The mapping is world-creating. The work is to keep autho
 
 ```yaml
 contract:
-  title: "Composed, using Parametric Authorship"
+  title: "Felt Beauty and Legible Constraint"
   version: "0.2.0"
   intent: "practice-led presentation (as-if); a test of felt beauty (the authored-case species), T3"
   operator: "André S Clements"
@@ -363,7 +363,7 @@ The sceptic-pass history, the four-question post-draft self-check, and the CARDS
 *A practice-led research presentation (as-if), offered as a suggestion: held lightly, open to revision. Composed with theMachine(s) in a typed, disclosed collaboration (Maker / Analyst / Sceptic); the argument, the claims, and the responsibility are the operator's. Eve-Song libretto and setting are rights-held and paraphrased only. Render via [tools/render-pdf.ps1](https://github.com/AndreClements/README/blob/main/tools/render-pdf.ps1) `-Brand -Toc:$false -NumberSections:$false -NoTitleBlock` (the document carries its own title section, linked Contents, and manual section numbers, so pandoc's auto cover-title, auto-TOC, and auto-numbering are all turned off to avoid duplication).*
 
 ```yaml
-title: "Composed, using Parametric Authorship"
+title: "Felt Beauty and Legible Constraint"
 version: "0.2.0"
 author: "André S Clements (and theMachine(s))"
 date: "2026-06-29"
