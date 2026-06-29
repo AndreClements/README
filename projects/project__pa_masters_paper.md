@@ -69,7 +69,7 @@ Cross-book span: paper planned-and-output here (README, theory home); case cited
 
 ## §5. Operator tasks
 
-- [ ] Confirm UP posing/documentation policy (via Zita Oranje → Visual Arts head) before citing the run as data — see [briefing](../../ArtPraxis/exhibitions/2026-eve-song/../studio/2026-eve-song-up-department-briefing.md).
+- [x] Confirm UP posing/documentation policy (via Zita Oranje → head of Fine Arts) — **confirmed informally 2026-06-24** (Zita email, thread *Lifedrawing OOO workshop docs*). Conditions: nudity permitted if the model is comfortable (underwear/leotards offered as the "safest route", model's choice); **no under-18s** admitted; **door guarded** (lock/unlock as participants move); **nothing to declare or sign** on UP's side. Caveats: verbal relay, not a written policy citation; *documentation* not addressed directly — research-use of any session rests on the participant-side consent apparatus (presence-ledger + handout), not on UP sign-off. See [briefing](../../ArtPraxis/exhibitions/2026-eve-song/../studio/2026-eve-song-up-department-briefing.md).
 - [x] Read Amanda du Preez (feminism + embodiment) + du Plessis (the archive and the gaze) — both integrated into §8 (and du Preez 2022 into §6), verified and cited; notes in the [reading dossier](theses/reading_dossier/INDEX.md). *(Optional: 1–2 UPSpace practice-led theses for further local grounding.)*
 - [ ] Confirm the workshop slot/day within 27 Jul–13 Aug with Sue.
 - [ ] Read-aloud BODY check on the paper and handout before shipping.
@@ -99,6 +99,7 @@ Maintained inline in the paper's back matter (11-column schema, `validation_meth
 | Stage | Date | Notes |
 |---|---|---|
 | Tracker created | 2026-06-26 | this file |
+| UP policy confirmed (informal) | 2026-06-24 | Zita Oranje → head of Fine Arts: nudity OK if model comfortable (underwear/leotards = "safest route"); no under-18s; door guarded; nothing to declare/sign. Verbal relay; documentation not addressed directly — data-use rests on participant-side consent. Models still being recruited (separate thread). |
 | Scaffolding built | 2026-06-26 | briefing, prompt-pool, presence ledger (template+instance), handout |
 | Paper draft | 2026-06-26 | full draft + author's refactor-review pass applied (two-tier cut keystone; de-mastering; working-thesis reframe; autopoietic graft entered unverified) |
 | Paper draft → v0.0.2 | 2026-06-27 | body-as-spine, width-as-rigour weave, navigation, taxonomy cross-refs, external links |

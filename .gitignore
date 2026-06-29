@@ -1,6 +1,9 @@
 /.claude
 /.private
 
+# Local input drop (email exports, source material — not for the repo)
+/.inputs
+
 # OS artifacts
 .DS_Store
 Thumbs.db
