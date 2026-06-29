@@ -1,4 +1,4 @@
-# Lexicon pass — *Composed, using Parametric Authorship*
+# Lexicon pass — *Felt Beauty and Legible Constraint*
 
 > **Proposal for review. Nothing here is applied to the paper.** All paper changes are rendered
 > as diffs. The answerable maker signs the gate. Tier T3. Counting rule held: no new discipline

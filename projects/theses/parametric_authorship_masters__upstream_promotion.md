@@ -1,4 +1,4 @@
-# Upstream tie-back / promotion — *Composed, using Parametric Authorship* → thesis
+# Upstream tie-back / promotion — *Felt Beauty and Legible Constraint* → thesis
 
 > **Proposal for review. Diff-style, not applied.** Nothing here is committed or written into the
 > thesis. Tier T3. Counting rule held. The answerable maker signs the gate.

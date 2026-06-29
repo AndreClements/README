@@ -1,4 +1,4 @@
-# Reading dossier — *Composed, using Parametric Authorship*
+# Reading dossier — *Felt Beauty and Legible Constraint*
 
 A working dossier of the **core cited texts** the narrowed paper leans on, built for review. Each
 entry pairs a verified citation and a neutral summary with a **voice-matched "what to internalise"

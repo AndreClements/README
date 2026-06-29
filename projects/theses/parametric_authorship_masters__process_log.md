@@ -1,4 +1,4 @@
-# Process log — *Composed, using Parametric Authorship*
+# Process log — *Felt Beauty and Legible Constraint*
 
 > Companion to [parametric_authorship_masters.md](parametric_authorship_masters.md). This file
 > holds the paper's process record: the sceptic-pass history, the four-question self-check, and
