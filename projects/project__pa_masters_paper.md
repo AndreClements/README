@@ -73,14 +73,14 @@ Cross-book span: paper planned-and-output here (README, theory home); case cited
 - [x] Read Amanda du Preez (feminism + embodiment) + du Plessis (the archive and the gaze) — both integrated into §8 (and du Preez 2022 into §6), verified and cited; notes in the [reading dossier](theses/reading_dossier/INDEX.md). *(Optional: 1–2 UPSpace practice-led theses for further local grounding.)*
 - [ ] Confirm the workshop slot/day within 27 Jul–13 Aug with Sue.
 - [ ] Read-aloud BODY check on the paper and handout before shipping.
-- [ ] Verify every external citation against source + the verified Gold list (citation-integrity). **Includes the new Laloux 2014 ref (§7/§11, provenance row 16) — confirm edition + the counting-rule call (org-theory import).**
+- [ ] Verify every external citation against source + the verified Gold list (citation-integrity). *(Laloux is now an acknowledged influence, not a formal citation — §7 reads "after Laloux"; re-add as a formal ref only if verified and the counting rule allows.)*
 - [ ] **Right-of-response invitations** (tiered; see §5a protocol). UP-institutional timing is a judgment call — policy still informal, workshop not yet run.
 
 ## §5a. Right-of-response protocol (advice-process, not approval)
 
-Pre-circulation **right of response** offered to those the paper names or implicates, on an **advice-process** logic (Laloux), *not* an approval logic: responses are sought and weighed; the author keeps the final framing. **Response is optional (Empty Turn); silence is not read as consent, endorsement, or agreement.** Three lanes per invitee: **fact check** (dates / roles / policies / relationships) · **consent-and-comfort** (the naming, at this specificity) · **substantive** (the framing or its implications).
+Pre-circulation **right of response** offered to those the paper names or implicates, on an **advice-process** logic (after Laloux), *not* an approval logic: responses are sought and weighed; the author keeps the final framing. **Response is optional (Empty Turn); silence is not read as consent, endorsement, or agreement.** Three lanes per invitee: **fact check** (dates / roles / policies / relationships) · **consent-and-comfort** (the naming, at this specificity) · **substantive** (the framing or its implications).
 
-**Working intent (sequencing):** circulate for response *before* the workshop where it can inform the practice — the prompt-pool, the consent architecture, the framing — so the advice process feeds the room, not only the text. The paper that is about a formative, consented practice then has a formative, consented circulation. (Specific lanes and dates as we go; the Laloux citation and the UP-institutional timing held open.)
+**Working intent (sequencing):** circulate for response *before* the workshop where it can inform the practice — the prompt-pool, the consent architecture, the framing — so the advice process feeds the room, not only the text. The paper that is about a formative, consented practice then has a formative, consented circulation. (Specific lanes and dates as we go; UP-institutional timing held open.)
 
 **Tiered parties:**
 - **Institutional right of response** — UP (the head of Fine Arts who gave the policy nod; Zita Oranje as channel). *Timing call:* policy still informal, workshop not yet run — weigh whether an institutional invitation now helps or front-runs.
