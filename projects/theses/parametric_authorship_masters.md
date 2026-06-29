@@ -98,7 +98,7 @@ The framework carries three bodies of thought the case needs: the ethics and aes
 
 The formal apparatus of parametric authorship is set out in a companion working thesis (Clements, *The Fourth Dimension as Execution*) and is not re-derived here. This paper carries only what the case needs.
 
-Authorship, in PA, is the design of control surfaces: you articulate a rule-set, set ranges, fix what must hold, and let a generator instantiate a family. It is setting the sails, as well as the tiller. The authored object is a tuple, the **Parametric Author Function**:
+Authorship, in PA, is the design of control surfaces: you articulate a rule-set, set ranges, fix what must hold, and let a generator instantiate a family. It is setting the sails, as well as the tiller. A sail can be a flag, a flag can be a sail: authorship is the rigging of surfaces that both move and mean. The authored object is a tuple, the **Parametric Author Function**:
 
 $$\mathrm{PAF} := \langle\, S,\ \mathcal{P},\ C,\ E,\ \Phi \,\rangle$$
 
