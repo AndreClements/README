@@ -73,7 +73,25 @@ Cross-book span: paper planned-and-output here (README, theory home); case cited
 - [x] Read Amanda du Preez (feminism + embodiment) + du Plessis (the archive and the gaze) — both integrated into §8 (and du Preez 2022 into §6), verified and cited; notes in the [reading dossier](theses/reading_dossier/INDEX.md). *(Optional: 1–2 UPSpace practice-led theses for further local grounding.)*
 - [ ] Confirm the workshop slot/day within 27 Jul–13 Aug with Sue.
 - [ ] Read-aloud BODY check on the paper and handout before shipping.
-- [ ] Verify every external citation against source + the verified Gold list (citation-integrity).
+- [ ] Verify every external citation against source + the verified Gold list (citation-integrity). **Includes the new Laloux 2014 ref (§7/§11, provenance row 16) — confirm edition + the counting-rule call (org-theory import).**
+- [ ] **Right-of-response invitations** (tiered; see §5a protocol). UP-institutional timing is a judgment call — policy still informal, workshop not yet run.
+
+## §5a. Right-of-response protocol (advice-process, not approval)
+
+Pre-circulation **right of response** offered to those the paper names or implicates, on an **advice-process** logic (Laloux), *not* an approval logic: responses are sought and weighed; the author keeps the final framing. **Response is optional (Empty Turn); silence is not read as consent, endorsement, or agreement.** Three lanes per invitee: **fact check** (dates / roles / policies / relationships) · **consent-and-comfort** (the naming, at this specificity) · **substantive** (the framing or its implications).
+
+**Tiered parties:**
+- **Institutional right of response** — UP (the head of Fine Arts who gave the policy nod; Zita Oranje as channel). *Timing call:* policy still informal, workshop not yet run — weigh whether an institutional invitation now helps or front-runs.
+- **Scholarly right of response** — the living interlocutors transposed here: **Amanda du Preez, Rory du Plessis** (is the transposition fair?).
+- **Collaborator invitation to respond** — **Sue Clark** (curator), **Ailyn Nienaber** (vocalist); credited already, invited to qualify their naming.
+- **Already structural** — the workshop **sitters**: veto, debrief, the Presence Ledger is their live reply.
+- **Cannot respond (named boundary)** — the thirty-five depicted (long dead, none asked): the §8 limit, in procedural form.
+
+**Email template (plain; adapt per party):**
+
+> I'm circulating this as a draft, not a finished claim. Because the paper names [UP / the Eve Song context / your role], I'd like to offer you a right of response before I treat it as stable: factual corrections, consent concerns about being named, or any substantive objection to the framing are all welcome. I remain responsible for the argument; because you are in its field of consequence, I'm inviting correction, objection, qualification, or refusal. Silence is completely acceptable and won't be read as agreement.
+
+Responses logged as *Solicited-Reviewer* rows (typed co-authorship / presence ledger).
 
 ## §6. Sceptic pass record
 
