@@ -1,7 +1,7 @@
 
 `docs/models/aLexicon.md`
 
-# **aLexicon** (v1.1.0 working)
+# **aLexicon** (v1.2.0 working)
 
 **Lead Maintainer's Note:** This is the becoming high-density operational lexicon for the praxis. It uses a double-barrel syntax to provide both a simple, actionable definition and a dense, theoretical one. This contrast is intentional. Read the first for speed, the second for depth.
 
@@ -20,6 +20,12 @@
 **Invariant** :: A feature that stays stable when you nudge things. **|** A feature *f*∈ℱ with ‖f(G(P+ΔP))−f(G(P))‖≤ε_f for all ‖ΔP‖≤ε.
 
 **Designed Transition** :: A change you planned for, triggered by a specific shock. **|** An intended feature change within the admissible change set **Δ★** (declared perturbation corridor).
+
+**Theory of Art (the genus)** :: Art is the appreciable manifestation of creativity; creativity is new relations between elements, toward the desirable. **|** The genus has no outside (anti-aesthetic = flipped parameters); beauty is one *mode* of appreciation. See [theory_of_art.md](theory_of_art.md).
+
+**The desirable (dependent variable)** :: Not a `const` — what counts as desirable flutters across scale, domain of concern, and agency. **|** The free variable in *creativity → the desirable*; *Radical Creativity* binds it to Vita-Socio-Anarco.
+
+**Felt beauty** :: The authored-case species — felt beauty tracks, defeasibly, the legibility of a freely-chosen, dignity-preserving constraint. **|** Formerly coded A3★; the coherence setting of the desirable, one mode of appreciation; masters paper §6.
 
 ### **Governance & Sovereignty**
 
