@@ -37,7 +37,6 @@ contract:
   spelling: "South African English with UK bias"
   body_check: "PENDING — the read-aloud is the operator's to run aloud"
 ---
-
 # **Theory of Art** (v0.2.0)
 
 # /docs/models/theory_of_art.md (v0.2.0)
@@ -56,9 +55,15 @@ theirs — **Host ≠ Author**. The *assembly into one genus* is the author's, a
 ## The axiom
 
 > **Art is the appreciable manifestation of creativity.**
-> **Creativity is the making of new relations between elements, towards the desirable.**
-> **The desirable is not a `const`. It is a dependent variable** — a field that flutters in drafts and
-> gusts across scales, across domains of concern, across agencies.
+> **Creativity is the making of new relations, towards the desirable.**
+> **The desirable is a dependent variable** — a field a-flutter in drafts and
+> gusts across domains of concern and among agencies.
+> Appreciable  — intersubjective.
+> More plainly:
+> what Art is,
+> is shared but not universal,
+> subjective but not isolated.
+> Authorship is dead, long live authorship, and the magnificent dance in her mighty sails.
 
 ### The genus has no outside
 
@@ -135,12 +140,12 @@ rule-worship — and the genus around it is what keeps it from having to pretend
 The genus is wide; the project does not test all of it. Naming the setting keeps each claim honest
 about which weather it actually speaks for.
 
-| Setting of the desirable | Mode of appreciation | Where it lives |
-|---|---|---|
-| coherence + dignity, via a legible freely-chosen constraint | **beauty** (felt beauty) | masters paper §6; [LENS__parametric_authorship](../lenses/LENS__parametric_authorship.md) |
-| the formless, past mastery (the un-authored) | **the sublime** | the genus holds it; the authored species does **not** claim it (du Preez 2022) |
-| the raw, the broken, the deliberately ugly | the **anti-aesthetic / abject / dissonant** — flipped parameters, still inside | the genus has no outside |
-| the well-being of all life, social relations, non-domination | **radical artistry** | GLOSSARY §Foundations; Vita-Socio-Anarco |
+| Setting of the desirable                                     | Mode of appreciation                                                                 | Where it lives                                                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
+| coherence + dignity, via a legible freely-chosen constraint  | **beauty** (felt beauty)                                                       | masters paper §6;[LENS__parametric_authorship](../lenses/LENS__parametric_authorship.md) |
+| the formless, past mastery (the un-authored)                 | **the sublime**                                                                | the genus holds it; the authored species does**not** claim it (du Preez 2022)      |
+| the raw, the broken, the deliberately ugly                   | the**anti-aesthetic / abject / dissonant** — flipped parameters, still inside | the genus has no outside                                                                 |
+| the well-being of all life, social relations, non-domination | **radical artistry**                                                           | GLOSSARY §Foundations; Vita-Socio-Anarco                                                |
 
 The sublime and the abject are the load-bearing cases. The masters paper *brackets* them out of the
 felt-beauty claim, and that bracketing reads as anti-aesthetic only if felt beauty is mistaken for the
@@ -167,16 +172,16 @@ them. *En tog.*
 
 ## Provenance
 
-| claim / asset | source | tier | validation | notes |
-|---|---|---|---|---|
-| Art = appreciable manifestation of creativity; Creativity = new relations between elements | [GLOSSARY](../../CONCEPTS/GLOSSARY.md) §Foundations (canonical at the site) | Copper (operator, mirrored) | site-mirror | cited, not overwritten |
-| "Creativity as significant relation; Art as creativity manifest; Love, its risk" | [README](../../README.md) §3 (Vita-Socio-Anarco) | Copper (self) | internal cross-ref | the praxis form |
-| Radical Creativity = the desirable bound to Vita-Socio-Anarco | GLOSSARY §Foundations | Copper (operator) | site-mirror | one binding of the free variable |
-| **the genus has no outside; the anti-aesthetic is flipped parameters** | this node (2026-06-29) | Copper (self) | operator-authored | the correction; **BODY-pending** |
-| **the desirable is a dependent variable, not a `const`** | this node (2026-06-29) | Copper (self) | operator-authored | flutters across scale / domain / agency; **BODY-pending** |
-| beauty = one mode of appreciation at one setting of the desirable | this node | Copper (self) | operator-authored | demotes beauty from the whole; **BODY-pending** |
-| felt beauty as the authored-case species | masters paper §6 (Clements) | Copper (self) | operator-authored | scoped because its setting is fixed |
-| desirable as emergent, not imported | thesis A3 status note (promoted 2026-06-29) | Copper (self) | operator-authored | axiology-first grounded in the genus |
+| claim / asset                                                                              | source                                                                      | tier                        | validation         | notes                                                          |
+| ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- | --------------------------- | ------------------ | -------------------------------------------------------------- |
+| Art = appreciable manifestation of creativity; Creativity = new relations between elements | [GLOSSARY](../../CONCEPTS/GLOSSARY.md) §Foundations (canonical at the site) | Copper (operator, mirrored) | site-mirror        | cited, not overwritten                                         |
+| "Creativity as significant relation; Art as creativity manifest; Love, its risk"           | [README](../../README.md) §3 (Vita-Socio-Anarco)                            | Copper (self)               | internal cross-ref | the praxis form                                                |
+| Radical Creativity = the desirable bound to Vita-Socio-Anarco                              | GLOSSARY §Foundations                                                      | Copper (operator)           | site-mirror        | one binding of the free variable                               |
+| **the genus has no outside; the anti-aesthetic is flipped parameters**               | this node (2026-06-29)                                                      | Copper (self)               | operator-authored  | the correction;**BODY-pending**                          |
+| **the desirable is a dependent variable, not a `const`**                           | this node (2026-06-29)                                                      | Copper (self)               | operator-authored  | flutters across scale / domain / agency;**BODY-pending** |
+| beauty = one mode of appreciation at one setting of the desirable                          | this node                                                                   | Copper (self)               | operator-authored  | demotes beauty from the whole;**BODY-pending**           |
+| felt beauty as the authored-case species                                                   | masters paper §6 (Clements)                                                | Copper (self)               | operator-authored  | scoped because its setting is fixed                            |
+| desirable as emergent, not imported                                                        | thesis A3 status note (promoted 2026-06-29)                                 | Copper (self)               | operator-authored  | axiology-first grounded in the genus                           |
 
 > **Status: held lightly, revisable. BODY check pending** on the axiom strings, the "no outside"
 > claim, and the dependent-variable framing — the operator's to run aloud. Open: whether
