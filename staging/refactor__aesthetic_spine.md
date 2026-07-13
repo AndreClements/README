@@ -55,6 +55,18 @@ distributed: [GLOSSARY](../CONCEPTS/GLOSSARY.md) §Foundations (mirrored from th
    foregrounded, or whether the handle should gesture past beauty.
 4. **Genus frame placement in the paper** — head of §6, or folded into §2's two-tier setup.
 
+## Follow-on (beyond this refactor's original scope, same day)
+
+The genus work opened three further moves, all landed 2026-06-29 and logged on the paper's
+tracker: (1) the **claim relocation** — the felt-beauty claim lives with the *participant* in the
+room (where provenance is lived), the wall is its *edge* (inferred/withdrawn), the wider audience
+is *wind*; (2) the **right of response** as method (advice-process, not approval; the right *not*
+to respond as an Empty Turn) — the consent architecture extended to the paper's own circulation;
+(3) the **kernel line** — *"A sail can be a flag, a flag can be a sail: authorship is the rigging
+of surfaces that both move and mean"* (§2.1 + thesis intro). Plus the retitle to *Felt Beauty and
+Legible Constraint*. **Still held:** elevating the kernel to README / theory_of_art level (the
+"behind the whole thing" claim) — parked for the operator.
+
 ## Guardrail
 
 Vertical move (one genus above), **not** the horizontal re-widening that drew the "too wide" charge
