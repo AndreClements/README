@@ -93,7 +93,7 @@
       "Bash(git remote:*)",
       "Bash(git init:*)",
       "Bash(gh auth status:*)",
-      "Bash(cmd.exe //c \"winget install GitHub.cli --accept-source-agreements --accept-package-agreements\")"
+      "Bash(cmd.exe //c \"winget install GitHub.cli --accept-source-agreements --accept-package-agreements\")",
       "Bash(grep:*)",
       "Bash(del \"workbench\\\\sketch__threshold_mechanics_claude_constitution - Copy.pdf\")",
       "WebFetch(domain:www.facebook.com)",
