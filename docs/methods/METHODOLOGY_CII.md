@@ -699,6 +699,12 @@ This methodology, applied to itself:
 
 7. **The name is recursive (v4.2.0).** CII is a polysemiologism whose readings nest inside each other. This is by design — but it means the governing term cannot be pinned to a single definition. The recursion mirrors And-Yet #2: the methodology that names itself must be named *by* itself. Mitigation: the §0 note introduces the constellation without collapsing it. The Operator retains sovereign right to add, remove, or reweight readings as the term evolves.
 
+8. **The homonym as method — observed in the wild (2026-07-07).** The polysemiologism of #7 is not only a naming *stance*; it has been observed twice as a working *mechanism*, where a reading first dismissed as "obviously wrong" opened the theory:
+   - *"across scales"* (magnitude) heard by a fellow artist as *weighing* scales — the "misreading" forced the mass/weight distinction the [theory of art](../models/theory_of_art.md) needed, and both senses turned out to belong (a field read across magnitudes is where the same mass weighs differently, in both senses at once).
+   - Benjamin's *aura* internally conflated with Heidegger's *world* (operator, long-standing; un-fused 2026-07-07) — once separated, the conflation yielded the death-and-revival account (mass persists, weight → 0, a new field takes the mass up).
+
+   Where #7 holds polysemiologism as a stance (CII resolving to no single expansion), this records it as a mechanism: refusing premature disambiguation lets side-door senses arrive carrying information the intended sense lacked. The full arc is **arrive → deliver → be released**: the *scales* homonym entered through a formulation that no longer exists (the axiom's earlier "across scales" registration, since revised out), delivered the mass–weight–field model, and was then discharged from the canonical text — the method includes the homonym's honourable discharge. Nothing is orphaned: the retired wording survives in the node's Registrations and the site key, which is the declared-modulation architecture paying for itself. **Practice note:** when a reading is dismissed as obviously incorrect, ledger it before discarding — the error rate of first dismissals is demonstrably nonzero. (Kin: Sontag, an erotics over a hermeneutics of reading — trust what lands before ruling on what is meant. *Hosted, unverified.*) Status: operator-witnessed, twice.
+
 ---
 
 ## §12. Origin & Licensing

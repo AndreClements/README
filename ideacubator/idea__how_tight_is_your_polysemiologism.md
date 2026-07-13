@@ -21,3 +21,7 @@ Could also work as: sticker, tote, print, poster for studio wall.
 ---
 
 _Origin: CII SVG branding session, 2026-02-27. The observation that a pun is a polysemiologism played for laughs; a polysemiologism is a pun played straight._
+
+---
+
+_Observed in the wild: **the homonym as method** — twice a "wrong" reading (a fellow artist's *scales*; the operator's Benjamin/Heidegger conflation) opened the theory of art rather than muddying it. Refusing premature disambiguation lets side-door senses arrive. Logged as an observed mechanism at [METHODOLOGY_CII.md](../docs/methods/METHODOLOGY_CII.md) §11.8; feeds [theory_of_art.md](../docs/models/theory_of_art.md) v0.3.0._
