@@ -14,7 +14,7 @@ contract:
     nie 'n konstante is nie maar 'n afhanklike veranderlike, die veld waarin 'n gemaakte verband
     geweeg word. Die genus het geen buite nie: alle maak is esteties, en 'n "anti-estetika" is dieselfde
     masjinerie met sy stroom-op parameters omgekeer. Die massa–gewig–veld-model: kreatiwiteit deponeer
-    relasionele massa; waarde is daardie massa opgeneem deur 'n veld van begeerte. Dit is nie 'n
+    relasionele massa; waarde is daardie massa opgeneem deur 'n veld van belang. Dit is nie 'n
     letterlike vertaling van die Engelse node nie, maar 'n transposisie in Afrikaanse idioom — dieselfde
     aanspraak, in 'n ander sleutel gespeel.
   emerged_from: >
@@ -169,21 +169,29 @@ veranderlike *is*. Dit lees die aksioma deur swaartekrag.
   oor wie ook al kyk. Die generatiewe pilaar, herhaal. *"Kreatiwiteit is die maak van nuwe verbande"* en
   *"waarde is ontologiese massa"* is een aanspraak. Massa is wat gemaak word; dit beweeg nie wanneer die
   kamer beweeg nie.
-- **Veld** — die begeerlike: die afhanklike veranderlike van §2, verskillend gekonfigureer deur elke
-  domein van belang, elke agentskap, elke grootte waarteen dit gelees word.
+- **Veld** — die veld waarin 'n werk geweeg word: 'n **veld van belang**, verskillend gekonfigureer deur
+  elke domein van belang, elke agentskap, elke grootte waarteen dit gelees word (die afhanklike
+  veranderlike van §2). Belang is wyer as begeerte, en hou wat begeerte nie kan hou nie: afkeer, vrees,
+  weiering, belegging, wrok. Die gemeenskap wat *Fountain* geweier het, was in hewige belang en in geen
+  begeerte hoegenaamd nie. *Die begeerlike* is 'n instelling bínne 'n belang, nie 'n sinoniem daarvoor
+  nie — en gewig is **hoeveel, nie of nie**: 'n werk kan onoptelbaar én gehaat wees.
 - **Gewig** — wat *gevoel* word: waarde soos dit in 'n liggaam, 'n mark, 'n kanon land. Gewig is
   relasionele massa opgeneem deur 'n plaaslike veld. Massa alleen is nog nie waarde nie; dit is struktuur
   wat wag op 'n veld om in geweeg te word. Die twee ouer formulerings — *waarde is ontologiese massa*; *die
   begeerlike is 'n afhanklike veranderlike* — blyk die twee faktore van een produk te wees.
 
-> **Waarde is gewig — die werk se relasionele massa opgeneem deur 'n veld van begeerte; geen massa, geen
+> **Waarde is gewig — die werk se relasionele massa opgeneem deur 'n veld van belang; geen massa, geen
 > gewig nie; geen veld, geen gewig nie; en genoeg massa buig die veld.**
 
 Waar die beeld onder las hou:
 
-1. **Binding.** In die fisika is 'n gebonde stelsel se massa nie die som van sy dele nie (die massadefek);
-   die binding *is* massa. *"Nuwe verbande"* en *"relasionele massa"* sê een ding deur `E = mc²`: massa is
-   nie-additief op die bindingsvlak — ook kuns se reël: twee goeie helftes maak nie dubbel die werk nie.
+1. **Konfigurasie.** 'n Stelsel se massa hoef nie gelyk te wees aan die massas van sy dele nie. Die meeste
+   van 'n proton se massa is glad nie stof nie: dit is die hou self — die veld wat die kwarks nie wil laat
+   gaan nie, en die spoed waartoe hulle daarbinne gedryf word. Lees `E = mc²` stadig en dit sê dat energie
+   wat in 'n konfigurasie gehou word, massa *is*; massa is wat verhouding weeg. Ook kuns se reël: twee goeie
+   helftes maak nie dubbel die werk nie. (Nie die *massadefek* nie — **binding maak gebonde dinge ligter**,
+   en 'n proton is swaarder as sy dele. 'n Vroeëre bewoording van hierdie node het dit omgekeerd gehad; die
+   bronkontrole het dit reggestel.)
 2. **Onttrekking, en herlewing.** Wanneer 'n werk se wêreld sterf, bly sy massa voortbestaan en gaan sy
    gewig na nul: struktuur ongeskonde, veld weg. Kunsdood sonder enige fisiese verandering — en die rede
    waarom herlewing hoegenaamd moontlik is, want 'n nuwe veld kan massa opneem wat die ou een se onttrekking
@@ -192,22 +200,30 @@ Waar die beeld onder las hou:
    Benjamin s'n — beide vir afkoms genoem, nie gesag nie; gehuisves, ongeverifieer, hangende 'n primêre
    lesing.)*
 3. **Kromming.** Massa sit nie net in die veld nie; genoeg daarvan buig die veld. Kanonvorming is kromming
-   — Duchamp, 'n liggaam wie se objek-kant massa byna nul was en wie se veld-kant verband die ruimte
-   permanent gebuig het waardeur elke latere werk val. Dit is die landskap-vergelyking op sy wydste
-   instelling (liggaam as terrein, aandag as weer, verband as topologie), en dit is waarom die begeerlike
-   *waai*: baie massas wat saam een gedeelde veld buig is 'n N-liggaam-stelsel — geen geslote vorm nie,
-   sensitief vir klein verandering. Die *"veld aan't fladder in vlae en trekke"* is die afgeleide gedrag
-   van multi-polêre massa–veld-dinamika, van binne gesien — waaierigheid wat uit die veel-liggaam-veld val.
-4. **Behoud.** Kreatiwiteit maak nie massa uit niks nie; dit *bind* energie wat van buite kuns invloei —
-   arbeid, aandag, materiale, lewens — tot relasionele massa. Behoud geld omdat die grootboek verby kuns se
-   rand loop: daar is geen buite van die estetiese *binne* die veld nie (die genus het geen buite nie), maar
-   daar is 'n buite *van kuns*, en energie steek dit in albei rigtings oor. Werke verval; aandag onttrek;
-   gebonde energie versprei terug in die algemene ekonomie. Uitbreidend, nie uitbreidingsgesind nie.
+   — *Fountain*, wie se porselein gewoon was en wie se **gemaakte konfigurasie** nie: die wending, die titel,
+   die handtekening, en 'n gemeenskap wat geen jurie beloof het nie. Die relasionele massa was nooit nul nie,
+   en dit was nooit in die porselein nie. Die voorwerp is weg; die werk buig steeds die kamer, en selfs dié
+   wat dit verag, wentel anders daarom. Dit is die landskap-vergelyking op sy wydste instelling (liggaam as
+   terrein, belang as weer, verband as topologie), en dit is waarom die begeerlike *waai*: baie massas wat saam
+   een gedeelde veld buig is 'n N-liggaam-stelsel — geen geslote vorm nie, sensitief vir klein verandering. Die
+   *"veld aan't fladder in vlae en trekke"* is die afgeleide gedrag van multi-polêre massa–veld-dinamika, van
+   binne gesien — waaierigheid wat uit die veel-liggaam-veld val.
+4. **Behoud.** Massa kan nie uit niks gemunt word nie: geen arbeid, geen aandag, geen lewe wat invloei — geen
+   massa. Die energie kom van buite kuns ('n Dinsdagaand by die esel, 'n loon elders verdien, wat 'n liggaam
+   moes uitgee), en die meeste daarvan gaan waarheen energie gaan: na hitte, na moegheid. Dit word **nie in die
+   werk gestoor nie**. `E = mc²` stel 'n wisselkoers; dit skink nie energie in die doek in nie. Wat die werk
+   hou, is die **konfigurasie**. Behoud geld omdat die grootboek verby kuns se rand loop: daar is geen buite van
+   die estetiese *binne* die veld nie (die genus het geen buite nie), maar daar is 'n buite *van kuns*, en
+   energie steek dit in albei rigtings oor. Uitbreidend, nie uitbreidingsgesind nie.
 
-**En tog** — een spanning, in die oop gehou eerder as weggevee. Fisika vereenselwig gravitasiemassa (wat
-aantrek) met traagheidsmassa (wat versnelling weerstaan); in kuns mag die werke wat die hardste trek en die
-werke wat die meeste herinterpretasie weerstaan nie dieselfde werke wees nie. Of hulle uitmekaar val is 'n
-oop vraag, moontlik 'n produktiewe een. 'n Voetnoot, nie 'n noodlot nie.
+**En tog** — die spanning, in die oop gehou eerder as weggevee. Dit argumenteer deur strukturele analogie: 'n
+ideogram, nie 'n afleiding nie. Fisika sal nie 'n argument tussen skilderye besleg nie — sy transformasies
+tussen raamwerke is presies, ons s'n is verliesgewend, en die verlies is waar die kritiese arbeid leef. En die
+analogie leun op 'n identiteit wat fisika nie heeltemal toestaan nie: die ekwivalensiebeginsel vereenselwig die
+massa wat **val** met die massa wat **weerstand bied** teen beweging — *nie* die massa wat **aantrek** nie, wat
+'n derde grootheid is, veel losser ingebind. So reik die vraag wat kuns wil vra — of die werke wat die hardste
+trek ook dié is wat herinterpretasie die meeste weerstaan — reeds verby wat fisika getoets het. Die vermoede is
+dat hulle uitmekaar val, wat die analogie informatief sou laat misluk. 'n Voetnoot, nie 'n noodlot nie.
 
 ---
 
@@ -249,8 +265,10 @@ A3★ weier om hulle op te *eis*. *En tog.*
 
 Hierdie node is self die **Afrikaanse sleutel**. Die kanonieke teks bly by die
 [Engelse node](theory_of_art.md); die ander stellings — werf/Grondslae, praxis (README §3),
-meestersgraad, en hierdie Afrikaans — is **registrasies in ander sleutels**: dieselfde aanspraak vir sy
-medium gemoduleer, nie rivaliserende definisies nie. Woord-drywing oor sleutels is **verklaarde
+meestersgraad, die essay (*[Art and the Weight of Relation](../essays/art_and_the_weight_of_relation.md)*
+— die essay/publieke sleutel, waar die massa–gewig–veld-model uitgewerk en sy fisika bronkontroleer is),
+en hierdie Afrikaans — is **registrasies in ander sleutels**: dieselfde aanspraak vir sy medium
+gemoduleer, nie rivaliserende definisies nie. Woord-drywing oor sleutels is **verklaarde
 modulasie**, nie stille teenstrydigheid nie. Die swier — *"die magiese dans in haar vlae en seile"* — hou
 sy eie idioom en word nie na die Engels teruggekorrigeer nie.
 
@@ -264,6 +282,8 @@ sy eie idioom en word nie na die Engels teruggekorrigeer nie.
 | die aksioma (Afrikaanse teks) | operateur, hand-gemaak (2026-07-11) | Copper (operateur) | operateur-geouteur | woordeliks behou; **LIGGAAM-hangend** |
 | massa–gewig–veld: waarde = relasionele massa opgeneem deur 'n veld | operateur-formulering, in getikte dialoog aangepas (2026-07-07) | Copper (operateur) | operateur-geouteur | **LIGGAAM-hangend** |
 | wêreld-onttrekking → dood-en-herlewing; aura (Benjamin) vs wêreld (Heidegger) | Heidegger, *Origin of the Work of Art*; Benjamin, *Work of Art…* | Gold (ongeverifieer) | unverified_inference | vir afkoms genoem, nie gesag nie; primêre-bron-toets hangend (§5) |
+| **die veld is een van *belang*, nie begeerte nie** (belang hou afkeer, weiering, wrok; *Fountain* se gemeenskap was in hewige belang en geen begeerte) | [essay](../essays/art_and_the_weight_of_relation.md) (2026-07-14) | Copper (operateur) | Operator_verified | vervang die 2026-07-07 "veld van begeerte"-bewoording; **LIGGAAM-hangend** |
+| **fisika-regstellings**: massadefek-raamwerk teruggetrek (binding maak dinge *ligter*); ekwivalensiebeginsel vereenselwig *val* met *weerstand*, nie *aantrek* nie; `E = mc²` is 'n wisselkoers en stoor geen energie in die werk nie; *Fountain* se relasionele massa was nooit nul nie | bronkontrole vir die essay-registrasie, 2026-07-14 | Gold (gekontroleer) | Operator_verified | PDG; Yang et al. (2018); Baez; Carroll; MICROSCOPE (2022); Einstein-Online. Die kontrole het die aanspraak *kleiner* en waar gemaak |
 
 > **Status: lig gehou, hersienbaar. LIGGAAM-toets hangend** op die aksioma-snare en die
 > massa–gewig–veld-model — die operateur s'n om hardop te lees. Eksterne afkoms (Benjamin, Heidegger) tree

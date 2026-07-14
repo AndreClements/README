@@ -15,7 +15,7 @@ contract:
     genus and shows what re-nests beneath it: parametric authorship (the relation-making engine), the
     CARDS / Vita-Socio-Anarco axiology (one binding of the desirable), the felt-beauty claim (one mode
     of appreciation, in the authored case), and the mass–weight–field model (creativity deposits
-    relational mass; value is that mass taken up by a field of desire). It fills the gap the
+    relational mass; value is that mass taken up by a field of concern). It fills the gap the
     constellation has carried — strong on *why* art matters, tentative on *what beauty is*.
   emerged_from: >
     v0.1.0 → authored as philosophy_of_art.md in the aesthetic-spine refactor (2026-06-29).
@@ -30,7 +30,12 @@ contract:
     dialogue, 2026-07-07): creativity deposits relational mass; the desirable is the field; value is
     weight — mass taken up by a field; mass enough curves the field. The "gustiness" of the desirable
     is now *derived* (many masses jointly curving a shared field, an N-body weather) rather than
-    asserted. External lineage (Benjamin, Heidegger) enters hosted, unverified.
+    asserted. Corrected against the source check run for the essay registration (2026-07-14): the field
+    is one of **concern**, not desire (concern holds aversion and refusal, which desire cannot); the
+    mass-defect framing is retracted (binding makes bound things lighter); the equivalence principle
+    equates what falls with what resists, not what attracts; `E = mc²` is an exchange rate and stores
+    no energy in the work; *Fountain*'s relational mass was never nil. External lineage (Benjamin,
+    Heidegger) remains hosted, unverified; the physics is now checked against primary sources.
   anchors:
     - "../../CONCEPTS/GLOSSARY.md"        # canonical Foundations (mirrored from the site)
     - "../../README.md"                   # §3 Vita-Socio-Anarco praxis statement
@@ -176,47 +181,62 @@ dependent-variable claim says the desirable is not a `const`; this model says wh
   who is looking. The generative pillar, restated. *"Creativity is the making of new relations"* and
   *"value is ontological mass"* are one claim. Mass is what is made; it does not move when the room
   does.
-- **Field** — the desirable: the dependent variable of §2, configured differently by each domain of
-  concern, each agency, each magnitude it is read at.
+- **Field** — the field a work is weighed in: a field of **concern**, configured differently by each
+  domain of concern, each agency, each magnitude it is read at (the dependent variable of §2). Concern
+  is wider than desire, and holds what desire cannot: aversion, fear, refusal, investment, resentment.
+  The society that refused *Fountain* was in violent concern and no desire whatever. *The desirable* is
+  a setting within a concern, not a synonym for it — and weight is **how much, not whether**: a work
+  can be unliftable and hated.
 - **Weight** — what is *felt*: value as it lands in a body, a market, a canon. Weight is relational
   mass taken up by a local field. Mass alone is not yet value; it is structure awaiting a field to be
   weighed in. The two older formulations — *value is ontological mass*; *the desirable is a dependent
   variable* — turn out to be the two factors of one product.
 
-> **Value is weight — the work's relational mass taken up by a field of desire; no mass, no weight;
+> **Value is weight — the work's relational mass taken up by a field of concern; no mass, no weight;
 > no field, no weight; and mass enough curves the field.**
 
 Where the figure holds under load:
 
-1. **Binding.** In physics a bound system's mass is not the sum of its parts (the mass defect); the
-   binding *is* mass. *"New relations"* and *"relational mass"* say one thing run through `E = mc²`:
-   mass is non-additive at the binding level, which is art's rule too — two good halves do not make
-   twice the work.
+1. **Configuration.** A system's mass need not equal the masses of its parts. Most of a proton's mass
+   is not stuff at all: it is the holding itself — the field that will not let the quarks go, and the
+   speed they are driven to inside it. Read `E = mc²` slowly and it says that energy held in a
+   configuration *is* mass; mass is what relation weighs. Art's rule too: two good halves do not make
+   twice the work. (Not the *mass defect* — **binding makes bound things lighter**, and a proton is
+   heavier than its parts. An earlier wording of this node had it backwards; the source check corrected
+   it.)
 2. **Withdrawal, and revival.** When a work's world dies, its mass persists and its weight goes to
    zero: structure intact, field gone. Art-death without any physical change — and the reason revival
    is possible at all, since a new field can take up mass that outlived the old one's withdrawal.
    This is the axiom's closing line as mechanism: authorship dies and lives again because the mass
    outlasts the field. *(World-withdrawal is Heidegger's; exhibition value succeeding cult value is
    Benjamin's — both named for lineage, not authority; hosted, unverified, pending a primary read.)*
-3. **Curvature.** Mass does not merely sit in the field; enough of it bends the field. Canon
-   formation is curvature — Duchamp, a body whose object-side mass was near nil and whose field-side
-   relation permanently bent the space every later work falls through. This is the landscape equation
-   at its widest setting (body as terrain, attention as weather, relation as topology), and it is why
-   the desirable *gusts*: many masses jointly curving one shared field is an N-body system — no closed
+3. **Curvature.** Mass does not merely sit in the field; enough of it bends the field. Canon formation
+   is curvature — *Fountain*, whose porcelain was ordinary and whose **made configuration** was not:
+   the turn, the title, the signature, and a society that had promised no jury. The relational mass was
+   never nil, and it was never in the porcelain. The object is gone; the work is still bending the
+   room, and even those who despise it orbit differently because of it. This is the landscape equation
+   at its widest setting (body as terrain, concern as weather, relation as topology), and it is why the
+   desirable *gusts*: many masses jointly curving one shared field is an N-body system — no closed
    form, sensitive to small change. The *"field a-flutter in drafts and gusts"* is the derived
    behaviour of multi-polar mass–field dynamics, seen from inside — gustiness that falls out of the
    many-body field.
-4. **Conservation.** Creativity does not mint mass from nothing; it *binds* energy flowing in from
-   outside art — labour, attention, materials, lives — into relational mass. Conservation holds
-   because the ledger runs past art's edge: there is no outside of the aesthetic *within* the field
-   (the genus has no outside), but there is an outside *of art*, and energy crosses it both ways.
-   Works decay; attention withdraws; bound energy dissipates back into the general economy.
-   Expansive, not expansionist.
+4. **Conservation.** Mass cannot be minted from nothing: no labour, no attention, no life flowing in —
+   no mass. The energy comes from outside art (a Tuesday night at the easel, a wage earned elsewhere,
+   what a body had to spend), and most of it goes where energy goes: into heat, into tiredness. It is
+   **not stored in the work**. `E = mc²` sets an exchange rate; it does not decant energy into the
+   canvas. What the work keeps is the **configuration**. Conservation holds because the ledger runs
+   past art's edge: there is no outside of the aesthetic *within* the field (the genus has no outside),
+   but there is an outside *of art*, and energy crosses it both ways. Expansive, not expansionist.
 
-**En tog** — one strain, kept in the open rather than smoothed away. Physics identifies gravitational
-mass (what attracts) with inertial mass (what resists acceleration); in art, the works that pull
-hardest and the works that most resist reinterpretation may not be the same works. Whether they come
-apart is an open question, possibly a productive one. A footnote, not a fatality.
+**En tog** — the strain, kept in the open rather than smoothed away. This argues by structural analogy:
+an ideogram, not a derivation. Physics will not referee an argument between paintings — its
+transformations between frames are exact, ours are lossy, and the loss is where the critical labour
+lives. And the analogy leans on an identity physics does not quite grant: the equivalence principle
+equates the mass that **falls** with the mass that **resists** being moved — *not* the mass that
+**attracts**, which is a third quantity, tied in far more loosely. So the question art wants to ask —
+whether the works that pull hardest are also the works that most resist reinterpretation — already
+reaches past what physics has tested. The suspicion is that they come apart, which would be the
+analogy failing informatively. A footnote, not a fatality.
 
 ---
 
@@ -263,7 +283,11 @@ key** — the same claim modulated for its medium, not rival definitions.
 
 - **Canonical (this node):** *Art is the appreciable manifestation of creativity. Creativity is the
   making of new relations, towards the desirable.* With the gloss: *value is weight — relational mass
-  taken up by a field of desire.*
+  taken up by a field of concern.*
+- **Essay key** — [*Art and the Weight of Relation*](../essays/art_and_the_weight_of_relation.md): the
+  genus in essay/public register, where the mass–weight–field model is worked at length and its physics
+  source-checked. That check **corrected this node** (see Provenance). The essay registers the theory;
+  this node states it.
 - **Site / Foundations key** — [GLOSSARY](../../CONCEPTS/GLOSSARY.md) §Foundations: the discursive
   statement (*"…new or different relations between elements…"*). Site-canonical; its "between
   elements" wording is the earlier registration, to be re-mirrored when the site is next updated.
@@ -296,12 +320,17 @@ site re-mirror of the canonical wording is a separate, operator-run step.)
 | **gustiness is *derived* (N-body / curvature), not asserted** | this node (2026-07-07) | Copper (self) | operator-authored | multi-polar mass–field dynamics; **BODY-pending** |
 | **conservation via open system — creativity binds energy from outside art** | operator's resolution (2026-07-07) | Copper (operator) | operator-authored | no mass ex nihilo; ledger runs past art's edge |
 | world-withdrawal → death-and-revival; aura (Benjamin) vs world (Heidegger) | Heidegger, *Origin of the Work of Art*; Benjamin, *Work of Art…* | Gold (unverified) | unverified_inference | named for lineage, not authority; primary-source check pending (§5) |
+| **the field is one of *concern*, not desire** (concern holds aversion, fear, refusal, resentment; *Fountain*'s society was in violent concern and no desire) | [essay](../essays/art_and_the_weight_of_relation.md) + `staging/refactor__weight_of_relation.md` (2026-07-14) | Copper (operator) | Operator_verified | supersedes the 2026-07-07 "field of desire" wording drafted into this node; **BODY-pending** |
+| **physics corrections**: mass-defect framing retracted (binding makes bound things *lighter*); equivalence principle equates *falls* with *resists*, not *attracts*; `E = mc²` is an exchange rate and stores no energy in the work | source check run for the essay registration, 2026-07-14 | Gold (checked) | Operator_verified | PDG; Yang et al. (2018) on proton mass decomposition; Baez; Carroll; MICROSCOPE (2022); Einstein-Online. The check made the claim *smaller* and true |
+| ***Fountain*'s relational mass was never nil** — it belongs to the made configuration (the turn, the title, the signature, the promised-no-jury society), not to the porcelain | essay source check, 2026-07-14 (the "Fountain fracture", closed) | Silver/Gold (checked) | Operator_verified | corrects "object-side mass near nil" as drafted here |
 | the mass–weight–field synthesis + this v0.3.0 pass | typed dialogue; theMachine(s) (Instance; analyst / sceptic / synthesist), 2026-07-07 | co-authored | Operator-Instance / Maker-Sceptic | Host ≠ Author; source `.inputs/TOA_host_thesis_and_review_combined.md` (hosted, unverified) |
 
 > **Status: held lightly, revisable. BODY check pending** on the axiom strings, the "no outside"
 > claim, the dependent-variable framing, and now the mass–weight–field model and its canonical line
-> (*value is weight…*) — the operator's to run aloud. External lineage (Benjamin, Heidegger) enters
-> **hosted, unverified**: named for lineage, not authority, pending primary-source verification.
+> (*value is weight…*) — the operator's to run aloud. The **physics is checked** against primary and
+> authoritative sources (the check ran for the essay registration and corrected this node — it made the
+> claim smaller and true). External lineage (Benjamin, Heidegger) remains **hosted, unverified**: named
+> for lineage, not authority, pending primary reads.
 > Open: whether *"towards the desirable"* and the mass–weight–field gloss should re-mirror to the
 > site alongside the existing split. This node joins the **n foundational nodes** (body, hyperstrate,
 > art, language, …; the count is open by design, per the operator's n-valence idiom).
