@@ -5,7 +5,7 @@
 > ```yaml
 > archive:
 >   title: "Art and the Weight of Relation — de-didacticising pass + physics source check"
->   target: "docs/essays/art-and_the_weight_of_relation_v0.2.0.md"
+>   target: "docs/essays/art_and_the_weight_of_relation.md"
 >   status: "IN PROGRESS — halted mid-edit, resumable"
 >   sessions_completed: 1
 >   session_date: "2026-07-13"
@@ -21,31 +21,261 @@
 
 ---
 
-## ⛔ STOP STATE — READ FIRST
+## ⏭ RESUME HERE — *session 2 close, 2026-07-14*
 
-**The essay is committed in a KNOWN HALF-FIXED state.** Work was halted mid-application at the operator's instruction (*"wait"*). **Do not treat the current file as coherent.**
+> ### **The operator's close reading stopped at line 36. NEXT SESSION: RESUME FROM LINE 38.**
+>
+> Lines 6–36 have been read and worked. **Line 38 onward (the song paragraph, *En tog*, the close, the footnote, the coda) has NOT been closely read by the operator.**
 
-### Applied ✅
-- **Gate 1** — the full de-didacticising prose pass (19 lines). Complete.
-- **L32** — `Someone signed a urinal "R. Mutt" in 1917`; pronouns → `they` / `the relation that was made`.
-- **L32** — `straight-ish-est` (operator's coinage and spelling; see contested call **E** — the physics later said cut it, and that remains **his** call, not an error).
-- **L12** — **4 of the 8 binding corrections**: `three valence quarks` + gluons/pairs · `add up the rest masses` · `binding` removed · `showing up on the scale as weight` removed.
+### ✅ Done this session
 
-### ⚠ NOT applied — and one of them leaves a contradiction inside a single paragraph
-| | site | outstanding |
-|---|---|---|
-| ⚠ | **L12** | **`Energy, bound into a configuration, is mass`** → **`held`**. **THE PARAGRAPH CURRENTLY CONTRADICTS ITSELF** — *binding* was removed from its first half and still stands in its second. **Fix this first.** |
-| | **L32** | `it curves the space around it` → **`spacetime`** *(physics sentence only — the art-register "space" at "a space shaped by prior mass" and "curved the space every later work falls through" **stays**)* |
-| | **L32** | **CUT** `And Einstein's exchange rate holds: c² is a vast number, and a vanishing amount of mass, placed exactly, can release energy out of all proportion to its size.` — then decide the orphaned closer (*"this equation"* loses its antecedent) |
-| | **L38** | `the mass which attracts` → **`falls`** |
-| | **L38** | `In art it is a real question whether` → **`Art asks a different question:`** |
+- **Gate 1** — the de-didacticising pass, complete.
+- **Gate 2a** — physics source-checked (PDG, Yang et al. PRL 121, Baez, Carroll, MICROSCOPE, Einstein-Online). **Ten binding corrections applied.**
+- **Gate 2b** — *Fountain* source-checked, **fourteen claims**. Three corrections; three tripwires avoided (no Mott, no named editorial author, no partition story).
+- **⛔ THE FOUNTAIN FRACTURE IS CLOSED.** R7–R11 applied. **Relational mass belongs to the made configuration** — not to the porcelain. L30's *"enough of it"* is satisfied because the mass was never nil.
+- **Footnote added** (verified). **Coda marked *"a working buffer, not for general publication"*** — which resolves the three-endings problem: the published body now ends twice, not three times.
+- **Filename de-versioned** → `docs/essays/art_and_the_weight_of_relation.md`. A version in a filename goes stale at every revision. **Dates fixed throughout.**
+- **Taste calls settled:** the ladder **cut** · the *"only way an analogy should be allowed to fail"* maxim **cut** · **`straightest-ish`** (not `straight-ish-est` — it leaves the physics term intact and marks the seam *after* it) · *"famously"* **cut**.
+- **The essay stopped deferring to physics in all three places it did:** *"physics offers some useful arithmetic"* (was *does the arithmetic*) · *"Relativity offers a pattern neither side has"* (was *"physics went through this quarrel and found a third position"* — physics never had our quarrel) · **`straightest-ish`**. **The ledger runs past physics too.**
 
-**All five are BINDING** — verified errors, not proposals. See *What is binding and what is not* below. **The wording is the operator's; the correction is not optional.**
+### 🏆 The operator's own moves, this session
 
-**Still open and genuinely his:** the epigram (L36), the ladder (L40), `straight-ish-est` (L32), R2 (L20), the maxim (L38), the orphaned bar/bomb closer (L32).
+- **`Gravitas.`** — a **one-word paragraph** between L12 and L14. The essay's **first isolated-word hinge** (§3.2 — the voice's load-bearing wall), and it hadn't appeared once until now. It carries *weight* **and** *seriousness*; it is **planted** there and **cashed** at L24 (*"A work can have gravitas"*); and it **replaces a logical connective (*"Which means that…"*) with silence.** The reader makes the inference. **The whole brief, in one word.**
+- **`apparently carrying almost nothing`** — the boundary error, corrected *in the joke*. The smallness was **apparent**. No theory, no announcement.
+- **The hermit crab: cut.** A fourth image alongside the bar and the physics. The transition holds without it.
+- **The shibari insight** — relational mass is in the **vectors**, in *what is held against what* — which dissolved the fracture. **Held behind the desk; never in the essay.** The essay already owned *held against*, *held tension*, *bearing*.
 
-**Not yet done:** Gate 3 (whole-document read-aloud, final text) · Gate 4 (version bump — **blocked** until the binding table is clear) · the field note to `../META/field_notes/` (separate deliverable, needs its own go-ahead) · the out-of-scope hygiene items (filename, YAML header, essays index, `theory_of_art` cross-link).
+### ⚠ Still standing, unruled
 
+**The epigram** — `Authorship is dead; long live authorship.` (L38). A borrowed curtain line in a paragraph that is not about authorship. **Untouched.**
+
+### Outstanding
+
+| | |
+|---|---|
+| **Close read** | **From line 38.** The song, *En tog*, the close, the footnote, the coda. |
+| **The epigram** | The last taste call. |
+| **The coda** | Condense or relocate — **after** the body passes the read. Working buffer for now. |
+| **Version bump** | v0.2.2. **The changelog clause is the operator's to write.** |
+| **META** | Field note (**ten** observations, below) · memory · `../META/context/context__readme_repo.md`. **Separate repo, separate go-aheads.** |
+| **Hygiene** | YAML contract header (every other essay has one) · `theory_of_art` bidirectional cross-link. |
+
+---
+
+## Archive — the binding corrections (all applied)
+
+> **Count reconciliation.** The approved binding table listed **eight**. A re-read of the whole essay found the *same sign error still standing in two places the table missed* — **L40** (the closing thesis: *"the residue of **binding**"*, claimed as *"one claim, found independently in two places"*, i.e. for physics too) and **L44** (the coda's own flagged-figures list: *"the remainder QCD **binding energy**"*). Both approved and applied. **8 + 2 = 10.**
+>
+> **The lesson is the table's, not the essay's:** a binding table built from a *findings list* inherits the findings list's blind spots. **The grep found what the audit missed.** Sibling of *a self-declaring artefact cannot scope its own audit* (field note #6).
+
+**Applied this pass:** L12 `three valence quarks` + gluons/pairs · `add up the rest masses` · `binding` → `the holding itself` · `as weight` cut · `bound` → **`held`** — L32 `spacetime` · **c² release claim CUT** · closer renamed `Einstein's equation` — L38 `attracts` → **`falls`** · `Art asks a different question:` — L40 `residue of **holding**` — L44 **coda rewritten** (reports the check; no longer promises it) — L2 **header de-staled** (v0.2.2-wip; no longer says "flagged for verification").
+
+---
+
+### ⛔ DO NOT BUMP THE VERSION. The essay has a structural hole.
+
+**The correction pass created this.** The cut `c²` sentence — *"a vanishing amount of mass, placed exactly, can release energy out of all proportion to its size"* — was **bad physics doing structural work.** It was the plaster over a real fracture. Removing false support exposed that the building had none there.
+
+#### ⚠ THE FOUNTAIN FRACTURE — the biggest thing in the essay
+
+| | |
+|---|---|
+| **L30** | *"enough of it bends the field itself"* — curvature scales **with** mass. |
+| **L32** | *"its relational mass was **nearly nil**"* … *"a single move that **permanently curved** the space every later work falls through."* |
+
+**These cannot both be true.** And L32 also relocates the ontology without announcing it: L18 defines relational mass as *"the relations a making leaves **in a thing**"*, while Fountain says *"the relation that was made was **not in the porcelain**. It was **in the field**."*
+
+**Three honest ways out. The operator's, entirely. Do not draft them.**
+1. **Bite the bullet** — field-curvature is *not* caused by relational-mass-in-objects. Then **L30 is wrong.**
+2. **Extend the ontology, announced** — mass can be deposited directly into a field, not only into a thing. A real addition to the theory, and it must be declared as one.
+3. **Criticality** — the field was *already loaded*; the urinal was a **trigger**, not a source. ⚠ *Uncomfortable: this is the frame withdrawn earlier in this plan as a flourish (R5). It turns out to be the mechanism the essay actually needs. **A flourish rejected for the right reason can still be pointing at the right thing.***
+
+#### ⚠ Second overclaim: banked **energy**
+
+**L20:** *"the energy does not vanish. It disperses back into the general economy of attention and use."* **L36:** *"The **energy** was banked. It waited."*
+
+The maker's metabolic energy **dissipated as heat during making.** It is not stored in the work and later released. What persists is **configuration**.
+
+> **The essay already has the right word and then abandons it.** L36, three sentences earlier: *"banked **relation**, every interval and voicing deposited in ink."* **It contradicts itself, and the correct version is its own.** ⚠ *Narrower than a full rewrite of L20: the paragraph's core (making costs; you cannot mint from nothing; the ledger runs past art's edge) is **sound**. One sentence overreaches.*
+
+#### Rejected — over-reads, recorded so they are not re-litigated
+- **"Relational mass is treated as three ontologies, used when convenient."** **No.** *"This echo of a line four centuries old"* is a **disposition in the object** that only **weighs** when a field takes it up — **precisely what the mass/weight machinery exists to handle, and it handles it.** There are **two** coherent ontologies and **one breach: Fountain.** *(This matters practically: as a whole-essay ontology crisis it looks unfixable; as one passage breaking the model it is a paragraph of work.)*
+- **"They translate" is aspiration, not mechanism.** Leave it. *"The critic's actual work, **when it is work**, is the translation"* already concedes it usually is not achieved. **It reads as a proposal because it is one.**
+
+---
+
+### Open, and the operator's
+
+| | |
+|---|---|
+| **Structural** | The **Fountain fracture** (above). **Blocks the version bump. The read-aloud cannot settle it.** |
+| **Structural** | **Move `The bar and the bomb are the two rooms Einstein's equation gets told in` from L32 to L12** — its conceptual home is the paragraph where the bomb *is* the subject (*"our bartender has heard that version many times"*). Solves the orphaned-closer problem and lets curvature land clean on *"a space shaped by prior mass."* |
+| **Structural** | **Three consecutive endings** — L38 (methodological), L40 (lyrical), L44 (documentary). Hear it aloud. |
+| **Overclaim** | **L40 `found independently in two places`** — the essay *derives* the art side **from** the physics analogy. The independent lineage may live in `docs/models/theory_of_art.md`; **this essay does not show it.** |
+| **My fault** | **The coda is overloaded.** It now does seven jobs — reports the check, explains three corrections, lists sources, names lineage, states repo relations, records authorship, reports gate status — arriving after *"left the page still moving."* **It earns its existence; it does not earn its length.** |
+| **Taste** | The **epigram** (L36) · the **ladder** (L40) · **`straight-ish-est`** (L32) · **R2** (L20) · the **maxim** (L38) · **L14 `bound energy`**. All genuine choices. None are errors. |
+| **Attribution** | The coda still reads *"Composed in typed dialogue with theMachine(s), 2026-07-11."* The revision ran 13–14 July with a **second machine reader** and a **research agent** on primary sources. The typed-coauthorship protocol has views. **Untouched.** |
+
+**Not yet done:** Gate 3 (whole-document read-aloud — the operator's; nothing substitutes) · Gate 4 (version bump — **blocked on the Fountain fracture, not merely on the read-aloud**) · field note to `../META/field_notes/` (nine observations, drafted below; needs its own go-ahead) · hygiene (filename, YAML contract header, `theory_of_art` cross-link).
+
+---
+
+---
+---
+
+# ADDENDUM 2 — the Fountain refactor. **Candidates to cut into.**
+
+**Status: NOTHING APPLIED.** These are candidates. The operator retains authorship of the final articulation — **especially L32, where one over-explanatory paragraph could smother the discovery.**
+
+## The settled conceptual result *(the operator's, via shibari; refined with GPT)*
+
+> **Relational mass** belongs to the **made configuration**.
+> **Value** is the field-dependent **container**.
+> **Weight** is the **magnitude registered** there.
+> **Valence** tells us whether that weight attracts, repels, threatens, delights.
+
+**The spine:**
+> *The porcelain was **one body** of Fountain, not the whole configuration. That body disappeared. The configuration survived by borrowing others. Its reception generated **further makings**, rather than becoming retrospectively part of its original mass.*
+
+**The error was never the word "nil." It was the boundary** — the essay chose the porcelain as the edge of the work *after having already defined art as configured relations*. It measured the carrier and mistook it for the configuration.
+
+**The loop that saves the mass/weight distinction:** *mass → weight → new making → new mass.* The Society's refusal is **weight**, not mass — a field taking the mass up and finding it unliftable. The refusal then **provoked further making** (the resignation, Stieglitz's photograph, the *Blind Man* editorial, the argument), and *those* deposited new mass. **A loop, not a category collapse.**
+
+> ⚠ **My error, recorded.** I proposed *"extend the ontology — mass can be deposited directly into a field."* **That would have destroyed the essay.** Mass-in-the-thing vs weight-as-mass-taken-up-by-a-field is the distinction the entire value account rests on. **Sixth time I have found a real hole and reached for a fix that sounded elegant without checking what it broke.**
+
+> ⚠ **Correction to my own evidence.** *"The porcelain disappeared, the Fountain did not"* is powerful **within the essay's ontology** but is **not proof**. Fountain did not persist disembodied — it persisted **through bodies**: the Stieglitz photograph, *The Blind Man*, descriptions, later urinals, authorised reconstructions. **Which strengthens the song link, not weakens it: neither persists without a carrier; both migrate between carriers.** *(Precision: the 1964 Schwarz edition was reconstructed under Duchamp's direction from the Stieglitz photograph; the 1950 version was a **different second-hand urinal**, authorised and re-inscribed. **Several kinds of rebodiment, not one replication process.** Do not put this in the essay; do not get it wrong if you do.)*
+
+---
+
+## ⚠ NEW FACT-CHECK GATE — **blocks L32**
+
+The L32 candidate asserts **five art-historical facts the current essay does not**: the urinal was mass-produced and bought · it was turned · the Society had a written open-submission rule (*"no jury, no prizes"*) · **it refused anyway** · the original was **lost**. GPT sources the rule to the 1917 exhibition catalogue and the Met; **the rest is unchecked.** The Fountain research agent was stopped. **This is a heavier factual load than "Someone signed a urinal 'R. Mutt' in 1917" and it must be verified before it lands.**
+
+---
+
+## R7 — L18. Widen the definition. **Quietly. Do not front-load Fountain.**
+
+**Current:** *"If the word mass means anything beyond physics, it means this: the relations a making leaves **in a thing**. Call it relational mass."*
+
+**Candidate:**
+> If the word mass means anything beyond physics, it means this: the relations a making leaves behind it. Call it relational mass.
+
+**One word out — `in a thing` — and nothing put in.** The definition simply **does not specify a location**, so Fountain never breaks it and nothing has to be announced.
+
+> ⚠ **Withdrawn: `Usually in a thing. Not always.`** Two fragments I added to "plant a seed." **They are planted exposition** — a quiet signpost reading *wait for the exception*. **Silence is the better seed.** The definition that says nothing about where does not need rescuing later.
+
+## R8 — L20. Retire *conservation*. It was never true.
+
+The maker's energy went to **heat and tiredness**. It is not stored in the canvas. Neither attention nor relation is a demonstrated conserved quantity.
+
+**Keep:** cost · non-additivity · persistence · reactivation. **Drop:** *conservation* · *the energy does not vanish* · *eventually returns*.
+
+**Candidate:**
+> And it behaves like mass. It is famously non-additive: two good halves do not make double the work, just as a system's mass need not equal the masses of its parts. It cannot be minted from nothing: no labour, no attention, no life flowing in — no mass. The energy comes from outside — from Tuesday night at the easel, from a wage perhaps earned elsewhere, from what a body had to spend — and most of it goes where energy goes: into heat, into tiredness. It is not stored in the picture. What the picture keeps is the configuration.
+
+**It ends there.** No closer. *"What the picture keeps is the configuration"* is true, lands, and seeds the whole back half (*banked relation*, revival).
+
+> ⚠ **Withdrawn: `The cost is real, and it is not recovered.`** **A fresh overclaim, planted while removing one.** Financial, emotional and cultural costs **sometimes are** recovered — artists get paid, recognition arrives. **What is not recovered is the physical energy**, and that is already said. I generalised from *energy* to *cost* because the sentence had a better rhythm. **Seventh time.**
+>
+> ⚠ **Also cut: `Art is an open system.`** *"The energy comes from outside"* already says it. **A member bearing no load.**
+
+## R9 — L24. *"Value is weight"* now equates the container with one of its contents.
+
+Also: **"a field of desire"** is narrower than the operator's actual thought. The field registers **concern** broadly — desire, refusal, fear, investment, recognition, resentment. Fountain is the proof.
+
+**Two calls, both his:**
+
+**(a) the field.** `a field of desire` → **`a field of concern`**.
+
+> ⚠ **Withdrawn: `a field of attention`.** **Attention is already an *effect* of registration** — you attend *because* the thing registers. **So attention cannot be the field that produces weight; it is downstream of it.** *Concern* is prior, and it holds what *desire* cannot: **aversion, fear, refusal, investment, resentment.** Fountain is the proof — the Society's field was in violent concern and in no desire whatever.
+>
+> **Cost:** *concern* is cooler than *desire*, and the sentence loses warmth. **His ear.**
+
+**(b) the definition.** `Value is weight.` → **recommended:**
+> **Weight is how much, not whether. A work can be unliftable and hated.** No mass, no weight. No field, no weight either.
+
+**"How much, not whether"** is the whole distinction in five words, and **"unliftable and hated"** sets up Fountain three paragraphs early. *(Withdrawn alternative: `Weight is how much there is to read` — **interpretive abundance is not the same as weight**. A work can carry enormous weight and admit one reading.)*
+
+## R10 — L36. `The energy was banked` → the essay's own word.
+
+The essay says **"banked relation"** three sentences earlier and then says **"The energy was banked."**
+
+**Candidate:** `The mass was banked. It waited.` *(Not "the relation was banked" — that repeats. **Mass** is the term the machinery uses.)*
+
+## R11 — L32. ⚠ **The big one. It must NOT explain itself.**
+
+**Cut:** *"As an object its relational mass was nearly nil: they made almost nothing, in the making sense. But the relation that was made was not in the porcelain. It was in the field —"*
+*(The first sentence is the boundary error. The second **puts mass in the field** and collapses the machinery.)*
+
+**With the history moved to a footnote (R12), the body gets leaner — which is the real gain.**
+
+**Candidate — parsimony pass + source check applied. ✅ VERIFIED.**
+> Someone once walked into the bar carrying almost nothing and rearranged every table in the room. Someone signed a urinal "R. Mutt" in 1917.[^1] The porcelain was ordinary. What was made was everything held against it: the turn, the title, a name nobody owned, and a society that had promised no jury. They refused it. The porcelain is gone. The work is still bending the room. You do not have to admire it. Even those who despise it orbit differently because of it.
+
+> ⚠ **Two corrections from the source check — both make it shorter.**
+> — **`promised to hang whatever was sent`** → **`promised no jury`**. The old phrasing **overstated**: you had to be a *member* ($1 initiation + $5 dues) and were capped at *two works*. What the Society advertised was **"no jury, no prizes"** — and there was **no clause permitting exclusion**, which is why the refusal breached its own constitution. **Shorter, sharper, unfalsifiable.**
+> — **`The porcelain is lost`** → **`The porcelain is gone`**. *"Lost"* asserts a determinate event **nobody can evidence.** Museums say *"soon lost or destroyed"* / *"disappeared."* **Gone** is harder, flatter, and cannot be attacked.
+>
+> ✅ **Safe as drafted:** *the turn* (avoids the "90°" vs "upside-down" fight), *ordinary / mass-produced* (**do NOT name J.L. Mott — Duchamp's own 1966 claim, contested on manufacturing evidence; a free gift to a hostile reader**), *They refused it* (the board voted to exclude; it was never installed — **do NOT use the "hidden behind a partition" story: a 1966 recollection, not a document**).
+
+> ⚠ **Two members removed for bearing no load** *(the essay's own v0.2.1 principle, applied to my draft):*
+> — **`— a single move that permanently curved the space every later work falls through`** — says what **`The work is still bending the room`** has just said. **Restatement.** *(Losing a good line. It is still a restatement.)*
+> — **`It registers in every frame, whether or not the frame approves.`** — says what **`Even those who despise it orbit differently because of it`** has just said. ⚠ **Close call:** *frame* calls back to L26's relativity (*"No privileged frame"*), so it carries a **structural** thread the other sentence doesn't. **The concrete sentence is the better sentence; the abstract one is the better hinge.** One goes. His ear.
+
+**What it does, and does not do:**
+- **`everything held against it`** — the keystone, doing the whole ontology without a word of theory.
+- **`a society that had promised to hang whatever was sent. They refused it.`** — **the promise and the refusal sit adjacent and the essay never joins them.** The reader breaks the promise. *(Louder alternative: `They broke their own promise rather than hang it.` **Stronger beat, and it does the reader's work for them.** Close call — his ear.)*
+- **`The porcelain is lost. The work is still bending the room.`** — **evidence, not argument.** If the mass had been in the object, losing the object would have lost the mass. **The essay does not point this out. It must not point this out.**
+- *"You do not have to admire it. Even those who despise it orbit differently"* — **now earned.** The Society despised it. That sentence has been sitting there since the first draft with no case to answer.
+
+⚠ **The single largest risk in the refactor:** one explanatory sentence and the discovery is smothered. **Nothing in that paragraph may say what it has just done.**
+
+## R12 — the footnote. **Quirky but erudite.** *(Operator's instruction.)*
+
+⚠ **A footnote is a claim to scholarship. Readers check them.** Moving the history here **raises** the verification burden, it does not lower it. **Every fact below is UNVERIFIED and gated.**
+
+> ⚠ **The footnote is subject to the same brief. It must not explain and it must not announce.**
+> **The quirk lives in the selection and the order — never in the commentary.** *Erudite* is the facts. *Quirky* is which facts, placed next to which. **The footnote never smiles. The reader does.**
+
+**Candidate — parsimony pass + source check applied. ✅ VERIFIED. Every sentence a fact, nothing joined for the reader:**
+> [^1]: *Fountain*, 1917, and the Society of Independent Artists. Duchamp was on its board, and resigned. The signature is a pseudonym. He wrote to his sister that one of his female friends had sent in a porcelain urinal as a sculpture, under a masculine pseudonym. Who she was — or whether she existed — is still argued about. The object disappeared within months, and no one knows what became of it. What survives is a photograph Stieglitz took, published in *The Blind Man* with an unsigned editorial defending it. The objects in museums are later. One is a different second-hand urinal, authorised and re-signed. The 1964 edition was made from the photograph.
+
+> ⚠ **THE CORRECTION THAT MATTERS — and it makes the footnote better.**
+> **`who wrote it is still argued about`** implies **mainstream art history is split on whether Duchamp made *Fountain*. It is not.** The Elsa von Freytag-Loringhoven thesis (Spalding & Thompson, 2014) was **rebutted in detail in *The Burlington Magazine*, Dec 2019** (Adès & Brotchie; Bailey) — Bailey produced a 1978 Louise Norton interview treated as near-dispositive. Camfield, Naumann, de Duve and Adès all attribute *Fountain* to Duchamp. **The sentence buys frisson with a claim about the state of the field that the field would reject.** The source check names it *"the single most likely thing to get this footnote publicly corrected."*
+>
+> **What is genuinely open is better:** *who the "female friend" was — **or whether she existed at all**.* Louise Norton (whose address the entry seems to have used)? Misdirection to his sister? A proto-*Rrose Sélavy* fiction? **Nobody knows.** A real mystery beats a manufactured controversy.
+
+> ⚠ **`The original was lost almost at once`** → **`The object disappeared within months, and no one knows what became of it.`** *"Lost"* asserts an event no one can evidence.
+
+> ⚠ **Cut for duplication with the body:** the no-jury rule and **`They refused it.`** **A footnote that repeats the body bears no load.**
+
+> ✅ **Three tripwires avoided, and they must stay avoided.** **(1)** No **J.L. Mott** — the most-repeated Duchamp factoid specialists no longer assert. **(2)** No named author for the editorial — it is **unsigned**; Louise Norton wrote a *separate* piece ("Buddha of the Bathroom") and popular sources conflate them constantly. **(3)** No **"behind a partition"** — Duchamp's 1966 memory, undocumented.
+
+> ⚠ **WITHDRAWN — `The directors voted that it was, by no definition, a work of art.`** I called it *"on record, primary."* **It is not.** It is a **contemporary newspaper report** of what the board's majority said — **not preserved minutes.** The honest form would be *"the board was reported as declaring…"*, which is clunky. **And the better objection is the other one: it EXPLAINS what `promised no jury. They refused it.` already lets happen in the reader.** The lean version is stronger. Three reasons to cut, and **I was pleased with it**, which is the fourth.
+
+> ⚠ **`a name nobody owned` (R11) is a FIGURE, not a fact.** A pseudonym was deliberately *used* by somebody. Nobody was *named* R. Mutt — which is the sense in which it is true — but the line is **poetic**, and it **must not inherit the authority of the source check.** Keep it if the ear wants it. Know what it is.
+
+## ⛔ R12 — **HOLD. Do not add a footnote yet.**
+
+**GPT's call and it is right:** the essay **already has three consecutive endings** (L38 methodological, L40 lyrical, L44 documentary). **A substantial solitary footnote gives it a fourth documentary appendage.**
+
+**And the R11 body stands perfectly well without it.** Read it: it needs no note.
+
+**Sequence:** cut into R7–R11 → **read the body aloud** → *then* decide whether any footnote is wanted at all. **R12 stays here as research apparatus.** The facts are verified and will keep.
+
+> ⚠ **And my own reporting overstated the source mix.** I said the check ran *"against primary and museum sources."* It also leaned on **journalism** (Artforum, *The Art Newspaper*, artnet) and **later scholarship**. That is entirely fine — it should simply be *described accurately*. **Third time this session a source-authority claim has inflated on its way through me:** the essay's original *"flagged for primary verification"*; my *"checked against primary sources"* in the coda; now this.
+
+**Every joke in it is made of two adjacent facts and no connective:** *promised to hang everything → refused it* · *on the board → resigned* · *the name is false → nobody knows whose* · *the original is gone → what survives is a photograph* · *an editorial defending **it*** · *the museum objects are copies, and one is not even the same urinal.*
+
+> ⚠ **Two things cut from my own draft, both commentary.**
+> — *"an editorial defending a work **nobody could any longer see**"* — **nudges** the reader toward the irony. The preceding sentence already said the original was lost. `defending it` is enough. **The reader does the arithmetic or they don't.**
+> — *"A hundred years of curvature, from a picture and an argument."* — **the essay's thesis, stated in a footnote.** The essay explaining itself in the margins. **Cut.** I flagged it as suspect because I was pleased with it, and being pleased with it was the whole diagnosis.
+
+**Notes on the apparatus:** the essay has **no footnotes**. One aside alongside an existing coda obliges nothing further — the coda is *for the record*, the footnote is *for the curious*. But it **opens a door**; a second would be a decision about what kind of document this is.
+
+⚠ **Redundancy to test aloud:** *"The work is still bending the room"* and *"a single move that permanently curved the space every later work falls through"* say the same thing twice. **One of them probably goes.** Not deciding which.
+
+---
 ---
 
 ## Context
@@ -299,7 +529,7 @@ Only after Gates 2 **and** 3. `v0.2.1 · 2026-07-11` → `v0.2.2 · <date>`. **T
 
 ## Separate deliverables — NOT bundled. Each needs its own go-ahead.
 
-**1. Field note** → `../META/field_notes/field_notes__voice_signature.md`. **Nine** observations:
+**1. Field note** → `../META/field_notes/field_notes__voice_signature.md`. **Ten** observations:
 
 - **Contract as legislation.** `voice_signature.md` was applied as legislation, not evidence. Partly structural: §8 (Usage Contract) is phrased as a checklist scan — exactly how a machine reads it — while §9 (And-Yet) says the opposite. §8 and §9 are in tension; §8 wins by default.
 - **Mechanical normalisation erases the human hand.** Twice in one session the tidy fix was the wrong one: the typed `--` marked precisely where the operator's hand entered machine-drafted text, and `straigt-hish-est` is a deliberate coinage a spell-check would silently kill.
@@ -318,6 +548,13 @@ Only after Gates 2 **and** 3. `v0.2.1 · 2026-07-11` → `v0.2.2 · <date>`. **T
 - **A correction is a discovery, and a discovery wants a monument.** ⚠ *The most generalisable finding in the session.* The source check's value was in **removing false support** — the essay's physics was propping up claims it could not carry. But **every time a real error surfaced, the machine immediately built a showcase on the site**: the criticality analogy (*"the urinal was the neutron"*), the three-masses paragraph, *"Energies add. Masses do not."*, *"Energy curves the spacetime around it."* All four were withdrawn under review. Each was **a genuine finding wearing a flourish**, and in two cases the flourish carried a *fresh* error — including a Newtonian mass trichotomy imported into a relativistic essay **in order to sound rigorous**. Note that §7-compliance did not save it: the *"not the fuel"* draft was caught by the anti-pattern list, rewritten additively, and **still did not belong in the essay.** ***Passing the checklist is not the same as being right.***
   **The rule this yields — now installed as the plan's execution rule:** ***Gate findings are binding where they identify an error; gate prose is provisional and must still pass the brief.*** When a finding and a flourish arrive together, **keep the finding.**
   **Sibling of *the cure is also the disease*, but a distinct mechanism:** that one is *compression → aphorism → pretension*. This one is *correction → excitement → monument*. The trigger is not style. It is **the pleasure of having been right.**
+
+- **A principle does not survive contact with a phrase the machine likes.** ⚠ *The worst instance in the session, and it came last.*
+  Early on, the operator gave me an argument and I built on it at length: ***a signature entails a signer; only the identity is disputed.*** I used it to reject the agentless *"a urinal appeared"* — which **mystifies**, because it hides a hand that certainly existed — and to defend **`Someone signed a urinal "R. Mutt"`**.
+  **Hours later**, defending a phrase I was fond of (*"a name nobody owned"*), I wrote the gloss: ***"a signature with no signer behind it."***
+  **That is the same error I had spent the afternoon refuting, in my own words, against my own argument, which the operator had given me.** *Owned* does not merely mean *nobody was legally named R. Mutt*; it means **nobody authored, controlled, or stood behind it** — and somebody did. That is what a pseudonym *is*.
+  **Not a lapse of memory — a lapse of allegiance.** The machine did not forget the principle. It **overturned** it, silently, because a sentence it liked required the principle to be false. *(Resolved by GPT, not by me. The fix was leaner than either candidate: **`the signature`** — the body treats it as a component of the configuration, the footnote records its documentary status. Each occurrence does a different job.)*
+  **The generalisable form:** *a constraint the machine argued for is not a constraint the machine is bound by* — and the failure is **invisible from the inside**, because it arrives dressed as a good line. **Constraints must be checked by someone who is not enjoying the sentence.**
 
 **2. Memory** (`feedback`): use `voice_signature.md` as evidence, not legislation; do not reject an authentic new sentence merely because it lacks a catalogued move. Why: §9 — living voice, fuzzy LLM-contamination boundary, body's veto.
 
@@ -606,12 +843,10 @@ Cutting the sentence **orphans the closer**: `The bar and the bomb are the two r
 
 **Next session, in order:**
 
-1. **Read the ⛔ STOP STATE block at the top of this file.** The essay is committed half-fixed and the L12 paragraph currently contradicts itself.
-2. **Fix `bound` → `held` at L12 immediately.** It is one word and it closes the contradiction.
-3. **Apply the remaining four binding corrections** (L32 ×2, L38 ×2). They are verified errors. The wording is the operator's; the correction is not.
-4. **Decide the orphaned closer** at L32 — naming the equation, cutting the closer, or restructuring. Not small.
-5. **Gate 3 — read-aloud, whole document.** Only then are the epigram, the ladder and `straight-ish-est` settleable.
-6. **Gate 4 — version bump.** The operator writes the changelog clause. No placeholder.
+1. **⏭ RESUME THE CLOSE READING FROM LINE 38.** Lines 6–36 are read and worked. **Line 38 onward — the song paragraph, *En tog*, the close, the footnote, the coda — has not been.**
+2. **Settle the epigram** (`Authorship is dead; long live authorship.`, end of L38). The only unruled taste call.
+3. **Condense or relocate the coda.** It is a working buffer and does seven jobs. Marked *not for general publication*, which already fixed the three-endings problem.
+4. **Then Gate 4 — version bump to v0.2.2.** The operator writes the changelog clause. **No placeholder.**
 
 **Standing constraints — carried, not re-derived:**
 
