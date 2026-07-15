@@ -21,11 +21,13 @@
 
 ---
 
-## ⏭ RESUME HERE — *session 2 close, 2026-07-14*
+## ⏭ RESUME HERE — *session 3 close, 2026-07-15 · now v0.2.3*
 
-> ### **The operator's close reading stopped at line 36. NEXT SESSION: RESUME FROM LINE 38.**
+> ### **The close is resolved. The last unruled taste call (the epigram) is CUT. Read-aloud from line 38 still pending.**
 >
-> Lines 6–36 have been read and worked. **Line 38 onward (the song paragraph, *En tog*, the close, the footnote, the coda) has NOT been closely read by the operator.**
+> **This session (v0.2.3):** git recovery (home work safe in `21ef1d8`; stale VS Code buffer parked + deleted — nothing lost); **the close synthesised** — proton → song → painting → **you**, present tense, `Still.` on the painting; **`energy from outside` → `energy`** in the close (the boundary claim is frame-dependent — it holds for the artwork, not synchronically for the proton; L20 keeps "from outside" because there the system *is* the artwork); **the epigram cut** (`Authorship is dead; long live authorship` — a borrowed slogan, off-topic for its paragraph, and no longer at the curtain); **`The song, the song`** doubling kept (refrain, enacts its subject); **the apparatus (coda + metadata) moved to the foot** — the essay now ends on the reader-turn, machinery below the line.
+>
+> **STILL OPEN:** the **read-aloud from line 38** (the one gate nothing substitutes for) · the **coda** still a working buffer doing ~six jobs (condense/relocate) · the **publication track** (see the separate plan: venue, pseudonym, disclosure line — repo is PUBLIC, no blocker).
 
 ### ✅ Done this session
 
