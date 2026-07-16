@@ -524,9 +524,9 @@ completely. It is the proof that this can be done well, and the model for doing 
 
 ## Resume instructions
 
-**Rulings so far — typed dialogue, 2026-07-16:**
+**Rulings so far — typed dialogue, 2026-07-16 (session paused mid-batch; all pending the read-aloud):**
 
-- **The canonical line (L195) is LOCKED**, pending the read-aloud:
+- **The canonical line (L195) is LOCKED:**
   > *Value is what a field of concern makes of a work's relational mass: how much it weighs there,
   > and whether that weight draws or repels. No mass, no weight; no field, no weight; and mass
   > enough curves the field.*
@@ -537,15 +537,44 @@ completely. It is the proof that this can be done well, and the model for doing 
 - **Ontology of value:** the container framing accepted via the locked line (without the word).
 - **Domain-relativity affirmed in dialogue:** creative-to-one-party, not-to-another is the theory
   working, not a defect — guarded from relativism by invariant mass and between-field translation.
+- **The Weight bullet (L190) is SETTLED**, head and list both the operator's calls:
+  > **Weight** — the *how much* of value's landing: relational mass taken up by a local field, felt
+  > in a body, a body of work, a market, a canon. Mass alone is not yet weight; it is structure
+  > awaiting a field to be weighed in. And weight is not yet value: value is the landing entire —
+  > what the field makes of the mass, how much it weighs there and whether it draws or repels. The
+  > two older formulations — *value is ontological mass*; *the desirable is a dependent variable* —
+  > remain the two factors; their product is weight.
+  The head (*"the how much of value's landing"*) keeps the operator's landing figure while holding
+  the weight/valence split. The four-beat list (*"a body, a body of work, a market, a canon"*) is
+  his: the doubling is philosophy_of_body's own claim (the oeuvre as a non-physical body) surfacing
+  in the list — a scale-ladder, flesh → corpus → market → canon.
+- **The intent line (L18–19) is LOCKED:** *"…the mass–weight–field model (creativity deposits
+  relational mass; value is what a field of concern makes of that mass: how much it weighs there,
+  and whether it draws or repels)."*
+- **The loop: LEANING YES** — final ruling deferred until the operator sees the section assembled.
+  Riding sentence for the Weight bullet's end: *"And weight feeds back: a strong registration —
+  embrace or refusal — provokes further makings, which deposit **new** mass of their own, rather
+  than becoming retrospectively part of the original. Mass → weight → new making → new mass."*
+  Curvature demonstration drafted, tripwire-clean (resignation · Stieglitz photograph · unsigned
+  *Blind Man* editorial; no Mott, no named author, no partition).
+- **Approved unless overruled** (no live options in them): Conservation → Cost (L223 heading; L227
+  three-word cut; L321 reframed in-row to *"cost via open system"* with `binds` → `holds`, noted as
+  reframed 2026-07-16) · the L285 Registrations gloss echo · the L330 status-note echo.
 
-**Next session, in order:**
+**⏭ OPEN — three calls, next session starts here:**
 
-1. **The two tracking sites that need real wording:** the front-matter `intent` line (L18–19) and
-   the Weight bullet (L190) — the other three (L285, L319, L330) follow the locked line almost
-   verbatim. Then §3.2 (Conservation → Cost), §3.5 (L203), §3.3 (L180).
-2. **Decisions still his, flagged not settled:** the loop in or out (§3.4 — his settled formulation,
-   awaiting his explicit yes) · valence as a *term* in the model (§5.1 — the canonical line stays
-   plain; if the term enters elsewhere, a GLOSSARY disambiguation comes with it).
+1. **L319** — supersession row added, old row kept with a *"superseded 2026-07-16 — see row below"*
+   note (ledger-style, the concern-row precedent), rather than rewriting the old row's claim.
+2. **L203** — the plain cut (*"…energy held in a configuration is mass."* full stop — recommended)
+   vs the echo (*"…is mass: relation, held."*).
+3. **L180** — the fuller definition (*"the relations a making leaves behind it: its relational
+   mass, belonging to the made configuration, invariant across who is looking"*), with the L182
+   *"are one claim"* sentence cut (its reconciliation job now lives in the Weight bullet's "two
+   factors").
+
+**Then, in order:** apply the full set to the node in one pass (loop assembled for the final
+ruling) → the operator's `emerged_from` clause + bump to v0.3.1 → follow-ons per §8, each on its
+own go-ahead → the read-aloud last, whole document, final text.
 3. **Version bump to v0.3.1** — settled (§7). The changelog clause is the operator's to write.
 4. **Then the follow-ons, each with its own go-ahead:** `theory_of_art.af.md` (§8.1) → GLOSSARY L41
    via the site-first rule (§8.2) → `docs/models/README.md` rows (§8.4) → release the hold on the
