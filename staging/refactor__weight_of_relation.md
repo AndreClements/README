@@ -27,7 +27,53 @@
 >
 > **This session (v0.2.3):** git recovery (home work safe in `21ef1d8`; stale VS Code buffer parked + deleted — nothing lost); **the close synthesised** — proton → song → painting → **you**, present tense, `Still.` on the painting; **`energy from outside` → `energy`** in the close (the boundary claim is frame-dependent — it holds for the artwork, not synchronically for the proton; L20 keeps "from outside" because there the system *is* the artwork); **the epigram cut** (`Authorship is dead; long live authorship` — a borrowed slogan, off-topic for its paragraph, and no longer at the curtain); **`The song, the song`** doubling kept (refrain, enacts its subject); **the apparatus (coda + metadata) moved to the foot** — the essay now ends on the reader-turn, machinery below the line.
 >
-> **STILL OPEN:** the **read-aloud from line 38** (the one gate nothing substitutes for) · the **coda** still a working buffer doing ~six jobs (condense/relocate) · the **publication track** (see the separate plan: venue, pseudonym, disclosure line — repo is PUBLIC, no blocker).
+> **STILL OPEN:** the **read-aloud from line 38** (the one gate nothing substitutes for) · the **coda** still a working buffer doing ~six jobs (condense/relocate).
+
+---
+
+## 📌 PUBLICATION TRACK
+
+### The pitch-key: ***Still Life with Equations***
+
+**The operator's, and it is the best framing the piece has had.** Not a flavour-label — **structurally true**:
+
+- **A still life is the genre where ordinary objects are arranged until they weigh.** Linen, oil, a lemon, a jug — *a urinal*. Nothing in the arrangement is remarkable; the **configuration is the work.** That is the essay's thesis, stated as a genre name instead of a claim.
+- ***Nature morte*** carries the other half: the work perishes without a molecule changing; the mass persists.
+- **It enacts the essay-as-painting** — the operator's stated intent for the close (the locus of attention transferring to the reader/viewer).
+- **"Still" is already the essay's last word.** Title says *Still Life*; the essay ends *Still.* **The frame closes itself and no one mentions it.**
+- **The Chardin / Braque / Cézanne title formula** (*Still Life with Apples*, *Still Life with Pipe*) — reads instantly as a painting title, and *with Equations* is the incongruity that carries the joke. **Witty and erudite without being pretentious** — Susan's original test.
+
+⚠ **Pitch-key, not title.** *Art and the Weight of Relation* tells an editor the **subject**; *Still Life with Equations* tells them the **flavour** — and sells it in four words. As a subtitle it can ride along. **As a replacement it costs the concept.**
+
+### The byline — landed (L48)
+
+`By Mutt.R.Us — a single-use pseudonym. [Provenance and revision history.](…/blob/main/docs/essays/art_and_the_weight_of_relation.md)`
+
+⚠ **The anonymity is faux / performative — the operator's own word, and it settles the ethics.** The pseudonym **conceals nothing**: his name is on every commit, and the byline links straight to them. It is a **device that performs authorship held lightly**, not an attempt to withdraw. *Single-use* beside a mass-produced urinal, in an essay about works borrowing bodies. **It is not a deception and should never be treated as one.** *(This is also why signing the master `Mutt.R.Us` is right rather than odd: ground zero is where the device and its dissolution coexist.)*
+
+**The self-referential link is deliberate — do not "fix" it.** Two reasons, both the operator's:
+1. **Non-tech readers.** The **coda is the human-readable provenance.** Pointing at the file that contains it teaches a general reader everything; pointing at `/commits/` (my suggestion — a tech reflex) teaches them nothing.
+2. **Ground zero / fixed point.** **Every refraction points here; here points to itself.** The self-reference is what *identifies* the master as the master — the one copy where the pointer closes on itself.
+
+### The layered ecology
+**Repo = master** (working history, coda, source checks, diffs). **Website = durable public edition.** **Magazine = an edited refraction**, shaped by that venue. **Byline = part of that manifestation** — it conceals the civil name from *readers*, not the conditions of publication from the *editor*. Native to the essay's own account: *a work borrows different bodies without each body carrying the whole history of its making.*
+
+> **🔑 Governing principle:** *"Otherwise transparency becomes ballast — and eventually another way for apparatus to dominate the work it is meant to support."* **Provenance operates across the publication system. No refraction carries the whole ledger.**
+
+### ⚠ The open item: the disclosure line
+The voice signature requires machine involvement **declared transparently**, **typed and delimited** — *"developed in dialogue with"*, not *"co-authored by"*, not hidden. **`composed via Parametric Authorship` alone is too opaque to satisfy it.**
+
+**Here it is satisfied** — the coda sits two lines below the byline. **The question is the refraction, where the coda does not travel.** The byline currently carries the pseudonym and the pointer but *no machine disclosure*. Candidate, small:
+> Developed in typed dialogue with theMachine(s). Extended provenance and source notes at ⟨pointer⟩.
+
+*(Or naming the models — legible to a stranger, satisfies "typed and delimited" on its face. The operator's ear. **The editor should privately know both the identity and the machine involvement** — that is separate from the reader-side note.)*
+
+**✅ The repo is PUBLIC** (`gh repo view` → `"visibility":"PUBLIC"`), so the pointer works and there is no blocker. *(An earlier "⚠⚠ BLOCKER" claiming otherwise was fabricated from a misreading of "private **project**" in `MEMORY.md` — see field note #11.)*
+
+### Venue — research finding
+**Length and register fit Art Times** (Sean O'Toole runs ~1,650 words there, opening on George Steiner). **The mismatch is subject anchoring:** every *original* essay on the site is anchored to South African art; the one pure philosophy-of-art piece is a 130-word teaser **linking out to The Conversation**. No submission process, no pitch pipeline — only `editor@arttimes.co.za`. **So "would Art Times publish this?" becomes "would Gabriel do me a favour?"** — a different question. ⚠ **The footnote will not survive there** (no endnote appears anywhere on the site).
+
+**The genuine home: [Nautilus](https://nautil.us)** — interdisciplinary science/culture/philosophy, pays, `ideas@nautil.us`. *Theme-organised — check the current theme first.* **SA and serious: [ArtThrob](https://artthrob.co.za)** and **[the JRB](https://johannesburgreviewofbooks.com)** — both commission and pay, both will want a local anchor the essay does not have.
 
 ### ✅ Done this session
 

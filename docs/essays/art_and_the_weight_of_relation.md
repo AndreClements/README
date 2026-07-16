@@ -1,5 +1,5 @@
 # Art and the Weight of Relation
-*v0.2.3*
+*v0.2.3 ~ 1,400 words*
 
 ---
 
@@ -9,7 +9,7 @@ The bartender weighs all three by eye and says: same customer.
 
 This may take a little explaining. Let's start with the proton, because physics offers some useful arithmetic.
 
-Inside every proton are three valence quarks. Also a great many gluons, and a churn of quark pairs coming and going (the tidy diagrams leave them out). Add up the rest masses of the three quarks and you get about one percent of the proton's mass. The other ninety-nine percent is not stuff at all. It is the holding itself: the field that will not let them go, and the speed they are driven to inside it. This is what Einstein's equation says when you read it slowly. E = mc² is often told as a story about bombs — our bartender has heard that version many times; hardly anybody ever orders the quiet direction. The bar and the bomb are the two rooms this equation gets told in. But it runs both ways, and the quiet direction is arguably the stranger. Energy, held in a configuration, *is* mass. Mass is not a substance that things are made of. It is what relation weighs. 
+Turns out, inside every proton are three valence quarks. Also a great many gluons, and a churn of quark pairs coming and going (the tidy diagrams leave them out). Add up the rest masses of the three quarks and you get about one percent of the proton's mass. The other ninety-nine percent is not stuff at all. It is the holding itself: the field that will not let them go, and the speed they are driven to inside it. E = mc² can be told as a story about bombs — our bartender has heard that version many times; hardly anybody ever orders the quiet direction. The bar and the bomb are two rooms this equation (and its siblings, though we'll also be tidy here) gets told in. But it runs both ways, and the quiet direction is arguably the stranger. Energy, held in a configuration, *is* mass. Mass is not a substance that things are made of. It is relation. 
 
 Gravitas.
 
@@ -44,6 +44,8 @@ Of course, much as we might like to, we can't really negotiate with physics. It 
 But the core survives the caveats. It is one claim, in two places: that what we keep calling substance — the weight of the world, the value of the work — is, almost entirely, the residue of holding. Relation, configured, and paid for with energy. As for our proton: ninety-nine percent relation, one percent stuff. The song, the song never ordered anything at all. It just crossed the bar, took up the room for a while, and left the page. And the painting? The painting got what it came in for. You are the field it is weighed in. Still.
 
 [^1]: *Fountain*, 1917, and the Society of Independent Artists. Duchamp was on its board, and resigned. The signature is a pseudonym. He wrote to his sister that one of his female friends had sent in a porcelain urinal as a sculpture, under a masculine pseudonym. Who she was — or whether she existed — is still argued about. The object disappeared within months, and no one knows what became of it. What survives is a photograph Stieglitz took, published in *The Blind Man* with an unsigned editorial defending it. The objects in museums are later. One is a different second-hand urinal, authorised and re-signed. The 1964 edition was made from the photograph.
+
+_By Mutt.R.Us — a single-use pseudonym. [Provenance and revision history.](https://github.com/AndreClements/README/blob/main/docs/essays/art_and_the_weight_of_relation.md)_
 
 ---
 
