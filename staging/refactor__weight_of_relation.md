@@ -21,7 +21,15 @@
 
 ---
 
-## ⏭ RESUME HERE — *session 3 close, 2026-07-15 · now v0.2.3*
+## ⏭ RESUME HERE — *session 3 close, 2026-07-15 · now **v0.3.0***
+
+> ### 🎧 The read-aloud gate — the operator's standard, recorded
+> **In progress, in fits and starts.** It is **complete only once the operator has recorded a full reading and listened back.** Not a metaphor and not discharged by silent re-reads: the coda's *"this draft has not yet passed the read-aloud"* stands until that recording exists.
+
+> ### Why **v0.3.0** and not v0.2.4
+> **The decisive reason is coupling, not size.** `docs/models/theory_of_art.md` is **already at v0.3.0**, and its provenance table (L323) credits **this essay** as the source of *"the field is one of **concern**, not desire"*, superseding the node's own earlier "field of desire" wording. The node's v0.3.0 carries *mass–weight–field* and names this piece its **"Essay key"** (L287). **The canonical node bumped on the strength of changes this essay produced — while the essay lagged at 0.2.x.** The pair is now back in step.
+>
+> **The independent case:** patches fix; **minors change what a thing claims.** Since v0.2.0 the essay has restated its thesis (*"what relation weighs"* → ***"It is relation"***), corrected its core term (*binding* → *the holding* — the sign was backwards), widened its ontology (*"leaves **in a thing**"* → *"**behind it**"* — what closed the Fountain fracture), rebuilt its axiology (*"Value is weight"* → *"Weight is how much, not whether"*; *desire* → *concern*), changed its posture toward physics in three places, and acquired a byline. **0.3.0 ≠ finished. 1.0.0 would be.**
 
 > ### **The close is resolved. The last unruled taste call (the epigram) is CUT. Read-aloud from line 38 still pending.**
 >
