@@ -2,6 +2,12 @@
 
 *Status: staged, operator-run. Not yet applied.*
 
+> ⚠ **HOLD (2026-07-16)** — do not run the site push / re-mirror cycle until the theory_of_art
+> v0.3.1 pass lands (`staging/refactor__theory_of_art_v0.3.1.md`, §3.1). The two edits below are
+> unaffected, but the Foundations mirror carries *"value is weight"* (`CONCEPTS/GLOSSARY.md` L41),
+> which v0.3.1 supersedes — running the cycle now would carry a superseded gloss through a site
+> round-trip, or force a second one. One cycle should carry both.
+
 The **Foundations** section of `CONCEPTS/GLOSSARY.md` is **site-canonical, mirrored verbatim** from
 [andresclements.com/glossary](https://andresclements.com/glossary/). Its rule: *"Any revision should
 be made at the site and re-mirrored here."* So the two edits below are **not** applied to the repo
