@@ -21,7 +21,18 @@
 
 ---
 
-## ⏭ RESUME HERE — *session 3 close, 2026-07-15 · now **v0.3.0***
+## ⏭ RESUME HERE — *session 4, 2026-07-20 · now **v0.3.1***
+
+> ### v0.3.1 (2026-07-20)
+> - **Threshold note** for the reader (L4): *"For readers willing to let an argument behave a little like a dancer. No prior physics is assumed…"* — invitational, picks up the dance motif.
+> - **Thesis line eased** (L14): *"It is relation"* → **"Much of it lies in the holding."** *"It is relation"* was literally false for the ~1% quark rest-mass; *"lies in the holding"* is constitutive (not identity, not the genetic *"arises from"* I first proposed — GPT was right that a restored copula re-fuses the physical and philosophical registers). Uses the essay's own keystone word.
+> - **The crossing marked up front** (L12): *"What follows is analogy, not proof."* ⚠ **This closes a real gap I introduced by error:** *"an ideogram, not a derivation"* was cut from the body when the *En tog* paragraph was reworked at home, and I cited it as the essay's live defence *from memory*. The published essay had been leaning on a disclaimer it no longer contained; the marker is now restored, early.
+>
+> ### 🔬 Barad — a v0.3.1 lead for **TOA**, not for the essay
+> The verification (subagent, primary sources — Duke UP, SEP, *Synthese*, *Hypatia*) confirmed: Karen Barad (they/them), PhD theoretical particle physics (lattice gauge theory), *Meeting the Universe Halfway* (Duke, 2007). **Intra-action**: *"relations without preexisting relata"* (*Signs* 2003, p.815) — the **agential cut** enacted, not given. This is the Fountain fracture, named: the boundary drawn around the porcelain treated it as a relatum prior to its relations.
+> - **Belongs in the theory node / staging**, where convergence, lineage and disagreement can be told apart — **not in the essay** (a clean performance; it should not carry the apparatus). Bears on TOA **L180** (*"the relations creativity deposits in a work"* — same boundary bug).
+> - ⚠ **My inflations, corrected (GPT):** *"same field that produced Yang et al."* (broad), *"you spent two days rediscovering it"* (**convergence, not rediscovery**), *"Barad claims the derivation; you declined it"* (an interpretation needing close reading). **The facts were verified; the rhetoric around them was not.** New field-note variant: *verification licenses the claims, not the enthusiasm about them.*
+> - The calibrated line, if ever used: Jaksland co-authored *both* the *Synthese* paper (the QM derivation fails) *and* a *Hypatia* paper (the metaphysics is a real achievement). **Contested — canonical in feminist STS, seriously disputed in philosophy of physics. Not fringe, not mainstream.**
 
 > ### 🎧 The read-aloud gate — the operator's standard, recorded
 > **In progress, in fits and starts.** It is **complete only once the operator has recorded a full reading and listened back.** Not a metaphor and not discharged by silent re-reads: the coda's *"this draft has not yet passed the read-aloud"* stands until that recording exists.

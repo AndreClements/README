@@ -50,7 +50,7 @@ Some drafts may lean into a field-guide register when the reading has become usa
 | **[landscapification_lineage_field_essay.md](landscapification_lineage_field_essay.md)** | Dance, Machine, Gaze, Language | draft | README §0, §2, §4, §8; METHODOLOGY_CII.md |
 | **[spans_field_essay.md](spans_field_essay.md)** | Charcoal log, The gutter, The pairing (not planned), The unnoticed, Across books | draft | docs/models/spans.md (companion); arena essay (2026-04-04); staging/reflections/spans_boundary_poem.md (Coda residue) |
 | **[Building a Constructive Design System](how_to_build_a_design_system.md)** | Everyday design practice, engineering boundaries, tokens/components, quasi-post-industrial constraints, GIGO framing | draft | THE_DESIGN_OF_EVERYDAY_THINGS.md; engineering.md; CARDS.md; PERMACULTURE.md |
-| **[Art and the Weight of Relation](art_and_the_weight_of_relation.md)** | The proton, the painting, the song; relational mass as made configuration; value as container, weight as magnitude; curvature as canon | draft v0.3.0 | docs/models/theory_of_art.md (v0.3.0 — coupled pair; this essay is its declared *Essay key*); E = mc² as ideogram; `staging/refactor__weight_of_relation.md` (source-checked; read-aloud pending) |
+| **[Art and the Weight of Relation](art_and_the_weight_of_relation.md)** | The proton, the painting, the song; relational mass as made configuration; value as container, weight as magnitude; curvature as canon | draft v0.3.1 | docs/models/theory_of_art.md (v0.3.0 — coupled pair; this essay is its declared *Essay key*); E = mc² as ideogram; `staging/refactor__weight_of_relation.md` (source-checked; read-aloud pending) |
 
 ---
 
