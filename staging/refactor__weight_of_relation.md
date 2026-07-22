@@ -21,7 +21,14 @@
 
 ---
 
-## ⏭ RESUME HERE — *session 4, 2026-07-20 · now **v0.3.1***
+## ⏭ RESUME HERE — *session 4, 2026-07-20 · now **v0.3.2***
+
+> ### v0.3.2 (2026-07-20) — accessibility pass, prompted by reader feedback
+> Two qualified readers (philosophy-of-art; an applied-maths professor) bounced off v0.3.0 — *"I don't understand what you're getting at."* The complaint disaggregates: not the sentences (clear one at a time) but the **thesis** (performed, never declared). It is in direct tension with this whole refactor's de-didacticising work — the scaffolding we cut is the scaffolding a lost reader wants. Responses that keep the performance but aid orientation:
+> - **The caveat given its own beat** (L12): *"This may take a little explaining. What follows is analogy, not proof."* stands alone — white space makes the *analogy-not-proof* signal unmissable to a skimming reader.
+> - **The threshold note pared to invitation** (L4): dropped *"but some comfort with conceptual complexity is an advantage"* — it **pre-blamed the reader who bounces** (asks a *capability*, not a *disposition*), the exact wrong note given the feedback. Now: *"For readers willing to let an argument behave a little like a dancer. No prior physics assumed."*
+>
+> **Not adopted (recorded):** a plain-language *what-it's-about* line, and/or accepting the audience. The essay is the **performance**; `theory_of_art.md` is the **exposition** — a reader wanting the thesis stated plainly should be sent to the node (the layered ecology working as designed). The accessible refraction already exists; it is the node.
 
 > ### v0.3.1 (2026-07-20)
 > - **Threshold note** for the reader (L4): *"For readers willing to let an argument behave a little like a dancer. No prior physics is assumed…"* — invitational, picks up the dance motif.

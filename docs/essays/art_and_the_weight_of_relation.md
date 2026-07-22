@@ -1,7 +1,7 @@
 # Art and the Weight of Relation
-*v0.3.1 ~ 1,400 words*
+*v0.3.2 ~ 1,400 words*
 
-_For readers willing to let an argument behave a little like a dancer. No prior physics is assumed, but some comfort with conceptual complexity is an advantage._
+_For readers willing to let an argument behave a little like a dancer. No prior physics assumed._
 
 ---
 
@@ -57,4 +57,4 @@ _By Mutt.R.Us — a single-use pseudonym. [Provenance and revision history.](htt
 
 ---
 
-*A field essay on art and E = mc² · draft v0.3.1 · 2026-07-20 · status: working output, held lightly. Composed in typed dialogue with theMachine(s); the physics has been checked against primary and authoritative sources — see the coda. Registration key: essay / public. The scholarly registrations live in the repo. v0.2.0: the bar arrived. v0.2.1: parsimony pass — two members removed for bearing no load. v0.2.2: the operator's hand; the essay told to stop explaining itself; the physics checked, and it changed the essay. v0.2.3: the close resolved — proton, song, painting, then you; the epigram cut; the apparatus moved to the foot. v0.3.0: mass is relation, not what relation weighs; the field is one of concern; relational mass belongs to the made configuration; the byline arrives, single-use. v0.3.1: a threshold note for the reader; the thesis line eased — much of mass lies in the holding; the crossing marked up front — analogy, not proof.*
+*A field essay on art and E = mc² · draft v0.3.2 · 2026-07-20 · status: working output, held lightly. Composed in typed dialogue with theMachine(s); the physics has been checked against primary and authoritative sources — see the coda. Registration key: essay / public. The scholarly registrations live in the repo. v0.2.0: the bar arrived. v0.2.1: parsimony pass — two members removed for bearing no load. v0.2.2: the operator's hand; the essay told to stop explaining itself; the physics checked, and it changed the essay. v0.2.3: the close resolved — proton, song, painting, then you; the epigram cut; the apparatus moved to the foot. v0.3.0: mass is relation, not what relation weighs; the field is one of concern; relational mass belongs to the made configuration; the byline arrives, single-use. v0.3.1: a threshold note for the reader; the thesis line eased — much of mass lies in the holding; the crossing marked up front — analogy, not proof. v0.3.2: the threshold note pared to invitation, no gatekeeping; the caveat given its own beat.*
