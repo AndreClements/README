@@ -288,6 +288,14 @@ key** — the same claim modulated for its medium, not rival definitions.
   genus in essay/public register, where the mass–weight–field model is worked at length and its physics
   source-checked. That check **corrected this node** (see Provenance). The essay registers the theory;
   this node states it.
+- **Decay key** — [*Urban Decay is a Verb*](../essays/urban_decay_is_a_verb.md): the
+  **withdrawal case**, worked as a case rather than an exposition. A city as banked relation; the
+  field withdrawing while the structure stands; mass re-weighed on a scale that was never the
+  original owner's; curvature outliving the mass that made it. Its own contribution past the
+  essay key: **the verb has a subject** — some un-making is *harvested* (the configuration
+  dismantled to liberate the substance, for scrap), which the model had left as something fields
+  merely do. A photo-essay, in public register; it declines to re-spend the essay key's central
+  figure (one debut per text) and so carries the model without explaining it.
 - **Site / Foundations key** — [GLOSSARY](../../CONCEPTS/GLOSSARY.md) §Foundations: the discursive
   statement (*"…new or different relations between elements…"*). Site-canonical; its "between
   elements" wording is the earlier registration, to be re-mirrored when the site is next updated.
