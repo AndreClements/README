@@ -25,7 +25,7 @@ thirteen are night frames and the hour is doing work.
 |---|---|---|---|---|---|
 | 1 | `_MG_0800` | — | Highway outside the city | 2016-06-22 01:45 | Canon EOS 750D |
 | 2 | `IMG_1278_urban_decay_is_a_verb` | Urban Decay is a Verb | Joe Slovo Drive, Johannesburg | **2023, day unresolved** | PowerShot G1X MkII |
-| 3 | `MagNieGeboggelWordNie(StandertonElektries_2016)` | Mag Nie Geboggel Word Nie | Standerton | 2016-06-05 00:19 | Canon EOS 750D |
+| 3 | `MagNieGeboggelWordNie(StandertonElektries_2016)` | Mag Nie Geboggel Word Nie | **Braamfontein, Johannesburg** | 2016-06-05 00:19 | Canon EOS 750D |
 | 4 | `DiepslootRefuseFire(ASClem_2015_10_08_1344_take2)` | Diepsloot Refuse Fire | Diepsloot | 2015-10-08 22:50 | Canon EOS 500D |
 | 5 | `OWN-tower(2014_07_30_1459_tmp)` | — | Johannesburg | 2014-07-30 22:54 | Canon EOS 600D |
 | 6 | `04_crop_colour_3200` | — | Johannesburg CBD | 2017-03-19 02:22 | Canon EOS 750D |
@@ -53,8 +53,17 @@ Zandspruit passage, not by the caption. **The plate publishes only with that pas
 beside it.** Do not add a caption gloss about protest, service delivery or hardship, and do not run
 the image alone.
 
+**Plate 3, place.** `Standerton Elektries` is **inscribed on the carriage** (with running number
+`14160`); the photograph was made in **Braamfontein**. Four essay drafts and an earlier version of
+this manifest gave Standerton as the location, having taken it from the filename. Corrected here on
+the operator's confirmation. The stencil on the flank reads `MAG NIE GEBOGGEL OF / LOS GERANGEER
+WORD NIE`, read off the 6000px original. Full record:
+[provenance_ledger__herri_decay_plates.md](provenance_ledger__herri_decay_plates.md) §2–§3.
+
 **Plate 8, `school_hillbrow`.** Undated by declaration, not by omission. If herri's house style
-requires a year, the honest answer is "undated" rather than a guess.
+requires a year, the honest answer is "undated" rather than a guess. Note also that the archive
+copy is 1080 × 1350 — an Instagram crop, so already a re-save — and that the frame shows a camera
+**on** its tripod, cable release attached, screen lit: a working setup, not wreckage (ledger §4).
 
 **Plate 2, `IMG_1278`.** 2023 is certain; the day is not. The PNG export carries no timestamp and
 no original has been found under `ArtPraxis/`. The essay's *"three months earlier"* is the
