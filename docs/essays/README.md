@@ -24,7 +24,7 @@
 - **Forensic** — close attention to traces, configurations, and permission boundaries
 - **Generative** — an essay earns its place when it reveals structure that was operating before it was named
 
-These are not models (which theorize forward), methods (which operationalize), or lenses (which transpose). Essays look backward and inward. The strand architecture — visible in both existing essays — is the native form.
+These are not models (which theorize forward), methods (which operationalize), or lenses (which transpose). Essays look backward and inward. The strand architecture — visible across the essays — is the native form.
 
 Some drafts may lean into a field-guide register when the reading has become usable practice but has not yet hardened into methodology.
 

@@ -11,7 +11,7 @@ Here is the piece for the decay issue.
 
 You asked for the pictures behind the 2023 caption, so it starts with that frame (Joe Slovo
 Drive, through the car window, cable burning under a staircase) and works outward: thirteen
-plates, 2012 to 2026, mostly Johannesburg, two from France. About 1,500 words in eight short
+plates, 2012 to 2026, mostly Johannesburg, two from France. About 2,200 words in ten short
 movements, with the captions carried inside the text.
 
 The title is the caption's, unchanged. The argument in it is that decay is a verb with a subject
@@ -33,7 +33,7 @@ André
 Aryan,
 
 *Urban Decay is a Verb* — the caption you have, grown into a photo-essay. Thirteen plates,
-~1,500 words, captions inside the text. Starts with the Joe Slovo Drive frame and goes out from
+~2,200 words, captions inside the text. Starts with the Joe Slovo Drive frame and goes out from
 there. Files at 3000px long edge; anything bigger on request. Sequence matters more than the
 count, so if it has to shorten I would rather cut than reorder.
 
