@@ -1,6 +1,6 @@
 # Urban Decay is a Verb — Provenance and Plates
 
-*Repo-side apparatus for [urban_decay_is_a_verb.md](urban_decay_is_a_verb.md) (v0.5.1). The essay carries the argument; this file carries the receipts. Colophon and revision history live at [urban_decay_is_a_verb__colophon.md](urban_decay_is_a_verb__colophon.md).*
+*Repo-side apparatus for [urban_decay_is_a_verb.md](urban_decay_is_a_verb.md) (v1.0.0). The essay carries the argument; this file carries the receipts. Colophon and revision history live at [urban_decay_is_a_verb__colophon.md](urban_decay_is_a_verb__colophon.md).*
 
 ---
 
@@ -54,7 +54,7 @@ The practice usually avoids making identifiable people carry the spectacle of de
 
 - `IMG_1278`: no timestamp in the export, original not located, so "some months" after 2 January 2023 stands as recollection.
 - `school_hillbrow`: no EXIF; a re-save. The body's claim that it is a phone snapshot of the camera that was about to be taken rests on the operator's testimony, which is a source, and is named as one here.
-- The Durban Deep corporate withdrawal date ("2001") is the operator's recollection, **pending a source** before or after publication.
+- The Durban Deep withdrawal ("the implosion of state support and corporate interest around 2000") is the operator's recollection, hedged in the body ("around"); a documentary source would tighten it but is not required for the claim as now worded.
 - The whistle's return and the flatbed sit "the other way as well" in the essay; the whistle story is undated, so no season claim is made of it.
 
 **Not paid in metadata.** The cable reading is the operator's, confirmed by smell (Yeoville, c. 2005), not by pixels. The instrument guessed and the body knew.

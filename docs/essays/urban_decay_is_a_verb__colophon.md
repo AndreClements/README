@@ -1,6 +1,6 @@
 # Urban Decay is a Verb — Colophon and Revision History
 
-*Repo-side apparatus for [urban_decay_is_a_verb.md](urban_decay_is_a_verb.md) (v0.5.1). Plates and tolls live at [urban_decay_is_a_verb__provenance.md](urban_decay_is_a_verb__provenance.md) — the essay's published footer links the canonical text and this colophon; provenance is one hop from here, by design.*
+*Repo-side apparatus for [urban_decay_is_a_verb.md](urban_decay_is_a_verb.md) (v1.0.0). Plates and tolls live at [urban_decay_is_a_verb__provenance.md](urban_decay_is_a_verb__provenance.md) — the essay's published footer links the canonical text and this colophon; provenance is one hop from here, by design.*
 
 ---
 
@@ -38,10 +38,11 @@ Composed in typed dialogue with theMachine(s), 2026-07-26, across a relay of ins
 
 Sentences that survived from parallel drafts, kept because they were better: the uneven field and the window-as-declaration (CodexGPT5.5); "quieter is not the same as kinder" and the calendar check (Fable 5); the provenance table, printed capture times and the Bordeaux correction (Opus 5 VSCode); the plateless wall movement, the CBD beat and the load-shedding assignment (Opus 5 online chat, from operator dialogue). The stencil verbatim was read off the pixels by Fable 5 after Opus 5 (online chat) refused to quote what no instrument had read.
 
-The photographs, the seeing and the voice are the operator's. The v0.5.0 hand-pass is the operator's own revision; the formal read-aloud (BODY check) remains his to declare.
+The photographs, the seeing and the voice are the operator's. The v0.5.0 hand-pass is the operator's own revision. **BODY check declared at v1.0.0** (2026-07-27): discharged iteratively across the operator's numerous read-throughs, with secondary readers raising no flags.
 
 ## Revision history
 
+- **v1.0.0** (2026-07-27) — publication version. BODY check declared: numerous operator read-throughs, secondary readers raised no flags. The Durban Deep date hedged in the body to "around 2000" (state support and corporate interest), declared in provenance §Tolls; the January 2023 post quotes in this colophon remain to be checked verbatim. Version aligned across essay, apparatus, index, kit and PDF.
 - **v0.5.1** (2026-07-27) — the Zandspruit density parenthetical set to the sourced figure (> 31,000 people per square kilometre; source chain in the provenance file's Tolls); the stencil gloss corrected to hump-shunted (*geboggel*); Goud Street; published footer restructured as a two-link block (canonical text + colophon; provenance one hop via the colophon).
 - **v0.5.0** (2026-07-26) — the operator's hand-pass over v0.4.0: opening paradox softened into an and-yet; the window recast from victim to responsibility; the boys movement rewritten in his hand (the violent-flattening point; *Kinders moet gesien word, EN gehoor word*); plate 5 located to Braamfontein; the pinhole's contents named; closer settled as *Verval.*; apparatus split out to the postfix files; plates embedded for the repo; renamed over `urban_decay_is_a_verb.md` as canonical.
 - **v0.4.0** (2026-07-26) — synthesis of the four v0.3.0 drafts with credited grafts; the wall movement; the load-shedding assignment; weekday table; stencil demoted pending a reading.

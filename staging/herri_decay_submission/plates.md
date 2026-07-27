@@ -16,7 +16,7 @@ end of a movement rather than resequencing.
 ---
 
 Numbered as sequenced in the canonical essay,
-[urban_decay_is_a_verb.md](../../docs/essays/urban_decay_is_a_verb.md) (v0.5.0).
+[urban_decay_is_a_verb.md](../../docs/essays/urban_decay_is_a_verb.md) (v1.0.0).
 The **Camera** column is for the record here and is deliberately **not** printed in the published
 captions (apparatus noise for a general reader); capture *times* are printed, because nine of the
 thirteen are night frames and the hour is doing work.

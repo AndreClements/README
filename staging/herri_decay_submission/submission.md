@@ -10,13 +10,23 @@
 ## Assembly
 
 The body text is **[docs/essays/urban_decay_is_a_verb.md](../../docs/essays/urban_decay_is_a_verb.md)**
-— **v0.5.0, the operator's hand-pass, canonical**. It carries its own published footer
+— **v1.0.0, the publication version, canonical**. It carries its own published footer
 (*Photographs and text… Provenance:* + the GitHub URL) and embeds the plates inline; nothing needs
 to be cut or added to build the file that goes to herri.
 
-- **Ready-made PDF:** [urban_decay_is_a_verb_v0.5.1.pdf](urban_decay_is_a_verb_v0.5.1.pdf)
+**Herri does its own layout** (including overlay work), so the piece ships in four formats — the
+PDF is the reference rendering, the others are for their design pipeline:
+
+- **PDF (reference):** [urban_decay_is_a_verb_v1.0.0.pdf](urban_decay_is_a_verb_v1.0.0.pdf)
   (ASC branding, ~3.6 MB; plates at 1600px for mail). Rebuild after any edit with
   `tools\render-pdf.ps1 -InputFile docs\essays\urban_decay_is_a_verb.md -Brand -Toc:$false -NumberSections:$false -NoTitleBlock`.
+- **Markdown:** [urban_decay_is_a_verb_v1.0.0.md](urban_decay_is_a_verb_v1.0.0.md) — verbatim copy
+  of the canonical file (image links resolve against the plates folder).
+- **DOCX:** [urban_decay_is_a_verb_v1.0.0.docx](urban_decay_is_a_verb_v1.0.0.docx) — text with the
+  plate blocks as placement markers; images deliberately not embedded (layout works from the
+  full-res plates).
+- **ICML (InDesign):** [urban_decay_is_a_verb_v1.0.0.icml](urban_decay_is_a_verb_v1.0.0.icml) —
+  same text-only content, importable directly into an InDesign story.
 - **Full-resolution plates** ship separately per [plates.md](plates.md) (3000px exports); the repo
   copies at `docs/essays/urban_decay_is_a_verb_plates/` are the same exports under sanitised names.
 - Repo-side apparatus stays home: [provenance](../../docs/essays/urban_decay_is_a_verb__provenance.md)
@@ -83,7 +93,7 @@ Full manifest, captions, credit line and dignity note: [plates.md](plates.md).
 
 ## Before sending
 
-- [ ] Final read-aloud of v0.5.0 (the operator's BODY check on his own hand-pass).
+- [x] Final read-aloud — BODY check declared at v1.0.0 (numerous operator read-throughs; secondary readers raised no flags).
 - [ ] Source or soften the remaining recollection-stat (Durban Deep 2001). Zandspruit density is now sourced in the canonical provenance.
 - [ ] Verbatim check of the January 2023 post quotes cited in the colophon.
 - [ ] Confirm thirteen plates or a stated subset with herri.
