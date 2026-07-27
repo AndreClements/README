@@ -1,6 +1,6 @@
 # Urban Decay is a Verb — Provenance and Plates
 
-*Repo-side apparatus for [urban_decay_is_a_verb.md](urban_decay_is_a_verb.md) (v0.5.0). The essay carries the argument; this file carries the receipts. Colophon and revision history live at [urban_decay_is_a_verb__colophon.md](urban_decay_is_a_verb__colophon.md).*
+*Repo-side apparatus for [urban_decay_is_a_verb.md](urban_decay_is_a_verb.md) (v0.5.1). The essay carries the argument; this file carries the receipts. Colophon and revision history live at [urban_decay_is_a_verb__colophon.md](urban_decay_is_a_verb__colophon.md).*
 
 ---
 
@@ -47,11 +47,14 @@ The practice usually avoids making identifiable people carry the spectacle of de
 - **The Standerton stencil, read at last.** Three drafts quoted the inscription identically, having inherited it from a common draft rather than read it; a fourth refused to quote what it could not read, and was right to. The verbatim was then read off the archive JPEG at 5× magnification (2026-07-26): **MAG NIE GEBOGGEL OF / LOS GERANGEER WORD NIE.** The inherited wording had GEHANGEER (not a word) for GERANGEER (*rangeer*, to shunt). *Geboggel* stands: *boggel*, hump — hump-shunted. The rule, in full: may not be hump-shunted or loose-shunted. The essay's body keeps the operator's gloss ("the carriage should not be let go of"), which is *los gerangeer* rendered honestly; the coinage *ongeboggeld* is his.
 - The Zandspruit Wednesday: 13 June 2012 was in fact a Wednesday; the register line checks against the calendar.
 
+- **Zandspruit population density source-chain.** The essay keeps the operator's formulation: "Zandspruit population density was already > 31,000 people per square kilometre back then." Source chain: Stats SA's [2011 Census products](https://www.statssa.gov.za/?page_id=3955) include the Census 2011 Community Profiles in SuperCROSS; DataFirst's [South African Census Community Profiles 2011](https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/517) metadata identifies Statistics South Africa as producer, says the database includes Sub-Place level data, and gives the census collection window as 2011-10-09 to 2011-10-31. The public UCT-hosted ArcGIS copy of the Stats SA Census 2011 sub-place boundary layer identifies `Zandspruit SP` as `SP_CODE_st` `798022006` and gives `ALBERS_ARE` `1.00462276928` km2. Adrian Frith's [Census 2011 page for Zandspruit SP](https://census2011.adrianfrith.com/place/798022006), explicitly derived from the Stats SA Community Profile Databases and Census 2011 GIS DVD, reports population `31,716` and density `31,570.07/km2`. The calculation checks: `31,716 / 1.00462276928 = 31,570.06/km2`, so the essay's `> 31,000 people per square kilometre` claim is supported. The exact DataFirst microdata extract remains behind a free login, so Frith is named here as the visible computation layer, not as a primary source.
+- **Municipal cross-check not used for the essay figure.** City of Johannesburg's [Zandspruit Urban Development Framework](https://joburg.org.za/departments_/Documents/Development-Planning/Zandspruit-UDF.pdf) was checked (2026-07-27). Its 2023 demographic section treats a larger UDF study area, not the 2011 `Zandspruit SP` sub-place; it gives `109,451` people and `45,952` households in that study area, with population growth of `6,11%` per annum from 2011. Useful context, wrong geography for the parenthetical.
+
 **Unpaid, or resting on testimony.**
 
 - `IMG_1278`: no timestamp in the export, original not located, so "some months" after 2 January 2023 stands as recollection.
 - `school_hillbrow`: no EXIF; a re-save. The body's claim that it is a phone snapshot of the camera that was about to be taken rests on the operator's testimony, which is a source, and is named as one here.
-- The Zandspruit population density (">30,000/sqkm back then") and the Durban Deep corporate withdrawal date ("2001") are the operator's recollection, **pending a source** before or after publication.
+- The Durban Deep corporate withdrawal date ("2001") is the operator's recollection, **pending a source** before or after publication.
 - The whistle's return and the flatbed sit "the other way as well" in the essay; the whistle story is undated, so no season claim is made of it.
 
 **Not paid in metadata.** The cable reading is the operator's, confirmed by smell (Yeoville, c. 2005), not by pixels. The instrument guessed and the body knew.

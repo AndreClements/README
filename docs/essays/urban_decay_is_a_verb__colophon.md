@@ -1,6 +1,6 @@
 # Urban Decay is a Verb — Colophon and Revision History
 
-*Repo-side apparatus for [urban_decay_is_a_verb.md](urban_decay_is_a_verb.md) (v0.5.0). Plates and tolls live at [urban_decay_is_a_verb__provenance.md](urban_decay_is_a_verb__provenance.md).*
+*Repo-side apparatus for [urban_decay_is_a_verb.md](urban_decay_is_a_verb.md) (v0.5.1). Plates and tolls live at [urban_decay_is_a_verb__provenance.md](urban_decay_is_a_verb__provenance.md) — the essay's published footer links the canonical text and this colophon; provenance is one hop from here, by design.*
 
 ---
 
@@ -42,6 +42,7 @@ The photographs, the seeing and the voice are the operator's. The v0.5.0 hand-pa
 
 ## Revision history
 
+- **v0.5.1** (2026-07-27) — the Zandspruit density parenthetical set to the sourced figure (> 31,000 people per square kilometre; source chain in the provenance file's Tolls); the stencil gloss corrected to hump-shunted (*geboggel*); Goud Street; published footer restructured as a two-link block (canonical text + colophon; provenance one hop via the colophon).
 - **v0.5.0** (2026-07-26) — the operator's hand-pass over v0.4.0: opening paradox softened into an and-yet; the window recast from victim to responsibility; the boys movement rewritten in his hand (the violent-flattening point; *Kinders moet gesien word, EN gehoor word*); plate 5 located to Braamfontein; the pinhole's contents named; closer settled as *Verval.*; apparatus split out to the postfix files; plates embedded for the repo; renamed over `urban_decay_is_a_verb.md` as canonical.
 - **v0.4.0** (2026-07-26) — synthesis of the four v0.3.0 drafts with credited grafts; the wall movement; the load-shedding assignment; weekday table; stencil demoted pending a reading.
 - **v0.3.0** (2026-07-26) — four parallel syntheses by four named instruments.

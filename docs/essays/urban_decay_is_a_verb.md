@@ -1,6 +1,6 @@
 # Urban Decay is a Verb
 
-*v0.5.0 · a photo-essay · thirteen plates · Johannesburg, and elsewhere, 2012–2026*
+*v0.5.1 · a photo-essay · thirteen plates · Johannesburg, and elsewhere, 2012–2026*
 
 _A photo-essay. Several of the pictures are an argument, this text is what I owe them._
 
@@ -85,7 +85,7 @@ Some subjects are easy to name because they arrive wearing municipal logos, deve
 > **Plate 5 · `MagNieGeboggelWordNie(StandertonElektries_2016)`**
 > Braamfontein, 5 June 2016, 00:19.
 
-A carriage on a dead siding, stripped to its ribs, roof flaking under electric yellow. Along the flank a stencilled text is still legible: an instruction, in Afrikaans, about how this vehicle may not be buffered or loose-shunted. Basically we are told in official type - the carriage should not be let go of. The rule outlived the institution that meant it. Strictly, nobody now obeys it. Nobody has bothered to deface it either. It goes on being a rule, on the side of a thing, in the dark. A thing that had been let go of, and yet not, for there it is 'ongeboggeld'.
+A carriage on a dead siding, stripped to its ribs, roof flaking under electric yellow. Along the flank a stencilled text is still legible: an instruction, in Afrikaans, about how this vehicle may not be hump-shunted or loose-shunted. Basically we are told in official type - the carriage should not be let go of. The rule outlived the institution that meant it. Strictly, nobody now obeys it. Nobody has bothered to deface it either. It goes on being a rule, on the side of a thing, in the dark. A thing that had been let go of, and yet not, for there it is 'ongeboggeld'.
 
 ![](urban_decay_is_a_verb_plates/DiepslootRefuseFire_ASClem_2015_10_08_1344_take2.jpg)
 
@@ -128,7 +128,7 @@ To photograph a ruin is to weigh it in a field which possibly the people inside 
 > **Plate 8 · `Zandspruit_Ballgame_2012_DSC6875`**
 > Zandspruit, 13 June 2012, 15:26.
 
-A road closed by a barricade, and because it is closed it is a pitch. Two boys and a ball on the best open space that afternoon - probably the only open space for miles (In Zandspruit, population density was already > 30,000/sqkm back then). Fire low across the lane behind them, smoke into the trees, a crowd along the fence going about the business of being a crowd. The ball is mid-roll. The younger boy is following it the way you follow a thing you are about to be responsible for. The older one has turned, and is looking straight down the lens.
+A road closed by a barricade, and because it is closed it is a pitch. Two boys and a ball on the best open space that afternoon - probably the only open space for miles (Zandspruit population density was already > 31,000 people per square kilometre back then). Fire low across the lane behind them, smoke into the trees, a crowd along the fence going about the business of being a crowd. The ball is mid-roll. The younger boy is following it the way you follow a thing you are about to be responsible for. The older one has turned, and is looking straight down the lens.
 
 He is identifiable. I will not pretend that is a small thing.
 
@@ -227,4 +227,8 @@ The field had.
 
 ---
 
-*Photographs and text: André S Clements. Provenance: [https://github.com/AndreClements/README/blob/main/docs/essays/urban_decay_is_a_verb.md](https://github.com/AndreClements/README/blob/main/docs/essays/urban_decay_is_a_verb.md)*
+*Photographs and text: André S Clements.*
+
+*Canonical text: [https://github.com/AndreClements/README/blob/main/docs/essays/urban_decay_is_a_verb.md](https://github.com/AndreClements/README/blob/main/docs/essays/urban_decay_is_a_verb.md)*
+
+*Colophon: [https://github.com/AndreClements/README/blob/main/docs/essays/urban_decay_is_a_verb__colophon.md](https://github.com/AndreClements/README/blob/main/docs/essays/urban_decay_is_a_verb__colophon.md)*

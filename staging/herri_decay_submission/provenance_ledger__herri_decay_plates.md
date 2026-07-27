@@ -118,9 +118,9 @@ are **not** metadata. This sits alongside the existing note that "canonical" nam
 - **P-12** `school_hillbrow` capture date, and H-04.
 - **S-02** the *gebuffer* standard, asserted from domain knowledge and not checked against a
   rolling-stock marking specification.
-- **Two claims new in `v0.5.0`**, carried here because they are checkable and currently unsourced:
-  Zandspruit population density ">30,000/sq km" in 2012, and the Durban Deep "implosion of
-  corporate interests in 2001".
+- **Claim new in `v0.5.0`**, carried here because it is checkable and currently unsourced:
+  the Durban Deep "implosion of corporate interests in 2001". Zandspruit population density is now
+  sourced in the canonical provenance file.
 
 ---
 

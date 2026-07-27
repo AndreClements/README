@@ -14,7 +14,7 @@ The body text is **[docs/essays/urban_decay_is_a_verb.md](../../docs/essays/urba
 (*Photographs and text… Provenance:* + the GitHub URL) and embeds the plates inline; nothing needs
 to be cut or added to build the file that goes to herri.
 
-- **Ready-made PDF:** [urban_decay_is_a_verb_v0.5.0.pdf](urban_decay_is_a_verb_v0.5.0.pdf)
+- **Ready-made PDF:** [urban_decay_is_a_verb_v0.5.1.pdf](urban_decay_is_a_verb_v0.5.1.pdf)
   (ASC branding, ~3.6 MB; plates at 1600px for mail). Rebuild after any edit with
   `tools\render-pdf.ps1 -InputFile docs\essays\urban_decay_is_a_verb.md -Brand -Toc:$false -NumberSections:$false -NoTitleBlock`.
 - **Full-resolution plates** ship separately per [plates.md](plates.md) (3000px exports); the repo
@@ -84,7 +84,7 @@ Full manifest, captions, credit line and dignity note: [plates.md](plates.md).
 ## Before sending
 
 - [ ] Final read-aloud of v0.5.0 (the operator's BODY check on his own hand-pass).
-- [ ] Sources or softening for the two recollection-stats (Zandspruit density; Durban Deep 2001).
+- [ ] Source or soften the remaining recollection-stat (Durban Deep 2001). Zandspruit density is now sourced in the canonical provenance.
 - [ ] Verbatim check of the January 2023 post quotes cited in the colophon.
 - [ ] Confirm thirteen plates or a stated subset with herri.
 - [ ] Confirm herri's export spec; current exports are 3000px long edge, sRGB.
