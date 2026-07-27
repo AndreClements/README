@@ -58,9 +58,9 @@ Nothing was added to the truck. What came back was our weighing of that sound.
 ![](urban_decay_is_a_verb_plates/_MG_0800.jpg)
 
 > **Plate 4 · `_MG_0800`**
-> Burnt flatbed, highway outside the city, 22 June 2016, 01:45.
+> Burnt delivery truck, highway outside the city, 22 June 2016, 01:45.
 
-It runs the other way as well. A flatbed burnt to its frame at twenty to two in the morning, its load cooked across two lanes, the pylons still walking the hill behind it, indifferent and fully operational. Somebody withdrew a service. Somebody burned a delivery. Somebody's grievance was real, and the vehicle it landed on was a working part with a number plate.
+It runs the other way as well. A delivery truck burnt to its frame at twenty to two in the morning, its load cooked across two lanes, the pylons still walking the hill behind it, indifferent and fully operational. Somebody withdrew a service. Somebody burned a delivery. Somebody's grievance was real, and the vehicle it landed on was a working part with a number plate.
 
 The truck is the same object in both sentences.
 

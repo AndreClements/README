@@ -30,3 +30,4 @@ templates/asc-invoice.tex
 
 # Rendered thesis PDFs (build artifacts; regenerate via render-pdf.ps1)
 /projects/theses/parametric_authorship_masters.pdf
+staging/herri_decay_submission/Decay_is_a_Verb_v1.0.0_Packed/
