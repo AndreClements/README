@@ -47,15 +47,24 @@ this supports no claim about a working week; the hours do.
 | id | claim | source | evidence | confidence | validation_method |
 |----|-------|--------|----------|------------|-------------------|
 | S-01 | The inscription reads, in two lines, **`MAG NIE GEBOGGEL OF` / `LOS GERANGEER WORD NIE`** | the photograph itself | 6000 × 4000 original, region cropped at ~(0.215–0.345 W, 0.435–0.505 H), greyscale, autocontrast, 3× Lanczos | high | direct read of the source |
-| S-02 | *geboggel* is anomalous: the standard SAR/Spoornet formula is *gebuffer* | domain knowledge, unverified against a rolling-stock marking standard | — | medium | **unverified_inference.** Named for lineage, not authority |
+| S-02 | ~~*geboggel* is anomalous: the standard SAR/Spoornet formula is *gebuffer*~~ | ~~domain knowledge~~ | — | — | **RETRACTED 2026-07-31 — see S-04.** The entry was an unverified_inference and it was wrong |
 | S-03 | The operator's own filename preserves `MagNieGeboggelWordNie` | `ArtPraxis/_archive/Herri_Decay/` | filename | high | corroborates S-01 independently of any draft |
+| S-04 | *geboggel* is **not** anomalous. The inscription is a standard two-verb shunting prohibition: the vehicle may not be **hump-shunted** (*geboggel*, from *boggel*, the hump) nor **loose-shunted** (*los gerangeer*). Both name methods that let a vehicle roll free | operator, `v1.0.0` body | high | Operator_verified |
 
 **Superseded readings.** Three drafts (`…v0.1.0`, `…v0.2.0`, `…v0.3.0(Opus5VSCode)`) quoted
 `GEHANGEER`. That is not the inscription and is not an Afrikaans word. Two drafts
 (`…v0.3.0(Opus5OnlineChat)`, `…v0.4.0`) declined to quote it and paraphrased it as *"may not be
-buffered or loose-shunted"* — the correct editorial instinct on the evidence then available, but
-the paraphrase silently substitutes *gebuffer* for what is painted. `v0.5.0` coins **`ongeboggeld`**,
-which is built on the true root and currently has no antecedent in its own text.
+buffered or loose-shunted"*, which was the right editorial instinct on the evidence then available
+and still carried *buffered* in error. `v1.0.0` resolves it: *"may not be hump-shunted or
+loose-shunted"*, with `ongeboggeld` earning its root.
+
+**The instrument's own error, logged.** This ledger asserted at S-02 that *geboggel* was a
+misspelling of *gebuffer* and offered a reading ("a hump nobody came to correct") built on that
+premise. It was wrong, and it was wrong in the same way as everything else in §5: a plausible
+inference from partial knowledge, stated with more confidence than its evidence carried, and
+attractive because it made a better sentence. The operator's reading is the correct one. Recorded
+rather than quietly amended, because a ledger that only lists other people's errors is not a
+ledger.
 
 ---
 
@@ -116,8 +125,9 @@ are **not** metadata. This sits alongside the existing note that "canonical" nam
   the interval after the Hillbrow night (2 January 2023) stands as the operator's recollection and
   should not be adjusted to fit the PNG's February 2023 export stamp.
 - **P-12** `school_hillbrow` capture date, and H-04.
-- **S-02** the *gebuffer* standard, asserted from domain knowledge and not checked against a
-  rolling-stock marking specification.
+- ~~**S-02** the *gebuffer* standard~~ — **closed 2026-07-31, retracted.** The claim was false; see
+  S-04. What remains genuinely unchecked is only whether the exact two-verb wording is a standard
+  SAR/Spoornet formula or this workshop's phrasing, which affects nothing in the essay.
 - **Claim new in `v0.5.0`**, carried here because it is checkable and currently unsourced:
   the Durban Deep "implosion of corporate interests in 2001". Zandspruit population density is now
   sourced in the canonical provenance file.
