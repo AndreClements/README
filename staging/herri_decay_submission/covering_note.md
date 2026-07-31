@@ -21,8 +21,9 @@ car window stays in the frame for the same reason.
 Two frames are undated and the essay says which and why. Everything else carries its capture time
 off the file, because the times are doing work: nine of the thirteen are night.
 
-Plates are 3000px long edge, sRGB, and I can supply anything larger you need. Tell me if the
-sequence needs to shorten and I will cut rather than reorder.
+Plates come as lossless full-resolution PNGs via WeTransfer, with the essay in PDF, markdown,
+DOCX and ICML so your layout can take whichever suits; 3000px sRGB JPEGs are available if
+lighter files help. Tell me if the sequence needs to shorten and I will cut rather than reorder.
 
 André
 
@@ -34,8 +35,8 @@ Aryan,
 
 *Urban Decay is a Verb* — the caption you have, grown into a photo-essay. Thirteen plates,
 ~2,200 words, captions inside the text. Starts with the Joe Slovo Drive frame and goes out from
-there. Files at 3000px long edge; anything bigger on request. Sequence matters more than the
-count, so if it has to shorten I would rather cut than reorder.
+there. Full-resolution lossless files via WeTransfer; lighter formats on request. Sequence
+matters more than the count, so if it has to shorten I would rather cut than reorder.
 
 André
 
@@ -43,8 +44,9 @@ André
 
 ## Checklist
 
-- [ ] Attachments: essay text (per `submission.md` assembly), thirteen JPEGs, `plates.md` as the
-      caption/credit manifest.
+- [ ] WeTransfer: the `Decay_is_a_Verb_v1.0.0_Packed/` folder as assembled — thirteen lossless
+      PNGs, the essay in four formats (PDF / md / DOCX / ICML), `plates.md` as the caption/credit
+      manifest (carries titles and the plate-8 condition).
 - [ ] Bio included or already on file with herri?
 - [ ] Fee / rights terms — not yet discussed. Worth raising in the same mail.
 - [ ] Deadline confirmed against 1 August live date (no closing date has been stated to us).
