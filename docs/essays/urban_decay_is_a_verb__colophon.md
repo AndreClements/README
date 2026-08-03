@@ -18,6 +18,13 @@ Three documents by the operator predate this essay and are not improved on by it
 
 The seed records the refusal to photograph people more absolutely than the operator holds it. The narrower position stands in the body ("The boys"): a refusal of the profit, not a rule against faces, with avoidance named as an omission of its own — and, in the operator's own hand, the further point that *only respecting the person when you recognise them in a frame is itself a kind of violent flattening*.
 
+## The framing image 
+Came from Je'anna L Clements, originally posted to me and on neighbourhood social media group in response to garbage trucks arriving after yet another period of absence due to strikes and municipal dysfunction. Used here with her consent,
+```
+[09:42, 22/07/2026] Je'anna Levannah Clements: On that topic
+Who woulda thunk that the whistles of the garbage truck guys and the rumble and clatter of their work could sound so beautiful 🎶😂🪄
+```
+
 ## Sibling
 
 A transposition of [Art and the Weight of Relation](art_and_the_weight_of_relation.md). That essay's central figure stays substantially unspent here (one debut per text); the theory is carried in verbs, and a reader who wants it stated plainly should be sent to [theory_of_art.md](../models/theory_of_art.md), where it is. The closer question (the parent's *Still.* against this essay's *Verval.*) was settled by the operator in the v0.5.0 pass: **Verval.**
