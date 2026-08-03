@@ -1,6 +1,6 @@
 # Urban Decay is a Verb
 
-*v1.0.0 · a photo-essay · thirteen plates · Johannesburg, and elsewhere, 2012–2026*
+*v1.0.1 · a photo-essay · thirteen plates · Johannesburg, and elsewhere, 2012–2026*
 
 _A photo-essay. Several of the pictures are an argument, this text is what I owe them._
 
@@ -17,9 +17,9 @@ That is the first trap in the wordphrase urban decay. It pretends the thing itse
 
 A pedestrian staircase smouldering by itself on a Sunday morning, shot through a car window. The window stays in the picture. We will come back to the window in a moment.
 
-Not to the staircase burning. Cable burning under it: insulation cooked off for the copper. The smell tells you.
+Not quite the staircase burning. 
 
-The photograph knows less than the body did. It gives concrete, bright noon, smoke, the stair as scarred geometry, green pushing down over the top edge, some small red thing in the dust that insists on being seen without agreeing to mean anything. It does not give the smell, nor the few hundred rand, or the hands, or why the hands needed to.
+The photograph knows less than my body did. Concrete, bright noon, smoke, the stair as scarred geometry, green pushing down over the top edge, some small red thing in the dust. It does not know the smell, nor the few hundred rand, or the hands, or why the hands needed to burn insulation off of the cables.
 
 Sometimes a text has to carry what a frame cannot.
 
