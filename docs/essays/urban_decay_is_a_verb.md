@@ -51,7 +51,7 @@ And the city is not empty, which empty pictures conveniently, or is it necessari
 
 Weight arrives. That is the part nobody warns you about.
 
-The trucks came back, and the whistle went through the yard, and it was the best sound of that day. Record the same man whistling at the same bin in a good month and you would have heard nothing at all. The sound had not changed. We had.
+The trucks came back, and the whistle went through the yard, and it was the best sound of that day. Given the same man whistling at the same bin in a good month we would probably have heard nothing at all. The sound had not changed. We had.
 
 Nothing was added to the truck. What came back was our weighing of that sound.
 
@@ -76,7 +76,7 @@ Call it what it is: the configuration dismantled to liberate the substance. Maki
 
 *Verval.*
 
-Noun and verb in the same six letters, and the word alone declines to tell you which it is.
+Noun and verb in the same six letters, and the word alone declines to tell us which it is.
 
 Some subjects are easy to name because they arrive wearing municipal logos, development plans, quarterly reports. Some are harder because they arrive as need. The person burning cable is not the field that made copper worth burning and a city worth leaving. To collapse them is dishonest. To pretend they do not touch is also dishonest.
 
