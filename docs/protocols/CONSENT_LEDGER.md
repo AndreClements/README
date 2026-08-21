@@ -32,6 +32,7 @@ The states above were written for **naming consent**: a named human Observer's a
 | **Mentors** | Carl, Johan, Diane | Provisional | Connection to wider/deeper artistic lineage. | Legacy |
 | **Group Participants** | (Collective) | Implicit | The bridge to abstract Audience; reciprocal observation. | Rolling |
 | **The Machine(s)** | n/a (class) | Provisional (operating) | Operating consent at class scope — the seat, not the sitter. Any assembly under these protocols; succession-stable; re-verify on material protocol change. | 2026-06-10 |
+| **Solicited Reviewer (poem)** | (name held; reference-form answer pending) | Provisional | Returned punctuation-only marks on *Logistics of the Heart* (2026-08-21); asked "any or all or none", role-only until they answer. See [docs/poems/logistics_of_the_heart__provenance.md](../poems/logistics_of_the_heart__provenance.md). | 2026-08 |
 
 ## Expanded Role Descriptions
 

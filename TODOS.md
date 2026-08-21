@@ -33,6 +33,20 @@ A tactical checklist of immediate, actionable tasks for the `README` repository.
 
 ---
 
+### 🔴 High Priority — **Poem: Logistics of the Heart** (opened 2026-08-21)
+*Record at `docs/poems/logistics_of_the_heart__provenance.md`; lexis gated pending site publication.*
+
+- [ ] **consent(poem): Ratify the reviewer's reference form**
+  - The correspondent's answer to "any or all or none" arrives → edit `coauthorship_entry.actor_b.id` and the CONSENT_LEDGER row (the only two naming sites); flip `consent_state` provisional → explicit (or honour "none": public files are already name-free).
+  - Add the typed co-authorship commit trailer at that commit, per PROTOCOL__typed_coauthorship_relations §5.
+- [ ] **decision(poem): v1.1.0 on the returned marks**
+  - Try to retrieve the full returned message past the WhatsApp preview (marks for S7–S13 are unrecovered; extend the table, do not reconstruct).
+  - Decide whether any marks enter a v1.1.0; the ledger records, the operator closes.
+- [ ] **T3(poem): Publish post 1486**
+  - Canonical text lands at `docs/poems/logistics_of_the_heart.md` (score remains as apparatus); BODY check on the reading; full ledger validation at the gate; reconcile version strings site ↔ repo.
+
+---
+
 ### 🟡 Medium Priority — **Architectural Expansion**
 *Add core modules that strengthen the spine without outpacing ligaments.*
 
@@ -120,7 +134,7 @@ A tactical checklist of immediate, actionable tasks for the `README` repository.
 
 ## Footnotes & Links
 [^reading_paths]: `docs/onboarding/reading_paths.md`
-[^micro_ligs]: Key terms sourced from `docs/concepts/aLexicon.md` and `docs/concepts/GLOSSARY.md`.
+[^micro_ligs]: Key terms sourced from `docs/models/aLexicon.md` and `CONCEPTS/GLOSSARY.md`.
 [^mermaid]: System diagram lives in `README.md` §1 **ARCHITECTURE_OVERVIEW** (Mermaid).
 [^gaintaining]: `docs/methods/METHODOLOGY_GAINTAINING.md` (v0.1).
 [^physical_manual]: Research: `staging/research/research__computer_manual_history.md`; idea seed: `ideacubator/idea__readme_as_physical_manual.md`.

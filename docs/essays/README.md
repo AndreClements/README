@@ -39,6 +39,7 @@ Some drafts may lean into a field-guide register when the reading has become usa
 | **/lenses/** | Contextual transpositions | Essays trace lineage that lenses transpose into domains |
 | **/forensics/** | Instance records | Forensics provides raw data; essays perform interpretive reading |
 | **/protocols/** | Governance primitives | Essays may discover implicit protocols operating before codification |
+| **/poems/** | Poem records & apparatus | Essays argue, poems assert; the apparatus pattern (provenance sibling) travelled from here to there |
 
 ---
 
