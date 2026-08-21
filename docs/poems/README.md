@@ -44,6 +44,7 @@ Session-residue poems (written inside a working session, companion to another do
 | Poem | Version | Status | Apparatus |
 |------|---------|--------|-----------|
 | **Logistics of the Heart** | v1.0.0 | Circulated (WhatsApp, on/before 2026-08-20); site publication pending (post 1486); lexis gated until launch. Returned marks (2026-08-21) recorded, unapplied. | [provenance](logistics_of_the_heart__provenance.md) |
+| **Six Chambers. Count Them.** | v1.0.0 (as received 2026-08-21) | Semi-private: title + canonical address public, text and score gated; site page pending (URL to be set). Publication sequencing coupled to *Logistics*. | [provenance](six_chambers_count_them__provenance.md) |
 
 ---
 
