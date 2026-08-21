@@ -42,11 +42,11 @@ A tactical checklist of immediate, actionable tasks for the `README` repository.
 - [ ] **decision(poem): v1.1.0 on the returned marks**
   - Try to retrieve the full returned message past the WhatsApp preview (marks for S7–S13 are unrecovered; extend the table, do not reconstruct).
   - Decide whether any marks enter a v1.1.0; the ledger records, the operator closes.
-- [ ] **poem(six-chambers): Canonical URL + sequencing**
-  - Operator sets the WP page slug for *Six Chambers. Count Them.*; record the URL in `docs/poems/six_chambers_count_them__provenance.md`.
-  - Decide publication order re the *Logistics* coupling (one chamber shares its lines); per-chamber ages/dating to the vault record when supplied.
-- [ ] **T3(poem): Publish post 1486**
-  - Canonical text lands at `docs/poems/logistics_of_the_heart.md` (score remains as apparatus); BODY check on the reading; full ledger validation at the gate; reconcile version strings site ↔ repo.
+- [ ] **poem(six-chambers): Canonical URL**
+  - Operator sets the WP page slug for *Six Chambers. Count Them.*; record the URL in `docs/poems/six_chambers_count_them__provenance.md`. Per-chamber ages/dating to the vault record when supplied.
+  - Sequencing resolved 2026-08-21: both texts stay private; any shared-key grants for the two works are decided together (one chamber shares the *Logistics* lines).
+- [ ] **T3(poem): Post 1486 goes live, score-faced**
+  - The page publishes with the score as its public face; the words stay private (operator, 2026-08-21) — no canonical-text landing. BODY check on the rendered page; ledger the go-live; the page's provenance link needs the README repo pushed first.
 
 ---
 

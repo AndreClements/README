@@ -2,7 +2,7 @@
 
 # Logistics of the Heart — Provenance
 
-*Repo-side apparatus for the poem (v1.0.0). The canonical text is deliberately absent: it lands here at site publication, and until then what is public is the poem's **score** (structure and punctuation with the words masked), its fingerprint, and its ledger. One apparatus file, where an essay carried two: a poem's receipts fit on a page, and transparency past the point of use is ballast. The poem is the operator's alone (written while speaking, no machine in the text). This apparatus is André (and theMachine(s)): composed via Parametric Authorship, with the machine's part typed and delimited in the ledger below.*
+*Repo-side apparatus for the poem (v1.0.0). The canonical text is deliberately absent, and stays absent: the operator's decision (2026-08-21) holds the words private, and the poem's public face is its **score** (structure and punctuation with the words masked), its fingerprint, and its ledger. One apparatus file, where an essay carried two: a poem's receipts fit on a page, and transparency past the point of use is ballast. The poem is the operator's alone (written while speaking, no machine in the text). This apparatus is André (and theMachine(s)): composed via Parametric Authorship, with the machine's part typed and delimited in the ledger below.*
 
 ---
 
@@ -142,7 +142,7 @@ coauthorship_entry:
   consent_state: "provisional"   # reference-form question asked 2026-08-21; answer pending
   dignity_preserved: { d_personal: 1.0, d_object: 0.9, d_system: 0.9 }
   extraction_ceiling: 0.4
-  invariants_held: ["provenance_traceable", "marks_recorded_not_applied", "reference_form_adjustable", "lexis_gated_until_publication"]
+  invariants_held: ["provenance_traceable", "marks_recorded_not_applied", "reference_form_adjustable", "lexis_held_private"]
   dissent_logged: null
   exit_state: "active"
   artifact_ref: "docs/poems/logistics_of_the_heart__provenance.md"
@@ -171,6 +171,7 @@ The correspondent was asked how they wish to be referenced: by name, by role, or
 | V-06 | decision | Marks recorded as proposal; v1.0.0 unamended; v1.1.0 deferred | operator | primary | high | Operator_verified | |
 | V-07 | decision | Reference-form question sent; answer pending → `consent_state: provisional` | exchange, 2026-08-21 | primary | high | Operator_verified | role-only in public files meanwhile |
 | V-08 | decision | Lexis gated: score public, canonical text at `PRIVATE_META@d692c0a` | this record | primary | high | Operator_verified | SHA-256 above binds score to text |
+| V-09 | decision | The words stay private: no publication flip is planned; the score is the work's public face | operator, 2026-08-21 | primary | high | Operator_verified | the site page, when live, carries the score; text at most key-shared in trust |
 
 ### §L2 The marks
 
@@ -198,6 +199,7 @@ The exchange happened on a private channel. This file therefore carries structur
 ## Revision history
 
 - **v0.1.0** (2026-08-21) — record opened: version events; score published, lexis gated; six recovered marks; truncation declared; Solicited-Reviewer entry (consent provisional, reference form pending). Sceptic pass S1 ran before first commit and caught one one-word lexis leak in the truncation note (the refrain's noun, used as a label); replaced with a structural descriptor, so no lexis entered git history.
+- **v0.1.1** (2026-08-21) — operator decision recorded (V-09): the words stay private, no publication flip planned; the score is the public face. Same decision taken for the sibling record, which dissolves the two works' public-tier coupling.
 
 ---
 

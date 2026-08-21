@@ -11,8 +11,8 @@
 >   when a version is fixed and has left the operator's hands; before
 >   that it lives in staging or the ideacubator.
 > role: "Poem records & apparatus"
-> maintenance: "Active; apparatus-first — the canonical text of a poem lands here at (or after) its public publication, and until then the folder carries its score, fingerprint and provenance"
-> pattern: "punctuation score + __provenance.md sibling per poem; lexis gated until the durable public edition exists"
+> maintenance: "Active; apparatus-first — a poem's canonical text lands here only if and when the operator makes it public; until then (or instead) the folder carries its score, fingerprint and provenance"
+> pattern: "punctuation score + __provenance.md sibling per poem; lexis gated while the operator holds the words private"
 > ```
 
 ---
@@ -43,8 +43,8 @@ Session-residue poems (written inside a working session, companion to another do
 
 | Poem | Version | Status | Apparatus |
 |------|---------|--------|-----------|
-| **Logistics of the Heart** | v1.0.0 | Circulated (WhatsApp, on/before 2026-08-20); site publication pending (post 1486); lexis gated until launch. Returned marks (2026-08-21) recorded, unapplied. | [provenance](logistics_of_the_heart__provenance.md) |
-| **Six Chambers. Count Them.** | v1.0.0 (as received 2026-08-21) | Semi-private: title + canonical address public, text and score gated; site page pending (URL to be set). Publication sequencing coupled to *Logistics*. | [provenance](six_chambers_count_them__provenance.md) |
+| **Logistics of the Heart** | v1.0.0 | Circulated (WhatsApp, on/before 2026-08-20); words held private (operator, 2026-08-21); the score is the public face; site page (post 1486) pending. Returned marks recorded, unapplied. | [provenance](logistics_of_the_heart__provenance.md) |
+| **Six Chambers. Count Them.** | v1.0.0 (as received 2026-08-21) | Words held private (operator, 2026-08-21): title + canonical address public, text and score gated; site page pending (URL to be set). | [provenance](six_chambers_count_them__provenance.md) |
 
 ---
 

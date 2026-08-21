@@ -17,7 +17,7 @@
 - SHA-256: `a795b3e5651dd7393d9716accbae73d5501ec7d7f5f0cb8a5416dcab3e92926c`
 - Custody: `PRIVATE_META@b533fb1` (private vault; pointer public, content gated)
 
-**Coupling, declared.** One section shares lines with *Logistics of the Heart* ([its record](logistics_of_the_heart__provenance.md)), which is itself lexis-gated pending post 1486. Publishing this poem therefore partially unveils that one; the sequencing is coupled, and the record holds the coupling as a decision awaiting the operator rather than an accident waiting to happen.
+**Coupling, declared — and resolved at the public tier.** One section shares lines with *Logistics of the Heart* ([its record](logistics_of_the_heart__provenance.md)). While either text could go public, publishing one would partially unveil the other; on 2026-08-21 the operator resolved it by holding both private, no publication flip planned for either. What remains of the coupling is trust-tier only: any key that opens this poem's text also opens those shared lines, so key grants for the two works are decided together.
 
 ## Ledger
 
@@ -27,10 +27,12 @@
 | C-02 | fact | The chambers date from different periods | operator | primary | medium | Operator_verified | testimony, named as such; dating open |
 | C-03 | decision | Semi-private custody: title + address public, text and score gated | operator, 2026-08-21 | primary | high | Operator_verified | thinner than the sibling record, by instruction |
 | C-04 | decision | Publication sequencing coupled to *Logistics of the Heart* | this record | primary | high | Operator_verified | see Coupling, declared |
+| C-05 | decision | Both works' texts stay private; no publication flip planned; coupling resolved at the public tier | operator, 2026-08-21 | primary | high | Operator_verified | key grants for the two works decided together |
 
 ## Revision history
 
 - **v0.1.0** (2026-08-21) — record opened: fingerprint, custody, coupling; canonical address pending.
+- **v0.1.1** (2026-08-21) — operator decision recorded (C-05): text stays private; coupling with the sibling record resolved at the public tier.
 
 ---
 
