@@ -12,6 +12,8 @@
 
 **Canonical address**: to be set — a standard WordPress page URL with the slug tweaked by the operator; it will be recorded here when it exists, and the site page becomes the durable public edition at that moment.
 
+**Rights note.** As with the sibling record: the private holding (C-05) keeps first publication rights unspent; a title-and-address public face does not read as prior publication, and keyed or private circulation sits with personal sharing.
+
 **Fingerprint.** Six titled sections; 72 verse lines. Canonical text: UTF-8, LF, single trailing newline, title line included, the operator's italic markers kept verbatim.
 
 - SHA-256: `a795b3e5651dd7393d9716accbae73d5501ec7d7f5f0cb8a5416dcab3e92926c`

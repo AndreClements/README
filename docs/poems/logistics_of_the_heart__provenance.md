@@ -14,6 +14,8 @@ The poem was composed the way the operator mostly composes: written while speaki
 
 On the morning of 2026-08-21 the operator recorded a voiced reading (`ArtPraxis/_input/LogisticsOfTheHeart_WhatsApp Ptt 2026-08-21 at 08.29.05.ogg`, 08:29). That recording, and what came back for it, is the occasion for this record.
 
+**Rights note.** Holding the words private keeps first publication rights intact: a score-only public face very likely does not constitute prior publication under most journals' first-rights definitions, and keyed or private circulation sits with personal sharing. Flipping the text public would spend those rights; the standing decision (V-09) does not.
+
 **Fingerprint.** 13 stanzas, 35 lines. Canonical text: UTF-8, LF line endings, single trailing newline, title line included.
 
 - SHA-256: `7a17f15a17b51ef5defbd227e7857733a4731ddf0ef11afb789dd919b8119647`
