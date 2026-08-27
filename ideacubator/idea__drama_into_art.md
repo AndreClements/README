@@ -82,11 +82,13 @@ that had not, it would be a different sentence entirely, and probably a worse on
 ## Where it has gone
 
 - The workshop opening itself, which remains the only place it has actually been used.
-- `projects/project__latitudes_opinion_piece.md` — carried into a pitch to Latitudes Online, with
-  the apparatus stripped and the roles left in. **That pitch was rejected by the operator before
-  sending on 2026-08-10** (the Empty Turn, CII §9.3). **The line is unaffected.** It was composed in
-  the bakkie, said in a room, and does not depend on anything downstream of it having worked. The
-  seed stays `developing` on its own footing.
+- A pitch to Latitudes Online, with the apparatus stripped and the roles left in. **That pitch was
+  rejected by the operator before sending on 2026-08-10** (the Empty Turn, CII §9.3); a second
+  pitch on different ground went on 12 August and is awaiting a response. The tracker that held
+  both moved to the private practice repo on 27 August — see
+  `projects/project__latitudes_opinion_piece.md`, now a tombstone. **The line is unaffected.** It
+  was composed in the bakkie, said in a room, and does not depend on anything downstream of it
+  having worked. The seed stays `developing` on its own footing.
 
 ## Not yet
 
