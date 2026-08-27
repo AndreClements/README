@@ -17,7 +17,7 @@
 **Fingerprint.** Six titled sections; 72 verse lines. Canonical text: UTF-8, LF, single trailing newline, title line included, the operator's italic markers kept verbatim.
 
 - SHA-256: `a795b3e5651dd7393d9716accbae73d5501ec7d7f5f0cb8a5416dcab3e92926c`
-- Custody: `PRIVATE_META@b533fb1` (private vault; pointer public, content gated)
+- Custody: `ArtPraxis@af74914` (private vault in the art practice repo; pointer public, content gated. Held at `PRIVATE_META@b533fb1` until 2026-08-22)
 
 **Coupling, declared — and resolved at the public tier.** One section shares lines with *Logistics of the Heart* ([its record](logistics_of_the_heart__provenance.md)). While either text could go public, publishing one would partially unveil the other; on 2026-08-21 the operator resolved it by holding both private, no publication flip planned for either. What remains of the coupling is trust-tier only: any key that opens this poem's text also opens those shared lines, so key grants for the two works are decided together.
 
@@ -35,6 +35,7 @@
 
 - **v0.1.0** (2026-08-21) — record opened: fingerprint, custody, coupling; canonical address pending.
 - **v0.1.1** (2026-08-21) — operator decision recorded (C-05): text stays private; coupling with the sibling record resolved at the public tier.
+- **v0.1.2** (2026-08-22) — custody relocated to the ArtPraxis vault; pointer updated, hash verified unchanged.
 
 ---
 

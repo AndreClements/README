@@ -17,7 +17,7 @@ Either way the authorship is parametric in the plain sense: the operator designs
 
 ## Poetry-research-informed considerations
 
-Distilled from the operator's conversation with an external instrument (ChatGPT, 2026-08-21), archived verbatim in private custody at `PRIVATE_META/vault/logistics_of_the_heart/pcap__logistics_matrices_looking_2026-08-21.md` (it quotes gated poem lexis, so the full text stays there). What travels here is what bears on the painting:
+Distilled from the operator's conversation with an external instrument (ChatGPT, 2026-08-21), archived verbatim in private custody at `ArtPraxis/vault/logistics_of_the_heart/pcap__logistics_matrices_looking_2026-08-21.md` (it quotes gated poem lexis, so the full text stays there; relocated from PRIVATE_META 2026-08-22). What travels here is what bears on the painting:
 
 - **Matrix in, line out.** Thought and attention operate as a relational field; utterance forces it through a serial aperture. Pi's decimal expansion is exactly such an object: a single relational constant forced to speak one digit at a time, forever. The painting can run the aperture backwards — return the line to a field, and let co-presence do what sequence cannot.
 - **An alternative painting sequence:** *field → recurrence → displacement → occlusion → return → exception*, in place of background → middle ground → foreground → finish. The digit stream supplies the recurrences and exceptions for free; the layers do the displacing and occluding.

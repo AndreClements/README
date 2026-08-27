@@ -19,7 +19,7 @@ On the morning of 2026-08-21 the operator recorded a voiced reading (`ArtPraxis/
 **Fingerprint.** 13 stanzas, 35 lines. Canonical text: UTF-8, LF line endings, single trailing newline, title line included.
 
 - SHA-256: `7a17f15a17b51ef5defbd227e7857733a4731ddf0ef11afb789dd919b8119647`
-- Custody: `PRIVATE_META@d692c0a0539ba405c6b40a8546ba192a226dea85` (private vault; the pointer is public, the content is gated)
+- Custody: `ArtPraxis@af74914dd874f2371154d7c279ae562426262c30` (private vault in the art practice repo; the pointer is public, the content is gated. Held at `PRIVATE_META@d692c0a` until 2026-08-22, when custody moved home)
 
 ---
 
@@ -174,6 +174,7 @@ The correspondent was asked how they wish to be referenced: by name, by role, or
 | V-07 | decision | Reference-form question sent; answer pending → `consent_state: provisional` | exchange, 2026-08-21 | primary | high | Operator_verified | role-only in public files meanwhile |
 | V-08 | decision | Lexis gated: score public, canonical text at `PRIVATE_META@d692c0a` | this record | primary | high | Operator_verified | SHA-256 above binds score to text |
 | V-09 | decision | The words stay private: no publication flip is planned; the score is the work's public face | operator, 2026-08-21 | primary | high | Operator_verified | the site page, when live, carries the score; text at most key-shared in trust |
+| V-10 | decision | Custody relocated: canonical text now at `ArtPraxis@af74914` (private); PRIVATE_META retains pre-move history | operator, 2026-08-22 | primary | high | Operator_verified | SHA-256 verified unchanged across the move |
 
 ### §L2 The marks
 
@@ -202,6 +203,7 @@ The exchange happened on a private channel. This file therefore carries structur
 
 - **v0.1.0** (2026-08-21) — record opened: version events; score published, lexis gated; six recovered marks; truncation declared; Solicited-Reviewer entry (consent provisional, reference form pending). Sceptic pass S1 ran before first commit and caught one one-word lexis leak in the truncation note (the refrain's noun, used as a label); replaced with a structural descriptor, so no lexis entered git history.
 - **v0.1.1** (2026-08-21) — operator decision recorded (V-09): the words stay private, no publication flip planned; the score is the public face. Same decision taken for the sibling record, which dissolves the two works' public-tier coupling.
+- **v0.1.2** (2026-08-22) — custody relocated to the ArtPraxis vault (V-10); pointer updated, hash verified unchanged.
 
 ---
 
