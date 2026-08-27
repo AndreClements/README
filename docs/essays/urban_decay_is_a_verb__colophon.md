@@ -8,11 +8,60 @@
 
 Three documents by the operator predate this essay and are not improved on by it:
 
-1. The 2023 Facebook caption, *Urban Decay is a Verb* (Joe Slovo Drive, Sunday, PowerShot G1X MkII, through the vehicle window), which states the noun/verb finding three years before the 2026 formulation it leans on, and which is what made Herri write.
+1. The 2023 Facebook caption, *Urban Decay is a Verb* (Joe Slovo Drive, Sunday, PowerShot G1X MkII, through the vehicle window), which states the noun/verb finding three years before the 2026 formulation it leans on, and which is what made Herri write. **Recorded verbatim, with its comment thread and permalink, at `ArtPraxis/_archive/urban_decay/fb-post-urban-decay-is-a-verb.md`** — Aryan Kaganof first asked to republish that post, and only then asked for more pictures and something like a notebook on urban decay, which is the ask the essay answers.
 2. The posts of 2 and 4 January 2023, written within hours and within two days of the Hillbrow assault, including the refusal of equivalence ("I suspect we all have our Hillbrow").
 3. A Facebook reply of 2 January 2023 to a reader asking why anyone would be there at 2am, which supplies the assignment (load-shedding blackouts), the protocol (early hours, situational awareness, visibility, distance), the breach, the childhood wall-walking, and the motive. The window section is assembled from that reply.
 
 *Quotations from (2) and (3) should be checked verbatim against the posts before publication; they are citations now.*
+
+## As published
+
+**herri 13, *Decay Without Mourning*. Live 1 August 2026.**
+https://herri.org.za/13/andre-clements/
+
+Published as ***Urban Decay: A Post-Nihilist Aesthetic***.
+
+**The subtitle is co-authored, and worth typing precisely.**
+
+- **The phrase is the operator's** — not a coinage (*post-nihilist* is in circulation; nothing was
+  minted), but his words, in his mouth, in a specific place. It is his reply to Roy Blumenthal's
+  comment on the 2023 Facebook post. Blumenthal had remarked on the smoke joining with the tree;
+  the reply, in full, was: *a post-nihilist aesthetic*.
+- **The subtitling is Aryan Kaganof's.** The operator did not subtitle the piece. The editor read
+  across the surfaces the operator had made — post, comment thread, essay — found that phrase in a
+  reply to a reply, and rigged it into the subtitle position. **The selection and the placement are
+  the authorial act**, and they are not the operator's.
+
+So this is a **typed co-authorship relation**
+([PROTOCOL__typed_coauthorship_relations.md](../protocols/PROTOCOL__typed_coauthorship_relations.md)),
+not an attribution to be reclaimed. And it is
+[parametric authorship](../../projects/theses/parametric_authorship.md) manifesting in the wild,
+with the editor in the operator's chair: *the work is the mapping and not the mark* (A1,
+Map-over-Mark). The operator produced a family of surfaces; Aryan chose one and mounted it where it
+would carry. Same gesture, one level up, as **herri republishing the Facebook post and its comment
+thread alongside the essay** — the origin document made part of the published artefact by editorial
+selection rather than by the author's inclusion.
+
+The operator named both decisions, unprompted, as the ones he was delighted by
+(`ArtPraxis/correspondence/20260803-aryan-kaganof-herri-publication.md`):
+
+> I'm also delighted by the editorial decisions, the kind-of-provenance combination of the original
+> Facebook post with its evolution, but even more, you lifting 'post-nihilist aesthetic' to the
+> subtitle…
+
+Blumenthal's comment no longer displays on the post and may have been deleted. The reply survives
+because the operator holds the thread. **Recorded here so that neither half is lost**: without it,
+the phrase reads as the publisher's invention, and the subtitling reads as the author's decision.
+Neither is true.
+
+**Version-string note.** The live page carries **v0.5.0** in its standfirst, against **v1.0.0** in
+this repo. The published text is the version that was submitted; the repo went on to v1.0.0 with the
+Zandspruit density sourcing, the *geboggel* correction, Goud Street and the declared BODY check. A
+fact, recorded, not yet a fix — deciding whether the live page should be updated is the operator's,
+and it would mean asking Aryan to re-lay a published piece.
+
+*First publishable essay. His words, in the same message: "glad my first attempt at a publishable
+essay landed at herri of all places."*
 
 ## One correction, declared rather than silent
 

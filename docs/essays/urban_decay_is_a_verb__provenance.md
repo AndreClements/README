@@ -34,6 +34,35 @@ Capture dates and times are read from the archive originals, not from memory. Th
 
 ---
 
+## The origin document
+
+The 2023 Facebook post that occasioned the commission is archived verbatim, with its comment thread
+and permalink, at **`ArtPraxis/_archive/urban_decay/fb-post-urban-decay-is-a-verb.md`**.
+
+Two things in it are load-bearing for this essay's record:
+
+1. **The noun/verb finding is already there**, three years early, along with the vehicle window kept
+   in the frame, the refusal of the "privileged or academic vantage", and *"it keeps being worse"* —
+   a claim about rate rather than state, which is what the whole essay turns out to be about.
+2. **The published subtitle originates in the comment thread, and is co-authored.** *A post-nihilist
+   aesthetic* is the operator's phrase (his reply to Roy Blumenthal — not a coinage, the term is in
+   circulation), and the **subtitling is Aryan Kaganof's editorial act**: the finding, the lifting,
+   the placement. The operator did not subtitle the piece. Typed in the
+   [colophon](urban_decay_is_a_verb__colophon.md) §As published, because both halves are losable —
+   the phrase reads as the publisher's invention without the first, and the subtitling reads as the
+   author's decision without the second.
+
+**Post date.** The photograph is dated 2023 (plate 1, day unresolved) and the post describes the
+drive home from that morning, so the post is 2023. The rendering the operator holds has its
+timestamp obfuscated; **no more precise date is asserted** until the permalink is opened.
+
+**Comment-thread ethics.** Patrick Herget, Wayne Matthews, Kim Callard and Roy Blumenthal are named
+in the archive because herri republished the thread alongside the essay, so their comments are
+already public in exactly this context. **That does not license a fresh quotation elsewhere.** Any
+reuse in new work is a new act and asks first.
+
+---
+
 ## Caption ethics
 
 The practice usually avoids making identifiable people carry the spectacle of decay. That is a constraint under pressure and not a clean defence, and the crossing is worked in the body of the essay ("The boys") rather than settled by a rule. Dignity, not absence, is the standard.
