@@ -2,7 +2,7 @@
 
 # Six Chambers. Count Them. — Provenance
 
-*Repo-side record, deliberately thin: title and canonical address, basically (the operator's instruction, and a fair summary of this file). The text is semi-private — gated in full, score withheld too this time — pending its page on the site. What is public is that the poem exists, is bound, and is counted.*
+*Repo-side record, deliberately thin: title and canonical address, basically (the operator's instruction, and a fair summary of this file). The text is semi-private — gated in full, redactionprint withheld too this time — pending its page on the site. What is public is that the poem exists, is bound, and is counted.*
 
 ---
 
@@ -12,7 +12,7 @@
 
 **Canonical address**: to be set — a standard WordPress page URL with the slug tweaked by the operator; it will be recorded here when it exists, and the site page becomes the durable public edition at that moment.
 
-**Rights note.** As with the sibling record: the private holding (C-05) keeps first publication rights unspent; a title-and-address public face does not read as prior publication, and keyed or private circulation sits with personal sharing.
+**Rights note.** As with the sibling record: the private holding (C-05) is intended to preserve first-publication possibility. A title-and-address public face withholds the poem's words, though a future publisher may judge prior publication differently; keyed or private circulation sits with personal sharing.
 
 **Fingerprint.** Six titled sections; 72 verse lines. Canonical text: UTF-8, LF, single trailing newline, title line included, the operator's italic markers kept verbatim.
 

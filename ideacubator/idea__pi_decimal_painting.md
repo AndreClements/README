@@ -1,7 +1,7 @@
 `ideacubator\idea__pi_decimal_painting.md`
 _Status:`seed`_
 **Origin:** operator, 2026-08-21, sent mid-studio-move while a poem-provenance session ran; captured same day by theMachine(s).
-**Related:** `projects/theses/parametric_authorship.md` (rule design; the mapping is the authored thing), `docs/models/theory_of_art.md` (configuration banked as mass), `CONCEPTS/GLOSSARY.md` §punctuation score (same family: a rule renders a sequence legible without paraphrase)
+**Related:** `projects/theses/parametric_authorship.md` (rule design; the mapping is the authored thing), `docs/models/theory_of_art.md` (configuration banked as mass), `CONCEPTS/GLOSSARY.md` §redactionprint (same family: a rule renders a sequence legible without paraphrase; the entry was called *punctuation score* until 2026-09-06)
 **Empirical anchor:** the operator's analogue pigment test grid triangles (ArtPraxis; the studio artefact the second form quotes)
 
 ---

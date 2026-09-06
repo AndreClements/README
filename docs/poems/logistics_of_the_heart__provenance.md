@@ -2,7 +2,7 @@
 
 # Logistics of the Heart — Provenance
 
-*Repo-side apparatus for the poem (v1.0.0). The canonical text is deliberately absent, and stays absent: the operator's decision (2026-08-21) holds the words private, and the poem's public face is its **score** (structure and punctuation with the words masked), its fingerprint, and its ledger. One apparatus file, where an essay carried two: a poem's receipts fit on a page, and transparency past the point of use is ballast. The poem is the operator's alone (written while speaking, no machine in the text). This apparatus is André (and theMachine(s)): composed via Parametric Authorship, with the machine's part typed and delimited in the ledger below.*
+*Repo-side apparatus for the poem (v1.0.0). The canonical text is deliberately absent, and stays absent: the operator's decision (2026-08-21) holds the words private, and the poem's public face is its **redactionprint** (structure and punctuation with the words masked; the operator's term, 2026-09-06, replacing the machine label "score" used below in dated rows), its hash, and its ledger. One apparatus file, where an essay carried two: a poem's receipts fit on a page, and transparency past the point of use is ballast. The poem is the operator's alone (written while speaking, no machine in the text). This apparatus is André (and theMachine(s)): composed via Parametric Authorship, with the machine's part typed and delimited in the ledger below.*
 
 ---
 
@@ -14,7 +14,7 @@ The poem was composed the way the operator mostly composes: written while speaki
 
 On the morning of 2026-08-21 the operator recorded a voiced reading (`ArtPraxis/_input/LogisticsOfTheHeart_WhatsApp Ptt 2026-08-21 at 08.29.05.ogg`, 08:29). That recording, and what came back for it, is the occasion for this record.
 
-**Rights note.** Holding the words private keeps first publication rights intact: a score-only public face very likely does not constitute prior publication under most journals' first-rights definitions, and keyed or private circulation sits with personal sharing. Flipping the text public would spend those rights; the standing decision (V-09) does not.
+**Rights note.** Holding the words private is intended to preserve first-publication possibility. The redactionprint shows and permits talk around the poem without publishing its words; a future publisher may judge prior publication differently. Keyed or private circulation sits with personal sharing. The standing decision (V-09) keeps the text from being flipped public.
 
 **Fingerprint.** 13 stanzas, 35 lines. Canonical text: UTF-8, LF line endings, single trailing newline, title line included.
 
@@ -23,11 +23,11 @@ On the morning of 2026-08-21 the operator recorded a voiced reading (`ArtPraxis/
 
 ---
 
-## The score
+## The redactionprint
 
-The masking rule, declared: every word becomes `◦`; punctuation, line breaks and stanza breaks stand verbatim; the title stands (it is the post's public name). The masking is curatorial, a held door rather than a lock — the binding is done by the hash above. What the score shows is what a score shows: metre's floor plan, the breath marks, where the refrain returns.
+The masking rule, declared: every word becomes `◦`; punctuation, line breaks and stanza breaks stand verbatim; the title stands (it is the post's public name). The masking is curatorial, a held door rather than a lock — the binding is done by the hash above. What the redactionprint shows is what remains after redaction: metre's floor plan, the breath marks, where the refrain returns, the word counts per line. It conceals the words; it does not reveal nothing.
 
-One reading the score gives freely: v1.0.0's entire punctuation inventory is the comma and the full stop.
+One reading the redactionprint gives freely: v1.0.0's entire punctuation inventory is the comma and the full stop.
 
 ```
 Logistics of the Heart
@@ -81,7 +81,7 @@ Logistics of the Heart
 ◦ ◦ ◦.
 ```
 
-The score was generated from the canonical text by script, and regenerates identically; it was made by rule, and the rule is the paragraph above.
+The redactionprint was generated from the canonical text by script, and regenerates identically; it was made by rule, and the rule is the paragraph above.
 
 ---
 
@@ -91,7 +91,7 @@ The score was generated from the canonical text by script, and regenerates ident
 
 A poet correspondent, sent the poem and then the voiced reading, returned the poem with punctuation-only changes: their account (paraphrased; the verbatim rests in the private archive) was that the words stood untouched, and that the handful of marks that moved were set where the voiced reading seemed, to their ear, already to place them. The correspondent responded to the *voiced* poem. That is why the marks read the way they do, and why the relation types the way it does below.
 
-Six marks are recoverable. In the score, the changed lines (v1.0.0 → returned):
+Six marks are recoverable. In the redactionprint, the changed lines (v1.0.0 → returned):
 
 ```
 S1  ◦ ◦ ◦, ◦ ◦ ◦,          →  ◦ ◦ ◦, ◦ ◦ ◦:
@@ -189,7 +189,7 @@ The correspondent was asked how they wish to be referenced: by name, by role, or
 | T-01 | fact | The return survives as a preview cut mid-word in S7; S7–S13 marks unrecovered | the preview itself | primary | high | Operator_verified | S1 | cut string matched against the archived preview |
 | I-01 | inference | The colon/dash/semicolon pattern may continue at S10 and S12 (doubled-verb lines) | reading of M-01…M-06 | inference | low | unverified_inference | — | recorded, not applied |
 
-**Sceptic pass S1** (2026-08-21, same-assembly, supplemented by machine derivation and the operator-device source): an adversarial verification round ran before first commit — the score re-derived by an independently written script and compared byte-for-byte; the SHA-256 recomputed; the six marks and the truncation point re-checked against the private archive; every public file swept for the correspondent's name and for any lexical run of the poem. The sweep caught one one-word lexis leak in this file's truncation note, removed before anything entered git history (logged in the revision history below, because a record that only lists other people's slips is not a record).
+**Sceptic pass S1** (2026-08-21, same-assembly, supplemented by machine derivation and the operator-device source): an adversarial verification round ran before first commit — the redactionprint re-derived by an independently written script and compared byte-for-byte; the SHA-256 recomputed; the six marks and the truncation point re-checked against the private archive; every public file swept for the correspondent's name and for any lexical run of the poem. The sweep caught one one-word lexis leak in this file's truncation note, removed before anything entered git history (logged in the revision history below, because a record that only lists other people's slips is not a record).
 
 ---
 
@@ -202,9 +202,10 @@ The exchange happened on a private channel. This file therefore carries structur
 ## Revision history
 
 - **v0.1.0** (2026-08-21) — record opened: version events; score published, lexis gated; six recovered marks; truncation declared; Solicited-Reviewer entry (consent provisional, reference form pending). Sceptic pass S1 ran before first commit and caught one one-word lexis leak in the truncation note (the refrain's noun, used as a label); replaced with a structural descriptor, so no lexis entered git history.
-- **v0.1.1** (2026-08-21) — operator decision recorded (V-09): the words stay private, no publication flip planned; the score is the public face. Same decision taken for the sibling record, which dissolves the two works' public-tier coupling.
+- **v0.1.1** (2026-08-21) — operator decision recorded (V-09): the words stay private, no publication flip planned; the score is the public face.
 - **v0.1.2** (2026-08-22) — custody relocated to the ArtPraxis vault (V-10); pointer updated, hash verified unchanged.
+- **v0.1.3** (2026-09-06) — the masked public face renamed **redactionprint**, the operator's coinage ("practically it is something like a poem's fingerprint"); "punctuation score" was a machine-coined label from the 21 Aug session and is retired. Prose in this record updated; the ledger rows (V-08, V-09) keep "score" as written on the day. The rights note now keeps the operator's hedge rather than claiming certainty. The hash and rendering are unaffected. Same decision taken for the sibling record, which dissolves the two works' public-tier coupling.
 
 ---
 
-*Compiled 2026-08-21, theMachine(s) (Claude Fable 5, VS Code), from the operator's paste and device. The score and the derivations are the instrument's; the poem, the reading, and the recollections are the operator's. No draft was amended in the making of this record.*
+*Compiled 2026-08-21, theMachine(s) (Claude Fable 5, VS Code), from the operator's paste and device. The redactionprint and the derivations are the instrument's; the poem, the reading, and the recollections are the operator's. No draft was amended in the making of this record.*
