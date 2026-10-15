@@ -12,6 +12,7 @@ An entry never has to leave. Where a docs node cites an entry, the entry stays a
 | `idea__dual_wall_text_inclusivity_practice.md` | seed | bodyTime(), March 2025; formalised Feb 2026; method corrected 28 Aug 2026 | *Ways and Means* (ArtPraxis) |
 | `idea__how_tight_is_your_polysemiologism.md` | RAW_CAPTURE | IDEACUBATORY fragment | METHODOLOGY_CII And-Yet #7, §11.8 |
 | `idea__machines_and_gardens.md` | developing | blog post, Feb 2026; formalised March 2026 | `docs/lib/PERMACULTURE.md`, `docs/lenses/LENS__permaculture.md` |
+| `idea__measure_twice_cut_with_a_sharp_blade.md` | seed | operator's axiom, undated; written down 2026-10-10 when it named a vessel (ArtPraxis, Diane Victor masterclass) | — |
 | `idea__parkrun_barcode_in_the_wallet.md` | RAW_CAPTURE | after Albert's Farm parkrun, 2026-03-28 | — |
 | `idea__pi_decimal_painting.md` | seed | operator, 2026-08-21 | — |
 | `idea__poem__objectification_and_vulnerability.md` | INCUBATING v1.0 | Aug 2025 | — (poems now have `docs/poems/`; see the brief, finding 5) |
@@ -22,4 +23,4 @@ An entry never has to leave. Where a docs node cites an entry, the entry stays a
 | `idea__stocks_and_flows.md` | seed | ArtPraxis cross-repo, 2026-04-03 | `docs/lib/PERMACULTURE.md`, `LENS__permaculture.md`, `spans.md`, provenance ledger E2 |
 | `idea__thought_is_a_machine.md` | RAW_CAPTURE | Aug 2025 | — |
 
-Fifteen entries. Index compiled 2026-09-06 from the files and a grep of `docs/`, `projects/`, `staging/`; the "Cited from" column counts path references only.
+Sixteen entries. Index compiled 2026-09-06 (one entry added 2026-10-10) from the files and a grep of `docs/`, `projects/`, `staging/`; the "Cited from" column counts path references only.

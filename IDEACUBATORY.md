@@ -23,6 +23,7 @@ This document is the input. The structured `/ideacubator/` directory is the even
 - Poems can be programs, programs can be poems, everything is prayer.
 - All Machines are maculate. The praxis is navigation, not purification.
 - Gardens are good.
+- Measure twice, cut with a sharp blade. How many cuts? Depends.
 
 ---
 
